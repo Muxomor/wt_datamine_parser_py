@@ -157,12 +157,15 @@ class ShopParser:
         }
         items = []
         
-        for order, (item_name, item_data) in enumerate(group_data.items()):
+        order = 0
+        for item_name, item_data in group_data.items():
             if item_name not in service_fields:
                 # Добавляем отладочную информацию
                 if not isinstance(item_data, dict):
                     self.log(f"        ОТЛАДКА: Элемент группы {item_name} имеет тип {type(item_data)}: {item_data}", 'debug')
                 items.append((order, item_name, item_data))
+                self.log(f"        ОТЛАДКА: get_group_items добавлен {item_name} с order={order}", 'debug')
+                order += 1
                 
         return items
 
@@ -263,20 +266,28 @@ class ShopParser:
                     self.log(f"          ОТЛАДКА: Элемент {nested_name}, reqAir в JSON: {'есть' if 'reqAir' in nested_info else 'нет'}, значение: '{nested_info.get('reqAir', 'отсутствует')}', order={order}, parent_id={parent_id}, has_dependency: {has_dependency}", 'debug')
                     
                     if has_dependency:
+                        # Для первого элемента группы (order=0)
                         if order == 0:
                             # Первый элемент группы зависит от самой группы
                             predecessor = parent_id
-                            self.log(f"          ОТЛАДКА: Первый элемент группы {nested_name} зависит от группы {parent_id}", 'debug')
+                            self.log(f"          ОТЛАДКА: Первый элемент группы {nested_name} (order={order}) зависит от группы {parent_id}", 'debug')
                         else:
                             # Остальные элементы зависят от предыдущего элемента группы
                             prev_order = order - 1
+                            self.log(f"          ОТЛАДКА: Ищем предшественника для {nested_name} с prev_order={prev_order}", 'debug')
                             for prev_order_item, prev_name, prev_info in group_items:
+                                self.log(f"          ОТЛАДКА: Проверяем элемент {prev_name} с order={prev_order_item}", 'debug')
                                 if prev_order_item == prev_order:
                                     predecessor = prev_name
                                     self.log(f"          ОТЛАДКА: Элемент группы {nested_name} зависит от {prev_name}", 'debug')
                                     break
+                            
+                            if not predecessor:
+                                self.log(f"          ОТЛАДКА: ОШИБКА! Не найден предшественник для {nested_name} с prev_order={prev_order}", 'debug')
                     else:
                         self.log(f"          ОТЛАДКА: Элемент группы {nested_name} имеет reqAir='', предшественника нет", 'debug')
+                    
+                    self.log(f"          ОТЛАДКА: Финальный predecessor для {nested_name}: '{predecessor}'", 'debug')
                         
                     nested_item = {
                         'id': nested_name,
