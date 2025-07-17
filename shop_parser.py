@@ -1,9 +1,10 @@
-def process_range_column(self, range_data: Dict[str, Any], country: str,import json
+import json
 import csv
 import requests
 from typing import Dict, List, Any, Optional
 import sys
 import os
+import logging
 
 class ShopParser:
     def __init__(self, config_path: str = 'config.txt'):
@@ -15,6 +16,9 @@ class ShopParser:
         """
         self.config = self.read_config(config_path)
         self.vehicles_data = []
+        
+        # Настройка логирования
+        self.setup_logging()
         
         # Маппинг типов техники из JSON в название для БД
         self.vehicle_type_mapping = {
@@ -39,6 +43,43 @@ class ShopParser:
             'country_israel': 'israel'
         }
 
+    def setup_logging(self):
+        """Настройка логирования в файл и консоль"""
+        # Создаем логгер
+        self.logger = logging.getLogger('shop_parser')
+        self.logger.setLevel(logging.DEBUG)
+        
+        # Очищаем существующие обработчики
+        self.logger.handlers.clear()
+        
+        # Обработчик для файла
+        file_handler = logging.FileHandler('shop_parser_debug.log', mode='w', encoding='utf-8')
+        file_handler.setLevel(logging.DEBUG)
+        
+        # Обработчик для консоли
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.INFO)
+        
+        # Форматтер
+        formatter = logging.Formatter('%(message)s')
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+        
+        # Добавляем обработчики
+        self.logger.addHandler(file_handler)
+        self.logger.addHandler(console_handler)
+
+    def log(self, message: str, level: str = 'info'):
+        """Логирование сообщений"""
+        if level == 'debug':
+            self.logger.debug(message)
+        elif level == 'warning':
+            self.logger.warning(message)
+        elif level == 'error':
+            self.logger.error(message)
+        else:
+            self.logger.info(message)
+
     def read_config(self, config_path: str) -> Dict[str, str]:
         """Читает конфигурационный файл"""
         config = {}
@@ -48,7 +89,7 @@ class ShopParser:
                     line = line.strip()
                     if line and not line.startswith('#'):
                         if '=' not in line:
-                            print(f"Предупреждение: Пропускаем некорректную строку #{line_num}: {line}")
+                            self.log(f"Предупреждение: Пропускаем некорректную строку #{line_num}: {line}", 'warning')
                             continue
                         key, value = line.split('=', 1)
                         config[key.strip()] = value.strip()
@@ -66,12 +107,12 @@ class ShopParser:
             raise ValueError("shop_url не найден в конфигурации")
             
         try:
-            print(f"Загрузка данных из: {shop_url}")
+            self.log(f"Загрузка данных из: {shop_url}")
             response = requests.get(shop_url, timeout=30)
             response.raise_for_status()
             
             shop_data = response.json()
-            print(f"Данные успешно загружены")
+            self.log(f"Данные успешно загружены")
             return shop_data
             
         except requests.RequestException as e:
@@ -118,6 +159,9 @@ class ShopParser:
         
         for order, (item_name, item_data) in enumerate(group_data.items()):
             if item_name not in service_fields:
+                # Добавляем отладочную информацию
+                if not isinstance(item_data, dict):
+                    self.log(f"        ОТЛАДКА: Элемент группы {item_name} имеет тип {type(item_data)}: {item_data}", 'debug')
                 items.append((order, item_name, item_data))
                 
         return items
@@ -126,11 +170,12 @@ class ShopParser:
                            vehicle_type: str, column_index: int) -> List[Dict[str, Any]]:
         """Обрабатывает один столбец (range) техники"""
         results = []
+        next_should_depend_on_group = None
         
         # Обрабатываем элементы в том порядке, в котором они идут в JSON
         for item_name, item_info in range_data.items():
             if not isinstance(item_info, dict):
-                print(f"      ПРЕДУПРЕЖДЕНИЕ: Элемент {item_name} не является словарем: {type(item_info)}")
+                self.log(f"      ПРЕДУПРЕЖДЕНИЕ: Элемент {item_name} не является словарем: {type(item_info)}", 'warning')
                 continue
                 
             if self.is_group(item_name, item_info):
@@ -143,7 +188,13 @@ class ShopParser:
                     # Ранг группы = ранг её первого элемента
                     first_item = group_items[0]
                     first_item_info = first_item[2]
-                    actual_rank = first_item_info.get('rank', rank)
+                    
+                    # Проверяем, что first_item_info является словарем
+                    if isinstance(first_item_info, dict):
+                        actual_rank = first_item_info.get('rank', rank)
+                    else:
+                        self.log(f"        ПРЕДУПРЕЖДЕНИЕ: Первый элемент группы {item_name} не является словарем: {type(first_item_info)}", 'warning')
+                        actual_rank = rank
                 else:
                     actual_rank = rank
                 
@@ -155,10 +206,21 @@ class ShopParser:
                     
                     # Определяем предшественника для группы
                     predecessor = ''
-                    if item_info.get('reqAir') != '':
-                        # Группа зависит от предыдущего элемента в столбце
-                        if results:
+                    # Если поле reqAir отсутствует или не равно "", то есть зависимость
+                    has_dependency = 'reqAir' not in item_info or item_info.get('reqAir') != ''
+                    self.log(f"        ОТЛАДКА: Группа {item_name}, reqAir в JSON: {'есть' if 'reqAir' in item_info else 'нет'}, значение: '{item_info.get('reqAir', 'отсутствует')}', has_dependency: {has_dependency}", 'debug')
+                    
+                    if has_dependency:
+                        # Проверяем, должна ли группа зависеть от предыдущей группы
+                        if next_should_depend_on_group:
+                            predecessor = next_should_depend_on_group
+                            next_should_depend_on_group = None
+                            self.log(f"        ОТЛАДКА: Группа {item_name} зависит от предыдущей группы {predecessor}", 'debug')
+                        elif results:
                             predecessor = results[-1]['id']
+                            self.log(f"        ОТЛАДКА: Группа {item_name} зависит от {predecessor}", 'debug')
+                    else:
+                        self.log(f"        ОТЛАДКА: Группа {item_name} имеет reqAir='', предшественника нет", 'debug')
                     
                     group_item = {
                         'id': item_name,
@@ -166,7 +228,7 @@ class ShopParser:
                         'country': country,
                         'vehicle_type': vehicle_type,
                         'type': 'folder',
-                        'reqAir': item_info.get('reqAir', ''),
+                        'reqAir': item_info.get('reqAir', None),  # Сохраняем оригинальное значение
                         'is_group': True,
                         'order_in_folder': None,
                         'predecessor': predecessor,
@@ -175,11 +237,12 @@ class ShopParser:
                     }
                     
                     results.append(group_item)
+                    self.log(f"        ОТЛАДКА: Добавлена группа {item_name} с предшественником '{predecessor}'", 'debug')
                 
                 # Обрабатываем элементы внутри группы
                 for order, nested_name, nested_info in group_items:
                     if not isinstance(nested_info, dict):
-                        print(f"        ПРЕДУПРЕЖДЕНИЕ: Элемент группы {nested_name} не является словарем: {type(nested_info)}")
+                        self.log(f"        ПРЕДУПРЕЖДЕНИЕ: Элемент группы {nested_name} не является словарем: {type(nested_info)} = {nested_info}", 'warning')
                         continue
                         
                     nested_rank = nested_info.get('rank', actual_rank)
@@ -195,17 +258,25 @@ class ShopParser:
                     
                     # Определяем предшественника для элемента группы
                     predecessor = ''
-                    if nested_info.get('reqAir') != '':
+                    # Если поле reqAir отсутствует или не равно "", то есть зависимость
+                    has_dependency = 'reqAir' not in nested_info or nested_info.get('reqAir') != ''
+                    self.log(f"          ОТЛАДКА: Элемент {nested_name}, reqAir в JSON: {'есть' if 'reqAir' in nested_info else 'нет'}, значение: '{nested_info.get('reqAir', 'отсутствует')}', order={order}, parent_id={parent_id}, has_dependency: {has_dependency}", 'debug')
+                    
+                    if has_dependency:
                         if order == 0:
                             # Первый элемент группы зависит от самой группы
                             predecessor = parent_id
+                            self.log(f"          ОТЛАДКА: Первый элемент группы {nested_name} зависит от группы {parent_id}", 'debug')
                         else:
                             # Остальные элементы зависят от предыдущего элемента группы
                             prev_order = order - 1
                             for prev_order_item, prev_name, prev_info in group_items:
                                 if prev_order_item == prev_order:
                                     predecessor = prev_name
+                                    self.log(f"          ОТЛАДКА: Элемент группы {nested_name} зависит от {prev_name}", 'debug')
                                     break
+                    else:
+                        self.log(f"          ОТЛАДКА: Элемент группы {nested_name} имеет reqAir='', предшественника нет", 'debug')
                         
                     nested_item = {
                         'id': nested_name,
@@ -213,7 +284,7 @@ class ShopParser:
                         'country': country,
                         'vehicle_type': vehicle_type,
                         'type': 'vehicle',
-                        'reqAir': nested_info.get('reqAir', ''),
+                        'reqAir': nested_info.get('reqAir', None),  # Сохраняем оригинальное значение
                         'is_group': False,
                         'parent_id': parent_id,
                         'order_in_folder': order,
@@ -223,14 +294,12 @@ class ShopParser:
                     }
                     
                     results.append(nested_item)
+                    self.log(f"          ОТЛАДКА: Добавлен элемент группы {nested_name} с предшественником '{predecessor}'", 'debug')
                 
                 # После группы следующий элемент должен зависеть от группы
-                # Устанавливаем специальный флаг для следующего элемента
                 if group_item and not self.is_slave_unit(item_info):
-                    # Запоминаем ID группы для следующего элемента
                     next_should_depend_on_group = item_name
-                else:
-                    next_should_depend_on_group = None
+                    self.log(f"        ОТЛАДКА: Установлен флаг next_should_depend_on_group={item_name}", 'debug')
                     
             else:
                 # Обычная техника
@@ -241,14 +310,22 @@ class ShopParser:
                 
                 # Определяем предшественника
                 predecessor = ''
-                if item_info.get('reqAir') != '':
+                # Если поле reqAir отсутствует или не равно "", то есть зависимость
+                has_dependency = 'reqAir' not in item_info or item_info.get('reqAir') != ''
+                self.log(f"      ОТЛАДКА: Техника {item_name}, reqAir в JSON: {'есть' if 'reqAir' in item_info else 'нет'}, значение: '{item_info.get('reqAir', 'отсутствует')}', next_should_depend_on_group={next_should_depend_on_group}, has_dependency: {has_dependency}", 'debug')
+                
+                if has_dependency:
                     # Проверяем, должен ли этот элемент зависеть от группы
-                    if 'next_should_depend_on_group' in locals() and next_should_depend_on_group:
+                    if next_should_depend_on_group:
                         predecessor = next_should_depend_on_group
-                        next_should_depend_on_group = None  # Сбрасываем флаг
+                        next_should_depend_on_group = None
+                        self.log(f"      ОТЛАДКА: Техника {item_name} зависит от группы {predecessor}", 'debug')
                     elif results:
                         # Обычная зависимость от предыдущего элемента
                         predecessor = results[-1]['id']
+                        self.log(f"      ОТЛАДКА: Техника {item_name} зависит от {predecessor}", 'debug')
+                else:
+                    self.log(f"      ОТЛАДКА: Техника {item_name} имеет reqAir='', предшественника нет", 'debug')
                     
                 regular_item = {
                     'id': item_name,
@@ -256,7 +333,7 @@ class ShopParser:
                     'country': country,
                     'vehicle_type': vehicle_type,
                     'type': 'vehicle',
-                    'reqAir': item_info.get('reqAir', ''),
+                    'reqAir': item_info.get('reqAir', None),  # Сохраняем оригинальное значение
                     'is_group': False,
                     'order_in_folder': None,
                     'predecessor': predecessor,
@@ -265,64 +342,9 @@ class ShopParser:
                 }
                 
                 results.append(regular_item)
+                self.log(f"      ОТЛАДКА: Добавлена техника {item_name} с предшественником '{predecessor}'", 'debug')
         
         return results
-
-    def determine_predecessor(self, current_item: Dict[str, Any], rank_items: List[Dict[str, Any]], 
-                            current_index: int, all_results: List[Dict[str, Any]]) -> str:
-        """Определяет предшественника для текущего элемента"""
-        
-        # Если есть reqAir = "", предшественника нет
-        if current_item.get('reqAir') == '':
-            return ''
-        
-        # Если элемент в группе
-        if current_item.get('parent_id'):
-            parent_id = current_item['parent_id']
-            
-            # Ищем все элементы в той же группе в том же ранге
-            same_group_items = []
-            for item in rank_items:
-                if item.get('parent_id') == parent_id:
-                    same_group_items.append(item)
-            
-            # Сортируем по порядку в группе
-            same_group_items.sort(key=lambda x: x.get('order_in_folder', 0))
-            
-            current_order = current_item.get('order_in_folder', 0)
-            
-            # Ищем предыдущий элемент в группе
-            for item in same_group_items:
-                if item.get('order_in_folder', 0) == current_order - 1:
-                    return item['id']
-                    
-            # Если это первый элемент в группе, предшественник - сама группа
-            return parent_id
-        
-        # Для обычной техники и групп
-        current_rank = current_item['rank']
-        current_column = current_item['column_index']
-        
-        # Сначала ищем предшественника в том же ранге (предыдущий элемент)
-        same_rank_items = [item for item in rank_items if item['rank'] == current_rank and item['column_index'] == current_column]
-        same_rank_items.sort(key=lambda x: rank_items.index(x))  # Сортируем по порядку в списке
-        
-        current_position = None
-        for i, item in enumerate(same_rank_items):
-            if item['id'] == current_item['id']:
-                current_position = i
-                break
-                
-        if current_position is not None and current_position > 0:
-            return same_rank_items[current_position - 1]['id']
-        
-        # Если это первый элемент в ранге, ищем последний элемент предыдущего ранга в том же столбце
-        for item in reversed(all_results):
-            if (item['rank'] == current_rank - 1 and 
-                item['column_index'] == current_column):
-                return item['id']
-                
-        return ''
 
     def process_country_data(self, country_data: Dict[str, Any], country: str) -> List[Dict[str, Any]]:
         """Обрабатывает данные одной страны"""
@@ -335,19 +357,19 @@ class ShopParser:
             vehicle_type_name = self.vehicle_type_mapping[vehicle_type]
             range_data = type_data.get('range', [])
             
-            print(f"  Обработка типа: {vehicle_type_name}, столбцов: {len(range_data)}")
+            self.log(f"  Обработка типа: {vehicle_type_name}, столбцов: {len(range_data)}")
             
             # Обрабатываем каждый столбец (range)
             for column_index, column_data in enumerate(range_data):
                 if not isinstance(column_data, dict):
-                    print(f"    ОШИБКА: Столбец {column_index} не является словарем: {type(column_data)}")
+                    self.log(f"    ОШИБКА: Столбец {column_index} не является словарем: {type(column_data)}", 'error')
                     continue
                     
                 column_results = self.process_range_column(
                     column_data, country, vehicle_type_name, column_index
                 )
                 results.extend(column_results)
-                print(f"    Столбец {column_index}: обработано {len(column_results)} элементов")
+                self.log(f"    Столбец {column_index}: обработано {len(column_results)} элементов")
         
         return results
 
@@ -360,19 +382,19 @@ class ShopParser:
                 continue
                 
             country_name = self.country_mapping[country_key]
-            print(f"Обработка страны: {country_name}")
+            self.log(f"Обработка страны: {country_name}")
             
             country_results = self.process_country_data(country_data, country_name)
             all_results.extend(country_results)
             
-            print(f"Обработано {len(country_results)} элементов для {country_name}")
+            self.log(f"Обработано {len(country_results)} элементов для {country_name}")
         
         return all_results
 
     def save_to_csv(self, data: List[Dict[str, Any]], filename: str = 'shop.csv'):
         """Сохраняет данные в CSV файл"""
         if not data:
-            print("Нет данных для сохранения")
+            self.log("Нет данных для сохранения", 'warning')
             return
             
         fieldnames = [
@@ -401,16 +423,16 @@ class ShopParser:
                     }
                     writer.writerow(row_data)
                     
-            print(f"Данные ({len(data)} записей) сохранены в {filename}")
+            self.log(f"Данные ({len(data)} записей) сохранены в {filename}")
             
         except Exception as e:
-            print(f"Ошибка при сохранении в CSV: {e}")
+            self.log(f"Ошибка при сохранении в CSV: {e}", 'error')
             raise
 
     def run(self):
         """Основной метод запуска парсера"""
         try:
-            print("Запуск парсера shop.blkx...")
+            self.log("Запуск парсера shop.blkx...")
             
             # Загружаем данные
             shop_data = self.fetch_shop_data()
@@ -421,10 +443,10 @@ class ShopParser:
             # Сохраняем в CSV
             self.save_to_csv(parsed_data)
             
-            print(f"Парсинг завершен успешно! Обработано {len(parsed_data)} элементов.")
+            self.log(f"Парсинг завершен успешно! Обработано {len(parsed_data)} элементов.")
             
         except Exception as e:
-            print(f"Ошибка при выполнении парсинга: {e}")
+            self.log(f"Ошибка при выполнении парсинга: {e}", 'error')
             raise
 
 
