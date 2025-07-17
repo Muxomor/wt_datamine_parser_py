@@ -1,0 +1,10 @@
+shop_url=https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/refs/heads/master/char.vromfs.bin_u/config/shop.blkx
+
+economy_url=https://example.com/economy.json
+
+ranks_url=https://example.com/ranks.json
+
+base_url=http://185.121.134.229:8881/api
+
+debug_mode=true
+save_intermediate_files=true
