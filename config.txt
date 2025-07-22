@@ -1,4 +1,4 @@
-shop_url=https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/refs/heads/master/char.vromfs.bin_u/config/shop.blkx
+shop_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/shop.blkx
 
 economy_url=https://example.com/economy.json
 
