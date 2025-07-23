@@ -1,7 +1,7 @@
 import json
 import csv
 import requests
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any, Optional, Set, Tuple
 import sys
 import os
 import logging
@@ -9,6 +9,9 @@ import logging
 class ShopParser:
     # Порог для определения премиумной колонки (50% премиумной техники)
     PREMIUM_THRESHOLD = 0.5
+    
+    # Обрабатывать ли slave-юниты (для будущего развития)
+    PROCESS_SLAVE_UNITS = False
     
     def __init__(self, config_path: str = 'config.txt'):
         """
@@ -22,6 +25,10 @@ class ShopParser:
         
         # Настройка логирования
         self.setup_logging()
+        
+        # Кэш для master-slave пар
+        self.master_slave_pairs: Dict[str, str] = {}  # master_id -> slave_id
+        self.slave_units: Set[str] = set()  # множество всех slave-юнитов
         
         # Маппинг типов техники из JSON в название для БД
         self.vehicle_type_mapping = {
@@ -123,6 +130,55 @@ class ShopParser:
         except json.JSONDecodeError as e:
             raise RuntimeError(f"Ошибка декодирования JSON: {e}")
 
+    def collect_master_slave_pairs(self, shop_data: Dict[str, Any]):
+        """Собирает все master-slave пары перед основной обработкой"""
+        self.log("Сбор master-slave пар...")
+        
+        for country_key, country_data in shop_data.items():
+            if country_key not in self.country_mapping:
+                continue
+                
+            for vehicle_type, type_data in country_data.items():
+                if vehicle_type not in self.vehicle_type_mapping:
+                    continue
+                    
+                range_data = type_data.get('range', [])
+                
+                for column_data in range_data:
+                    if not isinstance(column_data, dict):
+                        continue
+                        
+                    self._collect_pairs_from_column(column_data)
+        
+        self.log(f"Найдено master-slave пар: {len(self.master_slave_pairs)}")
+        self.log(f"Slave-юниты: {self.slave_units}")
+        
+        for master, slave in self.master_slave_pairs.items():
+            self.log(f"  {master} -> {slave}", 'debug')
+
+    def _collect_pairs_from_column(self, column_data: Dict[str, Any]):
+        """Собирает master-slave пары из одного столбца"""
+        for item_name, item_info in column_data.items():
+            if not isinstance(item_info, dict):
+                continue
+                
+            # Проверяем master-slave пару
+            if 'slaveUnit' in item_info:
+                slave_id = item_info['slaveUnit']
+                self.master_slave_pairs[item_name] = slave_id
+                self.slave_units.add(slave_id)
+                self.log(f"    Найдена пара: {item_name} -> {slave_id}", 'debug')
+                
+            # Проверяем элементы групп
+            if self.is_group(item_name, item_info):
+                group_items = self.get_group_items(item_info)
+                for _, nested_name, nested_info in group_items:
+                    if isinstance(nested_info, dict) and 'slaveUnit' in nested_info:
+                        slave_id = nested_info['slaveUnit']
+                        self.master_slave_pairs[nested_name] = slave_id
+                        self.slave_units.add(slave_id)
+                        self.log(f"    Найдена пара в группе: {nested_name} -> {slave_id}", 'debug')
+
     def is_premium_vehicle(self, item_data: Dict[str, Any]) -> bool:
         """Определяет является ли техника премиумной"""
         # Признаки премиумной техники
@@ -148,19 +204,29 @@ class ShopParser:
         premium_items = 0
         
         for item_name, item_info in column_data.items():
-            if isinstance(item_info, dict):
-                total_items += 1
-                if self.is_premium_vehicle(item_info):
-                    premium_items += 1
+            if not isinstance(item_info, dict):
+                continue
                 
-                # Проверяем элементы внутри групп
-                if self.is_group(item_name, item_info):
-                    group_items = self.get_group_items(item_info)
-                    for _, _, nested_info in group_items:
-                        if isinstance(nested_info, dict):
-                            total_items += 1
-                            if self.is_premium_vehicle(nested_info):
-                                premium_items += 1
+            # Пропускаем slave-юниты если они найдены отдельно
+            if not self.PROCESS_SLAVE_UNITS and item_name in self.slave_units:
+                continue
+                
+            total_items += 1
+            if self.is_premium_vehicle(item_info):
+                premium_items += 1
+            
+            # Проверяем элементы внутри групп
+            if self.is_group(item_name, item_info):
+                group_items = self.get_group_items(item_info)
+                for _, nested_name, nested_info in group_items:
+                    if isinstance(nested_info, dict):
+                        # Пропускаем slave-юниты если они найдены отдельно
+                        if not self.PROCESS_SLAVE_UNITS and nested_name in self.slave_units:
+                            continue
+                            
+                        total_items += 1
+                        if self.is_premium_vehicle(nested_info):
+                            premium_items += 1
         
         # Если больше установленного порога техники премиумная, считаем колонку премиумной
         if total_items > 0:
@@ -221,20 +287,46 @@ class ShopParser:
                 
         return items
 
+    def calculate_premium_coordinates(self, items: List[Dict[str, Any]], premium_column_index: int) -> List[Dict[str, Any]]:
+        """Вычисляет координаты для премиумной техники с группировкой по рангам"""
+        # Группируем элементы по рангам
+        items_by_rank: Dict[int, List[Dict[str, Any]]] = {}
+        
+        for item in items:
+            rank = item['rank']
+            if rank not in items_by_rank:
+                items_by_rank[rank] = []
+            items_by_rank[rank].append(item)
+        
+        # Назначаем координаты внутри каждого ранга
+        for rank in sorted(items_by_rank.keys()):
+            rank_items = items_by_rank[rank]
+            
+            for row_index, item in enumerate(rank_items):
+                item['column_index'] = premium_column_index
+                item['row_index'] = row_index
+                self.log(f"        ПРЕМИУМ КООРДИНАТЫ: {item['id']} ранг {rank} -> [{premium_column_index}, {row_index}]", 'debug')
+        
+        return items
+
     def process_range_column(self, range_data: Dict[str, Any], country: str, 
                            vehicle_type: str, column_index: int, is_premium: bool = False) -> List[Dict[str, Any]]:
         """Обрабатывает один столбец (range) техники"""
         results = []
         next_should_depend_on_group = None
         
-        # Счетчики для координат в премиумной колонке
-        premium_row_index = 0
+        # Счетчик для премиумных колонок
         premium_column_index = 0
         
         # Обрабатываем элементы в том порядке, в котором они идут в JSON
         for item_name, item_info in range_data.items():
             if not isinstance(item_info, dict):
                 self.log(f"      ПРЕДУПРЕЖДЕНИЕ: Элемент {item_name} не является словарем: {type(item_info)}", 'warning')
+                continue
+            
+            # Пропускаем slave-юниты если настройка отключена
+            if not self.PROCESS_SLAVE_UNITS and item_name in self.slave_units:
+                self.log(f"      ПРОПУСК: {item_name} является slave-юнитом", 'debug')
                 continue
                 
             if self.is_group(item_name, item_info):
@@ -260,13 +352,13 @@ class ShopParser:
                 # Добавляем саму группу (если не slave-unit)
                 group_item = None
                 if not self.is_slave_unit(item_info):
-                    # Для премиумной техники используем отдельную нумерацию координат
-                    if is_premium:
-                        pos_xy = [premium_column_index, premium_row_index]
-                        premium_row_index += 1
-                    else:
+                    # Для обычной техники используем обычные координаты
+                    if not is_premium:
                         # Получаем координаты из rankPosXY если есть
                         pos_xy = item_info.get('rankPosXY', [column_index, actual_rank - 1])
+                    else:
+                        # Для премиум техники координаты назначим позже
+                        pos_xy = [0, 0]  # Временные значения
                     
                     # Определяем предшественника для группы
                     predecessor = ''
@@ -309,6 +401,11 @@ class ShopParser:
                     if not isinstance(nested_info, dict):
                         self.log(f"        ПРЕДУПРЕЖДЕНИЕ: Элемент группы {nested_name} не является словарем: {type(nested_info)} = {nested_info}", 'warning')
                         continue
+                    
+                    # Пропускаем slave-юниты если настройка отключена
+                    if not self.PROCESS_SLAVE_UNITS and nested_name in self.slave_units:
+                        self.log(f"        ПРОПУСК: {nested_name} является slave-юнитом в группе", 'debug')
+                        continue
                         
                     nested_rank = nested_info.get('rank', actual_rank)
                     
@@ -318,16 +415,13 @@ class ShopParser:
                     else:
                         parent_id = item_name
                     
-                    # Для премиумной техники используем те же координаты что и у группы
-                    if is_premium:
-                        # Элементы группы используют те же координаты что и сама группа
-                        if group_item:
-                            pos_xy = [group_item['column_index'], group_item['row_index']]
-                        else:
-                            pos_xy = [premium_column_index, premium_row_index - 1]
-                    else:
+                    # Для обычной техники используем обычные координаты
+                    if not is_premium:
                         # Получаем координаты из rankPosXY если есть
                         pos_xy = nested_info.get('rankPosXY', item_info.get('rankPosXY', [column_index, nested_rank - 1]))
+                    else:
+                        # Для премиум техники координаты назначим позже
+                        pos_xy = [0, 0]  # Временные значения
                     
                     # Определяем предшественника для элемента группы
                     predecessor = ''
@@ -348,6 +442,9 @@ class ShopParser:
                             for prev_order_item, prev_name, prev_info in group_items:
                                 self.log(f"          ОТЛАДКА: Проверяем элемент {prev_name} с order={prev_order_item}", 'debug')
                                 if prev_order_item == prev_order:
+                                    # Проверяем, не является ли предыдущий элемент slave-юнитом
+                                    if not self.PROCESS_SLAVE_UNITS and prev_name in self.slave_units:
+                                        continue  # Ищем дальше
                                     predecessor = prev_name
                                     self.log(f"          ОТЛАДКА: Элемент группы {nested_name} зависит от {prev_name}", 'debug')
                                     break
@@ -387,13 +484,13 @@ class ShopParser:
                 # Обычная техника
                 rank = item_info.get('rank', 1)
                 
-                # Для премиумной техники используем отдельную нумерацию координат
-                if is_premium:
-                    pos_xy = [premium_column_index, premium_row_index]
-                    premium_row_index += 1
-                else:
+                # Для обычной техники используем обычные координаты
+                if not is_premium:
                     # Получаем координаты из rankPosXY если есть
                     pos_xy = item_info.get('rankPosXY', [column_index, rank - 1])
+                else:
+                    # Для премиум техники координаты назначим позже
+                    pos_xy = [0, 0]  # Временные значения
                 
                 # Определяем предшественника
                 predecessor = ''
@@ -432,6 +529,10 @@ class ShopParser:
                 results.append(regular_item)
                 self.log(f"      ОТЛАДКА: Добавлена техника {item_name} с предшественником '{predecessor}', статус: {regular_item['status']}", 'debug')
         
+        # Если это премиумная колонка, пересчитываем координаты
+        if is_premium:
+            results = self.calculate_premium_coordinates(results, premium_column_index)
+        
         return results
 
     def process_country_data(self, country_data: Dict[str, Any], country: str) -> List[Dict[str, Any]]:
@@ -447,6 +548,9 @@ class ShopParser:
             
             self.log(f"  Обработка типа: {vehicle_type_name}, столбцов: {len(range_data)}")
             
+            # Счетчик премиумных колонок для правильного определения column_index
+            premium_column_count = 0
+            
             # Обрабатываем каждый столбец (range)
             for column_index, column_data in enumerate(range_data):
                 if not isinstance(column_data, dict):
@@ -458,9 +562,14 @@ class ShopParser:
                 
                 if is_premium:
                     self.log(f"    Столбец {column_index} определен как ПРЕМИУМНЫЙ (порог: {self.PREMIUM_THRESHOLD*100}%)")
+                    # Для премиумных колонок используем отдельный счетчик
+                    effective_column_index = premium_column_count
+                    premium_column_count += 1
+                else:
+                    effective_column_index = column_index
                 
                 column_results = self.process_range_column(
-                    column_data, country, vehicle_type_name, column_index, is_premium
+                    column_data, country, vehicle_type_name, effective_column_index, is_premium
                 )
                 results.extend(column_results)
                 self.log(f"    Столбец {column_index}: обработано {len(column_results)} элементов")
@@ -469,6 +578,9 @@ class ShopParser:
 
     def parse_shop_data(self, shop_data: Dict[str, Any]) -> List[Dict[str, Any]]:
         """Основной метод парсинга данных shop.blkx"""
+        # Сначала собираем все master-slave пары
+        self.collect_master_slave_pairs(shop_data)
+        
         all_results = []
         
         for country_key, country_data in shop_data.items():
@@ -525,6 +637,12 @@ class ShopParser:
             standard_count = len(data) - premium_count
             self.log(f"Статистика: Стандартной техники: {standard_count}, Премиумной: {premium_count}")
             
+            # Статистика по master-slave парам
+            if self.master_slave_pairs:
+                self.log(f"Обработано master-slave пар: {len(self.master_slave_pairs)}")
+                if not self.PROCESS_SLAVE_UNITS:
+                    self.log(f"Slave-юниты пропущены: {len(self.slave_units)}")
+            
         except Exception as e:
             self.log(f"Ошибка при сохранении в CSV: {e}", 'error')
             raise
@@ -534,6 +652,7 @@ class ShopParser:
         try:
             self.log("Запуск парсера shop.blkx...")
             self.log(f"Порог для определения премиумных колонок: {self.PREMIUM_THRESHOLD*100}%")
+            self.log(f"Обработка slave-юнитов: {'включена' if self.PROCESS_SLAVE_UNITS else 'отключена'}")
             
             # Загружаем данные
             shop_data = self.fetch_shop_data()
