@@ -8,7 +8,7 @@ import logging
 
 class ShopParser:
     # Порог для определения премиумной колонки (50% премиумной техники)
-    PREMIUM_THRESHOLD = 0.5
+    PREMIUM_THRESHOLD = 0.3
     
     # Обрабатывать ли slave-юниты (для будущего развития)
     PROCESS_SLAVE_UNITS = False
