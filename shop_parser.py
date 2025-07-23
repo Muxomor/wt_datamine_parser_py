@@ -155,6 +155,28 @@ class ShopParser:
         
         for master, slave in self.master_slave_pairs.items():
             self.log(f"  {master} -> {slave}", 'debug')
+            
+        # Проверяем, есть ли в данных slave-юниты, для которых нет master
+        for slave_id in self.slave_units:
+            found_master = False
+            for country_key, country_data in shop_data.items():
+                if country_key not in self.country_mapping:
+                    continue
+                for vehicle_type, type_data in country_data.items():
+                    if vehicle_type not in self.vehicle_type_mapping:
+                        continue
+                    range_data = type_data.get('range', [])
+                    for column_data in range_data:
+                        if not isinstance(column_data, dict):
+                            continue
+                        if slave_id in column_data:
+                            found_master = True
+                            self.log(f"  НАЙДЕН slave-юнит {slave_id} в данных (должен быть пропущен)", 'debug')
+                            break
+                    if found_master:
+                        break
+                if found_master:
+                    break
 
     def _collect_pairs_from_column(self, column_data: Dict[str, Any]):
         """Собирает master-slave пары из одного столбца"""
@@ -261,7 +283,9 @@ class ShopParser:
 
     def is_slave_unit(self, item_data: Dict[str, Any]) -> bool:
         """Определяет является ли элемент slave-юнитом"""
-        return 'slaveUnit' in item_data
+        # Элемент является slave-unit только если его ID есть в списке slave_units
+        # Наличие поля 'slaveUnit' означает что это master-unit, управляющий slave
+        return False  # Эта функция теперь используется только для проверки структуры, реальная проверка по ID
 
     def get_group_items(self, group_data: Dict[str, Any]) -> List[tuple]:
         """Извлекает элементы из группы с их порядковыми номерами"""
@@ -302,21 +326,70 @@ class ShopParser:
         for rank in sorted(items_by_rank.keys()):
             rank_items = items_by_rank[rank]
             
-            for row_index, item in enumerate(rank_items):
+            # Группируем элементы по группам для правильного назначения координат
+            groups_in_rank = {}
+            standalone_items = []
+            
+            for item in rank_items:
+                if item.get('parent_id'):
+                    # Элемент группы - добавляем к группе
+                    parent_id = item['parent_id']
+                    if parent_id not in groups_in_rank:
+                        groups_in_rank[parent_id] = {'group': None, 'children': []}
+                    groups_in_rank[parent_id]['children'].append(item)
+                elif item.get('is_group'):
+                    # Сама группа
+                    group_id = item['id']
+                    if group_id not in groups_in_rank:
+                        groups_in_rank[group_id] = {'group': None, 'children': []}
+                    groups_in_rank[group_id]['group'] = item
+                else:
+                    # Отдельный элемент
+                    standalone_items.append(item)
+            
+            # Назначаем координаты
+            row_index = 0
+            
+            # Сначала обрабатываем отдельные элементы
+            for item in standalone_items:
                 item['column_index'] = premium_column_index
                 item['row_index'] = row_index
                 self.log(f"        ПРЕМИУМ КООРДИНАТЫ: {item['id']} ранг {rank} -> [{premium_column_index}, {row_index}]", 'debug')
+                row_index += 1
+            
+            # Затем обрабатываем группы
+            for group_id, group_data in groups_in_rank.items():
+                group_item = group_data['group']
+                children = group_data['children']
+                
+                if group_item:
+                    # Назначаем координаты группе
+                    group_item['column_index'] = premium_column_index
+                    group_item['row_index'] = row_index
+                    self.log(f"        ПРЕМИУМ КООРДИНАТЫ: {group_item['id']} ранг {rank} -> [{premium_column_index}, {row_index}]", 'debug')
+                    
+                    # Все элементы группы получают те же координаты что и группа
+                    for child in children:
+                        child['column_index'] = premium_column_index
+                        child['row_index'] = row_index
+                        self.log(f"        ПРЕМИУМ КООРДИНАТЫ: {child['id']} ранг {rank} -> [{premium_column_index}, {row_index}] (элемент группы)", 'debug')
+                    
+                    row_index += 1
+                else:
+                    # Группа не найдена, но есть элементы - обрабатываем как отдельные
+                    for child in children:
+                        child['column_index'] = premium_column_index
+                        child['row_index'] = row_index
+                        self.log(f"        ПРЕМИУМ КООРДИНАТЫ: {child['id']} ранг {rank} -> [{premium_column_index}, {row_index}] (без группы)", 'debug')
+                        row_index += 1
         
         return items
 
     def process_range_column(self, range_data: Dict[str, Any], country: str, 
-                           vehicle_type: str, column_index: int, is_premium: bool = False) -> List[Dict[str, Any]]:
+                           vehicle_type: str, premium_column_index: int, is_premium: bool = False) -> List[Dict[str, Any]]:
         """Обрабатывает один столбец (range) техники"""
         results = []
         next_should_depend_on_group = None
-        
-        # Счетчик для премиумных колонок
-        premium_column_index = 0
         
         # Обрабатываем элементы в том порядке, в котором они идут в JSON
         for item_name, item_info in range_data.items():
@@ -328,6 +401,10 @@ class ShopParser:
             if not self.PROCESS_SLAVE_UNITS and item_name in self.slave_units:
                 self.log(f"      ПРОПУСК: {item_name} является slave-юнитом", 'debug')
                 continue
+                
+            # Отладка для поиска master-unit
+            if item_name == 'germ_iris_slm_fcs':
+                self.log(f"      НАЙДЕН MASTER: {item_name}, данные: {item_info}", 'debug')
                 
             if self.is_group(item_name, item_info):
                 # Обрабатываем группу
@@ -351,11 +428,11 @@ class ShopParser:
                 
                 # Добавляем саму группу (если не slave-unit)
                 group_item = None
-                if not self.is_slave_unit(item_info):
+                if not (item_name in self.slave_units and not self.PROCESS_SLAVE_UNITS):
                     # Для обычной техники используем обычные координаты
                     if not is_premium:
                         # Получаем координаты из rankPosXY если есть
-                        pos_xy = item_info.get('rankPosXY', [column_index, actual_rank - 1])
+                        pos_xy = item_info.get('rankPosXY', [premium_column_index, actual_rank - 1])
                     else:
                         # Для премиум техники координаты назначим позже
                         pos_xy = [0, 0]  # Временные значения
@@ -410,15 +487,15 @@ class ShopParser:
                     nested_rank = nested_info.get('rank', actual_rank)
                     
                     # Для slave-unit берем только основной элемент
-                    if self.is_slave_unit(item_info):
-                        parent_id = item_info.get('slaveUnit', '')
+                    if item_name in self.master_slave_pairs:
+                        parent_id = self.master_slave_pairs[item_name]
                     else:
                         parent_id = item_name
                     
                     # Для обычной техники используем обычные координаты
                     if not is_premium:
                         # Получаем координаты из rankPosXY если есть
-                        pos_xy = nested_info.get('rankPosXY', item_info.get('rankPosXY', [column_index, nested_rank - 1]))
+                        pos_xy = nested_info.get('rankPosXY', item_info.get('rankPosXY', [premium_column_index, nested_rank - 1]))
                     else:
                         # Для премиум техники координаты назначим позже
                         pos_xy = [0, 0]  # Временные значения
@@ -476,7 +553,7 @@ class ShopParser:
                     self.log(f"          ОТЛАДКА: Добавлен элемент группы {nested_name} с предшественником '{predecessor}', статус: {nested_item['status']}", 'debug')
                 
                 # После группы следующий элемент должен зависеть от группы
-                if group_item and not self.is_slave_unit(item_info) and not is_premium:
+                if group_item and not (item_name in self.slave_units and not self.PROCESS_SLAVE_UNITS) and not is_premium:
                     next_should_depend_on_group = item_name
                     self.log(f"        ОТЛАДКА: Установлен флаг next_should_depend_on_group={item_name}", 'debug')
                     
@@ -487,7 +564,7 @@ class ShopParser:
                 # Для обычной техники используем обычные координаты
                 if not is_premium:
                     # Получаем координаты из rankPosXY если есть
-                    pos_xy = item_info.get('rankPosXY', [column_index, rank - 1])
+                    pos_xy = item_info.get('rankPosXY', [premium_column_index, rank - 1])
                 else:
                     # Для премиум техники координаты назначим позже
                     pos_xy = [0, 0]  # Временные значения
@@ -529,7 +606,7 @@ class ShopParser:
                 results.append(regular_item)
                 self.log(f"      ОТЛАДКА: Добавлена техника {item_name} с предшественником '{predecessor}', статус: {regular_item['status']}", 'debug')
         
-        # Если это премиумная колонка, пересчитываем координаты
+        # Если это премиумная колонка, пересчитываем координаты с правильным column_index
         if is_premium:
             results = self.calculate_premium_coordinates(results, premium_column_index)
         
@@ -563,13 +640,13 @@ class ShopParser:
                 if is_premium:
                     self.log(f"    Столбец {column_index} определен как ПРЕМИУМНЫЙ (порог: {self.PREMIUM_THRESHOLD*100}%)")
                     # Для премиумных колонок используем отдельный счетчик
-                    effective_column_index = premium_column_count
+                    premium_column_index = premium_column_count
                     premium_column_count += 1
                 else:
-                    effective_column_index = column_index
+                    premium_column_index = column_index
                 
                 column_results = self.process_range_column(
-                    column_data, country, vehicle_type_name, effective_column_index, is_premium
+                    column_data, country, vehicle_type_name, premium_column_index, is_premium
                 )
                 results.extend(column_results)
                 self.log(f"    Столбец {column_index}: обработано {len(column_results)} элементов")
