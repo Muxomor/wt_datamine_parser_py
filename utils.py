@@ -139,3 +139,8 @@ class Constants:
         'id', 'rank', 'country', 'vehicle_type', 'type', 'status',
         'column_index', 'row_index', 'predecessor', 'order_in_folder'
     ]
+    
+    # Поля для CSV локализации
+    LOCALIZATION_CSV_FIELDNAMES = [
+        'id', 'localized_name'
+    ]

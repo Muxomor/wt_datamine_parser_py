@@ -3,7 +3,7 @@ import csv
 import requests
 from typing import Dict, List, Any, Optional, Set, Tuple
 
-from config import Config, Logger, Constants
+from utils import Config, Logger, Constants
 
 
 class ShopParser:

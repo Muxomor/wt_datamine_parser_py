@@ -177,7 +177,7 @@ p-26_group,1,usa,Авиация,folder,standard,0,0,p-26a_34_m2,
 p-26a_33,1,usa,Авиация,vehicle,standard,0,0,p-26_group,0
 p-26b_35,1,usa,Авиация,vehicle,standard,0,0,p-26a_33,1
 p-400,2,usa,Авиация,vehicle,standard,0,1,,
-p-38_group,2,usa,Авиация,folder,standard,0,1,p-26_group,
+p-38_group,2,usa,Авиация,folder,standard,0,1,p-400,
 p-38e,2,usa,Авиация,vehicle,standard,0,1,p-38_group,0
 p-38g,2,usa,Авиация,vehicle,standard,0,1,p-38e,1
 p-39_group,2,usa,Авиация,folder,standard,0,1,p-38_group,
@@ -276,7 +276,7 @@ tbf_group,1,usa,Авиация,folder,standard,3,0,sb2u_group,
 tbf-1c,1,usa,Авиация,vehicle,standard,3,0,tbf_group,0
 sbd-3,1,usa,Авиация,vehicle,standard,3,0,tbf-1c,1
 p-51_a-36,2,usa,Авиация,vehicle,standard,3,1,,
-a-20g,2,usa,Авиация,vehicle,standard,3,1,tbf_group,
+a-20g,2,usa,Авиация,vehicle,standard,3,1,p-51_a-36,
 sb2c_group,2,usa,Авиация,folder,standard,3,1,a-20g,
 sb2c_1c,2,usa,Авиация,vehicle,standard,3,1,sb2c_group,0
 sb2c_4,2,usa,Авиация,vehicle,standard,3,1,sb2c_1c,1
@@ -769,7 +769,7 @@ do_217j_group,1,germany,Авиация,folder,standard,2,0,do_17z_7,
 do_217j_1,1,germany,Авиация,vehicle,standard,2,0,do_217j_group,0
 do_217j_2,1,germany,Авиация,vehicle,standard,2,0,do_217j_1,1
 ju-88c-6,2,germany,Авиация,vehicle,standard,2,1,,
-do_217n_group,2,germany,Авиация,folder,standard,2,1,do_217j_group,
+do_217n_group,2,germany,Авиация,folder,standard,2,1,ju-88c-6,
 do_217n_1,2,germany,Авиация,vehicle,standard,2,1,do_217n_group,0
 do_217n_2,2,germany,Авиация,vehicle,standard,2,1,do_217n_1,1
 bf_110cf_group,2,germany,Авиация,folder,standard,2,1,do_217n_group,
@@ -1755,7 +1755,7 @@ blenheim_group,1,britain,Авиация,folder,standard,3,0,v_156_b1,
 blenheim_mkiv,1,britain,Авиация,vehicle,standard,3,0,blenheim_group,0
 beaufort_mkviii,1,britain,Авиация,vehicle,standard,3,0,blenheim_mkiv,1
 hurricane_mk4,2,britain,Авиация,vehicle,standard,3,1,,
-beaufighter_group,2,britain,Авиация,folder,standard,3,1,blenheim_group,
+beaufighter_group,2,britain,Авиация,folder,standard,3,1,hurricane_mk4,
 beaufighter_mk6c,2,britain,Авиация,vehicle,standard,3,1,beaufighter_group,0
 beaufighter_mkx,2,britain,Авиация,vehicle,standard,3,1,beaufighter_mk6c,1
 beaufighter_mk21,2,britain,Авиация,vehicle,standard,3,1,beaufighter_mkx,2
@@ -2596,7 +2596,7 @@ re_2000_group,1,italy,Авиация,folder,standard,0,0,ro_44,
 re_2000_int,1,italy,Авиация,vehicle,standard,0,0,re_2000_group,0
 re_2000_ga,1,italy,Авиация,vehicle,standard,0,0,re_2000_int,1
 re_2002_early,2,italy,Авиация,vehicle,standard,0,1,,
-re_2001_group,2,italy,Авиация,folder,standard,0,1,re_2000_group,
+re_2001_group,2,italy,Авиация,folder,standard,0,1,re_2002_early,
 re_2001_serie1,2,italy,Авиация,vehicle,standard,0,1,re_2001_group,0
 re_2001_cb,2,italy,Авиация,vehicle,standard,0,1,re_2001_serie1,1
 re_2001_cn,3,italy,Авиация,vehicle,standard,0,2,re_2001_group,
@@ -2768,7 +2768,7 @@ fr_amc_34,1,france,Наземная техника,vehicle,standard,0,0,fr_hotch
 fr_hotchkiss_h35,1,france,Наземная техника,vehicle,standard,0,0,,1
 fr_fcm_36,1,france,Наземная техника,vehicle,standard,0,0,,2
 fr_amd_35,1,france,Наземная техника,vehicle,standard,0,0,,
-fr_amc_35,1,france,Наземная техника,vehicle,standard,0,0,fr_hotchkiss_fcm_group,
+fr_amc_35,1,france,Наземная техника,vehicle,standard,0,0,fr_amd_35,
 fr_amd_35_kwk39,2,france,Наземная техника,vehicle,standard,0,1,fr_amc_35,
 fr_crusader_mk_2,2,france,Наземная техника,vehicle,standard,0,1,fr_amd_35_kwk39,
 fr_amx_13_fl_11,3,france,Наземная техника,vehicle,standard,0,2,fr_crusader_mk_2,
@@ -2879,8 +2879,8 @@ sa_316b,5,france,Вертолёты,vehicle,standard,4,2,h_34_france,
 sa_341f,6,france,Вертолёты,vehicle,standard,4,1,sa_316b,
 sa_342m,6,france,Вертолёты,vehicle,standard,4,2,sa_341f,
 tiger_group,7,france,Вертолёты,folder,standard,4,1,sa_342m,
-tiger_had_france,7,france,Вертолёты,vehicle,standard,4,1,tiger_group,0
-tiger_hac_france,7,france,Вертолёты,vehicle,standard,4,1,tiger_had_france,1
+tiger_had_france,7,france,Вертолёты,vehicle,standard,0,6,tiger_group,0
+tiger_hac_france,7,france,Вертолёты,vehicle,standard,0,6,tiger_had_france,1
 tiger_had_block2_france,7,france,Вертолёты,vehicle,standard,4,2,tiger_group,
 sa_313b_france,5,france,Вертолёты,vehicle,standard,3,2,,
 iar_316b,5,france,Вертолёты,vehicle,premium,0,0,,
@@ -2894,7 +2894,7 @@ ms_405_406_group,1,france,Авиация,folder,standard,0,0,caudron_cr714,
 ms_405c1,1,france,Авиация,vehicle,standard,0,0,ms_405_406_group,0
 ms_406c1,1,france,Авиация,vehicle,standard,0,0,ms_405c1,1
 ms_410c1,2,france,Авиация,vehicle,standard,0,1,,
-vg_33_group,2,france,Авиация,folder,standard,0,1,ms_405_406_group,
+vg_33_group,2,france,Авиация,folder,standard,0,1,ms_410c1,
 vg_33,2,france,Авиация,vehicle,standard,0,1,vg_33_group,0
 d_520_france,2,france,Авиация,vehicle,standard,0,1,vg_33,1
 vb_10c1,3,france,Авиация,vehicle,standard,0,2,vg_33_group,
@@ -2954,7 +2954,7 @@ maryland_group,1,france,Авиация,folder,standard,3,0,f_222_2,
 maryland_mk1_france,1,france,Авиация,vehicle,standard,3,0,maryland_group,0
 mb_174_a3,1,france,Авиация,vehicle,standard,3,0,maryland_mk1_france,1
 nc_223_3,2,france,Авиация,vehicle,standard,3,1,,
-leo_451_group,2,france,Авиация,folder,standard,3,1,maryland_group,
+leo_451_group,2,france,Авиация,folder,standard,3,1,nc_223_3,
 leo_451_early,2,france,Авиация,vehicle,standard,3,1,leo_451_group,0
 leo_451_late,2,france,Авиация,vehicle,standard,3,1,leo_451_early,1
 b_26c_france,3,france,Авиация,vehicle,standard,3,2,leo_451_group,
@@ -3043,7 +3043,7 @@ fr_vtb8,1,france,Малый флот,vehicle,standard,0,0,fr_vtb_group,0
 fr_vtb11,1,france,Малый флот,vehicle,standard,0,0,,1
 fr_vtb14,1,france,Малый флот,vehicle,standard,0,0,,2
 fr_vtb12_mod,1,france,Малый флот,vehicle,standard,0,0,,
-fr_vtb18,1,france,Малый флот,vehicle,standard,0,0,fr_vtb_group,
+fr_vtb18,1,france,Малый флот,vehicle,standard,0,0,fr_vtb12_mod,
 fr_type40k_vedette,2,france,Малый флот,vehicle,standard,0,1,fr_vtb18,
 fr_arras_class_arras,3,france,Малый флот,vehicle,standard,0,2,fr_type40k_vedette,
 fr_vlt1,4,france,Малый флот,vehicle,standard,0,3,fr_arras_class_arras,
@@ -3063,7 +3063,7 @@ sw_bt_42,1,sweden,Наземная техника,vehicle,standard,0,0,sw_strv_m
 sw_strv_m41_s2,2,sweden,Наземная техника,vehicle,standard,0,1,,
 sw_pvkv_III,2,sweden,Наземная техника,vehicle,standard,0,1,sw_strv_m41_s2,
 sw_m24_chaffee_dk,3,sweden,Наземная техника,vehicle,standard,0,2,sw_pvkv_III,
-sw_pvkv_II,3,sweden,Наземная техника,folder,standard,0,2,sw_m24_chaffee_dk,
+sw_pvkv_II,3,sweden,Наземная техника,vehicle,standard,0,2,sw_m24_chaffee_dk,
 sw_pbv_501,4,sweden,Наземная техника,vehicle,standard,0,3,sw_pvkv_II,
 sw_ikv_91,5,sweden,Наземная техника,vehicle,standard,0,4,sw_pbv_501,
 sw_landsverk_ush_405,5,sweden,Наземная техника,vehicle,standard,0,4,sw_ikv_91,
@@ -3190,7 +3190,7 @@ saab_b17a_group,1,sweden,Авиация,folder,standard,1,0,saab_b17bs,
 saab_b17b,1,sweden,Авиация,vehicle,standard,1,0,saab_b17a_group,0
 saab_b17a,1,sweden,Авиация,vehicle,standard,1,0,saab_b17b,1
 saab_a21a_3,4,sweden,Авиация,vehicle,standard,1,3,,
-saab_a21rb,5,sweden,Авиация,vehicle,standard,1,4,saab_b17a_group,
+saab_a21rb,5,sweden,Авиация,vehicle,standard,1,4,saab_a21a_3,
 saab_j29b,5,sweden,Авиация,vehicle,standard,1,4,saab_a21rb,
 saab_a32a,6,sweden,Авиация,vehicle,standard,1,5,saab_j29b,
 saab_aj37,7,sweden,Авиация,vehicle,standard,1,6,saab_a32a,
