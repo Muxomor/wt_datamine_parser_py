@@ -55,7 +55,7 @@ class LocalizationParser:
             
             # Обрабатываем каждую строку
             processed_count = 0
-            shop_entries_count = 0
+            entries_count = 0
             
             for line_num, line in enumerate(lines[1:], 2):  # Пропускаем заголовок
                 if not line.strip():
@@ -73,35 +73,37 @@ class LocalizationParser:
                     unit_id = row[0].strip()
                     russian_name = row[6].strip()  # Колонка "Russian" (индекс 6)
                     
-                    # Обрабатываем только записи с суффиксом _shop
+                    # Определяем ключ для хранения
+                    storage_key = None
+                    
+                    # Обрабатываем записи с суффиксом _shop
                     if unit_id.endswith('_shop'):
-                        # Убираем суффикс _shop для сопоставления с shop.csv
-                        clean_id = unit_id[:-5]  # Убираем '_shop'
-                        
-                        if russian_name and russian_name != unit_id:
-                            self.localization_data[clean_id] = russian_name
-                            shop_entries_count += 1
-                            self.logger.log(f"    {clean_id} -> {russian_name}", 'debug')
-                        else:
-                            # Если русское название пустое или совпадает с ID, используем ID
-                            self.localization_data[clean_id] = clean_id
-                            self.logger.log(f"    {clean_id} -> {clean_id} (fallback)", 'debug')
-                            shop_entries_count += 1
+                        storage_key = unit_id[:-5]  # Убираем '_shop'
+                        self.logger.log(f"    _shop запись: {unit_id} -> ключ: {storage_key}", 'debug')
                     
                     # Обрабатываем групповые записи
                     elif unit_id.startswith('shop/group/'):
-                        # Извлекаем ID группы после shop/group/
-                        group_id = unit_id[11:]  # Убираем 'shop/group/'
-                        
-                        if russian_name and russian_name != unit_id:
-                            self.localization_data[group_id] = russian_name
-                            shop_entries_count += 1
-                            self.logger.log(f"    {group_id} (группа) -> {russian_name}", 'debug')
+                        storage_key = unit_id[11:]  # Убираем 'shop/group/'
+                        self.logger.log(f"    группа: {unit_id} -> ключ: {storage_key}", 'debug')
+                    
+                    # Обрабатываем записи с числовыми суффиксами (например, cn_t_62_0, he_112v_5_1)
+                    elif '_' in unit_id and (unit_id.split('_')[-1].isdigit() or 
+                                           any(unit_id.endswith('_' + str(i)) for i in range(10))):
+                        # Сохраняем с полным ключом для дальнейшего поиска
+                        storage_key = unit_id
+                        self.logger.log(f"    числовой суффикс: {unit_id} -> ключ: {storage_key}", 'debug')
+                    
+                    # Если нашли подходящую запись
+                    if storage_key:
+                        if russian_name and russian_name != unit_id and russian_name.strip():
+                            self.localization_data[storage_key] = russian_name
+                            entries_count += 1
+                            self.logger.log(f"    сохранено: {storage_key} -> {russian_name}", 'debug')
                         else:
-                            # Если русское название пустое, используем ID группы
-                            self.localization_data[group_id] = group_id
-                            self.logger.log(f"    {group_id} (группа) -> {group_id} (fallback)", 'debug')
-                            shop_entries_count += 1
+                            # Если русское название пустое, используем исходный ID
+                            self.localization_data[storage_key] = storage_key
+                            self.logger.log(f"    fallback: {storage_key} -> {storage_key}", 'debug')
+                            entries_count += 1
                     
                     processed_count += 1
                     
@@ -110,7 +112,8 @@ class LocalizationParser:
                     continue
             
             self.logger.log(f"Обработано строк: {processed_count}")
-            self.logger.log(f"Найдено записей для локализации: {shop_entries_count}")
+            self.logger.log(f"Найдено записей для локализации: {entries_count}")
+            self.logger.log(f"Всего ключей в словаре: {len(self.localization_data)}")
             
         except Exception as e:
             self.logger.log(f"Ошибка парсинга CSV локализации: {e}", 'error')
@@ -146,13 +149,12 @@ class LocalizationParser:
         self.logger.log("Создание маппинга локализации...")
         
         for unit_id in shop_ids:
-            if unit_id in self.localization_data:
-                localized_name = self.localization_data[unit_id]
+            localized_name = self._find_localization_for_id(unit_id)
+            
+            if localized_name != unit_id:  # Если найдена локализация (не fallback)
                 found_count += 1
                 self.logger.log(f"  Найдено: {unit_id} -> {localized_name}", 'debug')
             else:
-                # Если локализация не найдена, используем сам ID
-                localized_name = unit_id
                 not_found_count += 1
                 self.logger.log(f"  Не найдено: {unit_id} -> {unit_id} (fallback)", 'debug')
             
@@ -167,6 +169,84 @@ class LocalizationParser:
         self.logger.log(f"  Всего обработано: {len(shop_ids)}")
         
         return localization_mapping
+    
+    def _find_localization_for_id(self, unit_id: str) -> str:
+        """Ищет локализацию для конкретного ID с различными стратегиями поиска"""
+        
+        self.logger.log(f"    Поиск локализации для: {unit_id}", 'debug')
+        
+        # Стратегия 1: Прямой поиск
+        if unit_id in self.localization_data:
+            result = self.localization_data[unit_id]
+            self.logger.log(f"    Прямой поиск: {unit_id} -> {result}", 'debug')
+            return result
+        
+        # Стратегия 2: Поиск среди всех ключей с паттернами
+        matching_keys = []
+        
+        # Собираем все возможные варианты ключей
+        for key in self.localization_data.keys():
+            # Точное совпадение (уже проверили выше)
+            if key == unit_id:
+                continue
+                
+            # Ключ начинается с unit_id + '_' (числовые суффиксы)
+            if key.startswith(unit_id + '_'):
+                matching_keys.append(key)
+                self.logger.log(f"    Найден вариант с суффиксом: {key}", 'debug')
+                
+            # Для случаев, когда unit_id может быть частью более длинного ключа
+            # Например, cn_t_62 может соответствовать cn_t_62_shop, cn_t_62_0, etc.
+            if unit_id in key and (key.endswith('_shop') or 
+                                 key.endswith('_0') or key.endswith('_1') or key.endswith('_2')):
+                if key not in matching_keys:
+                    matching_keys.append(key)
+                    self.logger.log(f"    Найден вариант по паттерну: {key}", 'debug')
+        
+        if matching_keys:
+            # Определяем приоритет поиска
+            # 1. unit_id + '_shop' (основной вариант для техники)
+            # 2. unit_id + '_0' (первый числовой вариант)
+            # 3. unit_id + '_1', '_2' и т.д.
+            # 4. Любой другой вариант
+            
+            priority_patterns = [
+                unit_id + '_shop',
+                unit_id + '_0',
+                unit_id + '_1', 
+                unit_id + '_2',
+                unit_id + '_3',
+                unit_id + '_4',
+                unit_id + '_5'
+            ]
+            
+            # Ищем по приоритету
+            for priority_key in priority_patterns:
+                if priority_key in matching_keys:
+                    result = self.localization_data[priority_key]
+                    self.logger.log(f"    Поиск по приоритету: {unit_id} -> {priority_key} -> {result}", 'debug')
+                    return result
+            
+            # Если ничего по приоритету не найдено, берем первый найденный
+            first_match = matching_keys[0]
+            result = self.localization_data[first_match]
+            self.logger.log(f"    Поиск по совпадению: {unit_id} -> {first_match} -> {result}", 'debug')
+            return result
+        
+        # Стратегия 3: Специальная обработка для групп
+        # Проверяем, есть ли в данных ключи, которые могут быть связаны с группой
+        if unit_id.endswith('_group'):
+            # Ищем соответствующую запись shop/group/
+            group_key = 'shop/group/' + unit_id
+            for key in self.localization_data.keys():
+                if key == group_key or key.endswith('/' + unit_id):
+                    result = self.localization_data[key]
+                    self.logger.log(f"    Поиск группы: {unit_id} -> {key} -> {result}", 'debug')
+                    return result
+        
+        # Стратегия 4: Fallback - возвращаем сам ID
+        self.logger.log(f"    Fallback: {unit_id} -> {unit_id}", 'debug')
+        return unit_id
     
     def save_to_csv(self, localization_mapping: List[Dict[str, str]], 
                     filename: str = 'localization.csv'):

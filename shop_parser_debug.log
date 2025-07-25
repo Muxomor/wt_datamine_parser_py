@@ -821,7 +821,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 3
-Slave-юниты: {'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'germ_iris_slm_launcher'}
+Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_81_tansam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
   jp_type_81_tansam_fcs -> jp_type_81_tansam_launcher
