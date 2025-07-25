@@ -53,6 +53,9 @@ class LocalizationParser:
             header_line = lines[0] if lines else ""
             self.logger.log(f"Заголовок: {header_line[:100]}...", 'debug')
             
+            # Словарь для временного хранения записей по приоритету
+            temp_storage = {}
+            
             # Обрабатываем каждую строку
             processed_count = 0
             entries_count = 0
@@ -73,43 +76,54 @@ class LocalizationParser:
                     unit_id = row[0].strip()
                     russian_name = row[6].strip()  # Колонка "Russian" (индекс 6)
                     
-                    # Определяем ключ для хранения
-                    storage_key = None
+                    # Пропускаем записи без русского названия или с некорректными данными
+                    if not russian_name or not russian_name.strip():
+                        continue
                     
-                    # Обрабатываем записи с суффиксом _shop
+                    storage_key = None
+                    priority = 999  # Высокий приоритет = низкое число
+                    
+                    # Обрабатываем записи с суффиксом _shop (высший приоритет)
                     if unit_id.endswith('_shop'):
                         storage_key = unit_id[:-5]  # Убираем '_shop'
-                        self.logger.log(f"    _shop запись: {unit_id} -> ключ: {storage_key}", 'debug')
+                        priority = 1
+                        self.logger.log(f"    _shop запись: {unit_id} -> ключ: {storage_key} (приоритет: {priority})", 'debug')
                     
-                    # Обрабатываем групповые записи
+                    # Обрабатываем групповые записи (высший приоритет для групп)
                     elif unit_id.startswith('shop/group/'):
                         storage_key = unit_id[11:]  # Убираем 'shop/group/'
-                        self.logger.log(f"    группа: {unit_id} -> ключ: {storage_key}", 'debug')
+                        priority = 1
+                        self.logger.log(f"    группа: {unit_id} -> ключ: {storage_key} (приоритет: {priority})", 'debug')
                     
-                    # Обрабатываем записи с числовыми суффиксами (например, cn_t_62_0, he_112v_5_1)
-                    elif '_' in unit_id and (unit_id.split('_')[-1].isdigit() or 
-                                           any(unit_id.endswith('_' + str(i)) for i in range(10))):
-                        # Сохраняем с полным ключом для дальнейшего поиска
+                    # Обрабатываем записи с числовыми суффиксами (низкий приоритет)
+                    elif '_' in unit_id and unit_id.split('_')[-1].isdigit():
                         storage_key = unit_id
-                        self.logger.log(f"    числовой суффикс: {unit_id} -> ключ: {storage_key}", 'debug')
+                        priority = 10
+                        self.logger.log(f"    числовой суффикс: {unit_id} -> ключ: {storage_key} (приоритет: {priority})", 'debug')
                     
                     # Если нашли подходящую запись
-                    if storage_key:
-                        if russian_name and russian_name != unit_id and russian_name.strip():
-                            self.localization_data[storage_key] = russian_name
-                            entries_count += 1
-                            self.logger.log(f"    сохранено: {storage_key} -> {russian_name}", 'debug')
+                    if storage_key and russian_name != unit_id:
+                        # Проверяем, нужно ли обновить запись (сравниваем приоритеты)
+                        if storage_key not in temp_storage or temp_storage[storage_key]['priority'] > priority:
+                            temp_storage[storage_key] = {
+                                'name': russian_name,
+                                'priority': priority,
+                                'source': unit_id
+                            }
+                            self.logger.log(f"    сохранено/обновлено: {storage_key} -> {russian_name} (источник: {unit_id})", 'debug')
                         else:
-                            # Если русское название пустое, используем исходный ID
-                            self.localization_data[storage_key] = storage_key
-                            self.logger.log(f"    fallback: {storage_key} -> {storage_key}", 'debug')
-                            entries_count += 1
+                            self.logger.log(f"    пропущено (низкий приоритет): {storage_key} -> {russian_name} (источник: {unit_id})", 'debug')
                     
                     processed_count += 1
                     
                 except Exception as e:
                     self.logger.log(f"Ошибка обработки строки {line_num}: {e}", 'warning')
                     continue
+            
+            # Переносим данные из временного хранилища в основной словарь
+            for key, data in temp_storage.items():
+                self.localization_data[key] = data['name']
+                entries_count += 1
             
             self.logger.log(f"Обработано строк: {processed_count}")
             self.logger.log(f"Найдено записей для локализации: {entries_count}")
@@ -175,76 +189,64 @@ class LocalizationParser:
         
         self.logger.log(f"    Поиск локализации для: {unit_id}", 'debug')
         
-        # Стратегия 1: Прямой поиск
+        # Стратегия 1: Прямой поиск точного совпадения
         if unit_id in self.localization_data:
             result = self.localization_data[unit_id]
             self.logger.log(f"    Прямой поиск: {unit_id} -> {result}", 'debug')
             return result
         
-        # Стратегия 2: Поиск среди всех ключей с паттернами
-        matching_keys = []
+        # Стратегия 2: Точные совпадения с приоритетными суффиксами
+        priority_patterns = [
+            unit_id + '_shop',
+            unit_id + '_1'
+        ]
         
-        # Собираем все возможные варианты ключей
+        for priority_key in priority_patterns:
+            if priority_key in self.localization_data:
+                result = self.localization_data[priority_key]
+                self.logger.log(f"    Точное совпадение по приоритету: {unit_id} -> {priority_key} -> {result}", 'debug')
+                return result
+        
+        # Стратегия 3: Поиск точных совпадений с любыми числовыми суффиксами
+        # Ищем ключи, которые точно начинаются с unit_id + '_' + цифра
+        exact_matches = []
         for key in self.localization_data.keys():
-            # Точное совпадение (уже проверили выше)
-            if key == unit_id:
-                continue
-                
-            # Ключ начинается с unit_id + '_' (числовые суффиксы)
+            # Проверяем, что ключ начинается с unit_id + '_'
             if key.startswith(unit_id + '_'):
-                matching_keys.append(key)
-                self.logger.log(f"    Найден вариант с суффиксом: {key}", 'debug')
-                
-            # Для случаев, когда unit_id может быть частью более длинного ключа
-            # Например, cn_t_62 может соответствовать cn_t_62_shop, cn_t_62_0, etc.
-            if unit_id in key and (key.endswith('_shop') or 
-                                 key.endswith('_0') or key.endswith('_1') or key.endswith('_2')):
-                if key not in matching_keys:
-                    matching_keys.append(key)
-                    self.logger.log(f"    Найден вариант по паттерну: {key}", 'debug')
+                # Извлекаем суффикс после unit_id + '_'
+                suffix = key[len(unit_id) + 1:]
+                # Проверяем, что суффикс состоит только из цифр или известных паттернов
+                if suffix.isdigit() or suffix in ['shop', '0', '1', '2', '3', '4', '5']:
+                    exact_matches.append(key)
+                    self.logger.log(f"    Найдено точное совпадение: {key}", 'debug')
         
-        if matching_keys:
-            # Определяем приоритет поиска
-            # 1. unit_id + '_shop' (основной вариант для техники)
-            # 2. unit_id + '_0' (первый числовой вариант)
-            # 3. unit_id + '_1', '_2' и т.д.
-            # 4. Любой другой вариант
+        if exact_matches:
+            # Сортируем по приоритету: сначала _shop, потом числовые по возрастанию
+            def sort_priority(key):
+                suffix = key[len(unit_id) + 1:]
+                if suffix == 'shop':
+                    return 0
+                elif suffix.isdigit():
+                    return int(suffix) + 1
+                else:
+                    return 999
             
-            priority_patterns = [
-                unit_id + '_shop',
-                unit_id + '_0',
-                unit_id + '_1', 
-                unit_id + '_2',
-                unit_id + '_3',
-                unit_id + '_4',
-                unit_id + '_5'
-            ]
-            
-            # Ищем по приоритету
-            for priority_key in priority_patterns:
-                if priority_key in matching_keys:
-                    result = self.localization_data[priority_key]
-                    self.logger.log(f"    Поиск по приоритету: {unit_id} -> {priority_key} -> {result}", 'debug')
-                    return result
-            
-            # Если ничего по приоритету не найдено, берем первый найденный
-            first_match = matching_keys[0]
-            result = self.localization_data[first_match]
-            self.logger.log(f"    Поиск по совпадению: {unit_id} -> {first_match} -> {result}", 'debug')
+            exact_matches.sort(key=sort_priority)
+            best_match = exact_matches[0]
+            result = self.localization_data[best_match]
+            self.logger.log(f"    Лучшее точное совпадение: {unit_id} -> {best_match} -> {result}", 'debug')
             return result
         
-        # Стратегия 3: Специальная обработка для групп
-        # Проверяем, есть ли в данных ключи, которые могут быть связаны с группой
+        # Стратегия 4: Специальная обработка для групп
         if unit_id.endswith('_group'):
             # Ищем соответствующую запись shop/group/
-            group_key = 'shop/group/' + unit_id
             for key in self.localization_data.keys():
-                if key == group_key or key.endswith('/' + unit_id):
+                if key == unit_id or key.endswith('/' + unit_id):
                     result = self.localization_data[key]
                     self.logger.log(f"    Поиск группы: {unit_id} -> {key} -> {result}", 'debug')
                     return result
         
-        # Стратегия 4: Fallback - возвращаем сам ID
+        # Стратегия 5: Fallback - возвращаем сам ID
         self.logger.log(f"    Fallback: {unit_id} -> {unit_id}", 'debug')
         return unit_id
     
