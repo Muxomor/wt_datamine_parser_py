@@ -133,7 +133,7 @@ class Constants:
         'endPurchaseDate',
         'hideByPlatform'
     ]
-    
+    ANOMALOUS_SUFFIXES = ['_race', '_football', '_yt_cup_2019', '_event']
     # Поля для CSV экспорта
     CSV_FIELDNAMES = [
         'id', 'rank', 'country', 'vehicle_type', 'type', 'status',

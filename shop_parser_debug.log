@@ -3,6 +3,53 @@
 Обработка slave-юнитов: отключена
 Загрузка данных из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/shop.blkx
 Данные успешно загружены
+Начинаем очистку от аномальных элементов...
+  Очистка страны: usa
+    УДАЛЕН: us_m551_football (аномальное окончание)
+    УДАЛЕН: us_m1a1_abrams_yt_cup_2019 (аномальное окончание)
+    УДАЛЕН: us_m18_hellcat_black_cat_race (аномальное окончание)
+    УДАЛЕН: ah_1f_event (аномальное окончание)
+    УДАЛЕН: f_4e_event (аномальное окончание)
+  Очистка страны: germany
+    УДАЛЕН: germ_leopard_2a5_yt_cup_2019 (аномальное окончание)
+      Найден аномальный элемент в группе: germ_garford_putilov_event
+    УДАЛЕНА ГРУППА: germ_wwi_group (содержит аномальные элементы)
+  Очистка страны: ussr
+    УДАЛЕН: ussr_m551_football (аномальное окончание)
+    УДАЛЕН: ussr_t_80u_yt_cup_2019 (аномальное окончание)
+    УДАЛЕН: ussr_t_80u_race (аномальное окончание)
+    УДАЛЕН: mig-21_bis_event (аномальное окончание)
+    УДАЛЕН: ussr_pr_206_race (аномальное окончание)
+  Очистка страны: britain
+      Найден аномальный элемент в группе: uk_garford_putilov_event
+    УДАЛЕНА ГРУППА: uk_entente_group (содержит аномальные элементы)
+    УДАЛЕН: uk_challenger_II_yt_cup_2019 (аномальное окончание)
+  Очистка страны: japan
+  Очистка страны: china
+    УДАЛЕН: cn_ztz_96a_race (аномальное окончание)
+  Очистка страны: italy
+  Очистка страны: france
+    УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание)
+  Очистка страны: sweden
+  Очистка страны: israel
+Очистка завершена. Удалено элементов: 16
+Подробный список удаленных элементов:
+  - usa/Наземная техника/column_5/us_m551_football
+  - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019
+  - usa/Наземная техника/column_6/us_m18_hellcat_black_cat_race
+  - usa/Вертолёты/column_3/ah_1f_event
+  - usa/Авиация/column_5/f_4e_event
+  - germany/Наземная техника/column_5/germ_leopard_2a5_yt_cup_2019
+  - germany/Наземная техника/column_6/germ_wwi_group (группа с аномальными элементами)
+  - ussr/Наземная техника/column_6/ussr_m551_football
+  - ussr/Наземная техника/column_6/ussr_t_80u_yt_cup_2019
+  - ussr/Наземная техника/column_6/ussr_t_80u_race
+  - ussr/Авиация/column_5/mig-21_bis_event
+  - ussr/Малый флот/column_4/ussr_pr_206_race
+  - britain/Наземная техника/column_6/uk_entente_group (группа с аномальными элементами)
+  - britain/Наземная техника/column_6/uk_challenger_II_yt_cup_2019
+  - china/Наземная техника/column_5/cn_ztz_96a_race
+  - france/Авиация/column_6/md_460_yt_cup_2019
 Сбор master-slave пар...
         ОТЛАДКА: get_group_items добавлен us_m4a1_1942_sherman с order=0
         ОТЛАДКА: get_group_items добавлен us_m4_sherman с order=1
@@ -179,9 +226,6 @@
         ОТЛАДКА: get_group_items добавлен germ_kanonenjagdpanzer с order=1
         ОТЛАДКА: get_group_items добавлен germ_panzerjager_tiger_P_ferdinand с order=0
         ОТЛАДКА: get_group_items добавлен germ_panzerjager_tiger с order=1
-        ОТЛАДКА: get_group_items добавлен germ_garford_putilov_event с order=0
-        ОТЛАДКА: get_group_items добавлен germ_beutepanzer_mk_iv_event с order=1
-        ОТЛАДКА: get_group_items добавлен germ_a7v_event с order=2
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_east с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_west с order=1
         ОТЛАДКА: get_group_items добавлен germ_flakpanzer_IV_Ostwind_2_net с order=2
@@ -454,9 +498,6 @@
         ОТЛАДКА: get_group_items добавлен uk_sherman_vc_firefly_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен uk_a30_sp_avenger_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен uk_crusader_aa_mk_2_kit_3rank с order=2
-        ОТЛАДКА: get_group_items добавлен uk_garford_putilov_event с order=0
-        ОТЛАДКА: get_group_items добавлен uk_saint_chamond_event с order=1
-        ОТЛАДКА: get_group_items добавлен uk_mark_v_event с order=2
         ОТЛАДКА: get_group_items добавлен fury_mk1 с order=0
         ОТЛАДКА: get_group_items добавлен fury_mk2 с order=1
         ОТЛАДКА: get_group_items добавлен hurricanemkii с order=0
@@ -821,7 +862,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 3
-Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_81_tansam_launcher'}
+Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
   jp_type_81_tansam_fcs -> jp_type_81_tansam_launcher
@@ -1198,7 +1239,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ОТЛАДКА: get_group_items добавлен us_m4a3e8_76w_sherman_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен us_m18_hellcat_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен us_skink_aa_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 19/32 = 0.59, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 17/30 = 0.57, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника us_m2a4_1st_armor_div, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m2a4_1st_armor_div имеет reqAir='', предшественника нет
@@ -1285,18 +1326,12 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника us_xm1_gm, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_xm1_gm имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_xm1_gm с предшественником '', статус: premium
-      ОТЛАДКА: Техника us_m551_football, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника us_m551_football имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника us_m551_football с предшественником '', статус: premium
       ОТЛАДКА: Техника us_m1128_wolfpack, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m1128_wolfpack имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_m1128_wolfpack с предшественником '', статус: premium
       ОТЛАДКА: Техника us_m1_abrams_kvt, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m1_abrams_kvt имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_m1_abrams_kvt с предшественником '', статус: premium
-      ОТЛАДКА: Техника us_m1a1_abrams_yt_cup_2019, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника us_m1a1_abrams_yt_cup_2019 имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника us_m1a1_abrams_yt_cup_2019 с предшественником '', статус: premium
       ОТЛАДКА: Техника us_m1a1_aim_abrams, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m1a1_aim_abrams имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_m1a1_aim_abrams с предшественником '', статус: premium
@@ -1332,15 +1367,13 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: us_m901_itv ранг 6 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: us_xm1_chrysler ранг 6 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: us_xm1_gm ранг 6 -> [0, 2]
-        ПРЕМИУМ КООРДИНАТЫ: us_m551_football ранг 6 -> [0, 3]
         ПРЕМИУМ КООРДИНАТЫ: us_m1128_wolfpack ранг 7 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: us_m1_abrams_kvt ранг 7 -> [0, 1]
-        ПРЕМИУМ КООРДИНАТЫ: us_m1a1_abrams_yt_cup_2019 ранг 7 -> [0, 2]
-        ПРЕМИУМ КООРДИНАТЫ: us_m1a1_aim_abrams ранг 7 -> [0, 3]
-        ПРЕМИУМ КООРДИНАТЫ: us_m1a1_hc_usmc ранг 7 -> [0, 4]
-        ПРЕМИУМ КООРДИНАТЫ: us_rdf_lt ранг 7 -> [0, 5]
-    Столбец 5: обработано 32 элементов
-      ОТЛАДКА: Премиум техники в колонке: 22/26 = 0.85, порог: 0.3
+        ПРЕМИУМ КООРДИНАТЫ: us_m1a1_aim_abrams ранг 7 -> [0, 2]
+        ПРЕМИУМ КООРДИНАТЫ: us_m1a1_hc_usmc ранг 7 -> [0, 3]
+        ПРЕМИУМ КООРДИНАТЫ: us_rdf_lt ранг 7 -> [0, 4]
+    Столбец 5: обработано 30 элементов
+      ОТЛАДКА: Премиум техники в колонке: 21/25 = 0.84, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника us_lvt_a_1_trb, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_lvt_a_1_trb имеет reqAir='', предшественника нет
@@ -1372,9 +1405,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника us_m18_hellcat_black_cat, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m18_hellcat_black_cat имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_m18_hellcat_black_cat с предшественником '', статус: premium
-      ОТЛАДКА: Техника us_m18_hellcat_black_cat_race, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника us_m18_hellcat_black_cat_race имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника us_m18_hellcat_black_cat_race с предшественником '', статус: premium
       ОТЛАДКА: Техника us_t28, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_t28 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_t28 с предшественником '', статус: premium
@@ -1430,7 +1460,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: us_t55e1 ранг 3 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: us_t86 ранг 3 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: us_m18_hellcat_black_cat ранг 3 -> [1, 3]
-        ПРЕМИУМ КООРДИНАТЫ: us_m18_hellcat_black_cat_race ранг 3 -> [1, 4]
         ПРЕМИУМ КООРДИНАТЫ: us_t28 ранг 4 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: us_m551_76 ранг 4 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: us_t30 ранг 4 -> [1, 2]
@@ -1446,7 +1475,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: us_losat_ccv ранг 7 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: us_ags_teledyne ранг 7 -> [1, 3]
         ПРЕМИУМ КООРДИНАТЫ: us_merkava_mk_3d ранг 7 -> [1, 4]
-    Столбец 6: обработано 26 элементов
+    Столбец 6: обработано 25 элементов
   Обработка типа: Вертолёты, столбцов: 4
       ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.3
       ОТЛАДКА: Техника ah_1g, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -1484,7 +1513,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника ah_64d зависит от ah_64a
       ОТЛАДКА: Добавлена техника ah_64d с предшественником 'ah_64a', статус: standard
     Столбец 2: обработано 2 элементов
-      ОТЛАДКА: Премиум техники в колонке: 7/7 = 1.00, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 6/6 = 1.00, порог: 0.3
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника h_34, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника h_34 имеет reqAir='', предшественника нет
@@ -1504,17 +1533,13 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника rah_66, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника rah_66 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника rah_66 с предшественником '', статус: premium
-      ОТЛАДКА: Техника ah_1f_event, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника ah_1f_event имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ah_1f_event с предшественником '', статус: premium
         ПРЕМИУМ КООРДИНАТЫ: h_34 ранг 5 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: uh_1c_xm_30 ранг 5 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: yah_64 ранг 6 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: ah_64a_greece_usa ранг 6 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: ah_64a_peten ранг 6 -> [0, 2]
         ПРЕМИУМ КООРДИНАТЫ: rah_66 ранг 6 -> [0, 3]
-        ПРЕМИУМ КООРДИНАТЫ: ah_1f_event ранг 6 -> [0, 4]
-    Столбец 3: обработано 7 элементов
+    Столбец 3: обработано 6 элементов
   Обработка типа: Авиация, столбцов: 7
         ОТЛАДКА: get_group_items добавлен p-26a_33 с order=0
         ОТЛАДКА: get_group_items добавлен p-26b_35 с order=1
@@ -2167,7 +2192,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
     Столбец 4: обработано 26 элементов
         ОТЛАДКА: Элемент группы giftParam имеет тип <class 'str'>: charServer/entitlement/usa_pacific_41_43
         ОТЛАДКА: get_group_items добавлен giftParam с order=0
-      ОТЛАДКА: Премиум техники в колонке: 24/37 = 0.65, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 23/36 = 0.64, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника f3f-2_galer, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f3f-2_galer имеет reqAir='', предшественника нет
@@ -2275,9 +2300,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника ucav_mq_1_predator, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ucav_mq_1_predator имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ucav_mq_1_predator с предшественником '', статус: premium
-      ОТЛАДКА: Техника f_4e_event, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника f_4e_event имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника f_4e_event с предшественником '', статус: premium
       ОТЛАДКА: Техника f_20a, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f_20a имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f_20a с предшественником '', статус: premium
@@ -2318,10 +2340,9 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: a_6e_tram ранг 7 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: f-4s ранг 7 -> [0, 2]
         ПРЕМИУМ КООРДИНАТЫ: ucav_mq_1_predator ранг 7 -> [0, 3]
-        ПРЕМИУМ КООРДИНАТЫ: f_4e_event ранг 7 -> [0, 4]
         ПРЕМИУМ КООРДИНАТЫ: f_20a ранг 8 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: fa_18c_early ранг 8 -> [0, 1]
-    Столбец 5: обработано 37 элементов
+    Столбец 5: обработано 36 элементов
       ОТЛАДКА: Премиум техники в колонке: 32/34 = 0.94, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника p-26a_34, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -2753,7 +2774,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: us_higgins_78ft_pt658 ранг 3 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: us_flagstaff_pgh1 ранг 3 -> [0, 1]
     Столбец 4: обработано 3 элементов
-Обработано 482 элементов для usa
+Обработано 477 элементов для usa
 Обработка страны: germany
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_ausf_F с order=0
@@ -3333,7 +3354,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника germ_wiesel_1_tow зависит от germ_raketenjagdpanzer_2_hot
       ОТЛАДКА: Добавлена техника germ_wiesel_1_tow с предшественником 'germ_raketenjagdpanzer_2_hot', статус: standard
     Столбец 4: обработано 29 элементов
-      ОТЛАДКА: Премиум техники в колонке: 17/31 = 0.55, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 16/30 = 0.53, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника germ_pzkpfw_35t_romania_mare, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_pzkpfw_35t_romania_mare имеет reqAir='', предшественника нет
@@ -3425,9 +3446,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника germ_leopard_2pl, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_leopard_2pl имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_leopard_2pl с предшественником '', статус: premium
-      ОТЛАДКА: Техника germ_leopard_2a5_yt_cup_2019, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника germ_leopard_2a5_yt_cup_2019 имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника germ_leopard_2a5_yt_cup_2019 с предшественником '', статус: premium
       ПРОПУСК: germ_iris_slm_launcher является slave-юнитом
         ПРЕМИУМ КООРДИНАТЫ: germ_pzkpfw_35t_romania_mare ранг 1 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: germ_pzkpfw_II_ausf_C_td ранг 1 -> [0, 1]
@@ -3459,15 +3477,11 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: germ_vilkas ранг 7 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: germ_leopard_2a4m_can ранг 7 -> [0, 2]
         ПРЕМИУМ КООРДИНАТЫ: germ_leopard_2pl ранг 8 -> [0, 0]
-        ПРЕМИУМ КООРДИНАТЫ: germ_leopard_2a5_yt_cup_2019 ранг 8 -> [0, 1]
-    Столбец 5: обработано 31 элементов
-        ОТЛАДКА: get_group_items добавлен germ_garford_putilov_event с order=0
-        ОТЛАДКА: get_group_items добавлен germ_beutepanzer_mk_iv_event с order=1
-        ОТЛАДКА: get_group_items добавлен germ_a7v_event с order=2
+    Столбец 5: обработано 30 элементов
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_east с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_west с order=1
         ОТЛАДКА: get_group_items добавлен germ_flakpanzer_IV_Ostwind_2_net с order=2
-      ОТЛАДКА: Премиум техники в колонке: 31/34 = 0.91, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 28/30 = 0.93, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника germ_sdkfz_251_10, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_sdkfz_251_10 имеет reqAir='', предшественника нет
@@ -3481,21 +3495,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника germ_amd_35_kwk, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_amd_35_kwk имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_amd_35_kwk с предшественником '', статус: premium
-        ОТЛАДКА: get_group_items добавлен germ_garford_putilov_event с order=0
-        ОТЛАДКА: get_group_items добавлен germ_beutepanzer_mk_iv_event с order=1
-        ОТЛАДКА: get_group_items добавлен germ_a7v_event с order=2
-        ОТЛАДКА: Группа germ_wwi_group, reqAir в JSON: есть, значение: '', has_dependency: False
-        ОТЛАДКА: Группа germ_wwi_group имеет reqAir='', предшественника нет
-        ОТЛАДКА: Добавлена группа germ_wwi_group с предшественником '', статус: premium
-          ОТЛАДКА: Элемент germ_garford_putilov_event, reqAir в JSON: есть, значение: '', order=0, parent_id=germ_wwi_group, has_dependency: False
-          ОТЛАДКА: Элемент группы germ_garford_putilov_event имеет reqAir='', предшественника нет
-          ОТЛАДКА: Добавлен элемент группы germ_garford_putilov_event с предшественником '', статус: premium
-          ОТЛАДКА: Элемент germ_beutepanzer_mk_iv_event, reqAir в JSON: есть, значение: '', order=1, parent_id=germ_wwi_group, has_dependency: False
-          ОТЛАДКА: Элемент группы germ_beutepanzer_mk_iv_event имеет reqAir='', предшественника нет
-          ОТЛАДКА: Добавлен элемент группы germ_beutepanzer_mk_iv_event с предшественником '', статус: premium
-          ОТЛАДКА: Элемент germ_a7v_event, reqAir в JSON: есть, значение: '', order=2, parent_id=germ_wwi_group, has_dependency: False
-          ОТЛАДКА: Элемент группы germ_a7v_event имеет reqAir='', предшественника нет
-          ОТЛАДКА: Добавлен элемент группы germ_a7v_event с предшественником '', статус: premium
       ОТЛАДКА: Техника germ_pzkpfw_II_ausf_H, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_pzkpfw_II_ausf_H имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_pzkpfw_II_ausf_H с предшественником '', статус: premium
@@ -3581,10 +3580,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: germ_sdkfz_234_1 ранг 1 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: germ_sdkfz_234_3 ранг 1 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: germ_amd_35_kwk ранг 1 -> [1, 3]
-        ПРЕМИУМ КООРДИНАТЫ: germ_wwi_group ранг 1 -> [1, 4]
-        ПРЕМИУМ КООРДИНАТЫ: germ_garford_putilov_event ранг 1 -> [1, 4] (элемент группы)
-        ПРЕМИУМ КООРДИНАТЫ: germ_beutepanzer_mk_iv_event ранг 1 -> [1, 4] (элемент группы)
-        ПРЕМИУМ КООРДИНАТЫ: germ_a7v_event ранг 1 -> [1, 4] (элемент группы)
         ПРЕМИУМ КООРДИНАТЫ: germ_pzkpfw_II_ausf_H ранг 2 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: germ_sdkfz_251_22 ранг 2 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: germ_sdkfz_234_2_td ранг 2 -> [1, 2]
@@ -3611,7 +3606,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: germ_leopard_2av ранг 7 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: germ_leopard_2_pt14 ранг 7 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: germ_leopard_2a4_pzbtl_123 ранг 7 -> [1, 2]
-    Столбец 6: обработано 34 элементов
+    Столбец 6: обработано 30 элементов
   Обработка типа: Вертолёты, столбцов: 3
       ОТЛАДКА: Премиум техники в колонке: 0/5 = 0.00, порог: 0.3
       ОТЛАДКА: Техника sa_313b, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -4864,7 +4859,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: germ_s_700_s_701 ранг 3 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: germ_frigate_koln_lubeck ранг 4 -> [1, 0]
     Столбец 4: обработано 2 элементов
-Обработано 506 элементов для germany
+Обработано 501 элементов для germany
 Обработка страны: ussr
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен ussr_t_34_1941_l_11 с order=0
@@ -5518,7 +5513,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: ussr_t_80ud ранг 7 -> [0, 3]
         ПРЕМИУМ КООРДИНАТЫ: ussr_t_80ue1 ранг 7 -> [0, 4]
     Столбец 5: обработано 38 элементов
-      ОТЛАДКА: Премиум техники в колонке: 31/34 = 0.91, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 28/31 = 0.90, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника ussr_t_26E, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_26E имеет reqAir='', предшественника нет
@@ -5601,27 +5596,18 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника ussr_object_279, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_object_279 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_object_279 с предшественником '', статус: premium
-      ОТЛАДКА: Техника ussr_m551_football, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ussr_m551_football имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ussr_m551_football с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_object_292, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_object_292 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_object_292 с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_t_72m2_moderna, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_72m2_moderna имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_72m2_moderna с предшественником '', статус: premium
-      ОТЛАДКА: Техника ussr_t_80u_yt_cup_2019, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ussr_t_80u_yt_cup_2019 имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ussr_t_80u_yt_cup_2019 с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_t_80um2, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_80um2 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_80um2 с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_t_80uk, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_80uk имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_80uk с предшественником '', статус: premium
-      ОТЛАДКА: Техника ussr_t_80u_race, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ussr_t_80u_race имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ussr_t_80u_race с предшественником '', статус: premium
         ПРЕМИУМ КООРДИНАТЫ: ussr_t_26E ранг 1 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: ussr_rbt_5 ранг 1 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: ussr_ba_11 ранг 1 -> [1, 2]
@@ -5649,14 +5635,11 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: ussr_pt_76_57 ранг 5 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: ussr_is_7 ранг 6 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: ussr_object_279 ранг 6 -> [1, 1]
-        ПРЕМИУМ КООРДИНАТЫ: ussr_m551_football ранг 6 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: ussr_object_292 ранг 7 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: ussr_t_72m2_moderna ранг 7 -> [1, 1]
-        ПРЕМИУМ КООРДИНАТЫ: ussr_t_80u_yt_cup_2019 ранг 7 -> [1, 2]
-        ПРЕМИУМ КООРДИНАТЫ: ussr_t_80um2 ранг 7 -> [1, 3]
-        ПРЕМИУМ КООРДИНАТЫ: ussr_t_80uk ранг 7 -> [1, 4]
-        ПРЕМИУМ КООРДИНАТЫ: ussr_t_80u_race ранг 7 -> [1, 5]
-    Столбец 6: обработано 34 элементов
+        ПРЕМИУМ КООРДИНАТЫ: ussr_t_80um2 ранг 7 -> [1, 2]
+        ПРЕМИУМ КООРДИНАТЫ: ussr_t_80uk ранг 7 -> [1, 3]
+    Столбец 6: обработано 31 элементов
   Обработка типа: Вертолёты, столбцов: 4
       ОТЛАДКА: Премиум техники в колонке: 0/7 = 0.00, порог: 0.3
       ОТЛАДКА: Техника mi_4av, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -6402,7 +6385,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника su_34 зависит от su_24m
       ОТЛАДКА: Добавлена техника su_34 с предшественником 'su_24m', статус: standard
     Столбец 4: обработано 41 элементов
-      ОТЛАДКА: Премиум техники в колонке: 16/34 = 0.47, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 15/33 = 0.45, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника i-15bis_krasnolutsky, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника i-15bis_krasnolutsky имеет reqAir='', предшественника нет
@@ -6494,9 +6477,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника mig-21_s, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника mig-21_s имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника mig-21_s с предшественником '', статус: premium
-      ОТЛАДКА: Техника mig-21_bis_event, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника mig-21_bis_event имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника mig-21_bis_event с предшественником '', статус: premium
       ОТЛАДКА: Техника su_22m3, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника su_22m3 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника su_22m3 с предшественником '', статус: premium
@@ -6536,11 +6516,10 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: mig-17_cuba ранг 6 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: yak-38 ранг 6 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: mig-21_s ранг 6 -> [0, 2]
-        ПРЕМИУМ КООРДИНАТЫ: mig-21_bis_event ранг 7 -> [0, 0]
-        ПРЕМИУМ КООРДИНАТЫ: su_22m3 ранг 7 -> [0, 1]
-        ПРЕМИУМ КООРДИНАТЫ: mig_23ml ранг 7 -> [0, 2]
+        ПРЕМИУМ КООРДИНАТЫ: su_22m3 ранг 7 -> [0, 0]
+        ПРЕМИУМ КООРДИНАТЫ: mig_23ml ранг 7 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: su_33 ранг 8 -> [0, 0]
-    Столбец 5: обработано 34 элементов
+    Столбец 5: обработано 33 элементов
       ОТЛАДКА: Премиум техники в колонке: 30/31 = 0.97, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника mbr-2, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -6952,7 +6931,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: ussr_skr_pr50plo_rosomacha ранг 4 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: ussr_skr_pr35 ранг 5 -> [0, 0]
     Столбец 3: обработано 9 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/6 = 0.83, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 4/5 = 0.80, порог: 0.3
     Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника ussr_g5_rct, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_g5_rct имеет reqAir='', предшественника нет
@@ -6969,17 +6948,13 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника ussr_mpk_pr12412p, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_mpk_pr12412p имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_mpk_pr12412p с предшественником '', статус: premium
-      ОТЛАДКА: Техника ussr_pr_206_race, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ussr_pr_206_race имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ussr_pr_206_race с предшественником '', статус: premium
         ПРЕМИУМ КООРДИНАТЫ: ussr_g5_rct ранг 1 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: ussr_1124_rct ранг 2 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: ussr_mpk_122bis ранг 2 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: ussr_mpk_201k ранг 4 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: ussr_mpk_pr12412p ранг 4 -> [1, 1]
-        ПРЕМИУМ КООРДИНАТЫ: ussr_pr_206_race ранг 5 -> [1, 0]
-    Столбец 4: обработано 6 элементов
-Обработано 524 элементов для ussr
+    Столбец 4: обработано 5 элементов
+Обработано 519 элементов для ussr
 Обработка страны: britain
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
@@ -7539,10 +7514,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: uk_challenger_1_mk_3_gulf ранг 7 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: uk_challenger_2_megatron ранг 7 -> [0, 1]
     Столбец 5: обработано 22 элементов
-        ОТЛАДКА: get_group_items добавлен uk_garford_putilov_event с order=0
-        ОТЛАДКА: get_group_items добавлен uk_saint_chamond_event с order=1
-        ОТЛАДКА: get_group_items добавлен uk_mark_v_event с order=2
-      ОТЛАДКА: Премиум техники в колонке: 19/21 = 0.90, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 15/16 = 0.94, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника uk_a_13_mk2_1939, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника uk_a_13_mk2_1939 имеет reqAir='', предшественника нет
@@ -7550,21 +7522,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника uk_alecto_mk_1, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника uk_alecto_mk_1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника uk_alecto_mk_1 с предшественником '', статус: premium
-        ОТЛАДКА: get_group_items добавлен uk_garford_putilov_event с order=0
-        ОТЛАДКА: get_group_items добавлен uk_saint_chamond_event с order=1
-        ОТЛАДКА: get_group_items добавлен uk_mark_v_event с order=2
-        ОТЛАДКА: Группа uk_entente_group, reqAir в JSON: есть, значение: '', has_dependency: False
-        ОТЛАДКА: Группа uk_entente_group имеет reqAir='', предшественника нет
-        ОТЛАДКА: Добавлена группа uk_entente_group с предшественником '', статус: premium
-          ОТЛАДКА: Элемент uk_garford_putilov_event, reqAir в JSON: есть, значение: '', order=0, parent_id=uk_entente_group, has_dependency: False
-          ОТЛАДКА: Элемент группы uk_garford_putilov_event имеет reqAir='', предшественника нет
-          ОТЛАДКА: Добавлен элемент группы uk_garford_putilov_event с предшественником '', статус: premium
-          ОТЛАДКА: Элемент uk_saint_chamond_event, reqAir в JSON: есть, значение: '', order=1, parent_id=uk_entente_group, has_dependency: False
-          ОТЛАДКА: Элемент группы uk_saint_chamond_event имеет reqAir='', предшественника нет
-          ОТЛАДКА: Добавлен элемент группы uk_saint_chamond_event с предшественником '', статус: premium
-          ОТЛАДКА: Элемент uk_mark_v_event, reqAir в JSON: есть, значение: '', order=2, parent_id=uk_entente_group, has_dependency: False
-          ОТЛАДКА: Элемент группы uk_mark_v_event имеет reqAir='', предшественника нет
-          ОТЛАДКА: Добавлен элемент группы uk_mark_v_event с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_mk1_grant, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника uk_mk1_grant имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника uk_mk1_grant с предшественником '', статус: premium
@@ -7607,15 +7564,8 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника uk_t_90s_bheeshma, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника uk_t_90s_bheeshma имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника uk_t_90s_bheeshma с предшественником '', статус: premium
-      ОТЛАДКА: Техника uk_challenger_II_yt_cup_2019, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника uk_challenger_II_yt_cup_2019 имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника uk_challenger_II_yt_cup_2019 с предшественником '', статус: premium
         ПРЕМИУМ КООРДИНАТЫ: uk_a_13_mk2_1939 ранг 1 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: uk_alecto_mk_1 ранг 1 -> [1, 1]
-        ПРЕМИУМ КООРДИНАТЫ: uk_entente_group ранг 1 -> [1, 2]
-        ПРЕМИУМ КООРДИНАТЫ: uk_garford_putilov_event ранг 1 -> [1, 2] (элемент группы)
-        ПРЕМИУМ КООРДИНАТЫ: uk_saint_chamond_event ранг 1 -> [1, 2] (элемент группы)
-        ПРЕМИУМ КООРДИНАТЫ: uk_mark_v_event ранг 1 -> [1, 2] (элемент группы)
         ПРЕМИУМ КООРДИНАТЫ: uk_mk1_grant ранг 2 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: uk_matilda_hedgehog ранг 2 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: uk_churchill_avre ранг 2 -> [1, 2]
@@ -7630,8 +7580,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: uk_rooikat_105_td ранг 6 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: uk_shir_2 ранг 6 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: uk_t_90s_bheeshma ранг 7 -> [1, 0]
-        ПРЕМИУМ КООРДИНАТЫ: uk_challenger_II_yt_cup_2019 ранг 7 -> [1, 1]
-    Столбец 6: обработано 21 элементов
+    Столбец 6: обработано 16 элементов
   Обработка типа: Вертолёты, столбцов: 2
       ОТЛАДКА: Премиум техники в колонке: 0/5 = 0.00, порог: 0.3
       ОТЛАДКА: Техника scout_ah_mk1, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -8721,7 +8670,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: uk_dark_class_mtb_td ранг 3 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: uk_frigate_river ранг 4 -> [1, 0]
     Столбец 3: обработано 3 элементов
-Обработано 433 элементов для britain
+Обработано 428 элементов для britain
 Обработка страны: japan
   Обработка типа: Наземная техника, столбцов: 6
         ОТЛАДКА: get_group_items добавлен jp_type_60_sprg с order=0
@@ -10362,7 +10311,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: cn_qn506 ранг 7 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: cn_vt_5 ранг 7 -> [0, 2]
     Столбец 4: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 8/8 = 1.00, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 7/7 = 1.00, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника cn_bt_5, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника cn_bt_5 имеет reqAir='', предшественника нет
@@ -10379,9 +10328,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника cn_t_62, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника cn_t_62 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника cn_t_62 с предшественником '', статус: premium
-      ОТЛАДКА: Техника cn_ztz_96a_race, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника cn_ztz_96a_race имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника cn_ztz_96a_race с предшественником '', статус: premium
       ОТЛАДКА: Техника cn_t_80ud_478be, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника cn_t_80ud_478be имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника cn_t_80ud_478be с предшественником '', статус: premium
@@ -10393,10 +10339,9 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: cn_wz_141 ранг 4 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: cn_plz_83_130 ранг 5 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: cn_t_62 ранг 6 -> [1, 0]
-        ПРЕМИУМ КООРДИНАТЫ: cn_ztz_96a_race ранг 6 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: cn_t_80ud_478be ранг 7 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: cn_al_khalid_1 ранг 7 -> [1, 1]
-    Столбец 5: обработано 8 элементов
+    Столбец 5: обработано 7 элементов
   Обработка типа: Вертолёты, столбцов: 3
       ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.3
       ОТЛАДКА: Техника z_11wa, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -10796,7 +10741,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: f_100f_china ранг 6 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: ucav_wing_loong_i ранг 7 -> [0, 0]
     Столбец 5: обработано 5 элементов
-Обработано 210 элементов для china
+Обработано 209 элементов для china
 Обработка страны: italy
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен it_fiat_6616_cockerill с order=0
@@ -12808,7 +12753,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: mirage_f1c_200 ранг 7 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: mirage_2000c_s4 ранг 8 -> [0, 0]
     Столбец 5: обработано 16 элементов
-      ОТЛАДКА: Премиум техники в колонке: 12/12 = 1.00, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 11/11 = 1.00, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника late_298d, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника late_298d имеет reqAir='', предшественника нет
@@ -12840,9 +12785,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника so_4050_vautour_2a_iaf, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника so_4050_vautour_2a_iaf имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника so_4050_vautour_2a_iaf с предшественником '', статус: premium
-      ОТЛАДКА: Техника md_460_yt_cup_2019, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника md_460_yt_cup_2019 имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника md_460_yt_cup_2019 с предшественником '', статус: premium
       ОТЛАДКА: Техника jaguar_e, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника jaguar_e имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника jaguar_e с предшественником '', статус: premium
@@ -12856,9 +12798,8 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: fw-190a-8_france ранг 4 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: f-84f_iaf ранг 6 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: so_4050_vautour_2a_iaf ранг 6 -> [1, 1]
-        ПРЕМИУМ КООРДИНАТЫ: md_460_yt_cup_2019 ранг 6 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: jaguar_e ранг 7 -> [1, 0]
-    Столбец 6: обработано 12 элементов
+    Столбец 6: обработано 11 элементов
   Обработка типа: Большой флот, столбцов: 3
       ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.3
       ОТЛАДКА: Техника fr_destroyer_bourrasque_class_bourrasque, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -13026,7 +12967,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника fr_vlt2 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_vlt2 с предшественником '', статус: standard
     Столбец 2: обработано 4 элементов
-Обработано 295 элементов для france
+Обработано 294 элементов для france
 Обработка страны: sweden
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен sw_cv_9030_fin с order=0
@@ -14143,8 +14084,8 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: kfir_c10_colombia ранг 8 -> [0, 1]
     Столбец 3: обработано 8 элементов
 Обработано 107 элементов для israel
-Данные (3344 записей) сохранены в shop.csv
-Статистика: Стандартной техники: 2496, Премиумной: 848
+Данные (3322 записей) сохранены в shop.csv
+Статистика: Стандартной техники: 2496, Премиумной: 826
 Обработано master-slave пар: 3
 Slave-юниты пропущены: 3
-Парсинг завершен успешно! Обработано 3344 элементов.
+Парсинг завершен успешно! Обработано 3322 элементов.

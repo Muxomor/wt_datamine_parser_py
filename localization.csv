@@ -121,10 +121,8 @@ us_t54e1,T54E1
 us_m901_itv,M901
 us_xm1_chrysler,XM1 (Chrysler)
 us_xm1_gm,XM1 (GM)
-us_m551_football,us_m551_football
 us_m1128_wolfpack,M1128 Wolfpack
 us_m1_abrams_kvt,M1 KVT
-us_m1a1_abrams_yt_cup_2019,␙M1A1
 us_m1a1_aim_abrams,M1A1 AIM
 us_m1a1_hc_usmc,M1A1 Click-Bait
 us_rdf_lt,RDF/LT
@@ -138,7 +136,6 @@ us_m4_sherman_calliope,Calliope
 us_t55e1,T55E1
 us_t86,T86
 us_m18_hellcat_black_cat,"M18 ""Black Cat"""
-us_m18_hellcat_black_cat_race,"M18 ""Гоночный"""
 us_t28,T28
 us_m551_76,M551(76)
 us_t30,T30
@@ -171,7 +168,6 @@ yah_64,YAH-64
 ah_64a_greece_usa,AH-64A (GR)
 ah_64a_peten,▃AH-64A Peten
 rah_66,RAH-66
-ah_1f_event,AH-1F
 p-26a_34_m2,P-26A-34 M2
 p-26_group,P-26
 p-26a_33,P-26A-33
@@ -363,7 +359,6 @@ f-5c,F-5C
 a_6e_tram,A-6E TRAM
 f-4s,F-4S Phantom II
 ucav_mq_1_predator,MQ-1
-f_4e_event,F-4E Phantom II
 f_20a,F-20A
 fa_18c_early,F/A-18C Early
 p-26a_34,P-26A-34
@@ -650,15 +645,10 @@ germ_boxer_3105,Boxer MGS
 germ_vilkas,Vilkas
 germ_leopard_2a4m_can,Leopard 2A4M
 germ_leopard_2pl,Leopard 2 PL
-germ_leopard_2a5_yt_cup_2019,␙Leopard 2A5
 germ_sdkfz_251_10,Sd.Kfz.251/10
 germ_sdkfz_234_1,Sd.Kfz.234/1
 germ_sdkfz_234_3,Sd.Kfz.234/3
 germ_amd_35_kwk,Pz.Sp.Wg.P204(f) KwK 38
-germ_wwi_group,germ_wwi_group
-germ_garford_putilov_event,Garford-Beute
-germ_beutepanzer_mk_iv_event,Beutepanzer IV
-germ_a7v_event,A7V
 germ_pzkpfw_II_ausf_H,Pz.Sfl.Ic
 germ_sdkfz_251_22,Sd.Kfz.251/22
 germ_sdkfz_234_2_td,Sd.Kfz.234/2 TD
@@ -1179,13 +1169,10 @@ ussr_t_10a,Т-10A
 ussr_pt_76_57,ПТ-76-57
 ussr_is_7,ИС-7
 ussr_object_279,Объект 279
-ussr_m551_football,ussr_m551_football
 ussr_object_292,Объект 292
 ussr_t_72m2_moderna,T-72M2 Moderna
-ussr_t_80u_yt_cup_2019,␙Т-80У
 ussr_t_80um2,Т-80УМ2
 ussr_t_80uk,Т-80УК
-ussr_t_80u_race,Т-80У
 mi_4av,Ми-4АВ
 mi_24a,Ми-24А
 mi_24v,Ми-24В
@@ -1391,7 +1378,6 @@ mig-15bis_ish,МиГ-15бис ИШ
 mig-17_cuba,МиГ-17AC
 yak-38,Як-38
 mig-21_s,МиГ-21С (Р-13-300)
-mig-21_bis_event,МиГ-21бис
 su_22m3,Су-22М3
 mig_23ml,МиГ-23МЛ
 su_33,Су-33
@@ -1510,7 +1496,6 @@ ussr_1124_rct,Пр.1124 Ракетный
 ussr_mpk_122bis,МПК Пр.122бис
 ussr_mpk_201k,МПК Пр.201К
 ussr_mpk_pr12412p,МПК Пр.12412П
-ussr_pr_206_race,Пр. 206
 uk_a_13_mk1,A13 Mk.I
 uk_a_13_mk2,A13 Mk.II
 uk_crusader_group,Crusader II/III
@@ -1650,10 +1635,6 @@ uk_challenger_1_mk_3_gulf,Challenger DS
 uk_challenger_2_megatron,Challenger 2 OES
 uk_a_13_mk2_1939,A13 Mk.II 1939
 uk_alecto_mk_1,Alecto I
-uk_entente_group,uk_entente_group
-uk_garford_putilov_event,Гарфордъ
-uk_saint_chamond_event,St-Chamond
-uk_mark_v_event,Mark V
 uk_mk1_grant,Grant I
 uk_matilda_hedgehog,Matilda Hedgehog
 uk_churchill_avre,Churchill AVRE Petard
@@ -1668,7 +1649,6 @@ uk_centurion_shot_kal_d,▄Sho't Kal Dalet
 uk_rooikat_105_td,Rooikat 105
 uk_shir_2,FV4030/3
 uk_t_90s_bheeshma,Bhishma TWMP
-uk_challenger_II_yt_cup_2019,␙Challenger 2
 scout_ah_mk1,Scout AH.Mk.1
 wasp_has_mk1,Wasp HAS.Mk.1
 wessex_mk5,Wessex HU Mk.5
@@ -2364,7 +2344,6 @@ cn_type_95_ha_go,Ha-Go
 cn_wz_141,WZ141-1
 cn_plz_83_130,PLZ83-130
 cn_t_62,Т-62 №545
-cn_ztz_96a_race,ZTZ96A
 cn_t_80ud_478be,T-80UD/DU1
 cn_al_khalid_1,Al-Khalid-I
 z_11wa,Z-11WA
@@ -3006,7 +2985,6 @@ sb_25j_netherlands,◘SB-25J
 fw-190a-8_france,NC.900
 f-84f_iaf,F-84F IAF
 so_4050_vautour_2a_iaf,Vautour IIA IDF/AF
-md_460_yt_cup_2019,␙Super Mystere B2
 jaguar_e,Jaguar E
 fr_destroyer_bourrasque_class_bourrasque,Bourrasque
 fr_destroyer_hunt_3series,La Combattante

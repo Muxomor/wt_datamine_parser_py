@@ -44,6 +44,93 @@ class ShopParser:
         except json.JSONDecodeError as e:
             raise RuntimeError(f"Ошибка декодирования JSON: {e}")
 
+    def has_anomalous_suffix(self, element_id: str) -> bool:
+        """Проверяет, имеет ли элемент аномальное окончание"""
+        return any(element_id.endswith(suffix) for suffix in Constants.ANOMALOUS_SUFFIXES)
+
+    def clean_anomalous_elements(self, shop_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Удаляет аномальные элементы из данных shop.blkx перед парсингом"""
+        self.logger.log("Начинаем очистку от аномальных элементов...")
+        
+        cleaned_data = {}
+        total_removed = 0
+        removed_details = []
+        
+        for country_key, country_data in shop_data.items():
+            if country_key not in Constants.COUNTRY_MAPPING:
+                cleaned_data[country_key] = country_data
+                continue
+                
+            country_name = Constants.COUNTRY_MAPPING[country_key]
+            self.logger.log(f"  Очистка страны: {country_name}")
+            
+            cleaned_country = {}
+            
+            for vehicle_type, type_data in country_data.items():
+                if vehicle_type not in Constants.VEHICLE_TYPE_MAPPING:
+                    cleaned_country[vehicle_type] = type_data
+                    continue
+                    
+                vehicle_type_name = Constants.VEHICLE_TYPE_MAPPING[vehicle_type]
+                range_data = type_data.get('range', [])
+                
+                cleaned_ranges = []
+                
+                for column_index, column_data in enumerate(range_data):
+                    if not isinstance(column_data, dict):
+                        cleaned_ranges.append(column_data)
+                        continue
+                    
+                    cleaned_column = {}
+                    
+                    for item_name, item_info in column_data.items():
+                        # Проверяем аномальность основного элемента
+                        if self.has_anomalous_suffix(item_name):
+                            total_removed += 1
+                            removed_details.append(f"{country_name}/{vehicle_type_name}/column_{column_index}/{item_name}")
+                            self.logger.log(f"    УДАЛЕН: {item_name} (аномальное окончание)", 'debug')
+                            continue
+                        
+                        # Если элемент - группа, проверяем вложенные элементы
+                        if isinstance(item_info, dict) and self.is_group(item_name, item_info):
+                            has_anomalous_children = False
+                            
+                            # Проверяем все вложенные элементы на аномальность
+                            for nested_key in item_info.keys():
+                                if nested_key not in Constants.SERVICE_FIELDS:
+                                    if self.has_anomalous_suffix(nested_key):
+                                        has_anomalous_children = True
+                                        self.logger.log(f"      Найден аномальный элемент в группе: {nested_key}", 'debug')
+                                        break
+                            
+                            if has_anomalous_children:
+                                total_removed += 1
+                                removed_details.append(f"{country_name}/{vehicle_type_name}/column_{column_index}/{item_name} (группа с аномальными элементами)")
+                                self.logger.log(f"    УДАЛЕНА ГРУППА: {item_name} (содержит аномальные элементы)", 'debug')
+                                continue
+                        
+                        # Элемент прошел проверку - добавляем в очищенные данные
+                        cleaned_column[item_name] = item_info
+                    
+                    cleaned_ranges.append(cleaned_column)
+                
+                cleaned_country[vehicle_type] = {'range': cleaned_ranges}
+            
+            cleaned_data[country_key] = cleaned_country
+        
+        # Логируем результаты очистки
+        self.logger.log(f"Очистка завершена. Удалено элементов: {total_removed}")
+        
+        if removed_details:
+            self.logger.log("Подробный список удаленных элементов:")
+            for detail in removed_details:
+                self.logger.log(f"  - {detail}")
+        
+        if total_removed == 0:
+            self.logger.log("Аномальные элементы не найдены")
+        
+        return cleaned_data
+
     def collect_master_slave_pairs(self, shop_data: Dict[str, Any]):
         """Собирает все master-slave пары перед основной обработкой"""
         self.logger.log("Сбор master-slave пар...")
@@ -523,12 +610,15 @@ class ShopParser:
 
     def parse_shop_data(self, shop_data: Dict[str, Any]) -> List[Dict[str, Any]]:
         """Основной метод парсинга данных shop.blkx"""
-        # Сначала собираем все master-slave пары
-        self.collect_master_slave_pairs(shop_data)
+        # Сначала очищаем от аномальных элементов
+        cleaned_shop_data = self.clean_anomalous_elements(shop_data)
+        
+        # Затем собираем все master-slave пары на очищенных данных
+        self.collect_master_slave_pairs(cleaned_shop_data)
         
         all_results = []
         
-        for country_key, country_data in shop_data.items():
+        for country_key, country_data in cleaned_shop_data.items():
             if country_key not in Constants.COUNTRY_MAPPING:
                 continue
                 

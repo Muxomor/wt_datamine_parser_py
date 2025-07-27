@@ -28763,7 +28763,7 @@
 Обработано строк: 14321
 Найдено записей для локализации: 14262
 Всего ключей в словаре: 14262
-Загружено 3344 ID из shop.csv
+Загружено 3322 ID из shop.csv
 Создание маппинга локализации...
     Поиск локализации для: us_m2a4
     Прямой поиск: us_m2a4 -> M2A4
@@ -29131,18 +29131,12 @@
     Поиск локализации для: us_xm1_gm
     Прямой поиск: us_xm1_gm -> XM1 (GM)
   Найдено: us_xm1_gm -> XM1 (GM)
-    Поиск локализации для: us_m551_football
-    Fallback: us_m551_football -> us_m551_football
-  Не найдено: us_m551_football -> us_m551_football (fallback)
     Поиск локализации для: us_m1128_wolfpack
     Прямой поиск: us_m1128_wolfpack -> M1128 Wolfpack
   Найдено: us_m1128_wolfpack -> M1128 Wolfpack
     Поиск локализации для: us_m1_abrams_kvt
     Прямой поиск: us_m1_abrams_kvt -> M1 KVT
   Найдено: us_m1_abrams_kvt -> M1 KVT
-    Поиск локализации для: us_m1a1_abrams_yt_cup_2019
-    Прямой поиск: us_m1a1_abrams_yt_cup_2019 -> ␙M1A1
-  Найдено: us_m1a1_abrams_yt_cup_2019 -> ␙M1A1
     Поиск локализации для: us_m1a1_aim_abrams
     Прямой поиск: us_m1a1_aim_abrams -> M1A1 AIM
   Найдено: us_m1a1_aim_abrams -> M1A1 AIM
@@ -29182,9 +29176,6 @@
     Поиск локализации для: us_m18_hellcat_black_cat
     Прямой поиск: us_m18_hellcat_black_cat -> M18 "Black Cat"
   Найдено: us_m18_hellcat_black_cat -> M18 "Black Cat"
-    Поиск локализации для: us_m18_hellcat_black_cat_race
-    Прямой поиск: us_m18_hellcat_black_cat_race -> M18 "Гоночный"
-  Найдено: us_m18_hellcat_black_cat_race -> M18 "Гоночный"
     Поиск локализации для: us_t28
     Прямой поиск: us_t28 -> T28
   Найдено: us_t28 -> T28
@@ -29281,9 +29272,6 @@
     Поиск локализации для: rah_66
     Прямой поиск: rah_66 -> RAH-66
   Найдено: rah_66 -> RAH-66
-    Поиск локализации для: ah_1f_event
-    Прямой поиск: ah_1f_event -> AH-1F
-  Найдено: ah_1f_event -> AH-1F
     Поиск локализации для: p-26a_34_m2
     Прямой поиск: p-26a_34_m2 -> P-26A-34 M2
   Найдено: p-26a_34_m2 -> P-26A-34 M2
@@ -29857,9 +29845,6 @@
     Поиск локализации для: ucav_mq_1_predator
     Прямой поиск: ucav_mq_1_predator -> MQ-1
   Найдено: ucav_mq_1_predator -> MQ-1
-    Поиск локализации для: f_4e_event
-    Прямой поиск: f_4e_event -> F-4E Phantom II
-  Найдено: f_4e_event -> F-4E Phantom II
     Поиск локализации для: f_20a
     Прямой поиск: f_20a -> F-20A
   Найдено: f_20a -> F-20A
@@ -30718,9 +30703,6 @@
     Поиск локализации для: germ_leopard_2pl
     Прямой поиск: germ_leopard_2pl -> Leopard 2 PL
   Найдено: germ_leopard_2pl -> Leopard 2 PL
-    Поиск локализации для: germ_leopard_2a5_yt_cup_2019
-    Прямой поиск: germ_leopard_2a5_yt_cup_2019 -> ␙Leopard 2A5
-  Найдено: germ_leopard_2a5_yt_cup_2019 -> ␙Leopard 2A5
     Поиск локализации для: germ_sdkfz_251_10
     Прямой поиск: germ_sdkfz_251_10 -> Sd.Kfz.251/10
   Найдено: germ_sdkfz_251_10 -> Sd.Kfz.251/10
@@ -30733,18 +30715,6 @@
     Поиск локализации для: germ_amd_35_kwk
     Прямой поиск: germ_amd_35_kwk -> Pz.Sp.Wg.P204(f) KwK 38
   Найдено: germ_amd_35_kwk -> Pz.Sp.Wg.P204(f) KwK 38
-    Поиск локализации для: germ_wwi_group
-    Fallback: germ_wwi_group -> germ_wwi_group
-  Не найдено: germ_wwi_group -> germ_wwi_group (fallback)
-    Поиск локализации для: germ_garford_putilov_event
-    Прямой поиск: germ_garford_putilov_event -> Garford-Beute
-  Найдено: germ_garford_putilov_event -> Garford-Beute
-    Поиск локализации для: germ_beutepanzer_mk_iv_event
-    Прямой поиск: germ_beutepanzer_mk_iv_event -> Beutepanzer IV
-  Найдено: germ_beutepanzer_mk_iv_event -> Beutepanzer IV
-    Поиск локализации для: germ_a7v_event
-    Прямой поиск: germ_a7v_event -> A7V
-  Найдено: germ_a7v_event -> A7V
     Поиск локализации для: germ_pzkpfw_II_ausf_H
     Прямой поиск: germ_pzkpfw_II_ausf_H -> Pz.Sfl.Ic
   Найдено: germ_pzkpfw_II_ausf_H -> Pz.Sfl.Ic
@@ -32305,27 +32275,18 @@
     Поиск локализации для: ussr_object_279
     Прямой поиск: ussr_object_279 -> Объект 279
   Найдено: ussr_object_279 -> Объект 279
-    Поиск локализации для: ussr_m551_football
-    Fallback: ussr_m551_football -> ussr_m551_football
-  Не найдено: ussr_m551_football -> ussr_m551_football (fallback)
     Поиск локализации для: ussr_object_292
     Прямой поиск: ussr_object_292 -> Объект 292
   Найдено: ussr_object_292 -> Объект 292
     Поиск локализации для: ussr_t_72m2_moderna
     Прямой поиск: ussr_t_72m2_moderna -> T-72M2 Moderna
   Найдено: ussr_t_72m2_moderna -> T-72M2 Moderna
-    Поиск локализации для: ussr_t_80u_yt_cup_2019
-    Прямой поиск: ussr_t_80u_yt_cup_2019 -> ␙Т-80У
-  Найдено: ussr_t_80u_yt_cup_2019 -> ␙Т-80У
     Поиск локализации для: ussr_t_80um2
     Прямой поиск: ussr_t_80um2 -> Т-80УМ2
   Найдено: ussr_t_80um2 -> Т-80УМ2
     Поиск локализации для: ussr_t_80uk
     Прямой поиск: ussr_t_80uk -> Т-80УК
   Найдено: ussr_t_80uk -> Т-80УК
-    Поиск локализации для: ussr_t_80u_race
-    Прямой поиск: ussr_t_80u_race -> Т-80У
-  Найдено: ussr_t_80u_race -> Т-80У
     Поиск локализации для: mi_4av
     Прямой поиск: mi_4av -> Ми-4АВ
   Найдено: mi_4av -> Ми-4АВ
@@ -32941,9 +32902,6 @@
     Поиск локализации для: mig-21_s
     Прямой поиск: mig-21_s -> МиГ-21С (Р-13-300)
   Найдено: mig-21_s -> МиГ-21С (Р-13-300)
-    Поиск локализации для: mig-21_bis_event
-    Прямой поиск: mig-21_bis_event -> МиГ-21бис
-  Найдено: mig-21_bis_event -> МиГ-21бис
     Поиск локализации для: su_22m3
     Прямой поиск: su_22m3 -> Су-22М3
   Найдено: su_22m3 -> Су-22М3
@@ -33298,9 +33256,6 @@
     Поиск локализации для: ussr_mpk_pr12412p
     Прямой поиск: ussr_mpk_pr12412p -> МПК Пр.12412П
   Найдено: ussr_mpk_pr12412p -> МПК Пр.12412П
-    Поиск локализации для: ussr_pr_206_race
-    Прямой поиск: ussr_pr_206_race -> Пр. 206
-  Найдено: ussr_pr_206_race -> Пр. 206
     Поиск локализации для: uk_a_13_mk1
     Прямой поиск: uk_a_13_mk1 -> A13 Mk.I
   Найдено: uk_a_13_mk1 -> A13 Mk.I
@@ -33718,18 +33673,6 @@
     Поиск локализации для: uk_alecto_mk_1
     Прямой поиск: uk_alecto_mk_1 -> Alecto I
   Найдено: uk_alecto_mk_1 -> Alecto I
-    Поиск локализации для: uk_entente_group
-    Fallback: uk_entente_group -> uk_entente_group
-  Не найдено: uk_entente_group -> uk_entente_group (fallback)
-    Поиск локализации для: uk_garford_putilov_event
-    Прямой поиск: uk_garford_putilov_event -> Гарфордъ
-  Найдено: uk_garford_putilov_event -> Гарфордъ
-    Поиск локализации для: uk_saint_chamond_event
-    Прямой поиск: uk_saint_chamond_event -> St-Chamond
-  Найдено: uk_saint_chamond_event -> St-Chamond
-    Поиск локализации для: uk_mark_v_event
-    Прямой поиск: uk_mark_v_event -> Mark V
-  Найдено: uk_mark_v_event -> Mark V
     Поиск локализации для: uk_mk1_grant
     Прямой поиск: uk_mk1_grant -> Grant I
   Найдено: uk_mk1_grant -> Grant I
@@ -33772,9 +33715,6 @@
     Поиск локализации для: uk_t_90s_bheeshma
     Прямой поиск: uk_t_90s_bheeshma -> Bhishma TWMP
   Найдено: uk_t_90s_bheeshma -> Bhishma TWMP
-    Поиск локализации для: uk_challenger_II_yt_cup_2019
-    Прямой поиск: uk_challenger_II_yt_cup_2019 -> ␙Challenger 2
-  Найдено: uk_challenger_II_yt_cup_2019 -> ␙Challenger 2
     Поиск локализации для: scout_ah_mk1
     Прямой поиск: scout_ah_mk1 -> Scout AH.Mk.1
   Найдено: scout_ah_mk1 -> Scout AH.Mk.1
@@ -35860,9 +35800,6 @@
     Поиск локализации для: cn_t_62
     Точное совпадение по приоритету: cn_t_62 -> cn_t_62_1 -> Т-62 №545
   Найдено: cn_t_62 -> Т-62 №545
-    Поиск локализации для: cn_ztz_96a_race
-    Прямой поиск: cn_ztz_96a_race -> ZTZ96A
-  Найдено: cn_ztz_96a_race -> ZTZ96A
     Поиск локализации для: cn_t_80ud_478be
     Прямой поиск: cn_t_80ud_478be -> T-80UD/DU1
   Найдено: cn_t_80ud_478be -> T-80UD/DU1
@@ -37788,9 +37725,6 @@
     Поиск локализации для: so_4050_vautour_2a_iaf
     Прямой поиск: so_4050_vautour_2a_iaf -> Vautour IIA IDF/AF
   Найдено: so_4050_vautour_2a_iaf -> Vautour IIA IDF/AF
-    Поиск локализации для: md_460_yt_cup_2019
-    Прямой поиск: md_460_yt_cup_2019 -> ␙Super Mystere B2
-  Найдено: md_460_yt_cup_2019 -> ␙Super Mystere B2
     Поиск локализации для: jaguar_e
     Прямой поиск: jaguar_e -> Jaguar E
   Найдено: jaguar_e -> Jaguar E
@@ -38800,8 +38734,8 @@
     Прямой поиск: kfir_c10_colombia -> ◡Kfir C.10
   Найдено: kfir_c10_colombia -> ◡Kfir C.10
 Статистика локализации:
-  Найдено локализаций: 3338
-  Использован fallback: 6
-  Всего обработано: 3344
-Данные локализации (3344 записей) сохранены в localization.csv
+  Найдено локализаций: 3320
+  Использован fallback: 2
+  Всего обработано: 3322
+Данные локализации (3322 записей) сохранены в localization.csv
 Парсинг локализации завершен успешно! Создан файл localization.csv
