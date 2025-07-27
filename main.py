@@ -8,11 +8,12 @@ from typing import Optional
 
 from shop_parser import ShopParser
 from localization_parser import LocalizationParser
+from wpcost_parser import WpcostParser
 
 
 def main(config_path: Optional[str] = None):
     """
-    Основная функция запуска приложения
+    Основная функция запуска приложения (полный парсинг)
     
     Args:
         config_path: Путь к конфигурационному файлу (по умолчанию 'config.txt')
@@ -28,9 +29,10 @@ def main(config_path: Optional[str] = None):
             print("Создайте файл config.txt со следующим содержимым:")
             print("shop_url=https://example.com/shop.blkx")
             print("localization_url=https://example.com/localization.csv")
+            print("wpcost_url=https://example.com/wpcost.blkx")
             sys.exit(1)
         
-        # Создаем экземпляр основного парсера
+        # 1. Создаем экземпляр основного парсера
         print("🚀 Запуск парсера shop.blkx...")
         parser = ShopParser(config_path)
         
@@ -40,7 +42,7 @@ def main(config_path: Optional[str] = None):
         print("✅ Основной парсинг успешно завершен!")
         print("📄 Результаты сохранены в файл shop.csv")
         
-        # Запускаем парсинг локализации
+        # 2. Запускаем парсинг локализации
         print("\n🌐 Запуск парсера локализации...")
         localization_parser = LocalizationParser(config_path)
         
@@ -50,14 +52,28 @@ def main(config_path: Optional[str] = None):
             print("📄 Результаты сохранены в файл localization.csv")
         except Exception as e:
             print(f"⚠️ Ошибка при парсинге локализации: {e}")
-            print("💡 Основной парсинг завершен успешно, можно продолжить работу с shop.csv")
+            print("💡 Основной парсинг завершен успешно, продолжаем с wpcost...")
+        
+        # 3. Запускаем парсинг wpcost
+        print("\n💰 Запуск парсера wpcost...")
+        wpcost_parser = WpcostParser(config_path)
+        
+        try:
+            wpcost_parser.run()
+            print("✅ Парсинг wpcost успешно завершен!")
+            print("📄 Результаты сохранены в файл wpcost.csv")
+        except Exception as e:
+            print(f"⚠️ Ошибка при парсинге wpcost: {e}")
+            print("💡 Основные этапы завершены, можно продолжить работу с имеющимися файлами")
         
         print(f"\n🎉 Все операции завершены!")
         print("📁 Созданные файлы:")
         print("   - shop.csv (основные данные)")
         print("   - localization.csv (локализованные названия)")
+        print("   - wpcost.csv (экономические данные)")
         print("   - shop_parser_debug.log (лог основного парсера)")
         print("   - localization_parser_debug.log (лог парсера локализации)")
+        print("   - wpcost_parser_debug.log (лог парсера wpcost)")
         
     except KeyboardInterrupt:
         print("\n⚠️ Операция прервана пользователем")
@@ -69,7 +85,7 @@ def main(config_path: Optional[str] = None):
 
 def main_shop_only(config_path: Optional[str] = None):
     """
-    Запуск только основного парсера shop.blkx (без локализации)
+    Запуск только основного парсера shop.blkx (без локализации и wpcost)
     
     Args:
         config_path: Путь к конфигурационному файлу (по умолчанию 'config.txt')
@@ -144,22 +160,65 @@ def main_localization_only(config_path: Optional[str] = None):
         sys.exit(1)
 
 
+def main_wpcost_only(config_path: Optional[str] = None):
+    """
+    Запуск только парсера wpcost
+    
+    Args:
+        config_path: Путь к конфигурационному файлу (по умолчанию 'config.txt')
+    """
+    try:
+        # Определяем путь к конфигурационному файлу
+        if config_path is None:
+            config_path = 'config.txt'
+        
+        # Проверяем существование конфигурационного файла
+        if not os.path.exists(config_path):
+            print(f"Ошибка: Конфигурационный файл '{config_path}' не найден.")
+            print("Создайте файл config.txt с wpcost_url")
+            sys.exit(1)
+        
+        # Проверяем существование shop.csv
+        if not os.path.exists('shop.csv'):
+            print("Ошибка: Файл shop.csv не найден.")
+            print("Сначала выполните основной парсинг или используйте команду без флагов")
+            sys.exit(1)
+        
+        # Создаем экземпляр парсера wpcost
+        wpcost_parser = WpcostParser(config_path)
+        
+        # Запускаем парсинг wpcost
+        wpcost_parser.run()
+        
+        print("\n✅ Парсинг wpcost успешно завершен!")
+        print("📄 Результаты сохранены в файл wpcost.csv")
+        
+    except KeyboardInterrupt:
+        print("\n⚠️ Операция прервана пользователем")
+        sys.exit(1)
+    except Exception as e:
+        print(f"\n❌ Критическая ошибка: {e}")
+        sys.exit(1)
+
+
 def print_help():
     """Выводит справку по использованию"""
     print("Парсер shop.blkx для War Thunder")
     print("================================")
     print()
     print("Использование:")
-    print("  python main.py                         - полный парсинг (shop.blkx + локализация)")
+    print("  python main.py                         - полный парсинг (shop.blkx + локализация + wpcost)")
     print("  python main.py --config path.txt       - полный парсинг с указанным конфигом")
     print("  python main.py --shop-only             - только парсинг shop.blkx")
     print("  python main.py --localization-only     - только парсинг локализации")
+    print("  python main.py --wpcost-only           - только парсинг wpcost")
     print("  python main.py --help                  - показать эту справку")
     print()
     print("Требования:")
     print("  1. Файл конфигурации должен содержать:")
     print("     shop_url=https://example.com/shop.blkx")
     print("     localization_url=https://example.com/localization.csv")
+    print("     wpcost_url=https://example.com/wpcost.blkx")
     print()
     print("  2. Установленные зависимости:")
     print("     pip install requests")
@@ -167,12 +226,15 @@ def print_help():
     print("Результат:")
     print("  - shop.csv                          - основные данные в CSV формате")
     print("  - localization.csv                  - локализованные названия")
+    print("  - wpcost.csv                        - экономические данные (серебро, опыт, БР)")
     print("  - shop_parser_debug.log             - подробный лог основного парсера")
     print("  - localization_parser_debug.log     - подробный лог парсера локализации")
+    print("  - wpcost_parser_debug.log           - подробный лог парсера wpcost")
     print()
     print("Примечания:")
-    print("  - Для парсинга только локализации нужен готовый файл shop.csv")
-    print("  - Если localization_url отсутствует, выполнится только основной парсинг")
+    print("  - Для парсинга только локализации/wpcost нужен готовый файл shop.csv")
+    print("  - Если какой-то URL отсутствует, соответствующий этап будет пропущен")
+    print("  - wpcost парсер вычисляет БР по формуле: (economicRankHistorical / 3) + 1")
 
 
 if __name__ == "__main__":
@@ -188,6 +250,8 @@ if __name__ == "__main__":
             main_shop_only()
         elif arg == '--localization-only':
             main_localization_only()
+        elif arg == '--wpcost-only':
+            main_wpcost_only()
         else:
             print(f"Неизвестный аргумент: {arg}")
             print("Используйте --help для получения справки")
@@ -204,6 +268,8 @@ if __name__ == "__main__":
             main_shop_only(config_file)
         elif flag == '--localization-only':
             main_localization_only(config_file)
+        elif flag == '--wpcost-only':
+            main_wpcost_only(config_file)
         else:
             print(f"Неизвестный флаг: {flag}")
             print("Используйте --help для получения справки")

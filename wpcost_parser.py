@@ -1,0 +1,279 @@
+import json
+import csv
+import requests
+from typing import Dict, List, Any, Optional
+
+from utils import Config, Logger
+
+
+class WpcostParser:
+    """Класс для парсинга данных wpcost.blkx War Thunder"""
+    
+    def __init__(self, config_path: str = 'config.txt'):
+        """
+        Инициализация парсера wpcost.blkx
+        
+        Args:
+            config_path: Путь к конфигурационному файлу
+        """
+        self.config = Config(config_path)
+        self.logger = Logger('wpcost_parser', 'wpcost_parser_debug.log')
+        self.wpcost_data: Dict[str, Any] = {}
+        
+    def fetch_wpcost_data(self) -> Dict[str, Any]:
+        """Загружает данные wpcost.blkx из удаленного источника с поддержкой fallback URL"""
+        # Основной URL из конфигурации
+        primary_url = self.config.get('wpcost_url')
+        if not primary_url:
+            raise ValueError("wpcost_url не найден в конфигурации")
+        
+        # Fallback URL для обхода ограничений jsdelivr
+        fallback_urls = self.config.get('wpcost_fallback_urls', '').split(',')
+        fallback_urls = [url.strip() for url in fallback_urls if url.strip()]
+        
+        # Список всех URL для попытки загрузки
+        urls_to_try = [primary_url] + fallback_urls
+        
+        for attempt, url in enumerate(urls_to_try, 1):
+            try:
+                self.logger.log(f"Попытка {attempt}: Загрузка данных wpcost из: {url}")
+                response = requests.get(url, timeout=45)
+                
+                # Проверяем статус код
+                if response.status_code == 403:
+                    self.logger.log(f"Получен код 403 (файл слишком большой или доступ запрещен) для URL: {url}", 'warning')
+                    if attempt < len(urls_to_try):
+                        self.logger.log("Пробуем следующий URL...", 'warning')
+                        continue
+                    else:
+                        raise requests.RequestException(f"Все URL недоступны. Последняя ошибка: 403 Forbidden")
+                
+                response.raise_for_status()
+                
+                # Проверяем размер файла
+                content_length = response.headers.get('content-length')
+                if content_length:
+                    size_mb = int(content_length) / (1024 * 1024)
+                    self.logger.log(f"Размер файла: {size_mb:.1f} МБ")
+                
+                wpcost_data = response.json()
+                self.logger.log(f"Данные wpcost успешно загружены с попытки {attempt}")
+                return wpcost_data
+                
+            except requests.RequestException as e:
+                self.logger.log(f"Ошибка загрузки с URL {url}: {e}", 'warning')
+                if attempt < len(urls_to_try):
+                    self.logger.log("Пробуем следующий URL...", 'warning')
+                    continue
+                else:
+                    raise RuntimeError(f"Не удалось загрузить данные wpcost ни с одного URL. Последняя ошибка: {e}")
+            except json.JSONDecodeError as e:
+                self.logger.log(f"Ошибка декодирования JSON с URL {url}: {e}", 'warning')
+                if attempt < len(urls_to_try):
+                    self.logger.log("Пробуем следующий URL...", 'warning')
+                    continue
+                else:
+                    raise RuntimeError(f"Ошибка декодирования JSON wpcost: {e}")
+    
+    def load_shop_ids(self, shop_csv_path: str = 'shop.csv') -> List[str]:
+        """Загружает список ID из файла shop.csv"""
+        shop_ids = []
+        
+        try:
+            with open(shop_csv_path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                
+                for row in reader:
+                    unit_id = row.get('id', '').strip()
+                    if unit_id:
+                        shop_ids.append(unit_id)
+                        
+            self.logger.log(f"Загружено {len(shop_ids)} ID из {shop_csv_path}")
+            return shop_ids
+            
+        except FileNotFoundError:
+            raise RuntimeError(f"Файл {shop_csv_path} не найден. Сначала выполните основной парсинг shop.blkx")
+        except Exception as e:
+            raise RuntimeError(f"Ошибка чтения файла {shop_csv_path}: {e}")
+    
+    def calculate_br(self, economic_rank: int) -> float:
+        """
+        Вычисляет БР (Battle Rating) из economicRankHistorical
+        
+        Args:
+            economic_rank: Значение economicRankHistorical
+            
+        Returns:
+            Округленное значение БР или 1.0 если входное значение некорректно
+        """
+        if economic_rank is None or economic_rank <= 0:
+            self.logger.log(f"    БР расчет: economicRank некорректен ({economic_rank}), используем fallback 1.0", 'debug')
+            return 1.0
+            
+        # Формула: БР = (economicRankHistorical / 3) + 1
+        br_raw = (economic_rank / 3) + 1
+        
+        # Округляем до ближайшего значения: X.0, X.3, X.7
+        integer_part = int(br_raw)
+        decimal_part = br_raw - integer_part
+        
+        # Определяем возможные значения для округления
+        possible_values = [
+            integer_part,           # X.0
+            integer_part + 0.3,     # X.3  
+            integer_part + 0.7,     # X.7
+            integer_part + 1        # (X+1).0
+        ]
+        
+        # Находим ближайшее значение
+        closest_value = min(possible_values, key=lambda x: abs(x - br_raw))
+        
+        self.logger.log(f"    БР расчет: economicRank={economic_rank}, raw={br_raw:.3f}, округлено={closest_value}", 'debug')
+        
+        return closest_value
+    
+    def extract_unit_data(self, unit_id: str, unit_data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Извлекает необходимые данные для одного юнита
+        
+        Args:
+            unit_id: ID юнита
+            unit_data: Данные юнита из wpcost.blkx
+            
+        Returns:
+            Словарь с извлеченными данными
+        """
+        # Извлекаем значения с проверкой типов
+        value = unit_data.get('value')
+        req_exp = unit_data.get('reqExp')
+        economic_rank = unit_data.get('economicRankHistorical')
+        
+        # Обрабатываем value (silver)
+        if value is None or not isinstance(value, (int, float)):
+            silver = 0
+            self.logger.log(f"    value отсутствует или некорректно для {unit_id}, установлено 0", 'debug')
+        else:
+            silver = int(value)
+        
+        # Обрабатываем reqExp (exp)
+        if req_exp is None or not isinstance(req_exp, (int, float)):
+            exp = None
+            self.logger.log(f"    reqExp отсутствует или некорректно для {unit_id}, установлено None", 'debug')
+        elif req_exp == 0:
+            exp = None  # Специальное условие: если reqExp = 0, записываем None
+            self.logger.log(f"    reqExp равно 0 для {unit_id}, установлено None", 'debug')
+        else:
+            exp = int(req_exp)
+        
+        # Обрабатываем economicRankHistorical (br)
+        if economic_rank is None or not isinstance(economic_rank, (int, float)):
+            br = 1.0  # Fallback значение
+            self.logger.log(f"    economicRankHistorical отсутствует или некорректно для {unit_id}, BR установлен 1.0", 'debug')
+        else:
+            br = self.calculate_br(int(economic_rank))
+        
+        result = {
+            'id': unit_id,
+            'silver': silver,
+            'exp': exp,
+            'br': br
+        }
+        
+        self.logger.log(f"  Обработан {unit_id}: silver={silver}, exp={exp}, br={br}", 'debug')
+        
+        return result
+    
+    def process_wpcost_data(self, shop_ids: List[str], wpcost_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Обрабатывает данные wpcost.blkx для списка ID из shop.csv"""
+        results = []
+        found_count = 0
+        not_found_count = 0
+        
+        self.logger.log("Начинаем обработку данных wpcost...")
+        
+        # Удаляем служебные поля из wpcost_data
+        filtered_wpcost_data = {k: v for k, v in wpcost_data.items() 
+                               if not k.startswith('economicRank') and isinstance(v, dict)}
+        
+        self.logger.log(f"В wpcost найдено {len(filtered_wpcost_data)} юнитов (исключены служебные поля)")
+        
+        for unit_id in shop_ids:
+            if unit_id in filtered_wpcost_data:
+                # Юнит найден в wpcost данных
+                unit_data = filtered_wpcost_data[unit_id]
+                extracted_data = self.extract_unit_data(unit_id, unit_data)
+                results.append(extracted_data)
+                found_count += 1
+                self.logger.log(f"  Найден: {unit_id}", 'debug')
+            else:
+                # Юнит не найден - пропускаем
+                not_found_count += 1
+                self.logger.log(f"  Не найден: {unit_id} - пропускается", 'debug')
+        
+        self.logger.log(f"Статистика обработки wpcost:")
+        self.logger.log(f"  Найдено и обработано: {found_count}")
+        self.logger.log(f"  Не найдено (пропущено): {not_found_count}")
+        self.logger.log(f"  Всего ID из shop.csv: {len(shop_ids)}")
+        
+        return results
+    
+    def save_to_csv(self, data: List[Dict[str, Any]], filename: str = 'wpcost.csv'):
+        """Сохраняет данные wpcost в CSV файл"""
+        if not data:
+            self.logger.log("Нет данных wpcost для сохранения", 'warning')
+            return
+            
+        try:
+            with open(filename, 'w', newline='', encoding='utf-8') as f:
+                fieldnames = ['id', 'silver', 'exp', 'br']
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                
+                for item in data:
+                    # Подготавливаем данные для записи
+                    row_data = {
+                        'id': item['id'],
+                        'silver': item['silver'],
+                        'exp': item['exp'] if item['exp'] is not None else '',
+                        'br': item['br']  # БР всегда будет числом (минимум 1.0)
+                    }
+                    writer.writerow(row_data)
+                    
+            self.logger.log(f"Данные wpcost ({len(data)} записей) сохранены в {filename}")
+            
+            # Дополнительная статистика
+            with_exp_count = sum(1 for item in data if item['exp'] is not None)
+            fallback_br_count = sum(1 for item in data if item['br'] == 1.0)
+            
+            self.logger.log(f"Статистика данных:")
+            self.logger.log(f"  Записей с опытом (exp): {with_exp_count}")
+            self.logger.log(f"  Записей с fallback БР (1.0): {fallback_br_count}")
+            self.logger.log(f"  Всего записей: {len(data)}")
+            
+        except Exception as e:
+            self.logger.log(f"Ошибка при сохранении wpcost в CSV: {e}", 'error')
+            raise
+    
+    def run(self, shop_csv_path: str = 'shop.csv', output_file: str = 'wpcost.csv'):
+        """Основной метод запуска парсера wpcost"""
+        try:
+            self.logger.log("Запуск парсера wpcost.blkx...")
+            
+            # Загружаем ID из shop.csv
+            shop_ids = self.load_shop_ids(shop_csv_path)
+            
+            # Загружаем данные wpcost.blkx
+            wpcost_data = self.fetch_wpcost_data()
+            
+            # Обрабатываем данные
+            processed_data = self.process_wpcost_data(shop_ids, wpcost_data)
+            
+            # Сохраняем результат
+            self.save_to_csv(processed_data, output_file)
+            
+            self.logger.log(f"Парсинг wpcost завершен успешно! Создан файл {output_file}")
+            return True
+            
+        except Exception as e:
+            self.logger.log(f"Ошибка при выполнении парсинга wpcost: {e}", 'error')
+            raise

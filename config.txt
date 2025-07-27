@@ -2,5 +2,11 @@ shop_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.v
 
 localization_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/lang.vromfs.bin_u/lang/units.csv
 
+# Основной URL для wpcost (jsdelivr ограничен 20 МБ)
+wpcost_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
+
+# Fallback URL для больших файлов (через запятую)
+wpcost_fallback_urls=https://github.com/gszabi99/War-Thunder-Datamine/raw/master/char.vromfs.bin_u/config/wpcost.blkx,https://cdn.statically.io/gh/gszabi99/War-Thunder-Datamine/master/char.vromfs.bin_u/config/wpcost.blkx,https://gitcdn.xyz/repo/gszabi99/War-Thunder-Datamine/master/char.vromfs.bin_u/config/wpcost.blkx
+
 debug_mode=true
 save_intermediate_files=true

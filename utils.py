@@ -133,7 +133,10 @@ class Constants:
         'endPurchaseDate',
         'hideByPlatform'
     ]
+    
+    # Аномальные окончания для удаления
     ANOMALOUS_SUFFIXES = ['_race', '_football', '_yt_cup_2019', '_event']
+    
     # Поля для CSV экспорта
     CSV_FIELDNAMES = [
         'id', 'rank', 'country', 'vehicle_type', 'type', 'status',
@@ -143,4 +146,9 @@ class Constants:
     # Поля для CSV локализации
     LOCALIZATION_CSV_FIELDNAMES = [
         'id', 'localized_name'
+    ]
+    
+    # Поля для CSV wpcost
+    WPCOST_CSV_FIELDNAMES = [
+        'id', 'silver', 'exp', 'br'
     ]
