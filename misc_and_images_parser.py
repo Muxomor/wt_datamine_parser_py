@@ -214,11 +214,13 @@ class MiscAndImagesParser:
         """Отладочный метод для анализа стратегий поиска"""
         print(f"\n=== DEBUG: Поиск для {unit_id} ===")
         
+        unit_id_lower = unit_id.lower()
+        
         # Генерируем все стратегии поиска
         search_variants = [
-            unit_id,  # Точное совпадение
-            unit_id.replace('-', '_'),  # Заменяем дефисы на подчеркивания
-            unit_id.replace('_', '-'),  # Заменяем подчеркивания на дефисы  
+            unit_id_lower,  # Точное совпадение
+            unit_id_lower.replace('-', '_'),  # Заменяем дефисы на подчеркивания
+            unit_id_lower.replace('_', '-'),  # Заменяем подчеркивания на дефисы  
         ]
         
         # Дополнительные варианты для групп
@@ -295,7 +297,7 @@ class MiscAndImagesParser:
             self.logger.log(f"Ошибка чтения fallback файла {shop_images_fields_path}: {e}", 'warning')
             return {}
     
-    def fetch_shop_images(self, shop_csv_path: str = 'shop.csv', shop_images_fields_path: str = 'shop_images_fields.csv') -> List[Dict[str, str]]:
+    def _find_image_from_shop_field(self, unit_id: str, image_fields: Dict[str, str]) -> str:
         """Ищет изображение используя поле image из shop.blkx как fallback"""
         unit_id_lower = unit_id.lower()
         
@@ -307,6 +309,8 @@ class MiscAndImagesParser:
             return fallback_url
         
         return ''
+    
+    def fetch_shop_images(self, shop_csv_path: str = 'shop.csv', shop_images_fields_path: str = 'shop_images_fields.csv') -> List[Dict[str, str]]:
         """Собирает изображения для ID из shop.csv используя GitHub API"""
         self.logger.log("Сбор изображений техники...")
         

@@ -1,5 +1,5 @@
 Запуск парсера wpcost.blkx...
-Загружено 3322 ID из shop.csv
+Загружено 3316 ID из shop.csv
 Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Пробуем следующий URL...
@@ -910,9 +910,6 @@
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан o3u_1: silver=6300, exp=5900, br=1.3
   Найден: o3u_1
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан os2u_1_naval: silver=6300, exp=5900, br=1.3
-  Найден: os2u_1_naval
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан p-40e_td: silver=10000, exp=7900, br=2.7
   Найден: p-40e_td
@@ -994,9 +991,6 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан f-4s: silver=0, exp=300000, br=12
   Найден: f-4s
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан ucav_mq_1_predator: silver=0, exp=260000, br=10.7
-  Найден: ucav_mq_1_predator
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан f_20a: silver=0, exp=400000, br=12.3
   Найден: f_20a
@@ -1096,12 +1090,6 @@
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан uav_quadcopter: silver=0, exp=260000, br=10.7
   Найден: uav_quadcopter
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан ucav_recon_micro: silver=0, exp=260000, br=10.7
-  Найден: ucav_recon_micro
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан ucav_recon_micro_flir: silver=0, exp=260000, br=10.7
-  Найден: ucav_recon_micro_flir
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан f_14a_iriaf: silver=1080000, exp=400000, br=13
   Найден: f_14a_iriaf
@@ -3745,9 +3733,6 @@
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан su_25tm: silver=0, exp=400000, br=11.3
   Найден: su_25tm
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан ucav_orion: silver=0, exp=260000, br=10.7
-  Найден: ucav_orion
     reqExp отсутствует или некорректно для ussr_destroyer_frunze, установлено None
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан ussr_destroyer_frunze: silver=0, exp=None, br=3.3
@@ -6656,9 +6641,6 @@
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан f_100f_china: silver=520000, exp=190000, br=9.3
   Найден: f_100f_china
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан ucav_wing_loong_i: silver=0, exp=260000, br=10.7
-  Найден: ucav_wing_loong_i
     reqExp отсутствует или некорректно для it_ab_41, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан it_ab_41: silver=0, exp=None, br=1.0
@@ -9101,12 +9083,12 @@
   Обработан kfir_c10_colombia: silver=1100000, exp=410000, br=13
   Найден: kfir_c10_colombia
 Статистика обработки wpcost:
-  Найдено и обработано: 2845
+  Найдено и обработано: 2839
   Не найдено (пропущено): 477
-  Всего ID из shop.csv: 3322
-Данные wpcost (2845 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3316
+Данные wpcost (2839 записей) сохранены в wpcost.csv
 Статистика данных:
-  Записей с опытом (exp): 2765
+  Записей с опытом (exp): 2759
   Записей с fallback БР (1.0): 152
-  Всего записей: 2845
+  Всего записей: 2839
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

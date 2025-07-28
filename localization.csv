@@ -330,7 +330,6 @@ p-36c_rb,○P-36C
 f2a-1_thach,F2A-1 Тача
 soc_1,SOC-1
 o3u_1,O3U-1
-os2u_1_naval,OS2U-1
 p-40e_td,P-40E-1 TD
 ki_43_2_late,▃Ki-43-II
 p-51a_tl,P-51A
@@ -358,7 +357,6 @@ a_10a_early,A-10A
 f-5c,F-5C
 a_6e_tram,A-6E TRAM
 f-4s,F-4S Phantom II
-ucav_mq_1_predator,MQ-1
 f_20a,F-20A
 fa_18c_early,F/A-18C Early
 p-26a_34,P-26A-34
@@ -392,8 +390,6 @@ f-5a,F-5A
 a_7k,A-7K
 av_8b_na,AV-8B (NA)
 uav_quadcopter,UAV Raven's Eye
-ucav_recon_micro,Recon Micro
-ucav_recon_micro_flir,Recon Micro
 f_14a_iriaf,▄F-14A IRIAF
 us_destroyer_clemson_litchfield,USS Litchfield
 us_destroyer_farragut_1942,USS Aylwin
@@ -1411,7 +1407,6 @@ su-7bmk,Су-7БМК
 su_25k,Су-25К
 su_25_558arz,Су-25БМ
 su_25tm,Су-39
-ucav_orion,Орион
 ussr_destroyer_frunze,Фрунзе
 ussr_destroyer_pr45,Опытный
 ussr_destroyer_7_besposhchadny,Беспощадный
@@ -2450,7 +2445,6 @@ p-51c-11-nt_china,␗P-51C-11-NT
 f_47n_25_re_china,␗F-47N-25-RE
 pe-2-359_china,Пе-2-359
 f_100f_china,␗F-100F
-ucav_wing_loong_i,Wing Loong I
 it_ab_41,AB 41
 it_m11_39,M11/39
 it_as_42_47,AS 42/47

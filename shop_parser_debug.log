@@ -1,57 +1,1251 @@
 Запуск парсера shop.blkx...
 Порог для определения премиумных колонок: 30.0%
 Обработка slave-юнитов: отключена
+Аномальные окончания: ['_race', '_football', '_yt_cup_2019', '_event', '_naval']
+Аномальные начала: ['ucav_']
 Загрузка данных из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/shop.blkx
 Данные успешно загружены
 Начинаем очистку от аномальных элементов...
   Очистка страны: usa
-    УДАЛЕН: us_m551_football (аномальное окончание)
-    УДАЛЕН: us_m1a1_abrams_yt_cup_2019 (аномальное окончание)
-    УДАЛЕН: us_m18_hellcat_black_cat_race (аномальное окончание)
-    УДАЛЕН: ah_1f_event (аномальное окончание)
-    УДАЛЕН: os2u_1_naval (аномальное окончание)
-    УДАЛЕН: f_4e_event (аномальное окончание)
+    УДАЛЕН: us_m551_football (аномальное окончание/начало)
+    УДАЛЕН: us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
+    УДАЛЕН: us_m18_hellcat_black_cat_race (аномальное окончание/начало)
+    УДАЛЕН: ah_1f_event (аномальное окончание/начало)
+    УДАЛЕН: os2u_1_naval (аномальное окончание/начало)
+    УДАЛЕН: ucav_mq_1_predator (аномальное окончание/начало)
+    УДАЛЕН: f_4e_event (аномальное окончание/начало)
+    УДАЛЕН: ucav_recon_micro (аномальное окончание/начало)
+    УДАЛЕН: ucav_recon_micro_flir (аномальное окончание/начало)
   Очистка страны: germany
-    УДАЛЕН: germ_leopard_2a5_yt_cup_2019 (аномальное окончание)
+    УДАЛЕН: germ_leopard_2a5_yt_cup_2019 (аномальное окончание/начало)
       Найден аномальный элемент в группе: germ_garford_putilov_event
-    УДАЛЕНА ГРУППА: germ_wwi_group (содержит аномальные элементы)
+    УДАЛЕНА ГРУППА: germ_wwi_group (группа с аномальными элементами)
   Очистка страны: ussr
-    УДАЛЕН: ussr_m551_football (аномальное окончание)
-    УДАЛЕН: ussr_t_80u_yt_cup_2019 (аномальное окончание)
-    УДАЛЕН: ussr_t_80u_race (аномальное окончание)
-    УДАЛЕН: mig-21_bis_event (аномальное окончание)
-    УДАЛЕН: ussr_pr_206_race (аномальное окончание)
+    УДАЛЕН: ussr_m551_football (аномальное окончание/начало)
+    УДАЛЕН: ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
+    УДАЛЕН: ussr_t_80u_race (аномальное окончание/начало)
+    УДАЛЕН: mig-21_bis_event (аномальное окончание/начало)
+    УДАЛЕН: ucav_orion (аномальное окончание/начало)
+    УДАЛЕН: ussr_pr_206_race (аномальное окончание/начало)
   Очистка страны: britain
       Найден аномальный элемент в группе: uk_garford_putilov_event
-    УДАЛЕНА ГРУППА: uk_entente_group (содержит аномальные элементы)
-    УДАЛЕН: uk_challenger_II_yt_cup_2019 (аномальное окончание)
+    УДАЛЕНА ГРУППА: uk_entente_group (группа с аномальными элементами)
+    УДАЛЕН: uk_challenger_II_yt_cup_2019 (аномальное окончание/начало)
   Очистка страны: japan
   Очистка страны: china
-    УДАЛЕН: cn_ztz_96a_race (аномальное окончание)
+    УДАЛЕН: cn_ztz_96a_race (аномальное окончание/начало)
+    УДАЛЕН: ucav_wing_loong_i (аномальное окончание/начало)
   Очистка страны: italy
   Очистка страны: france
-    УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание)
+    УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание/начало)
   Очистка страны: sweden
   Очистка страны: israel
-Очистка завершена. Удалено элементов: 17
+Очистка завершена. Удалено элементов: 22
 Подробный список удаленных элементов:
-  - usa/Наземная техника/column_5/us_m551_football
-  - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019
-  - usa/Наземная техника/column_6/us_m18_hellcat_black_cat_race
-  - usa/Вертолёты/column_3/ah_1f_event
-  - usa/Авиация/column_5/os2u_1_naval
-  - usa/Авиация/column_5/f_4e_event
-  - germany/Наземная техника/column_5/germ_leopard_2a5_yt_cup_2019
+  - usa/Наземная техника/column_5/us_m551_football (аномальное окончание/начало)
+  - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
+  - usa/Наземная техника/column_6/us_m18_hellcat_black_cat_race (аномальное окончание/начало)
+  - usa/Вертолёты/column_3/ah_1f_event (аномальное окончание/начало)
+  - usa/Авиация/column_5/os2u_1_naval (аномальное окончание/начало)
+  - usa/Авиация/column_5/ucav_mq_1_predator (аномальное окончание/начало)
+  - usa/Авиация/column_5/f_4e_event (аномальное окончание/начало)
+  - usa/Авиация/column_6/ucav_recon_micro (аномальное окончание/начало)
+  - usa/Авиация/column_6/ucav_recon_micro_flir (аномальное окончание/начало)
+  - germany/Наземная техника/column_5/germ_leopard_2a5_yt_cup_2019 (аномальное окончание/начало)
   - germany/Наземная техника/column_6/germ_wwi_group (группа с аномальными элементами)
-  - ussr/Наземная техника/column_6/ussr_m551_football
-  - ussr/Наземная техника/column_6/ussr_t_80u_yt_cup_2019
-  - ussr/Наземная техника/column_6/ussr_t_80u_race
-  - ussr/Авиация/column_5/mig-21_bis_event
-  - ussr/Малый флот/column_4/ussr_pr_206_race
+  - ussr/Наземная техника/column_6/ussr_m551_football (аномальное окончание/начало)
+  - ussr/Наземная техника/column_6/ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
+  - ussr/Наземная техника/column_6/ussr_t_80u_race (аномальное окончание/начало)
+  - ussr/Авиация/column_5/mig-21_bis_event (аномальное окончание/начало)
+  - ussr/Авиация/column_6/ucav_orion (аномальное окончание/начало)
+  - ussr/Малый флот/column_4/ussr_pr_206_race (аномальное окончание/начало)
   - britain/Наземная техника/column_6/uk_entente_group (группа с аномальными элементами)
-  - britain/Наземная техника/column_6/uk_challenger_II_yt_cup_2019
-  - china/Наземная техника/column_5/cn_ztz_96a_race
-  - france/Авиация/column_6/md_460_yt_cup_2019
+  - britain/Наземная техника/column_6/uk_challenger_II_yt_cup_2019 (аномальное окончание/начало)
+  - china/Наземная техника/column_5/cn_ztz_96a_race (аномальное окончание/начало)
+  - china/Авиация/column_5/ucav_wing_loong_i (аномальное окончание/начало)
+  - france/Авиация/column_6/md_460_yt_cup_2019 (аномальное окончание/начало)
+Извлечение полей image...
+  Найдено поле image: us_sherman_group -> us_sherman_group
+        ОТЛАДКА: get_group_items добавлен us_m4a1_1942_sherman с order=0
+        ОТЛАДКА: get_group_items добавлен us_m4_sherman с order=1
+        ОТЛАДКА: get_group_items добавлен us_m4a2_sherman с order=2
+  Найдено поле image: us_sherman_76w_group -> us_sherman_76w_group
+        ОТЛАДКА: get_group_items добавлен us_m4a2_76w_sherman с order=0
+        ОТЛАДКА: get_group_items добавлен us_m4a3e8_76w_sherman с order=1
+  Найдено поле image: us_t26_t25_group -> us_t26_t25_group
+        ОТЛАДКА: get_group_items добавлен us_m4_t26 с order=0
+        ОТЛАДКА: get_group_items добавлен us_t25 с order=1
+  Найдено поле image: us_m47_48_group -> us_m47_48_group
+        ОТЛАДКА: get_group_items добавлен us_m47_patton_II с order=0
+        ОТЛАДКА: get_group_items добавлен us_m48a1_patton_III с order=1
+  Найдено поле image: us_m60_group -> us_m60_group
+        ОТЛАДКА: get_group_items добавлен us_m60a1 с order=0
+        ОТЛАДКА: get_group_items добавлен us_m60a1_rise_passive_era с order=1
+  Найдено поле image: us_m6_group -> us_m6_group
+        ОТЛАДКА: get_group_items добавлен us_m6a1 с order=0
+        ОТЛАДКА: get_group_items добавлен us_t1e1 с order=1
+  Найдено поле image: us_t26_group -> us_t26_group
+        ОТЛАДКА: get_group_items добавлен us_t26e5 с order=0
+        ОТЛАДКА: get_group_items добавлен us_t26e4_superpershing с order=1
+  Найдено поле image: us_t32_group -> us_t32_group
+        ОТЛАДКА: get_group_items добавлен us_t32 с order=0
+        ОТЛАДКА: get_group_items добавлен us_t32e1 с order=1
+  Найдено поле image: us_mbt_xm_group -> us_mbt_xm_group
+        ОТЛАДКА: get_group_items добавлен us_xm_803 с order=0
+        ОТЛАДКА: get_group_items добавлен us_mbt_70 с order=1
+  Найдено поле image: us_abrams_group -> us_abrams_group
+        ОТЛАДКА: get_group_items добавлен us_m1a1_abrams с order=0
+        ОТЛАДКА: get_group_items добавлен us_m1_ip_abrams с order=1
+  Найдено поле image: us_abrams_a2_group -> us_abrams_a2_group
+        ОТЛАДКА: get_group_items добавлен us_m1a2_abrams с order=0
+        ОТЛАДКА: get_group_items добавлен us_m1a2_sep_abrams с order=1
+  Найдено поле image: us_m19_m42_group -> us_m19_m42_group
+        ОТЛАДКА: get_group_items добавлен us_m19 с order=0
+        ОТЛАДКА: get_group_items добавлен us_m42_duster с order=1
+  Найдено поле image: us_sl_amraam_fcs -> us_sl_amraam_group
+  Найдено поле image: us_m36_group -> us_m36_group
+        ОТЛАДКА: get_group_items добавлен us_m36 с order=0
+        ОТЛАДКА: get_group_items добавлен us_m36b2 с order=1
+        ОТЛАДКА: Элемент группы isCrossPromo имеет тип <class 'bool'>: True
+        ОТЛАДКА: get_group_items добавлен isCrossPromo с order=0
+        ОТЛАДКА: Элемент группы crossPromoBanner имеет тип <class 'str'>: #ui/images/crosspromo_popup_locked
+        ОТЛАДКА: get_group_items добавлен crossPromoBanner с order=1
+  Найдено поле image: us_kit_3rank_group -> us_kit_3rank_group
+        ОТЛАДКА: get_group_items добавлен us_m4a3e8_76w_sherman_kit_3rank с order=0
+        ОТЛАДКА: get_group_items добавлен us_m18_hellcat_kit_3rank с order=1
+        ОТЛАДКА: get_group_items добавлен us_skink_aa_kit_3rank с order=2
+  Найдено поле image: p-26_group -> p26_group
+        ОТЛАДКА: get_group_items добавлен p-26a_33 с order=0
+        ОТЛАДКА: get_group_items добавлен p-26b_35 с order=1
+  Найдено поле image: p-38_group -> p-38_group
+        ОТЛАДКА: get_group_items добавлен p-38e с order=0
+        ОТЛАДКА: get_group_items добавлен p-38g с order=1
+  Найдено поле image: p-39_group -> p-39_group
+        ОТЛАДКА: get_group_items добавлен p-39n с order=0
+        ОТЛАДКА: get_group_items добавлен p-39q_5 с order=1
+  Найдено поле image: p-63_group -> p-63_group
+        ОТЛАДКА: get_group_items добавлен p-63a-10 с order=0
+        ОТЛАДКА: get_group_items добавлен p-63c-5 с order=1
+  Найдено поле image: p-38_late_group -> p-38_late_group
+        ОТЛАДКА: get_group_items добавлен p-38j с order=0
+        ОТЛАДКА: get_group_items добавлен p-38l с order=1
+  Найдено поле image: f-104_group -> f-104_group
+        ОТЛАДКА: get_group_items добавлен f-104a с order=0
+        ОТЛАДКА: get_group_items добавлен f-104c с order=1
+  Найдено поле image: f_16_group -> f_16_group
+        ОТЛАДКА: get_group_items добавлен f_16a_block_10 с order=0
+        ОТЛАДКА: get_group_items добавлен f_16a_block_15_adf с order=1
+  Найдено поле image: p-40_group -> p-40_group
+        ОТЛАДКА: get_group_items добавлен p-40e с order=0
+        ОТЛАДКА: get_group_items добавлен p-40f_10 с order=1
+  Найдено поле image: p-51_early_group -> p-51_early_group
+        ОТЛАДКА: get_group_items добавлен p-51_mk1a_usaaf с order=0
+        ОТЛАДКА: get_group_items добавлен p-51d-5 с order=1
+  Найдено поле image: p-47_ealy_group -> p-47_ealy_group
+        ОТЛАДКА: get_group_items добавлен p-47d_22_re с order=0
+        ОТЛАДКА: get_group_items добавлен p-47d с order=1
+  Найдено поле image: p-47_group -> p-47_group
+        ОТЛАДКА: get_group_items добавлен p-47d-28 с order=0
+        ОТЛАДКА: get_group_items добавлен p-47n-15 с order=1
+  Найдено поле image: f-84_group -> f-84_group
+        ОТЛАДКА: get_group_items добавлен f-84b с order=0
+        ОТЛАДКА: get_group_items добавлен f-84g с order=1
+  Найдено поле image: f_86_group -> f-86_group
+        ОТЛАДКА: get_group_items добавлен f-86a-5 с order=0
+        ОТЛАДКА: get_group_items добавлен f-86f-25 с order=1
+  Найдено поле image: f4f_group -> f4f_group
+        ОТЛАДКА: get_group_items добавлен f4f-3 с order=0
+        ОТЛАДКА: get_group_items добавлен f4f-4 с order=1
+        ОТЛАДКА: get_group_items добавлен f6f-3 с order=2
+  Найдено поле image: f4u_group -> f4u_group
+        ОТЛАДКА: get_group_items добавлен f4u-1a с order=0
+        ОТЛАДКА: get_group_items добавлен f4u-1a_usmc с order=1
+        ОТЛАДКА: get_group_items добавлен f4u-1d с order=2
+  Найдено поле image: f4u_late_group -> f4u_late_group
+        ОТЛАДКА: get_group_items добавлен f4u-1c с order=0
+        ОТЛАДКА: get_group_items добавлен f4u-4b с order=1
+  Найдено поле image: f8f1_group -> f8f1_group
+        ОТЛАДКА: get_group_items добавлен f8f1b с order=0
+        ОТЛАДКА: get_group_items добавлен f7f1 с order=1
+  Найдено поле image: f9f_group -> f9f_group
+        ОТЛАДКА: get_group_items добавлен f9f-2 с order=0
+        ОТЛАДКА: get_group_items добавлен f9f-5 с order=1
+        ОТЛАДКА: get_group_items добавлен f9f-8 с order=2
+  Найдено поле image: f_14_group -> f_14_group
+        ОТЛАДКА: get_group_items добавлен f_14a_early с order=0
+        ОТЛАДКА: get_group_items добавлен f_14b с order=1
+  Найдено поле image: os2u_group -> os2u_group
+        ОТЛАДКА: get_group_items добавлен os2u_1 с order=0
+        ОТЛАДКА: get_group_items добавлен os2u_3 с order=1
+  Найдено поле image: sb2u_group -> sb2u_group
+        ОТЛАДКА: get_group_items добавлен sb2u-2 с order=0
+        ОТЛАДКА: get_group_items добавлен sb2u-3 с order=1
+  Найдено поле image: tbf_group -> tbf_group
+        ОТЛАДКА: get_group_items добавлен tbf-1c с order=0
+        ОТЛАДКА: get_group_items добавлен sbd-3 с order=1
+  Найдено поле image: sb2c_group -> sb2c_group
+        ОТЛАДКА: get_group_items добавлен sb2c_1c с order=0
+        ОТЛАДКА: get_group_items добавлен sb2c_4 с order=1
+  Найдено поле image: pbj_group -> pbj_group
+        ОТЛАДКА: get_group_items добавлен pbj_1j с order=0
+        ОТЛАДКА: get_group_items добавлен pbj_1h с order=1
+  Найдено поле image: a-26b_group -> a-26_group
+        ОТЛАДКА: get_group_items добавлен a-26b_10 с order=0
+        ОТЛАДКА: get_group_items добавлен a-26b с order=1
+  Найдено поле image: douglas_ad_group -> douglas_ad_group
+        ОТЛАДКА: get_group_items добавлен douglas_ad_2 с order=0
+        ОТЛАДКА: get_group_items добавлен douglas_ad_4 с order=1
+        ОТЛАДКА: get_group_items добавлен am_1_mauler с order=2
+  Найдено поле image: a_4b_group -> a_4b_group
+        ОТЛАДКА: get_group_items добавлен a_4b с order=0
+        ОТЛАДКА: get_group_items добавлен fj_4b с order=1
+  Найдено поле image: a_7_group -> a_7_group
+        ОТЛАДКА: get_group_items добавлен a_7d с order=0
+        ОТЛАДКА: get_group_items добавлен a_7e с order=1
+  Найдено поле image: tbd_group -> tbd_group
+        ОТЛАДКА: get_group_items добавлен tbd-1_1938 с order=0
+        ОТЛАДКА: get_group_items добавлен b_18a с order=1
+  Найдено поле image: pby_group -> pby_group
+        ОТЛАДКА: get_group_items добавлен pby-5 с order=0
+        ОТЛАДКА: get_group_items добавлен pby-5a с order=1
+  Найдено поле image: b-17_group -> b-17_group
+        ОТЛАДКА: get_group_items добавлен b-17e с order=0
+        ОТЛАДКА: get_group_items добавлен b-17e_late с order=1
+  Найдено поле image: b-17_late_group -> b-17_late_group
+        ОТЛАДКА: get_group_items добавлен b-17g с order=0
+        ОТЛАДКА: get_group_items добавлен b_24d с order=1
+  Найдено поле image: b_57_group -> b_57_group
+        ОТЛАДКА: get_group_items добавлен b-57 с order=0
+        ОТЛАДКА: get_group_items добавлен b-57b с order=1
+        ОТЛАДКА: Элемент группы giftParam имеет тип <class 'str'>: charServer/entitlement/usa_pacific_41_43
+        ОТЛАДКА: get_group_items добавлен giftParam с order=0
+  Найдено поле image: us_cruiser_fargo_brooklyn_group -> us_cruiser_fargo_brooklyn_group
+        ОТЛАДКА: get_group_items добавлен us_cruiser_fargo_class с order=0
+        ОТЛАДКА: get_group_items добавлен us_cruiser_brooklyn_class_brooklyn с order=1
+  Найдено поле image: us_cruiser_northampton_pensacola_group -> us_cruiser_northampton_pensacola_group
+        ОТЛАДКА: get_group_items добавлен us_cruiser_northampton_class с order=0
+        ОТЛАДКА: get_group_items добавлен us_cruiser_portland_class с order=1
+        ОТЛАДКА: get_group_items добавлен us_cruiser_pensacola_class с order=2
+  Найдено поле image: germ_pzkpfw_38t_group -> germ_pzkpfw_38t_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_ausf_F с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_na с order=1
+  Найдено поле image: germ_dicker_sturer_group -> germ_dicker_sturer_group
+        ОТЛАДКА: get_group_items добавлен germ_pzsfl_IVa_dickermax с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzsflk40_sturer_emil с order=1
+  Найдено поле image: germ_flak_m44_group -> germ_flak_m44_group
+        ОТЛАДКА: get_group_items добавлен germ_sdkfz_9_flak37 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_m44 с order=1
+  Найдено поле image: germ_waffentrager_group -> germ_waffentrager_group
+        ОТЛАДКА: get_group_items добавлен germ_panzerjager_nashorn с order=0
+        ОТЛАДКА: get_group_items добавлен germ_waffentrager_krupp_steyr с order=1
+  Найдено поле image: germ_marder_bmp_group -> germ_marder_bmp_group
+        ОТЛАДКА: get_group_items добавлен germ_marder_1a1 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_bmp_1_ddr с order=1
+  Найдено поле image: germ_marder_group -> germ_marder_group
+        ОТЛАДКА: get_group_items добавлен germ_marder_1a3 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_marder_df_105 с order=1
+  Найдено поле image: germ_tam_sk_group -> germ_tam_sk_group
+        ОТЛАДКА: get_group_items добавлен germ_thyssen_henschel_tam с order=0
+        ОТЛАДКА: get_group_items добавлен germ_sk105_a2 с order=1
+  Найдено поле image: germ_radpanzer_tam_group -> germ_radpanzer_tam_group
+        ОТЛАДКА: get_group_items добавлен germ_radpanzer_90 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_thyssen_henschel_tam_2c с order=1
+  Найдено поле image: germ_puma_group -> germ_puma_group
+        ОТЛАДКА: get_group_items добавлен germ_schutzenpanzer_puma с order=0
+        ОТЛАДКА: get_group_items добавлен germ_schutzenpanzer_puma_vjtf с order=1
+  Найдено поле image: germ_prewar_pz_III_group -> germ_prewar_pz_III_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_E с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_B с order=1
+  Найдено поле image: germ_pzkpfw_III_late_group -> germ_pzkpfw_III_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_L с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_M с order=1
+  Найдено поле image: germ_kpz_super_group -> germ_kpz_super_group
+        ОТЛАДКА: get_group_items добавлен germ_kpz_70 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_mkpz_super_m48 с order=1
+  Найдено поле image: germ_pzkpfw_II_early_group -> germ_pzkpfw_II_early_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_II_ausf_C с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_II_ausf_F с order=1
+  Найдено поле image: germ_pzkpfw_4_early_group -> germ_pzkpfw_4_early_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_E с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_F с order=1
+  Найдено поле image: germ_pz_4_fg_group -> pzkpfw_iv_fg_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_F2 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_G с order=1
+  Найдено поле image: germ_pz_4_late_group -> germ_pzkpfw_iv_late_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_H с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_J с order=1
+  Найдено поле image: germ_pzkpfw_V_a_f_group -> germ_pzkpfw_V_a_f_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_V_ausf_a_panther с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_V_ausf_g_panther с order=1
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_V_ausf_f_panther с order=2
+  Найдено поле image: germ_leopard_1_late_group -> germ_leopard_1_late_group
+        ОТЛАДКА: get_group_items добавлен germ_leopard_I_a1 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_leopard_1a5 с order=1
+  Найдено поле image: germ_leopard_2_group -> germ_leopard_2_group
+        ОТЛАДКА: get_group_items добавлен germ_leopard_2a5 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_leopard_2a6 с order=1
+  Найдено поле image: germ_flakpanzer_1_group -> germ_flakpanzer_1_group
+        ОТЛАДКА: get_group_items добавлен germ_flakpanzer_I_ausf_A с order=0
+        ОТЛАДКА: get_group_items добавлен germ_flakpanzer_38t_Gepard с order=1
+  Найдено поле image: germ_flakpanzer_4_group -> germ_flakpanzer_4_group
+        ОТЛАДКА: get_group_items добавлен germ_flakpanzer_IV_Ostwind с order=0
+        ОТЛАДКА: get_group_items добавлен germ_flakpanzer_IV_Wirbelwind с order=1
+  Найдено поле image: germ_wiesel_gepard_group -> germ_wiesel_gepard_group
+        ОТЛАДКА: get_group_items добавлен germ_wiesel_2_adwc с order=0
+        ОТЛАДКА: get_group_items добавлен germ_flakpz_1a2_Gepard с order=1
+  Найдено поле image: germ_roland_osa_group -> germ_roland_osa_group
+        ОТЛАДКА: get_group_items добавлен germ_flarakpz_1 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_9a33bm3 с order=1
+  Найдено поле image: germ_iris_slm_fcs -> germ_iris_slm_group
+  Найдено поле image: germ_sturmpanzer_221_group -> germ_sturmpanzer_221_group
+        ОТЛАДКА: get_group_items добавлен germ_sturmpanzer_II с order=0
+        ОТЛАДКА: get_group_items добавлен germ_sdkfz_221_s_pz_b_41 с order=1
+  Найдено поле image: germ_panzerjager_251_group -> germ_panzerjager_251_group
+        ОТЛАДКА: get_group_items добавлен germ_panzerjager_1 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_sdkfz_251_9 с order=1
+  Найдено поле image: germ_marder_stug_a_group -> germ_marder_stug_a_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_Marder_III с order=0
+        ОТЛАДКА: get_group_items добавлен germ_stug_III_ausf_A с order=1
+  Найдено поле image: germ_marder_stuh_group -> germ_marder_stuh_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_Marder_III_ausf_H с order=0
+        ОТЛАДКА: get_group_items добавлен germ_stuh_III_ausf_G с order=1
+        ОТЛАДКА: get_group_items добавлен germ_stug_III_ausf_F с order=2
+  Найдено поле image: germ_jagdpanzer_group -> germ_jagdpanzer_group
+        ОТЛАДКА: get_group_items добавлен germ_jgdpz_IV_L48 с order=0
+        ОТЛАДКА: get_group_items добавлен germ_jgdpz_38t с order=1
+  Найдено поле image: germ_jagdpanther_group -> germ_jagdpanther_group
+        ОТЛАДКА: get_group_items добавлен germ_panzerjager_panther с order=0
+        ОТЛАДКА: get_group_items добавлен germ_kanonenjagdpanzer с order=1
+  Найдено поле image: germ_panzerjager_tiger_group -> germ_panzerjager_tiger_group
+        ОТЛАДКА: get_group_items добавлен germ_panzerjager_tiger_P_ferdinand с order=0
+        ОТЛАДКА: get_group_items добавлен germ_panzerjager_tiger с order=1
+  Найдено поле image: germ_tiger_east_west_group -> germ_tiger_east_west_group
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_east с order=0
+        ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_west с order=1
+        ОТЛАДКА: get_group_items добавлен germ_flakpanzer_IV_Ostwind_2_net с order=2
+  Найдено поле image: bf-109e_group -> bf-109e_group
+        ОТЛАДКА: get_group_items добавлен bf-109e-3 с order=0
+        ОТЛАДКА: get_group_items добавлен bf-109e-4 с order=1
+  Найдено поле image: bf-109f_early_group -> bf-109f_early_group
+        ОТЛАДКА: get_group_items добавлен bf-109f-1 с order=0
+        ОТЛАДКА: get_group_items добавлен bf-109f-2 с order=1
+  Найдено поле image: bf-109f_group -> bf-109f_group
+        ОТЛАДКА: get_group_items добавлен bf-109f-4 с order=0
+        ОТЛАДКА: get_group_items добавлен bf-109f-4_trop с order=1
+  Найдено поле image: bf-109g_2_group -> bf-109g_2_group
+        ОТЛАДКА: get_group_items добавлен bf-109g-2 с order=0
+        ОТЛАДКА: get_group_items добавлен bf-109g-6 с order=1
+  Найдено поле image: bf-109g_group -> bf-109g_group
+        ОТЛАДКА: get_group_items добавлен bf-109g-14 с order=0
+        ОТЛАДКА: get_group_items добавлен bf-109g-10 с order=1
+  Найдено поле image: me-262a_group -> me-262c_group
+        ОТЛАДКА: get_group_items добавлен me-262a-1a с order=0
+        ОТЛАДКА: get_group_items добавлен me-262c-1a с order=1
+        ОТЛАДКА: get_group_items добавлен me-262c-2b с order=2
+  Найдено поле image: me-163_group -> me-163_group
+        ОТЛАДКА: get_group_items добавлен me-163b с order=0
+        ОТЛАДКА: get_group_items добавлен me-163b-0 с order=1
+  Найдено поле image: f-86_german_group -> f-86_german_group
+        ОТЛАДКА: get_group_items добавлен f-86_canadair_german с order=0
+        ОТЛАДКА: get_group_items добавлен f-86_cl_13b_mk6 с order=1
+  Найдено поле image: he51_group -> he-51_group
+        ОТЛАДКА: get_group_items добавлен he51a1 с order=0
+        ОТЛАДКА: get_group_items добавлен he51b1 с order=1
+        ОТЛАДКА: get_group_items добавлен he51c1 с order=2
+        ОТЛАДКА: get_group_items добавлен he51c1_late с order=3
+  Найдено поле image: he_112_group -> he_112_group
+        ОТЛАДКА: get_group_items добавлен he_112v_5 с order=0
+        ОТЛАДКА: get_group_items добавлен he_112a_0 с order=1
+  Найдено поле image: fw-190a-4_group -> fw-190a-5_group
+        ОТЛАДКА: get_group_items добавлен fw-190a-4 с order=0
+        ОТЛАДКА: get_group_items добавлен fw-190a-5_u2 с order=1
+  Найдено поле image: fw-190a-5_group -> fw-190a-5_group
+        ОТЛАДКА: get_group_items добавлен fw-190a-5_cannons с order=0
+        ОТЛАДКА: get_group_items добавлен fw-190a-8 с order=1
+  Найдено поле image: fw-190d_group -> fw-190d_group
+        ОТЛАДКА: get_group_items добавлен fw-190a-5 с order=0
+        ОТЛАДКА: get_group_items добавлен fw-190d-12 с order=1
+  Найдено поле image: ta-152_group -> ta-152_group
+        ОТЛАДКА: get_group_items добавлен ta-152h-1 с order=0
+        ОТЛАДКА: get_group_items добавлен ta-152c с order=1
+  Найдено поле image: mig_21_germany_group -> mig-21_mf
+        ОТЛАДКА: get_group_items добавлен mig-21_mf с order=0
+        ОТЛАДКА: get_group_items добавлен mig-21_bis_sau с order=1
+  Найдено поле image: do_217j_group -> do_217j_group
+        ОТЛАДКА: get_group_items добавлен do_217j_1 с order=0
+        ОТЛАДКА: get_group_items добавлен do_217j_2 с order=1
+  Найдено поле image: do_217n_group -> do_217n_group
+        ОТЛАДКА: get_group_items добавлен do_217n_1 с order=0
+        ОТЛАДКА: get_group_items добавлен do_217n_2 с order=1
+  Найдено поле image: bf_110cf_group -> bf_110cf_group
+        ОТЛАДКА: get_group_items добавлен bf-110c-4 с order=0
+        ОТЛАДКА: get_group_items добавлен bf-110f-2 с order=1
+  Найдено поле image: bf_110g_group -> bf_110g_group
+        ОТЛАДКА: get_group_items добавлен bf-110g-2 с order=0
+        ОТЛАДКА: get_group_items добавлен bf_110g_4 с order=1
+  Найдено поле image: me-410a_u2_group -> me-410a_group
+        ОТЛАДКА: get_group_items добавлен me-410a-1_u2 с order=0
+        ОТЛАДКА: get_group_items добавлен me-410b-1_u2 с order=1
+  Найдено поле image: ju-87br_group -> ju-87br_group
+        ОТЛАДКА: get_group_items добавлен ju-87b-2 с order=0
+        ОТЛАДКА: get_group_items добавлен ju-87r-2 с order=1
+  Найдено поле image: ju-87g_group -> ju-87g_group
+        ОТЛАДКА: get_group_items добавлен ju-87g_1 с order=0
+        ОТЛАДКА: get_group_items добавлен ju-87g_2 с order=1
+  Найдено поле image: hs-129_group -> hs-129_group
+        ОТЛАДКА: get_group_items добавлен hs-129b-3 с order=0
+        ОТЛАДКА: get_group_items добавлен hs-129b-2 с order=1
+  Найдено поле image: ju-87d_group -> ju-87d_group
+        ОТЛАДКА: get_group_items добавлен ju-87d-3 с order=0
+        ОТЛАДКА: get_group_items добавлен ju-87d-5 с order=1
+  Найдено поле image: me-410a-1_group -> me-410a-1_group
+        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=0
+        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=1
+  Найдено поле image: me-410a_group -> me-410a_group
+        ОТЛАДКА: get_group_items добавлен me-410a-1 с order=0
+        ОТЛАДКА: get_group_items добавлен me-410b-1 с order=1
+  Найдено поле image: do_335_group -> do_335_group
+        ОТЛАДКА: get_group_items добавлен do_335a_1 с order=0
+        ОТЛАДКА: get_group_items добавлен do_335a_0 с order=1
+  Найдено поле image: do_17_group -> do_17_group
+        ОТЛАДКА: get_group_items добавлен do_17e_1 с order=0
+        ОТЛАДКА: get_group_items добавлен do_17z_2 с order=1
+  Найдено поле image: he_111_bv_138_group -> he_111_bv_138_group
+        ОТЛАДКА: get_group_items добавлен he_115c_1 с order=0
+        ОТЛАДКА: get_group_items добавлен bv-138c-1 с order=1
+  Найдено поле image: ju-88a_group -> ju-88a_group
+        ОТЛАДКА: get_group_items добавлен ju-88a-1 с order=0
+        ОТЛАДКА: get_group_items добавлен ju-88a-4 с order=1
+  Найдено поле image: he-111h_group -> he-111h_group
+        ОТЛАДКА: get_group_items добавлен he-111h-6 с order=0
+        ОТЛАДКА: get_group_items добавлен he-111h-16_winter с order=1
+  Найдено поле image: do_217e_group -> do_217e_group
+        ОТЛАДКА: get_group_items добавлен do_217e_2 с order=0
+        ОТЛАДКА: get_group_items добавлен do_217e_4 с order=1
+  Найдено поле image: do_217k_group -> do_217k_group
+        ОТЛАДКА: get_group_items добавлен do_217k_1 с order=0
+        ОТЛАДКА: get_group_items добавлен do_217m_1 с order=1
+  Найдено поле image: arado_234_group -> arado_234_group
+        ОТЛАДКА: get_group_items добавлен arado-234 с order=0
+        ОТЛАДКА: get_group_items добавлен arado-234c-3 с order=1
+  Найдено поле image: fiat_group -> fiat_group
+        ОТЛАДКА: get_group_items добавлен fiat_cr42 с order=0
+        ОТЛАДКА: get_group_items добавлен fiat_g50_seria2 с order=1
+        ОТЛАДКА: get_group_items добавлен fiat_g50_seria7as с order=2
+  Найдено поле image: mc200_group -> mc200_serie3
+        ОТЛАДКА: get_group_items добавлен mc200_serie3 с order=0
+        ОТЛАДКА: get_group_items добавлен mc200_serie7 с order=1
+        ОТЛАДКА: get_group_items добавлен mc-202 с order=2
+        ОТЛАДКА: Элемент группы isCrossPromo имеет тип <class 'bool'>: True
+        ОТЛАДКА: get_group_items добавлен isCrossPromo с order=0
+        ОТЛАДКА: Элемент группы crossPromoBanner имеет тип <class 'str'>: #ui/images/crosspromo_popup_locked
+        ОТЛАДКА: get_group_items добавлен crossPromoBanner с order=1
+  Найдено поле image: sm_79_group -> sm-79_group
+        ОТЛАДКА: get_group_items добавлен sm_79_1936 с order=0
+        ОТЛАДКА: get_group_items добавлен sm_79_1939 с order=1
+        ОТЛАДКА: get_group_items добавлен sm_79_1941 с order=2
+        ОТЛАДКА: get_group_items добавлен sm_79_1943 с order=3
+        ОТЛАДКА: get_group_items добавлен sm_79_iar с order=4
+        ОТЛАДКА: get_group_items добавлен sm_79_1937 с order=5
+        ОТЛАДКА: get_group_items добавлен sm_79_1942 с order=6
+  Найдено поле image: germ_cruiser_leipzig_nurnberg_group -> germ_cruiser_leipzig_nurnberg_group
+        ОТЛАДКА: get_group_items добавлен germ_cruiser_leipzig с order=0
+        ОТЛАДКА: get_group_items добавлен germ_cruiser_nurnberg с order=1
+  Найдено поле image: ussr_t_34_40_41_group -> ussr_t_34_40_41_group
+        ОТЛАДКА: get_group_items добавлен ussr_t_34_1941_l_11 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_34_1941 с order=1
+  Найдено поле image: ussr_t_34_42_group -> ussr_t_34_42_group
+        ОТЛАДКА: get_group_items добавлен ussr_t_34_1942 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_34E_STZ с order=1
+  Найдено поле image: ussr_t_54_group -> ussr_t_54_group
+        ОТЛАДКА: get_group_items добавлен ussr_t_54_1947 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_54_1949 с order=1
+        ОТЛАДКА: get_group_items добавлен ussr_t_54_1951 с order=2
+  Найдено поле image: ussr_t_55_group -> ussr_t_55_62_group
+        ОТЛАДКА: get_group_items добавлен ussr_t_55a с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_62 с order=1
+  Найдено поле image: ussr_t_62_group -> ussr_t_55_62_m_group
+        ОТЛАДКА: get_group_items добавлен ussr_t_55_amd_1 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_62m1 с order=1
+  Найдено поле image: ussr_t_72b_group -> ussr_t_72b_group
+        ОТЛАДКА: get_group_items добавлен ussr_t_72b с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_72b_1989 с order=1
+  Найдено поле image: ussr_kv_1_2_group -> ussr_kv_1_2_group
+        ОТЛАДКА: get_group_items добавлен ussr_kv_1_L_11 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_kv_2_1939 с order=1
+  Найдено поле image: ussr_kv_1_85_group -> ussr_kv_1_85_group
+        ОТЛАДКА: get_group_items добавлен ussr_kv_1_zis_5 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_kv_85 с order=1
+  Найдено поле image: ussr_is_2_1944_group -> ussr_is_2_1944_group
+        ОТЛАДКА: get_group_items добавлен ussr_is_2_1944 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_is_2_1944_321 с order=1
+  Найдено поле image: ussr_t_64_group -> ussr_t_64_group
+        ОТЛАДКА: get_group_items добавлен ussr_t_64a_1971 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_64_b_1984 с order=1
+  Найдено поле image: ussr_bmp_1_group -> ussr_bmp_1_group
+        ОТЛАДКА: get_group_items добавлен ussr_bmp_1 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_object_906 с order=1
+  Найдено поле image: ussr_bmp_2_group -> ussr_bmp_2_group
+        ОТЛАДКА: get_group_items добавлен ussr_bmp_2 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_object_685 с order=1
+  Найдено поле image: ussr_bmp_3_group -> ussr_bmp_3_group
+        ОТЛАДКА: get_group_items добавлен ussr_bmp_3 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_2s25 с order=1
+  Найдено поле image: ussr_zis_su_group -> ussr_zis_su_group
+        ОТЛАДКА: get_group_items добавлен ussr_zis_30 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_su_57b с order=1
+  Найдено поле image: ussr_su_isu_152_group -> ussr_su_isu_152_group
+        ОТЛАДКА: get_group_items добавлен ussr_su_152 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_su_85_1943 с order=1
+        ОТЛАДКА: get_group_items добавлен ussr_isu_152 с order=2
+  Найдено поле image: ussr_su_isu_122_group -> ussr_su_isu_122_group
+        ОТЛАДКА: get_group_items добавлен ussr_su_85m с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_isu_122 с order=1
+  Найдено поле image: ussr_isu_su_group -> ussr_isu_su_group
+        ОТЛАДКА: get_group_items добавлен ussr_isu_122s с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_su_100_1945 с order=1
+  Найдено поле image: ussr_2s_group -> ussr_2s_group
+        ОТЛАДКА: get_group_items добавлен ussr_2s1 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_2s3m с order=1
+  Найдено поле image: ussr_btr_zis_group -> ussr_btr_152a
+        ОТЛАДКА: get_group_items добавлен ussr_btr_152a с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_zis_43 с order=1
+  Найдено поле image: ussr_zis_group -> ussr_zis_group
+        ОТЛАДКА: get_group_items добавлен ussr_zis_12_94KM_1945 с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_zsu_37 с order=1
+  Найдено поле image: ussr_kit_3rank_group -> ussr_kit_3rank_group
+        ОТЛАДКА: get_group_items добавлен ussr_is_1_kit_3rank с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_t_34_85_zis_53_kit_3rank с order=1
+        ОТЛАДКА: get_group_items добавлен ussr_sdkfz_251_21_kit_3rank с order=2
+  Найдено поле image: yak-1_group -> yak-1_group
+        ОТЛАДКА: get_group_items добавлен yak-1_early с order=0
+        ОТЛАДКА: get_group_items добавлен yak-1b с order=1
+  Найдено поле image: yak-9_group -> yak-9_group
+        ОТЛАДКА: get_group_items добавлен yak-9 с order=0
+        ОТЛАДКА: get_group_items добавлен yak-9b с order=1
+  Найдено поле image: yak-9tk_group -> yak-9tk_group
+        ОТЛАДКА: get_group_items добавлен yak-9t с order=0
+        ОТЛАДКА: get_group_items добавлен yak-9k с order=1
+  Найдено поле image: yak-3_group -> yak-3_group
+        ОТЛАДКА: get_group_items добавлен yak-3 с order=0
+        ОТЛАДКА: get_group_items добавлен yak-9u с order=1
+  Найдено поле image: yak-9up_group -> yak-9up_group
+        ОТЛАДКА: get_group_items добавлен yak-3p с order=0
+        ОТЛАДКА: get_group_items добавлен yak-9p с order=1
+  Найдено поле image: yak-3up_group -> yak-3up_group
+        ОТЛАДКА: get_group_items добавлен yak-3u с order=0
+        ОТЛАДКА: get_group_items добавлен yak-9ut с order=1
+  Найдено поле image: yak-15_group -> yak-15_group
+        ОТЛАДКА: get_group_items добавлен yak-15_early с order=0
+        ОТЛАДКА: get_group_items добавлен yak-15 с order=1
+        ОТЛАДКА: get_group_items добавлен yak-17 с order=2
+  Найдено поле image: i-16_group -> i-16_group
+        ОТЛАДКА: get_group_items добавлен i-16_type10 с order=0
+        ОТЛАДКА: get_group_items добавлен i-16_type18 с order=1
+        ОТЛАДКА: get_group_items добавлен i-16_type24 с order=2
+  Найдено поле image: mig-3_group -> mig_3_series_group
+        ОТЛАДКА: get_group_items добавлен mig_3_series_1_15_bk_pod с order=0
+        ОТЛАДКА: get_group_items добавлен mig_3_series_34 с order=1
+  Найдено поле image: mig-9_group -> mig-9_group
+        ОТЛАДКА: get_group_items добавлен mig-9 с order=0
+        ОТЛАДКА: get_group_items добавлен mig-9_ussr с order=1
+  Найдено поле image: mig-15_group -> mig-15_group
+        ОТЛАДКА: get_group_items добавлен mig-15_ns23 с order=0
+        ОТЛАДКА: get_group_items добавлен mig-15 с order=1
+  Найдено поле image: mig-19_group -> mig-19_group
+        ОТЛАДКА: get_group_items добавлен mig-19pt с order=0
+        ОТЛАДКА: get_group_items добавлен mig-21_f13 с order=1
+  Найдено поле image: mig-21_group -> mig-21_group
+        ОТЛАДКА: get_group_items добавлен mig-21_smt с order=0
+        ОТЛАДКА: get_group_items добавлен mig-21_bis с order=1
+  Найдено поле image: mig-23m_group -> mig-23m_group
+        ОТЛАДКА: get_group_items добавлен mig_23m с order=0
+        ОТЛАДКА: get_group_items добавлен mig_23mld с order=1
+  Найдено поле image: i-15_group -> i-15_group
+        ОТЛАДКА: get_group_items добавлен i-15_1934 с order=0
+        ОТЛАДКА: get_group_items добавлен i-15_1935 с order=1
+        ОТЛАДКА: get_group_items добавлен i-15_1935_moscow с order=2
+  Найдено поле image: i-153_group -> i-153_group
+        ОТЛАДКА: get_group_items добавлен i-15bis с order=0
+        ОТЛАДКА: get_group_items добавлен i-153_m62 с order=1
+  Найдено поле image: lagg-3_group -> lagg-3_group
+        ОТЛАДКА: get_group_items добавлен lagg-3-8 с order=0
+        ОТЛАДКА: get_group_items добавлен lagg-3-11 с order=1
+  Найдено поле image: lagg-3_late_group -> lagg-3_late_group
+        ОТЛАДКА: get_group_items добавлен lagg-3-35 с order=0
+        ОТЛАДКА: get_group_items добавлен lagg-3-66 с order=1
+  Найдено поле image: la_5_group -> la_5_group
+        ОТЛАДКА: get_group_items добавлен la-5_type37_early с order=0
+        ОТЛАДКА: get_group_items добавлен la-5_type39 с order=1
+  Найдено поле image: la_200_group -> la_200_group
+        ОТЛАДКА: get_group_items добавлен la_200_toriy с order=0
+        ОТЛАДКА: get_group_items добавлен la-15 с order=1
+  Найдено поле image: su-7_group -> su-7_group
+        ОТЛАДКА: get_group_items добавлен su-7b с order=0
+        ОТЛАДКА: get_group_items добавлен su-7bkl с order=1
+  Найдено поле image: su-2_group -> su-2_group
+        ОТЛАДКА: get_group_items добавлен bb-1 с order=0
+        ОТЛАДКА: get_group_items добавлен su-2_mv5 с order=1
+        ОТЛАДКА: get_group_items добавлен su-2_tss1 с order=2
+        ОТЛАДКА: get_group_items добавлен su-2_m82 с order=3
+  Найдено поле image: pe-3_group -> pe-3_group
+        ОТЛАДКА: get_group_items добавлен pe-3_early с order=0
+        ОТЛАДКА: get_group_items добавлен pe-3 с order=1
+  Найдено поле image: il-2i_group -> il-2m_group
+        ОТЛАДКА: get_group_items добавлен il-2i с order=0
+        ОТЛАДКА: get_group_items добавлен il_2_37_1943 с order=1
+  Найдено поле image: il-2m_group -> il-2m_group
+        ОТЛАДКА: get_group_items добавлен il_2m_1943 с order=0
+        ОТЛАДКА: get_group_items добавлен il-2m с order=1
+  Найдено поле image: il-10_group -> il-10_group
+        ОТЛАДКА: get_group_items добавлен il-10 с order=0
+        ОТЛАДКА: get_group_items добавлен il-10_1946 с order=1
+  Найдено поле image: il_28_group -> il_28_group
+        ОТЛАДКА: get_group_items добавлен il_28 с order=0
+        ОТЛАДКА: get_group_items добавлен il_28sh с order=1
+  Найдено поле image: sb_group -> sb_group
+        ОТЛАДКА: get_group_items добавлен sb_2m_100 с order=0
+        ОТЛАДКА: get_group_items добавлен sb_2m_103c с order=1
+  Найдено поле image: ar_group -> ar_group
+        ОТЛАДКА: get_group_items добавлен ar_2 с order=0
+        ОТЛАДКА: get_group_items добавлен sb_2m_103u_mv3 с order=1
+        ОТЛАДКА: get_group_items добавлен sb_2m_105 с order=2
+        ОТЛАДКА: get_group_items добавлен sb_2m_103u с order=3
+        ОТЛАДКА: get_group_items добавлен sb_2m_103_mv3 с order=4
+  Найдено поле image: db_3_group -> db_3_group
+        ОТЛАДКА: get_group_items добавлен db_3b с order=0
+        ОТЛАДКА: get_group_items добавлен il-4 с order=1
+  Найдено поле image: pe-2_early_group -> pe-2_group
+        ОТЛАДКА: get_group_items добавлен pe-2-1 с order=0
+        ОТЛАДКА: get_group_items добавлен pe-2-31 с order=1
+        ОТЛАДКА: get_group_items добавлен pe-2-83 с order=2
+  Найдено поле image: er-2_group -> er-2_group
+        ОТЛАДКА: get_group_items добавлен er-2_m105_mv3 с order=0
+        ОТЛАДКА: get_group_items добавлен er-2_m105r_lu2b с order=1
+        ОТЛАДКА: get_group_items добавлен er-2_m105_tat с order=2
+        ОТЛАДКА: get_group_items добавлен er-2_m105r_tat с order=3
+  Найдено поле image: pe-2_late_group -> pe-2_late_group
+        ОТЛАДКА: get_group_items добавлен pe-2-110 с order=0
+        ОТЛАДКА: get_group_items добавлен pe-2-359 с order=1
+  Найдено поле image: er-2_late_group -> er-2_ach30b_group
+        ОТЛАДКА: get_group_items добавлен er-2_ach30b_early с order=0
+        ОТЛАДКА: get_group_items добавлен er-2_ach30b_late с order=1
+  Найдено поле image: tu-2_group -> tu-2_group
+        ОТЛАДКА: get_group_items добавлен tu-2 с order=0
+        ОТЛАДКА: get_group_items добавлен tu-2_postwar с order=1
+        ОТЛАДКА: get_group_items добавлен tu-2_postwar_late с order=2
+  Найдено поле image: mig_27_group -> mig_27_group
+        ОТЛАДКА: get_group_items добавлен mig_27m с order=0
+        ОТЛАДКА: get_group_items добавлен mig_27k с order=1
+  Найдено поле image: ussr_cruiser_chapaev_kutuzov_group -> ussr_cruiser_chapaev_kutuzov_group
+        ОТЛАДКА: get_group_items добавлен ussr_cruiser_chapayev с order=0
+        ОТЛАДКА: get_group_items добавлен ussr_cruiser_sverdlov с order=1
+        ОТЛАДКА: get_group_items добавлен ussr_cruiser_mikhail_kutuzov с order=2
+  Найдено поле image: uk_crusader_group -> uk_crusader_group
+        ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_crusader_mk_3 с order=1
+  Найдено поле image: uk_cromwell_group -> uk_cromwell_group
+        ОТЛАДКА: get_group_items добавлен uk_a27m_cromwell_5 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_a27m_cromwell_1 с order=1
+  Найдено поле image: uk_challenger_comet_group -> uk_a30_challenger
+        ОТЛАДКА: get_group_items добавлен uk_a30_challenger с order=0
+        ОТЛАДКА: get_group_items добавлен uk_a_34_comet с order=1
+  Найдено поле image: uk_caernarvon_conqueror_group -> uk_fv221_caernarvon
+        ОТЛАДКА: get_group_items добавлен uk_fv221_caernarvon с order=0
+        ОТЛАДКА: get_group_items добавлен uk_conqueror_mk_2 с order=1
+  Найдено поле image: uk_chieftain_mk_3_5_group -> uk_chieftain_mk_3_5_group
+        ОТЛАДКА: get_group_items добавлен uk_chieftain_mk_3 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_chieftain_mk_5 с order=1
+  Найдено поле image: uk_challenger_group -> uk_challenger_1
+        ОТЛАДКА: get_group_items добавлен uk_challenger_1 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_challenger_mk_3 с order=1
+  Найдено поле image: uk_challenger_2_group -> uk_challenger_II
+        ОТЛАДКА: get_group_items добавлен uk_challenger_II с order=0
+        ОТЛАДКА: get_group_items добавлен uk_challenger_2_dorchester с order=1
+        ОТЛАДКА: get_group_items добавлен uk_challenger_2_tes с order=2
+  Найдено поле image: uk_challenger_bn_e_group -> uk_challenger_2_bn
+        ОТЛАДКА: get_group_items добавлен uk_challenger_2_bn с order=0
+        ОТЛАДКА: get_group_items добавлен uk_challenger_2e с order=1
+  Найдено поле image: uk_valentine_group -> uk_valentine_mk_11_9_group
+        ОТЛАДКА: get_group_items добавлен uk_valentine_mk_1 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_valentine_mk_11 с order=1
+        ОТЛАДКА: get_group_items добавлен uk_valentine_mk_9 с order=2
+  Найдено поле image: uk_churchill_group -> uk_a_22b_mk_3_churchill_1942
+        ОТЛАДКА: get_group_items добавлен uk_a_22b_mk_3_churchill_1942 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_churchill_na75 с order=1
+  Найдено поле image: uk_tortoise_conway_group -> uk_a39_tortoise
+        ОТЛАДКА: get_group_items добавлен uk_a39_tortoise с order=0
+        ОТЛАДКА: get_group_items добавлен uk_fv4004_conway с order=1
+  Найдено поле image: uk_fv510_zt3_group -> uk_fv510_isv
+        ОТЛАДКА: get_group_items добавлен uk_fv510_isv с order=0
+        ОТЛАДКА: get_group_items добавлен uk_ratel_zt3 с order=1
+  Найдено поле image: uk_ystervark_crusader_group -> uk_ystervark_spaa
+        ОТЛАДКА: get_group_items добавлен uk_ystervark_spaa с order=0
+        ОТЛАДКА: get_group_items добавлен uk_crusader_aa_mk_2 с order=1
+  Найдено поле image: uk_marksman_za_group -> uk_chieftain_marksman
+        ОТЛАДКА: get_group_items добавлен uk_chieftain_marksman с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_za_35 с order=1
+  Найдено поле image: uk_stormer_group -> uk_stormer_group
+        ОТЛАДКА: get_group_items добавлен uk_stormer_air_defence с order=0
+        ОТЛАДКА: get_group_items добавлен uk_stormer_hvm с order=1
+  Найдено поле image: uk_9a33_35_group -> uk_9a33_35_group
+        ОТЛАДКА: get_group_items добавлен uk_9a33bm2 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_9a35_m с order=1
+  Найдено поле image: uk_ratel_group -> uk_ratel_90
+        ОТЛАДКА: get_group_items добавлен uk_ratel_90 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_ratel_20 с order=1
+  Найдено поле image: uk_g6_eland_group -> uk_g6_spg
+        ОТЛАДКА: get_group_items добавлен uk_g6_spg с order=0
+        ОТЛАДКА: get_group_items добавлен uk_eland_90_mk_7 с order=1
+  Найдено поле image: uk_scimitar_fox_group -> uk_scimitar_fox_group
+        ОТЛАДКА: get_group_items добавлен uk_fv107_scimitar с order=0
+        ОТЛАДКА: get_group_items добавлен uk_fv721_fox с order=1
+  Найдено поле image: uk_rooikat_olifant_group -> uk_rooikat_76
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
+  Найдено поле image: uk_mttd_olifant_group -> uk_rooikat_mttd
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=0
+        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_2 с order=1
+  Найдено поле image: uk_kit_3rank_group -> uk_kit_3rank_group
+        ОТЛАДКА: get_group_items добавлен uk_sherman_vc_firefly_kit_3rank с order=0
+        ОТЛАДКА: get_group_items добавлен uk_a30_sp_avenger_kit_3rank с order=1
+        ОТЛАДКА: get_group_items добавлен uk_crusader_aa_mk_2_kit_3rank с order=2
+  Найдено поле image: fury_group -> fury_mk_group
+        ОТЛАДКА: get_group_items добавлен fury_mk1 с order=0
+        ОТЛАДКА: get_group_items добавлен fury_mk2 с order=1
+  Найдено поле image: hurricane_group -> hurricane_group
+        ОТЛАДКА: get_group_items добавлен hurricanemkii с order=0
+        ОТЛАДКА: get_group_items добавлен hurricane_mk1 с order=1
+  Найдено поле image: spitfire_mk1_group -> spitfire_mk5_group
+        ОТЛАДКА: get_group_items добавлен spitfire_mk1 с order=0
+        ОТЛАДКА: get_group_items добавлен spitfiremkiia с order=1
+  Найдено поле image: spitfire_mk5b_group -> spitfire_mk5_group
+        ОТЛАДКА: get_group_items добавлен spitfire_mk5b с order=0
+        ОТЛАДКА: get_group_items добавлен spitfire_mk5b_notrop с order=1
+  Найдено поле image: spitfire_mk9_group -> spitfire_mk9_group
+        ОТЛАДКА: get_group_items добавлен spitfire_ix_early с order=0
+        ОТЛАДКА: get_group_items добавлен spitfire_xvi с order=1
+  Найдено поле image: spitfire_mk5c_group -> spitfire_mk5_group
+        ОТЛАДКА: get_group_items добавлен spitfire_mk5c с order=0
+        ОТЛАДКА: get_group_items добавлен spitfire_mk5c_notrop с order=1
+  Найдено поле image: spitfire_mk9e_group -> spitfire_mk9e_group
+        ОТЛАДКА: get_group_items добавлен spitfire_mk14e с order=0
+        ОТЛАДКА: get_group_items добавлен spitfire_mk18e с order=1
+        ОТЛАДКА: get_group_items добавлен spitfire_ix с order=2
+  Найдено поле image: spitfire_griffon_group -> spitfire_f2x_group
+        ОТЛАДКА: get_group_items добавлен spitfire_f22 с order=0
+        ОТЛАДКА: get_group_items добавлен spitfire_f24 с order=1
+  Найдено поле image: meteor3_group -> meteor_group
+        ОТЛАДКА: get_group_items добавлен meteor_fmk3 с order=0
+        ОТЛАДКА: get_group_items добавлен meteor_fmk3_navy с order=1
+  Найдено поле image: meteor4_group -> meteor4_group
+        ОТЛАДКА: get_group_items добавлен meteor_fmk4_lw с order=0
+        ОТЛАДКА: get_group_items добавлен meteor_fmk4_sw с order=1
+        ОТЛАДКА: get_group_items добавлен meteor_fmk8 с order=2
+  Найдено поле image: firefly_group -> firefly_group
+        ОТЛАДКА: get_group_items добавлен firefly_mk1 с order=0
+        ОТЛАДКА: get_group_items добавлен firefly_mk5 с order=1
+  Найдено поле image: seafire_group -> seafire_group
+        ОТЛАДКА: get_group_items добавлен seafire_mk17 с order=0
+        ОТЛАДКА: get_group_items добавлен seafire_fr47 с order=1
+  Найдено поле image: sea_hawk_group -> sea_hawk_group
+        ОТЛАДКА: get_group_items добавлен sea_hawk_fga6 с order=0
+        ОТЛАДКА: get_group_items добавлен sea_venom_faw20 с order=1
+  Найдено поле image: blenheim_group -> blenheim_group
+        ОТЛАДКА: get_group_items добавлен blenheim_mkiv с order=0
+        ОТЛАДКА: get_group_items добавлен beaufort_mkviii с order=1
+  Найдено поле image: beaufighter_group -> beaufighter_group
+        ОТЛАДКА: get_group_items добавлен beaufighter_mk6c с order=0
+        ОТЛАДКА: get_group_items добавлен beaufighter_mkx с order=1
+        ОТЛАДКА: get_group_items добавлен beaufighter_mk21 с order=2
+  Найдено поле image: mosquito_group -> mosquito_group
+        ОТЛАДКА: get_group_items добавлен mosquito_fb_mk6 с order=0
+        ОТЛАДКА: get_group_items добавлен mosquito_fb_mk18 с order=1
+  Найдено поле image: brigand_group -> brigand_group
+        ОТЛАДКА: get_group_items добавлен brigand_b1 с order=0
+        ОТЛАДКА: get_group_items добавлен whirlwind_mk1 с order=1
+  Найдено поле image: hampden_group -> hp52_hampden_group
+        ОТЛАДКА: get_group_items добавлен hp52_hampden_mk1_late с order=0
+        ОТЛАДКА: get_group_items добавлен hp52_hampden_tbmk1 с order=1
+  Найдено поле image: sunderland_group -> sunderland_group
+        ОТЛАДКА: get_group_items добавлен sunderland_mk3a с order=0
+        ОТЛАДКА: get_group_items добавлен sunderland_mk5 с order=1
+  Найдено поле image: wellington_group -> wellington_group
+        ОТЛАДКА: get_group_items добавлен wellington_mk1c с order=0
+        ОТЛАДКА: get_group_items добавлен wellington_mk1c_late с order=1
+  Найдено поле image: wellington_late_group -> wellington_late_group
+        ОТЛАДКА: get_group_items добавлен wellington_mk3 с order=0
+        ОТЛАДКА: get_group_items добавлен wellington_mk10 с order=1
+  Найдено поле image: stirling_group -> stirling_group
+        ОТЛАДКА: get_group_items добавлен stirling_mk1 с order=0
+        ОТЛАДКА: get_group_items добавлен stirling_mk3 с order=1
+  Найдено поле image: lancaster_group -> lancaster_group
+        ОТЛАДКА: get_group_items добавлен lancaster_mk1 с order=0
+        ОТЛАДКА: get_group_items добавлен lancaster_mk3 с order=1
+  Найдено поле image: lincoln_group -> lincoln_group
+        ОТЛАДКА: get_group_items добавлен lincoln_b2 с order=0
+        ОТЛАДКА: get_group_items добавлен shackleton_mr_mk_2 с order=1
+  Найдено поле image: canberra_group -> canberra_group
+        ОТЛАДКА: get_group_items добавлен canberra_bmk2 с order=0
+        ОТЛАДКА: get_group_items добавлен canberra_bimk6 с order=1
+  Найдено поле image: uk_destroyer_battle_group -> uk_destroyer_battle_group
+        ОТЛАДКА: get_group_items добавлен uk_destroyer_battle_2series с order=0
+        ОТЛАДКА: get_group_items добавлен uk_destroyer_battle_tobruk с order=1
+  Найдено поле image: uk_destroyer_daring_group -> uk_destroyer_daring_group
+        ОТЛАДКА: get_group_items добавлен uk_destroyer_daring_class_diana с order=0
+        ОТЛАДКА: get_group_items добавлен uk_destroyer_daring_class_daring с order=1
+  Найдено поле image: uk_cruiser_kent_norfolk_group -> uk_cruiser_kent_norfolk_group
+        ОТЛАДКА: get_group_items добавлен uk_cruiser_kent с order=0
+        ОТЛАДКА: get_group_items добавлен uk_cruiser_norfolk с order=1
+        ОТЛАДКА: get_group_items добавлен uk_cruiser_london с order=2
+  Найдено поле image: jp_type_60_group -> jp_type_60_group
+        ОТЛАДКА: get_group_items добавлен jp_type_60_sprg с order=0
+        ОТЛАДКА: get_group_items добавлен jp_type_60_atm с order=1
+  Найдено поле image: jp_type_87_89_group -> jp_type_87_89_group
+        ОТЛАДКА: get_group_items добавлен jp_type_87_rcv с order=0
+        ОТЛАДКА: get_group_items добавлен jp_type_89 с order=1
+  Найдено поле image: jp_chi_to_group -> jp_chi_to_group
+        ОТЛАДКА: get_group_items добавлен jp_type_4_chi_to с order=0
+        ОТЛАДКА: get_group_items добавлен jp_type_4_chi_to_late с order=1
+  Найдено поле image: jp_st_group -> jp_st_group
+        ОТЛАДКА: get_group_items добавлен jp_st_a1 с order=0
+        ОТЛАДКА: get_group_items добавлен jp_st_a2 с order=1
+  Найдено поле image: jp_type_61_sta_group -> jp_type_61_sta_group
+        ОТЛАДКА: get_group_items добавлен jp_type_61 с order=0
+        ОТЛАДКА: get_group_items добавлен jp_st_a3 с order=1
+  Найдено поле image: jp_type_74_stb_group -> jp_type_74_stb_group
+        ОТЛАДКА: get_group_items добавлен jp_st_b1 с order=0
+        ОТЛАДКА: get_group_items добавлен jp_type_74_c с order=1
+  Найдено поле image: jp_type_74_group -> jp_type_74_group
+        ОТЛАДКА: get_group_items добавлен jp_type_74 с order=0
+        ОТЛАДКА: get_group_items добавлен jp_type_74_f с order=1
+  Найдено поле image: jp_type_90_group -> jp_type_90_group
+        ОТЛАДКА: get_group_items добавлен jp_type_90 с order=0
+        ОТЛАДКА: get_group_items добавлен jp_type_90b с order=1
+  Найдено поле image: jp_type_10_group -> jp_type_10_group
+        ОТЛАДКА: get_group_items добавлен jp_type_10 с order=0
+        ОТЛАДКА: get_group_items добавлен jp_tkx_prot с order=1
+  Найдено поле image: jp_ho_ni_group -> jp_ho_ni_group
+        ОТЛАДКА: get_group_items добавлен jp_type_3_ho_ni_I с order=0
+        ОТЛАДКА: get_group_items добавлен jp_type_3_ho_ni_III с order=1
+  Найдено поле image: jp_type_81_tansam_fcs -> jp_type_81_tansam_group
+  Найдено поле image: a6m2_n1k1_group -> a6m2_n1k1_group
+        ОТЛАДКА: get_group_items добавлен a6m2_n_zero с order=0
+        ОТЛАДКА: get_group_items добавлен n1k1_kyuofu с order=1
+  Найдено поле image: a6m2_group -> a6m2_group
+        ОТЛАДКА: get_group_items добавлен a6m2_mod11 с order=0
+        ОТЛАДКА: get_group_items добавлен a6m2_zero с order=1
+  Найдено поле image: a6m3_mod22_group -> a6m3_mod22_group
+        ОТЛАДКА: get_group_items добавлен a6m3_zero с order=0
+        ОТЛАДКА: get_group_items добавлен a6m3_mod22_zero с order=1
+        ОТЛАДКА: get_group_items добавлен a6m3_mod22ko_zero с order=2
+  Найдено поле image: a6m5_group -> a6m5_group
+        ОТЛАДКА: get_group_items добавлен a6m5otsu с order=0
+        ОТЛАДКА: get_group_items добавлен a6m5hei с order=1
+  Найдено поле image: n1k2_group -> n1k2_group
+        ОТЛАДКА: get_group_items добавлен n1k1_ja с order=0
+        ОТЛАДКА: get_group_items добавлен n1k2_j с order=1
+        ОТЛАДКА: get_group_items добавлен n1k2_jko с order=2
+  Найдено поле image: f-86_japan_group -> f-86_japan_group
+        ОТЛАДКА: get_group_items добавлен f-86f-30_japan с order=0
+        ОТЛАДКА: get_group_items добавлен f-86f-40_japan с order=1
+  Найдено поле image: ki-10_group -> ki-10_group
+        ОТЛАДКА: get_group_items добавлен ki_10_1 с order=0
+        ОТЛАДКА: get_group_items добавлен ki_10_2 с order=1
+        ОТЛАДКА: get_group_items добавлен ki_10_1_commander с order=2
+        ОТЛАДКА: get_group_items добавлен ki_10_2_commander с order=3
+  Найдено поле image: ki-43_group -> ki-43_group
+        ОТЛАДКА: get_group_items добавлен ki_43_1 с order=0
+        ОТЛАДКА: get_group_items добавлен ki_43_2 с order=1
+  Найдено поле image: ki_44_group -> ki_44_group
+        ОТЛАДКА: get_group_items добавлен ki_44_1 с order=0
+        ОТЛАДКА: get_group_items добавлен ki_61_1a_ko с order=1
+  Найдено поле image: ki_61_group -> ki_61_group
+        ОТЛАДКА: get_group_items добавлен ki_44_2_hei с order=0
+        ОТЛАДКА: get_group_items добавлен ki_61_1a_otsu с order=1
+  Найдено поле image: ki_61_late_group -> ki_61_late_group
+        ОТЛАДКА: get_group_items добавлен ki_61_1a_tei с order=0
+        ОТЛАДКА: get_group_items добавлен ki_61_2_early с order=1
+  Найдено поле image: ki_84_group -> ki_84_group
+        ОТЛАДКА: get_group_items добавлен ki_84_ko с order=0
+        ОТЛАДКА: get_group_items добавлен ki_84_otsu с order=1
+  Найдено поле image: ki-45_eraly_group -> ki-45_eraly_group
+        ОТЛАДКА: get_group_items добавлен ki-45_tei с order=0
+        ОТЛАДКА: get_group_items добавлен ki-45_otsu с order=1
+  Найдено поле image: ki-45_group -> ki-45_group
+        ОТЛАДКА: get_group_items добавлен ki-45_ko с order=0
+        ОТЛАДКА: get_group_items добавлен ki-45_hei с order=1
+  Найдено поле image: j2m_group -> j2m_group
+        ОТЛАДКА: get_group_items добавлен j2m3 с order=0
+        ОТЛАДКА: get_group_items добавлен j2m5 с order=1
+  Найдено поле image: b6n_group -> b6n_group
+        ОТЛАДКА: get_group_items добавлен b6n2 с order=0
+        ОТЛАДКА: get_group_items добавлен b6n2a с order=1
+  Найдено поле image: d4y_group -> d4y_group
+        ОТЛАДКА: get_group_items добавлен d4y1 с order=0
+        ОТЛАДКА: get_group_items добавлен d4y2 с order=1
+  Найдено поле image: r2y2_group -> r2y2_group
+        ОТЛАДКА: get_group_items добавлен r2y2_v1 с order=0
+        ОТЛАДКА: get_group_items добавлен r2y2_v2 с order=1
+        ОТЛАДКА: get_group_items добавлен r2y2_kai с order=2
+  Найдено поле image: ki_49_1_group -> ki_49_1_group
+        ОТЛАДКА: get_group_items добавлен ki-49_1 с order=0
+        ОТЛАДКА: get_group_items добавлен ki-49_2a с order=1
+  Найдено поле image: ki_49_2_group -> ki_49_2_group
+        ОТЛАДКА: get_group_items добавлен ki-49_2b с order=0
+        ОТЛАДКА: get_group_items добавлен ki-49_2b_late с order=1
+  Найдено поле image: ki_67_group -> ki_67_group
+        ОТЛАДКА: get_group_items добавлен ki_67_1_ko с order=0
+        ОТЛАДКА: get_group_items добавлен ki_67_1_otsu с order=1
+  Найдено поле image: jp_cruiser_furutaka_aoba_group -> jp_cruiser_furutaka_aoba_group
+        ОТЛАДКА: get_group_items добавлен jp_cruiser_furutaka с order=0
+        ОТЛАДКА: get_group_items добавлен jp_cruiser_aoba с order=1
+        ОТЛАДКА: Элемент группы isCrossPromo имеет тип <class 'bool'>: True
+        ОТЛАДКА: get_group_items добавлен isCrossPromo с order=0
+        ОТЛАДКА: Элемент группы crossPromoBanner имеет тип <class 'str'>: #ui/images/crosspromo_popup_locked
+        ОТЛАДКА: get_group_items добавлен crossPromoBanner с order=1
+  Найдено поле image: cn_m3_m5_stuart_group -> cn_m3_m5_stuart_group
+        ОТЛАДКА: get_group_items добавлен cn_m3a3_stuart с order=0
+        ОТЛАДКА: get_group_items добавлен cn_m5a1_stuart с order=1
+  Найдено поле image: cn_76_211_group -> cn_76_211_group
+        ОТЛАДКА: get_group_items добавлен cn_object_211 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_pt_76 с order=1
+  Найдено поле image: cn_type_63_62_group -> cn_type_63_62_group
+        ОТЛАДКА: get_group_items добавлен cn_type_63_I с order=0
+        ОТЛАДКА: get_group_items добавлен cn_type_62 с order=1
+  Найдено поле image: cn_zts_type_group -> cn_zts_type_group
+        ОТЛАДКА: get_group_items добавлен cn_zts_63_1980 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_type_86 с order=1
+  Найдено поле image: cn_t_34_m4_group -> cn_t_34_m4_group
+        ОТЛАДКА: get_group_items добавлен cn_t_34_1942 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_m4a1_76w_sherman с order=1
+  Найдено поле image: cn_t_34_85_group -> cn_t_34_85_group
+        ОТЛАДКА: get_group_items добавлен cn_t_34_85_d_5t с order=0
+        ОТЛАДКА: get_group_items добавлен cn_type_58 с order=1
+  Найдено поле image: cn_is_2_group -> cn_is_2_group
+        ОТЛАДКА: get_group_items добавлен cn_is_2_1943 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_is_2_1944 с order=1
+  Найдено поле image: cn_type_59_69_group -> cn_type_59_69_group
+        ОТЛАДКА: get_group_items добавлен cn_type_59 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_type_69 с order=1
+  Найдено поле image: cn_ztz_88_group -> cn_ztz_88_group
+        ОТЛАДКА: get_group_items добавлен cn_ztz_88b с order=0
+        ОТЛАДКА: get_group_items добавлен cn_ztz_88a с order=1
+  Найдено поле image: cn_ztz_99_group -> cn_ztz_99_group
+        ОТЛАДКА: get_group_items добавлен cn_ztz_99 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_ztz_99_w с order=1
+  Найдено поле image: cn_tor_hq_group -> cn_tor_hq_group
+        ОТЛАДКА: get_group_items добавлен cn_tor_m1 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_hq_17 с order=1
+  Найдено поле image: cn_m36_isu_group -> cn_m36_isu_group
+        ОТЛАДКА: get_group_items добавлен cn_m36 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_isu_122 с order=1
+  Найдено поле image: cn_cm_ptz_group -> cn_cm_ptz_group
+        ОТЛАДКА: get_group_items добавлен cn_cm_25 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_ptz_89 с order=1
+  Найдено поле image: cn_ptl_aft_group -> cn_ptl_aft_group
+        ОТЛАДКА: get_group_items добавлен cn_ptl_02 с order=0
+        ОТЛАДКА: get_group_items добавлен cn_hj_9 с order=1
+  Найдено поле image: ki_27_group -> ki_27_group
+        ОТЛАДКА: get_group_items добавлен ki-27_otsu_china с order=0
+        ОТЛАДКА: get_group_items добавлен ki_43_3_ko с order=1
+  Найдено поле image: p_40_china_group -> p_40_china_group
+        ОТЛАДКА: get_group_items добавлен p-40e_china с order=0
+        ОТЛАДКА: get_group_items добавлен p-43a-1_china с order=1
+  Найдено поле image: p_47_china_group -> p_47_china_group
+        ОТЛАДКА: get_group_items добавлен p-47d_23_ra_china_rocaf с order=0
+        ОТЛАДКА: get_group_items добавлен p-47d_30_china с order=1
+  Найдено поле image: p_51_china_group -> p_51_china_group
+        ОТЛАДКА: get_group_items добавлен p-51d-20_china с order=0
+        ОТЛАДКА: get_group_items добавлен p-51k с order=1
+  Найдено поле image: f_86_china_group -> f_86_china_group
+        ОТЛАДКА: get_group_items добавлен f-86f-30_china с order=0
+        ОТЛАДКА: get_group_items добавлен f-86f-40_china с order=1
+  Найдено поле image: f_5a_china_group -> f_5a_china_group
+        ОТЛАДКА: get_group_items добавлен f-5a_china с order=0
+        ОТЛАДКА: get_group_items добавлен f-5e_aidc с order=1
+  Найдено поле image: i-16_china_group -> i-16_china_group
+        ОТЛАДКА: get_group_items добавлен i-16_chung_28 с order=0
+        ОТЛАДКА: get_group_items добавлен i-16_type5_1935_china с order=1
+  Найдено поле image: mig-9_china_group -> mig-9_china_group
+        ОТЛАДКА: get_group_items добавлен mig-9_china с order=0
+        ОТЛАДКА: get_group_items добавлен mig-9_late_china с order=1
+  Найдено поле image: mig-15_china_group -> mig-15_china_group
+        ОТЛАДКА: get_group_items добавлен mig-15bis_nr23_china с order=0
+        ОТЛАДКА: get_group_items добавлен mig-17_china с order=1
+  Найдено поле image: mig-19_china_group -> mig-19_china_group
+        ОТЛАДКА: get_group_items добавлен mig-19j_6a с order=0
+        ОТЛАДКА: get_group_items добавлен j_7_mk2 с order=1
+  Найдено поле image: j_11_group -> j_11_group
+        ОТЛАДКА: get_group_items добавлен j_11 с order=0
+        ОТЛАДКА: get_group_items добавлен j_11a с order=1
+  Найдено поле image: db_3_china_group -> db_3_china_group
+        ОТЛАДКА: get_group_items добавлен db_3a_china с order=0
+        ОТЛАДКА: get_group_items добавлен sb_2m_103u_china с order=1
+  Найдено поле image: it_fiat_group -> it_fiat_group
+        ОТЛАДКА: get_group_items добавлен it_fiat_6616_cockerill с order=0
+        ОТЛАДКА: get_group_items добавлен it_fiat_6614_106sr с order=1
+  Найдено поле image: it_centauro_105_group -> it_centauro_105_group
+        ОТЛАДКА: get_group_items добавлен it_b1_centauro с order=0
+        ОТЛАДКА: get_group_items добавлен it_b1_centauro_romor с order=1
+  Найдено поле image: it_m13_40_group -> it_m13_40_group
+        ОТЛАДКА: get_group_items добавлен it_m13_40_serie_1 с order=0
+        ОТЛАДКА: get_group_items добавлен it_m13_40_serie_3 с order=1
+  Найдено поле image: it_m15_pz_3_group -> it_m15_pz_3_group
+        ОТЛАДКА: get_group_items добавлен it_m15_42 с order=0
+        ОТЛАДКА: get_group_items добавлен it_pzkpfw_III_ausf_N с order=1
+  Найдено поле image: it_of_leo_group -> it_leopard_1a2
+        ОТЛАДКА: get_group_items добавлен it_of_40_mk_1 с order=0
+        ОТЛАДКА: get_group_items добавлен it_leopard_1a2 с order=1
+  Найдено поле image: it_ariete_group -> it_ariete_group
+        ОТЛАДКА: get_group_items добавлен it_c1_ariete_pso с order=0
+        ОТЛАДКА: get_group_items добавлен it_c1_ariete с order=1
+  Найдено поле image: it_9a33_35_group -> it_9a33_35_group
+        ОТЛАДКА: get_group_items добавлен it_9a33bm3 с order=0
+        ОТЛАДКА: get_group_items добавлен it_9a35_m с order=1
+  Найдено поле image: it_semovente_m41_group -> it_semovente_m41_group
+        ОТЛАДКА: get_group_items добавлен it_semovente_m41_75_18 с order=0
+        ОТЛАДКА: get_group_items добавлен it_semovente_m41_75_32 с order=1
+        ОТЛАДКА: get_group_items добавлен it_semovente_m42_75_34 с order=2
+  Найдено поле image: it_semovente_m43_105_75_group -> it_semovente_m43_group
+        ОТЛАДКА: get_group_items добавлен it_semovente_m43_105 с order=0
+        ОТЛАДКА: get_group_items добавлен it_semovente_m43_75_34 с order=1
+  Найдено поле image: it_semovente_stug_group -> it_semovente_stug_group
+        ОТЛАДКА: get_group_items добавлен it_semovente_m41m_90 с order=0
+        ОТЛАДКА: get_group_items добавлен it_stug_III_ausf_G с order=1
+  Найдено поле image: it_dardo_group -> it_dardo_group
+        ОТЛАДКА: get_group_items добавлен it_dardo_vcc с order=0
+        ОТЛАДКА: get_group_items добавлен it_vcc_80_hitfist_30 с order=1
+  Найдено поле image: re_2000_group -> re_2000_group
+        ОТЛАДКА: get_group_items добавлен re_2000_int с order=0
+        ОТЛАДКА: get_group_items добавлен re_2000_ga с order=1
+  Найдено поле image: re_2001_group -> re_2001_group
+        ОТЛАДКА: get_group_items добавлен re_2001_serie1 с order=0
+        ОТЛАДКА: get_group_items добавлен re_2001_cb с order=1
+  Найдено поле image: g_55_serie_group -> g_55_serie_group
+        ОТЛАДКА: get_group_items добавлен g_55_serie1 с order=0
+        ОТЛАДКА: get_group_items добавлен re_2005_serie0 с order=1
+  Найдено поле image: cr_32_group -> cr_32_group
+        ОТЛАДКА: get_group_items добавлен cr_32 с order=0
+        ОТЛАДКА: get_group_items добавлен cr_32_quater с order=1
+  Найдено поле image: fiat_g50_italy_group -> fiat_g50_italy_group
+        ОТЛАДКА: get_group_items добавлен fiat_g50_seria2_italy с order=0
+        ОТЛАДКА: get_group_items добавлен fiat_g50_seria7as_italy с order=1
+  Найдено поле image: mc_200_italy_group -> mc_200_italy_group
+        ОТЛАДКА: get_group_items добавлен mc200_serie3_italy с order=0
+        ОТЛАДКА: get_group_items добавлен mc200_serie7_italy с order=1
+  Найдено поле image: mc_202_italy_group -> mc_202_italy_group
+        ОТЛАДКА: get_group_items добавлен mc-202_italy с order=0
+        ОТЛАДКА: get_group_items добавлен mc-205_serie1 с order=1
+  Найдено поле image: fiat_g91_group -> fiat_g91_group
+        ОТЛАДКА: get_group_items добавлен fiat_g91_ps с order=0
+        ОТЛАДКА: get_group_items добавлен fiat_g91_r1 с order=1
+  Найдено поле image: fiat_g91y_group -> fiat_g91y_group
+        ОТЛАДКА: get_group_items добавлен fiat_g91_y с order=0
+        ОТЛАДКА: get_group_items добавлен fiat_g91_ys с order=1
+  Найдено поле image: ba_65_group -> ba_65_group
+        ОТЛАДКА: get_group_items добавлен ba_65_k14_l с order=0
+        ОТЛАДКА: get_group_items добавлен ju-87r-2_italy с order=1
+  Найдено поле image: breda_group -> breda_group
+        ОТЛАДКА: get_group_items добавлен breda_88 с order=0
+        ОТЛАДКА: get_group_items добавлен p_108a_serie2 с order=1
+  Найдено поле image: tornado_ids_it_group -> tornado_ids_it_group
+        ОТЛАДКА: get_group_items добавлен tornado_ids_it_mod95 с order=0
+        ОТЛАДКА: get_group_items добавлен tornado_ids_it_ret8 с order=1
+  Найдено поле image: br_20_dr_group -> br_20_dr_group
+        ОТЛАДКА: get_group_items добавлен br_20_dr с order=0
+        ОТЛАДКА: get_group_items добавлен br_20m_m1 с order=1
+  Найдено поле image: sm_79_italy_group -> sm-79_italy_group
+        ОТЛАДКА: get_group_items добавлен sm_79_1936_italy с order=0
+        ОТЛАДКА: get_group_items добавлен sm_79_1939_italy с order=1
+  Найдено поле image: sm_79_1941_group -> sm_79_1941_group
+        ОТЛАДКА: get_group_items добавлен sm_79_1941_italy с order=0
+        ОТЛАДКА: get_group_items добавлен sm_79_1943_italy с order=1
+        ОТЛАДКА: get_group_items добавлен sm_79_iar_italy с order=2
+  Найдено поле image: z_1007_group -> z_1007_group
+        ОТЛАДКА: get_group_items добавлен z_1007_bis_serie3 с order=0
+        ОТЛАДКА: get_group_items добавлен z_1007_bis_serie5 с order=1
+  Найдено поле image: p_108_group -> p_108_group
+        ОТЛАДКА: get_group_items добавлен p_108b_serie1 с order=0
+        ОТЛАДКА: get_group_items добавлен p_108b_serie2 с order=1
+  Найдено поле image: mig-21_hungary_group -> mig-21_group
+        ОТЛАДКА: get_group_items добавлен mig-21_mf_hungary с order=0
+        ОТЛАДКА: get_group_items добавлен mig-21_bis_sau_hungary с order=1
+  Найдено поле image: fr_hotchkiss_fcm_group -> fr_hotchkiss_fcm_group
+        ОТЛАДКА: get_group_items добавлен fr_amc_34 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_hotchkiss_h35 с order=1
+        ОТЛАДКА: get_group_items добавлен fr_fcm_36 с order=2
+  Найдено поле image: fr_aml_amx_group -> fr_aml_amx_group
+        ОТЛАДКА: get_group_items добавлен fr_aml_90 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_amx_13_90 с order=1
+  Найдено поле image: fr_mars_hot_group -> fr_mars_hot_group
+        ОТЛАДКА: get_group_items добавлен fr_mars_15 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_amx_13_hot с order=1
+  Найдено поле image: fr_amx_sk_group -> fr_amx_sk_group
+        ОТЛАДКА: get_group_items добавлен fr_amx_10rc с order=0
+        ОТЛАДКА: get_group_items добавлен fr_sk105_a2 с order=1
+  Найдено поле image: fr_lorraine_bat_group -> fr_lorraine_bat_group
+        ОТЛАДКА: get_group_items добавлен fr_lorraine_40t с order=0
+        ОТЛАДКА: get_group_items добавлен fr_bat_chat_25t с order=1
+  Найдено поле image: fr_amx_30_group -> fr_amx_30_group
+        ОТЛАДКА: get_group_items добавлен fr_amx_30_b2 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_amx_30_b2_brenus с order=1
+  Найдено поле image: fr_leclerc_group -> fr_leclerc_group
+        ОТЛАДКА: get_group_items добавлен fr_leclerc_s1 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_leclerc_s2 с order=1
+  Найдено поле image: fr_b1_2c_group -> fr_b1_2c_group
+        ОТЛАДКА: get_group_items добавлен fr_b1_bis с order=0
+        ОТЛАДКА: get_group_items добавлен fr_char_2c с order=1
+  Найдено поле image: fr_arl_jumbo_group -> fr_arl_jumbo_group
+        ОТЛАДКА: get_group_items добавлен fr_arl_44 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_m4a3e2_sherman_jumbo с order=1
+  Найдено поле image: fr_amx_32_group -> fr_amx_32_group
+        ОТЛАДКА: get_group_items добавлен fr_amx_32_105 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_amx_32 с order=1
+  Найдено поле image: fr_lorraine_elc_group -> fr_lorraine_elc_group
+        ОТЛАДКА: get_group_items добавлен fr_lorraine_100 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_amx_elc_bis с order=1
+  Найдено поле image: fr_auf_acra_group -> fr_auf_acra_group
+        ОТЛАДКА: get_group_items добавлен fr_amx_30_auf_1 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_amx_10m_acra с order=1
+  Найдено поле image: tiger_group -> tiger_group
+        ОТЛАДКА: get_group_items добавлен tiger_had_france с order=0
+        ОТЛАДКА: get_group_items добавлен tiger_hac_france с order=1
+  Найдено поле image: d_371_group -> d_371_group
+        ОТЛАДКА: get_group_items добавлен d_371 с order=0
+        ОТЛАДКА: get_group_items добавлен d_373 с order=1
+  Найдено поле image: ms_405_406_group -> ms_405_406_group
+        ОТЛАДКА: get_group_items добавлен ms_405c1 с order=0
+        ОТЛАДКА: get_group_items добавлен ms_406c1 с order=1
+  Найдено поле image: vg_33_group -> vg_33_group
+        ОТЛАДКА: get_group_items добавлен vg_33 с order=0
+        ОТЛАДКА: get_group_items добавлен d_520_france с order=1
+  Найдено поле image: md_450b_group -> md_450b_group
+        ОТЛАДКА: get_group_items добавлен md_450b_ouragan с order=0
+        ОТЛАДКА: get_group_items добавлен md_450b_barougan с order=1
+  Найдено поле image: md_452_group -> md_452_group
+        ОТЛАДКА: get_group_items добавлен md_452_mystere_2a с order=0
+        ОТЛАДКА: get_group_items добавлен md_452_mystere_2c_preproduction с order=1
+  Найдено поле image: md_454_group -> md_454_group
+        ОТЛАДКА: get_group_items добавлен md_454_mystere_4a с order=0
+        ОТЛАДКА: get_group_items добавлен md_460 с order=1
+  Найдено поле image: mirage_3_group -> mirage_3_group
+        ОТЛАДКА: get_group_items добавлен mirage_3c с order=0
+        ОТЛАДКА: get_group_items добавлен mirage_3e с order=1
+  Найдено поле image: d_500_group -> d_500_group
+        ОТЛАДКА: get_group_items добавлен d_500 с order=0
+        ОТЛАДКА: get_group_items добавлен d_501 с order=1
+  Найдено поле image: h-75_france_group -> h-75_france_group
+        ОТЛАДКА: get_group_items добавлен h-75a-1_france с order=0
+        ОТЛАДКА: get_group_items добавлен h-75a-4_france с order=1
+  Найдено поле image: potez_group -> potez_group
+        ОТЛАДКА: get_group_items добавлен potez_630 с order=0
+        ОТЛАДКА: get_group_items добавлен potez_631 с order=1
+  Найдено поле image: maryland_group -> maryland_group
+        ОТЛАДКА: get_group_items добавлен maryland_mk1_france с order=0
+        ОТЛАДКА: get_group_items добавлен mb_174_a3 с order=1
+  Найдено поле image: leo_451_group -> leo_451_group
+        ОТЛАДКА: get_group_items добавлен leo_451_early с order=0
+        ОТЛАДКА: get_group_items добавлен leo_451_late с order=1
+  Найдено поле image: so_4050_vautour_group -> so_4050_vautour_group
+        ОТЛАДКА: get_group_items добавлен so_4050_vautour_2b с order=0
+        ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a с order=1
+  Найдено поле image: fr_vtb_group -> fr_vtb_group
+        ОТЛАДКА: get_group_items добавлен fr_vtb8 с order=0
+        ОТЛАДКА: get_group_items добавлен fr_vtb11 с order=1
+        ОТЛАДКА: get_group_items добавлен fr_vtb14 с order=2
+  Найдено поле image: sw_cv_90_ifv_group -> sw_cv_90_ifv_group
+        ОТЛАДКА: get_group_items добавлен sw_cv_9030_fin с order=0
+        ОТЛАДКА: get_group_items добавлен sw_strf_90b с order=1
+  Найдено поле image: sw_strv_101_103a_group -> sw_strv_101_103a_group
+        ОТЛАДКА: get_group_items добавлен sw_strv_101 с order=0
+        ОТЛАДКА: get_group_items добавлен sw_strv_103a с order=1
+  Найдено поле image: sw_strv_104_103c_group -> sw_strv_104_103c_group
+        ОТЛАДКА: get_group_items добавлен sw_strv_104 с order=0
+        ОТЛАДКА: get_group_items добавлен sw_strv_103c с order=1
+  Найдено поле image: sw_strv_122_group -> sw_strv_122_group
+        ОТЛАДКА: get_group_items добавлен sw_strv_122 с order=0
+        ОТЛАДКА: get_group_items добавлен sw_strv_122b_plss с order=1
+  Найдено поле image: sw_lvkv_asrad_group -> sw_lvkv_asrad_group
+        ОТЛАДКА: get_group_items добавлен sw_lvkv_90c с order=0
+        ОТЛАДКА: get_group_items добавлен sw_asrad_r с order=1
+  Найдено поле image: sw_pvkv_ikv_group -> sw_pvkv_ikv_group
+        ОТЛАДКА: get_group_items добавлен sw_pvkv_m43_1946 с order=0
+        ОТЛАДКА: get_group_items добавлен sw_ikv_103 с order=1
+  Найдено поле image: sw_udes_pbv_group -> sw_udes_pbv_group
+        ОТЛАДКА: get_group_items добавлен sw_udes_33 с order=0
+        ОТЛАДКА: get_group_items добавлен sw_pbv_302_bill с order=1
+  Найдено поле image: sw_t_34_pz_4_group -> sw_t_34_pz_4_group
+        ОТЛАДКА: get_group_items добавлен sw_t_34_1941 с order=0
+        ОТЛАДКА: get_group_items добавлен sw_pzkpfw_IV_ausf_J с order=1
+  Найдено поле image: sw_pt_76_comet_group -> sw_pt_76_comet_group
+        ОТЛАДКА: get_group_items добавлен sw_pt_76b с order=0
+        ОТЛАДКА: get_group_items добавлен sw_a_34_comet с order=1
+  Найдено поле image: gladiator_j8a_group -> gladiator_j8a
+        ОТЛАДКА: get_group_items добавлен gladiator_j8a с order=0
+        ОТЛАДКА: get_group_items добавлен j6b с order=1
+  Найдено поле image: saab_j21a_group -> saab_j21a_group
+        ОТЛАДКА: get_group_items добавлен saab_j21a_1 с order=0
+        ОТЛАДКА: get_group_items добавлен saab_j21a_2 с order=1
+  Найдено поле image: saab_ja37d_group -> saab_ja37d_group
+        ОТЛАДКА: get_group_items добавлен saab_ja37d с order=0
+        ОТЛАДКА: get_group_items добавлен saab_ja37di с order=1
+  Найдено поле image: saab_b17a_group -> saab_b17a_group
+        ОТЛАДКА: get_group_items добавлен saab_b17b с order=0
+        ОТЛАДКА: get_group_items добавлен saab_b17a с order=1
+  Найдено поле image: saab_t18b_group -> saab_t18b_group
+        ОТЛАДКА: get_group_items добавлен saab_t18b_1 с order=0
+        ОТЛАДКА: get_group_items добавлен saab_t18b_2 с order=1
+  Найдено поле image: bf_109g_sweden_group -> bf_109g_sweden_group
+        ОТЛАДКА: get_group_items добавлен bf-109g-2_finland с order=0
+        ОТЛАДКА: get_group_items добавлен bf-109g-6_erla_finland с order=1
+  Найдено поле image: vampire_fb_group -> vampire_fb_group
+        ОТЛАДКА: get_group_items добавлен vampire_fb5_j28b с order=0
+        ОТЛАДКА: get_group_items добавлен vampire_fb52_finland с order=1
+  Найдено поле image: il_magach_1_2_group -> il_magach_1_2_group
+        ОТЛАДКА: get_group_items добавлен il_m48a1_patton_III с order=0
+        ОТЛАДКА: get_group_items добавлен il_magach_2 с order=1
+  Найдено поле image: il_magach_3_6_group -> il_magach_3_6_group
+        ОТЛАДКА: get_group_items добавлен il_magach_3_idf с order=0
+        ОТЛАДКА: get_group_items добавлен il_magach_6 с order=1
+  Найдено поле image: il_magach_6a_5_group -> il_magach_6a_5_group
+        ОТЛАДКА: get_group_items добавлен il_magach_6a с order=0
+        ОТЛАДКА: get_group_items добавлен il_magach_5 с order=1
+  Найдено поле image: il_magach_6_group -> il_magach_6_group
+        ОТЛАДКА: get_group_items добавлен il_magach_6r с order=0
+        ОТЛАДКА: get_group_items добавлен il_magach_6b с order=1
+        ОТЛАДКА: get_group_items добавлен il_magach_6_rocket с order=2
+  Найдено поле image: il_magach_6m_c_group -> il_magach_6m_c_group
+        ОТЛАДКА: get_group_items добавлен il_magach_6m с order=0
+        ОТЛАДКА: get_group_items добавлен il_magach_6c с order=1
+  Найдено поле image: il_magach_batash_7_group -> il_magach_batash_7_group
+        ОТЛАДКА: get_group_items добавлен il_magach_6b_gal_batash с order=0
+        ОТЛАДКА: get_group_items добавлен il_magach_7c с order=1
+  Найдено поле image: il_tiran_4_group -> il_tiran_4_group
+        ОТЛАДКА: get_group_items добавлен il_tiran_4 с order=0
+        ОТЛАДКА: get_group_items добавлен il_tiran_4_sh с order=1
+  Найдено поле image: il_merkava_1_2_group -> il_merkava_1_2_group
+        ОТЛАДКА: get_group_items добавлен il_merkava_mk_1b с order=0
+        ОТЛАДКА: get_group_items добавлен il_merkava_mk_2b_early с order=1
+  Найдено поле image: il_merkava_3_group -> il_merkava_3_group
+        ОТЛАДКА: get_group_items добавлен il_merkava_mk_3b с order=0
+        ОТЛАДКА: get_group_items добавлен il_merkava_mk_3c с order=1
+  Найдено поле image: il_merkava_4_group -> il_merkava_4_group
+        ОТЛАДКА: get_group_items добавлен il_merkava_mk_4b с order=0
+        ОТЛАДКА: get_group_items добавлен il_merkava_mk_4_lic с order=1
+  Найдено поле image: il_rochev_tager_group -> il_rochev_tager_group
+        ОТЛАДКА: get_group_items добавлен il_m109a1 с order=0
+        ОТЛАДКА: get_group_items добавлен il_ss_11_halftrack с order=1
+  Найдено поле image: md_460_iaf_group -> md_460_iaf_group
+        ОТЛАДКА: get_group_items добавлен md_460_sambad с order=0
+        ОТЛАДКА: get_group_items добавлен md_460_saar с order=1
+  Найдено поле image: a_4_iaf_group -> a_4_iaf_group
+        ОТЛАДКА: get_group_items добавлен a_4h с order=0
+        ОТЛАДКА: get_group_items добавлен a_4e_early_iaf с order=1
+  Найдено поле image: so_4050_vautour_iaf_group -> so_4050_vautour_iaf_group
+        ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
+        ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
+Извлечено полей image: 373
 Сбор master-slave пар...
         ОТЛАДКА: get_group_items добавлен us_m4a1_1942_sherman с order=0
         ОТЛАДКА: get_group_items добавлен us_m4_sherman с order=1
@@ -2194,7 +3388,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
     Столбец 4: обработано 26 элементов
         ОТЛАДКА: Элемент группы giftParam имеет тип <class 'str'>: charServer/entitlement/usa_pacific_41_43
         ОТЛАДКА: get_group_items добавлен giftParam с order=0
-      ОТЛАДКА: Премиум техники в колонке: 22/35 = 0.63, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 21/34 = 0.62, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника f3f-2_galer, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f3f-2_galer имеет reqAir='', предшественника нет
@@ -2296,9 +3490,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника f-4s, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f-4s имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f-4s с предшественником '', статус: premium
-      ОТЛАДКА: Техника ucav_mq_1_predator, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ucav_mq_1_predator имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ucav_mq_1_predator с предшественником '', статус: premium
       ОТЛАДКА: Техника f_20a, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f_20a имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f_20a с предшественником '', статус: premium
@@ -2337,11 +3528,10 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: f-5c ранг 7 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: a_6e_tram ранг 7 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: f-4s ранг 7 -> [0, 2]
-        ПРЕМИУМ КООРДИНАТЫ: ucav_mq_1_predator ранг 7 -> [0, 3]
         ПРЕМИУМ КООРДИНАТЫ: f_20a ранг 8 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: fa_18c_early ранг 8 -> [0, 1]
-    Столбец 5: обработано 35 элементов
-      ОТЛАДКА: Премиум техники в колонке: 32/34 = 0.94, порог: 0.3
+    Столбец 5: обработано 34 элементов
+      ОТЛАДКА: Премиум техники в колонке: 30/32 = 0.94, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника p-26a_34, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника p-26a_34 имеет reqAir='', предшественника нет
@@ -2436,12 +3626,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника uav_quadcopter, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника uav_quadcopter имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника uav_quadcopter с предшественником '', статус: premium
-      ОТЛАДКА: Техника ucav_recon_micro, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ucav_recon_micro имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ucav_recon_micro с предшественником '', статус: premium
-      ОТЛАДКА: Техника ucav_recon_micro_flir, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ucav_recon_micro_flir имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ucav_recon_micro_flir с предшественником '', статус: premium
       ОТЛАДКА: Техника f_14a_iriaf, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f_14a_iriaf имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f_14a_iriaf с предшественником '', статус: premium
@@ -2476,10 +3660,8 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: a_7k ранг 7 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: av_8b_na ранг 7 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: uav_quadcopter ранг 7 -> [1, 3]
-        ПРЕМИУМ КООРДИНАТЫ: ucav_recon_micro ранг 7 -> [1, 4]
-        ПРЕМИУМ КООРДИНАТЫ: ucav_recon_micro_flir ранг 7 -> [1, 5]
         ПРЕМИУМ КООРДИНАТЫ: f_14a_iriaf ранг 8 -> [1, 0]
-    Столбец 6: обработано 34 элементов
+    Столбец 6: обработано 32 элементов
   Обработка типа: Большой флот, столбцов: 5
       ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.3
       ОТЛАДКА: Техника us_destroyer_clemson_litchfield, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -2772,7 +3954,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: us_higgins_78ft_pt658 ранг 3 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: us_flagstaff_pgh1 ранг 3 -> [0, 1]
     Столбец 4: обработано 3 элементов
-Обработано 476 элементов для usa
+Обработано 473 элементов для usa
 Обработка страны: germany
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_ausf_F с order=0
@@ -6518,7 +7700,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: mig_23ml ранг 7 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: su_33 ранг 8 -> [0, 0]
     Столбец 5: обработано 33 элементов
-      ОТЛАДКА: Премиум техники в колонке: 30/31 = 0.97, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 29/30 = 0.97, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника mbr-2, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника mbr-2 имеет reqAir='', предшественника нет
@@ -6610,9 +7792,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника su_25tm, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника su_25tm имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника su_25tm с предшественником '', статус: premium
-      ОТЛАДКА: Техника ucav_orion, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ucav_orion имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ucav_orion с предшественником '', статус: premium
         ПРЕМИУМ КООРДИНАТЫ: mbr-2 ранг 1 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: po-2m ранг 1 -> [1, 1]
         ПРЕМИУМ КООРДИНАТЫ: tb_3_m17_32 ранг 1 -> [1, 2]
@@ -6643,8 +7822,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: su_25k ранг 6 -> [1, 2]
         ПРЕМИУМ КООРДИНАТЫ: su_25_558arz ранг 7 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: su_25tm ранг 7 -> [1, 1]
-        ПРЕМИУМ КООРДИНАТЫ: ucav_orion ранг 7 -> [1, 2]
-    Столбец 6: обработано 31 элементов
+    Столбец 6: обработано 30 элементов
   Обработка типа: Большой флот, столбцов: 4
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_chapayev с order=0
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_sverdlov с order=1
@@ -6952,7 +8130,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: ussr_mpk_201k ранг 4 -> [1, 0]
         ПРЕМИУМ КООРДИНАТЫ: ussr_mpk_pr12412p ранг 4 -> [1, 1]
     Столбец 4: обработано 5 элементов
-Обработано 519 элементов для ussr
+Обработано 518 элементов для ussr
 Обработка страны: britain
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
@@ -10716,7 +11894,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника jf_17 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника jf_17 с предшественником '', статус: standard
     Столбец 4: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/5 = 0.80, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 3/4 = 0.75, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника p-51c-11-nt_china, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника p-51c-11-nt_china имеет reqAir='', предшественника нет
@@ -10730,16 +11908,12 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника f_100f_china, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f_100f_china имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f_100f_china с предшественником '', статус: premium
-      ОТЛАДКА: Техника ucav_wing_loong_i, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника ucav_wing_loong_i имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ucav_wing_loong_i с предшественником '', статус: premium
         ПРЕМИУМ КООРДИНАТЫ: p-51c-11-nt_china ранг 3 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: f_47n_25_re_china ранг 3 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: pe-2-359_china ранг 4 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: f_100f_china ранг 6 -> [0, 0]
-        ПРЕМИУМ КООРДИНАТЫ: ucav_wing_loong_i ранг 7 -> [0, 0]
-    Столбец 5: обработано 5 элементов
-Обработано 209 элементов для china
+    Столбец 5: обработано 4 элементов
+Обработано 208 элементов для china
 Обработка страны: italy
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен it_fiat_6616_cockerill с order=0
@@ -14082,5 +15256,10 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ПРЕМИУМ КООРДИНАТЫ: kfir_c10_colombia ранг 8 -> [0, 1]
     Столбец 3: обработано 8 элементов
 Обработано 107 элементов для israel
-Нет данных image полей для сохранения
-Парсинг завершен успешно! Обработано 3321 элементов.
+Данные (3316 записей) сохранены в shop.csv
+Все ID приведены к нижнему регистру для совместимости
+Статистика: Стандартной техники: 2496, Премиумной: 820
+Обработано master-slave пар: 3
+Slave-юниты пропущены: 3
+Поля image (373 записей) сохранены в shop_images_fields.csv
+Парсинг завершен успешно! Обработано 3316 элементов.

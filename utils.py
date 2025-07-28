@@ -155,6 +155,9 @@ class Constants:
     # Аномальные окончания для удаления
     ANOMALOUS_SUFFIXES = ['_race', '_football', '_yt_cup_2019', '_event', '_naval']
     
+    # НОВОЕ: Аномальные начала для удаления
+    ANOMALOUS_PREFIXES = ['ucav_']
+    
     # Поля для CSV экспорта
     CSV_FIELDNAMES = [
         'id', 'rank', 'country', 'vehicle_type', 'type', 'status',

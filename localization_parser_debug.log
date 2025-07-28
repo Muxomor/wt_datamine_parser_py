@@ -28763,7 +28763,7 @@
 Обработано строк: 14321
 Найдено записей для локализации: 14262
 Всего ключей в словаре: 14262
-Загружено 3322 ID из shop.csv
+Загружено 3316 ID из shop.csv
 Создание маппинга локализации...
     Поиск локализации для: us_m2a4
     Прямой поиск: us_m2a4 -> M2A4
@@ -29758,9 +29758,6 @@
     Поиск локализации для: o3u_1
     Прямой поиск: o3u_1 -> O3U-1
   Найдено: o3u_1 -> O3U-1
-    Поиск локализации для: os2u_1_naval
-    Прямой поиск: os2u_1_naval -> OS2U-1
-  Найдено: os2u_1_naval -> OS2U-1
     Поиск локализации для: p-40e_td
     Прямой поиск: p-40e_td -> P-40E-1 TD
   Найдено: p-40e_td -> P-40E-1 TD
@@ -29842,9 +29839,6 @@
     Поиск локализации для: f-4s
     Прямой поиск: f-4s -> F-4S Phantom II
   Найдено: f-4s -> F-4S Phantom II
-    Поиск локализации для: ucav_mq_1_predator
-    Прямой поиск: ucav_mq_1_predator -> MQ-1
-  Найдено: ucav_mq_1_predator -> MQ-1
     Поиск локализации для: f_20a
     Прямой поиск: f_20a -> F-20A
   Найдено: f_20a -> F-20A
@@ -29944,12 +29938,6 @@
     Поиск локализации для: uav_quadcopter
     Прямой поиск: uav_quadcopter -> UAV Raven's Eye
   Найдено: uav_quadcopter -> UAV Raven's Eye
-    Поиск локализации для: ucav_recon_micro
-    Прямой поиск: ucav_recon_micro -> Recon Micro
-  Найдено: ucav_recon_micro -> Recon Micro
-    Поиск локализации для: ucav_recon_micro_flir
-    Прямой поиск: ucav_recon_micro_flir -> Recon Micro
-  Найдено: ucav_recon_micro_flir -> Recon Micro
     Поиск локализации для: f_14a_iriaf
     Прямой поиск: f_14a_iriaf -> ▄F-14A IRIAF
   Найдено: f_14a_iriaf -> ▄F-14A IRIAF
@@ -33001,9 +32989,6 @@
     Поиск локализации для: su_25tm
     Прямой поиск: su_25tm -> Су-39
   Найдено: su_25tm -> Су-39
-    Поиск локализации для: ucav_orion
-    Прямой поиск: ucav_orion -> Орион
-  Найдено: ucav_orion -> Орион
     Поиск локализации для: ussr_destroyer_frunze
     Прямой поиск: ussr_destroyer_frunze -> Фрунзе
   Найдено: ussr_destroyer_frunze -> Фрунзе
@@ -36119,9 +36104,6 @@
     Поиск локализации для: f_100f_china
     Прямой поиск: f_100f_china -> ␗F-100F
   Найдено: f_100f_china -> ␗F-100F
-    Поиск локализации для: ucav_wing_loong_i
-    Прямой поиск: ucav_wing_loong_i -> Wing Loong I
-  Найдено: ucav_wing_loong_i -> Wing Loong I
     Поиск локализации для: it_ab_41
     Прямой поиск: it_ab_41 -> AB 41
   Найдено: it_ab_41 -> AB 41
@@ -38734,8 +38716,8 @@
     Прямой поиск: kfir_c10_colombia -> ◡Kfir C.10
   Найдено: kfir_c10_colombia -> ◡Kfir C.10
 Статистика локализации:
-  Найдено локализаций: 3209
+  Найдено локализаций: 3203
   Использован fallback: 113
-  Всего обработано: 3322
-Данные локализации (3322 записей) сохранены в localization.csv
+  Всего обработано: 3316
+Данные локализации (3316 записей) сохранены в localization.csv
 Парсинг локализации завершен успешно! Создан файл localization.csv

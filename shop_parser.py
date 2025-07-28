@@ -46,8 +46,14 @@ class ShopParser:
             raise RuntimeError(f"Ошибка декодирования JSON: {e}")
 
     def has_anomalous_suffix(self, element_id: str) -> bool:
-        """Проверяет, имеет ли элемент аномальное окончание"""
-        return any(element_id.endswith(suffix) for suffix in Constants.ANOMALOUS_SUFFIXES)
+        """Проверяет, имеет ли элемент аномальное окончание или начало"""
+        # Проверка окончаний (существующая логика)
+        has_suffix = any(element_id.endswith(suffix) for suffix in Constants.ANOMALOUS_SUFFIXES)
+        
+        # Проверка начал (новая логика)
+        has_prefix = any(element_id.startswith(prefix) for prefix in Constants.ANOMALOUS_PREFIXES)
+        
+        return has_suffix or has_prefix
 
     def clean_anomalous_elements(self, shop_data: Dict[str, Any]) -> Dict[str, Any]:
         """Удаляет аномальные элементы из данных shop.blkx перед парсингом"""
@@ -88,8 +94,9 @@ class ShopParser:
                         # Проверяем аномальность основного элемента
                         if self.has_anomalous_suffix(item_name):
                             total_removed += 1
-                            removed_details.append(f"{country_name}/{vehicle_type_name}/column_{column_index}/{item_name}")
-                            self.logger.log(f"    УДАЛЕН: {item_name} (аномальное окончание)", 'debug')
+                            reason = "аномальное окончание/начало"
+                            removed_details.append(f"{country_name}/{vehicle_type_name}/column_{column_index}/{item_name} ({reason})")
+                            self.logger.log(f"    УДАЛЕН: {item_name} ({reason})", 'debug')
                             continue
                         
                         # Если элемент - группа, проверяем вложенные элементы
@@ -106,8 +113,9 @@ class ShopParser:
                             
                             if has_anomalous_children:
                                 total_removed += 1
-                                removed_details.append(f"{country_name}/{vehicle_type_name}/column_{column_index}/{item_name} (группа с аномальными элементами)")
-                                self.logger.log(f"    УДАЛЕНА ГРУППА: {item_name} (содержит аномальные элементы)", 'debug')
+                                reason = "группа с аномальными элементами"
+                                removed_details.append(f"{country_name}/{vehicle_type_name}/column_{column_index}/{item_name} ({reason})")
+                                self.logger.log(f"    УДАЛЕНА ГРУППА: {item_name} ({reason})", 'debug')
                                 continue
                         
                         # Элемент прошел проверку - добавляем в очищенные данные
@@ -180,6 +188,50 @@ class ShopParser:
                         self.master_slave_pairs[nested_name] = slave_id
                         self.slave_units.add(slave_id)
                         self.logger.log(f"    Найдена пара в группе: {nested_name} -> {slave_id}", 'debug')
+
+    def _extract_image_field(self, item_name: str, item_info: Dict[str, Any]):
+        """Извлекает поле image из данных юнита"""
+        if isinstance(item_info, dict) and 'image' in item_info:
+            image_path = item_info['image']
+            # Форматируем: берем текст после последнего #
+            if '#' in image_path:
+                formatted_image = image_path.split('#')[-1]
+                self.image_fields[item_name.lower()] = formatted_image
+                self.logger.log(f"  Найдено поле image: {item_name} -> {formatted_image}", 'debug')
+
+    def extract_all_image_fields(self, shop_data: Dict[str, Any]):
+        """Извлекает все поля image из данных shop.blkx"""
+        self.logger.log("Извлечение полей image...")
+        
+        for country_key, country_data in shop_data.items():
+            if country_key not in Constants.COUNTRY_MAPPING:
+                continue
+                
+            for vehicle_type, type_data in country_data.items():
+                if vehicle_type not in Constants.VEHICLE_TYPE_MAPPING:
+                    continue
+                    
+                range_data = type_data.get('range', [])
+                
+                for column_data in range_data:
+                    if not isinstance(column_data, dict):
+                        continue
+                        
+                    for item_name, item_info in column_data.items():
+                        if not isinstance(item_info, dict):
+                            continue
+                            
+                        # Извлекаем image для основного элемента
+                        self._extract_image_field(item_name, item_info)
+                        
+                        # Если это группа, извлекаем image для вложенных элементов
+                        if self.is_group(item_name, item_info):
+                            group_items = self.get_group_items(item_info)
+                            for _, nested_name, nested_info in group_items:
+                                if isinstance(nested_info, dict):
+                                    self._extract_image_field(nested_name, nested_info)
+        
+        self.logger.log(f"Извлечено полей image: {len(self.image_fields)}")
 
     def is_premium_vehicle(self, item_data: Dict[str, Any]) -> bool:
         """Определяет является ли техника премиумной"""
@@ -614,6 +666,9 @@ class ShopParser:
         # Сначала очищаем от аномальных элементов
         cleaned_shop_data = self.clean_anomalous_elements(shop_data)
         
+        # Извлекаем все поля image из очищенных данных
+        self.extract_all_image_fields(cleaned_shop_data)
+        
         # Затем собираем все master-slave пары на очищенных данных
         self.collect_master_slave_pairs(cleaned_shop_data)
         
@@ -633,17 +688,7 @@ class ShopParser:
         
         return all_results
     
-    def _extract_image_field(self, item_name: str, item_info: Dict[str, Any]):
-        """Извлекает поле image из данных юнита"""
-        if isinstance(item_info, dict) and 'image' in item_info:
-            image_path = item_info['image']
-            # Форматируем: берем текст после последнего #
-            if '#' in image_path:
-                formatted_image = image_path.split('#')[-1]
-                self.image_fields[item_name.lower()] = formatted_image
-                self.logger.log(f"  Найдено поле image: {item_name} -> {formatted_image}", 'debug')
-    
-    def save_to_csv(self, data: List[Dict[str, Any]], filename: str = 'shop.csv'):
+    def save_image_fields_to_csv(self, filename: str = 'shop_images_fields.csv'):
         """Сохраняет извлеченные поля image в отдельный CSV файл"""
         if not self.image_fields:
             self.logger.log("Нет данных image полей для сохранения", 'warning')
@@ -666,6 +711,8 @@ class ShopParser:
         except Exception as e:
             self.logger.log(f"Ошибка при сохранении полей image в CSV: {e}", 'error')
             raise
+    
+    def save_to_csv(self, data: List[Dict[str, Any]], filename: str = 'shop.csv'):
         """Сохраняет данные в CSV файл"""
         if not data:
             self.logger.log("Нет данных для сохранения", 'warning')
@@ -706,6 +753,9 @@ class ShopParser:
                 if not Constants.PROCESS_SLAVE_UNITS:
                     self.logger.log(f"Slave-юниты пропущены: {len(self.slave_units)}")
             
+            # Сохраняем поля image в отдельный файл
+            self.save_image_fields_to_csv()
+            
         except Exception as e:
             self.logger.log(f"Ошибка при сохранении в CSV: {e}", 'error')
             raise
@@ -716,6 +766,8 @@ class ShopParser:
             self.logger.log("Запуск парсера shop.blkx...")
             self.logger.log(f"Порог для определения премиумных колонок: {Constants.PREMIUM_THRESHOLD*100}%")
             self.logger.log(f"Обработка slave-юнитов: {'включена' if Constants.PROCESS_SLAVE_UNITS else 'отключена'}")
+            self.logger.log(f"Аномальные окончания: {Constants.ANOMALOUS_SUFFIXES}")
+            self.logger.log(f"Аномальные начала: {Constants.ANOMALOUS_PREFIXES}")
             
             # Загружаем данные
             shop_data = self.fetch_shop_data()
