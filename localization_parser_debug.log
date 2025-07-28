@@ -28852,12 +28852,12 @@
     Поиск локализации для: us_m47_48_group
     Прямой поиск: us_m47_48_group -> M47/M48
   Найдено: us_m47_48_group -> M47/M48
-    Поиск локализации для: us_m47_patton_II
-    Прямой поиск: us_m47_patton_II -> M47
-  Найдено: us_m47_patton_II -> M47
-    Поиск локализации для: us_m48a1_patton_III
-    Прямой поиск: us_m48a1_patton_III -> M48A1
-  Найдено: us_m48a1_patton_III -> M48A1
+    Поиск локализации для: us_m47_patton_ii
+    Fallback: us_m47_patton_ii -> us_m47_patton_ii
+  Не найдено: us_m47_patton_ii -> us_m47_patton_ii (fallback)
+    Поиск локализации для: us_m48a1_patton_iii
+    Fallback: us_m48a1_patton_iii -> us_m48a1_patton_iii
+  Не найдено: us_m48a1_patton_iii -> us_m48a1_patton_iii (fallback)
     Поиск локализации для: us_m60
     Прямой поиск: us_m60 -> M60
   Найдено: us_m60 -> M60
@@ -30202,15 +30202,15 @@
     Поиск локализации для: germ_pzkpfw_35t
     Прямой поиск: germ_pzkpfw_35t -> Pz.35(t)
   Найдено: germ_pzkpfw_35t -> Pz.35(t)
-    Поиск локализации для: germ_pzkpfw_38t_ausf_A
-    Прямой поиск: germ_pzkpfw_38t_ausf_A -> Pz.38(t) A
-  Найдено: germ_pzkpfw_38t_ausf_A -> Pz.38(t) A
+    Поиск локализации для: germ_pzkpfw_38t_ausf_a
+    Fallback: germ_pzkpfw_38t_ausf_a -> germ_pzkpfw_38t_ausf_a
+  Не найдено: germ_pzkpfw_38t_ausf_a -> germ_pzkpfw_38t_ausf_a (fallback)
     Поиск локализации для: germ_pzkpfw_38t_group
     Прямой поиск: germ_pzkpfw_38t_group -> Pz.38(t) F/n.A.
   Найдено: germ_pzkpfw_38t_group -> Pz.38(t) F/n.A.
-    Поиск локализации для: germ_pzkpfw_38t_ausf_F
-    Прямой поиск: germ_pzkpfw_38t_ausf_F -> Pz.38(t) F
-  Найдено: germ_pzkpfw_38t_ausf_F -> Pz.38(t) F
+    Поиск локализации для: germ_pzkpfw_38t_ausf_f
+    Fallback: germ_pzkpfw_38t_ausf_f -> germ_pzkpfw_38t_ausf_f
+  Не найдено: germ_pzkpfw_38t_ausf_f -> germ_pzkpfw_38t_ausf_f (fallback)
     Поиск локализации для: germ_pzkpfw_38t_na
     Прямой поиск: germ_pzkpfw_38t_na -> Pz.38(t) n.A.
   Найдено: germ_pzkpfw_38t_na -> Pz.38(t) n.A.
@@ -30223,9 +30223,9 @@
     Поиск локализации для: germ_dicker_sturer_group
     Прямой поиск: germ_dicker_sturer_group -> Max/Emil
   Найдено: germ_dicker_sturer_group -> Max/Emil
-    Поиск локализации для: germ_pzsfl_IVa_dickermax
-    Прямой поиск: germ_pzsfl_IVa_dickermax -> Dicker Max
-  Найдено: germ_pzsfl_IVa_dickermax -> Dicker Max
+    Поиск локализации для: germ_pzsfl_iva_dickermax
+    Fallback: germ_pzsfl_iva_dickermax -> germ_pzsfl_iva_dickermax
+  Не найдено: germ_pzsfl_iva_dickermax -> germ_pzsfl_iva_dickermax (fallback)
     Поиск локализации для: germ_pzsflk40_sturer_emil
     Прямой поиск: germ_pzsflk40_sturer_emil -> Sturer Emil
   Найдено: germ_pzsflk40_sturer_emil -> Sturer Emil
@@ -30304,45 +30304,45 @@
     Поиск локализации для: germ_beutepanzer_mk_iv
     Прямой поиск: germ_beutepanzer_mk_iv -> Beutepanzer IV
   Найдено: germ_beutepanzer_mk_iv -> Beutepanzer IV
-    Поиск локализации для: germ_prewar_pz_III_group
-    Прямой поиск: germ_prewar_pz_III_group -> Pz.III B/E
-  Найдено: germ_prewar_pz_III_group -> Pz.III B/E
-    Поиск локализации для: germ_pzkpfw_III_ausf_E
-    Прямой поиск: germ_pzkpfw_III_ausf_E -> Pz.III E
-  Найдено: germ_pzkpfw_III_ausf_E -> Pz.III E
-    Поиск локализации для: germ_pzkpfw_III_ausf_B
-    Прямой поиск: germ_pzkpfw_III_ausf_B -> Pz.III B
-  Найдено: germ_pzkpfw_III_ausf_B -> Pz.III B
-    Поиск локализации для: germ_pzkpfw_III_ausf_F
-    Прямой поиск: germ_pzkpfw_III_ausf_F -> Pz.III F
-  Найдено: germ_pzkpfw_III_ausf_F -> Pz.III F
-    Поиск локализации для: germ_pzkpfw_III_ausf_J_L42
-    Прямой поиск: germ_pzkpfw_III_ausf_J_L42 -> Pz.III J
-  Найдено: germ_pzkpfw_III_ausf_J_L42 -> Pz.III J
-    Поиск локализации для: germ_pzkpfw_III_ausf_J
-    Прямой поиск: germ_pzkpfw_III_ausf_J -> Pz.III J1
-  Найдено: germ_pzkpfw_III_ausf_J -> Pz.III J1
-    Поиск локализации для: germ_pzkpfw_III_late_group
-    Прямой поиск: germ_pzkpfw_III_late_group -> Pz.III L/M
-  Найдено: germ_pzkpfw_III_late_group -> Pz.III L/M
-    Поиск локализации для: germ_pzkpfw_III_ausf_L
-    Прямой поиск: germ_pzkpfw_III_ausf_L -> Pz.III L
-  Найдено: germ_pzkpfw_III_ausf_L -> Pz.III L
-    Поиск локализации для: germ_pzkpfw_III_ausf_M
-    Прямой поиск: germ_pzkpfw_III_ausf_M -> Pz.III M
-  Найдено: germ_pzkpfw_III_ausf_M -> Pz.III M
-    Поиск локализации для: germ_pzkpfw_VI_ausf_h1_tiger
-    Прямой поиск: germ_pzkpfw_VI_ausf_h1_tiger -> Tiger H1
-  Найдено: germ_pzkpfw_VI_ausf_h1_tiger -> Tiger H1
-    Поиск локализации для: germ_pzkpfw_VI_ausf_e_tiger
-    Прямой поиск: germ_pzkpfw_VI_ausf_e_tiger -> Tiger E
-  Найдено: germ_pzkpfw_VI_ausf_e_tiger -> Tiger E
-    Поиск локализации для: germ_pzkpfw_VI_ausf_b_tiger_IIp
-    Прямой поиск: germ_pzkpfw_VI_ausf_b_tiger_IIp -> Tiger II (P)
-  Найдено: germ_pzkpfw_VI_ausf_b_tiger_IIp -> Tiger II (P)
-    Поиск локализации для: germ_pzkpfw_VI_ausf_b_tiger_IIh
-    Прямой поиск: germ_pzkpfw_VI_ausf_b_tiger_IIh -> Tiger II (H)
-  Найдено: germ_pzkpfw_VI_ausf_b_tiger_IIh -> Tiger II (H)
+    Поиск локализации для: germ_prewar_pz_iii_group
+    Fallback: germ_prewar_pz_iii_group -> germ_prewar_pz_iii_group
+  Не найдено: germ_prewar_pz_iii_group -> germ_prewar_pz_iii_group (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_e
+    Fallback: germ_pzkpfw_iii_ausf_e -> germ_pzkpfw_iii_ausf_e
+  Не найдено: germ_pzkpfw_iii_ausf_e -> germ_pzkpfw_iii_ausf_e (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_b
+    Fallback: germ_pzkpfw_iii_ausf_b -> germ_pzkpfw_iii_ausf_b
+  Не найдено: germ_pzkpfw_iii_ausf_b -> germ_pzkpfw_iii_ausf_b (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_f
+    Fallback: germ_pzkpfw_iii_ausf_f -> germ_pzkpfw_iii_ausf_f
+  Не найдено: germ_pzkpfw_iii_ausf_f -> germ_pzkpfw_iii_ausf_f (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_j_l42
+    Fallback: germ_pzkpfw_iii_ausf_j_l42 -> germ_pzkpfw_iii_ausf_j_l42
+  Не найдено: germ_pzkpfw_iii_ausf_j_l42 -> germ_pzkpfw_iii_ausf_j_l42 (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_j
+    Fallback: germ_pzkpfw_iii_ausf_j -> germ_pzkpfw_iii_ausf_j
+  Не найдено: germ_pzkpfw_iii_ausf_j -> germ_pzkpfw_iii_ausf_j (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_late_group
+    Fallback: germ_pzkpfw_iii_late_group -> germ_pzkpfw_iii_late_group
+  Не найдено: germ_pzkpfw_iii_late_group -> germ_pzkpfw_iii_late_group (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_l
+    Fallback: germ_pzkpfw_iii_ausf_l -> germ_pzkpfw_iii_ausf_l
+  Не найдено: germ_pzkpfw_iii_ausf_l -> germ_pzkpfw_iii_ausf_l (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_m
+    Fallback: germ_pzkpfw_iii_ausf_m -> germ_pzkpfw_iii_ausf_m
+  Не найдено: germ_pzkpfw_iii_ausf_m -> germ_pzkpfw_iii_ausf_m (fallback)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_h1_tiger
+    Fallback: germ_pzkpfw_vi_ausf_h1_tiger -> germ_pzkpfw_vi_ausf_h1_tiger
+  Не найдено: germ_pzkpfw_vi_ausf_h1_tiger -> germ_pzkpfw_vi_ausf_h1_tiger (fallback)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_e_tiger
+    Fallback: germ_pzkpfw_vi_ausf_e_tiger -> germ_pzkpfw_vi_ausf_e_tiger
+  Не найдено: germ_pzkpfw_vi_ausf_e_tiger -> germ_pzkpfw_vi_ausf_e_tiger (fallback)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_b_tiger_iip
+    Fallback: germ_pzkpfw_vi_ausf_b_tiger_iip -> germ_pzkpfw_vi_ausf_b_tiger_iip
+  Не найдено: germ_pzkpfw_vi_ausf_b_tiger_iip -> germ_pzkpfw_vi_ausf_b_tiger_iip (fallback)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_b_tiger_iih
+    Fallback: germ_pzkpfw_vi_ausf_b_tiger_iih -> germ_pzkpfw_vi_ausf_b_tiger_iih
+  Не найдено: germ_pzkpfw_vi_ausf_b_tiger_iih -> germ_pzkpfw_vi_ausf_b_tiger_iih (fallback)
     Поиск локализации для: germ_mkpz_m48a2c
     Прямой поиск: germ_mkpz_m48a2c -> M48A2 C
   Найдено: germ_mkpz_m48a2c -> M48A2 C
@@ -30367,72 +30367,72 @@
     Поиск локализации для: germ_a7v
     Прямой поиск: germ_a7v -> A7V
   Найдено: germ_a7v -> A7V
-    Поиск локализации для: germ_pzkpfw_IV_ausf_C
-    Прямой поиск: germ_pzkpfw_IV_ausf_C -> Pz.IV C
-  Найдено: germ_pzkpfw_IV_ausf_C -> Pz.IV C
-    Поиск локализации для: germ_pzkpfw_II_early_group
-    Прямой поиск: germ_pzkpfw_II_early_group -> Pz.II C/F
-  Найдено: germ_pzkpfw_II_early_group -> Pz.II C/F
-    Поиск локализации для: germ_pzkpfw_II_ausf_C
-    Прямой поиск: germ_pzkpfw_II_ausf_C -> Pz.II C
-  Найдено: germ_pzkpfw_II_ausf_C -> Pz.II C
-    Поиск локализации для: germ_pzkpfw_II_ausf_F
-    Прямой поиск: germ_pzkpfw_II_ausf_F -> Pz.II F
-  Найдено: germ_pzkpfw_II_ausf_F -> Pz.II F
+    Поиск локализации для: germ_pzkpfw_iv_ausf_c
+    Fallback: germ_pzkpfw_iv_ausf_c -> germ_pzkpfw_iv_ausf_c
+  Не найдено: germ_pzkpfw_iv_ausf_c -> germ_pzkpfw_iv_ausf_c (fallback)
+    Поиск локализации для: germ_pzkpfw_ii_early_group
+    Fallback: germ_pzkpfw_ii_early_group -> germ_pzkpfw_ii_early_group
+  Не найдено: germ_pzkpfw_ii_early_group -> germ_pzkpfw_ii_early_group (fallback)
+    Поиск локализации для: germ_pzkpfw_ii_ausf_c
+    Fallback: germ_pzkpfw_ii_ausf_c -> germ_pzkpfw_ii_ausf_c
+  Не найдено: germ_pzkpfw_ii_ausf_c -> germ_pzkpfw_ii_ausf_c (fallback)
+    Поиск локализации для: germ_pzkpfw_ii_ausf_f
+    Fallback: germ_pzkpfw_ii_ausf_f -> germ_pzkpfw_ii_ausf_f
+  Не найдено: germ_pzkpfw_ii_ausf_f -> germ_pzkpfw_ii_ausf_f (fallback)
     Поиск локализации для: germ_pzkpfw_4_early_group
     Прямой поиск: germ_pzkpfw_4_early_group -> Pz.IV E/F
   Найдено: germ_pzkpfw_4_early_group -> Pz.IV E/F
-    Поиск локализации для: germ_pzkpfw_IV_ausf_E
-    Прямой поиск: germ_pzkpfw_IV_ausf_E -> Pz.IV E
-  Найдено: germ_pzkpfw_IV_ausf_E -> Pz.IV E
-    Поиск локализации для: germ_pzkpfw_IV_ausf_F
-    Прямой поиск: germ_pzkpfw_IV_ausf_F -> Pz.IV F1
-  Найдено: germ_pzkpfw_IV_ausf_F -> Pz.IV F1
+    Поиск локализации для: germ_pzkpfw_iv_ausf_e
+    Fallback: germ_pzkpfw_iv_ausf_e -> germ_pzkpfw_iv_ausf_e
+  Не найдено: germ_pzkpfw_iv_ausf_e -> germ_pzkpfw_iv_ausf_e (fallback)
+    Поиск локализации для: germ_pzkpfw_iv_ausf_f
+    Fallback: germ_pzkpfw_iv_ausf_f -> germ_pzkpfw_iv_ausf_f
+  Не найдено: germ_pzkpfw_iv_ausf_f -> germ_pzkpfw_iv_ausf_f (fallback)
     Поиск локализации для: germ_pz_4_fg_group
     Прямой поиск: germ_pz_4_fg_group -> Pz.IV F2/G
   Найдено: germ_pz_4_fg_group -> Pz.IV F2/G
-    Поиск локализации для: germ_pzkpfw_IV_ausf_F2
-    Прямой поиск: germ_pzkpfw_IV_ausf_F2 -> Pz.IV F2
-  Найдено: germ_pzkpfw_IV_ausf_F2 -> Pz.IV F2
-    Поиск локализации для: germ_pzkpfw_IV_ausf_G
-    Прямой поиск: germ_pzkpfw_IV_ausf_G -> Pz.IV G
-  Найдено: germ_pzkpfw_IV_ausf_G -> Pz.IV G
+    Поиск локализации для: germ_pzkpfw_iv_ausf_f2
+    Fallback: germ_pzkpfw_iv_ausf_f2 -> germ_pzkpfw_iv_ausf_f2
+  Не найдено: germ_pzkpfw_iv_ausf_f2 -> germ_pzkpfw_iv_ausf_f2 (fallback)
+    Поиск локализации для: germ_pzkpfw_iv_ausf_g
+    Fallback: germ_pzkpfw_iv_ausf_g -> germ_pzkpfw_iv_ausf_g
+  Не найдено: germ_pzkpfw_iv_ausf_g -> germ_pzkpfw_iv_ausf_g (fallback)
     Поиск локализации для: germ_pz_4_late_group
     Прямой поиск: germ_pz_4_late_group -> Pz.IV H/J
   Найдено: germ_pz_4_late_group -> Pz.IV H/J
-    Поиск локализации для: germ_pzkpfw_IV_ausf_H
-    Прямой поиск: germ_pzkpfw_IV_ausf_H -> Pz.IV H
-  Найдено: germ_pzkpfw_IV_ausf_H -> Pz.IV H
-    Поиск локализации для: germ_pzkpfw_IV_ausf_J
-    Прямой поиск: germ_pzkpfw_IV_ausf_J -> Pz.IV J
-  Найдено: germ_pzkpfw_IV_ausf_J -> Pz.IV J
+    Поиск локализации для: germ_pzkpfw_iv_ausf_h
+    Fallback: germ_pzkpfw_iv_ausf_h -> germ_pzkpfw_iv_ausf_h
+  Не найдено: germ_pzkpfw_iv_ausf_h -> germ_pzkpfw_iv_ausf_h (fallback)
+    Поиск локализации для: germ_pzkpfw_iv_ausf_j
+    Fallback: germ_pzkpfw_iv_ausf_j -> germ_pzkpfw_iv_ausf_j
+  Не найдено: germ_pzkpfw_iv_ausf_j -> germ_pzkpfw_iv_ausf_j (fallback)
     Поиск локализации для: germ_vk_3002m
     Прямой поиск: germ_vk_3002m -> VK 3002 (M)
   Найдено: germ_vk_3002m -> VK 3002 (M)
-    Поиск локализации для: germ_pzkpfw_V_ausf_d_panther
-    Прямой поиск: germ_pzkpfw_V_ausf_d_panther -> Panther D
-  Найдено: germ_pzkpfw_V_ausf_d_panther -> Panther D
-    Поиск локализации для: germ_pzkpfw_V_a_f_group
-    Прямой поиск: germ_pzkpfw_V_a_f_group -> Panther A/G/F
-  Найдено: germ_pzkpfw_V_a_f_group -> Panther A/G/F
-    Поиск локализации для: germ_pzkpfw_V_ausf_a_panther
-    Прямой поиск: germ_pzkpfw_V_ausf_a_panther -> Panther A
-  Найдено: germ_pzkpfw_V_ausf_a_panther -> Panther A
-    Поиск локализации для: germ_pzkpfw_V_ausf_g_panther
-    Прямой поиск: germ_pzkpfw_V_ausf_g_panther -> Panther G
-  Найдено: germ_pzkpfw_V_ausf_g_panther -> Panther G
-    Поиск локализации для: germ_pzkpfw_V_ausf_f_panther
-    Прямой поиск: germ_pzkpfw_V_ausf_f_panther -> Panther F
-  Найдено: germ_pzkpfw_V_ausf_f_panther -> Panther F
-    Поиск локализации для: germ_leopard_I
-    Прямой поиск: germ_leopard_I -> Leopard I
-  Найдено: germ_leopard_I -> Leopard I
+    Поиск локализации для: germ_pzkpfw_v_ausf_d_panther
+    Fallback: germ_pzkpfw_v_ausf_d_panther -> germ_pzkpfw_v_ausf_d_panther
+  Не найдено: germ_pzkpfw_v_ausf_d_panther -> germ_pzkpfw_v_ausf_d_panther (fallback)
+    Поиск локализации для: germ_pzkpfw_v_a_f_group
+    Fallback: germ_pzkpfw_v_a_f_group -> germ_pzkpfw_v_a_f_group
+  Не найдено: germ_pzkpfw_v_a_f_group -> germ_pzkpfw_v_a_f_group (fallback)
+    Поиск локализации для: germ_pzkpfw_v_ausf_a_panther
+    Fallback: germ_pzkpfw_v_ausf_a_panther -> germ_pzkpfw_v_ausf_a_panther
+  Не найдено: germ_pzkpfw_v_ausf_a_panther -> germ_pzkpfw_v_ausf_a_panther (fallback)
+    Поиск локализации для: germ_pzkpfw_v_ausf_g_panther
+    Fallback: germ_pzkpfw_v_ausf_g_panther -> germ_pzkpfw_v_ausf_g_panther
+  Не найдено: germ_pzkpfw_v_ausf_g_panther -> germ_pzkpfw_v_ausf_g_panther (fallback)
+    Поиск локализации для: germ_pzkpfw_v_ausf_f_panther
+    Fallback: germ_pzkpfw_v_ausf_f_panther -> germ_pzkpfw_v_ausf_f_panther
+  Не найдено: germ_pzkpfw_v_ausf_f_panther -> germ_pzkpfw_v_ausf_f_panther (fallback)
+    Поиск локализации для: germ_leopard_i
+    Fallback: germ_leopard_i -> germ_leopard_i
+  Не найдено: germ_leopard_i -> germ_leopard_i (fallback)
     Поиск локализации для: germ_leopard_1_late_group
     Прямой поиск: germ_leopard_1_late_group -> Leopard A1A1/1A5
   Найдено: germ_leopard_1_late_group -> Leopard A1A1/1A5
-    Поиск локализации для: germ_leopard_I_a1
-    Прямой поиск: germ_leopard_I_a1 -> Leopard A1A1
-  Найдено: germ_leopard_I_a1 -> Leopard A1A1
+    Поиск локализации для: germ_leopard_i_a1
+    Fallback: germ_leopard_i_a1 -> germ_leopard_i_a1
+  Не найдено: germ_leopard_i_a1 -> germ_leopard_i_a1 (fallback)
     Поиск локализации для: germ_leopard_1a5
     Прямой поиск: germ_leopard_1a5 -> Leopard 1A5
   Найдено: germ_leopard_1a5 -> Leopard 1A5
@@ -30457,12 +30457,12 @@
     Поиск локализации для: germ_flakpanzer_1_group
     Прямой поиск: germ_flakpanzer_1_group -> FlakPz I/38(t)
   Найдено: germ_flakpanzer_1_group -> FlakPz I/38(t)
-    Поиск локализации для: germ_flakpanzer_I_ausf_A
-    Прямой поиск: germ_flakpanzer_I_ausf_A -> Flakpanzer I
-  Найдено: germ_flakpanzer_I_ausf_A -> Flakpanzer I
-    Поиск локализации для: germ_flakpanzer_38t_Gepard
-    Прямой поиск: germ_flakpanzer_38t_Gepard -> Flakpanzer 38
-  Найдено: germ_flakpanzer_38t_Gepard -> Flakpanzer 38
+    Поиск локализации для: germ_flakpanzer_i_ausf_a
+    Fallback: germ_flakpanzer_i_ausf_a -> germ_flakpanzer_i_ausf_a
+  Не найдено: germ_flakpanzer_i_ausf_a -> germ_flakpanzer_i_ausf_a (fallback)
+    Поиск локализации для: germ_flakpanzer_38t_gepard
+    Fallback: germ_flakpanzer_38t_gepard -> germ_flakpanzer_38t_gepard
+  Не найдено: germ_flakpanzer_38t_gepard -> germ_flakpanzer_38t_gepard (fallback)
     Поиск локализации для: germ_sdkfz_222
     Прямой поиск: germ_sdkfz_222 -> Sd.Kfz.222
   Найдено: germ_sdkfz_222 -> Sd.Kfz.222
@@ -30475,39 +30475,39 @@
     Поиск локализации для: germ_flakpanzer_4_group
     Прямой поиск: germ_flakpanzer_4_group -> Ostwind/Wirbelwind
   Найдено: germ_flakpanzer_4_group -> Ostwind/Wirbelwind
-    Поиск локализации для: germ_flakpanzer_IV_Ostwind
-    Прямой поиск: germ_flakpanzer_IV_Ostwind -> Ostwind
-  Найдено: germ_flakpanzer_IV_Ostwind -> Ostwind
-    Поиск локализации для: germ_flakpanzer_IV_Wirbelwind
-    Прямой поиск: germ_flakpanzer_IV_Wirbelwind -> Wirbelwind
-  Найдено: germ_flakpanzer_IV_Wirbelwind -> Wirbelwind
-    Поиск локализации для: germ_flakpanzer_IV_Ostwind_2
-    Прямой поиск: germ_flakpanzer_IV_Ostwind_2 -> Ostwind II
-  Найдено: germ_flakpanzer_IV_Ostwind_2 -> Ostwind II
+    Поиск локализации для: germ_flakpanzer_iv_ostwind
+    Fallback: germ_flakpanzer_iv_ostwind -> germ_flakpanzer_iv_ostwind
+  Не найдено: germ_flakpanzer_iv_ostwind -> germ_flakpanzer_iv_ostwind (fallback)
+    Поиск локализации для: germ_flakpanzer_iv_wirbelwind
+    Fallback: germ_flakpanzer_iv_wirbelwind -> germ_flakpanzer_iv_wirbelwind
+  Не найдено: germ_flakpanzer_iv_wirbelwind -> germ_flakpanzer_iv_wirbelwind (fallback)
+    Поиск локализации для: germ_flakpanzer_iv_ostwind_2
+    Fallback: germ_flakpanzer_iv_ostwind_2 -> germ_flakpanzer_iv_ostwind_2
+  Не найдено: germ_flakpanzer_iv_ostwind_2 -> germ_flakpanzer_iv_ostwind_2 (fallback)
     Поиск локализации для: germ_flakpanzer_zerstorer_45
     Прямой поиск: germ_flakpanzer_zerstorer_45 -> Zerstörer 45
   Найдено: germ_flakpanzer_zerstorer_45 -> Zerstörer 45
-    Поиск локализации для: germ_flakpanzer_IV_Kugelblitz
-    Прямой поиск: germ_flakpanzer_IV_Kugelblitz -> Kugelblitz
-  Найдено: germ_flakpanzer_IV_Kugelblitz -> Kugelblitz
+    Поиск локализации для: germ_flakpanzer_iv_kugelblitz
+    Fallback: germ_flakpanzer_iv_kugelblitz -> germ_flakpanzer_iv_kugelblitz
+  Не найдено: germ_flakpanzer_iv_kugelblitz -> germ_flakpanzer_iv_kugelblitz (fallback)
     Поиск локализации для: germ_wiesel_1_mk20
     Прямой поиск: germ_wiesel_1_mk20 -> Wiesel 1A4
   Найдено: germ_wiesel_1_mk20 -> Wiesel 1A4
     Поиск локализации для: germ_sppz2_luchs_a2
     Прямой поиск: germ_sppz2_luchs_a2 -> Luchs A2
   Найдено: germ_sppz2_luchs_a2 -> Luchs A2
-    Поиск локализации для: germ_flakpz_I_Gepard
-    Прямой поиск: germ_flakpz_I_Gepard -> Gepard
-  Найдено: germ_flakpz_I_Gepard -> Gepard
+    Поиск локализации для: germ_flakpz_i_gepard
+    Fallback: germ_flakpz_i_gepard -> germ_flakpz_i_gepard
+  Не найдено: germ_flakpz_i_gepard -> germ_flakpz_i_gepard (fallback)
     Поиск локализации для: germ_wiesel_gepard_group
     Прямой поиск: germ_wiesel_gepard_group -> Ozelot/Gepard 1A2
   Найдено: germ_wiesel_gepard_group -> Ozelot/Gepard 1A2
     Поиск локализации для: germ_wiesel_2_adwc
     Прямой поиск: germ_wiesel_2_adwc -> Ozelot
   Найдено: germ_wiesel_2_adwc -> Ozelot
-    Поиск локализации для: germ_flakpz_1a2_Gepard
-    Прямой поиск: germ_flakpz_1a2_Gepard -> Gepard 1A2
-  Найдено: germ_flakpz_1a2_Gepard -> Gepard 1A2
+    Поиск локализации для: germ_flakpz_1a2_gepard
+    Fallback: germ_flakpz_1a2_gepard -> germ_flakpz_1a2_gepard
+  Не найдено: germ_flakpz_1a2_gepard -> germ_flakpz_1a2_gepard (fallback)
     Поиск локализации для: germ_roland_osa_group
     Прямой поиск: germ_roland_osa_group -> Roland/Osa
   Найдено: germ_roland_osa_group -> Roland/Osa
@@ -30529,9 +30529,9 @@
     Поиск локализации для: germ_sturmpanzer_221_group
     Прямой поиск: germ_sturmpanzer_221_group -> sIG Sfl./Sd.Kfz.221
   Найдено: germ_sturmpanzer_221_group -> sIG Sfl./Sd.Kfz.221
-    Поиск локализации для: germ_sturmpanzer_II
-    Прямой поиск: germ_sturmpanzer_II -> 15cm sIG 33 B Sfl
-  Найдено: germ_sturmpanzer_II -> 15cm sIG 33 B Sfl
+    Поиск локализации для: germ_sturmpanzer_ii
+    Fallback: germ_sturmpanzer_ii -> germ_sturmpanzer_ii
+  Не найдено: germ_sturmpanzer_ii -> germ_sturmpanzer_ii (fallback)
     Поиск локализации для: germ_sdkfz_221_s_pz_b_41
     Прямой поиск: germ_sdkfz_221_s_pz_b_41 -> Sd.Kfz.221 (s.Pz.B.41)
   Найдено: germ_sdkfz_221_s_pz_b_41 -> Sd.Kfz.221 (s.Pz.B.41)
@@ -30547,39 +30547,39 @@
     Поиск локализации для: germ_marder_stug_a_group
     Прямой поиск: germ_marder_stug_a_group -> Marder III/StuG III
   Найдено: germ_marder_stug_a_group -> Marder III/StuG III
-    Поиск локализации для: germ_pzkpfw_38t_Marder_III
-    Прямой поиск: germ_pzkpfw_38t_Marder_III -> Marder III
-  Найдено: germ_pzkpfw_38t_Marder_III -> Marder III
-    Поиск локализации для: germ_stug_III_ausf_A
-    Прямой поиск: germ_stug_III_ausf_A -> StuG III A
-  Найдено: germ_stug_III_ausf_A -> StuG III A
+    Поиск локализации для: germ_pzkpfw_38t_marder_iii
+    Fallback: germ_pzkpfw_38t_marder_iii -> germ_pzkpfw_38t_marder_iii
+  Не найдено: germ_pzkpfw_38t_marder_iii -> germ_pzkpfw_38t_marder_iii (fallback)
+    Поиск локализации для: germ_stug_iii_ausf_a
+    Fallback: germ_stug_iii_ausf_a -> germ_stug_iii_ausf_a
+  Не найдено: germ_stug_iii_ausf_a -> germ_stug_iii_ausf_a (fallback)
     Поиск локализации для: germ_marder_stuh_group
     Прямой поиск: germ_marder_stuh_group -> Marder/StuH/StuG
   Найдено: germ_marder_stuh_group -> Marder/StuH/StuG
-    Поиск локализации для: germ_pzkpfw_38t_Marder_III_ausf_H
-    Прямой поиск: germ_pzkpfw_38t_Marder_III_ausf_H -> Marder III H
-  Найдено: germ_pzkpfw_38t_Marder_III_ausf_H -> Marder III H
-    Поиск локализации для: germ_stuh_III_ausf_G
-    Прямой поиск: germ_stuh_III_ausf_G -> StuH 42 G
-  Найдено: germ_stuh_III_ausf_G -> StuH 42 G
-    Поиск локализации для: germ_stug_III_ausf_F
-    Прямой поиск: germ_stug_III_ausf_F -> StuG III F
-  Найдено: germ_stug_III_ausf_F -> StuG III F
-    Поиск локализации для: germ_stug_III_ausf_G
-    Прямой поиск: germ_stug_III_ausf_G -> StuG III G
-  Найдено: germ_stug_III_ausf_G -> StuG III G
+    Поиск локализации для: germ_pzkpfw_38t_marder_iii_ausf_h
+    Fallback: germ_pzkpfw_38t_marder_iii_ausf_h -> germ_pzkpfw_38t_marder_iii_ausf_h
+  Не найдено: germ_pzkpfw_38t_marder_iii_ausf_h -> germ_pzkpfw_38t_marder_iii_ausf_h (fallback)
+    Поиск локализации для: germ_stuh_iii_ausf_g
+    Fallback: germ_stuh_iii_ausf_g -> germ_stuh_iii_ausf_g
+  Не найдено: germ_stuh_iii_ausf_g -> germ_stuh_iii_ausf_g (fallback)
+    Поиск локализации для: germ_stug_iii_ausf_f
+    Fallback: germ_stug_iii_ausf_f -> germ_stug_iii_ausf_f
+  Не найдено: germ_stug_iii_ausf_f -> germ_stug_iii_ausf_f (fallback)
+    Поиск локализации для: germ_stug_iii_ausf_g
+    Fallback: germ_stug_iii_ausf_g -> germ_stug_iii_ausf_g
+  Не найдено: germ_stug_iii_ausf_g -> germ_stug_iii_ausf_g (fallback)
     Поиск локализации для: germ_jagdpanzer_group
     Прямой поиск: germ_jagdpanzer_group -> Jagdpanzer IV/38(t)
   Найдено: germ_jagdpanzer_group -> Jagdpanzer IV/38(t)
-    Поиск локализации для: germ_jgdpz_IV_L48
-    Прямой поиск: germ_jgdpz_IV_L48 -> Jagdpanzer IV
-  Найдено: germ_jgdpz_IV_L48 -> Jagdpanzer IV
+    Поиск локализации для: germ_jgdpz_iv_l48
+    Fallback: germ_jgdpz_iv_l48 -> germ_jgdpz_iv_l48
+  Не найдено: germ_jgdpz_iv_l48 -> germ_jgdpz_iv_l48 (fallback)
     Поиск локализации для: germ_jgdpz_38t
     Прямой поиск: germ_jgdpz_38t -> Jagdpanzer 38(t)
   Найдено: germ_jgdpz_38t -> Jagdpanzer 38(t)
-    Поиск локализации для: germ_pz_IV_L70
-    Прямой поиск: germ_pz_IV_L70 -> Panzer IV/70(V)
-  Найдено: germ_pz_IV_L70 -> Panzer IV/70(V)
+    Поиск локализации для: germ_pz_iv_l70
+    Fallback: germ_pz_iv_l70 -> germ_pz_iv_l70
+  Не найдено: germ_pz_iv_l70 -> germ_pz_iv_l70 (fallback)
     Поиск локализации для: germ_jagdpanther_group
     Прямой поиск: germ_jagdpanther_group -> Jagdpanther/JPz 4-5
   Найдено: germ_jagdpanther_group -> Jagdpanther/JPz 4-5
@@ -30592,9 +30592,9 @@
     Поиск локализации для: germ_panzerjager_tiger_group
     Прямой поиск: germ_panzerjager_tiger_group -> Ferdinand/Jagdtiger
   Найдено: germ_panzerjager_tiger_group -> Ferdinand/Jagdtiger
-    Поиск локализации для: germ_panzerjager_tiger_P_ferdinand
-    Прямой поиск: germ_panzerjager_tiger_P_ferdinand -> Ferdinand
-  Найдено: germ_panzerjager_tiger_P_ferdinand -> Ferdinand
+    Поиск локализации для: germ_panzerjager_tiger_p_ferdinand
+    Fallback: germ_panzerjager_tiger_p_ferdinand -> germ_panzerjager_tiger_p_ferdinand
+  Не найдено: germ_panzerjager_tiger_p_ferdinand -> germ_panzerjager_tiger_p_ferdinand (fallback)
     Поиск локализации для: germ_panzerjager_tiger
     Прямой поиск: germ_panzerjager_tiger -> Jagdtiger
   Найдено: germ_panzerjager_tiger -> Jagdtiger
@@ -30616,63 +30616,63 @@
     Поиск локализации для: germ_pzkpfw_35t_romania_mare
     Прямой поиск: germ_pzkpfw_35t_romania_mare -> Pz.35(t) RM
   Найдено: germ_pzkpfw_35t_romania_mare -> Pz.35(t) RM
-    Поиск локализации для: germ_pzkpfw_II_ausf_C_td
-    Прямой поиск: germ_pzkpfw_II_ausf_C_td -> Pz.II C TD
-  Найдено: germ_pzkpfw_II_ausf_C_td -> Pz.II C TD
-    Поиск локализации для: germ_pzkpfw_II_ausf_C_DAK
-    Прямой поиск: germ_pzkpfw_II_ausf_C_DAK -> Pz.II C (DAK)
-  Найдено: germ_pzkpfw_II_ausf_C_DAK -> Pz.II C (DAK)
-    Поиск локализации для: germ_nbfz_VI
-    Прямой поиск: germ_nbfz_VI -> Nb.Fz.
-  Найдено: germ_nbfz_VI -> Nb.Fz.
-    Поиск локализации для: germ_pzkpfw_38t_Aufklarungspanzer
-    Прямой поиск: germ_pzkpfw_38t_Aufklarungspanzer -> Sd.Kfz. 140/1
-  Найдено: germ_pzkpfw_38t_Aufklarungspanzer -> Sd.Kfz. 140/1
+    Поиск локализации для: germ_pzkpfw_ii_ausf_c_td
+    Fallback: germ_pzkpfw_ii_ausf_c_td -> germ_pzkpfw_ii_ausf_c_td
+  Не найдено: germ_pzkpfw_ii_ausf_c_td -> germ_pzkpfw_ii_ausf_c_td (fallback)
+    Поиск локализации для: germ_pzkpfw_ii_ausf_c_dak
+    Fallback: germ_pzkpfw_ii_ausf_c_dak -> germ_pzkpfw_ii_ausf_c_dak
+  Не найдено: germ_pzkpfw_ii_ausf_c_dak -> germ_pzkpfw_ii_ausf_c_dak (fallback)
+    Поиск локализации для: germ_nbfz_vi
+    Fallback: germ_nbfz_vi -> germ_nbfz_vi
+  Не найдено: germ_nbfz_vi -> germ_nbfz_vi (fallback)
+    Поиск локализации для: germ_pzkpfw_38t_aufklarungspanzer
+    Fallback: germ_pzkpfw_38t_aufklarungspanzer -> germ_pzkpfw_38t_aufklarungspanzer
+  Не найдено: germ_pzkpfw_38t_aufklarungspanzer -> germ_pzkpfw_38t_aufklarungspanzer (fallback)
     Поиск локализации для: germ_panzerwerfer_42
     Прямой поиск: germ_panzerwerfer_42 -> 15 cm Pz.W.42
   Найдено: germ_panzerwerfer_42 -> 15 cm Pz.W.42
-    Поиск локализации для: germ_pzkpfw_III_ausf_J_td
-    Прямой поиск: germ_pzkpfw_III_ausf_J_td -> Pz.III J1 TD
-  Найдено: germ_pzkpfw_III_ausf_J_td -> Pz.III J1 TD
-    Поиск локализации для: germ_pzkpfw_III_ausf_N
-    Прямой поиск: germ_pzkpfw_III_ausf_N -> Pz.III N
-  Найдено: germ_pzkpfw_III_ausf_N -> Pz.III N
+    Поиск локализации для: germ_pzkpfw_iii_ausf_j_td
+    Fallback: germ_pzkpfw_iii_ausf_j_td -> germ_pzkpfw_iii_ausf_j_td
+  Не найдено: germ_pzkpfw_iii_ausf_j_td -> germ_pzkpfw_iii_ausf_j_td (fallback)
+    Поиск локализации для: germ_pzkpfw_iii_ausf_n
+    Fallback: germ_pzkpfw_iii_ausf_n -> germ_pzkpfw_iii_ausf_n
+  Не найдено: germ_pzkpfw_iii_ausf_n -> germ_pzkpfw_iii_ausf_n (fallback)
     Поиск локализации для: germ_kv_2_754r
     Прямой поиск: germ_kv_2_754r -> ▀KW II 754 (r)
   Найдено: germ_kv_2_754r -> ▀KW II 754 (r)
-    Поиск локализации для: germ_panzerbefelhswagen_IV_ausf_J
-    Прямой поиск: germ_panzerbefelhswagen_IV_ausf_J -> Pz.Bef.Wg.IV J
-  Найдено: germ_panzerbefelhswagen_IV_ausf_J -> Pz.Bef.Wg.IV J
+    Поиск локализации для: germ_panzerbefelhswagen_iv_ausf_j
+    Fallback: germ_panzerbefelhswagen_iv_ausf_j -> germ_panzerbefelhswagen_iv_ausf_j
+  Не найдено: germ_panzerbefelhswagen_iv_ausf_j -> germ_panzerbefelhswagen_iv_ausf_j (fallback)
     Поиск локализации для: germ_infanterie_kampfpanzer_churchill
     Прямой поиск: germ_infanterie_kampfpanzer_churchill -> ▀Pz.Kpfw. Churchill
   Найдено: germ_infanterie_kampfpanzer_churchill -> ▀Pz.Kpfw. Churchill
     Поиск локализации для: germ_t_34_747
     Прямой поиск: germ_t_34_747 -> ▀T 34 747 (r)
   Найдено: germ_t_34_747 -> ▀T 34 747 (r)
-    Поиск локализации для: germ_sturmpanzer_IV_brummbar
-    Прямой поиск: germ_sturmpanzer_IV_brummbar -> Brummbär
-  Найдено: germ_sturmpanzer_IV_brummbar -> Brummbär
-    Поиск локализации для: germ_pz_IV_L70_A
-    Прямой поиск: germ_pz_IV_L70_A -> Panzer IV/70(A)
-  Найдено: germ_pz_IV_L70_A -> Panzer IV/70(A)
+    Поиск локализации для: germ_sturmpanzer_iv_brummbar
+    Fallback: germ_sturmpanzer_iv_brummbar -> germ_sturmpanzer_iv_brummbar
+  Не найдено: germ_sturmpanzer_iv_brummbar -> germ_sturmpanzer_iv_brummbar (fallback)
+    Поиск локализации для: germ_pz_iv_l70_a
+    Fallback: germ_pz_iv_l70_a -> germ_pz_iv_l70_a
+  Не найдено: germ_pz_iv_l70_a -> germ_pz_iv_l70_a (fallback)
     Поиск локализации для: germ_kv_1_kwk_40
     Прямой поиск: germ_kv_1_kwk_40 -> ▀KW I C 756 (r)
   Найдено: germ_kv_1_kwk_40 -> ▀KW I C 756 (r)
-    Поиск локализации для: germ_panzerbefelhswagen_VI_P
-    Прямой поиск: germ_panzerbefelhswagen_VI_P -> Pz.Bef.Wg.VI P
-  Найдено: germ_panzerbefelhswagen_VI_P -> Pz.Bef.Wg.VI P
+    Поиск локализации для: germ_panzerbefelhswagen_vi_p
+    Fallback: germ_panzerbefelhswagen_vi_p -> germ_panzerbefelhswagen_vi_p
+  Не найдено: germ_panzerbefelhswagen_vi_p -> germ_panzerbefelhswagen_vi_p (fallback)
     Поиск локализации для: germ_sturmmorser_sturmtiger
     Прямой поиск: germ_sturmmorser_sturmtiger -> 38 cm Sturmmörser
   Найдено: germ_sturmmorser_sturmtiger -> 38 cm Sturmmörser
     Поиск локализации для: germ_panzerbefelhswagen_jagdpanther
     Прямой поиск: germ_panzerbefelhswagen_jagdpanther -> Bfw. Jagdpanther G1
   Найдено: germ_panzerbefelhswagen_jagdpanther -> Bfw. Jagdpanther G1
-    Поиск локализации для: germ_panzerjager_tiger_P_elefant
-    Прямой поиск: germ_panzerjager_tiger_P_elefant -> Elefant
-  Найдено: germ_panzerjager_tiger_P_elefant -> Elefant
-    Поиск локализации для: germ_panther_II
-    Прямой поиск: germ_panther_II -> Panther II
-  Найдено: germ_panther_II -> Panther II
+    Поиск локализации для: germ_panzerjager_tiger_p_elefant
+    Fallback: germ_panzerjager_tiger_p_elefant -> germ_panzerjager_tiger_p_elefant
+  Не найдено: germ_panzerjager_tiger_p_elefant -> germ_panzerjager_tiger_p_elefant (fallback)
+    Поиск локализации для: germ_panther_ii
+    Fallback: germ_panther_ii -> germ_panther_ii
+  Не найдено: germ_panther_ii -> germ_panther_ii (fallback)
     Поиск локализации для: germ_mkpz_m47
     Прямой поиск: germ_mkpz_m47 -> mKPz M47 G
   Найдено: germ_mkpz_m47 -> mKPz M47 G
@@ -30715,9 +30715,9 @@
     Поиск локализации для: germ_amd_35_kwk
     Прямой поиск: germ_amd_35_kwk -> Pz.Sp.Wg.P204(f) KwK 38
   Найдено: germ_amd_35_kwk -> Pz.Sp.Wg.P204(f) KwK 38
-    Поиск локализации для: germ_pzkpfw_II_ausf_H
-    Прямой поиск: germ_pzkpfw_II_ausf_H -> Pz.Sfl.Ic
-  Найдено: germ_pzkpfw_II_ausf_H -> Pz.Sfl.Ic
+    Поиск локализации для: germ_pzkpfw_ii_ausf_h
+    Fallback: germ_pzkpfw_ii_ausf_h -> germ_pzkpfw_ii_ausf_h
+  Не найдено: germ_pzkpfw_ii_ausf_h -> germ_pzkpfw_ii_ausf_h (fallback)
     Поиск локализации для: germ_sdkfz_251_22
     Прямой поиск: germ_sdkfz_251_22 -> Sd.Kfz.251/22
   Найдено: germ_sdkfz_251_22 -> Sd.Kfz.251/22
@@ -30727,57 +30727,57 @@
     Поиск локализации для: us_m4a2_1944_germ
     Прямой поиск: us_m4a2_1944_germ -> ▀M4 748 (a)
   Найдено: us_m4a2_1944_germ -> ▀M4 748 (a)
-    Поиск локализации для: germ_kv_1B_finland
-    Прямой поиск: germ_kv_1B_finland -> ▀KV-IB
-  Найдено: germ_kv_1B_finland -> ▀KV-IB
+    Поиск локализации для: germ_kv_1b_finland
+    Fallback: germ_kv_1b_finland -> germ_kv_1b_finland
+  Не найдено: germ_kv_1b_finland -> germ_kv_1b_finland (fallback)
     Поиск локализации для: germ_sdkfz_234_4
     Прямой поиск: germ_sdkfz_234_4 -> Sd.Kfz.234/4
   Найдено: germ_sdkfz_234_4 -> Sd.Kfz.234/4
-    Поиск локализации для: germ_pzkpfw_VI_tiger_P
-    Прямой поиск: germ_pzkpfw_VI_tiger_P -> VK 45.01 (P)
-  Найдено: germ_pzkpfw_VI_tiger_P -> VK 45.01 (P)
+    Поиск локализации для: germ_pzkpfw_vi_tiger_p
+    Fallback: germ_pzkpfw_vi_tiger_p -> germ_pzkpfw_vi_tiger_p
+  Не найдено: germ_pzkpfw_vi_tiger_p -> germ_pzkpfw_vi_tiger_p (fallback)
     Поиск локализации для: germ_vsw_flak_41
     Прямой поиск: germ_vsw_flak_41 -> VFW
   Найдено: germ_vsw_flak_41 -> VFW
     Поиск локализации для: germ_tiger_east_west_group
     Прямой поиск: germ_tiger_east_west_group -> Два Фронта
   Найдено: germ_tiger_east_west_group -> Два Фронта
-    Поиск локализации для: germ_pzkpfw_VI_ausf_h1_tiger_east
-    Прямой поиск: germ_pzkpfw_VI_ausf_h1_tiger_east -> Tiger Ost
-  Найдено: germ_pzkpfw_VI_ausf_h1_tiger_east -> Tiger Ost
-    Поиск локализации для: germ_pzkpfw_VI_ausf_h1_tiger_west
-    Прямой поиск: germ_pzkpfw_VI_ausf_h1_tiger_west -> Tiger West
-  Найдено: germ_pzkpfw_VI_ausf_h1_tiger_west -> Tiger West
-    Поиск локализации для: germ_flakpanzer_IV_Ostwind_2_net
-    Прямой поиск: germ_flakpanzer_IV_Ostwind_2_net -> Ostwind Ost
-  Найдено: germ_flakpanzer_IV_Ostwind_2_net -> Ostwind Ost
-    Поиск локализации для: germ_pzkpfw_VI_ausf_h1_tiger_animal_version
-    Прямой поиск: germ_pzkpfw_VI_ausf_h1_tiger_animal_version -> ␠Tiger
-  Найдено: germ_pzkpfw_VI_ausf_h1_tiger_animal_version -> ␠Tiger
-    Поиск локализации для: germ_pzkpfw_V_ersatz_m10
-    Прямой поиск: germ_pzkpfw_V_ersatz_m10 -> Ersatz M10
-  Найдено: germ_pzkpfw_V_ersatz_m10 -> Ersatz M10
-    Поиск локализации для: germ_flakpanzer_V_Coelian
-    Прямой поиск: germ_flakpanzer_V_Coelian -> Flakpanzer 341
-  Найдено: germ_flakpanzer_V_Coelian -> Flakpanzer 341
+    Поиск локализации для: germ_pzkpfw_vi_ausf_h1_tiger_east
+    Fallback: germ_pzkpfw_vi_ausf_h1_tiger_east -> germ_pzkpfw_vi_ausf_h1_tiger_east
+  Не найдено: germ_pzkpfw_vi_ausf_h1_tiger_east -> germ_pzkpfw_vi_ausf_h1_tiger_east (fallback)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_h1_tiger_west
+    Fallback: germ_pzkpfw_vi_ausf_h1_tiger_west -> germ_pzkpfw_vi_ausf_h1_tiger_west
+  Не найдено: germ_pzkpfw_vi_ausf_h1_tiger_west -> germ_pzkpfw_vi_ausf_h1_tiger_west (fallback)
+    Поиск локализации для: germ_flakpanzer_iv_ostwind_2_net
+    Fallback: germ_flakpanzer_iv_ostwind_2_net -> germ_flakpanzer_iv_ostwind_2_net
+  Не найдено: germ_flakpanzer_iv_ostwind_2_net -> germ_flakpanzer_iv_ostwind_2_net (fallback)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_h1_tiger_animal_version
+    Fallback: germ_pzkpfw_vi_ausf_h1_tiger_animal_version -> germ_pzkpfw_vi_ausf_h1_tiger_animal_version
+  Не найдено: germ_pzkpfw_vi_ausf_h1_tiger_animal_version -> germ_pzkpfw_vi_ausf_h1_tiger_animal_version (fallback)
+    Поиск локализации для: germ_pzkpfw_v_ersatz_m10
+    Fallback: germ_pzkpfw_v_ersatz_m10 -> germ_pzkpfw_v_ersatz_m10
+  Не найдено: germ_pzkpfw_v_ersatz_m10 -> germ_pzkpfw_v_ersatz_m10 (fallback)
+    Поиск локализации для: germ_flakpanzer_v_coelian
+    Fallback: germ_flakpanzer_v_coelian -> germ_flakpanzer_v_coelian
+  Не найдено: germ_flakpanzer_v_coelian -> germ_flakpanzer_v_coelian (fallback)
     Поиск локализации для: germ_spz_12_3
     Прямой поиск: germ_spz_12_3 -> SPz 12-3 LGS
   Найдено: germ_spz_12_3 -> SPz 12-3 LGS
-    Поиск локализации для: germ_pzkpfw_VI_ausf_b_tiger_IIh_sla
-    Прямой поиск: germ_pzkpfw_VI_ausf_b_tiger_IIh_sla -> Tiger II (H) Sla.16
-  Найдено: germ_pzkpfw_VI_ausf_b_tiger_IIh_sla -> Tiger II (H) Sla.16
-    Поиск локализации для: germ_pzkpfw_VI_ausf_b_tiger_IIh_kwk46
-    Прямой поиск: germ_pzkpfw_VI_ausf_b_tiger_IIh_kwk46 -> Tiger II (10.5 cm Kw.K)
-  Найдено: germ_pzkpfw_VI_ausf_b_tiger_IIh_kwk46 -> Tiger II (10.5 cm Kw.K)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_b_tiger_iih_sla
+    Fallback: germ_pzkpfw_vi_ausf_b_tiger_iih_sla -> germ_pzkpfw_vi_ausf_b_tiger_iih_sla
+  Не найдено: germ_pzkpfw_vi_ausf_b_tiger_iih_sla -> germ_pzkpfw_vi_ausf_b_tiger_iih_sla (fallback)
+    Поиск локализации для: germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46
+    Fallback: germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46 -> germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46
+  Не найдено: germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46 -> germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46 (fallback)
     Поиск локализации для: germ_ru251
     Прямой поиск: germ_ru251 -> Ru 251
   Найдено: germ_ru251 -> Ru 251
     Поиск локализации для: germ_pzkpfw_e_100
     Прямой поиск: germ_pzkpfw_e_100 -> E-100
   Найдено: germ_pzkpfw_e_100 -> E-100
-    Поиск локализации для: germ_pzkpfw_Maus
-    Прямой поиск: germ_pzkpfw_Maus -> Maus
-  Найдено: germ_pzkpfw_Maus -> Maus
+    Поиск локализации для: germ_pzkpfw_maus
+    Fallback: germ_pzkpfw_maus -> germ_pzkpfw_maus
+  Не найдено: germ_pzkpfw_maus -> germ_pzkpfw_maus (fallback)
     Поиск локализации для: germ_vt_1_2
     Прямой поиск: germ_vt_1_2 -> VT1-2
   Найдено: germ_vt_1_2 -> VT1-2
@@ -31726,9 +31726,9 @@
     Поиск локализации для: ussr_t_34_1942
     Прямой поиск: ussr_t_34_1942 -> Т-34 (1942)
   Найдено: ussr_t_34_1942 -> Т-34 (1942)
-    Поиск локализации для: ussr_t_34E_STZ
-    Прямой поиск: ussr_t_34E_STZ -> Т-34Э СТЗ
-  Найдено: ussr_t_34E_STZ -> Т-34Э СТЗ
+    Поиск локализации для: ussr_t_34e_stz
+    Fallback: ussr_t_34e_stz -> ussr_t_34e_stz
+  Не найдено: ussr_t_34e_stz -> ussr_t_34e_stz (fallback)
     Поиск локализации для: ussr_t_34_1941_57
     Прямой поиск: ussr_t_34_1941_57 -> Т-34-57
   Найдено: ussr_t_34_1941_57 -> Т-34-57
@@ -31807,15 +31807,15 @@
     Поиск локализации для: ussr_t_28
     Прямой поиск: ussr_t_28 -> Т-28
   Найдено: ussr_t_28 -> Т-28
-    Поиск локализации для: ussr_t_28E
-    Прямой поиск: ussr_t_28E -> Т-28Э
-  Найдено: ussr_t_28E -> Т-28Э
+    Поиск локализации для: ussr_t_28e
+    Fallback: ussr_t_28e -> ussr_t_28e
+  Не найдено: ussr_t_28e -> ussr_t_28e (fallback)
     Поиск локализации для: ussr_kv_1_2_group
     Прямой поиск: ussr_kv_1_2_group -> КВ-1/2(39)
   Найдено: ussr_kv_1_2_group -> КВ-1/2(39)
-    Поиск локализации для: ussr_kv_1_L_11
-    Прямой поиск: ussr_kv_1_L_11 -> КВ-1 (Л-11)
-  Найдено: ussr_kv_1_L_11 -> КВ-1 (Л-11)
+    Поиск локализации для: ussr_kv_1_l_11
+    Fallback: ussr_kv_1_l_11 -> ussr_kv_1_l_11
+  Не найдено: ussr_kv_1_l_11 -> ussr_kv_1_l_11 (fallback)
     Поиск локализации для: ussr_kv_2_1939
     Прямой поиск: ussr_kv_2_1939 -> КВ-2 (1939)
   Найдено: ussr_kv_2_1939 -> КВ-2 (1939)
@@ -32038,9 +32038,9 @@
     Поиск локализации для: ussr_zis_group
     Прямой поиск: ussr_zis_group -> ЗиС/ЗСУ
   Найдено: ussr_zis_group -> ЗиС/ЗСУ
-    Поиск локализации для: ussr_zis_12_94KM_1945
-    Прямой поиск: ussr_zis_12_94KM_1945 -> ЗиС-12 (94-КМ)
-  Найдено: ussr_zis_12_94KM_1945 -> ЗиС-12 (94-КМ)
+    Поиск локализации для: ussr_zis_12_94km_1945
+    Fallback: ussr_zis_12_94km_1945 -> ussr_zis_12_94km_1945
+  Не найдено: ussr_zis_12_94km_1945 -> ussr_zis_12_94km_1945 (fallback)
     Поиск локализации для: ussr_zsu_37
     Прямой поиск: ussr_zsu_37 -> ЗСУ-37
   Найдено: ussr_zsu_37 -> ЗСУ-37
@@ -32080,9 +32080,9 @@
     Поиск локализации для: ussr_pantsyr_s1
     Прямой поиск: ussr_pantsyr_s1 -> Панцирь-С1
   Найдено: ussr_pantsyr_s1 -> Панцирь-С1
-    Поиск локализации для: ussr_t_26_1940_1st_GvTBr
-    Прямой поиск: ussr_t_26_1940_1st_GvTBr -> Т-26 (1 Гв.Т.Бр.)
-  Найдено: ussr_t_26_1940_1st_GvTBr -> Т-26 (1 Гв.Т.Бр.)
+    Поиск локализации для: ussr_t_26_1940_1st_gvtbr
+    Fallback: ussr_t_26_1940_1st_gvtbr -> ussr_t_26_1940_1st_gvtbr
+  Не найдено: ussr_t_26_1940_1st_gvtbr -> ussr_t_26_1940_1st_gvtbr (fallback)
     Поиск локализации для: ussr_bt_7_1937_td
     Прямой поиск: ussr_bt_7_1937_td -> БТ-7 TD
   Найдено: ussr_bt_7_1937_td -> БТ-7 TD
@@ -32092,9 +32092,9 @@
     Поиск локализации для: ussr_su_57
     Прямой поиск: ussr_su_57 -> СУ-57
   Найдено: ussr_su_57 -> СУ-57
-    Поиск локализации для: ussr_pzkpfw_III_ausf_J_L42
-    Прямой поиск: ussr_pzkpfw_III_ausf_J_L42 -> ▂T-III
-  Найдено: ussr_pzkpfw_III_ausf_J_L42 -> ▂T-III
+    Поиск локализации для: ussr_pzkpfw_iii_ausf_j_l42
+    Fallback: ussr_pzkpfw_iii_ausf_j_l42 -> ussr_pzkpfw_iii_ausf_j_l42
+  Не найдено: ussr_pzkpfw_iii_ausf_j_l42 -> ussr_pzkpfw_iii_ausf_j_l42 (fallback)
     Поиск локализации для: ussr_zut_37
     Прямой поиск: ussr_zut_37 -> ЗУТ-37
   Найдено: ussr_zut_37 -> ЗУТ-37
@@ -32113,9 +32113,9 @@
     Поиск локализации для: ussr_t_34_1941_cast_turret
     Прямой поиск: ussr_t_34_1941_cast_turret -> Т-34 (1 Гв.Т.Бр.)
   Найдено: ussr_t_34_1941_cast_turret -> Т-34 (1 Гв.Т.Бр.)
-    Поиск локализации для: ussr_t_34E
-    Прямой поиск: ussr_t_34E -> Т-34Э
-  Найдено: ussr_t_34E -> Т-34Э
+    Поиск локализации для: ussr_t_34e
+    Fallback: ussr_t_34e -> ussr_t_34e
+  Не найдено: ussr_t_34e -> ussr_t_34e (fallback)
     Поиск локализации для: ussr_bm_31_12
     Прямой поиск: ussr_bm_31_12 -> БМ-31-12
   Найдено: ussr_bm_31_12 -> БМ-31-12
@@ -32146,12 +32146,12 @@
     Поиск локализации для: ussr_kv_122
     Прямой поиск: ussr_kv_122 -> КВ-122
   Найдено: ussr_kv_122 -> КВ-122
-    Поиск локализации для: ussr_t_34_85E
-    Прямой поиск: ussr_t_34_85E -> Т-34-85Э
-  Найдено: ussr_t_34_85E -> Т-34-85Э
-    Поиск локализации для: ussr_su_122P
-    Прямой поиск: ussr_su_122P -> СУ-122П
-  Найдено: ussr_su_122P -> СУ-122П
+    Поиск локализации для: ussr_t_34_85e
+    Fallback: ussr_t_34_85e -> ussr_t_34_85e
+  Не найдено: ussr_t_34_85e -> ussr_t_34_85e (fallback)
+    Поиск локализации для: ussr_su_122p
+    Fallback: ussr_su_122p -> ussr_su_122p
+  Не найдено: ussr_su_122p -> ussr_su_122p (fallback)
     Поиск локализации для: ussr_t_44_122
     Прямой поиск: ussr_t_44_122 -> Т-44-122
   Найдено: ussr_t_44_122 -> Т-44-122
@@ -32194,9 +32194,9 @@
     Поиск локализации для: ussr_t_80ue1
     Прямой поиск: ussr_t_80ue1 -> Т-80У-Е1
   Найдено: ussr_t_80ue1 -> Т-80У-Е1
-    Поиск локализации для: ussr_t_26E
-    Прямой поиск: ussr_t_26E -> Т-26Э
-  Найдено: ussr_t_26E -> Т-26Э
+    Поиск локализации для: ussr_t_26e
+    Fallback: ussr_t_26e -> ussr_t_26e
+  Не найдено: ussr_t_26e -> ussr_t_26e (fallback)
     Поиск локализации для: ussr_rbt_5
     Прямой поиск: ussr_rbt_5 -> РБТ-5
   Найдено: ussr_rbt_5 -> РБТ-5
@@ -32218,9 +32218,9 @@
     Поиск локализации для: ussr_bm_13n
     Прямой поиск: ussr_bm_13n -> БМ-13Н
   Найдено: ussr_bm_13n -> БМ-13Н
-    Поиск локализации для: ussr_a_12_mk_2_matilda_2A_F96
-    Прямой поиск: ussr_a_12_mk_2_matilda_2A_F96 -> ▂МК-II "Матильда"
-  Найдено: ussr_a_12_mk_2_matilda_2A_F96 -> ▂МК-II "Матильда"
+    Поиск локализации для: ussr_a_12_mk_2_matilda_2a_f96
+    Fallback: ussr_a_12_mk_2_matilda_2a_f96 -> ussr_a_12_mk_2_matilda_2a_f96
+  Не найдено: ussr_a_12_mk_2_matilda_2a_f96 -> ussr_a_12_mk_2_matilda_2a_f96 (fallback)
     Поиск локализации для: ussr_valentine_mk_9
     Прямой поиск: ussr_valentine_mk_9 -> ▂МК-IX "Валентин"
   Найдено: ussr_valentine_mk_9 -> ▂МК-IX "Валентин"
@@ -32236,18 +32236,18 @@
     Поиск локализации для: ussr_kv_1e
     Прямой поиск: ussr_kv_1e -> КВ-1Э
   Найдено: ussr_kv_1e -> КВ-1Э
-    Поиск локализации для: ussr_su_100Y
-    Прямой поиск: ussr_su_100Y -> СУ-100Y
-  Найдено: ussr_su_100Y -> СУ-100Y
+    Поиск локализации для: ussr_su_100y
+    Fallback: ussr_su_100y -> ussr_su_100y
+  Не найдено: ussr_su_100y -> ussr_su_100y (fallback)
     Поиск локализации для: ussr_kv_2_zis_6
     Прямой поиск: ussr_kv_2_zis_6 -> КВ-2 (ЗиС-6)
   Найдено: ussr_kv_2_zis_6 -> КВ-2 (ЗиС-6)
     Поиск локализации для: ussr_kv_220
     Прямой поиск: ussr_kv_220 -> КВ-220
   Найдено: ussr_kv_220 -> КВ-220
-    Поиск локализации для: ussr_pzkpfw_V
-    Прямой поиск: ussr_pzkpfw_V -> ▂T-V
-  Найдено: ussr_pzkpfw_V -> ▂T-V
+    Поиск локализации для: ussr_pzkpfw_v
+    Fallback: ussr_pzkpfw_v -> ussr_pzkpfw_v
+  Не найдено: ussr_pzkpfw_v -> ussr_pzkpfw_v (fallback)
     Поиск локализации для: ussr_t_44_po
     Прямой поиск: ussr_t_44_po -> Т-44 (ПМ)
   Найдено: ussr_t_44_po -> Т-44 (ПМ)
@@ -33280,9 +33280,9 @@
     Поиск локализации для: uk_a27m_cromwell_1
     Прямой поиск: uk_a27m_cromwell_1 -> Cromwell I
   Найдено: uk_a27m_cromwell_1 -> Cromwell I
-    Поиск локализации для: uk_sherman_II
-    Прямой поиск: uk_sherman_II -> Sherman II
-  Найдено: uk_sherman_II -> Sherman II
+    Поиск локализации для: uk_sherman_ii
+    Fallback: uk_sherman_ii -> uk_sherman_ii
+  Не найдено: uk_sherman_ii -> uk_sherman_ii (fallback)
     Поиск локализации для: uk_sherman_vc_firefly
     Прямой поиск: uk_sherman_vc_firefly -> Sherman Firefly
   Найдено: uk_sherman_vc_firefly -> Sherman Firefly
@@ -33337,9 +33337,9 @@
     Поиск локализации для: uk_challenger_2_group
     Прямой поиск: uk_challenger_2_group -> Challenger 2/2F/TES
   Найдено: uk_challenger_2_group -> Challenger 2/2F/TES
-    Поиск локализации для: uk_challenger_II
-    Прямой поиск: uk_challenger_II -> Challenger 2
-  Найдено: uk_challenger_II -> Challenger 2
+    Поиск локализации для: uk_challenger_ii
+    Fallback: uk_challenger_ii -> uk_challenger_ii
+  Не найдено: uk_challenger_ii -> uk_challenger_ii (fallback)
     Поиск локализации для: uk_challenger_2_dorchester
     Прямой поиск: uk_challenger_2_dorchester -> Challenger 2 (2F)
   Найдено: uk_challenger_2_dorchester -> Challenger 2 (2F)
@@ -34633,9 +34633,9 @@
     Поиск локализации для: jp_st_a3
     Прямой поиск: jp_st_a3 -> ST-A3
   Найдено: jp_st_a3 -> ST-A3
-    Поиск локализации для: jp_m47_patton_II
-    Прямой поиск: jp_m47_patton_II -> ▅M47
-  Найдено: jp_m47_patton_II -> ▅M47
+    Поиск локализации для: jp_m47_patton_ii
+    Fallback: jp_m47_patton_ii -> jp_m47_patton_ii
+  Не найдено: jp_m47_patton_ii -> jp_m47_patton_ii (fallback)
     Поиск локализации для: jp_type_74_stb_group
     Прямой поиск: jp_type_74_stb_group -> STB-2/Type 74
   Найдено: jp_type_74_stb_group -> STB-2/Type 74
@@ -34681,12 +34681,12 @@
     Поиск локализации для: jp_ho_ni_group
     Прямой поиск: jp_ho_ni_group -> Ho-Ni I/III
   Найдено: jp_ho_ni_group -> Ho-Ni I/III
-    Поиск локализации для: jp_type_3_ho_ni_I
-    Прямой поиск: jp_type_3_ho_ni_I -> Ho-Ni I
-  Найдено: jp_type_3_ho_ni_I -> Ho-Ni I
-    Поиск локализации для: jp_type_3_ho_ni_III
-    Прямой поиск: jp_type_3_ho_ni_III -> Ho-Ni III
-  Найдено: jp_type_3_ho_ni_III -> Ho-Ni III
+    Поиск локализации для: jp_type_3_ho_ni_i
+    Fallback: jp_type_3_ho_ni_i -> jp_type_3_ho_ni_i
+  Не найдено: jp_type_3_ho_ni_i -> jp_type_3_ho_ni_i (fallback)
+    Поиск локализации для: jp_type_3_ho_ni_iii
+    Fallback: jp_type_3_ho_ni_iii -> jp_type_3_ho_ni_iii
+  Не найдено: jp_type_3_ho_ni_iii -> jp_type_3_ho_ni_iii (fallback)
     Поиск локализации для: jp_navy_120mm_spg
     Прямой поиск: jp_navy_120mm_spg -> Chi-Ha LG
   Найдено: jp_navy_120mm_spg -> Chi-Ha LG
@@ -34762,9 +34762,9 @@
     Поиск локализации для: jp_type_3_chi_nu_75cm_type_5
     Прямой поиск: jp_type_3_chi_nu_75cm_type_5 -> Chi-Nu II
   Найдено: jp_type_3_chi_nu_75cm_type_5 -> Chi-Nu II
-    Поиск локализации для: jp_pzkpfw_VI_ausf_e_tiger
-    Прямой поиск: jp_pzkpfw_VI_ausf_e_tiger -> ▅Heavy Tank No.6
-  Найдено: jp_pzkpfw_VI_ausf_e_tiger -> ▅Heavy Tank No.6
+    Поиск локализации для: jp_pzkpfw_vi_ausf_e_tiger
+    Fallback: jp_pzkpfw_vi_ausf_e_tiger -> jp_pzkpfw_vi_ausf_e_tiger
+  Не найдено: jp_pzkpfw_vi_ausf_e_tiger -> jp_pzkpfw_vi_ausf_e_tiger (fallback)
     Поиск локализации для: jp_type_5_ho_ri_prototype
     Прямой поиск: jp_type_5_ho_ri_prototype -> Ho-Ri Prototype
   Найдено: jp_type_5_ho_ri_prototype -> Ho-Ri Prototype
@@ -35524,9 +35524,9 @@
     Поиск локализации для: cn_type_63_62_group
     Прямой поиск: cn_type_63_62_group -> Type 63/62
   Найдено: cn_type_63_62_group -> Type 63/62
-    Поиск локализации для: cn_type_63_I
-    Прямой поиск: cn_type_63_I -> Type 63
-  Найдено: cn_type_63_I -> Type 63
+    Поиск локализации для: cn_type_63_i
+    Fallback: cn_type_63_i -> cn_type_63_i
+  Не найдено: cn_type_63_i -> cn_type_63_i (fallback)
     Поиск локализации для: cn_type_62
     Прямой поиск: cn_type_62 -> Type 62
   Найдено: cn_type_62 -> Type 62
@@ -35596,9 +35596,9 @@
     Поиск локализации для: cn_is_2_1944
     Прямой поиск: cn_is_2_1944 -> ␗IS-2 (1944)
   Найдено: cn_is_2_1944 -> ␗IS-2 (1944)
-    Поиск локализации для: cn_m48a1_patton_III
-    Прямой поиск: cn_m48a1_patton_III -> ␗M48A1
-  Найдено: cn_m48a1_patton_III -> ␗M48A1
+    Поиск локализации для: cn_m48a1_patton_iii
+    Fallback: cn_m48a1_patton_iii -> cn_m48a1_patton_iii
+  Не найдено: cn_m48a1_patton_iii -> cn_m48a1_patton_iii (fallback)
     Поиск локализации для: cn_type_59_69_group
     Прямой поиск: cn_type_59_69_group -> Type 59/69
   Найдено: cn_type_59_69_group -> Type 59/69
@@ -36200,18 +36200,18 @@
     Поиск локализации для: it_m15_42
     Прямой поиск: it_m15_42 -> M15/42
   Найдено: it_m15_42 -> M15/42
-    Поиск локализации для: it_pzkpfw_III_ausf_N
-    Прямой поиск: it_pzkpfw_III_ausf_N -> ▄Pz.III N
-  Найдено: it_pzkpfw_III_ausf_N -> ▄Pz.III N
+    Поиск локализации для: it_pzkpfw_iii_ausf_n
+    Fallback: it_pzkpfw_iii_ausf_n -> it_pzkpfw_iii_ausf_n
+  Не найдено: it_pzkpfw_iii_ausf_n -> it_pzkpfw_iii_ausf_n (fallback)
     Поиск локализации для: it_p_40
     Прямой поиск: it_p_40 -> P40
   Найдено: it_p_40 -> P40
     Поиск локализации для: it_m4a4_sherman
     Прямой поиск: it_m4a4_sherman -> ▄Sherman V
   Найдено: it_m4a4_sherman -> ▄Sherman V
-    Поиск локализации для: it_sherman_VII
-    Прямой поиск: it_sherman_VII -> Sherman Ic
-  Найдено: it_sherman_VII -> Sherman Ic
+    Поиск локализации для: it_sherman_vii
+    Fallback: it_sherman_vii -> it_sherman_vii
+  Не найдено: it_sherman_vii -> it_sherman_vii (fallback)
     Поиск локализации для: it_sherman_vc_firefly
     Прямой поиск: it_sherman_vc_firefly -> ▄Sherman Vc
   Найдено: it_sherman_vc_firefly -> ▄Sherman Vc
@@ -36326,9 +36326,9 @@
     Поиск локализации для: it_semovente_m41m_90
     Прямой поиск: it_semovente_m41m_90 -> 90/53 M41M
   Найдено: it_semovente_m41m_90 -> 90/53 M41M
-    Поиск локализации для: it_stug_III_ausf_G
-    Прямой поиск: it_stug_III_ausf_G -> ▄StuG III G
-  Найдено: it_stug_III_ausf_G -> ▄StuG III G
+    Поиск локализации для: it_stug_iii_ausf_g
+    Fallback: it_stug_iii_ausf_g -> it_stug_iii_ausf_g
+  Не найдено: it_stug_iii_ausf_g -> it_stug_iii_ausf_g (fallback)
     Поиск локализации для: it_semovente_m43_75_46
     Прямой поиск: it_semovente_m43_75_46 -> 75/46 M43
   Найдено: it_semovente_m43_75_46 -> 75/46 M43
@@ -36404,12 +36404,12 @@
     Поиск локализации для: it_sherman_75_37
     Прямой поиск: it_sherman_75_37 -> ▄Sherman I Composito
   Найдено: it_sherman_75_37 -> ▄Sherman I Composito
-    Поиск локализации для: it_pzkpfw_IV_ausf_G
-    Прямой поиск: it_pzkpfw_IV_ausf_G -> ▄Pz.IV G
-  Найдено: it_pzkpfw_IV_ausf_G -> ▄Pz.IV G
-    Поиск локализации для: it_pzkpfw_VI_ausf_e_tiger
-    Прямой поиск: it_pzkpfw_VI_ausf_e_tiger -> Tigris
-  Найдено: it_pzkpfw_VI_ausf_e_tiger -> Tigris
+    Поиск локализации для: it_pzkpfw_iv_ausf_g
+    Fallback: it_pzkpfw_iv_ausf_g -> it_pzkpfw_iv_ausf_g
+  Не найдено: it_pzkpfw_iv_ausf_g -> it_pzkpfw_iv_ausf_g (fallback)
+    Поиск локализации для: it_pzkpfw_vi_ausf_e_tiger
+    Fallback: it_pzkpfw_vi_ausf_e_tiger -> it_pzkpfw_vi_ausf_e_tiger
+  Не найдено: it_pzkpfw_vi_ausf_e_tiger -> it_pzkpfw_vi_ausf_e_tiger (fallback)
     Поиск локализации для: it_m26_ariete
     Прямой поиск: it_m26_ariete -> M26 "D.C.Ariete"
   Найдено: it_m26_ariete -> M26 "D.C.Ariete"
@@ -36434,9 +36434,9 @@
     Поиск локализации для: it_c1_ariete_certezza
     Прямой поиск: it_c1_ariete_certezza -> Ariete Сertezza
   Найдено: it_c1_ariete_certezza -> Ariete Сertezza
-    Поиск локализации для: it_toldi_II_a
-    Прямой поиск: it_toldi_II_a -> Toldi IIA
-  Найдено: it_toldi_II_a -> Toldi IIA
+    Поиск локализации для: it_toldi_ii_a
+    Fallback: it_toldi_ii_a -> it_toldi_ii_a
+  Не найдено: it_toldi_ii_a -> it_toldi_ii_a (fallback)
     Поиск локализации для: it_41m_turan_2
     Прямой поиск: it_41m_turan_2 -> Turan II
   Найдено: it_41m_turan_2 -> Turan II
@@ -37257,9 +37257,9 @@
     Поиск локализации для: fr_amx_50_foch
     Прямой поиск: fr_amx_50_foch -> AMX-50 Foch
   Найдено: fr_amx_50_foch -> AMX-50 Foch
-    Поиск локализации для: fr_amx_30_ACRA
-    Прямой поиск: fr_amx_30_ACRA -> AMX-30 ACRA
-  Найдено: fr_amx_30_ACRA -> AMX-30 ACRA
+    Поиск локализации для: fr_amx_30_acra
+    Fallback: fr_amx_30_acra -> fr_amx_30_acra
+  Не найдено: fr_amx_30_acra -> fr_amx_30_acra (fallback)
     Поиск локализации для: fr_vcac_mephisto
     Прямой поиск: fr_vcac_mephisto -> MEPHISTO
   Найдено: fr_vcac_mephisto -> MEPHISTO
@@ -37278,9 +37278,9 @@
     Поиск локализации для: fr_m4a1_sherman_fl_10
     Прямой поиск: fr_m4a1_sherman_fl_10 -> M4A1 (FL10)
   Найдено: fr_m4a1_sherman_fl_10 -> M4A1 (FL10)
-    Поиск локализации для: fr_pzkpfw_V_panther_dauphine
-    Прямой поиск: fr_pzkpfw_V_panther_dauphine -> Panther "Dauphiné"
-  Найдено: fr_pzkpfw_V_panther_dauphine -> Panther "Dauphiné"
+    Поиск локализации для: fr_pzkpfw_v_panther_dauphine
+    Fallback: fr_pzkpfw_v_panther_dauphine -> fr_pzkpfw_v_panther_dauphine
+  Не найдено: fr_pzkpfw_v_panther_dauphine -> fr_pzkpfw_v_panther_dauphine (fallback)
     Поиск локализации для: fr_amx_13_75_ss11
     Прямой поиск: fr_amx_13_75_ss11 -> AMX-13 (SS.11)
   Найдено: fr_amx_13_75_ss11 -> AMX-13 (SS.11)
@@ -37887,15 +37887,15 @@
     Поиск локализации для: sw_strv_m41_s2
     Прямой поиск: sw_strv_m41_s2 -> Strv m/41 S-II
   Найдено: sw_strv_m41_s2 -> Strv m/41 S-II
-    Поиск локализации для: sw_pvkv_III
-    Прямой поиск: sw_pvkv_III -> Pvkv III
-  Найдено: sw_pvkv_III -> Pvkv III
+    Поиск локализации для: sw_pvkv_iii
+    Fallback: sw_pvkv_iii -> sw_pvkv_iii
+  Не найдено: sw_pvkv_iii -> sw_pvkv_iii (fallback)
     Поиск локализации для: sw_m24_chaffee_dk
     Прямой поиск: sw_m24_chaffee_dk -> M24DK
   Найдено: sw_m24_chaffee_dk -> M24DK
-    Поиск локализации для: sw_pvkv_II
-    Прямой поиск: sw_pvkv_II -> Pvkv II
-  Найдено: sw_pvkv_II -> Pvkv II
+    Поиск локализации для: sw_pvkv_ii
+    Fallback: sw_pvkv_ii -> sw_pvkv_ii
+  Не найдено: sw_pvkv_ii -> sw_pvkv_ii (fallback)
     Поиск локализации для: sw_pbv_501
     Прямой поиск: sw_pbv_501 -> Pbv 501
   Найдено: sw_pbv_501 -> Pbv 501
@@ -37992,9 +37992,9 @@
     Поиск локализации для: sw_tgdgb_m40_lv
     Прямой поиск: sw_tgdgb_m40_lv -> Lvtdgb m/40
   Найдено: sw_tgdgb_m40_lv -> Lvtdgb m/40
-    Поиск локализации для: sw_l_62_anti_II
-    Прямой поиск: sw_l_62_anti_II -> L-62 ANTI II
-  Найдено: sw_l_62_anti_II -> L-62 ANTI II
+    Поиск локализации для: sw_l_62_anti_ii
+    Fallback: sw_l_62_anti_ii -> sw_l_62_anti_ii
+  Не найдено: sw_l_62_anti_ii -> sw_l_62_anti_ii (fallback)
     Поиск локализации для: sw_lvkv_42
     Прямой поиск: sw_lvkv_42 -> Lvkv 42
   Найдено: sw_lvkv_42 -> Lvkv 42
@@ -38085,9 +38085,9 @@
     Поиск локализации для: sw_t_34_1941
     Прямой поиск: sw_t_34_1941 -> ▄Т-34
   Найдено: sw_t_34_1941 -> ▄Т-34
-    Поиск локализации для: sw_pzkpfw_IV_ausf_J
-    Прямой поиск: sw_pzkpfw_IV_ausf_J -> ▄Pz.IV
-  Найдено: sw_pzkpfw_IV_ausf_J -> ▄Pz.IV
+    Поиск локализации для: sw_pzkpfw_iv_ausf_j
+    Fallback: sw_pzkpfw_iv_ausf_j -> sw_pzkpfw_iv_ausf_j
+  Не найдено: sw_pzkpfw_iv_ausf_j -> sw_pzkpfw_iv_ausf_j (fallback)
     Поиск локализации для: sw_pt_76_comet_group
     Прямой поиск: sw_pt_76_comet_group -> PT/Comet
   Найдено: sw_pt_76_comet_group -> PT/Comet
@@ -38418,9 +38418,9 @@
     Поиск локализации для: il_magach_1_2_group
     Прямой поиск: il_magach_1_2_group -> Magach 1/2
   Найдено: il_magach_1_2_group -> Magach 1/2
-    Поиск локализации для: il_m48a1_patton_III
-    Прямой поиск: il_m48a1_patton_III -> Magach 1
-  Найдено: il_m48a1_patton_III -> Magach 1
+    Поиск локализации для: il_m48a1_patton_iii
+    Fallback: il_m48a1_patton_iii -> il_m48a1_patton_iii
+  Не найдено: il_m48a1_patton_iii -> il_m48a1_patton_iii (fallback)
     Поиск локализации для: il_magach_2
     Прямой поиск: il_magach_2 -> Magach 2
   Найдено: il_magach_2 -> Magach 2
@@ -38734,8 +38734,8 @@
     Прямой поиск: kfir_c10_colombia -> ◡Kfir C.10
   Найдено: kfir_c10_colombia -> ◡Kfir C.10
 Статистика локализации:
-  Найдено локализаций: 3320
-  Использован fallback: 2
+  Найдено локализаций: 3209
+  Использован fallback: 113
   Всего обработано: 3322
 Данные локализации (3322 записей) сохранены в localization.csv
 Парсинг локализации завершен успешно! Создан файл localization.csv

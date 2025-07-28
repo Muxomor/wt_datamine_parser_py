@@ -9,6 +9,7 @@
     УДАЛЕН: us_m1a1_abrams_yt_cup_2019 (аномальное окончание)
     УДАЛЕН: us_m18_hellcat_black_cat_race (аномальное окончание)
     УДАЛЕН: ah_1f_event (аномальное окончание)
+    УДАЛЕН: os2u_1_naval (аномальное окончание)
     УДАЛЕН: f_4e_event (аномальное окончание)
   Очистка страны: germany
     УДАЛЕН: germ_leopard_2a5_yt_cup_2019 (аномальное окончание)
@@ -32,12 +33,13 @@
     УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание)
   Очистка страны: sweden
   Очистка страны: israel
-Очистка завершена. Удалено элементов: 16
+Очистка завершена. Удалено элементов: 17
 Подробный список удаленных элементов:
   - usa/Наземная техника/column_5/us_m551_football
   - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019
   - usa/Наземная техника/column_6/us_m18_hellcat_black_cat_race
   - usa/Вертолёты/column_3/ah_1f_event
+  - usa/Авиация/column_5/os2u_1_naval
   - usa/Авиация/column_5/f_4e_event
   - germany/Наземная техника/column_5/germ_leopard_2a5_yt_cup_2019
   - germany/Наземная техника/column_6/germ_wwi_group (группа с аномальными элементами)
@@ -862,7 +864,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 3
-Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_iris_slm_launcher'}
+Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_81_tansam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
   jp_type_81_tansam_fcs -> jp_type_81_tansam_launcher
@@ -2192,7 +2194,7 @@ Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_
     Столбец 4: обработано 26 элементов
         ОТЛАДКА: Элемент группы giftParam имеет тип <class 'str'>: charServer/entitlement/usa_pacific_41_43
         ОТЛАДКА: get_group_items добавлен giftParam с order=0
-      ОТЛАДКА: Премиум техники в колонке: 23/36 = 0.64, порог: 0.3
+      ОТЛАДКА: Премиум техники в колонке: 22/35 = 0.63, порог: 0.3
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника f3f-2_galer, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f3f-2_galer имеет reqAir='', предшественника нет
@@ -2209,9 +2211,6 @@ Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_
       ОТЛАДКА: Техника o3u_1, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника o3u_1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника o3u_1 с предшественником '', статус: premium
-      ОТЛАДКА: Техника os2u_1_naval, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника os2u_1_naval имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника os2u_1_naval с предшественником '', статус: premium
       ОТЛАДКА: Техника p-40e_td, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника p-40e_td имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника p-40e_td с предшественником '', статус: premium
@@ -2311,7 +2310,6 @@ Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_
         ПРЕМИУМ КООРДИНАТЫ: f2a-1_thach ранг 1 -> [0, 2]
         ПРЕМИУМ КООРДИНАТЫ: soc_1 ранг 1 -> [0, 3]
         ПРЕМИУМ КООРДИНАТЫ: o3u_1 ранг 1 -> [0, 4]
-        ПРЕМИУМ КООРДИНАТЫ: os2u_1_naval ранг 1 -> [0, 5]
         ПРЕМИУМ КООРДИНАТЫ: p-40e_td ранг 2 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: ki_43_2_late ранг 2 -> [0, 1]
         ПРЕМИУМ КООРДИНАТЫ: p-51a_tl ранг 2 -> [0, 2]
@@ -2342,7 +2340,7 @@ Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_
         ПРЕМИУМ КООРДИНАТЫ: ucav_mq_1_predator ранг 7 -> [0, 3]
         ПРЕМИУМ КООРДИНАТЫ: f_20a ранг 8 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: fa_18c_early ранг 8 -> [0, 1]
-    Столбец 5: обработано 36 элементов
+    Столбец 5: обработано 35 элементов
       ОТЛАДКА: Премиум техники в колонке: 32/34 = 0.94, порог: 0.3
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 30.0%)
       ОТЛАДКА: Техника p-26a_34, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -2774,7 +2772,7 @@ Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_
         ПРЕМИУМ КООРДИНАТЫ: us_higgins_78ft_pt658 ранг 3 -> [0, 0]
         ПРЕМИУМ КООРДИНАТЫ: us_flagstaff_pgh1 ранг 3 -> [0, 1]
     Столбец 4: обработано 3 элементов
-Обработано 477 элементов для usa
+Обработано 476 элементов для usa
 Обработка страны: germany
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_ausf_F с order=0
@@ -14084,8 +14082,5 @@ Slave-юниты: {'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'germ_
         ПРЕМИУМ КООРДИНАТЫ: kfir_c10_colombia ранг 8 -> [0, 1]
     Столбец 3: обработано 8 элементов
 Обработано 107 элементов для israel
-Данные (3322 записей) сохранены в shop.csv
-Статистика: Стандартной техники: 2496, Премиумной: 826
-Обработано master-slave пар: 3
-Slave-юниты пропущены: 3
-Парсинг завершен успешно! Обработано 3322 элементов.
+Нет данных image полей для сохранения
+Парсинг завершен успешно! Обработано 3321 элементов.

@@ -9,7 +9,8 @@
 Начинаем обработку данных wpcost...
 В wpcost найдено 3032 юнитов (исключены служебные поля)
     reqExp отсутствует или некорректно для us_m2a4, установлено None
-  Обработан us_m2a4: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_m2a4: silver=0, exp=None, br=1.0
   Найден: us_m2a4
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан us_m3_stuart: silver=700, exp=2900, br=2
@@ -87,12 +88,8 @@
   Обработан us_m46_patton: silver=210000, exp=71000, br=7
   Найден: us_m46_patton
   Не найден: us_m47_48_group - пропускается
-    БР расчет: economicRank=19, raw=7.333, округлено=7.3
-  Обработан us_m47_patton_II: silver=240000, exp=82000, br=7.3
-  Найден: us_m47_patton_II
-    БР расчет: economicRank=20, raw=7.667, округлено=7.7
-  Обработан us_m48a1_patton_III: silver=270000, exp=48000, br=7.7
-  Найден: us_m48a1_patton_III
+  Не найден: us_m47_patton_ii - пропускается
+  Не найден: us_m48a1_patton_iii - пропускается
     БР расчет: economicRank=21, raw=8.000, округлено=8
   Обработан us_m60: silver=340000, exp=120000, br=8
   Найден: us_m60
@@ -113,7 +110,8 @@
   Обработан us_m1a1_hc_abrams: silver=950000, exp=350000, br=11.7
   Найден: us_m1a1_hc_abrams
     reqExp отсутствует или некорректно для us_lvt_a_1, установлено None
-  Обработан us_lvt_a_1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_lvt_a_1: silver=0, exp=None, br=1.0
   Найден: us_lvt_a_1
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан us_m22_locust: silver=2100, exp=4000, br=2
@@ -230,7 +228,8 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан us_sl_amraam_fcs: silver=1100000, exp=410000, br=12
   Найден: us_sl_amraam_fcs
-  Обработан us_m2a2: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_m2a2: silver=700, exp=2900, br=1.0
   Найден: us_m2a2
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан us_m8_scott: silver=2100, exp=4000, br=1.3
@@ -272,7 +271,8 @@
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
   Обработан us_m1128_mgs: silver=710000, exp=260000, br=10.3
   Найден: us_m1128_mgs
-  Обработан us_m2a4_1st_armor_div: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_m2a4_1st_armor_div: silver=0, exp=2900, br=1.0
   Найден: us_m2a4_1st_armor_div
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан us_lvt_a_4: silver=0, exp=4000, br=1.3
@@ -359,9 +359,11 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан us_rdf_lt: silver=0, exp=350000, br=11.7
   Найден: us_rdf_lt
-  Обработан us_lvt_a_1_trb: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_lvt_a_1_trb: silver=700, exp=2900, br=1.0
   Найден: us_lvt_a_1_trb
-  Обработан us_m8_greyhound: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_m8_greyhound: silver=0, exp=4000, br=1.0
   Найден: us_m8_greyhound
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан us_lvt_4_zis_2: silver=10000, exp=7900, br=2.3
@@ -485,12 +487,15 @@
   Обработан rah_66: silver=0, exp=400000, br=11.3
   Найден: rah_66
     reqExp отсутствует или некорректно для p-26a_34_m2, установлено None
-  Обработан p-26a_34_m2: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан p-26a_34_m2: silver=0, exp=None, br=1.0
   Найден: p-26a_34_m2
   Не найден: p-26_group - пропускается
-  Обработан p-26a_33: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан p-26a_33: silver=700, exp=2900, br=1.0
   Найден: p-26a_33
-  Обработан p-26b_35: silver=2100, exp=2000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан p-26b_35: silver=2100, exp=2000, br=1.0
   Найден: p-26b_35
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан p-400: silver=10000, exp=7900, br=2
@@ -634,7 +639,8 @@
   Обработан f_15c_msip2: silver=1120000, exp=420000, br=13.7
   Найден: f_15c_msip2
     reqExp отсутствует или некорректно для bf2c_1, установлено None
-  Обработан bf2c_1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан bf2c_1: silver=0, exp=None, br=1.0
   Найден: bf2c_1
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан f3f-2: silver=700, exp=2900, br=1.3
@@ -728,13 +734,16 @@
   Найден: fa_18c_late
   Не найден: os2u_group - пропускается
     reqExp отсутствует или некорректно для os2u_1, установлено None
-  Обработан os2u_1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан os2u_1: silver=0, exp=None, br=1.0
   Найден: os2u_1
     reqExp отсутствует или некорректно для os2u_3, установлено None
-  Обработан os2u_3: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан os2u_3: silver=0, exp=None, br=1.0
   Найден: os2u_3
   Не найден: sb2u_group - пропускается
-  Обработан sb2u-2: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sb2u-2: silver=700, exp=2900, br=1.0
   Найден: sb2u-2
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан sb2u-3: silver=2100, exp=2000, br=1.7
@@ -819,7 +828,8 @@
   Обработан av_8b_plus: silver=1100000, exp=410000, br=13
   Найден: av_8b_plus
   Не найден: tbd_group - пропускается
-  Обработан tbd-1_1938: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан tbd-1_1938: silver=700, exp=2900, br=1.0
   Найден: tbd-1_1938
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан b_18a: silver=2100, exp=2000, br=1.3
@@ -993,7 +1003,8 @@
     БР расчет: economicRank=35, raw=12.667, округлено=12.7
   Обработан fa_18c_early: silver=0, exp=400000, br=12.7
   Найден: fa_18c_early
-  Обработан p-26a_34: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан p-26a_34: silver=0, exp=4000, br=1.0
   Найден: p-26a_34
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан p-36a_rasmussen: silver=0, exp=4000, br=1.3
@@ -1236,7 +1247,8 @@
   Обработан us_cruiser_des_moines_class: silver=0, exp=175000, br=6.7
   Найден: us_cruiser_des_moines_class
     reqExp отсутствует или некорректно для us_pt6, установлено None
-  Обработан us_pt6: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_pt6: silver=0, exp=None, br=1.0
   Найден: us_pt6
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан us_nasty_ptf: silver=2100, exp=4000, br=1.7
@@ -1304,7 +1316,8 @@
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан us_cyclone_class_cyclone: silver=700000, exp=250000, br=3.3
   Найден: us_cyclone_class_cyclone
-  Обработан us_pt3: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан us_pt3: silver=0, exp=2900, br=1.0
   Найден: us_pt3
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан us_pc_466_carmi: silver=0, exp=14000, br=2.3
@@ -1333,18 +1346,16 @@
     БР расчет: economicRank=6, raw=3.000, округлено=3
   Обработан us_flagstaff_pgh1: silver=0, exp=75000, br=3
   Найден: us_flagstaff_pgh1
-  Обработан germ_garford_putilov: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_garford_putilov: silver=700, exp=2900, br=1.0
   Найден: germ_garford_putilov
     reqExp отсутствует или некорректно для germ_pzkpfw_35t, установлено None
-  Обработан germ_pzkpfw_35t: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_pzkpfw_35t: silver=0, exp=None, br=1.0
   Найден: germ_pzkpfw_35t
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_pzkpfw_38t_ausf_A: silver=700, exp=2900, br=1.3
-  Найден: germ_pzkpfw_38t_ausf_A
+  Не найден: germ_pzkpfw_38t_ausf_a - пропускается
   Не найден: germ_pzkpfw_38t_group - пропускается
-    БР расчет: economicRank=4, raw=2.333, округлено=2.3
-  Обработан germ_pzkpfw_38t_ausf_F: silver=2100, exp=4000, br=2.3
-  Найден: germ_pzkpfw_38t_ausf_F
+  Не найден: germ_pzkpfw_38t_ausf_f - пропускается
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан germ_pzkpfw_38t_na: silver=6300, exp=3000, br=2.3
   Найден: germ_pzkpfw_38t_na
@@ -1355,9 +1366,7 @@
   Обработан germ_sdkfz_234_2: silver=22000, exp=11000, br=3.7
   Найден: germ_sdkfz_234_2
   Не найден: germ_dicker_sturer_group - пропускается
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан germ_pzsfl_IVa_dickermax: silver=32000, exp=14000, br=3.7
-  Найден: germ_pzsfl_IVa_dickermax
+  Не найден: germ_pzsfl_iva_dickermax - пропускается
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан germ_pzsflk40_sturer_emil: silver=47000, exp=9200, br=4
   Найден: germ_pzsflk40_sturer_emil
@@ -1419,43 +1428,22 @@
     БР расчет: economicRank=30, raw=11.000, округлено=11
   Обработан germ_schutzenpanzer_puma_vjtf: silver=950000, exp=175000, br=11
   Найден: germ_schutzenpanzer_puma_vjtf
-  Обработан germ_beutepanzer_mk_iv: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_beutepanzer_mk_iv: silver=700, exp=2900, br=1.0
   Найден: germ_beutepanzer_mk_iv
-  Не найден: germ_prewar_pz_III_group - пропускается
-    reqExp отсутствует или некорректно для germ_pzkpfw_III_ausf_E, установлено None
-  Обработан germ_pzkpfw_III_ausf_E: silver=0, exp=None, br=None
-  Найден: germ_pzkpfw_III_ausf_E
-    reqExp отсутствует или некорректно для germ_pzkpfw_III_ausf_B, установлено None
-  Обработан germ_pzkpfw_III_ausf_B: silver=0, exp=None, br=None
-  Найден: germ_pzkpfw_III_ausf_B
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_pzkpfw_III_ausf_F: silver=2100, exp=4000, br=1.3
-  Найден: germ_pzkpfw_III_ausf_F
-    БР расчет: economicRank=4, raw=2.333, округлено=2.3
-  Обработан germ_pzkpfw_III_ausf_J_L42: silver=6300, exp=5900, br=2.3
-  Найден: germ_pzkpfw_III_ausf_J_L42
-    БР расчет: economicRank=5, raw=2.667, округлено=2.7
-  Обработан germ_pzkpfw_III_ausf_J: silver=10000, exp=7900, br=2.7
-  Найден: germ_pzkpfw_III_ausf_J
-  Не найден: germ_pzkpfw_III_late_group - пропускается
-    БР расчет: economicRank=6, raw=3.000, округлено=3
-  Обработан germ_pzkpfw_III_ausf_L: silver=22000, exp=11000, br=3
-  Найден: germ_pzkpfw_III_ausf_L
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан germ_pzkpfw_III_ausf_M: silver=32000, exp=6900, br=3.3
-  Найден: germ_pzkpfw_III_ausf_M
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан germ_pzkpfw_VI_ausf_h1_tiger: silver=105000, exp=33000, br=5.7
-  Найден: germ_pzkpfw_VI_ausf_h1_tiger
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан germ_pzkpfw_VI_ausf_e_tiger: silver=135000, exp=40000, br=6
-  Найден: germ_pzkpfw_VI_ausf_e_tiger
-    БР расчет: economicRank=17, raw=6.667, округлено=6.7
-  Обработан germ_pzkpfw_VI_ausf_b_tiger_IIp: silver=200000, exp=63000, br=6.7
-  Найден: germ_pzkpfw_VI_ausf_b_tiger_IIp
-    БР расчет: economicRank=17, raw=6.667, округлено=6.7
-  Обработан germ_pzkpfw_VI_ausf_b_tiger_IIh: silver=210000, exp=71000, br=6.7
-  Найден: germ_pzkpfw_VI_ausf_b_tiger_IIh
+  Не найден: germ_prewar_pz_iii_group - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_e - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_b - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_f - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_j_l42 - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_j - пропускается
+  Не найден: germ_pzkpfw_iii_late_group - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_l - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_m - пропускается
+  Не найден: germ_pzkpfw_vi_ausf_h1_tiger - пропускается
+  Не найден: germ_pzkpfw_vi_ausf_e_tiger - пропускается
+  Не найден: germ_pzkpfw_vi_ausf_b_tiger_iip - пропускается
+  Не найден: germ_pzkpfw_vi_ausf_b_tiger_iih - пропускается
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
   Обработан germ_mkpz_m48a2c: silver=270000, exp=95000, br=7.7
   Найден: germ_mkpz_m48a2c
@@ -1475,62 +1463,33 @@
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан germ_leopard_2k: silver=710000, exp=260000, br=10
   Найден: germ_leopard_2k
-  Обработан germ_a7v: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_a7v: silver=700, exp=2900, br=1.0
   Найден: germ_a7v
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_pzkpfw_IV_ausf_C: silver=700, exp=2900, br=1.3
-  Найден: germ_pzkpfw_IV_ausf_C
-  Не найден: germ_pzkpfw_II_early_group - пропускается
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_pzkpfw_II_ausf_C: silver=2100, exp=4000, br=1.3
-  Найден: germ_pzkpfw_II_ausf_C
-    БР расчет: economicRank=2, raw=1.667, округлено=1.7
-  Обработан germ_pzkpfw_II_ausf_F: silver=6300, exp=3000, br=1.7
-  Найден: germ_pzkpfw_II_ausf_F
+  Не найден: germ_pzkpfw_iv_ausf_c - пропускается
+  Не найден: germ_pzkpfw_ii_early_group - пропускается
+  Не найден: germ_pzkpfw_ii_ausf_c - пропускается
+  Не найден: germ_pzkpfw_ii_ausf_f - пропускается
   Не найден: germ_pzkpfw_4_early_group - пропускается
-    БР расчет: economicRank=3, raw=2.000, округлено=2
-  Обработан germ_pzkpfw_IV_ausf_E: silver=6300, exp=5900, br=2
-  Найден: germ_pzkpfw_IV_ausf_E
-    БР расчет: economicRank=3, raw=2.000, округлено=2
-  Обработан germ_pzkpfw_IV_ausf_F: silver=6300, exp=3000, br=2
-  Найден: germ_pzkpfw_IV_ausf_F
+  Не найден: germ_pzkpfw_iv_ausf_e - пропускается
+  Не найден: germ_pzkpfw_iv_ausf_f - пропускается
   Не найден: germ_pz_4_fg_group - пропускается
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан germ_pzkpfw_IV_ausf_F2: silver=16000, exp=9200, br=3.3
-  Найден: germ_pzkpfw_IV_ausf_F2
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан germ_pzkpfw_IV_ausf_G: silver=22000, exp=5600, br=3.3
-  Найден: germ_pzkpfw_IV_ausf_G
+  Не найден: germ_pzkpfw_iv_ausf_f2 - пропускается
+  Не найден: germ_pzkpfw_iv_ausf_g - пропускается
   Не найден: germ_pz_4_late_group - пропускается
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан germ_pzkpfw_IV_ausf_H: silver=22000, exp=11000, br=3.7
-  Найден: germ_pzkpfw_IV_ausf_H
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан germ_pzkpfw_IV_ausf_J: silver=32000, exp=6900, br=3.7
-  Найден: germ_pzkpfw_IV_ausf_J
+  Не найден: germ_pzkpfw_iv_ausf_h - пропускается
+  Не найден: germ_pzkpfw_iv_ausf_j - пропускается
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан germ_vk_3002m: silver=76000, exp=26000, br=5
   Найден: germ_vk_3002m
-    БР расчет: economicRank=13, raw=5.333, округлено=5.3
-  Обработан germ_pzkpfw_V_ausf_d_panther: silver=105000, exp=33000, br=5.3
-  Найден: germ_pzkpfw_V_ausf_d_panther
-  Не найден: germ_pzkpfw_V_a_f_group - пропускается
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан germ_pzkpfw_V_ausf_a_panther: silver=155000, exp=46000, br=6
-  Найден: germ_pzkpfw_V_ausf_a_panther
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан germ_pzkpfw_V_ausf_g_panther: silver=185000, exp=27000, br=6
-  Найден: germ_pzkpfw_V_ausf_g_panther
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан germ_pzkpfw_V_ausf_f_panther: silver=200000, exp=31000, br=6
-  Найден: germ_pzkpfw_V_ausf_f_panther
-    БР расчет: economicRank=21, raw=8.000, округлено=8
-  Обработан germ_leopard_I: silver=340000, exp=120000, br=8
-  Найден: germ_leopard_I
+  Не найден: germ_pzkpfw_v_ausf_d_panther - пропускается
+  Не найден: germ_pzkpfw_v_a_f_group - пропускается
+  Не найден: germ_pzkpfw_v_ausf_a_panther - пропускается
+  Не найден: germ_pzkpfw_v_ausf_g_panther - пропускается
+  Не найден: germ_pzkpfw_v_ausf_f_panther - пропускается
+  Не найден: germ_leopard_i - пропускается
   Не найден: germ_leopard_1_late_group - пропускается
-    БР расчет: economicRank=24, raw=9.000, округлено=9
-  Обработан germ_leopard_I_a1: silver=450000, exp=160000, br=9
-  Найден: germ_leopard_I_a1
+  Не найден: germ_leopard_i_a1 - пропускается
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан germ_leopard_1a5: silver=520000, exp=94000, br=9.3
   Найден: germ_leopard_1a5
@@ -1551,12 +1510,8 @@
   Обработан germ_leopard_2a7v: silver=1120000, exp=420000, br=12
   Найден: germ_leopard_2a7v
   Не найден: germ_flakpanzer_1_group - пропускается
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_flakpanzer_I_ausf_A: silver=700, exp=2900, br=1.3
-  Найден: germ_flakpanzer_I_ausf_A
-    БР расчет: economicRank=2, raw=1.667, округлено=1.7
-  Обработан germ_flakpanzer_38t_Gepard: silver=2100, exp=2000, br=1.7
-  Найден: germ_flakpanzer_38t_Gepard
+  Не найден: germ_flakpanzer_i_ausf_a - пропускается
+  Не найден: germ_flakpanzer_38t_gepard - пропускается
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан germ_sdkfz_222: silver=2100, exp=4000, br=2
   Найден: germ_sdkfz_222
@@ -1567,37 +1522,25 @@
   Обработан germ_sdkfz_251_21: silver=32000, exp=14000, br=3.3
   Найден: germ_sdkfz_251_21
   Не найден: germ_flakpanzer_4_group - пропускается
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан germ_flakpanzer_IV_Ostwind: silver=47000, exp=18000, br=3.3
-  Найден: germ_flakpanzer_IV_Ostwind
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан germ_flakpanzer_IV_Wirbelwind: silver=76000, exp=13000, br=3.7
-  Найден: germ_flakpanzer_IV_Wirbelwind
-    БР расчет: economicRank=13, raw=5.333, округлено=5.3
-  Обработан germ_flakpanzer_IV_Ostwind_2: silver=135000, exp=40000, br=5.3
-  Найден: germ_flakpanzer_IV_Ostwind_2
+  Не найден: germ_flakpanzer_iv_ostwind - пропускается
+  Не найден: germ_flakpanzer_iv_wirbelwind - пропускается
+  Не найден: germ_flakpanzer_iv_ostwind_2 - пропускается
     БР расчет: economicRank=15, raw=6.000, округлено=6
   Обработан germ_flakpanzer_zerstorer_45: silver=200000, exp=63000, br=6
   Найден: germ_flakpanzer_zerstorer_45
-    БР расчет: economicRank=18, raw=7.000, округлено=7
-  Обработан germ_flakpanzer_IV_Kugelblitz: silver=210000, exp=71000, br=7
-  Найден: germ_flakpanzer_IV_Kugelblitz
+  Не найден: germ_flakpanzer_iv_kugelblitz - пропускается
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
   Обработан germ_wiesel_1_mk20: silver=240000, exp=82000, br=7.3
   Найден: germ_wiesel_1_mk20
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
   Обработан germ_sppz2_luchs_a2: silver=270000, exp=95000, br=7.3
   Найден: germ_sppz2_luchs_a2
-    БР расчет: economicRank=22, raw=8.333, округлено=8.3
-  Обработан germ_flakpz_I_Gepard: silver=380000, exp=135000, br=8.3
-  Найден: germ_flakpz_I_Gepard
+  Не найден: germ_flakpz_i_gepard - пропускается
   Не найден: germ_wiesel_gepard_group - пропускается
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан germ_wiesel_2_adwc: silver=710000, exp=260000, br=9.7
   Найден: germ_wiesel_2_adwc
-    БР расчет: economicRank=26, raw=9.667, округлено=9.7
-  Обработан germ_flakpz_1a2_Gepard: silver=830000, exp=150000, br=9.7
-  Найден: germ_flakpz_1a2_Gepard
+  Не найден: germ_flakpz_1a2_gepard - пропускается
   Не найден: germ_roland_osa_group - пропускается
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан germ_flarakpz_1: silver=830000, exp=300000, br=10
@@ -1615,9 +1558,9 @@
   Обработан germ_iris_slm_fcs: silver=1100000, exp=410000, br=12
   Найден: germ_iris_slm_fcs
   Не найден: germ_sturmpanzer_221_group - пропускается
-  Обработан germ_sturmpanzer_II: silver=700, exp=2900, br=None
-  Найден: germ_sturmpanzer_II
-  Обработан germ_sdkfz_221_s_pz_b_41: silver=2100, exp=2000, br=None
+  Не найден: germ_sturmpanzer_ii - пропускается
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_sdkfz_221_s_pz_b_41: silver=2100, exp=2000, br=1.0
   Найден: germ_sdkfz_221_s_pz_b_41
   Не найден: germ_panzerjager_251_group - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -1627,35 +1570,19 @@
   Обработан germ_sdkfz_251_9: silver=6300, exp=3000, br=1.3
   Найден: germ_sdkfz_251_9
   Не найден: germ_marder_stug_a_group - пропускается
-    БР расчет: economicRank=4, raw=2.333, округлено=2.3
-  Обработан germ_pzkpfw_38t_Marder_III: silver=6300, exp=5900, br=2.3
-  Найден: germ_pzkpfw_38t_Marder_III
-    БР расчет: economicRank=4, raw=2.333, округлено=2.3
-  Обработан germ_stug_III_ausf_A: silver=6300, exp=3000, br=2.3
-  Найден: germ_stug_III_ausf_A
+  Не найден: germ_pzkpfw_38t_marder_iii - пропускается
+  Не найден: germ_stug_iii_ausf_a - пропускается
   Не найден: germ_marder_stuh_group - пропускается
-    БР расчет: economicRank=6, raw=3.000, округлено=3
-  Обработан germ_pzkpfw_38t_Marder_III_ausf_H: silver=10000, exp=7900, br=3
-  Найден: germ_pzkpfw_38t_Marder_III_ausf_H
-    БР расчет: economicRank=6, raw=3.000, округлено=3
-  Обработан germ_stuh_III_ausf_G: silver=16000, exp=4600, br=3
-  Найден: germ_stuh_III_ausf_G
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан germ_stug_III_ausf_F: silver=22000, exp=5600, br=3.3
-  Найден: germ_stug_III_ausf_F
-    БР расчет: economicRank=9, raw=4.000, округлено=4
-  Обработан germ_stug_III_ausf_G: silver=32000, exp=14000, br=4
-  Найден: germ_stug_III_ausf_G
+  Не найден: germ_pzkpfw_38t_marder_iii_ausf_h - пропускается
+  Не найден: germ_stuh_iii_ausf_g - пропускается
+  Не найден: germ_stug_iii_ausf_f - пропускается
+  Не найден: germ_stug_iii_ausf_g - пропускается
   Не найден: germ_jagdpanzer_group - пропускается
-    БР расчет: economicRank=10, raw=4.333, округлено=4.3
-  Обработан germ_jgdpz_IV_L48: silver=47000, exp=18000, br=4.3
-  Найден: germ_jgdpz_IV_L48
+  Не найден: germ_jgdpz_iv_l48 - пропускается
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан germ_jgdpz_38t: silver=76000, exp=13000, br=4.3
   Найден: germ_jgdpz_38t
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан germ_pz_IV_L70: silver=105000, exp=33000, br=5.7
-  Найден: germ_pz_IV_L70
+  Не найден: germ_pz_iv_l70 - пропускается
   Не найден: germ_jagdpanther_group - пропускается
     БР расчет: economicRank=16, raw=6.333, округлено=6.3
   Обработан germ_panzerjager_panther: silver=155000, exp=46000, br=6.3
@@ -1664,9 +1591,7 @@
   Обработан germ_kanonenjagdpanzer: silver=185000, exp=27000, br=6.3
   Найден: germ_kanonenjagdpanzer
   Не найден: germ_panzerjager_tiger_group - пропускается
-    БР расчет: economicRank=17, raw=6.667, округлено=6.7
-  Обработан germ_panzerjager_tiger_P_ferdinand: silver=200000, exp=63000, br=6.7
-  Найден: germ_panzerjager_tiger_P_ferdinand
+  Не найден: germ_panzerjager_tiger_p_ferdinand - пропускается
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан germ_panzerjager_tiger: silver=210000, exp=35000, br=6.7
   Найден: germ_panzerjager_tiger
@@ -1685,65 +1610,42 @@
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан germ_wiesel_1_tow: silver=710000, exp=260000, br=9.7
   Найден: germ_wiesel_1_tow
-  Обработан germ_pzkpfw_35t_romania_mare: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_pzkpfw_35t_romania_mare: silver=0, exp=4000, br=1.0
   Найден: germ_pzkpfw_35t_romania_mare
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_pzkpfw_II_ausf_C_td: silver=700, exp=2900, br=1.3
-  Найден: germ_pzkpfw_II_ausf_C_td
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_pzkpfw_II_ausf_C_DAK: silver=0, exp=2900, br=1.3
-  Найден: germ_pzkpfw_II_ausf_C_DAK
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан germ_nbfz_VI: silver=0, exp=7900, br=1.3
-  Найден: germ_nbfz_VI
-    БР расчет: economicRank=3, raw=2.000, округлено=2
-  Обработан germ_pzkpfw_38t_Aufklarungspanzer: silver=0, exp=4000, br=2
-  Найден: germ_pzkpfw_38t_Aufklarungspanzer
+  Не найден: germ_pzkpfw_ii_ausf_c_td - пропускается
+  Не найден: germ_pzkpfw_ii_ausf_c_dak - пропускается
+  Не найден: germ_nbfz_vi - пропускается
+  Не найден: germ_pzkpfw_38t_aufklarungspanzer - пропускается
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан germ_panzerwerfer_42: silver=0, exp=33000, br=2.3
   Найден: germ_panzerwerfer_42
-    БР расчет: economicRank=5, raw=2.667, округлено=2.7
-  Обработан germ_pzkpfw_III_ausf_J_td: silver=10000, exp=7900, br=2.7
-  Найден: germ_pzkpfw_III_ausf_J_td
-    БР расчет: economicRank=6, raw=3.000, округлено=3
-  Обработан germ_pzkpfw_III_ausf_N: silver=0, exp=11000, br=3
-  Найден: germ_pzkpfw_III_ausf_N
+  Не найден: germ_pzkpfw_iii_ausf_j_td - пропускается
+  Не найден: germ_pzkpfw_iii_ausf_n - пропускается
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан germ_kv_2_754r: silver=0, exp=40000, br=3.7
   Найден: germ_kv_2_754r
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан germ_panzerbefelhswagen_IV_ausf_J: silver=0, exp=40000, br=3.7
-  Найден: germ_panzerbefelhswagen_IV_ausf_J
+  Не найден: germ_panzerbefelhswagen_iv_ausf_j - пропускается
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан germ_infanterie_kampfpanzer_churchill: silver=0, exp=40000, br=4
   Найден: germ_infanterie_kampfpanzer_churchill
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан germ_t_34_747: silver=0, exp=26000, br=4.3
   Найден: germ_t_34_747
-    БР расчет: economicRank=10, raw=4.333, округлено=4.3
-  Обработан germ_sturmpanzer_IV_brummbar: silver=0, exp=46000, br=4.3
-  Найден: germ_sturmpanzer_IV_brummbar
-    БР расчет: economicRank=10, raw=4.333, округлено=4.3
-  Обработан germ_pz_IV_L70_A: silver=0, exp=46000, br=4.3
-  Найден: germ_pz_IV_L70_A
+  Не найден: germ_sturmpanzer_iv_brummbar - пропускается
+  Не найден: germ_pz_iv_l70_a - пропускается
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан germ_kv_1_kwk_40: silver=0, exp=46000, br=5
   Найден: germ_kv_1_kwk_40
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан germ_panzerbefelhswagen_VI_P: silver=0, exp=71000, br=5.7
-  Найден: germ_panzerbefelhswagen_VI_P
+  Не найден: germ_panzerbefelhswagen_vi_p - пропускается
     БР расчет: economicRank=14, raw=5.667, округлено=5.7
   Обработан germ_sturmmorser_sturmtiger: silver=0, exp=71000, br=5.7
   Найден: germ_sturmmorser_sturmtiger
     БР расчет: economicRank=16, raw=6.333, округлено=6.3
   Обработан germ_panzerbefelhswagen_jagdpanther: silver=0, exp=71000, br=6.3
   Найден: germ_panzerbefelhswagen_jagdpanther
-    БР расчет: economicRank=17, raw=6.667, округлено=6.7
-  Обработан germ_panzerjager_tiger_P_elefant: silver=0, exp=71000, br=6.7
-  Найден: germ_panzerjager_tiger_P_elefant
-    БР расчет: economicRank=18, raw=7.000, округлено=7
-  Обработан germ_panther_II: silver=270000, exp=95000, br=7
-  Найден: germ_panther_II
+  Не найден: germ_panzerjager_tiger_p_elefant - пропускается
+  Не найден: germ_panther_ii - пропускается
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
   Обработан germ_mkpz_m47: silver=0, exp=105000, br=7.3
   Найден: germ_mkpz_m47
@@ -1774,7 +1676,8 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан germ_leopard_2pl: silver=1140000, exp=570000, br=11.7
   Найден: germ_leopard_2pl
-  Обработан germ_sdkfz_251_10: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_sdkfz_251_10: silver=0, exp=4000, br=1.0
   Найден: germ_sdkfz_251_10
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан germ_sdkfz_234_1: silver=0, exp=4000, br=2
@@ -1785,9 +1688,7 @@
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан germ_amd_35_kwk: silver=0, exp=4000, br=2
   Найден: germ_amd_35_kwk
-    БР расчет: economicRank=5, raw=2.667, округлено=2.7
-  Обработан germ_pzkpfw_II_ausf_H: silver=0, exp=11000, br=2.7
-  Найден: germ_pzkpfw_II_ausf_H
+  Не найден: germ_pzkpfw_ii_ausf_h - пропускается
     БР расчет: economicRank=6, raw=3.000, округлено=3
   Обработан germ_sdkfz_251_22: silver=0, exp=11000, br=3
   Найден: germ_sdkfz_251_22
@@ -1797,55 +1698,33 @@
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан us_m4a2_1944_germ: silver=0, exp=26000, br=4
   Найден: us_m4a2_1944_germ
-    БР расчет: economicRank=10, raw=4.333, округлено=4.3
-  Обработан germ_kv_1B_finland: silver=0, exp=33000, br=4.3
-  Найден: germ_kv_1B_finland
+  Не найден: germ_kv_1b_finland - пропускается
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан germ_sdkfz_234_4: silver=0, exp=18000, br=4.7
   Найден: germ_sdkfz_234_4
-    БР расчет: economicRank=13, raw=5.333, округлено=5.3
-  Обработан germ_pzkpfw_VI_tiger_P: silver=0, exp=46000, br=5.3
-  Найден: germ_pzkpfw_VI_tiger_P
+  Не найден: germ_pzkpfw_vi_tiger_p - пропускается
     БР расчет: economicRank=14, raw=5.667, округлено=5.7
   Обработан germ_vsw_flak_41: silver=0, exp=54000, br=5.7
   Найден: germ_vsw_flak_41
   Не найден: germ_tiger_east_west_group - пропускается
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан germ_pzkpfw_VI_ausf_h1_tiger_east: silver=0, exp=33000, br=5.7
-  Найден: germ_pzkpfw_VI_ausf_h1_tiger_east
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан germ_pzkpfw_VI_ausf_h1_tiger_west: silver=0, exp=17000, br=5.7
-  Найден: germ_pzkpfw_VI_ausf_h1_tiger_west
-    БР расчет: economicRank=13, raw=5.333, округлено=5.3
-  Обработан germ_flakpanzer_IV_Ostwind_2_net: silver=0, exp=20000, br=5.3
-  Найден: germ_flakpanzer_IV_Ostwind_2_net
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан germ_pzkpfw_VI_ausf_h1_tiger_animal_version: silver=0, exp=46000, br=5.7
-  Найден: germ_pzkpfw_VI_ausf_h1_tiger_animal_version
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан germ_pzkpfw_V_ersatz_m10: silver=0, exp=63000, br=6
-  Найден: germ_pzkpfw_V_ersatz_m10
-    БР расчет: economicRank=16, raw=6.333, округлено=6.3
-  Обработан germ_flakpanzer_V_Coelian: silver=210000, exp=71000, br=6.3
-  Найден: germ_flakpanzer_V_Coelian
+  Не найден: germ_pzkpfw_vi_ausf_h1_tiger_east - пропускается
+  Не найден: germ_pzkpfw_vi_ausf_h1_tiger_west - пропускается
+  Не найден: germ_flakpanzer_iv_ostwind_2_net - пропускается
+  Не найден: germ_pzkpfw_vi_ausf_h1_tiger_animal_version - пропускается
+  Не найден: germ_pzkpfw_v_ersatz_m10 - пропускается
+  Не найден: germ_flakpanzer_v_coelian - пропускается
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан germ_spz_12_3: silver=0, exp=95000, br=6.7
   Найден: germ_spz_12_3
-    БР расчет: economicRank=17, raw=6.667, округлено=6.7
-  Обработан germ_pzkpfw_VI_ausf_b_tiger_IIh_sla: silver=0, exp=71000, br=6.7
-  Найден: germ_pzkpfw_VI_ausf_b_tiger_IIh_sla
-    БР расчет: economicRank=18, raw=7.000, округлено=7
-  Обработан germ_pzkpfw_VI_ausf_b_tiger_IIh_kwk46: silver=210000, exp=71000, br=7
-  Найден: germ_pzkpfw_VI_ausf_b_tiger_IIh_kwk46
+  Не найден: germ_pzkpfw_vi_ausf_b_tiger_iih_sla - пропускается
+  Не найден: germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46 - пропускается
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
   Обработан germ_ru251: silver=0, exp=71000, br=7.3
   Найден: germ_ru251
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
   Обработан germ_pzkpfw_e_100: silver=340000, exp=120000, br=7.7
   Найден: germ_pzkpfw_e_100
-    БР расчет: economicRank=20, raw=7.667, округлено=7.7
-  Обработан germ_pzkpfw_Maus: silver=340000, exp=120000, br=7.7
-  Найден: germ_pzkpfw_Maus
+  Не найден: germ_pzkpfw_maus - пропускается
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
   Обработан germ_vt_1_2: silver=520000, exp=190000, br=8.7
   Найден: germ_vt_1_2
@@ -1980,15 +1859,19 @@
   Найден: ef_2000_block_10
   Не найден: he51_group - пропускается
     reqExp отсутствует или некорректно для he51a1, установлено None
-  Обработан he51a1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан he51a1: silver=0, exp=None, br=1.0
   Найден: he51a1
     reqExp отсутствует или некорректно для he51b1, установлено None
-  Обработан he51b1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан he51b1: silver=0, exp=None, br=1.0
   Найден: he51b1
     reqExp отсутствует или некорректно для he51c1, установлено None
-  Обработан he51c1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан he51c1: silver=0, exp=None, br=1.0
   Найден: he51c1
-  Обработан he51c1_late: silver=700, exp=1500, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан he51c1_late: silver=700, exp=1500, br=1.0
   Найден: he51c1_late
   Не найден: he_112_group - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -2124,10 +2007,12 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан tornado_ids_de_assta1: silver=1080000, exp=400000, br=11.7
   Найден: tornado_ids_de_assta1
-  Обработан hs-123a-1: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан hs-123a-1: silver=700, exp=2900, br=1.0
   Найден: hs-123a-1
   Не найден: ju-87br_group - пропускается
-  Обработан ju-87b-2: silver=2100, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ju-87b-2: silver=2100, exp=4000, br=1.0
   Найден: ju-87b-2
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ju-87r-2: silver=6300, exp=3000, br=1.3
@@ -2196,7 +2081,8 @@
   Обработан su_22m4: silver=830000, exp=300000, br=11
   Найден: su_22m4
   Не найден: do_17_group - пропускается
-  Обработан do_17e_1: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан do_17e_1: silver=700, exp=2900, br=1.0
   Найден: do_17e_1
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан do_17z_2: silver=2100, exp=2000, br=1.7
@@ -2374,7 +2260,8 @@
     БР расчет: economicRank=35, raw=12.667, округлено=12.7
   Обработан fa_18c_switzerland: silver=0, exp=410000, br=12.7
   Найден: fa_18c_switzerland
-  Обработан he51b_2w: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан he51b_2w: silver=0, exp=4000, br=1.0
   Найден: he51b_2w
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан arado-196a-3: silver=0, exp=4000, br=1.3
@@ -2385,9 +2272,11 @@
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан bf-109c_1_promo: silver=2100, exp=4000, br=1.7
   Найден: bf-109c_1_promo
-  Обработан fokker_d7: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fokker_d7: silver=700, exp=2900, br=1.0
   Найден: fokker_d7
-  Обработан zeppelin: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан zeppelin: silver=700, exp=2900, br=1.0
   Найден: zeppelin
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан wellington_mk1c_luftwaffe: silver=0, exp=11000, br=2.3
@@ -2582,10 +2471,12 @@
   Обработан germ_destroyer_class1936a_z25: silver=0, exp=18000, br=4.3
   Найден: germ_destroyer_class1936a_z25
     reqExp отсутствует или некорректно для germ_ls_class, установлено None
-  Обработан germ_ls_class: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_ls_class: silver=0, exp=None, br=1.0
   Найден: germ_ls_class
     reqExp отсутствует или некорректно для germ_s38, установлено None
-  Обработан germ_s38: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_s38: silver=0, exp=None, br=1.0
   Найден: germ_s38
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан germ_s38b: silver=10000, exp=7900, br=1.7
@@ -2614,7 +2505,8 @@
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан germ_pr_206: silver=860000, exp=320000, br=4.3
   Найден: germ_pr_206
-  Обработан germ_rboot_r41: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_rboot_r41: silver=700, exp=2900, br=1.0
   Найден: germ_rboot_r41
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан germ_rboot_r130: silver=16000, exp=9200, br=2
@@ -2658,7 +2550,8 @@
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан germ_type153_pfeil: silver=860000, exp=320000, br=4.3
   Найден: germ_type153_pfeil
-  Обработан germ_ls4_class: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан germ_ls4_class: silver=0, exp=2900, br=1.0
   Найден: germ_ls4_class
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан germ_km5: silver=0, exp=4000, br=1.7
@@ -2685,7 +2578,8 @@
   Обработан germ_frigate_koln_lubeck: silver=0, exp=250000, br=4.3
   Найден: germ_frigate_koln_lubeck
     reqExp отсутствует или некорректно для ussr_bt_5, установлено None
-  Обработан ussr_bt_5: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_bt_5: silver=0, exp=None, br=1.0
   Найден: ussr_bt_5
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ussr_bt_7_1937: silver=700, exp=2900, br=1.3
@@ -2707,9 +2601,7 @@
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан ussr_t_34_1942: silver=22000, exp=11000, br=4
   Найден: ussr_t_34_1942
-    БР расчет: economicRank=9, raw=4.000, округлено=4
-  Обработан ussr_t_34E_STZ: silver=32000, exp=6900, br=4
-  Найден: ussr_t_34E_STZ
+  Не найден: ussr_t_34e_stz - пропускается
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан ussr_t_34_1941_57: silver=76000, exp=26000, br=4.7
   Найден: ussr_t_34_1941_57
@@ -2772,7 +2664,8 @@
   Обработан ussr_t_90m_2020: silver=1100000, exp=410000, br=12
   Найден: ussr_t_90m_2020
     reqExp отсутствует или некорректно для ussr_t_26_1940, установлено None
-  Обработан ussr_t_26_1940: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_t_26_1940: silver=0, exp=None, br=1.0
   Найден: ussr_t_26_1940
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ussr_t_28_1938: silver=700, exp=2900, br=1.3
@@ -2780,13 +2673,9 @@
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан ussr_t_28: silver=2100, exp=4000, br=1.7
   Найден: ussr_t_28
-    БР расчет: economicRank=4, raw=2.333, округлено=2.3
-  Обработан ussr_t_28E: silver=10000, exp=7900, br=2.3
-  Найден: ussr_t_28E
+  Не найден: ussr_t_28e - пропускается
   Не найден: ussr_kv_1_2_group - пропускается
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан ussr_kv_1_L_11: silver=16000, exp=9200, br=3.7
-  Найден: ussr_kv_1_L_11
+  Не найден: ussr_kv_1_l_11 - пропускается
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан ussr_kv_2_1939: silver=22000, exp=5600, br=3.7
   Найден: ussr_kv_2_1939
@@ -2841,9 +2730,11 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан ussr_t_80bvm: silver=1080000, exp=400000, br=12
   Найден: ussr_t_80bvm
-  Обработан ussr_t_26_4: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_t_26_4: silver=700, exp=2900, br=1.0
   Найден: ussr_t_26_4
-  Обработан ussr_t_60_1941: silver=2100, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_t_60_1941: silver=2100, exp=4000, br=1.0
   Найден: ussr_t_60_1941
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан ussr_t_70_1942: silver=6300, exp=5900, br=2
@@ -2890,9 +2781,11 @@
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан ussr_2s25m: silver=710000, exp=260000, br=10
   Найден: ussr_2s25m
-  Обработан ussr_garford_putilov: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_garford_putilov: silver=700, exp=2900, br=1.0
   Найден: ussr_garford_putilov
-  Обработан ussr_su_5_1: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_su_5_1: silver=700, exp=2900, br=1.0
   Найден: ussr_su_5_1
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан ussr_su_76m_1943: silver=6300, exp=5900, br=2
@@ -2962,9 +2855,11 @@
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан ussr_9p157: silver=710000, exp=260000, br=9.7
   Найден: ussr_9p157
-  Обработан ussr_gaz_4m: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_gaz_4m: silver=700, exp=2900, br=1.0
   Найден: ussr_gaz_4m
-  Обработан ussr_gaz_dshk: silver=2100, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_gaz_dshk: silver=2100, exp=4000, br=1.0
   Найден: ussr_gaz_dshk
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан ussr_gaz_mm_72k: silver=10000, exp=7900, br=2.3
@@ -2977,9 +2872,7 @@
   Обработан ussr_zis_43: silver=22000, exp=5600, br=3
   Найден: ussr_zis_43
   Не найден: ussr_zis_group - пропускается
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан ussr_zis_12_94KM_1945: silver=22000, exp=11000, br=3.3
-  Найден: ussr_zis_12_94KM_1945
+  Не найден: ussr_zis_12_94km_1945 - пропускается
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан ussr_zsu_37: silver=47000, exp=9200, br=3.3
   Найден: ussr_zsu_37
@@ -3019,8 +2912,7 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан ussr_pantsyr_s1: silver=1080000, exp=400000, br=12
   Найден: ussr_pantsyr_s1
-  Обработан ussr_t_26_1940_1st_GvTBr: silver=0, exp=2900, br=None
-  Найден: ussr_t_26_1940_1st_GvTBr
+  Не найден: ussr_t_26_1940_1st_gvtbr - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ussr_bt_7_1937_td: silver=2100, exp=4000, br=1.3
   Найден: ussr_bt_7_1937_td
@@ -3030,9 +2922,7 @@
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан ussr_su_57: silver=0, exp=5900, br=2.3
   Найден: ussr_su_57
-    БР расчет: economicRank=4, raw=2.333, округлено=2.3
-  Обработан ussr_pzkpfw_III_ausf_J_L42: silver=0, exp=7900, br=2.3
-  Найден: ussr_pzkpfw_III_ausf_J_L42
+  Не найден: ussr_pzkpfw_iii_ausf_j_l42 - пропускается
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан ussr_zut_37: silver=0, exp=11000, br=2.3
   Найден: ussr_zut_37
@@ -3051,9 +2941,7 @@
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан ussr_t_34_1941_cast_turret: silver=0, exp=9200, br=4
   Найден: ussr_t_34_1941_cast_turret
-    БР расчет: economicRank=9, raw=4.000, округлено=4
-  Обработан ussr_t_34E: silver=0, exp=14000, br=4
-  Найден: ussr_t_34E
+  Не найден: ussr_t_34e - пропускается
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан ussr_bm_31_12: silver=0, exp=18000, br=4
   Найден: ussr_bm_31_12
@@ -3082,12 +2970,8 @@
     БР расчет: economicRank=13, raw=5.333, округлено=5.3
   Обработан ussr_kv_122: silver=0, exp=63000, br=5.3
   Найден: ussr_kv_122
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан ussr_t_34_85E: silver=0, exp=63000, br=5.7
-  Найден: ussr_t_34_85E
-    БР расчет: economicRank=14, raw=5.667, округлено=5.7
-  Обработан ussr_su_122P: silver=0, exp=63000, br=5.7
-  Найден: ussr_su_122P
+  Не найден: ussr_t_34_85e - пропускается
+  Не найден: ussr_su_122p - пропускается
     БР расчет: economicRank=16, raw=6.333, округлено=6.3
   Обработан ussr_t_44_122: silver=0, exp=71000, br=6.3
   Найден: ussr_t_44_122
@@ -3130,9 +3014,7 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан ussr_t_80ue1: silver=0, exp=350000, br=11.7
   Найден: ussr_t_80ue1
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан ussr_t_26E: silver=0, exp=4000, br=1.3
-  Найден: ussr_t_26E
+  Не найден: ussr_t_26e - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ussr_rbt_5: silver=0, exp=7900, br=1.3
   Найден: ussr_rbt_5
@@ -3154,9 +3036,7 @@
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан ussr_bm_13n: silver=0, exp=18000, br=2.7
   Найден: ussr_bm_13n
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан ussr_a_12_mk_2_matilda_2A_F96: silver=0, exp=14000, br=3.3
-  Найден: ussr_a_12_mk_2_matilda_2A_F96
+  Не найден: ussr_a_12_mk_2_matilda_2a_f96 - пропускается
     БР расчет: economicRank=6, raw=3.000, округлено=3
   Обработан ussr_valentine_mk_9: silver=0, exp=11000, br=3
   Найден: ussr_valentine_mk_9
@@ -3172,18 +3052,14 @@
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан ussr_kv_1e: silver=0, exp=33000, br=4.3
   Найден: ussr_kv_1e
-    БР расчет: economicRank=11, raw=4.667, округлено=4.7
-  Обработан ussr_su_100Y: silver=0, exp=46000, br=4.7
-  Найден: ussr_su_100Y
+  Не найден: ussr_su_100y - пропускается
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан ussr_kv_2_zis_6: silver=0, exp=54000, br=5
   Найден: ussr_kv_2_zis_6
     БР расчет: economicRank=15, raw=6.000, округлено=6
   Обработан ussr_kv_220: silver=0, exp=54000, br=6
   Найден: ussr_kv_220
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан ussr_pzkpfw_V: silver=0, exp=46000, br=6
-  Найден: ussr_pzkpfw_V
+  Не найден: ussr_pzkpfw_v - пропускается
     БР расчет: economicRank=16, raw=6.333, округлено=6.3
   Обработан ussr_t_44_po: silver=0, exp=63000, br=6.3
   Найден: ussr_t_44_po
@@ -3414,16 +3290,20 @@
   Найден: mig_29smt_9_19
   Не найден: i-15_group - пропускается
     reqExp отсутствует или некорректно для i-15_1934, установлено None
-  Обработан i-15_1934: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан i-15_1934: silver=0, exp=None, br=1.0
   Найден: i-15_1934
     reqExp отсутствует или некорректно для i-15_1935, установлено None
-  Обработан i-15_1935: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан i-15_1935: silver=0, exp=None, br=1.0
   Найден: i-15_1935
     reqExp отсутствует или некорректно для i-15_1935_moscow, установлено None
-  Обработан i-15_1935_moscow: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан i-15_1935_moscow: silver=0, exp=None, br=1.0
   Найден: i-15_1935_moscow
   Не найден: i-153_group - пропускается
-  Обработан i-15bis: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан i-15bis: silver=700, exp=2900, br=1.0
   Найден: i-15bis
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан i-153_m62: silver=2100, exp=2000, br=2.3
@@ -3493,9 +3373,11 @@
     БР расчет: economicRank=39, raw=14.000, округлено=14
   Обработан su_30sm: silver=1120000, exp=420000, br=14
   Найден: su_30sm
-  Обработан po-2: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан po-2: silver=700, exp=2900, br=1.0
   Найден: po-2
-  Обработан po-2_nw: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан po-2_nw: silver=700, exp=2900, br=1.0
   Найден: po-2_nw
   Не найден: su-2_group - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -3570,7 +3452,8 @@
   Обработан su_25sm3: silver=1080000, exp=400000, br=11.7
   Найден: su_25sm3
   Не найден: sb_group - пропускается
-  Обработан sb_2m_100: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sb_2m_100: silver=700, exp=2900, br=1.0
   Найден: sb_2m_100
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан sb_2m_103c: silver=2100, exp=2000, br=2
@@ -3673,7 +3556,8 @@
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан su_34: silver=1120000, exp=420000, br=13.3
   Найден: su_34
-  Обработан i-15bis_krasnolutsky: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан i-15bis_krasnolutsky: silver=0, exp=2900, br=1.0
   Найден: i-15bis_krasnolutsky
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан pby-5a_ussr: silver=0, exp=5900, br=1.7
@@ -3771,9 +3655,11 @@
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан su_33: silver=1160000, exp=580000, br=13
   Найден: su_33
-  Обработан mbr-2: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан mbr-2: silver=0, exp=4000, br=1.0
   Найден: mbr-2
-  Обработан po-2m: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан po-2m: silver=0, exp=4000, br=1.0
   Найден: po-2m
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан tb_3_m17_32: silver=0, exp=5900, br=1.3
@@ -3985,10 +3871,12 @@
   Обработан ussr_cruiser_maxim_gorky: silver=640000, exp=230000, br=5.7
   Найден: ussr_cruiser_maxim_gorky
     reqExp отсутствует или некорректно для ussr_g5_mtb, установлено None
-  Обработан ussr_g5_mtb: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_g5_mtb: silver=0, exp=None, br=1.0
   Найден: ussr_g5_mtb
     reqExp отсутствует или некорректно для ussr_d3, установлено None
-  Обработан ussr_d3: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_d3: silver=0, exp=None, br=1.0
   Найден: ussr_d3
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ussr_pr_103_sm4: silver=700, exp=2900, br=1.3
@@ -4017,7 +3905,8 @@
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан ussr_pr_206m: silver=780000, exp=280000, br=4.3
   Найден: ussr_pr_206m
-  Обработан ussr_mo_4: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_mo_4: silver=700, exp=2900, br=1.0
   Найден: ussr_mo_4
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан ussr_od_200: silver=6300, exp=5900, br=1.7
@@ -4070,7 +3959,8 @@
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан ussr_mpk_pr11451: silver=780000, exp=280000, br=4.7
   Найден: ussr_mpk_pr11451
-  Обработан ussr_g5_mtb_shvak: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ussr_g5_mtb_shvak: silver=0, exp=2900, br=1.0
   Найден: ussr_g5_mtb_shvak
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ussr_ya_5m: silver=0, exp=4000, br=1.3
@@ -4112,7 +4002,8 @@
   Обработан ussr_mpk_pr12412p: silver=0, exp=120000, br=4.3
   Найден: ussr_mpk_pr12412p
     reqExp отсутствует или некорректно для uk_a_13_mk1, установлено None
-  Обработан uk_a_13_mk1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_a_13_mk1: silver=0, exp=None, br=1.0
   Найден: uk_a_13_mk1
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан uk_a_13_mk2: silver=700, exp=2900, br=1.3
@@ -4131,9 +4022,7 @@
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан uk_a27m_cromwell_1: silver=22000, exp=5600, br=3.7
   Найден: uk_a27m_cromwell_1
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан uk_sherman_II: silver=32000, exp=14000, br=3.7
-  Найден: uk_sherman_II
+  Не найден: uk_sherman_ii - пропускается
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан uk_sherman_vc_firefly: silver=76000, exp=26000, br=4.7
   Найден: uk_sherman_vc_firefly
@@ -4178,9 +4067,7 @@
   Обработан uk_challenger_mk_3: silver=830000, exp=150000, br=10.7
   Найден: uk_challenger_mk_3
   Не найден: uk_challenger_2_group - пропускается
-    БР расчет: economicRank=32, raw=11.667, округлено=11.7
-  Обработан uk_challenger_II: silver=950000, exp=350000, br=11.7
-  Найден: uk_challenger_II
+  Не найден: uk_challenger_ii - пропускается
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан uk_challenger_2_dorchester: silver=950000, exp=175000, br=11.7
   Найден: uk_challenger_2_dorchester
@@ -4251,7 +4138,8 @@
   Обработан uk_vickers_mk7: silver=830000, exp=300000, br=10.7
   Найден: uk_vickers_mk7
     reqExp отсутствует или некорректно для uk_a17_mk_1_tetrarch, установлено None
-  Обработан uk_a17_mk_1_tetrarch: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_a17_mk_1_tetrarch: silver=0, exp=None, br=1.0
   Найден: uk_a17_mk_1_tetrarch
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан uk_daimler_mk_2: silver=700, exp=2900, br=1.3
@@ -4300,7 +4188,8 @@
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан uk_desert_warrior: silver=710000, exp=260000, br=10
   Найден: uk_desert_warrior
-  Обработан uk_vickers_mk_6_aa_mk_1: silver=2100, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_vickers_mk_6_aa_mk_1: silver=2100, exp=4000, br=1.0
   Найден: uk_vickers_mk_6_aa_mk_1
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан uk_t17e2: silver=6300, exp=5900, br=2
@@ -4354,7 +4243,8 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан uk_adats_m113a3: silver=1080000, exp=400000, br=11.7
   Найден: uk_adats_m113a3
-  Обработан uk_mark_v: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_mark_v: silver=700, exp=2900, br=1.0
   Найден: uk_mark_v
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан uk_sarc_mk4_a: silver=700, exp=2900, br=1.3
@@ -4412,7 +4302,8 @@
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
   Обработан uk_ttd: silver=710000, exp=260000, br=10.3
   Найден: uk_ttd
-  Обработан uk_a_13_mk1_3rd_rtr: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_a_13_mk1_3rd_rtr: silver=0, exp=2900, br=1.0
   Найден: uk_a_13_mk1_3rd_rtr
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан uk_a1e1_independent: silver=0, exp=7900, br=1.3
@@ -4550,10 +4441,12 @@
   Найден: ah_2_rooivalk
   Не найден: fury_group - пропускается
     reqExp отсутствует или некорректно для fury_mk1, установлено None
-  Обработан fury_mk1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fury_mk1: silver=0, exp=None, br=1.0
   Найден: fury_mk1
     reqExp отсутствует или некорректно для fury_mk2, установлено None
-  Обработан fury_mk2: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fury_mk2: silver=0, exp=None, br=1.0
   Найден: fury_mk2
   Не найден: hurricane_group - пропускается
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
@@ -4682,11 +4575,14 @@
   Обработан tornado_f3_late: silver=1100000, exp=410000, br=13
   Найден: tornado_f3_late
     reqExp отсутствует или некорректно для nimrod_mk1, установлено None
-  Обработан nimrod_mk1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан nimrod_mk1: silver=0, exp=None, br=1.0
   Найден: nimrod_mk1
-  Обработан nimrod_mk2: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан nimrod_mk2: silver=700, exp=2900, br=1.0
   Найден: nimrod_mk2
-  Обработан gladiator_mk2_navy: silver=2100, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан gladiator_mk2_navy: silver=2100, exp=4000, br=1.0
   Найден: gladiator_mk2_navy
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан hurricane_mk1b: silver=10000, exp=7900, br=2
@@ -4739,7 +4635,8 @@
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан sea_harrier_fa2: silver=1080000, exp=400000, br=13
   Найден: sea_harrier_fa2
-  Обработан v_156_b1: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан v_156_b1: silver=700, exp=2900, br=1.0
   Найден: v_156_b1
   Не найден: blenheim_group - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -4799,9 +4696,11 @@
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан harrier_gr7: silver=1080000, exp=400000, br=12.3
   Найден: harrier_gr7
-  Обработан hp_12: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан hp_12: silver=700, exp=2900, br=1.0
   Найден: hp_12
-  Обработан swordfish_mk1: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан swordfish_mk1: silver=700, exp=2900, br=1.0
   Найден: swordfish_mk1
   Не найден: hampden_group - пропускается
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
@@ -4877,16 +4776,20 @@
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан tornado_gr4: silver=1120000, exp=420000, br=12.3
   Найден: tornado_gr4
-  Обработан gladiator_mk2_tuck: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан gladiator_mk2_tuck: silver=0, exp=2900, br=1.0
   Найден: gladiator_mk2_tuck
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан wirraway: silver=0, exp=4000, br=1.3
   Найден: wirraway
-  Обработан osprey_mk4: silver=6300, exp=5900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан osprey_mk4: silver=6300, exp=5900, br=1.0
   Найден: osprey_mk4
-  Обработан walrus_mk1: silver=10000, exp=7900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан walrus_mk1: silver=10000, exp=7900, br=1.0
   Найден: walrus_mk1
-  Обработан fairey_3f_mk3b: silver=10000, exp=7900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fairey_3f_mk3b: silver=10000, exp=7900, br=1.0
   Найден: fairey_3f_mk3b
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан avenger_mk1: silver=0, exp=11000, br=1.7
@@ -4951,9 +4854,11 @@
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан mig-21_bison: silver=0, exp=410000, br=12.3
   Найден: mig-21_bison
-  Обработан spad_13: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан spad_13: silver=700, exp=2900, br=1.0
   Найден: spad_13
-  Обработан swordfish_mk2: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан swordfish_mk2: silver=0, exp=4000, br=1.0
   Найден: swordfish_mk2
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан pby-5a_raf: silver=0, exp=5900, br=1.7
@@ -5174,12 +5079,15 @@
   Обработан uk_cruiser_tiger: silver=490000, exp=175000, br=5.7
   Найден: uk_cruiser_tiger
     reqExp отсутствует или некорректно для uk_mtb_1series, установлено None
-  Обработан uk_mtb_1series: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_mtb_1series: silver=0, exp=None, br=1.0
   Найден: uk_mtb_1series
     reqExp отсутствует или некорректно для uk_mtb35_vosper, установлено None
-  Обработан uk_mtb35_vosper: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_mtb35_vosper: silver=0, exp=None, br=1.0
   Найден: uk_mtb35_vosper
-  Обработан uk_fairmile_a_ml100: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_fairmile_a_ml100: silver=700, exp=2900, br=1.0
   Найден: uk_fairmile_a_ml100
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан uk_70ft_mgb: silver=6300, exp=5900, br=1.7
@@ -5214,7 +5122,8 @@
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан uk_frigate_leopard: silver=860000, exp=320000, br=4
   Найден: uk_frigate_leopard
-  Обработан uk_mtb_vosper_1series: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_mtb_vosper_1series: silver=700, exp=2900, br=1.0
   Найден: uk_mtb_vosper_1series
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан uk_mtb_vosper_2series: silver=2100, exp=4000, br=1.7
@@ -5252,7 +5161,8 @@
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан uk_frigate_whitby_blackpool: silver=780000, exp=280000, br=3.7
   Найден: uk_frigate_whitby_blackpool
-  Обработан uk_mtb_2series: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан uk_mtb_2series: silver=0, exp=2900, br=1.0
   Найден: uk_mtb_2series
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан uk_71ft_mgb: silver=0, exp=11000, br=2.3
@@ -5282,12 +5192,15 @@
   Обработан uk_frigate_river: silver=0, exp=75000, br=3.3
   Найден: uk_frigate_river
     reqExp отсутствует или некорректно для jp_type_95_ha_go, установлено None
-  Обработан jp_type_95_ha_go: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_type_95_ha_go: silver=0, exp=None, br=1.0
   Найден: jp_type_95_ha_go
     reqExp отсутствует или некорректно для jp_type_98_ke_ni, установлено None
-  Обработан jp_type_98_ke_ni: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_type_98_ke_ni: silver=0, exp=None, br=1.0
   Найден: jp_type_98_ke_ni
-  Обработан jp_type_2_ka_mi: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_type_2_ka_mi: silver=700, exp=2900, br=1.0
   Найден: jp_type_2_ka_mi
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан jp_m24_chaffee: silver=47000, exp=18000, br=3.7
@@ -5322,7 +5235,8 @@
   Обработан jp_type_10_prototype: silver=830000, exp=300000, br=11.7
   Найден: jp_type_10_prototype
     reqExp отсутствует или некорректно для jp_type_89b_i_go_otsu, установлено None
-  Обработан jp_type_89b_i_go_otsu: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_type_89b_i_go_otsu: silver=0, exp=None, br=1.0
   Найден: jp_type_89b_i_go_otsu
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан jp_type_97_chi_ha: silver=700, exp=2900, br=1.3
@@ -5363,9 +5277,7 @@
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан jp_st_a3: silver=210000, exp=35000, br=6.7
   Найден: jp_st_a3
-    БР расчет: economicRank=19, raw=7.333, округлено=7.3
-  Обработан jp_m47_patton_II: silver=270000, exp=95000, br=7.3
-  Найден: jp_m47_patton_II
+  Не найден: jp_m47_patton_ii - пропускается
   Не найден: jp_type_74_stb_group - пропускается
     БР расчет: economicRank=22, raw=8.333, округлено=8.3
   Обработан jp_st_b1: silver=300000, exp=105000, br=8.3
@@ -5401,12 +5313,8 @@
   Обработан jp_hiro_sha: silver=2100, exp=4000, br=1.7
   Найден: jp_hiro_sha
   Не найден: jp_ho_ni_group - пропускается
-    БР расчет: economicRank=3, raw=2.000, округлено=2
-  Обработан jp_type_3_ho_ni_I: silver=10000, exp=7900, br=2
-  Найден: jp_type_3_ho_ni_I
-    БР расчет: economicRank=4, raw=2.333, округлено=2.3
-  Обработан jp_type_3_ho_ni_III: silver=16000, exp=4600, br=2.3
-  Найден: jp_type_3_ho_ni_III
+  Не найден: jp_type_3_ho_ni_i - пропускается
+  Не найден: jp_type_3_ho_ni_iii - пропускается
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан jp_navy_120mm_spg: silver=16000, exp=9200, br=2.7
   Найден: jp_navy_120mm_spg
@@ -5467,7 +5375,8 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан jp_type_81_tansam_fcs: silver=1080000, exp=400000, br=12
   Найден: jp_type_81_tansam_fcs
-  Обработан jp_type_95_ha_go_commander: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_type_95_ha_go_commander: silver=0, exp=2900, br=1.0
   Найден: jp_type_95_ha_go_commander
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан jp_type_95_heavy: silver=0, exp=5900, br=1.3
@@ -5481,9 +5390,7 @@
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан jp_type_3_chi_nu_75cm_type_5: silver=0, exp=33000, br=4.3
   Найден: jp_type_3_chi_nu_75cm_type_5
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан jp_pzkpfw_VI_ausf_e_tiger: silver=0, exp=63000, br=6
-  Найден: jp_pzkpfw_VI_ausf_e_tiger
+  Не найден: jp_pzkpfw_vi_ausf_e_tiger - пропускается
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан jp_type_5_ho_ri_prototype: silver=0, exp=71000, br=6.7
   Найден: jp_type_5_ho_ri_prototype
@@ -5527,7 +5434,8 @@
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан ah_1s: silver=0, exp=380000, br=9.7
   Найден: ah_1s
-  Обработан f1m2: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан f1m2: silver=700, exp=2900, br=1.0
   Найден: f1m2
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан a5m4: silver=2100, exp=4000, br=1.3
@@ -5606,15 +5514,19 @@
   Найден: f_15j_kai
   Не найден: ki-10_group - пропускается
     reqExp отсутствует или некорректно для ki_10_1, установлено None
-  Обработан ki_10_1: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ki_10_1: silver=0, exp=None, br=1.0
   Найден: ki_10_1
     reqExp отсутствует или некорректно для ki_10_2, установлено None
-  Обработан ki_10_2: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ki_10_2: silver=0, exp=None, br=1.0
   Найден: ki_10_2
     reqExp отсутствует или некорректно для ki_10_1_commander, установлено None
-  Обработан ki_10_1_commander: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ki_10_1_commander: silver=0, exp=None, br=1.0
   Найден: ki_10_1_commander
-  Обработан ki_10_2_commander: silver=700, exp=1500, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ki_10_2_commander: silver=700, exp=1500, br=1.0
   Найден: ki_10_2_commander
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан ki-27_otsu: silver=700, exp=2900, br=2
@@ -6080,10 +5992,12 @@
   Обработан jp_battlecruiser_kirishima: silver=790000, exp=290000, br=7.3
   Найден: jp_battlecruiser_kirishima
     reqExp отсутствует или некорректно для jp_t14_class, установлено None
-  Обработан jp_t14_class: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_t14_class: silver=0, exp=None, br=1.0
   Найден: jp_t14_class
     reqExp отсутствует или некорректно для jp_t14_class_mod02, установлено None
-  Обработан jp_t14_class_mod02: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_t14_class_mod02: silver=0, exp=None, br=1.0
   Найден: jp_t14_class_mod02
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан jp_type5_escortboat: silver=6300, exp=5900, br=1.7
@@ -6115,9 +6029,11 @@
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан jp_destroyer_chidori: silver=780000, exp=280000, br=3.7
   Найден: jp_destroyer_chidori
-  Обработан jp_type_t1_1941: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_type_t1_1941: silver=700, exp=2900, br=1.0
   Найден: jp_type_t1_1941
-  Обработан jp_abtei_pr1: silver=2100, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_abtei_pr1: silver=2100, exp=4000, br=1.0
   Найден: jp_abtei_pr1
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан jp_abtei_pr4: silver=10000, exp=7900, br=1.3
@@ -6146,7 +6062,8 @@
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан jp_destroyer_ayanami: silver=860000, exp=320000, br=4
   Найден: jp_destroyer_ayanami
-  Обработан jp_t14_class_mod01: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан jp_t14_class_mod01: silver=0, exp=2900, br=1.0
   Найден: jp_t14_class_mod01
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан jp_kusen_tei_13_1942: silver=0, exp=7900, br=2
@@ -6167,7 +6084,8 @@
   Обработан jp_escort_hiburi_class_shisaka: silver=640000, exp=220000, br=3.3
   Найден: jp_escort_hiburi_class_shisaka
     reqExp отсутствует или некорректно для cn_m8_greyhound, установлено None
-  Обработан cn_m8_greyhound: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан cn_m8_greyhound: silver=0, exp=None, br=1.0
   Найден: cn_m8_greyhound
   Не найден: cn_m3_m5_stuart_group - пропускается
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
@@ -6190,9 +6108,7 @@
   Обработан cn_m18_hellcat: silver=185000, exp=54000, br=6
   Найден: cn_m18_hellcat
   Не найден: cn_type_63_62_group - пропускается
-    БР расчет: economicRank=16, raw=6.333, округлено=6.3
-  Обработан cn_type_63_I: silver=200000, exp=63000, br=6.3
-  Найден: cn_type_63_I
+  Не найден: cn_type_63_i - пропускается
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан cn_type_62: silver=210000, exp=35000, br=6.7
   Найден: cn_type_62
@@ -6222,7 +6138,8 @@
   Обработан cn_vt_4b: silver=1100000, exp=410000, br=12
   Найден: cn_vt_4b
     reqExp отсутствует или некорректно для cn_t_26_1940, установлено None
-  Обработан cn_t_26_1940: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан cn_t_26_1940: silver=0, exp=None, br=1.0
   Найден: cn_t_26_1940
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан cn_type_97_chi_ha: silver=700, exp=2900, br=1.3
@@ -6254,9 +6171,7 @@
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан cn_is_2_1944: silver=210000, exp=35000, br=6.7
   Найден: cn_is_2_1944
-    БР расчет: economicRank=20, raw=7.667, округлено=7.7
-  Обработан cn_m48a1_patton_III: silver=270000, exp=95000, br=7.7
-  Найден: cn_m48a1_patton_III
+  Не найден: cn_m48a1_patton_iii - пропускается
   Не найден: cn_type_59_69_group - пропускается
     БР расчет: economicRank=21, raw=8.000, округлено=8
   Обработан cn_type_59: silver=300000, exp=105000, br=8
@@ -6384,7 +6299,8 @@
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан cn_zbd_04a: silver=830000, exp=300000, br=10
   Найден: cn_zbd_04a
-  Обработан cn_t_26_no531: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан cn_t_26_no531: silver=0, exp=2900, br=1.0
   Найден: cn_t_26_no531
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан cn_m3a3_stuart_1st_ptg: silver=0, exp=7900, br=2.7
@@ -6428,9 +6344,11 @@
     БР расчет: economicRank=30, raw=11.000, округлено=11
   Обработан cn_vt_5: silver=870000, exp=540000, br=11
   Найден: cn_vt_5
-  Обработан cn_bt_5: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан cn_bt_5: silver=700, exp=2900, br=1.0
   Найден: cn_bt_5
-  Обработан cn_type_95_ha_go: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан cn_type_95_ha_go: silver=700, exp=2900, br=1.0
   Найден: cn_type_95_ha_go
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан cn_wz_141: silver=0, exp=63000, br=6.7
@@ -6485,7 +6403,8 @@
   Обработан z_10a: silver=1070000, exp=520000, br=11.7
   Найден: z_10a
     reqExp отсутствует или некорректно для gladiator_mk1_china, установлено None
-  Обработан gladiator_mk1_china: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан gladiator_mk1_china: silver=0, exp=None, br=1.0
   Найден: gladiator_mk1_china
   Не найден: ki_27_group - пропускается
     БР расчет: economicRank=3, raw=2.000, округлено=2
@@ -6554,7 +6473,8 @@
   Обработан mirage_2000_5ei: silver=1120000, exp=420000, br=13.7
   Найден: mirage_2000_5ei
     reqExp отсутствует или некорректно для i-15bis_china, установлено None
-  Обработан i-15bis_china: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан i-15bis_china: silver=0, exp=None, br=1.0
   Найден: i-15bis_china
   Не найден: i-16_china_group - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -6624,7 +6544,8 @@
     БР расчет: economicRank=38, raw=13.667, округлено=13.7
   Обработан j_11b: silver=1120000, exp=420000, br=13.7
   Найден: j_11b
-  Обработан hs-123a-1_china: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан hs-123a-1_china: silver=700, exp=2900, br=1.0
   Найден: hs-123a-1_china
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан v_11g: silver=2100, exp=4000, br=1.3
@@ -6687,7 +6608,8 @@
     БР расчет: economicRank=21, raw=8.000, округлено=8
   Обработан il_28_china: silver=300000, exp=105000, br=8
   Найден: il_28_china
-  Обработан hawk_iii: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан hawk_iii: silver=0, exp=2900, br=1.0
   Найден: hawk_iii
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан d_510c: silver=0, exp=4000, br=1.3
@@ -6738,9 +6660,11 @@
   Обработан ucav_wing_loong_i: silver=0, exp=260000, br=10.7
   Найден: ucav_wing_loong_i
     reqExp отсутствует или некорректно для it_ab_41, установлено None
-  Обработан it_ab_41: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_ab_41: silver=0, exp=None, br=1.0
   Найден: it_ab_41
-  Обработан it_m11_39: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_m11_39: silver=700, exp=2900, br=1.0
   Найден: it_m11_39
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан it_as_42_47: silver=2100, exp=4000, br=2
@@ -6790,7 +6714,8 @@
   Обработан it_centauro_mgs_120: silver=950000, exp=350000, br=11.7
   Найден: it_centauro_mgs_120
     reqExp отсутствует или некорректно для it_l6, установлено None
-  Обработан it_l6: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_l6: silver=0, exp=None, br=1.0
   Найден: it_l6
   Не найден: it_m13_40_group - пропускается
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
@@ -6806,18 +6731,14 @@
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан it_m15_42: silver=10000, exp=7900, br=2.7
   Найден: it_m15_42
-    БР расчет: economicRank=6, raw=3.000, округлено=3
-  Обработан it_pzkpfw_III_ausf_N: silver=16000, exp=4600, br=3
-  Найден: it_pzkpfw_III_ausf_N
+  Не найден: it_pzkpfw_iii_ausf_n - пропускается
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан it_p_40: silver=32000, exp=14000, br=3.3
   Найден: it_p_40
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан it_m4a4_sherman: silver=47000, exp=18000, br=3.7
   Найден: it_m4a4_sherman
-    БР расчет: economicRank=11, raw=4.667, округлено=4.7
-  Обработан it_sherman_VII: silver=135000, exp=40000, br=4.7
-  Найден: it_sherman_VII
+  Не найден: it_sherman_vii - пропускается
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан it_sherman_vc_firefly: silver=155000, exp=46000, br=5
   Найден: it_sherman_vc_firefly
@@ -6890,7 +6811,8 @@
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан it_otomatic: silver=950000, exp=350000, br=11.3
   Найден: it_otomatic
-  Обработан it_l3_cc: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_l3_cc: silver=700, exp=2900, br=1.0
   Найден: it_l3_cc
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан it_semovente_l40: silver=2100, exp=4000, br=1.3
@@ -6919,9 +6841,7 @@
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан it_semovente_m41m_90: silver=47000, exp=18000, br=3.7
   Найден: it_semovente_m41m_90
-    БР расчет: economicRank=9, raw=4.000, округлено=4
-  Обработан it_stug_III_ausf_G: silver=76000, exp=13000, br=4
-  Найден: it_stug_III_ausf_G
+  Не найден: it_stug_iii_ausf_g - пропускается
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан it_semovente_m43_75_46: silver=135000, exp=40000, br=4.7
   Найден: it_semovente_m43_75_46
@@ -6947,7 +6867,8 @@
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан it_freccia: silver=830000, exp=300000, br=10.7
   Найден: it_freccia
-  Обработан it_39m_csaba: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_39m_csaba: silver=700, exp=2900, br=1.0
   Найден: it_39m_csaba
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан it_40m_turan_1: silver=10000, exp=7900, br=2.3
@@ -6976,7 +6897,8 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан it_leopard_2a7_hungary: silver=1120000, exp=420000, br=12
   Найден: it_leopard_2a7_hungary
-  Обработан it_l6_leone: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_l6_leone: silver=0, exp=2900, br=1.0
   Найден: it_l6_leone
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан it_m13_40_serie_2: silver=0, exp=4000, br=2
@@ -6993,12 +6915,8 @@
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан it_sherman_75_37: silver=0, exp=18000, br=3.7
   Найден: it_sherman_75_37
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан it_pzkpfw_IV_ausf_G: silver=0, exp=40000, br=3.7
-  Найден: it_pzkpfw_IV_ausf_G
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан it_pzkpfw_VI_ausf_e_tiger: silver=0, exp=63000, br=6
-  Найден: it_pzkpfw_VI_ausf_e_tiger
+  Не найден: it_pzkpfw_iv_ausf_g - пропускается
+  Не найден: it_pzkpfw_vi_ausf_e_tiger - пропускается
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан it_m26_ariete: silver=0, exp=71000, br=6.7
   Найден: it_m26_ariete
@@ -7023,9 +6941,7 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан it_c1_ariete_certezza: silver=0, exp=350000, br=11.7
   Найден: it_c1_ariete_certezza
-    БР расчет: economicRank=1, raw=1.333, округлено=1.3
-  Обработан it_toldi_II_a: silver=0, exp=4000, br=1.3
-  Найден: it_toldi_II_a
+  Не найден: it_toldi_ii_a - пропускается
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан it_41m_turan_2: silver=0, exp=7900, br=2.3
   Найден: it_41m_turan_2
@@ -7069,7 +6985,8 @@
     БР расчет: economicRank=30, raw=11.000, округлено=11
   Обработан a_129_a: silver=0, exp=390000, br=11
   Найден: a_129_a
-  Обработан ro_44: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан ro_44: silver=700, exp=2900, br=1.0
   Найден: ro_44
   Не найден: re_2000_group - пропускается
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
@@ -7130,10 +7047,12 @@
   Найден: ef_2000a
   Не найден: cr_32_group - пропускается
     reqExp отсутствует или некорректно для cr_32, установлено None
-  Обработан cr_32: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан cr_32: silver=0, exp=None, br=1.0
   Найден: cr_32
     reqExp отсутствует или некорректно для cr_32_quater, установлено None
-  Обработан cr_32_quater: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан cr_32_quater: silver=0, exp=None, br=1.0
   Найден: cr_32_quater
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан fiat_cr42_italy: silver=700, exp=2900, br=1.3
@@ -7478,7 +7397,8 @@
   Обработан it_destroyer_soldati_serie1: silver=0, exp=61000, br=4
   Найден: it_destroyer_soldati_serie1
     reqExp отсутствует или некорректно для it_mas_classe500_3_1944, установлено None
-  Обработан it_mas_classe500_3_1944: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_mas_classe500_3_1944: silver=0, exp=None, br=1.0
   Найден: it_mas_classe500_3_1944
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан it_vas_baglietto_68t_1serie: silver=2100, exp=4000, br=1.3
@@ -7504,7 +7424,8 @@
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан it_p494_saetta: silver=780000, exp=280000, br=4.7
   Найден: it_p494_saetta
-  Обработан it_mas_classe500_3: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_mas_classe500_3: silver=700, exp=2900, br=1.0
   Найден: it_mas_classe500_3
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан it_ms53_2a: silver=22000, exp=11000, br=1.7
@@ -7527,7 +7448,8 @@
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан it_albatros_class_f543: silver=700000, exp=250000, br=4
   Найден: it_albatros_class_f543
-  Обработан it_mas_classe500_4: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан it_mas_classe500_4: silver=0, exp=2900, br=1.0
   Найден: it_mas_classe500_4
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан it_ms444: silver=0, exp=18000, br=2.7
@@ -7549,16 +7471,20 @@
   Найден: it_p493_freccia
   Не найден: fr_hotchkiss_fcm_group - пропускается
     reqExp отсутствует или некорректно для fr_amc_34, установлено None
-  Обработан fr_amc_34: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_amc_34: silver=0, exp=None, br=1.0
   Найден: fr_amc_34
     reqExp отсутствует или некорректно для fr_hotchkiss_h35, установлено None
-  Обработан fr_hotchkiss_h35: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_hotchkiss_h35: silver=0, exp=None, br=1.0
   Найден: fr_hotchkiss_h35
     reqExp отсутствует или некорректно для fr_fcm_36, установлено None
-  Обработан fr_fcm_36: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_fcm_36: silver=0, exp=None, br=1.0
   Найден: fr_fcm_36
     reqExp отсутствует или некорректно для fr_amd_35, установлено None
-  Обработан fr_amd_35: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_amd_35: silver=0, exp=None, br=1.0
   Найден: fr_amd_35
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан fr_amc_35: silver=700, exp=2900, br=1.3
@@ -7608,10 +7534,12 @@
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан fr_vextra_105: silver=710000, exp=260000, br=10
   Найден: fr_vextra_105
-  Обработан fr_saint_chamond: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_saint_chamond: silver=700, exp=2900, br=1.0
   Найден: fr_saint_chamond
     reqExp отсутствует или некорректно для fr_hotchkiss_h39, установлено None
-  Обработан fr_hotchkiss_h39: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_hotchkiss_h39: silver=0, exp=None, br=1.0
   Найден: fr_hotchkiss_h39
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан fr_somua_s35: silver=700, exp=2900, br=1.3
@@ -7664,7 +7592,8 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан fr_leclerc_azur: silver=1120000, exp=420000, br=12
   Найден: fr_leclerc_azur
-  Обработан fr_renault_r39: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_renault_r39: silver=700, exp=2900, br=1.0
   Найден: fr_renault_r39
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан fr_renault_d2: silver=2100, exp=4000, br=1.3
@@ -7744,7 +7673,8 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан fr_crotale_ng: silver=1080000, exp=400000, br=12
   Найден: fr_crotale_ng
-  Обработан fr_amr_35_zt3: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_amr_35_zt3: silver=700, exp=2900, br=1.0
   Найден: fr_amr_35_zt3
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан fr_lorraine_37l: silver=2100, exp=4000, br=1.3
@@ -7781,13 +7711,12 @@
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
   Обработан fr_amx_50_foch: silver=300000, exp=105000, br=7.3
   Найден: fr_amx_50_foch
-    БР расчет: economicRank=22, raw=8.333, округлено=8.3
-  Обработан fr_amx_30_ACRA: silver=380000, exp=135000, br=8.3
-  Найден: fr_amx_30_ACRA
+  Не найден: fr_amx_30_acra - пропускается
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
   Обработан fr_vcac_mephisto: silver=450000, exp=160000, br=8.7
   Найден: fr_vcac_mephisto
-  Обработан fr_hotchkiss_h39_cambronne: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_hotchkiss_h39_cambronne: silver=0, exp=2900, br=1.0
   Найден: fr_hotchkiss_h39_cambronne
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан fr_char_2c_bis: silver=0, exp=5900, br=1.7
@@ -7801,9 +7730,7 @@
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан fr_m4a1_sherman_fl_10: silver=0, exp=46000, br=5
   Найден: fr_m4a1_sherman_fl_10
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан fr_pzkpfw_V_panther_dauphine: silver=0, exp=71000, br=6
-  Найден: fr_pzkpfw_V_panther_dauphine
+  Не найден: fr_pzkpfw_v_panther_dauphine - пропускается
     БР расчет: economicRank=18, raw=7.000, округлено=7
   Обработан fr_amx_13_75_ss11: silver=0, exp=95000, br=7
   Найден: fr_amx_13_75_ss11
@@ -7889,10 +7816,12 @@
   Найден: ah_64d_netherlands
   Не найден: d_371_group - пропускается
     reqExp отсутствует или некорректно для d_371, установлено None
-  Обработан d_371: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан d_371: silver=0, exp=None, br=1.0
   Найден: d_371
     reqExp отсутствует или некорректно для d_373, установлено None
-  Обработан d_373: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан d_373: silver=0, exp=None, br=1.0
   Найден: d_373
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан caudron_cr714: silver=700, exp=2900, br=1.3
@@ -7968,7 +7897,8 @@
   Найден: rafale_c_f3
   Не найден: d_500_group - пропускается
     reqExp отсутствует или некорректно для d_500, установлено None
-  Обработан d_500: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан d_500: silver=0, exp=None, br=1.0
   Найден: d_500
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан d_501: silver=700, exp=1500, br=1.3
@@ -8017,7 +7947,8 @@
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан mirage_4000: silver=1080000, exp=400000, br=13
   Найден: mirage_4000
-  Обработан v_156_f: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан v_156_f: silver=700, exp=2900, br=1.0
   Найден: v_156_f
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан br_693_ab2: silver=2100, exp=4000, br=1.7
@@ -8109,7 +8040,8 @@
     БР расчет: economicRank=35, raw=12.667, округлено=12.7
   Обработан mirage_2000d_rmv: silver=1100000, exp=410000, br=12.7
   Найден: mirage_2000d_rmv
-  Обработан gladiator_mk1_belgium: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан gladiator_mk1_belgium: silver=700, exp=2900, br=1.0
   Найден: gladiator_mk1_belgium
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан fokker_d21_netherlands: silver=2100, exp=4000, br=1.7
@@ -8315,18 +8247,23 @@
   Найден: fr_battleship_strasbourg
   Не найден: fr_vtb_group - пропускается
     reqExp отсутствует или некорректно для fr_vtb8, установлено None
-  Обработан fr_vtb8: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_vtb8: silver=0, exp=None, br=1.0
   Найден: fr_vtb8
     reqExp отсутствует или некорректно для fr_vtb11, установлено None
-  Обработан fr_vtb11: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_vtb11: silver=0, exp=None, br=1.0
   Найден: fr_vtb11
     reqExp отсутствует или некорректно для fr_vtb14, установлено None
-  Обработан fr_vtb14: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_vtb14: silver=0, exp=None, br=1.0
   Найден: fr_vtb14
     reqExp отсутствует или некорректно для fr_vtb12_mod, установлено None
-  Обработан fr_vtb12_mod: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_vtb12_mod: silver=0, exp=None, br=1.0
   Найден: fr_vtb12_mod
-  Обработан fr_vtb18: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_vtb18: silver=700, exp=2900, br=1.0
   Найден: fr_vtb18
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан fr_type40k_vedette: silver=10000, exp=7900, br=1.7
@@ -8358,9 +8295,11 @@
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан fr_frigate_croix_de_lorraine_class_la_surprise: silver=230000, exp=61000, br=3.3
   Найден: fr_frigate_croix_de_lorraine_class_la_surprise
-  Обработан fr_vtb10: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_vtb10: silver=0, exp=2900, br=1.0
   Найден: fr_vtb10
-  Обработан fr_vtb9: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан fr_vtb9: silver=0, exp=4000, br=1.0
   Найден: fr_vtb9
     БР расчет: economicRank=6, raw=3.000, округлено=3
   Обработан fr_arras_class_amiens: silver=0, exp=36000, br=3
@@ -8369,7 +8308,8 @@
   Обработан fr_vlt2: silver=0, exp=89000, br=3.3
   Найден: fr_vlt2
     reqExp отсутствует или некорректно для sw_strv_m31, установлено None
-  Обработан sw_strv_m31: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sw_strv_m31: silver=0, exp=None, br=1.0
   Найден: sw_strv_m31
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан sw_bt_42: silver=2100, exp=4000, br=1.7
@@ -8377,15 +8317,11 @@
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан sw_strv_m41_s2: silver=16000, exp=9200, br=2.7
   Найден: sw_strv_m41_s2
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан sw_pvkv_III: silver=32000, exp=14000, br=3.3
-  Найден: sw_pvkv_III
+  Не найден: sw_pvkv_iii - пропускается
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан sw_m24_chaffee_dk: silver=47000, exp=18000, br=3.7
   Найден: sw_m24_chaffee_dk
-    БР расчет: economicRank=9, raw=4.000, округлено=4
-  Обработан sw_pvkv_II: silver=76000, exp=26000, br=4
-  Найден: sw_pvkv_II
+  Не найден: sw_pvkv_ii - пропускается
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан sw_pbv_501: silver=210000, exp=71000, br=6.7
   Найден: sw_pbv_501
@@ -8412,7 +8348,8 @@
   Обработан sw_cv_90120: silver=1080000, exp=400000, br=11.7
   Найден: sw_cv_90120
     reqExp отсутствует или некорректно для sw_strv_m38, установлено None
-  Обработан sw_strv_m38: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sw_strv_m38: silver=0, exp=None, br=1.0
   Найден: sw_strv_m38
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан sw_strv_m40l: silver=6300, exp=5900, br=2
@@ -8474,9 +8411,7 @@
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан sw_tgdgb_m40_lv: silver=16000, exp=9200, br=2.7
   Найден: sw_tgdgb_m40_lv
-    БР расчет: economicRank=7, raw=3.333, округлено=3.3
-  Обработан sw_l_62_anti_II: silver=47000, exp=18000, br=3.3
-  Найден: sw_l_62_anti_II
+  Не найден: sw_l_62_anti_ii - пропускается
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан sw_lvkv_42: silver=155000, exp=46000, br=4.7
   Найден: sw_lvkv_42
@@ -8549,7 +8484,8 @@
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан sw_cv_90_mk4: silver=1080000, exp=400000, br=10.7
   Найден: sw_cv_90_mk4
-  Обработан sw_vickers_mk_e_37: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sw_vickers_mk_e_37: silver=700, exp=2900, br=1.0
   Найден: sw_vickers_mk_e_37
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан sw_t_28: silver=2100, exp=4000, br=1.7
@@ -8558,9 +8494,7 @@
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан sw_t_34_1941: silver=47000, exp=18000, br=4
   Найден: sw_t_34_1941
-    БР расчет: economicRank=8, raw=3.667, округлено=3.7
-  Обработан sw_pzkpfw_IV_ausf_J: silver=76000, exp=13000, br=3.7
-  Найден: sw_pzkpfw_IV_ausf_J
+  Не найден: sw_pzkpfw_iv_ausf_j - пропускается
   Не найден: sw_pt_76_comet_group - пропускается
     БР расчет: economicRank=13, raw=5.333, округлено=5.3
   Обработан sw_pt_76b: silver=105000, exp=33000, br=5.3
@@ -8589,9 +8523,11 @@
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан sw_leopard_2a6nl: silver=1080000, exp=400000, br=12
   Найден: sw_leopard_2a6nl
-  Обработан sw_strv_m39: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sw_strv_m39: silver=0, exp=2900, br=1.0
   Найден: sw_strv_m39
-  Обработан sw_vickers_mk_e_45: silver=0, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sw_vickers_mk_e_45: silver=0, exp=4000, br=1.0
   Найден: sw_vickers_mk_e_45
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан sw_strv_m41_s1: silver=0, exp=9200, br=2.7
@@ -8629,7 +8565,8 @@
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан sw_t_80u: silver=1140000, exp=570000, br=11.3
   Найден: sw_t_80u
-  Обработан sw_strv_m39_td: silver=2100, exp=4000, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан sw_strv_m39_td: silver=2100, exp=4000, br=1.0
   Найден: sw_strv_m39_td
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан sw_pbil_m40: silver=0, exp=4000, br=2
@@ -8667,10 +8604,12 @@
   Найден: mi_28a_sweden
   Не найден: gladiator_j8a_group - пропускается
     reqExp отсутствует или некорректно для gladiator_j8a, установлено None
-  Обработан gladiator_j8a: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан gladiator_j8a: silver=0, exp=None, br=1.0
   Найден: gladiator_j8a
     reqExp отсутствует или некорректно для j6b, установлено None
-  Обработан j6b: silver=0, exp=None, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан j6b: silver=0, exp=None, br=1.0
   Найден: j6b
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан fiat_cr42_j11: silver=700, exp=2900, br=1.3
@@ -8722,7 +8661,8 @@
     БР расчет: economicRank=38, raw=13.667, округлено=13.7
   Обработан saab_jas39c: silver=1120000, exp=420000, br=13.7
   Найден: saab_jas39c
-  Обработан saab_b17bs: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан saab_b17bs: silver=700, exp=2900, br=1.0
   Найден: saab_b17bs
   Не найден: saab_b17a_group - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -8749,7 +8689,8 @@
     БР расчет: economicRank=30, raw=11.000, округлено=11
   Обработан saab_ajs37: silver=950000, exp=350000, br=11
   Найден: saab_ajs37
-  Обработан he_115a_2_sweden: silver=700, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан he_115a_2_sweden: silver=700, exp=2900, br=1.0
   Найден: he_115a_2_sweden
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан saab_b3c: silver=2100, exp=4000, br=1.3
@@ -8814,7 +8755,8 @@
     БР расчет: economicRank=39, raw=14.000, округлено=14
   Обработан fa_18c_mlu_2_finland: silver=1120000, exp=420000, br=14
   Найден: fa_18c_mlu_2_finland
-  Обработан gladiator_j8a_iacobi: silver=0, exp=2900, br=None
+    БР расчет: economicRank некорректен (0), используем fallback 1.0
+  Обработан gladiator_j8a_iacobi: silver=0, exp=2900, br=1.0
   Найден: gladiator_j8a_iacobi
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан arado-196a-5: silver=0, exp=4000, br=1.3
@@ -8869,9 +8811,7 @@
   Обработан il_m_51: silver=155000, exp=None, br=6
   Найден: il_m_51
   Не найден: il_magach_1_2_group - пропускается
-    БР расчет: economicRank=20, raw=7.667, округлено=7.7
-  Обработан il_m48a1_patton_III: silver=200000, exp=63000, br=7.7
-  Найден: il_m48a1_patton_III
+  Не найден: il_m48a1_patton_iii - пропускается
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
   Обработан il_magach_2: silver=210000, exp=35000, br=7.7
   Найден: il_magach_2
@@ -9161,12 +9101,12 @@
   Обработан kfir_c10_colombia: silver=1100000, exp=410000, br=13
   Найден: kfir_c10_colombia
 Статистика обработки wpcost:
-  Найдено и обработано: 2952
-  Не найдено (пропущено): 370
+  Найдено и обработано: 2845
+  Не найдено (пропущено): 477
   Всего ID из shop.csv: 3322
-Данные wpcost (2952 записей) сохранены в wpcost.csv
+Данные wpcost (2845 записей) сохранены в wpcost.csv
 Статистика данных:
-  Записей с опытом (exp): 2870
-  Записей с БР (br): 2796
-  Всего записей: 2952
+  Записей с опытом (exp): 2765
+  Записей с fallback БР (1.0): 152
+  Всего записей: 2845
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

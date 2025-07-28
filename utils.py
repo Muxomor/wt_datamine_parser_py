@@ -110,6 +110,24 @@ class Constants:
         'country_israel': 'israel'
     }
     
+    # Маппинг типов техники для требований по рангам
+    RANK_TYPE_MAPPING = {
+        "Aircraft": "Авиация",
+        "Helicopter": "Вертолёты", 
+        "Tank": "Наземная техника",
+        "Ship": "Большой флот",
+        "Boat": "Малый флот"
+    }
+    
+    # Базовый URL для флагов стран
+    FLAGS_BASE_URL = 'https://wiki.warthunder.ru/static/country_svg/'
+    
+    # Базовый URL для изображений техники
+    IMAGES_BASE_URL = 'https://static.encyclopedia.warthunder.com/slots/'
+    
+    # GitHub API базовый URL
+    GITHUB_API_BASE_URL = 'https://api.github.com'
+    
     # Служебные поля для определения групп
     SERVICE_FIELDS = {
         'rank', 'reqAir', 'image', 'slaveUnit', 'reqUnlock', 'gift', 
@@ -135,7 +153,7 @@ class Constants:
     ]
     
     # Аномальные окончания для удаления
-    ANOMALOUS_SUFFIXES = ['_race', '_football', '_yt_cup_2019', '_event']
+    ANOMALOUS_SUFFIXES = ['_race', '_football', '_yt_cup_2019', '_event', '_naval']
     
     # Поля для CSV экспорта
     CSV_FIELDNAMES = [
@@ -151,4 +169,19 @@ class Constants:
     # Поля для CSV wpcost
     WPCOST_CSV_FIELDNAMES = [
         'id', 'silver', 'exp', 'br'
+    ]
+    
+    # Поля для CSV требований по рангам
+    RANK_REQUIREMENTS_CSV_FIELDNAMES = [
+        'nation', 'vehicle_type', 'target_rank', 'previous_rank', 'required_units'
+    ]
+    
+    # Поля для CSV флагов стран  
+    COUNTRY_FLAGS_CSV_FIELDNAMES = [
+        'country', 'flag_image_url'
+    ]
+    
+    # Поля для CSV изображений техники
+    SHOP_IMAGES_CSV_FIELDNAMES = [
+        'id', 'image_url'
     ]

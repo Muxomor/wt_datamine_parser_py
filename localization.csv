@@ -28,8 +28,8 @@ us_t25,T25
 us_m26_pershing,M26
 us_m46_patton,M46
 us_m47_48_group,M47/M48
-us_m47_patton_II,M47
-us_m48a1_patton_III,M48A1
+us_m47_patton_ii,us_m47_patton_ii
+us_m48a1_patton_iii,us_m48a1_patton_iii
 us_m60,M60
 us_m60_group,M60A1 AOS/RISE
 us_m60a1,M60A1 (AOS)
@@ -478,14 +478,14 @@ us_higgins_78ft_pt658,PT-658
 us_flagstaff_pgh1,USS Flagstaff
 germ_garford_putilov,Garford-Beute
 germ_pzkpfw_35t,Pz.35(t)
-germ_pzkpfw_38t_ausf_A,Pz.38(t) A
+germ_pzkpfw_38t_ausf_a,germ_pzkpfw_38t_ausf_a
 germ_pzkpfw_38t_group,Pz.38(t) F/n.A.
-germ_pzkpfw_38t_ausf_F,Pz.38(t) F
+germ_pzkpfw_38t_ausf_f,germ_pzkpfw_38t_ausf_f
 germ_pzkpfw_38t_na,Pz.38(t) n.A.
 germ_amd_35_kwk39,Pz.Sp.Wg.P204(f) KwK 39/1
 germ_sdkfz_234_2,Sd.Kfz.234/2
 germ_dicker_sturer_group,Max/Emil
-germ_pzsfl_IVa_dickermax,Dicker Max
+germ_pzsfl_iva_dickermax,germ_pzsfl_iva_dickermax
 germ_pzsflk40_sturer_emil,Sturer Emil
 germ_flak_m44_group,Flak Sfl./M44
 germ_sdkfz_9_flak37,"8,8 cm Flak 37 Sfl."
@@ -512,19 +512,19 @@ germ_puma_group,Puma/Puma VJTF
 germ_schutzenpanzer_puma,PUMA
 germ_schutzenpanzer_puma_vjtf,PUMA VJTF
 germ_beutepanzer_mk_iv,Beutepanzer IV
-germ_prewar_pz_III_group,Pz.III B/E
-germ_pzkpfw_III_ausf_E,Pz.III E
-germ_pzkpfw_III_ausf_B,Pz.III B
-germ_pzkpfw_III_ausf_F,Pz.III F
-germ_pzkpfw_III_ausf_J_L42,Pz.III J
-germ_pzkpfw_III_ausf_J,Pz.III J1
-germ_pzkpfw_III_late_group,Pz.III L/M
-germ_pzkpfw_III_ausf_L,Pz.III L
-germ_pzkpfw_III_ausf_M,Pz.III M
-germ_pzkpfw_VI_ausf_h1_tiger,Tiger H1
-germ_pzkpfw_VI_ausf_e_tiger,Tiger E
-germ_pzkpfw_VI_ausf_b_tiger_IIp,Tiger II (P)
-germ_pzkpfw_VI_ausf_b_tiger_IIh,Tiger II (H)
+germ_prewar_pz_iii_group,germ_prewar_pz_iii_group
+germ_pzkpfw_iii_ausf_e,germ_pzkpfw_iii_ausf_e
+germ_pzkpfw_iii_ausf_b,germ_pzkpfw_iii_ausf_b
+germ_pzkpfw_iii_ausf_f,germ_pzkpfw_iii_ausf_f
+germ_pzkpfw_iii_ausf_j_l42,germ_pzkpfw_iii_ausf_j_l42
+germ_pzkpfw_iii_ausf_j,germ_pzkpfw_iii_ausf_j
+germ_pzkpfw_iii_late_group,germ_pzkpfw_iii_late_group
+germ_pzkpfw_iii_ausf_l,germ_pzkpfw_iii_ausf_l
+germ_pzkpfw_iii_ausf_m,germ_pzkpfw_iii_ausf_m
+germ_pzkpfw_vi_ausf_h1_tiger,germ_pzkpfw_vi_ausf_h1_tiger
+germ_pzkpfw_vi_ausf_e_tiger,germ_pzkpfw_vi_ausf_e_tiger
+germ_pzkpfw_vi_ausf_b_tiger_iip,germ_pzkpfw_vi_ausf_b_tiger_iip
+germ_pzkpfw_vi_ausf_b_tiger_iih,germ_pzkpfw_vi_ausf_b_tiger_iih
 germ_mkpz_m48a2c,M48A2 C
 germ_mkpz_m48a2ga2,M48A2 G A2
 germ_kpz_super_group,KPz-70/M48 Super
@@ -533,28 +533,28 @@ germ_mkpz_super_m48,M48 Super
 germ_kpz_t72m1,◊T-72M1
 germ_leopard_2k,Leopard 2K
 germ_a7v,A7V
-germ_pzkpfw_IV_ausf_C,Pz.IV C
-germ_pzkpfw_II_early_group,Pz.II C/F
-germ_pzkpfw_II_ausf_C,Pz.II C
-germ_pzkpfw_II_ausf_F,Pz.II F
+germ_pzkpfw_iv_ausf_c,germ_pzkpfw_iv_ausf_c
+germ_pzkpfw_ii_early_group,germ_pzkpfw_ii_early_group
+germ_pzkpfw_ii_ausf_c,germ_pzkpfw_ii_ausf_c
+germ_pzkpfw_ii_ausf_f,germ_pzkpfw_ii_ausf_f
 germ_pzkpfw_4_early_group,Pz.IV E/F
-germ_pzkpfw_IV_ausf_E,Pz.IV E
-germ_pzkpfw_IV_ausf_F,Pz.IV F1
+germ_pzkpfw_iv_ausf_e,germ_pzkpfw_iv_ausf_e
+germ_pzkpfw_iv_ausf_f,germ_pzkpfw_iv_ausf_f
 germ_pz_4_fg_group,Pz.IV F2/G
-germ_pzkpfw_IV_ausf_F2,Pz.IV F2
-germ_pzkpfw_IV_ausf_G,Pz.IV G
+germ_pzkpfw_iv_ausf_f2,germ_pzkpfw_iv_ausf_f2
+germ_pzkpfw_iv_ausf_g,germ_pzkpfw_iv_ausf_g
 germ_pz_4_late_group,Pz.IV H/J
-germ_pzkpfw_IV_ausf_H,Pz.IV H
-germ_pzkpfw_IV_ausf_J,Pz.IV J
+germ_pzkpfw_iv_ausf_h,germ_pzkpfw_iv_ausf_h
+germ_pzkpfw_iv_ausf_j,germ_pzkpfw_iv_ausf_j
 germ_vk_3002m,VK 3002 (M)
-germ_pzkpfw_V_ausf_d_panther,Panther D
-germ_pzkpfw_V_a_f_group,Panther A/G/F
-germ_pzkpfw_V_ausf_a_panther,Panther A
-germ_pzkpfw_V_ausf_g_panther,Panther G
-germ_pzkpfw_V_ausf_f_panther,Panther F
-germ_leopard_I,Leopard I
+germ_pzkpfw_v_ausf_d_panther,germ_pzkpfw_v_ausf_d_panther
+germ_pzkpfw_v_a_f_group,germ_pzkpfw_v_a_f_group
+germ_pzkpfw_v_ausf_a_panther,germ_pzkpfw_v_ausf_a_panther
+germ_pzkpfw_v_ausf_g_panther,germ_pzkpfw_v_ausf_g_panther
+germ_pzkpfw_v_ausf_f_panther,germ_pzkpfw_v_ausf_f_panther
+germ_leopard_i,germ_leopard_i
 germ_leopard_1_late_group,Leopard A1A1/1A5
-germ_leopard_I_a1,Leopard A1A1
+germ_leopard_i_a1,germ_leopard_i_a1
 germ_leopard_1a5,Leopard 1A5
 germ_leopard_2a4,Leopard 2A4
 germ_leopard_2_group,Leopard 2 A5/A6
@@ -563,23 +563,23 @@ germ_leopard_2a6,Leopard 2A6
 germ_leopard_2a5_pso,Leopard 2 PSO
 germ_leopard_2a7v,Leopard 2A7V
 germ_flakpanzer_1_group,FlakPz I/38(t)
-germ_flakpanzer_I_ausf_A,Flakpanzer I
-germ_flakpanzer_38t_Gepard,Flakpanzer 38
+germ_flakpanzer_i_ausf_a,germ_flakpanzer_i_ausf_a
+germ_flakpanzer_38t_gepard,germ_flakpanzer_38t_gepard
 germ_sdkfz_222,Sd.Kfz.222
 germ_sdkfz_6_2_flak36,Sd.Kfz. 6/2
 germ_sdkfz_251_21,Sd.Kfz.251/21
 germ_flakpanzer_4_group,Ostwind/Wirbelwind
-germ_flakpanzer_IV_Ostwind,Ostwind
-germ_flakpanzer_IV_Wirbelwind,Wirbelwind
-germ_flakpanzer_IV_Ostwind_2,Ostwind II
+germ_flakpanzer_iv_ostwind,germ_flakpanzer_iv_ostwind
+germ_flakpanzer_iv_wirbelwind,germ_flakpanzer_iv_wirbelwind
+germ_flakpanzer_iv_ostwind_2,germ_flakpanzer_iv_ostwind_2
 germ_flakpanzer_zerstorer_45,Zerstörer 45
-germ_flakpanzer_IV_Kugelblitz,Kugelblitz
+germ_flakpanzer_iv_kugelblitz,germ_flakpanzer_iv_kugelblitz
 germ_wiesel_1_mk20,Wiesel 1A4
 germ_sppz2_luchs_a2,Luchs A2
-germ_flakpz_I_Gepard,Gepard
+germ_flakpz_i_gepard,germ_flakpz_i_gepard
 germ_wiesel_gepard_group,Ozelot/Gepard 1A2
 germ_wiesel_2_adwc,Ozelot
-germ_flakpz_1a2_Gepard,Gepard 1A2
+germ_flakpz_1a2_gepard,germ_flakpz_1a2_gepard
 germ_roland_osa_group,Roland/Osa
 germ_flarakpz_1,FlaRakPz 1
 germ_9a33bm3,◊Osa-AK
@@ -587,28 +587,28 @@ germ_9a35_m,Стрела-10М
 germ_flarakrad,FlaRakRad
 germ_iris_slm_fcs,IRIS-T SLM (СОЦ)
 germ_sturmpanzer_221_group,sIG Sfl./Sd.Kfz.221
-germ_sturmpanzer_II,15cm sIG 33 B Sfl
+germ_sturmpanzer_ii,germ_sturmpanzer_ii
 germ_sdkfz_221_s_pz_b_41,Sd.Kfz.221 (s.Pz.B.41)
 germ_panzerjager_251_group,Panzerjager I/Sd.Kfz.251/9
 germ_panzerjager_1,Panzerjäger I
 germ_sdkfz_251_9,Sd.Kfz.251/9
 germ_marder_stug_a_group,Marder III/StuG III
-germ_pzkpfw_38t_Marder_III,Marder III
-germ_stug_III_ausf_A,StuG III A
+germ_pzkpfw_38t_marder_iii,germ_pzkpfw_38t_marder_iii
+germ_stug_iii_ausf_a,germ_stug_iii_ausf_a
 germ_marder_stuh_group,Marder/StuH/StuG
-germ_pzkpfw_38t_Marder_III_ausf_H,Marder III H
-germ_stuh_III_ausf_G,StuH 42 G
-germ_stug_III_ausf_F,StuG III F
-germ_stug_III_ausf_G,StuG III G
+germ_pzkpfw_38t_marder_iii_ausf_h,germ_pzkpfw_38t_marder_iii_ausf_h
+germ_stuh_iii_ausf_g,germ_stuh_iii_ausf_g
+germ_stug_iii_ausf_f,germ_stug_iii_ausf_f
+germ_stug_iii_ausf_g,germ_stug_iii_ausf_g
 germ_jagdpanzer_group,Jagdpanzer IV/38(t)
-germ_jgdpz_IV_L48,Jagdpanzer IV
+germ_jgdpz_iv_l48,germ_jgdpz_iv_l48
 germ_jgdpz_38t,Jagdpanzer 38(t)
-germ_pz_IV_L70,Panzer IV/70(V)
+germ_pz_iv_l70,germ_pz_iv_l70
 germ_jagdpanther_group,Jagdpanther/JPz 4-5
 germ_panzerjager_panther,Jagdpanther G1
 germ_kanonenjagdpanzer,JPz 4-5
 germ_panzerjager_tiger_group,Ferdinand/Jagdtiger
-germ_panzerjager_tiger_P_ferdinand,Ferdinand
+germ_panzerjager_tiger_p_ferdinand,germ_panzerjager_tiger_p_ferdinand
 germ_panzerjager_tiger,Jagdtiger
 germ_pzh_2000,PzH 2000
 germ_spz_oerlikon_raketenautomat,Raketenautomat
@@ -616,25 +616,25 @@ germ_raketenjagdpanzer_2,RakJPz 2
 germ_raketenjagdpanzer_2_hot,RakJPz 2 (HOT)
 germ_wiesel_1_tow,Wiesel 1A2
 germ_pzkpfw_35t_romania_mare,Pz.35(t) RM
-germ_pzkpfw_II_ausf_C_td,Pz.II C TD
-germ_pzkpfw_II_ausf_C_DAK,Pz.II C (DAK)
-germ_nbfz_VI,Nb.Fz.
-germ_pzkpfw_38t_Aufklarungspanzer,Sd.Kfz. 140/1
+germ_pzkpfw_ii_ausf_c_td,germ_pzkpfw_ii_ausf_c_td
+germ_pzkpfw_ii_ausf_c_dak,germ_pzkpfw_ii_ausf_c_dak
+germ_nbfz_vi,germ_nbfz_vi
+germ_pzkpfw_38t_aufklarungspanzer,germ_pzkpfw_38t_aufklarungspanzer
 germ_panzerwerfer_42,15 cm Pz.W.42
-germ_pzkpfw_III_ausf_J_td,Pz.III J1 TD
-germ_pzkpfw_III_ausf_N,Pz.III N
+germ_pzkpfw_iii_ausf_j_td,germ_pzkpfw_iii_ausf_j_td
+germ_pzkpfw_iii_ausf_n,germ_pzkpfw_iii_ausf_n
 germ_kv_2_754r,▀KW II 754 (r)
-germ_panzerbefelhswagen_IV_ausf_J,Pz.Bef.Wg.IV J
+germ_panzerbefelhswagen_iv_ausf_j,germ_panzerbefelhswagen_iv_ausf_j
 germ_infanterie_kampfpanzer_churchill,▀Pz.Kpfw. Churchill
 germ_t_34_747,▀T 34 747 (r)
-germ_sturmpanzer_IV_brummbar,Brummbär
-germ_pz_IV_L70_A,Panzer IV/70(A)
+germ_sturmpanzer_iv_brummbar,germ_sturmpanzer_iv_brummbar
+germ_pz_iv_l70_a,germ_pz_iv_l70_a
 germ_kv_1_kwk_40,▀KW I C 756 (r)
-germ_panzerbefelhswagen_VI_P,Pz.Bef.Wg.VI P
+germ_panzerbefelhswagen_vi_p,germ_panzerbefelhswagen_vi_p
 germ_sturmmorser_sturmtiger,38 cm Sturmmörser
 germ_panzerbefelhswagen_jagdpanther,Bfw. Jagdpanther G1
-germ_panzerjager_tiger_P_elefant,Elefant
-germ_panther_II,Panther II
+germ_panzerjager_tiger_p_elefant,germ_panzerjager_tiger_p_elefant
+germ_panther_ii,germ_panther_ii
 germ_mkpz_m47,mKPz M47 G
 germ_marder_clovis,CLOVIS
 germ_erprobungstrager_3_achs_turm,Turm III
@@ -649,27 +649,27 @@ germ_sdkfz_251_10,Sd.Kfz.251/10
 germ_sdkfz_234_1,Sd.Kfz.234/1
 germ_sdkfz_234_3,Sd.Kfz.234/3
 germ_amd_35_kwk,Pz.Sp.Wg.P204(f) KwK 38
-germ_pzkpfw_II_ausf_H,Pz.Sfl.Ic
+germ_pzkpfw_ii_ausf_h,germ_pzkpfw_ii_ausf_h
 germ_sdkfz_251_22,Sd.Kfz.251/22
 germ_sdkfz_234_2_td,Sd.Kfz.234/2 TD
 us_m4a2_1944_germ,▀M4 748 (a)
-germ_kv_1B_finland,▀KV-IB
+germ_kv_1b_finland,germ_kv_1b_finland
 germ_sdkfz_234_4,Sd.Kfz.234/4
-germ_pzkpfw_VI_tiger_P,VK 45.01 (P)
+germ_pzkpfw_vi_tiger_p,germ_pzkpfw_vi_tiger_p
 germ_vsw_flak_41,VFW
 germ_tiger_east_west_group,Два Фронта
-germ_pzkpfw_VI_ausf_h1_tiger_east,Tiger Ost
-germ_pzkpfw_VI_ausf_h1_tiger_west,Tiger West
-germ_flakpanzer_IV_Ostwind_2_net,Ostwind Ost
-germ_pzkpfw_VI_ausf_h1_tiger_animal_version,␠Tiger
-germ_pzkpfw_V_ersatz_m10,Ersatz M10
-germ_flakpanzer_V_Coelian,Flakpanzer 341
+germ_pzkpfw_vi_ausf_h1_tiger_east,germ_pzkpfw_vi_ausf_h1_tiger_east
+germ_pzkpfw_vi_ausf_h1_tiger_west,germ_pzkpfw_vi_ausf_h1_tiger_west
+germ_flakpanzer_iv_ostwind_2_net,germ_flakpanzer_iv_ostwind_2_net
+germ_pzkpfw_vi_ausf_h1_tiger_animal_version,germ_pzkpfw_vi_ausf_h1_tiger_animal_version
+germ_pzkpfw_v_ersatz_m10,germ_pzkpfw_v_ersatz_m10
+germ_flakpanzer_v_coelian,germ_flakpanzer_v_coelian
 germ_spz_12_3,SPz 12-3 LGS
-germ_pzkpfw_VI_ausf_b_tiger_IIh_sla,Tiger II (H) Sla.16
-germ_pzkpfw_VI_ausf_b_tiger_IIh_kwk46,Tiger II (10.5 cm Kw.K)
+germ_pzkpfw_vi_ausf_b_tiger_iih_sla,germ_pzkpfw_vi_ausf_b_tiger_iih_sla
+germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46,germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46
 germ_ru251,Ru 251
 germ_pzkpfw_e_100,E-100
-germ_pzkpfw_Maus,Maus
+germ_pzkpfw_maus,germ_pzkpfw_maus
 germ_vt_1_2,VT1-2
 germ_th_800_bismark,Class 3 (P)
 germ_leopard_2av,Leopard 2AV
@@ -986,7 +986,7 @@ ussr_t_34_1941_l_11,Т-34 (1940)
 ussr_t_34_1941,Т-34 (1941)
 ussr_t_34_42_group,T-34 (42/Э)
 ussr_t_34_1942,Т-34 (1942)
-ussr_t_34E_STZ,Т-34Э СТЗ
+ussr_t_34e_stz,ussr_t_34e_stz
 ussr_t_34_1941_57,Т-34-57
 ussr_t_34_85_d_5t,Т-34-85 (Д-5Т)
 ussr_t_34_85_zis_53,Т-34-85
@@ -1013,9 +1013,9 @@ ussr_t_90m_2020,Т-90М
 ussr_t_26_1940,Т-26
 ussr_t_28_1938,Т-28 (1938)
 ussr_t_28,Т-28
-ussr_t_28E,Т-28Э
+ussr_t_28e,ussr_t_28e
 ussr_kv_1_2_group,КВ-1/2(39)
-ussr_kv_1_L_11,КВ-1 (Л-11)
+ussr_kv_1_l_11,ussr_kv_1_l_11
 ussr_kv_2_1939,КВ-2 (1939)
 ussr_kv_1s,КВ-1С
 ussr_kv_1_85_group,КВ-1/85
@@ -1090,7 +1090,7 @@ ussr_btr_zis_group,БТР/ЗиС
 ussr_btr_152a,БТР-152А
 ussr_zis_43,ЗиС-43
 ussr_zis_group,ЗиС/ЗСУ
-ussr_zis_12_94KM_1945,ЗиС-12 (94-КМ)
+ussr_zis_12_94km_1945,ussr_zis_12_94km_1945
 ussr_zsu_37,ЗСУ-37
 ussr_btr_152d,БТР-152Д
 ussr_btr_zd,БТР-ЗД
@@ -1104,18 +1104,18 @@ ussr_9a33bm3,Оса-АКМ
 ussr_9a35_m2,Стрела-10М2
 ussr_zprk_2s6,2С6
 ussr_pantsyr_s1,Панцирь-С1
-ussr_t_26_1940_1st_GvTBr,Т-26 (1 Гв.Т.Бр.)
+ussr_t_26_1940_1st_gvtbr,ussr_t_26_1940_1st_gvtbr
 ussr_bt_7_1937_td,БТ-7 TD
 ussr_t_35,Т-35
 ussr_su_57,СУ-57
-ussr_pzkpfw_III_ausf_J_L42,▂T-III
+ussr_pzkpfw_iii_ausf_j_l42,ussr_pzkpfw_iii_ausf_j_l42
 ussr_zut_37,ЗУТ-37
 ussr_t_126sp,Т-126
 ussr_t_34_1940_l_11,Т-34 (Прототип)
 ussr_bt_7a_f32,БТ-7А (Ф-32)
 ussr_smk,СМК
 ussr_t_34_1941_cast_turret,Т-34 (1 Гв.Т.Бр.)
-ussr_t_34E,Т-34Э
+ussr_t_34e,ussr_t_34e
 ussr_bm_31_12,БМ-31-12
 ussr_t_34_57_1943,Т-34-57 (1943)
 ussr_kit_3rank_group,В мае 45-го
@@ -1126,8 +1126,8 @@ ussr_m4a2_76w_sherman,▂M4A2
 ussr_type_65_aa,▂Phòng không T-34
 ussr_t_34_85_zis_53_v80,"Т-34-85 ""Партизан"""
 ussr_kv_122,КВ-122
-ussr_t_34_85E,Т-34-85Э
-ussr_su_122P,СУ-122П
+ussr_t_34_85e,ussr_t_34_85e
+ussr_su_122p,ussr_su_122p
 ussr_t_44_122,Т-44-122
 ussr_t_34_100,Т-34-100
 ussr_is_6,ИС-6
@@ -1142,7 +1142,7 @@ ussr_2s38,2С38
 ussr_t_72av_turms,Т-72АВ (TURMS-T)
 ussr_t_80ud,Т-80УД
 ussr_t_80ue1,Т-80У-Е1
-ussr_t_26E,Т-26Э
+ussr_t_26e,ussr_t_26e
 ussr_rbt_5,РБТ-5
 ussr_ba_11,БА-11
 ussr_bm_8_24,БМ-8-24
@@ -1150,16 +1150,16 @@ ussr_su_76m_5st_kav_corps,СУ-76М (5гв.Кав.Корп)
 ussr_su_76d,СУ-76Д
 ussr_m3c,▂М-3 Средний
 ussr_bm_13n,БМ-13Н
-ussr_a_12_mk_2_matilda_2A_F96,"▂МК-II ""Матильда"""
+ussr_a_12_mk_2_matilda_2a_f96,ussr_a_12_mk_2_matilda_2a_f96
 ussr_valentine_mk_9,"▂МК-IX ""Валентин"""
 ussr_su_85a,СУ-85А
 ussr_kv_2_1940,КВ-2 (1940)
 ussr_kv_7_u13,КВ-7 (У-13)
 ussr_kv_1e,КВ-1Э
-ussr_su_100Y,СУ-100Y
+ussr_su_100y,ussr_su_100y
 ussr_kv_2_zis_6,КВ-2 (ЗиС-6)
 ussr_kv_220,КВ-220
-ussr_pzkpfw_V,▂T-V
+ussr_pzkpfw_v,ussr_pzkpfw_v
 ussr_t_44_po,Т-44 (ПМ)
 ussr_is_2_1944_revenge,"ИС-2 ""Месть"""
 ussr_object_248,Объект 248
@@ -1504,7 +1504,7 @@ uk_crusader_mk_3,Crusader III
 uk_cromwell_group,Cromwell V/I
 uk_a27m_cromwell_5,Cromwell V
 uk_a27m_cromwell_1,Cromwell I
-uk_sherman_II,Sherman II
+uk_sherman_ii,uk_sherman_ii
 uk_sherman_vc_firefly,Sherman Firefly
 uk_challenger_comet_group,Challenger/Comet
 uk_a30_challenger,Challenger
@@ -1523,7 +1523,7 @@ uk_challenger_group,Challenger Mk.2/Mk.3
 uk_challenger_1,Challenger Mk.2
 uk_challenger_mk_3,Challenger Mk.3
 uk_challenger_2_group,Challenger 2/2F/TES
-uk_challenger_II,Challenger 2
+uk_challenger_ii,uk_challenger_ii
 uk_challenger_2_dorchester,Challenger 2 (2F)
 uk_challenger_2_tes,Challenger 2 TES
 uk_challenger_2_lep,Challenger 3 TD
@@ -1955,7 +1955,7 @@ jp_st_a2,ST-A2
 jp_type_61_sta_group,Type 61/ST-A3
 jp_type_61,Type 61
 jp_st_a3,ST-A3
-jp_m47_patton_II,▅M47
+jp_m47_patton_ii,jp_m47_patton_ii
 jp_type_74_stb_group,STB-2/Type 74
 jp_st_b1,STB-2
 jp_type_74_c,Type 74 (C)
@@ -1971,8 +1971,8 @@ jp_tkx_prot,TKX
 jp_type_4_ho_ro,Ho-Ro
 jp_hiro_sha,Ro-Go Exp.
 jp_ho_ni_group,Ho-Ni I/III
-jp_type_3_ho_ni_I,Ho-Ni I
-jp_type_3_ho_ni_III,Ho-Ni III
+jp_type_3_ho_ni_i,jp_type_3_ho_ni_i
+jp_type_3_ho_ni_iii,jp_type_3_ho_ni_iii
 jp_navy_120mm_spg,Chi-Ha LG
 jp_type_5_na_to,Na-To
 jp_m44,▅M44
@@ -1998,7 +1998,7 @@ jp_type_95_heavy,Ro-Go
 jp_type_97_chi_ha_12cm,Chi-Ha Short Gun
 jp_type_1_chi_he_5th_regiment,Chi-He (5th Regiment)
 jp_type_3_chi_nu_75cm_type_5,Chi-Nu II
-jp_pzkpfw_VI_ausf_e_tiger,▅Heavy Tank No.6
+jp_pzkpfw_vi_ausf_e_tiger,jp_pzkpfw_vi_ausf_e_tiger
 jp_type_5_ho_ri_prototype,Ho-Ri Prototype
 jp_type_75_mlrs,Type 75 MLRS
 jp_type_74_red_star,Type 74 Red Star
@@ -2252,7 +2252,7 @@ cn_object_211,Object 211
 cn_pt_76,␗PT-76
 cn_m18_hellcat,␗M18 GMC
 cn_type_63_62_group,Type 63/62
-cn_type_63_I,Type 63
+cn_type_63_i,cn_type_63_i
 cn_type_62,Type 62
 cn_zts_type_group,ZTS/ZBD
 cn_zts_63_1980,ZTS63
@@ -2276,7 +2276,7 @@ cn_type_58,Т-34-85 Gai
 cn_is_2_group,ИС-2 1943/1944
 cn_is_2_1943,␗IS-2
 cn_is_2_1944,␗IS-2 (1944)
-cn_m48a1_patton_III,␗M48A1
+cn_m48a1_patton_iii,cn_m48a1_patton_iii
 cn_type_59_69_group,Type 59/69
 cn_type_59,Type 59
 cn_type_69,Type 69
@@ -2477,10 +2477,10 @@ it_m13_40_serie_3,M13/40 (III)
 it_m14_41,M14/41
 it_m15_pz_3_group,M15/Pz.III
 it_m15_42,M15/42
-it_pzkpfw_III_ausf_N,▄Pz.III N
+it_pzkpfw_iii_ausf_n,it_pzkpfw_iii_ausf_n
 it_p_40,P40
 it_m4a4_sherman,▄Sherman V
-it_sherman_VII,Sherman Ic
+it_sherman_vii,it_sherman_vii
 it_sherman_vc_firefly,▄Sherman Vc
 it_m26a1_pershing,M26A1
 it_m47_105,M47 (105/55)
@@ -2519,7 +2519,7 @@ it_semovente_m43_105,105/25 M43
 it_semovente_m43_75_34,75/34 M43
 it_semovente_stug_group,M41M/StuG
 it_semovente_m41m_90,90/53 M41M
-it_stug_III_ausf_G,▄StuG III G
+it_stug_iii_ausf_g,it_stug_iii_ausf_g
 it_semovente_m43_75_46,75/46 M43
 it_m36b1,M36B1
 it_m109g,▄M109G
@@ -2545,8 +2545,8 @@ it_m14_41_47_40,M14/41 (47/40)
 it_sahariano,Celere Sahariano
 it_semovente_m43_105_leoncello,"M43 ""G.C.Leoncello"""
 it_sherman_75_37,▄Sherman I Composito
-it_pzkpfw_IV_ausf_G,▄Pz.IV G
-it_pzkpfw_VI_ausf_e_tiger,Tigris
+it_pzkpfw_iv_ausf_g,it_pzkpfw_iv_ausf_g
+it_pzkpfw_vi_ausf_e_tiger,it_pzkpfw_vi_ausf_e_tiger
 it_m26_ariete,"M26 ""D.C.Ariete"""
 it_pzh_2000_hu,PzH 2000HU
 it_m60a1_ariete,"M60A1 ""D.C.Ariete"""
@@ -2555,7 +2555,7 @@ it_of_40_mtca,OF-40 (MTCA)
 it_vrcc_centauro,VRCC
 it_centauro_rgo_120,Centauro RGO
 it_c1_ariete_certezza,Ariete Сertezza
-it_toldi_II_a,Toldi IIA
+it_toldi_ii_a,it_toldi_ii_a
 it_41m_turan_2,Turan II
 it_p_26_40,"P40 ""G.C. Leoncello"""
 it_44m_zrinyi_1,Zrinyi I
@@ -2829,14 +2829,14 @@ fr_auf_acra_group,AuF/ACRA
 fr_amx_30_auf_1,AuF1
 fr_amx_10m_acra,AMX-10M
 fr_amx_50_foch,AMX-50 Foch
-fr_amx_30_ACRA,AMX-30 ACRA
+fr_amx_30_acra,fr_amx_30_acra
 fr_vcac_mephisto,MEPHISTO
 fr_hotchkiss_h39_cambronne,"H.39 ""Cambronne"""
 fr_char_2c_bis,2C bis
 fr_b1_ter,B1 ter
 fr_amx_13_chaffee,AMX-13-M24
 fr_m4a1_sherman_fl_10,M4A1 (FL10)
-fr_pzkpfw_V_panther_dauphine,"Panther ""Dauphiné"""
+fr_pzkpfw_v_panther_dauphine,fr_pzkpfw_v_panther_dauphine
 fr_amx_13_75_ss11,AMX-13 (SS.11)
 fr_somua_sm,Somua SM
 fr_marder_clovis,CLOVIS
@@ -3039,9 +3039,9 @@ fr_vlt2,VLT-2
 sw_strv_m31,Strv m/31
 sw_bt_42,BT-42
 sw_strv_m41_s2,Strv m/41 S-II
-sw_pvkv_III,Pvkv III
+sw_pvkv_iii,sw_pvkv_iii
 sw_m24_chaffee_dk,M24DK
-sw_pvkv_II,Pvkv II
+sw_pvkv_ii,sw_pvkv_ii
 sw_pbv_501,Pbv 501
 sw_ikv_91,Ikv 91
 sw_landsverk_ush_405,U-SH 405
@@ -3074,7 +3074,7 @@ sw_strv_122b_plus,Strv 122B+
 sw_pvlvv_fm42,Pvlvv fm/42
 sw_pbv_301,Pbv 301
 sw_tgdgb_m40_lv,Lvtdgb m/40
-sw_l_62_anti_II,L-62 ANTI II
+sw_l_62_anti_ii,sw_l_62_anti_ii
 sw_lvkv_42,Lvkv 42
 sw_landsverk_ush_204_gk,U-SH 204 GK
 sw_zsu_57_2,▄ZSU-57-2
@@ -3105,7 +3105,7 @@ sw_vickers_mk_e_37,Vickers Mk.E
 sw_t_28,▄Т-28
 sw_t_34_pz_4_group,T-34/Pz.IV
 sw_t_34_1941,▄Т-34
-sw_pzkpfw_IV_ausf_J,▄Pz.IV
+sw_pzkpfw_iv_ausf_j,sw_pzkpfw_iv_ausf_j
 sw_pt_76_comet_group,PT/Comet
 sw_pt_76b,▄PT-76
 sw_a_34_comet,▄Comet I
@@ -3216,7 +3216,7 @@ j9_early,J9 Early
 vl_myrsky_2_late,VL Myrsky II
 il_m_51,M-51
 il_magach_1_2_group,Magach 1/2
-il_m48a1_patton_III,Magach 1
+il_m48a1_patton_iii,il_m48a1_patton_iii
 il_magach_2,Magach 2
 il_magach_3_6_group,Magach 3/6
 il_magach_3_idf,Magach 3

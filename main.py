@@ -9,6 +9,7 @@ from typing import Optional
 from shop_parser import ShopParser
 from localization_parser import LocalizationParser
 from wpcost_parser import WpcostParser
+from misc_and_images_parser import MiscAndImagesParser
 
 
 def main(config_path: Optional[str] = None):
@@ -30,6 +31,7 @@ def main(config_path: Optional[str] = None):
             print("shop_url=https://example.com/shop.blkx")
             print("localization_url=https://example.com/localization.csv")
             print("wpcost_url=https://example.com/wpcost.blkx")
+            print("rank_url=https://example.com/rank.blkx")
             sys.exit(1)
         
         # 1. Создаем экземпляр основного парсера
@@ -40,7 +42,9 @@ def main(config_path: Optional[str] = None):
         parser.run()
         
         print("✅ Основной парсинг успешно завершен!")
-        print("📄 Результаты сохранены в файл shop.csv")
+        print("📄 Результаты сохранены в файлы:")
+        print("   - shop.csv (основные данные)")
+        print("   - shop_images_fields.csv (поля image для fallback)")
         
         # 2. Запускаем парсинг локализации
         print("\n🌐 Запуск парсера локализации...")
@@ -64,6 +68,20 @@ def main(config_path: Optional[str] = None):
             print("📄 Результаты сохранены в файл wpcost.csv")
         except Exception as e:
             print(f"⚠️ Ошибка при парсинге wpcost: {e}")
+            print("💡 Основные этапы завершены, продолжаем с misc данными...")
+        
+        # 4. Запускаем парсинг misc данных
+        print("\n📊 Запуск парсера misc данных...")
+        misc_parser = MiscAndImagesParser(config_path)
+        
+        try:
+            misc_parser.run()
+            print("✅ Парсинг misc данных успешно завершен!")
+            print("📄 Результаты сохранены в файлы:")
+            print("   - rank_requirements.csv (требования по рангам)")
+            print("   - shop_images.csv (изображения техники)")
+        except Exception as e:
+            print(f"⚠️ Ошибка при парсинге misc данных: {e}")
             print("💡 Основные этапы завершены, можно продолжить работу с имеющимися файлами")
         
         print(f"\n🎉 Все операции завершены!")
@@ -71,9 +89,13 @@ def main(config_path: Optional[str] = None):
         print("   - shop.csv (основные данные)")
         print("   - localization.csv (локализованные названия)")
         print("   - wpcost.csv (экономические данные)")
+        print("   - rank_requirements.csv (требования по рангам)")
+        print("   - shop_images.csv (изображения техники)")
+        print("   - country_flags.csv (флаги стран)")
         print("   - shop_parser_debug.log (лог основного парсера)")
         print("   - localization_parser_debug.log (лог парсера локализации)")
         print("   - wpcost_parser_debug.log (лог парсера wpcost)")
+        print("   - misc_and_images_parser_debug.log (лог парсера misc данных)")
         
     except KeyboardInterrupt:
         print("\n⚠️ Операция прервана пользователем")
@@ -201,17 +223,56 @@ def main_wpcost_only(config_path: Optional[str] = None):
         sys.exit(1)
 
 
+def main_misc_only(config_path: Optional[str] = None):
+    """
+    Запуск только парсера misc данных (требования по рангам + флаги стран)
+    
+    Args:
+        config_path: Путь к конфигурационному файлу (по умолчанию 'config.txt')
+    """
+    try:
+        # Определяем путь к конфигурационному файлу
+        if config_path is None:
+            config_path = 'config.txt'
+        
+        # Проверяем существование конфигурационного файла
+        if not os.path.exists(config_path):
+            print(f"Ошибка: Конфигурационный файл '{config_path}' не найден.")
+            print("Создайте файл config.txt с rank_url")
+            sys.exit(1)
+        
+        # Создаем экземпляр парсера misc данных
+        misc_parser = MiscAndImagesParser(config_path)
+        
+        # Запускаем парсинг misc данных
+        misc_parser.run()
+        
+        print("\n✅ Парсинг misc данных успешно завершен!")
+        print("📄 Результаты сохранены в файлы:")
+        print("   - rank_requirements.csv (требования по рангам)")
+        print("   - country_flags.csv (флаги стран)")
+        print("   - shop_images.csv (изображения техники)")
+        
+    except KeyboardInterrupt:
+        print("\n⚠️ Операция прервана пользователем")
+        sys.exit(1)
+    except Exception as e:
+        print(f"\n❌ Критическая ошибка: {e}")
+        sys.exit(1)
+
+
 def print_help():
     """Выводит справку по использованию"""
     print("Парсер shop.blkx для War Thunder")
     print("================================")
     print()
     print("Использование:")
-    print("  python main.py                         - полный парсинг (shop.blkx + локализация + wpcost)")
+    print("  python main.py                         - полный парсинг (shop.blkx + локализация + wpcost + misc)")
     print("  python main.py --config path.txt       - полный парсинг с указанным конфигом")
     print("  python main.py --shop-only             - только парсинг shop.blkx")
     print("  python main.py --localization-only     - только парсинг локализации")
     print("  python main.py --wpcost-only           - только парсинг wpcost")
+    print("  python main.py --misc-only             - только парсинг misc данных (ранги + флаги)")
     print("  python main.py --help                  - показать эту справку")
     print()
     print("Требования:")
@@ -219,22 +280,28 @@ def print_help():
     print("     shop_url=https://example.com/shop.blkx")
     print("     localization_url=https://example.com/localization.csv")
     print("     wpcost_url=https://example.com/wpcost.blkx")
+    print("     rank_url=https://example.com/rank.blkx")
     print()
     print("  2. Установленные зависимости:")
     print("     pip install requests")
     print()
     print("Результат:")
     print("  - shop.csv                          - основные данные в CSV формате")
-    print("  - localization.csv                  - локализованные названия")
+    print("  - shop_images_fields.csv             - поля image для fallback - localization.csv                  - локализованные названия")
     print("  - wpcost.csv                        - экономические данные (серебро, опыт, БР)")
+    print("  - rank_requirements.csv             - требования по рангам")
+    print("  - country_flags.csv                 - флаги стран - shop_images.csv                   - изображения техники")
     print("  - shop_parser_debug.log             - подробный лог основного парсера")
     print("  - localization_parser_debug.log     - подробный лог парсера локализации")
     print("  - wpcost_parser_debug.log           - подробный лог парсера wpcost")
+    print("  - misc_and_images_parser_debug.log  - подробный лог парсера misc данных")
     print()
     print("Примечания:")
     print("  - Для парсинга только локализации/wpcost нужен готовый файл shop.csv")
     print("  - Если какой-то URL отсутствует, соответствующий этап будет пропущен")
     print("  - wpcost парсер вычисляет БР по формуле: (economicRankHistorical / 3) + 1")
+    print("  - misc парсер проверяет доступность флагов стран и извлекает требования по рангам")
+    print("  - misc парсер собирает изображения техники из shop.csv и проверяет их доступность")
 
 
 if __name__ == "__main__":
@@ -252,6 +319,8 @@ if __name__ == "__main__":
             main_localization_only()
         elif arg == '--wpcost-only':
             main_wpcost_only()
+        elif arg == '--misc-only':
+            main_misc_only()
         else:
             print(f"Неизвестный аргумент: {arg}")
             print("Используйте --help для получения справки")
@@ -270,6 +339,8 @@ if __name__ == "__main__":
             main_localization_only(config_file)
         elif flag == '--wpcost-only':
             main_wpcost_only(config_file)
+        elif flag == '--misc-only':
+            main_misc_only(config_file)
         else:
             print(f"Неизвестный флаг: {flag}")
             print("Используйте --help для получения справки")

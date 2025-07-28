@@ -23,6 +23,7 @@ class ShopParser:
         # Кэш для master-slave пар
         self.master_slave_pairs: Dict[str, str] = {}  # master_id -> slave_id
         self.slave_units: Set[str] = set()  # множество всех slave-юнитов
+        self.image_fields: Dict[str, str] = {}
 
     def fetch_shop_data(self) -> Dict[str, Any]:
         """Загружает данные shop.blkx из источника"""
@@ -631,8 +632,40 @@ class ShopParser:
             self.logger.log(f"Обработано {len(country_results)} элементов для {country_name}")
         
         return all_results
-
+    
+    def _extract_image_field(self, item_name: str, item_info: Dict[str, Any]):
+        """Извлекает поле image из данных юнита"""
+        if isinstance(item_info, dict) and 'image' in item_info:
+            image_path = item_info['image']
+            # Форматируем: берем текст после последнего #
+            if '#' in image_path:
+                formatted_image = image_path.split('#')[-1]
+                self.image_fields[item_name.lower()] = formatted_image
+                self.logger.log(f"  Найдено поле image: {item_name} -> {formatted_image}", 'debug')
+    
     def save_to_csv(self, data: List[Dict[str, Any]], filename: str = 'shop.csv'):
+        """Сохраняет извлеченные поля image в отдельный CSV файл"""
+        if not self.image_fields:
+            self.logger.log("Нет данных image полей для сохранения", 'warning')
+            return
+            
+        try:
+            with open(filename, 'w', newline='', encoding='utf-8') as f:
+                fieldnames = ['id', 'image_field']
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                
+                for unit_id, image_field in self.image_fields.items():
+                    writer.writerow({
+                        'id': unit_id,
+                        'image_field': image_field
+                    })
+                    
+            self.logger.log(f"Поля image ({len(self.image_fields)} записей) сохранены в {filename}")
+            
+        except Exception as e:
+            self.logger.log(f"Ошибка при сохранении полей image в CSV: {e}", 'error')
+            raise
         """Сохраняет данные в CSV файл"""
         if not data:
             self.logger.log("Нет данных для сохранения", 'warning')
@@ -646,7 +679,7 @@ class ShopParser:
                 for item in data:
                     # Подготавливаем данные для записи
                     row_data = {
-                        'id': item['id'],
+                        'id': item['id'].lower(),  # Приводим ID к нижнему регистру
                         'rank': item['rank'],
                         'country': item['country'],
                         'vehicle_type': item['vehicle_type'],
@@ -654,12 +687,13 @@ class ShopParser:
                         'status': item['status'],
                         'column_index': item['column_index'],
                         'row_index': item['row_index'],
-                        'predecessor': item['predecessor'],
+                        'predecessor': item['predecessor'].lower() if item['predecessor'] else '',  # Предшественник тоже ID
                         'order_in_folder': item.get('order_in_folder', '')
                     }
                     writer.writerow(row_data)
                     
             self.logger.log(f"Данные ({len(data)} записей) сохранены в {filename}")
+            self.logger.log("Все ID приведены к нижнему регистру для совместимости")
             
             # Дополнительная статистика
             premium_count = sum(1 for item in data if item['status'] == 'premium')
