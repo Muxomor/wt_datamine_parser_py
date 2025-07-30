@@ -11,6 +11,7 @@ from localization_parser import LocalizationParser
 from wpcost_parser import WpcostParser
 from misc_and_images_parser import MiscAndImagesParser
 from node_merger import ModernNodesMerger
+from db_client import upload_all_data as db_upload_all_data
 
 
 def main(config_path: Optional[str] = None):
@@ -168,6 +169,70 @@ def main_shop_only(config_path: Optional[str] = None):
         print("📄 Результаты сохранены в файлы:")
         print("   - shop.csv")
         print("   - shop_images_fields.csv")
+        
+    except KeyboardInterrupt:
+        print("\n⚠️ Операция прервана пользователем")
+        sys.exit(1)
+    except Exception as e:
+        print(f"\n❌ Критическая ошибка: {e}")
+        sys.exit(1)
+
+def main_db_upload(config_path: Optional[str] = None):
+    """
+    Загрузка данных в БД через PostgREST (требует готовые CSV файлы)
+    
+    Args:
+        config_path: Путь к конфигурационному файлу (по умолчанию 'config.txt')
+    """
+    try:
+        # Определяем путь к конфигурационному файлу
+        if config_path is None:
+            config_path = 'config.txt'
+        
+        # Проверяем существование необходимых файлов
+        required_files = ['vehicles_merged.csv', 'dependencies.csv', 'country_flags.csv']
+        missing_files = []
+        
+        for file in required_files:
+            if not os.path.exists(file):
+                missing_files.append(file)
+        
+        if missing_files:
+            print(f"❌ Ошибка: Не найдены необходимые файлы: {', '.join(missing_files)}")
+            print("💡 Сначала выполните полный парсинг или команду --merge-only")
+            sys.exit(1)
+        
+        # Читаем конфигурацию для БД
+        config = {}
+        try:
+            with open(config_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        key, value = line.split('=', 1)
+                        config[key.strip()] = value.strip()
+        except FileNotFoundError:
+            print(f"❌ Ошибка: Конфигурационный файл '{config_path}' не найден.")
+            print("💡 Добавьте в config.txt параметры для БД:")
+            print("   base_url=http://localhost:3000")
+            print("   parser_api_key=your_api_key")
+            print("   jwt_secret=your_jwt_secret")
+            sys.exit(1)
+        
+        # Проверяем наличие параметров БД
+        if 'base_url' not in config:
+            print("❌ Ошибка: В конфигурации отсутствует base_url для PostgREST")
+            print("💡 Добавьте в config.txt:")
+            print("   base_url=http://localhost:3000")
+            sys.exit(1)
+        
+        print("🔌 Запуск загрузки данных в БД...")
+        print(f"📍 PostgREST URL: {config['base_url']}")
+        
+        # Запускаем загрузку
+        db_upload_all_data(config)
+        
+        print("\n✅ Загрузка в БД успешно завершена!")
         
     except KeyboardInterrupt:
         print("\n⚠️ Операция прервана пользователем")
@@ -357,7 +422,8 @@ def print_help():
     print("  python main.py --localization-only     - только парсинг локализации")
     print("  python main.py --wpcost-only           - только парсинг wpcost")
     print("  python main.py --misc-only             - только парсинг misc данных (ранги + флаги + изображения)")
-    print("  ℹ️  python main.py --merge-only             - только объединение данных (требует готовые CSV)")
+    print("  python main.py --merge-only            - только объединение данных (требует готовые CSV)")
+    print("  ℹ️  python main.py --db-upload              - загрузка данных в БД через PostgREST (требует готовые CSV)")
     print("  python main.py --help                  - показать эту справку")
     print()
     print("Требования:")
@@ -367,9 +433,14 @@ def print_help():
     print("     wpcost_url=https://example.com/wpcost.blkx")
     print("     rank_url=https://example.com/rank.blkx")
     print()
-    print("  2. Установленные зависимости:")
-    print("     pip install requests")
+    print("  2. Для загрузки в БД дополнительно требуется:")
+    print("     base_url=http://localhost:3000")
+    print("     parser_api_key=your_api_key")
+    print("     jwt_secret=your_jwt_secret")
     print()
+    print("  3. Установленные зависимости:")
+    print("     pip install requests")
+    print("     pip install pyjwt  # Для работы с БД")
     print("Результат:")
     print("  - shop.csv                          - основные данные в CSV формате")
     print("  - shop_images_fields.csv            - поля image для fallback")
@@ -414,6 +485,8 @@ if __name__ == "__main__":
             main_misc_only()
         elif arg == '--merge-only':
             main_merge_only()
+        elif arg == '--db-upload':  # НОВОЕ
+            main_db_upload()
         else:
             print(f"Неизвестный аргумент: {arg}")
             print("Используйте --help для получения справки")
@@ -436,6 +509,8 @@ if __name__ == "__main__":
             main_misc_only(config_file)
         elif flag == '--merge-only':
             main_merge_only(config_file)
+        elif flag == '--db-upload':  # НОВОЕ
+            main_db_upload(config_file)
         else:
             print(f"Неизвестный флаг: {flag}")
             print("Используйте --help для получения справки")
