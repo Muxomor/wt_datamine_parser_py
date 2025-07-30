@@ -135,7 +135,9 @@ class Constants:
         'beginPurchaseDate', 'endPurchaseDate', 'isClanVehicle', 'reqFeature',
         'showByPlatform', 'costGold', 'freeRepairs', 'rankPosXY', 'fakeReqUnitType',
         'fakeReqUnitImage', 'fakeReqUnitRank', 'fakeReqUnitPosXY', 'showOnlyWhenResearch',
-        'hideByPlatform'
+        'hideByPlatform',
+        # НОВЫЕ ПОЛЯ:
+        'isCrossPromo', 'crossPromoBanner'
     }
     
     # Признаки премиумной техники

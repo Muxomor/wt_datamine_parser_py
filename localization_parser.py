@@ -73,7 +73,7 @@ class LocalizationParser:
                         self.logger.log(f"Строка {line_num}: недостаточно колонок ({len(row)})", 'debug')
                         continue
                     
-                    unit_id = row[0].strip()
+                    unit_id = row[0].strip().lower()
                     russian_name = row[6].strip()  # Колонка "Russian" (индекс 6)
                     
                     # Пропускаем записи без русского названия или с некорректными данными
