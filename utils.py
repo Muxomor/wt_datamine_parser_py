@@ -163,7 +163,7 @@ class Constants:
     # Поля для CSV экспорта
     CSV_FIELDNAMES = [
         'id', 'rank', 'country', 'vehicle_type', 'type', 'status',
-        'column_index', 'row_index', 'predecessor', 'order_in_folder'
+        'column_index', 'row_index', 'predecessor', 'order_in_folder', 'have_prem_flag'
     ]
     
     # Поля для CSV локализации

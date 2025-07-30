@@ -233,9 +233,13 @@ class ShopParser:
         
         self.logger.log(f"Извлечено полей image: {len(self.image_fields)}")
 
-    def is_premium_vehicle(self, item_data: Dict[str, Any]) -> bool:
-        """Определяет является ли техника премиумной"""
+    def has_premium_flag(self, item_data: Dict[str, Any]) -> bool:
+        """Проверяет наличие явных премиумных флагов у юнита"""
         return any(indicator in item_data for indicator in Constants.PREMIUM_INDICATORS)
+
+    def is_premium_vehicle(self, item_data: Dict[str, Any]) -> bool:
+        """Определяет является ли техника премиумной (для определения премиумных колонок)"""
+        return self.has_premium_flag(item_data)
 
     def is_premium_column(self, column_data: Dict[str, Any]) -> bool:
         """Определяет является ли колонка премиумной"""
@@ -568,12 +572,13 @@ class ShopParser:
             'order_in_folder': None,
             'predecessor': predecessor if not is_premium else '',
             'original_column_pos': original_column_pos,
+            'have_prem_flag': self.has_premium_flag(item_info),  # НОВОЕ ПОЛЕ
             # Координаты будут назначены позже
             'column_index': 0,  # временное значение
             'row_index': 0      # временное значение
         }
         
-        self.logger.log(f"        ОТЛАДКА: Добавлена группа {item_name} с предшественником '{predecessor}', статус: {group_item['status']}", 'debug')
+        self.logger.log(f"        ОТЛАДКА: Добавлена группа {item_name} с предшественником '{predecessor}', статус: {group_item['status']}, have_prem_flag: {group_item['have_prem_flag']}", 'debug')
         return group_item
 
     def _create_group_child_item(self, nested_name: str, nested_info: Dict[str, Any], parent_name: str,
@@ -621,12 +626,13 @@ class ShopParser:
             'order_in_folder': order,
             'predecessor': predecessor if not is_premium else '',
             'original_column_pos': original_column_pos,
+            'have_prem_flag': self.has_premium_flag(nested_info),  # НОВОЕ ПОЛЕ
             # Координаты будут назначены позже
             'column_index': 0,  # временное значение
             'row_index': 0      # временное значение
         }
         
-        self.logger.log(f"          ОТЛАДКА: Добавлен элемент группы {nested_name} с предшественником '{predecessor}', статус: {nested_item['status']}", 'debug')
+        self.logger.log(f"          ОТЛАДКА: Добавлен элемент группы {nested_name} с предшественником '{predecessor}', статус: {nested_item['status']}, have_prem_flag: {nested_item['have_prem_flag']}", 'debug')
         return nested_item
 
     def _process_regular_item(self, item_name: str, item_info: Dict[str, Any], country: str,
@@ -662,12 +668,13 @@ class ShopParser:
             'order_in_folder': None,
             'predecessor': predecessor if not is_premium else '',
             'original_column_pos': original_column_pos,
+            'have_prem_flag': self.has_premium_flag(item_info),  # НОВОЕ ПОЛЕ
             # Координаты будут назначены позже
             'column_index': 0,  # временное значение
             'row_index': 0      # временное значение
         }
         
-        self.logger.log(f"      ОТЛАДКА: Добавлена техника {item_name} с предшественником '{predecessor}', статус: {regular_item['status']}", 'debug')
+        self.logger.log(f"      ОТЛАДКА: Добавлена техника {item_name} с предшественником '{predecessor}', статус: {regular_item['status']}, have_prem_flag: {regular_item['have_prem_flag']}", 'debug')
         return regular_item
 
     def process_country_data(self, country_data: Dict[str, Any], country: str) -> List[Dict[str, Any]]:
@@ -782,7 +789,8 @@ class ShopParser:
                         'column_index': item['column_index'],
                         'row_index': item['row_index'],
                         'predecessor': item['predecessor'].lower() if item['predecessor'] else '',  # Предшественник тоже ID
-                        'order_in_folder': item.get('order_in_folder', '')
+                        'order_in_folder': item.get('order_in_folder', ''),
+                        'have_prem_flag': item.get('have_prem_flag', False)  # НОВОЕ ПОЛЕ
                     }
                     writer.writerow(row_data)
                     

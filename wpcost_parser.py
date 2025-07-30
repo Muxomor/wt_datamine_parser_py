@@ -75,21 +75,63 @@ class WpcostParser:
                 else:
                     raise RuntimeError(f"Ошибка декодирования JSON wpcost: {e}")
     
-    def load_shop_ids(self, shop_csv_path: str = 'shop.csv') -> List[str]:
-        """Загружает список ID из файла shop.csv"""
-        shop_ids = []
+    def _is_premium_unit(self, status: str, have_prem_flag: str) -> bool:
+        """
+        Проверяет, является ли юнит премиумным
+        
+        Args:
+            status: Статус юнита из CSV
+            have_prem_flag: Флаг премиума из CSV
+            
+        Returns:
+            True если юнит премиумный (нужно занулить silver и exp)
+        """
+        # Проверяем status = premium (регистр не важен)
+        if status.lower() == 'premium':
+            return True
+            
+        # Проверяем have_prem_flag = True (регистр не важен)
+        if have_prem_flag.lower() == 'true':
+            return True
+            
+        return False
+    
+    def load_shop_ids(self, shop_csv_path: str = 'shop.csv') -> Dict[str, Dict[str, str]]:
+        """Загружает данные из файла shop.csv для всех юнитов"""
+        shop_data = {}
+        total_count = 0
+        premium_count = 0
         
         try:
             with open(shop_csv_path, 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 
                 for row in reader:
+                    total_count += 1
                     unit_id = row.get('id', '').strip()
-                    if unit_id:
-                        shop_ids.append(unit_id)
+                    status = row.get('status', '').strip()
+                    have_prem_flag = row.get('have_prem_flag', '').strip()
+                    
+                    if not unit_id:
+                        self.logger.log(f"Пропущена строка без ID: {row}", 'warning')
+                        continue
                         
-            self.logger.log(f"Загружено {len(shop_ids)} ID из {shop_csv_path}")
-            return shop_ids
+                    # Сохраняем данные юнита
+                    shop_data[unit_id] = {
+                        'status': status,
+                        'have_prem_flag': have_prem_flag
+                    }
+                    
+                    # Считаем премиумные юниты для статистики
+                    if self._is_premium_unit(status, have_prem_flag):
+                        premium_count += 1
+                        
+            self.logger.log(f"Статистика загрузки из {shop_csv_path}:")
+            self.logger.log(f"  Всего строк в CSV: {total_count}")
+            self.logger.log(f"  Премиумных юнитов: {premium_count}")
+            self.logger.log(f"  Обычных юнитов: {total_count - premium_count}")
+            
+            return shop_data
             
         except FileNotFoundError:
             raise RuntimeError(f"Файл {shop_csv_path} не найден. Сначала выполните основной парсинг shop.blkx")
@@ -132,40 +174,48 @@ class WpcostParser:
         
         return closest_value
     
-    def extract_unit_data(self, unit_id: str, unit_data: Dict[str, Any]) -> Dict[str, Any]:
+    def extract_unit_data(self, unit_id: str, unit_data: Dict[str, Any], is_premium: bool = False) -> Dict[str, Any]:
         """
         Извлекает необходимые данные для одного юнита
         
         Args:
             unit_id: ID юнита
             unit_data: Данные юнита из wpcost.blkx
+            is_premium: True если юнит премиумный (нужно занулить silver и exp)
             
         Returns:
             Словарь с извлеченными данными
         """
-        # Извлекаем значения с проверкой типов
-        value = unit_data.get('value')
-        req_exp = unit_data.get('reqExp')
-        economic_rank = unit_data.get('economicRankHistorical')
-        
-        # Обрабатываем value (silver)
-        if value is None or not isinstance(value, (int, float)):
+        if is_premium:
+            # Для премиумных юнитов обнуляем silver и exp, но BR рассчитываем
             silver = 0
-            self.logger.log(f"    value отсутствует или некорректно для {unit_id}, установлено 0", 'debug')
-        else:
-            silver = int(value)
-        
-        # Обрабатываем reqExp (exp)
-        if req_exp is None or not isinstance(req_exp, (int, float)):
             exp = None
-            self.logger.log(f"    reqExp отсутствует или некорректно для {unit_id}, установлено None", 'debug')
-        elif req_exp == 0:
-            exp = None  # Специальное условие: если reqExp = 0, записываем None
-            self.logger.log(f"    reqExp равно 0 для {unit_id}, установлено None", 'debug')
+            self.logger.log(f"  Премиумный юнит {unit_id}: silver=0, exp=None (обнулено)", 'debug')
         else:
-            exp = int(req_exp)
+            # Для обычных юнитов обрабатываем как раньше
+            # Извлекаем значения с проверкой типов
+            value = unit_data.get('value')
+            req_exp = unit_data.get('reqExp')
+            
+            # Обрабатываем value (silver)
+            if value is None or not isinstance(value, (int, float)):
+                silver = 0
+                self.logger.log(f"    value отсутствует или некорректно для {unit_id}, установлено 0", 'debug')
+            else:
+                silver = int(value)
+            
+            # Обрабатываем reqExp (exp)
+            if req_exp is None or not isinstance(req_exp, (int, float)):
+                exp = None
+                self.logger.log(f"    reqExp отсутствует или некорректно для {unit_id}, установлено None", 'debug')
+            elif req_exp == 0:
+                exp = None  # Специальное условие: если reqExp = 0, записываем None
+                self.logger.log(f"    reqExp равно 0 для {unit_id}, установлено None", 'debug')
+            else:
+                exp = int(req_exp)
         
-        # Обрабатываем economicRankHistorical (br)
+        # BR рассчитываем в любом случае (и для премиумных, и для обычных)
+        economic_rank = unit_data.get('economicRankHistorical')
         if economic_rank is None or not isinstance(economic_rank, (int, float)):
             br = 1.0  # Fallback значение
             self.logger.log(f"    economicRankHistorical отсутствует или некорректно для {unit_id}, BR установлен 1.0", 'debug')
@@ -179,15 +229,17 @@ class WpcostParser:
             'br': br
         }
         
-        self.logger.log(f"  Обработан {unit_id}: silver={silver}, exp={exp}, br={br}", 'debug')
+        premium_flag = " (премиум)" if is_premium else ""
+        self.logger.log(f"  Обработан {unit_id}{premium_flag}: silver={silver}, exp={exp}, br={br}", 'debug')
         
         return result
     
-    def process_wpcost_data(self, shop_ids: List[str], wpcost_data: Dict[str, Any]) -> List[Dict[str, Any]]:
-        """Обрабатывает данные wpcost.blkx для списка ID из shop.csv"""
+    def process_wpcost_data(self, shop_data: Dict[str, Dict[str, str]], wpcost_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Обрабатывает данные wpcost.blkx для всех юнитов из shop.csv"""
         results = []
         found_count = 0
         not_found_count = 0
+        premium_processed_count = 0
         
         self.logger.log("Начинаем обработку данных wpcost...")
         
@@ -197,23 +249,35 @@ class WpcostParser:
         
         self.logger.log(f"В wpcost найдено {len(filtered_wpcost_data)} юнитов (исключены служебные поля)")
         
-        for unit_id in shop_ids:
+        for unit_id, unit_shop_data in shop_data.items():
             if unit_id in filtered_wpcost_data:
                 # Юнит найден в wpcost данных
                 unit_data = filtered_wpcost_data[unit_id]
-                extracted_data = self.extract_unit_data(unit_id, unit_data)
+                
+                # Проверяем, является ли юнит премиумным
+                is_premium = self._is_premium_unit(
+                    unit_shop_data['status'], 
+                    unit_shop_data['have_prem_flag']
+                )
+                
+                if is_premium:
+                    premium_processed_count += 1
+                    self.logger.log(f"  Обрабатываем премиумный юнит: {unit_id} (status={unit_shop_data['status']}, have_prem_flag={unit_shop_data['have_prem_flag']})", 'debug')
+                
+                extracted_data = self.extract_unit_data(unit_id, unit_data, is_premium)
                 results.append(extracted_data)
                 found_count += 1
-                self.logger.log(f"  Найден: {unit_id}", 'debug')
+                
             else:
-                # Юнит не найден - пропускаем
+                # Юнит не найден в wpcost - пропускаем
                 not_found_count += 1
-                self.logger.log(f"  Не найден: {unit_id} - пропускается", 'debug')
+                self.logger.log(f"  Не найден в wpcost: {unit_id} - пропускается", 'debug')
         
         self.logger.log(f"Статистика обработки wpcost:")
         self.logger.log(f"  Найдено и обработано: {found_count}")
-        self.logger.log(f"  Не найдено (пропущено): {not_found_count}")
-        self.logger.log(f"  Всего ID из shop.csv: {len(shop_ids)}")
+        self.logger.log(f"  Из них премиумных (с обнуленными silver/exp): {premium_processed_count}")
+        self.logger.log(f"  Не найдено в wpcost (пропущено): {not_found_count}")
+        self.logger.log(f"  Всего ID из shop.csv: {len(shop_data)}")
         
         return results
     
@@ -259,14 +323,14 @@ class WpcostParser:
         try:
             self.logger.log("Запуск парсера wpcost.blkx...")
             
-            # Загружаем ID из shop.csv
-            shop_ids = self.load_shop_ids(shop_csv_path)
+            # Загружаем данные из shop.csv (для всех юнитов)
+            shop_data = self.load_shop_ids(shop_csv_path)
             
             # Загружаем данные wpcost.blkx
             wpcost_data = self.fetch_wpcost_data()
             
             # Обрабатываем данные
-            processed_data = self.process_wpcost_data(shop_ids, wpcost_data)
+            processed_data = self.process_wpcost_data(shop_data, wpcost_data)
             
             # Сохраняем результат
             self.save_to_csv(processed_data, output_file)

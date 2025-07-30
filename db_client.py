@@ -3,6 +3,7 @@ import requests
 import jwt
 import time
 from typing import Dict, List, Optional, Any
+from utils import Constants
 
 class PostgrestClient:
     def __init__(self, base_url: str, api_key: Optional[str] = None, jwt_secret: Optional[str] = None):
@@ -181,8 +182,22 @@ def upload_all_data(config: Dict[str, str],
         print(f"❌ Файл {merged_csv} не найден")
         raise
 
-    # 3) Извлекаем уникальные типы техники и загружаем
-    vehicle_types = list(set(row['vehicle_category'] for row in merged_data if row.get('vehicle_category')))
+    # 3) Извлекаем уникальные типы техники в правильном порядке
+    # Определяем правильный порядок типов техники
+    vehicle_types_order = [
+        'Авиация',
+        'Наземная техника', 
+        'Вертолёты',
+        'Малый флот',
+        'Большой флот'
+    ]
+
+    # Проверяем какие типы есть в данных
+    vehicle_types_in_data = set(row['vehicle_category'] for row in merged_data if row.get('vehicle_category'))
+
+    # Берем только те типы, которые есть в данных, в правильном порядке
+    vehicle_types = [vt for vt in vehicle_types_order if vt in vehicle_types_in_data]
+    
     print(f"\n📝 Заливаю vehicle_types: {vehicle_types}")
     client.upsert_vehicle_types(vehicle_types)
 
