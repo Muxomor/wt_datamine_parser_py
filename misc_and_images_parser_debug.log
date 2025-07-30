@@ -268,9 +268,9 @@
   Проверка флага для ussr: https://wiki.warthunder.ru/static/country_svg/country_ussr.svg
   Флаг найден: ussr
   Проверка флага для britain: https://wiki.warthunder.ru/static/country_svg/country_britain.svg
-  Ошибка при проверке флага britain: HTTPSConnectionPool(host='wiki.warthunder.ru', port=443): Read timed out. (read timeout=10)
+  Флаг найден: britain
   Проверка флага для japan: https://wiki.warthunder.ru/static/country_svg/country_japan.svg
-  Ошибка при проверке флага japan: HTTPSConnectionPool(host='wiki.warthunder.ru', port=443): Read timed out. (read timeout=10)
+  Флаг найден: japan
   Проверка флага для china: https://wiki.warthunder.ru/static/country_svg/country_china.svg
   Флаг найден: china
   Проверка флага для italy: https://wiki.warthunder.ru/static/country_svg/country_italy.svg
@@ -282,8 +282,8 @@
   Проверка флага для israel: https://wiki.warthunder.ru/static/country_svg/country_israel.svg
   Флаг найден: israel
 Статистика флагов стран:
-  Найдено: 8
-  Недоступно: 2
+  Найдено: 10
+  Недоступно: 0
   Всего обработано: 10
 Данные о флагах стран (10 записей) сохранены в country_flags.csv
 Обработка флагов стран завершена успешно!

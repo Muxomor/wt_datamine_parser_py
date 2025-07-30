@@ -129,47 +129,32 @@ class ModernNodesMerger:
             if not unit_id:
                 continue
             
-            # Создаем объединенную запись
+            # Создаем объединенную запись только с нужными полями
             merged_record = {
-                # Основные данные из shop.csv
-                'id': unit_id,
-                'rank': self._safe_int(row.get('rank')),
-                'country': row.get('country', '').strip(),
-                'vehicle_type': row.get('vehicle_type', '').strip(),
-                'type': row.get('type', 'vehicle').strip(),
-                'status': row.get('status', 'standard').strip(),
-                'column_index': self._safe_int(row.get('column_index')),
-                'row_index': self._safe_int(row.get('row_index')),
-                'predecessor': row.get('predecessor', '').strip().lower(),
-                'order_in_folder': self._safe_int(row.get('order_in_folder')),
-                
-                # Поля для совместимости со старым форматом
+                # Основные поля
                 'external_id': unit_id,
-                'data_ulist_id': unit_id,
-                'parent_external_id': row.get('predecessor', '').strip().lower(),
-                'tech_category': row.get('status', 'standard').strip(),
+                'name': '',  # Будет заполнено из локализации
+                'country': row.get('country', '').strip(),
+                'battle_rating': '',  # Будет заполнено из wpcost как строка
+                'silver': None,  # Будет заполнено из wpcost
+                'rank': self._safe_int(row.get('rank')),
                 'vehicle_category': row.get('vehicle_type', '').strip(),
-                
-                # Инициализируем поля для обогащения
-                'name': '',
-                'localized_name': '',
-                'silver': None,
-                'required_exp': None,
-                'br': None,
-                'battle_rating': '',
-                'image_url': '',
-                'link': ''  # Для совместимости
+                'type': row.get('type', 'vehicle').strip(),
+                'required_exp': None,  # Будет заполнено из wpcost
+                'tech_category': row.get('status', 'standard').strip(),
+                'image_url': '',  # Будет заполнено из images
+                'parent_external_id': row.get('predecessor', '').strip().lower(),
+                'column': self._safe_int(row.get('column_index')),
+                'row': self._safe_int(row.get('row_index')),
+                'order_in_folder': self._safe_int(row.get('order_in_folder'))
             }
             
             # Обогащаем локализацией
             if unit_id in self.localization_dict:
-                localized_name = self.localization_dict[unit_id]
-                merged_record['localized_name'] = localized_name
-                merged_record['name'] = localized_name  # Для совместимости
+                merged_record['name'] = self.localization_dict[unit_id]
                 localization_found += 1
             else:
                 # Используем ID как fallback имя
-                merged_record['localized_name'] = unit_id
                 merged_record['name'] = unit_id
             
             # Обогащаем экономическими данными
@@ -177,9 +162,8 @@ class ModernNodesMerger:
                 wpcost_info = self.wpcost_dict[unit_id]
                 merged_record['silver'] = wpcost_info['silver']
                 merged_record['required_exp'] = wpcost_info['exp']
-                merged_record['br'] = wpcost_info['br']
                 
-                # Для совместимости - форматируем BR как строку
+                # Форматируем BR как строку
                 if wpcost_info['br'] is not None:
                     merged_record['battle_rating'] = str(wpcost_info['br'])
                 
@@ -205,7 +189,7 @@ class ModernNodesMerger:
     
     def extract_dependencies(self, merged_data: Optional[List[Dict[str, Any]]] = None) -> List[Dict[str, str]]:
         """
-        Извлекает зависимости между узлами на основе поля 'predecessor'
+        Извлекает зависимости между узлами на основе поля 'parent_external_id'
         
         Args:
             merged_data: Данные для извлечения зависимостей (если None, используются self.merged_data)
@@ -223,50 +207,50 @@ class ModernNodesMerger:
         self.logger.log("Извлечение зависимостей...")
         
         # Создаем словарь всех узлов для проверки существования родителей
-        nodes_by_id = {item['id']: item for item in merged_data}
+        nodes_by_id = {item['external_id']: item for item in merged_data}
         
         dependencies = []
         processed_nodes = 0
         dependencies_found = 0
         parent_not_found_count = 0
-        empty_predecessor_count = 0
+        empty_parent_count = 0
         
         for item in merged_data:
             processed_nodes += 1
-            node_id = item['id']
-            predecessor_id = item.get('predecessor', '').strip()
+            node_id = item['external_id']
+            parent_id = item.get('parent_external_id', '').strip()
             
-            if not predecessor_id:
-                empty_predecessor_count += 1
+            if not parent_id:
+                empty_parent_count += 1
                 continue
             
             # Проверяем существование предшественника
-            if predecessor_id in nodes_by_id:
+            if parent_id in nodes_by_id:
                 dependencies.append({
                     'node_external_id': node_id,
-                    'prerequisite_external_id': predecessor_id
+                    'prerequisite_external_id': parent_id
                 })
                 dependencies_found += 1
-                self.logger.log(f"  Зависимость: {node_id} -> {predecessor_id}", 'debug')
+                self.logger.log(f"  Зависимость: {node_id} -> {parent_id}", 'debug')
             else:
                 # Пробуем найти с суффиксом _group (для совместимости со старой логикой)
-                alt_predecessor_id = predecessor_id + "_group"
-                if alt_predecessor_id in nodes_by_id:
+                alt_parent_id = parent_id + "_group"
+                if alt_parent_id in nodes_by_id:
                     dependencies.append({
                         'node_external_id': node_id,
-                        'prerequisite_external_id': alt_predecessor_id
+                        'prerequisite_external_id': alt_parent_id
                     })
                     dependencies_found += 1
-                    self.logger.log(f"  Зависимость (alt): {node_id} -> {alt_predecessor_id}", 'debug')
+                    self.logger.log(f"  Зависимость (alt): {node_id} -> {alt_parent_id}", 'debug')
                 else:
                     parent_not_found_count += 1
-                    self.logger.log(f"  Предшественник не найден: {node_id} -> {predecessor_id}", 'debug')
+                    self.logger.log(f"  Предшественник не найден: {node_id} -> {parent_id}", 'debug')
         
         # Статистика извлечения
         self.logger.log(f"Извлечение зависимостей завершено:")
         self.logger.log(f"  Обработано узлов: {processed_nodes}")
         self.logger.log(f"  Найдено зависимостей: {dependencies_found}")
-        self.logger.log(f"  Пустых предшественников: {empty_predecessor_count}")
+        self.logger.log(f"  Пустых предшественников: {empty_parent_count}")
         self.logger.log(f"  Предшественников не найдено: {parent_not_found_count}")
         
         return dependencies
@@ -277,13 +261,11 @@ class ModernNodesMerger:
             self.logger.log("Нет данных для сохранения", 'warning')
             return
         
-        # Определяем поля для сохранения (совместимость со старым форматом)
+        # Определяем только нужные поля в правильном порядке
         fieldnames = [
-            'data_ulist_id', 'external_id', 'link', 'name', 'country', 'battle_rating',
-            'silver', 'rank', 'vehicle_category', 'type', 'required_exp', 'tech_category',
-            'image_url', 'parent_external_id', 'column_index', 'row_index', 'order_in_folder',
-            # Дополнительные поля
-            'id', 'localized_name', 'vehicle_type', 'status', 'predecessor', 'br'
+            'external_id', 'name', 'country', 'battle_rating', 'silver', 'rank',
+            'vehicle_category', 'type', 'required_exp', 'tech_category', 'image_url',
+            'parent_external_id', 'column', 'row', 'order_in_folder'
         ]
         
         try:

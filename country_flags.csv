@@ -2,8 +2,8 @@ country,flag_image_url
 usa,https://wiki.warthunder.ru/static/country_svg/country_usa.svg
 germany,https://wiki.warthunder.ru/static/country_svg/country_germany.svg
 ussr,https://wiki.warthunder.ru/static/country_svg/country_ussr.svg
-britain,
-japan,
+britain,https://wiki.warthunder.ru/static/country_svg/country_britain.svg
+japan,https://wiki.warthunder.ru/static/country_svg/country_japan.svg
 china,https://wiki.warthunder.ru/static/country_svg/country_china.svg
 italy,https://wiki.warthunder.ru/static/country_svg/country_italy.svg
 france,https://wiki.warthunder.ru/static/country_svg/country_france.svg
