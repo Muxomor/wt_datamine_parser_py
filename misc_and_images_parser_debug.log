@@ -4007,7 +4007,7 @@ GitHub Tree API вернул 49756 элементов
 Проверяем прямой доступ: https://static.encyclopedia.warthunder.com/slots/us_m2a4.png
   ✅ CDN ДОСТУПЕН: us_m2a4 -> 200
 Проверяем прямой доступ: https://static.encyclopedia.warthunder.com/slots/us_m3_stuart.png
-  ⏰ ТАЙМАУТ CDN: us_m3_stuart -> HTTPSConnectionPool(host='static.encyclopedia.warthunder.com', port=443): Read timed out. (read timeout=10)
+  ✅ CDN ДОСТУПЕН: us_m3_stuart -> 200
 Проверяем прямой доступ: https://static.encyclopedia.warthunder.com/slots/us_m24_chaffee.png
   ✅ CDN ДОСТУПЕН: us_m24_chaffee -> 200
 === КОНЕЦ ТЕСТА CDN ===

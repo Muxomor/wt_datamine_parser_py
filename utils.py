@@ -82,7 +82,7 @@ class Constants:
     """Константы приложения"""
     
     # Порог для определения премиумной колонки (0.X = X0% премиумной техники)
-    PREMIUM_THRESHOLD = 0.3
+    PREMIUM_THRESHOLD = 0.2
     
     # Обрабатывать ли slave-юниты (для будущего развития)
     PROCESS_SLAVE_UNITS = False

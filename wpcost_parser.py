@@ -116,8 +116,10 @@ class WpcostParser:
                         self.logger.log(f"Пропущена строка без ID: {row}", 'warning')
                         continue
                         
-                    # Сохраняем данные юнита
-                    shop_data[unit_id] = {
+                    # Сохраняем данные юнита с нормализованным ID
+                    normalized_id = unit_id.lower()
+                    shop_data[normalized_id] = {
+                        'original_id': unit_id,  # Сохраняем оригинальный ID для вывода
                         'status': status,
                         'have_prem_flag': have_prem_flag
                     }
@@ -179,7 +181,7 @@ class WpcostParser:
         Извлекает необходимые данные для одного юнита
         
         Args:
-            unit_id: ID юнита
+            unit_id: ID юнита (оригинальный из shop.csv)
             unit_data: Данные юнита из wpcost.blkx
             is_premium: True если юнит премиумный (нужно занулить silver и exp)
             
@@ -223,7 +225,7 @@ class WpcostParser:
             br = self.calculate_br(int(economic_rank))
         
         result = {
-            'id': unit_id,
+            'id': unit_id,  # Используем оригинальный ID для сохранения
             'silver': silver,
             'exp': exp,
             'br': br
@@ -234,6 +236,48 @@ class WpcostParser:
         
         return result
     
+    def normalize_wpcost_data(self, wpcost_data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Нормализует ID в данных wpcost к нижнему регистру
+        
+        Args:
+            wpcost_data: Исходные данные wpcost
+            
+        Returns:
+            Данные с нормализованными ID
+        """
+        normalized_data = {}
+        original_count = 0
+        normalized_count = 0
+        
+        for original_id, unit_data in wpcost_data.items():
+            # Пропускаем служебные поля
+            if original_id.startswith('economicRank') or not isinstance(unit_data, dict):
+                continue
+                
+            original_count += 1
+            normalized_id = original_id.lower()
+            
+            # Проверяем, есть ли конфликт ID после нормализации
+            if normalized_id in normalized_data:
+                self.logger.log(f"Конфликт ID после нормализации: '{original_id}' и другой ID дают '{normalized_id}'", 'warning')
+                # В случае конфликта сохраняем первый встреченный
+                continue
+            
+            normalized_data[normalized_id] = unit_data
+            normalized_count += 1
+            
+            # Логируем изменения регистра
+            if original_id != normalized_id:
+                self.logger.log(f"Нормализован ID: '{original_id}' -> '{normalized_id}'", 'debug')
+        
+        self.logger.log(f"Нормализация ID в wpcost:")
+        self.logger.log(f"  Исходных ID: {original_count}")
+        self.logger.log(f"  Нормализованных ID: {normalized_count}")
+        self.logger.log(f"  Конфликтов: {original_count - normalized_count}")
+        
+        return normalized_data
+    
     def process_wpcost_data(self, shop_data: Dict[str, Dict[str, str]], wpcost_data: Dict[str, Any]) -> List[Dict[str, Any]]:
         """Обрабатывает данные wpcost.blkx для всех юнитов из shop.csv"""
         results = []
@@ -243,16 +287,16 @@ class WpcostParser:
         
         self.logger.log("Начинаем обработку данных wpcost...")
         
-        # Удаляем служебные поля из wpcost_data
-        filtered_wpcost_data = {k: v for k, v in wpcost_data.items() 
-                               if not k.startswith('economicRank') and isinstance(v, dict)}
+        # Нормализуем ID в wpcost данных
+        normalized_wpcost_data = self.normalize_wpcost_data(wpcost_data)
         
-        self.logger.log(f"В wpcost найдено {len(filtered_wpcost_data)} юнитов (исключены служебные поля)")
+        self.logger.log(f"В wpcost найдено {len(normalized_wpcost_data)} юнитов после нормализации")
         
-        for unit_id, unit_shop_data in shop_data.items():
-            if unit_id in filtered_wpcost_data:
+        for normalized_shop_id, unit_shop_data in shop_data.items():
+            if normalized_shop_id in normalized_wpcost_data:
                 # Юнит найден в wpcost данных
-                unit_data = filtered_wpcost_data[unit_id]
+                unit_data = normalized_wpcost_data[normalized_shop_id]
+                original_id = unit_shop_data['original_id']
                 
                 # Проверяем, является ли юнит премиумным
                 is_premium = self._is_premium_unit(
@@ -262,16 +306,18 @@ class WpcostParser:
                 
                 if is_premium:
                     premium_processed_count += 1
-                    self.logger.log(f"  Обрабатываем премиумный юнит: {unit_id} (status={unit_shop_data['status']}, have_prem_flag={unit_shop_data['have_prem_flag']})", 'debug')
+                    self.logger.log(f"  Обрабатываем премиумный юнит: {original_id} (status={unit_shop_data['status']}, have_prem_flag={unit_shop_data['have_prem_flag']})", 'debug')
                 
-                extracted_data = self.extract_unit_data(unit_id, unit_data, is_premium)
+                # Используем оригинальный ID для сохранения результата
+                extracted_data = self.extract_unit_data(original_id, unit_data, is_premium)
                 results.append(extracted_data)
                 found_count += 1
                 
             else:
                 # Юнит не найден в wpcost - пропускаем
                 not_found_count += 1
-                self.logger.log(f"  Не найден в wpcost: {unit_id} - пропускается", 'debug')
+                original_id = unit_shop_data['original_id']
+                self.logger.log(f"  Не найден в wpcost: {original_id} (нормализован: {normalized_shop_id}) - пропускается", 'debug')
         
         self.logger.log(f"Статистика обработки wpcost:")
         self.logger.log(f"  Найдено и обработано: {found_count}")
