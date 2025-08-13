@@ -34,6 +34,7 @@ def main(config_path: Optional[str] = None):
             print("localization_url=https://example.com/localization.csv")
             print("wpcost_url=https://example.com/wpcost.blkx")
             print("rank_url=https://example.com/rank.blkx")
+            print("version_url=https://example.com/version")
             sys.exit(1)
         
         # 1. Создаем экземпляр основного парсера
@@ -83,6 +84,7 @@ def main(config_path: Optional[str] = None):
             print("   - rank_requirements.csv (требования по рангам)")
             print("   - shop_images.csv (изображения техники)")
             print("   - country_flags.csv (флаги стран)")
+            print("   - version.csv (версия данных)")
         except Exception as e:
             print(f"⚠️ Ошибка при парсинге misc данных: {e}")
             print("💡 Основные этапы завершены, продолжаем с объединением данных...")
@@ -123,6 +125,7 @@ def main(config_path: Optional[str] = None):
         print("   - rank_requirements.csv (требования по рангам)")
         print("   - shop_images.csv (изображения техники)")
         print("   - country_flags.csv (флаги стран)")
+        print("   - version.csv (версия данных War Thunder)")
         print("   - vehicles_merged.csv (объединенные данные техники)")
         print("   - dependencies.csv (граф зависимостей)")
         print("📝 Логи:")
@@ -353,6 +356,7 @@ def main_misc_only(config_path: Optional[str] = None):
         print("   - rank_requirements.csv (требования по рангам)")
         print("   - country_flags.csv (флаги стран)")
         print("   - shop_images.csv (изображения техники)")
+        print("   - version.csv (версия данных War Thunder)")
         
     except KeyboardInterrupt:
         print("\n⚠️ Операция прервана пользователем")
@@ -432,6 +436,7 @@ def print_help():
     print("     localization_url=https://example.com/localization.csv")
     print("     wpcost_url=https://example.com/wpcost.blkx")
     print("     rank_url=https://example.com/rank.blkx")
+    print("     version_url=https://example.com/version")
     print()
     print("  2. Для загрузки в БД дополнительно требуется:")
     print("     base_url=http://localhost:3000")
@@ -449,6 +454,7 @@ def print_help():
     print("  - rank_requirements.csv             - требования по рангам")
     print("  - country_flags.csv                 - флаги стран")
     print("  - shop_images.csv                   - изображения техники")
+    print("  - version.csv                       - версия данных War Thunder")
     print("  ℹ️  - vehicles_merged.csv               - полные объединенные данные о технике")
     print("  ℹ️  - dependencies.csv                  - граф зависимостей между техникой")
     print("  - shop_parser_debug.log             - подробный лог основного парсера")
@@ -463,6 +469,7 @@ def print_help():
     print("  - wpcost парсер вычисляет БР по формуле: (economicRankHistorical / 3) + 1")
     print("  - misc парсер проверяет доступность флагов стран и извлекает требования по рангам")
     print("  - misc парсер собирает изображения техники из shop.csv и проверяет их доступность")
+    print("  - misc парсер загружает текущую версию данных War Thunder")
     print("  ℹ️  - merge создает граф зависимостей на основе поля 'predecessor' из shop.csv")
 
 

@@ -119,6 +119,15 @@ class Constants:
         "Boat": "Малый флот"
     }
     
+    # Маппинг типов техники: русское -> английское название
+    VEHICLE_TYPE_ENG_MAPPING = {
+        'Авиация': 'Aviation',
+        'Наземная техника': 'Ground Forces', 
+        'Вертолёты': 'Helicopters',
+        'Большой флот': 'Fleet',
+        'Малый флот': 'Coastal Fleet'
+    }
+    
     # Базовый URL для флагов стран
     FLAGS_BASE_URL = 'https://wiki.warthunder.ru/static/country_svg/'
     
@@ -168,7 +177,7 @@ class Constants:
     
     # Поля для CSV локализации
     LOCALIZATION_CSV_FIELDNAMES = [
-        'id', 'localized_name'
+        'id', 'localized_name', 'localized_name_eng'
     ]
     
     # Поля для CSV wpcost
@@ -189,4 +198,9 @@ class Constants:
     # Поля для CSV изображений техники
     SHOP_IMAGES_CSV_FIELDNAMES = [
         'id', 'image_url'
+    ]
+    
+    # НОВОЕ: Поля для CSV версии данных
+    VERSION_CSV_FIELDNAMES = [
+        'version_number'
     ]

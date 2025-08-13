@@ -10842,5 +10842,11 @@ GitHub Tree API вернул 49756 элементов
   Процент успеха: 100.0%
 Данные об изображениях техники (3316 записей) сохранены в shop_images.csv
 Обработка изображений техники завершена успешно!
+Загрузка данных версии из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/version
+Данные версии успешно загружены: 2.47.0.86
+Обработка данных версии...
+Версия валидна: 2.47.0.86
+Данные версии сохранены в version.csv: 2.47.0.86
+Обработка версии завершена успешно!
 Парсинг misc данных завершен!
-Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv
+Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

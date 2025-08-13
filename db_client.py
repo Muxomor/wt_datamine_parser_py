@@ -73,10 +73,18 @@ class PostgrestClient:
         return r.status_code
 
     def upsert_vehicle_types(self, vehicle_types: List[str]):
-        """Вставка типов техники"""
-        payload = [{'name': vt} for vt in vehicle_types]
+        """Вставка типов техники с поддержкой английских названий"""
+        payload = []
+        for vt in vehicle_types:
+            # Получаем английское название из маппинга
+            eng_name = Constants.VEHICLE_TYPE_ENG_MAPPING.get(vt, vt)
+            payload.append({
+                'name': vt,
+                'name_eng': eng_name
+            })
+        
         result = self._post('vehicle_types', payload)
-        print(f"✅ Загружено {len(vehicle_types)} типов техники")
+        print(f"✅ Загружено {len(vehicle_types)} типов техники с английскими названиями")
         return result
 
     def upsert_nations(self, nations: List[Dict[str, str]]):
@@ -84,6 +92,17 @@ class PostgrestClient:
         result = self._post('nations', nations)
         print(f"✅ Загружено {len(nations)} наций")
         return result
+
+    def upsert_version(self, version_data: str):
+        """Вставка данных о версии"""
+        try:
+            payload = [{'version_number': version_data.strip()}]
+            result = self._post('version', payload)
+            print(f"✅ Загружена версия: {version_data.strip()}")
+            return result
+        except Exception as e:
+            print(f"⚠️  Ошибка загрузки версии: {e}")
+            return None
 
     def fetch_map(self, table: str, key_field: str = 'name') -> Dict[str, int]:
         """Получение справочника key -> id"""
@@ -133,11 +152,32 @@ class PostgrestClient:
             print(f"❌ Ошибка подключения: {e}")
 
 
+def load_version_data(version_csv_path: str = 'version.csv') -> Optional[str]:
+    """Загружает данные версии из CSV файла"""
+    try:
+        with open(version_csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                version_number = row.get('version_number', '').strip()
+                if version_number:
+                    print(f"📊 Загружена версия из {version_csv_path}: {version_number}")
+                    return version_number
+        print(f"⚠️  Версия не найдена в {version_csv_path}")
+        return None
+    except FileNotFoundError:
+        print(f"⚠️  Файл {version_csv_path} не найден, пропуск версии")
+        return None
+    except Exception as e:
+        print(f"❌ Ошибка чтения файла версии {version_csv_path}: {e}")
+        return None
+
+
 def upload_all_data(config: Dict[str, str],
                     merged_csv: str = "vehicles_merged.csv",
                     deps_csv: str = "dependencies.csv",
                     rank_csv: str = "rank_requirements.csv",
-                    country_csv: str = "country_flags.csv"):
+                    country_csv: str = "country_flags.csv",
+                    version_csv: str = "version.csv"):
     """
     Полная заливка данных через PostgREST с аутентификацией парсера
     """
@@ -165,7 +205,7 @@ def upload_all_data(config: Dict[str, str],
 
     # 1) Очистка всех таблиц в правильном порядке
     print("\n🗑️  Очистка таблиц...")
-    for tbl in ['node_dependencies', 'rank_requirements', 'nodes', 'nations', 'vehicle_types']:
+    for tbl in ['node_dependencies', 'rank_requirements', 'nodes', 'nations', 'vehicle_types', 'version']:
         try:
             client.delete_all(tbl)
         except Exception as e:
@@ -216,12 +256,18 @@ def upload_all_data(config: Dict[str, str],
         print(f"❌ Файл {country_csv} не найден")
         raise
 
-    # 5) Получаем справочники
+    # 5) version из version.csv
+    print(f"\n🔢 Заливаю версию из {version_csv}...")
+    version_data = load_version_data(version_csv)
+    if version_data:
+        client.upsert_version(version_data)
+
+    # 6) Получаем справочники
     print("\n📋 Загружаю справочники...")
     vt_map = client.fetch_map('vehicle_types', key_field='name')
     nat_map = client.fetch_map('nations', key_field='name')
 
-    # 6) Подготавливаем узлы для вставки
+    # 7) Подготавливаем узлы для вставки
     nodes_payload = []
     
     for nd in merged_data:
@@ -260,6 +306,7 @@ def upload_all_data(config: Dict[str, str],
         nodes_payload.append({
             'external_id': external_id,
             'name': nd.get('name') or external_id,
+            'name_eng': nd.get('name_eng') or external_id,  # НОВОЕ ПОЛЕ
             'type': nd.get('type', 'vehicle'),
             'tech_category': nd.get('tech_category', 'standard'),
             'nation_id': nat_map[country_key],
@@ -274,7 +321,7 @@ def upload_all_data(config: Dict[str, str],
             'order_in_folder': safe_int(nd.get('order_in_folder')),
         })
 
-    # 7) Вставляем узлы батчами
+    # 8) Вставляем узлы батчами
     print(f"\n🚗 Вставка {len(nodes_payload)} узлов...")
     batch_size = 100
     for i in range(0, len(nodes_payload), batch_size):
@@ -292,7 +339,7 @@ def upload_all_data(config: Dict[str, str],
                     print(f"❌ Ошибка вставки узла {rec['external_id']}: {single_e}")
                     raise
 
-    # 8) Обновление parent_id
+    # 9) Обновление parent_id
     print("\n🔗 Обновление parent_id...")
     node_map = client.fetch_map('nodes', key_field='external_id')
     updated_count = 0
@@ -311,7 +358,7 @@ def upload_all_data(config: Dict[str, str],
     
     print(f"✅ Обновлено {updated_count} связей parent_id")
 
-    # 9) node_dependencies
+    # 10) node_dependencies
     print(f"\n🔗 Загрузка зависимостей из {deps_csv}...")
     deps = []
     
@@ -335,7 +382,7 @@ def upload_all_data(config: Dict[str, str],
     except FileNotFoundError:
         print(f"⚠️  Файл {deps_csv} не найден, пропуск зависимостей")
 
-    # 10) rank_requirements
+    # 11) rank_requirements
     print(f"\n🎖️  Загрузка требований по рангам из {rank_csv}...")
     rr = []
     
@@ -369,3 +416,13 @@ def upload_all_data(config: Dict[str, str],
         print(f"⚠️  Файл {rank_csv} не найден, пропуск требований по рангам")
 
     print("\n🎉 Всё успешно загружено через PostgREST!")
+    
+    # Итоговая статистика
+    print(f"\n📈 Итоговая статистика загрузки:")
+    print(f"   - Типов техники: {len(vehicle_types)}")
+    print(f"   - Наций: {len(nations_payload)}")
+    print(f"   - Узлов техники: {len(nodes_payload)}")
+    print(f"   - Зависимостей: {len(deps)}")
+    print(f"   - Требований по рангам: {len(rr)}")
+    print(f"   - Версия: {version_data if version_data else 'не загружена'}")
+    print(f"   - Связей parent_id: {updated_count}")

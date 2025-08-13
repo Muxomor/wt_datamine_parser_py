@@ -21,7 +21,7 @@ class ModernNodesMerger:
         self.merged_data: List[Dict[str, Any]] = []
         
         # Словари для быстрого поиска
-        self.localization_dict: Dict[str, str] = {}
+        self.localization_dict: Dict[str, Dict[str, str]] = {}
         self.wpcost_dict: Dict[str, Dict[str, Any]] = {}
         self.images_dict: Dict[str, str] = {}
         
@@ -52,8 +52,12 @@ class ModernNodesMerger:
         for row in localization_data:
             unit_id = row.get('id', '').strip().lower()
             localized_name = row.get('localized_name', '').strip()
-            if unit_id and localized_name:
-                self.localization_dict[unit_id] = localized_name
+            localized_name_eng = row.get('localized_name_eng', '').strip()
+            if unit_id and (localized_name or localized_name_eng):
+                self.localization_dict[unit_id] = {
+                    'russian': localized_name,
+                    'english': localized_name_eng
+                }
         
         self.logger.log(f"Загружено локализаций: {len(self.localization_dict)}")
         
@@ -133,7 +137,8 @@ class ModernNodesMerger:
             merged_record = {
                 # Основные поля
                 'external_id': unit_id,
-                'name': '',  # Будет заполнено из локализации
+                'name': '',  # Будет заполнено из локализации (русское)
+                'name_eng': '',  # Будет заполнено из локализации (английское)
                 'country': row.get('country', '').strip(),
                 'battle_rating': '',  # Будет заполнено из wpcost как строка
                 'silver': None,  # Будет заполнено из wpcost
@@ -151,11 +156,14 @@ class ModernNodesMerger:
             
             # Обогащаем локализацией
             if unit_id in self.localization_dict:
-                merged_record['name'] = self.localization_dict[unit_id]
+                localization_data = self.localization_dict[unit_id]
+                merged_record['name'] = localization_data.get('russian', unit_id)
+                merged_record['name_eng'] = localization_data.get('english', unit_id)
                 localization_found += 1
             else:
-                # Используем ID как fallback имя
+                # Используем ID как fallback имя для обоих языков
                 merged_record['name'] = unit_id
+                merged_record['name_eng'] = unit_id
             
             # Обогащаем экономическими данными
             if unit_id in self.wpcost_dict:
@@ -263,7 +271,7 @@ class ModernNodesMerger:
         
         # Определяем только нужные поля в правильном порядке
         fieldnames = [
-            'external_id', 'name', 'country', 'battle_rating', 'silver', 'rank',
+            'external_id', 'name', 'name_eng', 'country', 'battle_rating', 'silver', 'rank',
             'vehicle_category', 'type', 'required_exp', 'tech_category', 'image_url',
             'parent_external_id', 'column', 'row', 'order_in_folder'
         ]

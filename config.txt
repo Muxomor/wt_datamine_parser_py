@@ -11,9 +11,12 @@ wpcost_fallback_urls=https://github.com/gszabi99/War-Thunder-Datamine/raw/master
 # URL для требований по рангам
 rank_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/rank.blkx
 
-base_url=http://192.168.0.105:8881/api
-parser_api_key=6285d1ced593a6f7b0a232fd3c68052e83f353767e7d95623f006048a8739fdb
-jwt_secret=miDDcpWOWoJ313N6x5Fq7SwEX+TXPQ799MNSjbvGY0A=
+# URL для версии данных
+version_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/version
+
+base_url=http://185.121.134.229:8881/api
+parser_api_key=f83dfdaa52337448b19686f674b941b541b65b01c2784c846c68acc662d14cf7
+jwt_secret=XhAFCI+SwmUqBBiOUckISFinnqqM84whUbuBuJo+yTg=
 
 debug_mode=true
 save_intermediate_files=true

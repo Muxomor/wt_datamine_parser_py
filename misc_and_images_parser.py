@@ -85,6 +85,45 @@ class MiscAndImagesParser:
         except Exception as e:
             raise RuntimeError(f"Ошибка обработки данных rank.blkx: {e}")
     
+    def fetch_version_data(self) -> str:
+        """Загружает данные версии из удаленного источника"""
+        version_url = self.config.get('version_url')
+        if not version_url:
+            raise ValueError("version_url не найден в конфигурации")
+            
+        try:
+            self.logger.log(f"Загрузка данных версии из: {version_url}")
+            response = requests.get(version_url, timeout=30)
+            response.raise_for_status()
+            
+            version_data = response.text.strip()
+            self.logger.log(f"Данные версии успешно загружены: {version_data}")
+            return version_data
+            
+        except requests.RequestException as e:
+            raise RuntimeError(f"Ошибка загрузки данных версии: {e}")
+    
+    def process_version_data(self, version_string: str) -> Dict[str, str]:
+        """Обрабатывает строку версии и подготавливает для сохранения"""
+        try:
+            self.logger.log("Обработка данных версии...")
+            
+            # Проверяем формат версии (должно быть вида X.X.X.X)
+            version_parts = version_string.split('.')
+            if len(version_parts) >= 3 and all(part.isdigit() for part in version_parts):
+                self.logger.log(f"Версия валидна: {version_string}")
+                return {
+                    "version_number": version_string
+                }
+            else:
+                self.logger.log(f"Версия имеет нестандартный формат: {version_string}", 'warning')
+                return {
+                    "version_number": version_string
+                }
+                
+        except Exception as e:
+            raise RuntimeError(f"Ошибка обработки данных версии: {e}")
+    
     def fetch_country_flags(self) -> List[Dict[str, str]]:
         """Собирает данные о флагах стран"""
         self.logger.log("Сбор данных о флагах стран...")
@@ -150,6 +189,24 @@ class MiscAndImagesParser:
             
         except Exception as e:
             self.logger.log(f"Ошибка при сохранении требований по рангам в CSV: {e}", 'error')
+            raise
+    
+    def save_version_to_csv(self, data: Dict[str, str], filename: str = 'version.csv'):
+        """Сохраняет данные версии в CSV файл"""
+        if not data:
+            self.logger.log("Нет данных версии для сохранения", 'warning')
+            return
+            
+        try:
+            with open(filename, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=Constants.VERSION_CSV_FIELDNAMES)
+                writer.writeheader()
+                writer.writerow(data)
+                    
+            self.logger.log(f"Данные версии сохранены в {filename}: {data['version_number']}")
+            
+        except Exception as e:
+            self.logger.log(f"Ошибка при сохранении версии в CSV: {e}", 'error')
             raise
     
     def save_country_flags_to_csv(self, data: List[Dict[str, str]], filename: str = 'country_flags.csv'):
@@ -575,7 +632,8 @@ class MiscAndImagesParser:
             raise
     
     def run(self, rank_output_file: str = 'rank_requirements.csv', flags_output_file: str = 'country_flags.csv', 
-            images_output_file: str = 'shop_images.csv', shop_csv_path: str = 'shop.csv'):
+            images_output_file: str = 'shop_images.csv', version_output_file: str = 'version.csv', 
+            shop_csv_path: str = 'shop.csv'):
         """Основной метод запуска парсера misc данных"""
         try:
             self.logger.log("Запуск парсера misc данных...")
@@ -606,9 +664,19 @@ class MiscAndImagesParser:
                 self.logger.log("Обработка изображений техники завершена успешно!")
             except Exception as e:
                 self.logger.log(f"Ошибка при обработке изображений техники: {e}", 'error')
+                self.logger.log("Продолжаем с обработкой версии...", 'warning')
+            
+            # НОВОЕ: Обрабатываем версию данных
+            try:
+                version_raw_data = self.fetch_version_data()
+                version_data = self.process_version_data(version_raw_data)
+                self.save_version_to_csv(version_data, version_output_file)
+                self.logger.log("Обработка версии завершена успешно!")
+            except Exception as e:
+                self.logger.log(f"Ошибка при обработке версии: {e}", 'error')
             
             self.logger.log(f"Парсинг misc данных завершен!")
-            self.logger.log(f"Созданные файлы: {rank_output_file}, {flags_output_file}, {images_output_file}")
+            self.logger.log(f"Созданные файлы: {rank_output_file}, {flags_output_file}, {images_output_file}, {version_output_file}")
             return True
             
         except Exception as e:
