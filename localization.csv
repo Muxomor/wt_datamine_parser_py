@@ -386,10 +386,10 @@ f-86f-35,F-86F-35,F-86F-35
 fj_4b_agm_12b,FJ-4B VMF-232,FJ-4B VMF-232
 f11f_1_late,F11F-1,F11F-1
 f4d_1,F4D-1,F4D-1
+f_106a_1972,F-106A,F-106A
 f-5a,F-5A,F-5A
 a_7k,A-7K,A-7K
 av_8b_na,AV-8B (NA),AV-8B (NA)
-uav_quadcopter,UAV Raven's Eye,UAV Raven's Eye
 f_14a_iriaf,▄F-14A IRIAF,▄F-14A IRIAF
 us_destroyer_clemson_litchfield,USS Litchfield,USS Litchfield
 us_destroyer_farragut_1942,USS Aylwin,USS Aylwin
@@ -2022,7 +2022,7 @@ a6m3_mod22_zero,A6M3 mod. 22,A6M3 mod. 22
 a6m3_mod22ko_zero,A6M3 mod. 22Ko,A6M3 mod. 22Ko
 a6m5_zero,A6M5,A6M5
 a6m5_group,A6M5,A6M5
-a6m5otsu,A6M5 otsu,A6M5 otsu
+a6m5otsu,A6M5 Otsu,A6M5 Otsu
 a6m5hei,A6M5 Hei,A6M5 Hei
 a7m2,A7M2,A7M2
 n1k2_group,N1K,N1K
@@ -2043,26 +2043,26 @@ ki_10_1,Ki-10-I,Ki-10-I
 ki_10_2,Ki-10-II,Ki-10-II
 ki_10_1_commander,Ki-10-I К,Ki-10-I C
 ki_10_2_commander,Ki-10-II К,Ki-10-II C
-ki-27_otsu,Ki-27 otsu,Ki-27 otsu
+ki-27_otsu,Ki-27 Otsu,Ki-27 Otsu
 ki-43_group,Ki-43,Ki-43
 ki_43_1,Ki-43-I,Ki-43-I
 ki_43_2,Ki-43-II,Ki-43-II
 ki_44_group,Ki-44,Ki-44
 ki_44_1,Ki-44-I,Ki-44-I
-ki_61_1a_ko,Ki-61-I ko,Ki-61-I ko
+ki_61_1a_ko,Ki-61-I Ko,Ki-61-I Ko
 ki_61_group,Ki-61,Ki-61
-ki_44_2_hei,Ki-44-II hei,Ki-44-II hei
-ki_61_1a_otsu,Ki-61-I otsu,Ki-61-I otsu
-ki_43_3_otsu,Ki-43-III otsu,Ki-43-III otsu
+ki_44_2_hei,Ki-44-II Hei,Ki-44-II Hei
+ki_61_1a_otsu,Ki-61-I Otsu,Ki-61-I Otsu
+ki_43_3_otsu,Ki-43-III Otsu,Ki-43-III Otsu
 ki_61_late_group,Ki-61-I late,Ki-61-I late
-ki_61_1a_tei,Ki-61-I tei,Ki-61-I tei
+ki_61_1a_tei,Ki-61-I Tei,Ki-61-I Tei
 ki_61_2_early,Ki-61-II Otsu Kai,Ki-61-II Otsu Kai
 ki_100_early,Ki-100,Ki-100
-ki_61_1a_hei,Ki-61-I hei,Ki-61-I hei
+ki_61_1a_hei,Ki-61-I Hei,Ki-61-I Hei
 ki_84_group,Ki-84 (р),Ki-84 (e)
-ki_84_ko,Ki-84 ko,Ki-84 ko
-ki_84_otsu,Ki-84 otsu,Ki-84 otsu
-ki_84_hei,Ki-84 hei,Ki-84 hei
+ki_84_ko,Ki-84 Ko,Ki-84 Ko
+ki_84_otsu,Ki-84 Otsu,Ki-84 Otsu
+ki_84_hei,Ki-84 Hei,Ki-84 Hei
 j8m1,Ki-200,Ki-200
 t2,T-2,T-2
 f1,F-1,F-1
@@ -2071,14 +2071,14 @@ av_8s_late_thailand,▄AV-8S Late,▄AV-8S Late
 f_16aj,F-16AJ,F-16AJ
 f_2a,F-2A,F-2A
 ki-45_eraly_group,Ki-45 (р),Ki-45 (e)
-ki-45_tei,Ki-45 tei,Ki-45 tei
-ki-45_otsu,Ki-45 otsu,Ki-45 otsu
+ki-45_tei,Ki-45 Tei,Ki-45 Tei
+ki-45_otsu,Ki-45 Otsu,Ki-45 Otsu
 ki-45_group,Ki-45,Ki-45
-ki-45_ko,Ki-45 ko,Ki-45 ko
-ki-45_hei,Ki-45 hei,Ki-45 hei
+ki-45_ko,Ki-45 Ko,Ki-45 Ko
+ki-45_hei,Ki-45 Hei,Ki-45 Hei
 ki_109,Ki-109,Ki-109
 j1n1_mod11_early,J1N1,J1N1
-ki_102_otsu,Ki-102 otsu,Ki-102 otsu
+ki_102_otsu,Ki-102 Otsu,Ki-102 Otsu
 ki_108,Ki-108 Kai,Ki-108 Kai
 j2m2,J2M2,J2M2
 j5n1,J5N1,J5N1
@@ -2124,20 +2124,20 @@ ki-49_2b_late,Ki-49-IIb/L,Ki-49-IIb/L
 g5n1,G5N1,G5N1
 ki_67_group,Ki-67,Ki-67
 ki_67_1_ko,Ki-67-I Ko,Ki-67-I Ko
-ki_67_1_otsu,Ki-67-I otsu,Ki-67-I otsu
+ki_67_1_otsu,Ki-67-I Otsu,Ki-67-I Otsu
 g8n1,G8N1,G8N1
 a5m4_hagiri,A5M4 Хагири,Hagiri's A5M4
-ki-27_otsu_ep,Ki-27 otsu Tachiarai,Ki-27 otsu Tachiarai
+ki-27_otsu_ep,Ki-27 Otsu Tachiarai,Ki-27 Otsu Tachiarai
 a7he1,A7He1,A7He1
 ki_44_1_ep,Ki-44-I 34,Ki-44-I 34
-ki_44_2_otsu,Ki-44-II otsu,Ki-44-II otsu
+ki_44_2_otsu,Ki-44-II Otsu,Ki-44-II Otsu
 h8k3,H8K3,H8K3
 ki-96,Ki-96,Ki-96
 ki_100_2,Ki-100-II,Ki-100-II
 sb2c_5_thailand,▄SB2C-5,▄SB2C-5
 b-17e_japan,▅B-17E,▅B-17E
 a7m1,A7M1 (NK9H),A7M1 (NK9H)
-ki_61_1a_hei_ep,Ki-61-I hei Тада,Tada's Ki-61-I hei
+ki_61_1a_hei_ep,Ki-61-I Hei Тада,Tada's Ki-61-I Hei
 j2m4_kai,J2M4 Kai,J2M4 Kai
 j2m5_30mm,J2M5 (Type 5),J2M5 (Type 5)
 ki_87,Ki-87,Ki-87
@@ -2149,8 +2149,8 @@ f_2a_adtw,F-2A ADTW,F-2A ADTW
 e7k2,E7K2,E7K2
 e8n2,E8N2,E8N2
 aichi_e13a,Aichi E13A1,Aichi E13A1
-ki_48_2_otsu,Ki-48-II otsu,Ki-48-II otsu
-ki_21_1hei,Ki-21-I hei,Ki-21-I hei
+ki_48_2_otsu,Ki-48-II Otsu,Ki-48-II Otsu
+ki_21_1hei,Ki-21-I Hei,Ki-21-I Hei
 bf-109e-3_japan,▅Bf 109 E-7,▅Bf 109 E-7
 f4u-1a_japan,▅F4U-1A,▅F4U-1A
 p-51c-11-nt_japan,▅P-51C-11-NT,▅P-51C-11-NT
@@ -2355,8 +2355,8 @@ z_19e,Z-19E,Z-19E
 z_10a,Z-10A,Z-10A
 gladiator_mk1_china,␗Gladiator Mk.I,␗Gladiator Mk I
 ki_27_group,Ki-27/Ki-43,Ki-27/Ki-43
-ki-27_otsu_china,␗Ki-27 otsu,␗Ki-27 otsu
-ki_43_3_ko,␗Ki-43-III ko,␗Ki-43-III ko
+ki-27_otsu_china,␗Ki-27 Otsu,␗Ki-27 Otsu
+ki_43_3_ko,␗Ki-43-III Ko,␗Ki-43-III Ko
 cw_21,CW-21,CW-21
 p-66,P-66,P-66
 p_40_china_group,␗P-40/P-43,␗P-40/P-43
@@ -2387,8 +2387,8 @@ i-16_type5_1935_china,␗I-16 type 5,␗I-16 type 5
 i-153_m62_china,␗I-153 M-62,␗I-153 M-62
 i-16_type10_china,␗I-16 type 10,␗I-16 type 10
 i-16_type17_china,␗I-16 type 17,␗I-16 type 17
-ki_44_2_hei_china,␗Ki-44-II hei,␗Ki-44-II hei
-ki_61_1a_otsu_china,␗Ki-61-I otsu,␗Ki-61-I otsu
+ki_44_2_hei_china,␗Ki-44-II Hei,␗Ki-44-II Hei
+ki_61_1a_otsu_china,␗Ki-61-I Otsu,␗Ki-61-I Otsu
 la-11_china,␗La-11,␗La-11
 la-9_china,␗La-9,␗La-9
 mig-9_china_group,MiG-9,MiG-9
@@ -2432,10 +2432,10 @@ il_28_china,H-5,H-5
 hawk_iii,Hawk III,Hawk III
 d_510c,D.510C,D.510C
 p-40c_china,H-81A-2,H-81A-2
-ki-45_hei_tei_china,␗Ki-45 hei/tei,␗Ki-45 hei/tei
+ki-45_hei_tei_china,␗Ki-45 Hei/Tei,␗Ki-45 Hei/Tei
 a6m2_zero_china,␗A6M2,␗A6M2
 a6m5_zero_china,␗A6M5,␗A6M5
-ki_84_ko_china,␗Ki-84 ko,␗Ki-84 ko
+ki_84_ko_china,␗Ki-84 Ko,␗Ki-84 Ko
 f-84g-31-re_china,␗F-84G-31-RE,␗F-84G-31-RE
 mig-17_f5,Shenyang F-5,Shenyang F-5
 a_5c,A-5C,A-5C

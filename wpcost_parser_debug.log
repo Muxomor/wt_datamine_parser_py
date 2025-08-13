@@ -7,8 +7,11 @@
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Пробуем следующий URL...
 Попытка 2: Загрузка данных wpcost из: https://github.com/gszabi99/War-Thunder-Datamine/raw/master/char.vromfs.bin_u/config/wpcost.blkx
-Размер файла: 1.6 МБ
-Данные wpcost успешно загружены с попытки 2
+Ошибка загрузки с URL https://github.com/gszabi99/War-Thunder-Datamine/raw/master/char.vromfs.bin_u/config/wpcost.blkx: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /gszabi99/War-Thunder-Datamine/master/char.vromfs.bin_u/config/wpcost.blkx (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C62D730F50>: Failed to resolve 'raw.githubusercontent.com' ([Errno 11004] getaddrinfo failed)"))
+Пробуем следующий URL...
+Попытка 3: Загрузка данных wpcost из: https://cdn.statically.io/gh/gszabi99/War-Thunder-Datamine/master/char.vromfs.bin_u/config/wpcost.blkx
+Размер файла: 1.9 МБ
+Данные wpcost успешно загружены с попытки 3
 Начинаем обработку данных wpcost...
 Нормализован ID: 'uk_challenger_II_yt_cup_2019' -> 'uk_challenger_ii_yt_cup_2019'
 Нормализован ID: 'ussr_t_34E' -> 'ussr_t_34e'
@@ -120,10 +123,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3032
-  Нормализованных ID: 3032
+  Исходных ID: 3033
+  Нормализованных ID: 3033
   Конфликтов: 0
-В wpcost найдено 3032 юнитов после нормализации
+В wpcost найдено 3033 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -1100,6 +1103,10 @@
   Премиумный юнит f4d_1: silver=0, exp=None (обнулено)
     БР расчет: economicRank=24, raw=9.000, округлено=9
   Обработан f4d_1 (премиум): silver=0, exp=None, br=9
+  Обрабатываем премиумный юнит: f_106a_1972 (status=premium, have_prem_flag=True)
+  Премиумный юнит f_106a_1972: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=25, raw=9.333, округлено=9.3
+  Обработан f_106a_1972 (премиум): silver=0, exp=None, br=9.3
   Обрабатываем премиумный юнит: f-5a (status=premium, have_prem_flag=True)
   Премиумный юнит f-5a: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
@@ -1112,10 +1119,6 @@
   Премиумный юнит av_8b_na: silver=0, exp=None (обнулено)
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан av_8b_na (премиум): silver=0, exp=None, br=11.3
-  Обрабатываем премиумный юнит: uav_quadcopter (status=premium, have_prem_flag=True)
-  Премиумный юнит uav_quadcopter: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан uav_quadcopter (премиум): silver=0, exp=None, br=10.7
   Обрабатываем премиумный юнит: f_14a_iriaf (status=premium, have_prem_flag=True)
   Премиумный юнит f_14a_iriaf: silver=0, exp=None (обнулено)
     БР расчет: economicRank=36, raw=13.000, округлено=13

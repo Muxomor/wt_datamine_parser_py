@@ -2,7 +2,7 @@
 Порог для определения премиумных колонок: 20.0%
 Обработка slave-юнитов: отключена
 Аномальные окончания: ['_race', '_football', '_yt_cup_2019', '_event', '_naval']
-Аномальные начала: ['ucav_']
+Аномальные начала: ['ucav_', 'uav_']
 Загрузка данных из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/shop.blkx
 Данные успешно загружены
 Начинаем очистку от аномальных элементов...
@@ -14,6 +14,7 @@
     УДАЛЕН: os2u_1_naval (аномальное окончание/начало)
     УДАЛЕН: ucav_mq_1_predator (аномальное окончание/начало)
     УДАЛЕН: f_4e_event (аномальное окончание/начало)
+    УДАЛЕН: uav_quadcopter (аномальное окончание/начало)
     УДАЛЕН: ucav_recon_micro (аномальное окончание/начало)
     УДАЛЕН: ucav_recon_micro_flir (аномальное окончание/начало)
   Очистка страны: germany
@@ -40,7 +41,7 @@
     УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание/начало)
   Очистка страны: sweden
   Очистка страны: israel
-Очистка завершена. Удалено элементов: 22
+Очистка завершена. Удалено элементов: 23
 Подробный список удаленных элементов:
   - usa/Наземная техника/column_5/us_m551_football (аномальное окончание/начало)
   - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
@@ -49,6 +50,7 @@
   - usa/Авиация/column_5/os2u_1_naval (аномальное окончание/начало)
   - usa/Авиация/column_5/ucav_mq_1_predator (аномальное окончание/начало)
   - usa/Авиация/column_5/f_4e_event (аномальное окончание/начало)
+  - usa/Авиация/column_6/uav_quadcopter (аномальное окончание/начало)
   - usa/Авиация/column_6/ucav_recon_micro (аномальное окончание/начало)
   - usa/Авиация/column_6/ucav_recon_micro_flir (аномальное окончание/начало)
   - germany/Наземная техника/column_5/germ_leopard_2a5_yt_cup_2019 (аномальное окончание/начало)
@@ -2030,7 +2032,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 3
-Slave-юниты: {'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'germ_iris_slm_launcher'}
+Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_81_tansam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
   jp_type_81_tansam_fcs -> jp_type_81_tansam_launcher
@@ -3486,6 +3488,9 @@ Slave-юниты: {'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'germ_
       ОТЛАДКА: Техника f4d_1, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f4d_1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f4d_1 с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника f_106a_1972, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника f_106a_1972 имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника f_106a_1972 с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника f-5a, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f-5a имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f-5a с предшественником '', статус: premium, have_prem_flag: True
@@ -3495,9 +3500,6 @@ Slave-юниты: {'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'germ_
       ОТЛАДКА: Техника av_8b_na, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника av_8b_na имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника av_8b_na с предшественником '', статус: premium, have_prem_flag: True
-      ОТЛАДКА: Техника uav_quadcopter, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
-      ОТЛАДКА: Техника uav_quadcopter имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника uav_quadcopter с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника f_14a_iriaf, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f_14a_iriaf имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f_14a_iriaf с предшественником '', статус: premium, have_prem_flag: True
@@ -15318,22 +15320,22 @@ Slave-юниты: {'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'germ_
         Отдельный элемент: f-86f-35
       a2d: [1, 0] (элемент)
       f-86f-35: [1, 1] (элемент)
-    Ранг 6: 3 элементов, начинаем с row_index=0
+    Ранг 6: 4 элементов, начинаем с row_index=0
         Отдельный элемент: fj_4b_agm_12b
         Отдельный элемент: f11f_1_late
         Отдельный элемент: f4d_1
+        Отдельный элемент: f_106a_1972
       fj_4b_agm_12b: [1, 0] (элемент)
       f11f_1_late: [1, 1] (элемент)
       f4d_1: [1, 2] (элемент)
-    Ранг 7: 4 элементов, начинаем с row_index=0
+      f_106a_1972: [1, 3] (элемент)
+    Ранг 7: 3 элементов, начинаем с row_index=0
         Отдельный элемент: f-5a
         Отдельный элемент: a_7k
         Отдельный элемент: av_8b_na
-        Отдельный элемент: uav_quadcopter
       f-5a: [1, 0] (элемент)
       a_7k: [1, 1] (элемент)
       av_8b_na: [1, 2] (элемент)
-      uav_quadcopter: [1, 3] (элемент)
     Ранг 8: 1 элементов, начинаем с row_index=0
         Отдельный элемент: f_14a_iriaf
       f_14a_iriaf: [1, 0] (элемент)

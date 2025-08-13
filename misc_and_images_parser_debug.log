@@ -291,8 +291,8 @@
 Загружено 3316 ID из shop.csv
 Загрузка списка изображений из GitHub...
 Отправляем запрос к GitHub Tree API: https://api.github.com/repos/gszabi99/War-Thunder-Datamine/git/trees/master?recursive=1
-Получен ответ от GitHub Tree API. Status: 200, Size: 14256748 bytes
-GitHub Tree API вернул 49756 элементов
+Получен ответ от GitHub Tree API. Status: 200, Size: 14263282 bytes
+GitHub Tree API вернул 49779 элементов
     Файл: a-20g -> https://static.encyclopedia.warthunder.com/slots/a-20g.png
     Файл: a-26_group -> https://static.encyclopedia.warthunder.com/slots/a-26_group.png
     Файл: a-26b -> https://static.encyclopedia.warthunder.com/slots/a-26b.png
@@ -820,6 +820,7 @@ GitHub Tree API вернул 49756 элементов
     Файл: f9f-8 -> https://static.encyclopedia.warthunder.com/slots/f9f-8.png
     Файл: f9f_group -> https://static.encyclopedia.warthunder.com/slots/f9f_group.png
     Файл: f_100f_china -> https://static.encyclopedia.warthunder.com/slots/f_100f_china.png
+    Файл: f_106a_1972 -> https://static.encyclopedia.warthunder.com/slots/f_106a_1972.png
     Файл: f_111a -> https://static.encyclopedia.warthunder.com/slots/f_111a.png
     Файл: f_111c_raaf -> https://static.encyclopedia.warthunder.com/slots/f_111c_raaf.png
     Файл: f_111f -> https://static.encyclopedia.warthunder.com/slots/f_111f.png
@@ -3992,9 +3993,9 @@ GitHub Tree API вернул 49756 элементов
     Файл: z_9wa -> https://static.encyclopedia.warthunder.com/slots/z_9wa.png
     Файл: zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
 ДИАГНОСТИКА GitHub Tree API:
-  Всего элементов в дереве: 49756
-  Файлов в целевой папке: 3695
-  PNG файлов: 3695
+  Всего элементов в дереве: 49779
+  Файлов в целевой папке: 3696
+  PNG файлов: 3696
   Проблемных файлов найдено: 3 из 3
   Найденные проблемные файлы: ['us_m24_chaffee.png', 'us_m2a4.png', 'us_m3_stuart.png']
   Первые 10 PNG файлов: ['a-20g', 'a-26_group', 'a-26b', 'a-26b_10', 'a-26c-45-dt', 'a-26c', 'a-35b', 'a2d', 'a5m4', 'a5m4_hagiri']
@@ -4800,14 +4801,14 @@ GitHub Tree API вернул 49756 элементов
   Найдено изображение: f11f_1_late -> https://static.encyclopedia.warthunder.com/slots/f11f_1_late.png
     Найдено: f4d_1 -> f4d_1 -> https://static.encyclopedia.warthunder.com/slots/f4d_1.png
   Найдено изображение: f4d_1 -> https://static.encyclopedia.warthunder.com/slots/f4d_1.png
+    Найдено: f_106a_1972 -> f_106a_1972 -> https://static.encyclopedia.warthunder.com/slots/f_106a_1972.png
+  Найдено изображение: f_106a_1972 -> https://static.encyclopedia.warthunder.com/slots/f_106a_1972.png
     Найдено: f-5a -> f-5a -> https://static.encyclopedia.warthunder.com/slots/f-5a.png
   Найдено изображение: f-5a -> https://static.encyclopedia.warthunder.com/slots/f-5a.png
     Найдено: a_7k -> a_7k -> https://static.encyclopedia.warthunder.com/slots/a_7k.png
   Найдено изображение: a_7k -> https://static.encyclopedia.warthunder.com/slots/a_7k.png
     Найдено: av_8b_na -> av_8b_na -> https://static.encyclopedia.warthunder.com/slots/av_8b_na.png
   Найдено изображение: av_8b_na -> https://static.encyclopedia.warthunder.com/slots/av_8b_na.png
-    Найдено: uav_quadcopter -> uav_quadcopter -> https://static.encyclopedia.warthunder.com/slots/uav_quadcopter.png
-  Найдено изображение: uav_quadcopter -> https://static.encyclopedia.warthunder.com/slots/uav_quadcopter.png
     Найдено: f_14a_iriaf -> f_14a_iriaf -> https://static.encyclopedia.warthunder.com/slots/f_14a_iriaf.png
   Найдено изображение: f_14a_iriaf -> https://static.encyclopedia.warthunder.com/slots/f_14a_iriaf.png
     Найдено: us_destroyer_clemson_litchfield -> us_destroyer_clemson_litchfield -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_litchfield.png
@@ -10843,10 +10844,10 @@ GitHub Tree API вернул 49756 элементов
 Данные об изображениях техники (3316 записей) сохранены в shop_images.csv
 Обработка изображений техники завершена успешно!
 Загрузка данных версии из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/version
-Данные версии успешно загружены: 2.47.0.86
+Данные версии успешно загружены: 2.47.0.107
 Обработка данных версии...
-Версия валидна: 2.47.0.86
-Данные версии сохранены в version.csv: 2.47.0.86
+Версия валидна: 2.47.0.107
+Данные версии сохранены в version.csv: 2.47.0.107
 Обработка версии завершена успешно!
 Парсинг misc данных завершен!
 Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

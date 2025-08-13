@@ -386,10 +386,10 @@ f-86f-35,5,usa,Авиация,vehicle,premium,1,1,,,True
 fj_4b_agm_12b,6,usa,Авиация,vehicle,premium,1,0,,,True
 f11f_1_late,6,usa,Авиация,vehicle,premium,1,1,,,True
 f4d_1,6,usa,Авиация,vehicle,premium,1,2,,,True
+f_106a_1972,6,usa,Авиация,vehicle,premium,1,3,,,True
 f-5a,7,usa,Авиация,vehicle,premium,1,0,,,True
 a_7k,7,usa,Авиация,vehicle,premium,1,1,,,True
 av_8b_na,7,usa,Авиация,vehicle,premium,1,2,,,True
-uav_quadcopter,7,usa,Авиация,vehicle,premium,1,3,,,True
 f_14a_iriaf,8,usa,Авиация,vehicle,premium,1,0,,,True
 us_destroyer_clemson_litchfield,1,usa,Большой флот,vehicle,standard,0,0,,,False
 us_destroyer_farragut_1942,1,usa,Большой флот,vehicle,standard,0,1,us_destroyer_clemson_litchfield,,False
