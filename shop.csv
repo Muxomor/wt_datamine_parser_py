@@ -938,6 +938,7 @@ germ_battleship_gneisenau_380mm,6,germany,Большой флот,vehicle,premiu
 germ_battleship_baden,6,germany,Большой флот,vehicle,premium,0,1,,,True
 germ_destroyer_class1939_t31,3,germany,Большой флот,vehicle,premium,1,0,,,True
 germ_destroyer_class1936a_z25,3,germany,Большой флот,vehicle,premium,1,1,,,True
+germ_battlecruiser_mackensen_class,6,germany,Большой флот,vehicle,premium,1,0,,,True
 germ_ls_class,1,germany,Малый флот,vehicle,standard,0,0,,,False
 germ_s38,1,germany,Малый флот,vehicle,standard,0,1,,,False
 germ_s38b,2,germany,Малый флот,vehicle,standard,0,0,germ_s38,,False
@@ -1408,8 +1409,7 @@ su_25k,6,ussr,Авиация,vehicle,premium,1,2,,,True
 su_25_558arz,7,ussr,Авиация,vehicle,premium,1,0,,,True
 su_25tm,7,ussr,Авиация,vehicle,premium,1,1,,,True
 ussr_destroyer_frunze,1,ussr,Большой флот,vehicle,standard,0,0,,,False
-ussr_destroyer_pr45,1,ussr,Большой флот,vehicle,standard,0,1,ussr_destroyer_frunze,,False
-ussr_destroyer_7_besposhchadny,1,ussr,Большой флот,vehicle,standard,0,2,ussr_destroyer_pr45,,False
+ussr_destroyer_7_besposhchadny,1,ussr,Большой флот,vehicle,standard,0,1,ussr_destroyer_frunze,,False
 ussr_destroyer_moskva,2,ussr,Большой флот,vehicle,standard,0,0,ussr_destroyer_7_besposhchadny,,False
 ussr_destroyer_7y,2,ussr,Большой флот,vehicle,standard,0,1,ussr_destroyer_moskva,,False
 ussr_cruiser_krasnyi_kavkaz,3,ussr,Большой флот,vehicle,standard,0,0,ussr_destroyer_7y,,False
@@ -1424,7 +1424,8 @@ ussr_battleship_parizhskaya_kommuna,5,ussr,Большой флот,vehicle,stand
 ussr_battleship_novorossiysk,6,ussr,Большой флот,vehicle,standard,0,0,ussr_battleship_parizhskaya_kommuna,,False
 ussr_battleship_arhangelsk,6,ussr,Большой флот,vehicle,standard,0,1,ussr_battleship_novorossiysk,,False
 ussr_battleship_pr23_sovetskij_soyuz,7,ussr,Большой флот,vehicle,standard,0,0,ussr_battleship_arhangelsk,,False
-ussr_destroyer_regele_ferdinand_class_letuchiy,1,ussr,Большой флот,vehicle,standard,1,0,,,False
+ussr_destroyer_pr45,1,ussr,Большой флот,vehicle,standard,1,0,,,False
+ussr_destroyer_regele_ferdinand_class_letuchiy,1,ussr,Большой флот,vehicle,standard,1,1,ussr_destroyer_pr45,,False
 ussr_destroyer_pr30_ognevoy,2,ussr,Большой флот,vehicle,standard,1,0,ussr_destroyer_regele_ferdinand_class_letuchiy,,False
 ussr_destroyer_pr30bis_bezuprechnyi,2,ussr,Большой флот,vehicle,standard,1,1,ussr_destroyer_pr30_ognevoy,,False
 ussr_destroyer_pr20_tashkent,3,ussr,Большой флот,vehicle,standard,1,0,ussr_destroyer_pr30bis_bezuprechnyi,,False
@@ -1907,8 +1908,8 @@ uk_fairmile_d_601_616,3,britain,Малый флот,vehicle,standard,1,2,uk_fair
 uk_attack_class_arrow,4,britain,Малый флот,vehicle,standard,1,0,uk_fairmile_d_601_616,,False
 uk_fremantle_class,4,britain,Малый флот,vehicle,standard,1,1,uk_attack_class_arrow,,False
 uk_fairmile_c_332,4,britain,Малый флот,vehicle,standard,1,2,uk_fremantle_class,,False
-uk_corvette_peacock,5,britain,Малый флот,vehicle,standard,1,0,uk_fairmile_c_332,,False
-uk_frigate_whitby_blackpool,5,britain,Малый флот,vehicle,standard,1,1,uk_corvette_peacock,,False
+uk_frigate_whitby_blackpool,5,britain,Малый флот,vehicle,standard,1,0,uk_fairmile_c_332,,False
+uk_corvette_peacock,5,britain,Малый флот,vehicle,standard,1,1,uk_frigate_whitby_blackpool,,False
 uk_mtb_2series,1,britain,Малый флот,vehicle,premium,0,0,,,False
 uk_71ft_mgb,2,britain,Малый флот,vehicle,premium,0,0,,,False
 uk_gay_class_archer,3,britain,Малый флот,vehicle,premium,0,0,,,True

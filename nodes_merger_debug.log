@@ -1,19 +1,19 @@
 Запуск полного процесса объединения данных...
 Начало объединения данных...
-Загружено 3316 записей из shop.csv
+Загружено 3317 записей из shop.csv
 Загрузка вспомогательных данных...
-Загружено 3316 записей из localization.csv
-Загружено локализаций: 3316
-Загружено 2946 записей из wpcost.csv
-Загружено экономических данных: 2946
-Загружено 3316 записей из shop_images.csv
-Загружено изображений: 3316
+Загружено 3317 записей из localization.csv
+Загружено локализаций: 3317
+Загружено 2947 записей из wpcost.csv
+Загружено экономических данных: 2947
+Загружено 3317 записей из shop_images.csv
+Загружено изображений: 3317
 Объединение завершено:
-  Всего записей: 3316
-  Найдено локализаций: 3316 (100.0%)
-  Найдено экономических данных: 2946 (88.8%)
-  Найдено изображений: 3316 (100.0%)
-Объединенные данные (3316 записей) сохранены в vehicles_merged.csv
+  Всего записей: 3317
+  Найдено локализаций: 3317 (100.0%)
+  Найдено экономических данных: 2947 (88.8%)
+  Найдено изображений: 3317 (100.0%)
+Объединенные данные (3317 записей) сохранены в vehicles_merged.csv
 Извлечение зависимостей...
   Зависимость: us_m3_stuart -> us_m2a4
   Зависимость: us_m3a1_stuart -> us_m3_stuart
@@ -893,8 +893,7 @@
   Зависимость: mig_27k -> mig_27m
   Зависимость: su_24m -> mig_27_group
   Зависимость: su_34 -> su_24m
-  Зависимость: ussr_destroyer_pr45 -> ussr_destroyer_frunze
-  Зависимость: ussr_destroyer_7_besposhchadny -> ussr_destroyer_pr45
+  Зависимость: ussr_destroyer_7_besposhchadny -> ussr_destroyer_frunze
   Зависимость: ussr_destroyer_moskva -> ussr_destroyer_7_besposhchadny
   Зависимость: ussr_destroyer_7y -> ussr_destroyer_moskva
   Зависимость: ussr_cruiser_krasnyi_kavkaz -> ussr_destroyer_7y
@@ -909,6 +908,7 @@
   Зависимость: ussr_battleship_novorossiysk -> ussr_battleship_parizhskaya_kommuna
   Зависимость: ussr_battleship_arhangelsk -> ussr_battleship_novorossiysk
   Зависимость: ussr_battleship_pr23_sovetskij_soyuz -> ussr_battleship_arhangelsk
+  Зависимость: ussr_destroyer_regele_ferdinand_class_letuchiy -> ussr_destroyer_pr45
   Зависимость: ussr_destroyer_pr30_ognevoy -> ussr_destroyer_regele_ferdinand_class_letuchiy
   Зависимость: ussr_destroyer_pr30bis_bezuprechnyi -> ussr_destroyer_pr30_ognevoy
   Зависимость: ussr_destroyer_pr20_tashkent -> ussr_destroyer_pr30bis_bezuprechnyi
@@ -1222,8 +1222,8 @@
   Зависимость: uk_attack_class_arrow -> uk_fairmile_d_601_616
   Зависимость: uk_fremantle_class -> uk_attack_class_arrow
   Зависимость: uk_fairmile_c_332 -> uk_fremantle_class
-  Зависимость: uk_corvette_peacock -> uk_fairmile_c_332
-  Зависимость: uk_frigate_whitby_blackpool -> uk_corvette_peacock
+  Зависимость: uk_frigate_whitby_blackpool -> uk_fairmile_c_332
+  Зависимость: uk_corvette_peacock -> uk_frigate_whitby_blackpool
   Зависимость: jp_type_2_ka_mi -> jp_type_98_ke_ni
   Зависимость: jp_m4a3e8_76w_sherman -> jp_m24_chaffee
   Зависимость: jp_m41_walker_bulldog -> jp_m4a3e8_76w_sherman
@@ -2198,13 +2198,13 @@
   Зависимость: f_16d_block_40_barak_2 -> nesher
   Зависимость: f_15i_raam -> f_16d_block_40_barak_2
 Извлечение зависимостей завершено:
-  Обработано узлов: 3316
+  Обработано узлов: 3317
   Найдено зависимостей: 2182
-  Пустых предшественников: 1134
+  Пустых предшественников: 1135
   Предшественников не найдено: 0
 Зависимости (2182 записей) сохранены в dependencies.csv
 Полный процесс объединения данных завершен успешно!
 Итоговая статистика:
-  Узлов в дереве: 3316
+  Узлов в дереве: 3317
   Зависимостей: 2182
   Покрытие зависимостями: 65.8%

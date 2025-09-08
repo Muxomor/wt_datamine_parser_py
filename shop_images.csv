@@ -938,6 +938,7 @@ germ_battleship_gneisenau_380mm,https://static.encyclopedia.warthunder.com/slots
 germ_battleship_baden,https://static.encyclopedia.warthunder.com/slots/germ_battleship_baden.png
 germ_destroyer_class1939_t31,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1939_t31.png
 germ_destroyer_class1936a_z25,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936a_z25.png
+germ_battlecruiser_mackensen_class,https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_mackensen_class.png
 germ_ls_class,https://static.encyclopedia.warthunder.com/slots/germ_ls_class.png
 germ_s38,https://static.encyclopedia.warthunder.com/slots/germ_s38.png
 germ_s38b,https://static.encyclopedia.warthunder.com/slots/germ_s38b.png
@@ -1408,7 +1409,6 @@ su_25k,https://static.encyclopedia.warthunder.com/slots/su_25k.png
 su_25_558arz,https://static.encyclopedia.warthunder.com/slots/su_25_558arz.png
 su_25tm,https://static.encyclopedia.warthunder.com/slots/su_25tm.png
 ussr_destroyer_frunze,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_frunze.png
-ussr_destroyer_pr45,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr45.png
 ussr_destroyer_7_besposhchadny,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7_besposhchadny.png
 ussr_destroyer_moskva,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_moskva.png
 ussr_destroyer_7y,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7y.png
@@ -1424,6 +1424,7 @@ ussr_battleship_parizhskaya_kommuna,https://static.encyclopedia.warthunder.com/s
 ussr_battleship_novorossiysk,https://static.encyclopedia.warthunder.com/slots/ussr_battleship_novorossiysk.png
 ussr_battleship_arhangelsk,https://static.encyclopedia.warthunder.com/slots/ussr_battleship_arhangelsk.png
 ussr_battleship_pr23_sovetskij_soyuz,https://static.encyclopedia.warthunder.com/slots/ussr_battleship_pr23_sovetskij_soyuz.png
+ussr_destroyer_pr45,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr45.png
 ussr_destroyer_regele_ferdinand_class_letuchiy,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_regele_ferdinand_class_letuchiy.png
 ussr_destroyer_pr30_ognevoy,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30_ognevoy.png
 ussr_destroyer_pr30bis_bezuprechnyi,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr30bis_bezuprechnyi.png
@@ -1907,8 +1908,8 @@ uk_fairmile_d_601_616,https://static.encyclopedia.warthunder.com/slots/uk_fairmi
 uk_attack_class_arrow,https://static.encyclopedia.warthunder.com/slots/uk_attack_class_arrow.png
 uk_fremantle_class,https://static.encyclopedia.warthunder.com/slots/uk_fremantle_class.png
 uk_fairmile_c_332,https://static.encyclopedia.warthunder.com/slots/uk_fairmile_c_332.png
-uk_corvette_peacock,https://static.encyclopedia.warthunder.com/slots/uk_corvette_peacock.png
 uk_frigate_whitby_blackpool,https://static.encyclopedia.warthunder.com/slots/uk_frigate_whitby_blackpool.png
+uk_corvette_peacock,https://static.encyclopedia.warthunder.com/slots/uk_corvette_peacock.png
 uk_mtb_2series,https://static.encyclopedia.warthunder.com/slots/uk_mtb_2series.png
 uk_71ft_mgb,https://static.encyclopedia.warthunder.com/slots/uk_71ft_mgb.png
 uk_gay_class_archer,https://static.encyclopedia.warthunder.com/slots/uk_gay_class_archer.png

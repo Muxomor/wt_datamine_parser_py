@@ -144,9 +144,7 @@ class Constants:
         'beginPurchaseDate', 'endPurchaseDate', 'isClanVehicle', 'reqFeature',
         'showByPlatform', 'costGold', 'freeRepairs', 'rankPosXY', 'fakeReqUnitType',
         'fakeReqUnitImage', 'fakeReqUnitRank', 'fakeReqUnitPosXY', 'showOnlyWhenResearch',
-        'hideByPlatform',
-        # НОВЫЕ ПОЛЯ:
-        'isCrossPromo', 'crossPromoBanner'
+        'hideByPlatform','isCrossPromo', 'crossPromoBanner', 'newsLabelId'
     }
     
     # Признаки премиумной техники
@@ -155,7 +153,7 @@ class Constants:
         'gift',
         'marketplaceItemdefId',
         'isClanVehicle',
-        'showOnlyWhenResearch',  # Удаленная техника
+        'showOnlyWhenResearch', 
         'event',
         'hideFeature',
         'beginPurchaseDate',

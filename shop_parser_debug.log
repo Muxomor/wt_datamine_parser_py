@@ -2032,7 +2032,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 3
-Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_81_tansam_launcher'}
+Slave-юниты: {'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
   jp_type_81_tansam_fcs -> jp_type_81_tansam_launcher
@@ -3374,7 +3374,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника f-89b, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f-89b имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f-89b с предшественником '', статус: premium, have_prem_flag: False
-      ОТЛАДКА: Техника f-89d, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника f-89d, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f-89d имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f-89d с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника a_4e_early, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -5597,7 +5597,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника germ_battleship_baden имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_battleship_baden с предшественником '', статус: premium, have_prem_flag: True
     Столбец 2: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/2 = 1.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 3/3 = 1.00, порог: 0.2
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника germ_destroyer_class1939_t31, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_destroyer_class1939_t31 имеет reqAir='', предшественника нет
@@ -5605,7 +5605,10 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника germ_destroyer_class1936a_z25, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_destroyer_class1936a_z25 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_destroyer_class1936a_z25 с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 3: обработано 2 элементов
+      ОТЛАДКА: Техника germ_battlecruiser_mackensen_class, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника germ_battlecruiser_mackensen_class имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника germ_battlecruiser_mackensen_class с предшественником '', статус: premium, have_prem_flag: True
+    Столбец 3: обработано 3 элементов
   Обработка типа: Малый флот, столбцов: 5
       ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
@@ -5724,7 +5727,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника germ_frigate_koln_lubeck имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_frigate_koln_lubeck с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 2 элементов
-Обработано 501 элементов для germany
+Обработано 502 элементов для germany
 Обработка страны: ussr
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен ussr_t_34_1941_l_11 с order=0
@@ -7391,16 +7394,13 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_chapayev с order=0
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_sverdlov с order=1
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_mikhail_kutuzov с order=2
-      ОТЛАДКА: Премиум техники в колонке: 0/17 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_destroyer_frunze, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Добавлена техника ussr_destroyer_frunze с предшественником '', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника ussr_destroyer_pr45, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника ussr_destroyer_pr45 зависит от ussr_destroyer_frunze
-      ОТЛАДКА: Добавлена техника ussr_destroyer_pr45 с предшественником 'ussr_destroyer_frunze', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника ussr_destroyer_7_besposhchadny, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника ussr_destroyer_7_besposhchadny зависит от ussr_destroyer_pr45
-      ОТЛАДКА: Добавлена техника ussr_destroyer_7_besposhchadny с предшественником 'ussr_destroyer_pr45', статус: standard, have_prem_flag: False
+      ОТЛАДКА: Техника ussr_destroyer_7_besposhchadny зависит от ussr_destroyer_frunze
+      ОТЛАДКА: Добавлена техника ussr_destroyer_7_besposhchadny с предшественником 'ussr_destroyer_frunze', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника ussr_destroyer_moskva, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника ussr_destroyer_moskva зависит от ussr_destroyer_7_besposhchadny
       ОТЛАДКА: Добавлена техника ussr_destroyer_moskva с предшественником 'ussr_destroyer_7_besposhchadny', статус: standard, have_prem_flag: False
@@ -7447,11 +7447,14 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника ussr_battleship_pr23_sovetskij_soyuz, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника ussr_battleship_pr23_sovetskij_soyuz зависит от ussr_battleship_arhangelsk
       ОТЛАДКА: Добавлена техника ussr_battleship_pr23_sovetskij_soyuz с предшественником 'ussr_battleship_arhangelsk', статус: standard, have_prem_flag: False
-    Столбец 0: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/9 = 0.00, порог: 0.2
+    Столбец 0: обработано 16 элементов
+      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
     Столбец 1 определен как ОБЫЧНЫЙ
+      ОТЛАДКА: Техника ussr_destroyer_pr45, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Добавлена техника ussr_destroyer_pr45 с предшественником '', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника ussr_destroyer_regele_ferdinand_class_letuchiy, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Добавлена техника ussr_destroyer_regele_ferdinand_class_letuchiy с предшественником '', статус: standard, have_prem_flag: False
+      ОТЛАДКА: Техника ussr_destroyer_regele_ferdinand_class_letuchiy зависит от ussr_destroyer_pr45
+      ОТЛАДКА: Добавлена техника ussr_destroyer_regele_ferdinand_class_letuchiy с предшественником 'ussr_destroyer_pr45', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника ussr_destroyer_pr30_ognevoy, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника ussr_destroyer_pr30_ognevoy зависит от ussr_destroyer_regele_ferdinand_class_letuchiy
       ОТЛАДКА: Добавлена техника ussr_destroyer_pr30_ognevoy с предшественником 'ussr_destroyer_regele_ferdinand_class_letuchiy', статус: standard, have_prem_flag: False
@@ -7476,7 +7479,7 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника ussr_battlecruiser_kronshtadt, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника ussr_battlecruiser_kronshtadt зависит от ussr_battlecruiser_izmail
       ОТЛАДКА: Добавлена техника ussr_battlecruiser_kronshtadt с предшественником 'ussr_battlecruiser_izmail', статус: standard, have_prem_flag: False
-    Столбец 1: обработано 9 элементов
+    Столбец 1: обработано 10 элементов
       ОТЛАДКА: Премиум техники в колонке: 3/10 = 0.30, порог: 0.2
     Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ussr_destroyer_kerch, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -9244,12 +9247,12 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       ОТЛАДКА: Техника uk_fairmile_c_332, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_fairmile_c_332 зависит от uk_fremantle_class
       ОТЛАДКА: Добавлена техника uk_fairmile_c_332 с предшественником 'uk_fremantle_class', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_corvette_peacock, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_corvette_peacock зависит от uk_fairmile_c_332
-      ОТЛАДКА: Добавлена техника uk_corvette_peacock с предшественником 'uk_fairmile_c_332', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника uk_frigate_whitby_blackpool, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_frigate_whitby_blackpool зависит от uk_corvette_peacock
-      ОТЛАДКА: Добавлена техника uk_frigate_whitby_blackpool с предшественником 'uk_corvette_peacock', статус: standard, have_prem_flag: False
+      ОТЛАДКА: Техника uk_frigate_whitby_blackpool зависит от uk_fairmile_c_332
+      ОТЛАДКА: Добавлена техника uk_frigate_whitby_blackpool с предшественником 'uk_fairmile_c_332', статус: standard, have_prem_flag: False
+      ОТЛАДКА: Техника uk_corvette_peacock, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника uk_corvette_peacock зависит от uk_frigate_whitby_blackpool
+      ОТЛАДКА: Добавлена техника uk_corvette_peacock с предшественником 'uk_frigate_whitby_blackpool', статус: standard, have_prem_flag: False
     Столбец 1: обработано 13 элементов
       ОТЛАДКА: Премиум техники в колонке: 3/7 = 0.43, порог: 0.2
     Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
@@ -16484,6 +16487,9 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         Отдельный элемент: germ_destroyer_class1936a_z25
       germ_destroyer_class1939_t31: [1, 0] (элемент)
       germ_destroyer_class1936a_z25: [1, 1] (элемент)
+    Ранг 6: 1 элементов, начинаем с row_index=0
+        Отдельный элемент: germ_battlecruiser_mackensen_class
+      germ_battlecruiser_mackensen_class: [1, 0] (элемент)
   Обработка столбца: germany/Малый флот/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: germ_ls_class
@@ -17450,13 +17456,11 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       su_25_558arz: [1, 0] (элемент)
       su_25tm: [1, 1] (элемент)
   Обработка столбца: ussr/Большой флот/col_0/premium_False
-    Ранг 1: 3 элементов, начинаем с row_index=0
+    Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_destroyer_frunze
-        Отдельный элемент: ussr_destroyer_pr45
         Отдельный элемент: ussr_destroyer_7_besposhchadny
       ussr_destroyer_frunze: [0, 0] (элемент)
-      ussr_destroyer_pr45: [0, 1] (элемент)
-      ussr_destroyer_7_besposhchadny: [0, 2] (элемент)
+      ussr_destroyer_7_besposhchadny: [0, 1] (элемент)
     Ранг 2: 2 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_destroyer_moskva
         Отдельный элемент: ussr_destroyer_7y
@@ -17489,9 +17493,11 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         Отдельный элемент: ussr_battleship_pr23_sovetskij_soyuz
       ussr_battleship_pr23_sovetskij_soyuz: [0, 0] (элемент)
   Обработка столбца: ussr/Большой флот/col_1/premium_False
-    Ранг 1: 1 элементов, начинаем с row_index=0
+    Ранг 1: 2 элементов, начинаем с row_index=0
+        Отдельный элемент: ussr_destroyer_pr45
         Отдельный элемент: ussr_destroyer_regele_ferdinand_class_letuchiy
-      ussr_destroyer_regele_ferdinand_class_letuchiy: [1, 0] (элемент)
+      ussr_destroyer_pr45: [1, 0] (элемент)
+      ussr_destroyer_regele_ferdinand_class_letuchiy: [1, 1] (элемент)
     Ранг 2: 2 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_destroyer_pr30_ognevoy
         Отдельный элемент: ussr_destroyer_pr30bis_bezuprechnyi
@@ -18562,10 +18568,10 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
       uk_fremantle_class: [1, 1] (элемент)
       uk_fairmile_c_332: [1, 2] (элемент)
     Ранг 5: 2 элементов, начинаем с row_index=0
-        Отдельный элемент: uk_corvette_peacock
         Отдельный элемент: uk_frigate_whitby_blackpool
-      uk_corvette_peacock: [1, 0] (элемент)
-      uk_frigate_whitby_blackpool: [1, 1] (элемент)
+        Отдельный элемент: uk_corvette_peacock
+      uk_frigate_whitby_blackpool: [1, 0] (элемент)
+      uk_corvette_peacock: [1, 1] (элемент)
   Обработка столбца: britain/Малый флот/col_2/premium_True
     Ранг 1: 1 элементов, начинаем с row_index=0
         Отдельный элемент: uk_mtb_2series
@@ -21819,11 +21825,11 @@ Slave-юниты: {'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'jp_type_8
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3316 элементов
-Данные (3316 записей) сохранены в shop.csv
+Координаты назначены для 3317 элементов
+Данные (3317 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2451, Премиумной: 865
+Статистика: Стандартной техники: 2451, Премиумной: 866
 Обработано master-slave пар: 3
 Slave-юниты пропущены: 3
 Поля image (373 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3316 элементов.
+Парсинг завершен успешно! Обработано 3317 элементов.

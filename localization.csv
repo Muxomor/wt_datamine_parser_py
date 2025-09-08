@@ -579,7 +579,7 @@ germ_flakpz_1a2_gepard,Gepard 1A2,Gepard 1A2
 germ_roland_osa_group,Roland/Osa,Roland/Osa
 germ_flarakpz_1,FlaRakPz 1,FlaRakPz 1
 germ_9a33bm3,◊Osa-AK,◊Osa-AK
-germ_9a35_m,Стрела-10М,Strela-10M
+germ_9a35_m,◊Strela-10M,◊Strela-10M
 germ_flarakrad,FlaRakRad,FlaRakRad
 germ_iris_slm_fcs,IRIS-T SLM (СОЦ),IRIS-T SLM (TADS)
 germ_sturmpanzer_221_group,sIG Sfl./Sd.Kfz.221,sIG Sfl./Sd.Kfz.221
@@ -640,7 +640,7 @@ germ_leopard_c2_mexas,C2A1,C2A1
 germ_boxer_3105,Boxer MGS,Boxer MGS
 germ_vilkas,Vilkas,Vilkas
 germ_leopard_2a4m_can,Leopard 2A4M,Leopard 2A4M
-germ_leopard_2pl,Leopard 2 PL,Leopard 2 PL
+germ_leopard_2pl,Leopard 2PL,Leopard 2PL
 germ_sdkfz_251_10,Sd.Kfz.251/10,Sd.Kfz.251/10
 germ_sdkfz_234_1,Sd.Kfz.234/1,Sd.Kfz.234/1
 germ_sdkfz_234_3,Sd.Kfz.234/3,Sd.Kfz.234/3
@@ -938,6 +938,7 @@ germ_battleship_gneisenau_380mm,Gneisenau,Gneisenau
 germ_battleship_baden,SMS Baden,SMS Baden
 germ_destroyer_class1939_t31,T31,T31
 germ_destroyer_class1936a_z25,Z25,Z25
+germ_battlecruiser_mackensen_class,Mackensen,Mackensen
 germ_ls_class,LS 3,LS 3
 germ_s38,S-38,S-38
 germ_s38b,S-38b,S-38b
@@ -1049,7 +1050,7 @@ ussr_bmp_2,БМП-2,BMP-2
 ussr_object_685,Объект 685,Object 685
 ussr_bmp_3_group,БМП-3/2С25,BMP-3/2S25
 ussr_bmp_3,БМП-3,BMP-3
-ussr_2s25,2C25,2S25
+ussr_2s25,2С25,2S25
 ussr_2s25m,2С25М,2S25M
 ussr_garford_putilov,Гарфордъ,Garford
 ussr_su_5_1,СУ-5-1,SU-5-1
@@ -1304,7 +1305,7 @@ su_25,Су-25,Su-25
 su_25t,Су-25Т,Su-25T
 su_25sm3,Су-25CM3,Su-25SM3
 sb_group,СБ,SB
-sb_2m_100,СБ 2М-100,SB 2M-100
+sb_2m_100,СБ 2М-100А,SB 2M-100A
 sb_2m_103c,СБ 2М-103,SB 2M-103
 yak-4,Як-4,Yak-4
 ar_group,Ар-2/СБ 2,Ar-2/SB 2
@@ -1408,7 +1409,6 @@ su_25k,Су-25К,Su-25K
 su_25_558arz,Су-25БМ,Su-25BM
 su_25tm,Су-39,Su-39
 ussr_destroyer_frunze,Фрунзе,Frunze
-ussr_destroyer_pr45,Опытный,Opytny
 ussr_destroyer_7_besposhchadny,Беспощадный,Besposhchadny
 ussr_destroyer_moskva,Москва,Moskva
 ussr_destroyer_7y,Сообразительный,Soobrazitelny
@@ -1424,6 +1424,7 @@ ussr_battleship_parizhskaya_kommuna,Парижская коммуна,Parizhskay
 ussr_battleship_novorossiysk,Новороссийск,Novorossiysk
 ussr_battleship_arhangelsk,Архангельск,Arkhangelsk
 ussr_battleship_pr23_sovetskij_soyuz,Советский Союз,Sovetsky Soyuz
+ussr_destroyer_pr45,Опытный,Opytny
 ussr_destroyer_regele_ferdinand_class_letuchiy,Летучий,Letuchiy
 ussr_destroyer_pr30_ognevoy,Огневой,Ognevoy
 ussr_destroyer_pr30bis_bezuprechnyi,Безупречный,Bezuprechny
@@ -1581,7 +1582,7 @@ uk_stormer_air_defence,Stormer AD,Stormer AD
 uk_stormer_hvm,Stormer HVM,Stormer HVM
 uk_9a33_35_group,Osa/Strela,Osa/Strela
 uk_9a33bm2,▄Osa-AK,▄Osa-AK
-uk_9a35_m,Стрела-10М,Strela-10M
+uk_9a35_m,▄Strela-10M,▄Strela-10M
 uk_adats_m113a3,ADATS (M113),ADATS (M113)
 uk_mark_v,Mark V,Mark V
 uk_sarc_mk4_a,SARC MkIVa,SARC MkIVa
@@ -1907,8 +1908,8 @@ uk_fairmile_d_601_616,Fairmile D (601),Fairmile D (601)
 uk_attack_class_arrow,HMAS Arrow,HMAS Arrow
 uk_fremantle_class,HMAS Fremantle,HMAS Fremantle
 uk_fairmile_c_332,Fairmile C (332),Fairmile C (332)
-uk_corvette_peacock,HMS Peacock,HMS Peacock
 uk_frigate_whitby_blackpool,HMS Blackpool,HMS Blackpool
+uk_corvette_peacock,HMS Peacock,HMS Peacock
 uk_mtb_2series,MTB-1(2),MTB-1(2)
 uk_71ft_mgb,MGB-75,MGB-75
 uk_gay_class_archer,HMS Gay Archer,HMS Gay Archer
@@ -2499,7 +2500,7 @@ it_otobreda_sidam_25,SIDAM 25,SIDAM 25
 it_otobreda_sidam_25_mistral,SIDAM 25 (Mistral),SIDAM 25 (Mistral)
 it_9a33_35_group,Osa/Strela,Osa/Strela
 it_9a33bm3,▄Osa-AKM,▄Osa-AKM
-it_9a35_m,Стрела-10М,Strela-10M
+it_9a35_m,▄Strela-10M,▄Strela-10M
 it_otomatic,OTOMATIC,OTOMATIC
 it_l3_cc,L3/33 CC,L3/33 CC
 it_semovente_l40,47/32 L40,47/32 L40
