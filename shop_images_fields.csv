@@ -139,6 +139,7 @@ ussr_isu_su_group,ussr_isu_su_group
 ussr_2s_group,ussr_2s_group
 ussr_btr_zis_group,ussr_btr_152a
 ussr_zis_group,ussr_zis_group
+ussr_buk_m3_fcs,germ_iris_slm_group
 ussr_kit_3rank_group,ussr_kit_3rank_group
 yak-1_group,yak-1_group
 yak-9_group,yak-9_group
@@ -193,6 +194,7 @@ uk_ystervark_crusader_group,uk_ystervark_spaa
 uk_marksman_za_group,uk_chieftain_marksman
 uk_stormer_group,uk_stormer_group
 uk_9a33_35_group,uk_9a33_35_group
+uk_sky_sabre_fcs,germ_iris_slm_group
 uk_ratel_group,uk_ratel_90
 uk_g6_eland_group,uk_g6_spg
 uk_scimitar_fox_group,uk_scimitar_fox_group
@@ -290,9 +292,10 @@ it_fiat_group,it_fiat_group
 it_centauro_105_group,it_centauro_105_group
 it_m13_40_group,it_m13_40_group
 it_m15_pz_3_group,it_m15_pz_3_group
-it_of_leo_group,it_leopard_1a2
+it_of_leo_group,it_of_leo_group
 it_ariete_group,it_ariete_group
 it_9a33_35_group,it_9a33_35_group
+it_samp_t_fcs,germ_iris_slm_group
 it_semovente_m41_group,it_semovente_m41_group
 it_semovente_m43_105_75_group,it_semovente_m43_group
 it_semovente_stug_group,it_semovente_stug_group
@@ -325,6 +328,7 @@ fr_leclerc_group,fr_leclerc_group
 fr_b1_2c_group,fr_b1_2c_group
 fr_arl_jumbo_group,fr_arl_jumbo_group
 fr_amx_32_group,fr_amx_32_group
+fr_samp_t_fcs,germ_iris_slm_group
 fr_lorraine_elc_group,fr_lorraine_elc_group
 fr_auf_acra_group,fr_auf_acra_group
 tiger_group,tiger_group
@@ -355,6 +359,7 @@ gladiator_j8a_group,gladiator_j8a
 saab_j21a_group,saab_j21a_group
 saab_ja37d_group,saab_ja37d_group
 saab_b17a_group,saab_b17a_group
+mosquito_norway_group,mosquito_norway_group
 saab_t18b_group,saab_t18b_group
 bf_109g_sweden_group,bf_109g_sweden_group
 vampire_fb_group,vampire_fb_group

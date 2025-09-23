@@ -1,19 +1,19 @@
 Запуск полного процесса объединения данных...
 Начало объединения данных...
-Загружено 3317 записей из shop.csv
+Загружено 3367 записей из shop.csv
 Загрузка вспомогательных данных...
-Загружено 3317 записей из localization.csv
-Загружено локализаций: 3317
-Загружено 2947 записей из wpcost.csv
-Загружено экономических данных: 2947
-Загружено 3317 записей из shop_images.csv
-Загружено изображений: 3317
+Загружено 3367 записей из localization.csv
+Загружено локализаций: 3367
+Загружено 2996 записей из wpcost.csv
+Загружено экономических данных: 2996
+Загружено 3367 записей из shop_images.csv
+Загружено изображений: 3367
 Объединение завершено:
-  Всего записей: 3317
-  Найдено локализаций: 3317 (100.0%)
-  Найдено экономических данных: 2947 (88.8%)
-  Найдено изображений: 3317 (100.0%)
-Объединенные данные (3317 записей) сохранены в vehicles_merged.csv
+  Всего записей: 3367
+  Найдено локализаций: 3367 (100.0%)
+  Найдено экономических данных: 2996 (89.0%)
+  Найдено изображений: 3367 (100.0%)
+Объединенные данные (3367 записей) сохранены в vehicles_merged.csv
 Извлечение зависимостей...
   Зависимость: us_m3_stuart -> us_m2a4
   Зависимость: us_m3a1_stuart -> us_m3_stuart
@@ -24,7 +24,8 @@
   Зависимость: us_m551 -> us_t92
   Зависимость: us_xm_800t -> us_m551
   Зависимость: us_m3_bradley -> us_xm_800t
-  Зависимость: us_m3a3_bradley -> us_m3_bradley
+  Зависимость: us_stingray -> us_m3_bradley
+  Зависимость: us_m3a3_bradley -> us_stingray
   Зависимость: us_hstv_l -> us_m3a3_bradley
   Зависимость: us_sherman_group -> us_m3_lee
   Зависимость: us_m4a1_1942_sherman -> us_sherman_group
@@ -93,8 +94,9 @@
   Зависимость: us_halftrack_m3_75mm_gmc -> us_m8_scott
   Зависимость: us_m10 -> us_m4a3_105_sherman
   Зависимость: us_m44 -> us_m10
-  Зависимость: us_m36_group -> us_m44
-  Зависимость: us_m36 -> us_m36_group
+  Зависимость: us_m55 -> us_m44
+  Зависимость: us_m36_group -> us_m55
+  Предшественник не найден: us_m36 -> futurereqair
   Зависимость: us_m36b2 -> us_m36
   Зависимость: us_m109a1 -> us_m36_group
   Зависимость: us_m56_scorpion -> us_m109a1
@@ -110,6 +112,7 @@
   Зависимость: oh_58d -> ah_6m
   Зависимость: mh_60l_dap -> oh_58d
   Зависимость: ah_64d -> ah_64a
+  Зависимость: ah_64e -> ah_64d
   Зависимость: p-26_group -> p-26a_34_m2
   Зависимость: p-26a_33 -> p-26_group
   Зависимость: p-26b_35 -> p-26a_33
@@ -250,7 +253,8 @@
   Зависимость: b_57_group -> b-29
   Зависимость: b-57 -> b_57_group
   Зависимость: b-57b -> b-57
-  Зависимость: f-105d -> b_57_group
+  Зависимость: b_66b -> b_57_group
+  Зависимость: f-105d -> b_66b
   Зависимость: f_111a -> f-105d
   Зависимость: f_111f -> f_111a
   Зависимость: f_15e -> f_111f
@@ -258,7 +262,8 @@
   Зависимость: us_destroyer_fletcher -> us_destroyer_farragut_1942
   Зависимость: us_destroyer_porter_1941 -> us_destroyer_fletcher
   Зависимость: us_destroyer_somers -> us_destroyer_porter_1941
-  Зависимость: us_cruiser_atlanta_class_atlanta -> us_destroyer_somers
+  Зависимость: us_destroyer_cf_adams_class_cf_adams -> us_destroyer_somers
+  Зависимость: us_cruiser_atlanta_class_atlanta -> us_destroyer_cf_adams_class_cf_adams
   Зависимость: us_cruiser_worcester_class_roanoke -> us_cruiser_atlanta_class_atlanta
   Зависимость: us_battleship_texas -> us_cruiser_worcester_class_roanoke
   Зависимость: us_battleship_arizona_1931 -> us_battleship_texas
@@ -416,8 +421,9 @@
   Зависимость: germ_stuh_iii_ausf_g -> germ_pzkpfw_38t_marder_iii_ausf_h
   Зависимость: germ_stug_iii_ausf_f -> germ_stuh_iii_ausf_g
   Зависимость: germ_stug_iii_ausf_g -> germ_marder_stuh_group
-  Зависимость: germ_jagdpanzer_group -> germ_stug_iii_ausf_g
-  Зависимость: germ_jgdpz_iv_l48 -> germ_jagdpanzer_group
+  Зависимость: germ_m55 -> germ_stug_iii_ausf_g
+  Зависимость: germ_jagdpanzer_group -> germ_m55
+  Предшественник не найден: germ_jgdpz_iv_l48 -> futurereqair
   Зависимость: germ_jgdpz_38t -> germ_jgdpz_iv_l48
   Зависимость: germ_pz_iv_l70 -> germ_jagdpanzer_group
   Зависимость: germ_jagdpanther_group -> germ_pz_iv_l70
@@ -579,7 +585,8 @@
   Зависимость: germ_destroyer_class1934a_1944 -> germ_destroyer_class1924_leopard1932
   Зависимость: germ_destroyer_class1934a_1940 -> germ_destroyer_class1934a_1944
   Зависимость: germ_destroyer_class1936a_mob_z32 -> germ_destroyer_class1934a_1940
-  Зависимость: germ_destroyer_class1936c_z46 -> germ_destroyer_class1936a_mob_z32
+  Зависимость: germ_destroyer_class1942_z51 -> germ_destroyer_class1936a_mob_z32
+  Зависимость: germ_destroyer_class1936c_z46 -> germ_destroyer_class1942_z51
   Зависимость: germ_cruiser_leipzig_nurnberg_group -> germ_destroyer_class1936c_z46
   Зависимость: germ_cruiser_leipzig -> germ_cruiser_leipzig_nurnberg_group
   Зависимость: germ_cruiser_nurnberg -> germ_cruiser_leipzig
@@ -693,7 +700,8 @@
   Зависимость: ussr_bmp_3_group -> ussr_bmp_2_group
   Зависимость: ussr_bmp_3 -> ussr_bmp_3_group
   Зависимость: ussr_2s25 -> ussr_bmp_3
-  Зависимость: ussr_2s25m -> ussr_bmp_3_group
+  Зависимость: ussr_bmd_4m2 -> ussr_bmp_3_group
+  Зависимость: ussr_2s25m -> ussr_bmd_4m2
   Зависимость: ussr_su_76m_1943 -> ussr_su_5_1
   Зависимость: ussr_zis_30 -> ussr_zis_su_group
   Зависимость: ussr_su_57b -> ussr_zis_30
@@ -738,6 +746,7 @@
   Зависимость: ussr_9a35_m2 -> ussr_9a33bm3
   Зависимость: ussr_zprk_2s6 -> ussr_9a35_m2
   Зависимость: ussr_pantsyr_s1 -> ussr_zprk_2s6
+  Зависимость: ussr_buk_m3_fcs -> ussr_pantsyr_s1
   Зависимость: mi_24a -> mi_4av
   Зависимость: mi_24v -> mi_24a
   Зависимость: mi_24p -> mi_24v
@@ -942,11 +951,13 @@
   Зависимость: ussr_mbk_161_1944 -> ussr_mkl_186
   Зависимость: ussr_mpk_pr12412 -> ussr_mbk_161_1944
   Зависимость: ussr_mpk_pr11451 -> ussr_mpk_pr12412
+  Зависимость: ussr_mpk_pr_1124 -> ussr_mpk_pr11451
   Зависимость: uk_a_13_mk2 -> uk_a_13_mk1
   Зависимость: uk_crusader_mk_2 -> uk_crusader_group
   Зависимость: uk_crusader_mk_3 -> uk_crusader_mk_2
-  Зависимость: uk_cromwell_group -> uk_crusader_group
-  Зависимость: uk_a27m_cromwell_5 -> uk_cromwell_group
+  Зависимость: uk_cruiser_ram_1 -> uk_crusader_group
+  Зависимость: uk_cromwell_group -> uk_cruiser_ram_1
+  Предшественник не найден: uk_a27m_cromwell_5 -> futurereqair
   Зависимость: uk_a27m_cromwell_1 -> uk_a27m_cromwell_5
   Зависимость: uk_sherman_ii -> uk_cromwell_group
   Зависимость: uk_sherman_vc_firefly -> uk_sherman_ii
@@ -1026,6 +1037,7 @@
   Зависимость: uk_9a33bm2 -> uk_9a33_35_group
   Зависимость: uk_9a35_m -> uk_9a33bm2
   Зависимость: uk_adats_m113a3 -> uk_9a33_35_group
+  Зависимость: uk_sky_sabre_fcs -> uk_adats_m113a3
   Зависимость: uk_marmon_herrington_mk_6_2pdr -> uk_sarc_mk4_a
   Зависимость: uk_a25_mk_8 -> uk_marmon_herrington_mk_6_2pdr
   Зависимость: uk_marmon_herrington_mk_6_6pdr -> uk_a25_mk_8
@@ -1115,7 +1127,9 @@
   Зависимость: scimitar_f1 -> sea_hawk_group
   Зависимость: harrier_frs1_early -> scimitar_f1
   Зависимость: f-4k -> harrier_frs1_early
-  Зависимость: sea_harrier_fa2 -> f-4k
+  Зависимость: fa_18a_raaf -> f-4k
+  Зависимость: sea_harrier_fa2 -> fa_18a_raaf
+  Зависимость: fa_18a_hug_2_raaf -> sea_harrier_fa2
   Зависимость: blenheim_group -> v_156_b1
   Зависимость: blenheim_mkiv -> blenheim_group
   Зависимость: beaufort_mkviii -> blenheim_mkiv
@@ -1127,6 +1141,8 @@
   Зависимость: mosquito_group -> tempest_mkv_vikkers
   Зависимость: mosquito_fb_mk6 -> mosquito_group
   Зависимость: mosquito_fb_mk18 -> mosquito_fb_mk6
+  Зависимость: mosquito_nf_mk2 -> mosquito_fb_mk18
+  Зависимость: mosquito_tr_mk33 -> mosquito_nf_mk2
   Зависимость: brigand_group -> mosquito_group
   Зависимость: brigand_b1 -> brigand_group
   Зависимость: whirlwind_mk1 -> brigand_b1
@@ -1180,7 +1196,8 @@
   Зависимость: uk_battleship_marlborough -> uk_battleship_orion
   Зависимость: uk_battleship_q_elizabet_class_warspite -> uk_battleship_marlborough
   Зависимость: uk_battleship_vanguard -> uk_battleship_q_elizabet_class_warspite
-  Зависимость: uk_destroyer_hunt_4series -> uk_destroyer_g_grafton
+  Зависимость: uk_destroyer_st_class_saumarez -> uk_destroyer_g_grafton
+  Зависимость: uk_destroyer_hunt_4series -> uk_destroyer_st_class_saumarez
   Зависимость: uk_destroyer_k_class -> uk_destroyer_hunt_4series
   Зависимость: uk_destroyer_daring_group -> uk_destroyer_k_class
   Зависимость: uk_destroyer_daring_class_diana -> uk_destroyer_daring_group
@@ -1280,10 +1297,13 @@
   Зависимость: jp_m19 -> jp_type_95_so_ki
   Зависимость: jp_m42_duster -> jp_m19
   Зависимость: jp_sub_i_ii_20mm -> jp_m42_duster
-  Зависимость: jp_type_87 -> jp_sub_i_ii_20mm
+  Зависимость: jp_m163_vulcan -> jp_sub_i_ii_20mm
+  Зависимость: jp_type_87 -> jp_m163_vulcan
   Зависимость: jp_type_93 -> jp_type_87
   Зависимость: jp_type_81_tansam -> jp_type_93
   Зависимость: jp_type_81_tansam_fcs -> jp_type_81_tansam
+  Зависимость: jp_stingray -> jp_m60a3_tts
+  Зависимость: jp_oplot_t -> jp_stingray
   Зависимость: ah_1s_early -> uh_1b_japan
   Зависимость: ah_1s_late -> ah_1s_early
   Зависимость: ah_64d_japan -> ah_1s_late
@@ -1364,7 +1384,8 @@
   Зависимость: alpha_jet_th_phase_1 -> alpha_jet_a_thailand
   Зависимость: f-5a_thailand -> alpha_jet_th_phase_1
   Зависимость: f-5t_thailand -> f-5a_thailand
-  Зависимость: f_16a_block_15_ocu_thailand -> f-5t_thailand
+  Зависимость: f-5th_thailand -> f-5t_thailand
+  Зависимость: f_16a_block_15_ocu_thailand -> f-5th_thailand
   Зависимость: saab_jas39c_thailand -> f_16a_block_15_ocu_thailand
   Зависимость: d3a1 -> b5n2
   Зависимость: b6n1 -> d3a1
@@ -1395,7 +1416,8 @@
   Зависимость: ki_67_1_otsu -> ki_67_1_ko
   Зависимость: g8n1 -> ki_67_group
   Зависимость: jp_destroyer_matsu -> jp_destroyer_momi
-  Зависимость: jp_destroyer_harukaze -> jp_destroyer_matsu
+  Зависимость: jp_minelayer_tsugaru -> jp_destroyer_matsu
+  Зависимость: jp_destroyer_harukaze -> jp_minelayer_tsugaru
   Зависимость: jp_destroyer_murasame -> jp_destroyer_harukaze
   Зависимость: jp_destroyer_akizuki -> jp_destroyer_murasame
   Зависимость: jp_cruiser_kako -> jp_destroyer_akizuki
@@ -1419,7 +1441,8 @@
   Зависимость: jp_battleship_ise -> jp_battleship_hyuga
   Зависимость: jp_battlecruiser_amagi -> jp_battleship_ise
   Зависимость: jp_battleship_settsu -> jp_armoredcruiser_ikoma
-  Зависимость: jp_battlecruiser_kongo -> jp_battleship_settsu
+  Зависимость: jp_battlecruiser_hiei -> jp_battleship_settsu
+  Зависимость: jp_battlecruiser_kongo -> jp_battlecruiser_hiei
   Зависимость: jp_battleship_mutsu -> jp_battlecruiser_kongo
   Зависимость: jp_type5_escortboat -> jp_t14_class_mod02
   Зависимость: jp_karotei_type2 -> jp_type5_escortboat
@@ -1457,7 +1480,8 @@
   Зависимость: cn_m60a3_tts -> cn_m_41d
   Зависимость: cn_cm11 -> cn_m60a3_tts
   Зависимость: cn_mbt2000 -> cn_cm11
-  Зависимость: cn_wz_1001 -> cn_mbt2000
+  Зависимость: cn_vt_4 -> cn_mbt2000
+  Зависимость: cn_wz_1001 -> cn_vt_4
   Зависимость: cn_vt_4b -> cn_wz_1001
   Зависимость: cn_type_97_chi_ha -> cn_t_26_1940
   Зависимость: cn_m4a4_sherman -> cn_type_97_kai
@@ -1498,7 +1522,8 @@
   Зависимость: cn_pgz_625_fb10 -> cn_tor_hq_group
   Зависимость: cn_su_76m_1943 -> cn_m8_scott
   Зависимость: cn_m10 -> cn_lvt_4_zis_2
-  Зависимость: cn_isu_152 -> cn_m10
+  Зависимость: cn_m55 -> cn_m10
+  Зависимость: cn_isu_152 -> cn_m55
   Зависимость: cn_m36_isu_group -> cn_isu_152
   Зависимость: cn_m36 -> cn_m36_isu_group
   Зависимость: cn_isu_122 -> cn_m36
@@ -1639,6 +1664,7 @@
   Зависимость: it_9a33bm3 -> it_9a33_35_group
   Зависимость: it_9a35_m -> it_9a33bm3
   Зависимость: it_otomatic -> it_9a33_35_group
+  Зависимость: it_samp_t_fcs -> it_otomatic
   Зависимость: it_semovente_l40 -> it_l3_cc
   Зависимость: it_lancia3ro_100 -> it_semovente_l40
   Зависимость: it_semovente_m41_75_18 -> it_semovente_m41_group
@@ -1647,8 +1673,9 @@
   Зависимость: it_semovente_m43_105_75_group -> it_semovente_m41_group
   Зависимость: it_semovente_m43_105 -> it_semovente_m43_105_75_group
   Зависимость: it_semovente_m43_75_34 -> it_semovente_m43_105
-  Зависимость: it_semovente_stug_group -> it_semovente_m43_105_75_group
-  Зависимость: it_semovente_m41m_90 -> it_semovente_stug_group
+  Зависимость: it_m55 -> it_semovente_m43_105_75_group
+  Зависимость: it_semovente_stug_group -> it_m55
+  Предшественник не найден: it_semovente_m41m_90 -> futurereqair
   Зависимость: it_stug_iii_ausf_g -> it_semovente_m41m_90
   Зависимость: it_semovente_m43_75_46 -> it_semovente_stug_group
   Зависимость: it_m36b1 -> it_semovente_m43_75_46
@@ -1787,7 +1814,8 @@
   Зависимость: it_a1_vosper -> it_mas_stefano_turr
   Зависимость: it_ms473_2a -> it_a1_vosper
   Зависимость: it_mc490_folgore -> it_ms473_2a
-  Зависимость: it_alano_9851 -> it_mc490_folgore
+  Зависимость: it_mc492_baleno -> it_mc490_folgore
+  Зависимость: it_alano_9851 -> it_mc492_baleno
   Зависимость: it_p494_saetta -> it_alano_9851
   Зависимость: it_ms53_2a -> it_mas_classe500_3
   Зависимость: it_mas441 -> it_ms53_2a
@@ -1858,11 +1886,13 @@
   Зависимость: fr_vab_santal -> fr_amx_30_dca
   Зависимость: fr_amx_30_roland -> fr_vab_santal
   Зависимость: fr_crotale_ng -> fr_amx_30_roland
+  Зависимость: fr_samp_t_fcs -> fr_crotale_ng
   Зависимость: fr_lorraine_37l -> fr_amr_35_zt3
   Зависимость: fr_somua_sau40 -> fr_lorraine_37l
   Зависимость: fr_m10 -> fr_m4a3_105_sherman
   Зависимость: fr_m44 -> fr_m10
-  Зависимость: fr_m36b2_cefeo -> fr_m44
+  Зависимость: fr_m55 -> fr_m44
+  Зависимость: fr_m36b2_cefeo -> fr_m55
   Зависимость: fr_lorraine_elc_group -> fr_m36b2_cefeo
   Зависимость: fr_lorraine_100 -> fr_lorraine_elc_group
   Зависимость: fr_amx_elc_bis -> fr_lorraine_100
@@ -1982,11 +2012,13 @@
   Зависимость: fr_cruiser_dugauy_class_primaguet -> fr_cruiser_jeanne_darc
   Зависимость: fr_cruiser_emile_bertin -> fr_cruiser_dugauy_class_primaguet
   Зависимость: fr_cruiser_la_galissoniere_class_la_galissoniere -> fr_cruiser_emile_bertin
-  Зависимость: fr_battleship_bretagne_class_bretagne -> fr_cruiser_la_galissoniere_class_la_galissoniere
+  Зависимость: fr_cruiser_la_galissoniere_class_gloire -> fr_cruiser_la_galissoniere_class_la_galissoniere
+  Зависимость: fr_battleship_bretagne_class_bretagne -> fr_cruiser_la_galissoniere_class_gloire
   Зависимость: fr_vtb8 -> fr_vtb_group
   Зависимость: fr_vtb18 -> fr_vtb12_mod
   Зависимость: fr_type40k_vedette -> fr_vtb18
-  Зависимость: fr_arras_class_arras -> fr_type40k_vedette
+  Зависимость: fr_adroit_class -> fr_type40k_vedette
+  Зависимость: fr_arras_class_arras -> fr_adroit_class
   Зависимость: fr_vlt1 -> fr_arras_class_arras
   Зависимость: fr_p730_combattante -> fr_vlt1
   Зависимость: fr_mtb96_vosper -> fr_vtb13
@@ -2001,7 +2033,8 @@
   Зависимость: sw_pbv_501 -> sw_pvkv_ii
   Зависимость: sw_ikv_91 -> sw_pbv_501
   Зависимость: sw_landsverk_ush_405 -> sw_ikv_91
-  Зависимость: sw_ikv_91_105 -> sw_landsverk_ush_405
+  Зависимость: sw_cv_90105 -> sw_landsverk_ush_405
+  Зависимость: sw_ikv_91_105 -> sw_cv_90105
   Зависимость: sw_cv_90_ifv_group -> sw_ikv_91_105
   Зависимость: sw_cv_9030_fin -> sw_cv_90_ifv_group
   Зависимость: sw_strf_90b -> sw_cv_9030_fin
@@ -2090,6 +2123,9 @@
   Зависимость: saab_b17a_group -> saab_b17bs
   Зависимость: saab_b17b -> saab_b17a_group
   Зависимость: saab_b17a -> saab_b17b
+  Зависимость: mosquito_norway_group -> mosquito_f_mk2_norway
+  Зависимость: mosquito_fb_mk6_norway -> mosquito_norway_group
+  Зависимость: mosquito_fb_mk6_ash_norway -> mosquito_fb_mk6_norway
   Зависимость: saab_a21rb -> saab_a21a_3
   Зависимость: saab_j29b -> saab_a21rb
   Зависимость: saab_a32a -> saab_j29b
@@ -2196,15 +2232,16 @@
   Зависимость: so_4050_vautour_2n_iaf -> so_4050_vautour_2a_israel_iaf
   Зависимость: nesher -> so_4050_vautour_iaf_group
   Зависимость: f_16d_block_40_barak_2 -> nesher
-  Зависимость: f_15i_raam -> f_16d_block_40_barak_2
+  Зависимость: f_16i_sufa -> f_16d_block_40_barak_2
+  Зависимость: f_15i_raam -> f_16i_sufa
 Извлечение зависимостей завершено:
-  Обработано узлов: 3317
-  Найдено зависимостей: 2182
-  Пустых предшественников: 1135
-  Предшественников не найдено: 0
-Зависимости (2182 записей) сохранены в dependencies.csv
+  Обработано узлов: 3367
+  Найдено зависимостей: 2215
+  Пустых предшественников: 1148
+  Предшественников не найдено: 4
+Зависимости (2215 записей) сохранены в dependencies.csv
 Полный процесс объединения данных завершен успешно!
 Итоговая статистика:
-  Узлов в дереве: 3317
-  Зависимостей: 2182
+  Узлов в дереве: 3367
+  Зависимостей: 2215
   Покрытие зависимостями: 65.8%

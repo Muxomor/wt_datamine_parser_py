@@ -10,6 +10,7 @@ us_t92,T92,T92
 us_m551,M551,M551
 us_xm_800t,XM800T,XM800T
 us_m3_bradley,M3 Bradley,M3 Bradley
+us_stingray,Stingray,Stingray
 us_m3a3_bradley,M3A3 Bradley,M3A3 Bradley
 us_hstv_l,HSTV-L,HSTV-L
 us_m2_medium,M2,M2
@@ -87,6 +88,7 @@ us_halftrack_m3_75mm_gmc,M3 GMC,M3 GMC
 us_m4a3_105_sherman,M4A3 (105),M4A3 (105)
 us_m10,M10 GMC,M10 GMC
 us_m44,M44,M44
+us_m55,M55,M55
 us_m36_group,M36/M36B2,M36/M36B2
 us_m36,M36 GMC,M36 GMC
 us_m36b2,M36B2,M36B2
@@ -118,6 +120,7 @@ us_m46_patton_73_armor_bat,"M46 ""Tiger""","M46 ""Tiger"""
 us_m728,M728 CEV,M728 CEV
 us_t54e2,T54E2,T54E2
 us_t54e1,T54E1,T54E1
+us_t58,T58,T58
 us_m901_itv,M901,M901
 us_xm1_chrysler,XM1 (Chrysler),XM1 (Chrysler)
 us_xm1_gm,XM1 (GM),XM1 (GM)
@@ -162,6 +165,7 @@ oh_58d,OH-58D,OH-58D
 mh_60l_dap,MH-60L DAP,MH-60L DAP
 ah_64a,AH-64A,AH-64A
 ah_64d,AH-64D,AH-64D
+ah_64e,AH-64E,AH-64E
 h_34,H-34,H-34
 uh_1c_xm_30,UH-1C XM-30,UH-1C XM-30
 yah_64,YAH-64,YAH-64
@@ -321,6 +325,7 @@ b-29,B-29A-BN,B-29A-BN
 b_57_group,B-57,B-57
 b-57,B-57A,B-57A
 b-57b,B-57B,B-57B
+b_66b,B-66B,B-66B
 f-105d,F-105D,F-105D
 f_111a,F-111A,F-111A
 f_111f,F-111F,F-111F
@@ -396,6 +401,7 @@ us_destroyer_farragut_1942,USS Aylwin,USS Aylwin
 us_destroyer_fletcher,USS Fletcher,USS Fletcher
 us_destroyer_porter_1941,USS Porter,USS Porter
 us_destroyer_somers,USS Somers,USS Somers
+us_destroyer_cf_adams_class_cf_adams,USS Charles F. Adams,USS Charles F. Adams
 us_cruiser_atlanta_class_atlanta,USS Atlanta,USS Atlanta
 us_cruiser_worcester_class_roanoke,USS Roanoke,USS Roanoke
 us_battleship_texas,USS Texas,USS Texas
@@ -434,6 +440,7 @@ us_cruiser_brooklyn_class_helena,USS Helena,USS Helena
 us_cruiser_baltimore_class,USS Baltimore,USS Baltimore
 us_battleship_arkansas,USS Arkansas,USS Arkansas
 us_battleship_mississippi,USS Mississippi,USS Mississippi
+us_battleship_colorado_class_maryland,USS Maryland,USS Maryland
 us_destroyer_somers_davis,USS Davis,USS Davis
 us_destroyer_porter_1944,USS Phelps,USS Phelps
 us_cruiser_omaha_class_detroit,USS Detroit,USS Detroit
@@ -519,8 +526,8 @@ germ_pzkpfw_iii_ausf_l,Pz.III L,Pz.III L
 germ_pzkpfw_iii_ausf_m,Pz.III M,Pz.III M
 germ_pzkpfw_vi_ausf_h1_tiger,Tiger H1,Tiger H1
 germ_pzkpfw_vi_ausf_e_tiger,Tiger E,Tiger E
-germ_pzkpfw_vi_ausf_b_tiger_iip,Tiger II (P),Tiger II (P)
-germ_pzkpfw_vi_ausf_b_tiger_iih,Tiger II (H),Tiger II (H)
+germ_pzkpfw_vi_ausf_b_tiger_iip,Tiger II (Nr.1-50),Tiger II (Nr.1-50)
+germ_pzkpfw_vi_ausf_b_tiger_iih,Tiger II,Tiger II
 germ_mkpz_m48a2c,M48A2 C,M48A2 C
 germ_mkpz_m48a2ga2,M48A2 G A2,M48A2 G A2
 germ_kpz_super_group,KPz-70/M48 Super,KPz-70/M48 Super
@@ -596,6 +603,7 @@ germ_pzkpfw_38t_marder_iii_ausf_h,Marder III H,Marder III H
 germ_stuh_iii_ausf_g,StuH 42 G,StuH 42 G
 germ_stug_iii_ausf_f,StuG III F,StuG III F
 germ_stug_iii_ausf_g,StuG III G,StuG III G
+germ_m55,◄M55,◄M55
 germ_jagdpanzer_group,Jagdpanzer IV/38(t),Jagdpanzer IV/38(t)
 germ_jgdpz_iv_l48,Jagdpanzer IV,Jagdpanzer IV
 germ_jgdpz_38t,Jagdpanzer 38(t),Jagdpanzer 38(t)
@@ -661,7 +669,7 @@ germ_pzkpfw_vi_ausf_h1_tiger_animal_version,␠Tiger,␠Tiger
 germ_pzkpfw_v_ersatz_m10,Ersatz M10,Ersatz M10
 germ_flakpanzer_v_coelian,Flakpanzer 341,Flakpanzer 341
 germ_spz_12_3,SPz 12-3 LGS,SPz 12-3 LGS
-germ_pzkpfw_vi_ausf_b_tiger_iih_sla,Tiger II (H) Sla.16,Tiger II (H) Sla.16
+germ_pzkpfw_vi_ausf_b_tiger_iih_sla,Tiger II (Sla.16),Tiger II (Sla.16)
 germ_pzkpfw_vi_ausf_b_tiger_iih_kwk46,Tiger II (10.5 cm Kw.K),Tiger II (10.5 cm Kw.K)
 germ_ru251,Ru 251,Ru 251
 germ_pzkpfw_e_100,E-100,E-100
@@ -845,6 +853,7 @@ mc200_serie7,▀C. 200 серия 7,▀C. 200 serie 7
 mc-202,▀C. 202,▀C. 202
 he_112b_1,He 112 B-1/U2,He 112 B-1/U2
 il_2_1942_luftwaffe,▀IL-2 (1942),▀IL-2 (1942)
+bf_109t_2,Bf 109 T-2,Bf 109 T-2
 bf-110c-6,Bf 110 C-6,Bf 110 C-6
 yak-1b_luftwaffe,▀Yak-1B,▀Yak-1B
 bv-238,BV 238,BV 238
@@ -902,6 +911,7 @@ germ_destroyer_class1924_leopard1932,Leopard,Leopard
 germ_destroyer_class1934a_1944,Z15 Erich Steinbrinck,Z15 Erich Steinbrinck
 germ_destroyer_class1934a_1940,Z12 Erich Giese,Z12 Erich Giese
 germ_destroyer_class1936a_mob_z32,Z32,Z32
+germ_destroyer_class1942_z51,Z51,Z51
 germ_destroyer_class1936c_z46,Z46,Z46
 germ_cruiser_leipzig_nurnberg_group,Leipzig/Nurnberg,Leipzig/Nurnberg
 germ_cruiser_leipzig,Leipzig,Leipzig
@@ -1051,6 +1061,7 @@ ussr_object_685,Объект 685,Object 685
 ussr_bmp_3_group,БМП-3/2С25,BMP-3/2S25
 ussr_bmp_3,БМП-3,BMP-3
 ussr_2s25,2С25,2S25
+ussr_bmd_4m2,БМД-4M2,BMD-4M2
 ussr_2s25m,2С25М,2S25M
 ussr_garford_putilov,Гарфордъ,Garford
 ussr_su_5_1,СУ-5-1,SU-5-1
@@ -1101,6 +1112,7 @@ ussr_9a33bm3,Оса-АКМ,Osa-AKM
 ussr_9a35_m2,Стрела-10М2,Strela-10M2
 ussr_zprk_2s6,2С6,2S6
 ussr_pantsyr_s1,Панцирь-С1,Pantsir-S1
+ussr_buk_m3_fcs,"9К317М ""БУК-М3"" (СОЦ)","9K317M ""BUK-M3"" (TADS)"
 ussr_t_26_1940_1st_gvtbr,Т-26 (1 Гв.Т.Бр.),T-26 (1st Gv.T.Br.)
 ussr_bt_7_1937_td,БТ-7 TD,BT-7 TD
 ussr_t_35,Т-35,T-35
@@ -1184,6 +1196,7 @@ ka_29,Ка-29,Ka-29
 ka_52,Ка-52,Ka-52
 mi_24d,▂Ми-24Д,▂Mi-24D
 ka_50,Ка-50,Ka-50
+mi_35p,Ми-35П,Mi-35P
 yak-1_group,Як-1,Yak-1
 yak-1_early,Як-1,Yak-1
 yak-1b,Як-1Б,Yak-1B
@@ -1350,6 +1363,7 @@ pby-5a_ussr,"▂PBY-5A ""Каталина""",▂PBY-5A Catalina
 hp52_hampden_tbmk1_ussr_utk1,▂Hampden TB Mk.I,▂Hampden TB Mk I
 tandem_mai,Тандем МАИ,Tandem MAI
 kor_1,КОР-1,KOR-1
+kor_2,КОР-2,KOR-2
 lagg-3-4,ЛаГГ-3-4,LaGG-3-4
 p-40e_ussr,▂P-40E-1,▂P-40E-1
 hurricanemkii_ussr,▂Hurricane Mk.IIB,▂Hurricane Mk IIB
@@ -1478,6 +1492,7 @@ ussr_mkl_186,МБК Пр.186,MBK pr.186
 ussr_mbk_161_1944,МБК-161 поздний,MBK-161 late
 ussr_mpk_pr12412,МПК Пр.12412,MPK Pr.12412
 ussr_mpk_pr11451,МПК Пр.11451,MPK Pr.11451
+ussr_mpk_pr_1124,МПК-33,MPK-33
 ussr_g5_mtb_shvak,Г-5 (ШВАК),G-5 (ShVAK)
 ussr_ya_5m,Я-5М,Ya-5M
 ussr_pr_123k_hydrofoils,Пр.123К (А-10бис),Pr.123K (A-10bis)
@@ -1497,6 +1512,7 @@ uk_a_13_mk2,A13 Mk.II,A13 Mk II
 uk_crusader_group,Crusader II/III,Crusader II/III
 uk_crusader_mk_2,Crusader II,Crusader II
 uk_crusader_mk_3,Crusader III,Crusader III
+uk_cruiser_ram_1,Ram I,Ram I
 uk_cromwell_group,Cromwell V/I,Cromwell V/I
 uk_a27m_cromwell_5,Cromwell V,Cromwell V
 uk_a27m_cromwell_1,Cromwell I,Cromwell I
@@ -1584,6 +1600,7 @@ uk_9a33_35_group,Osa/Strela,Osa/Strela
 uk_9a33bm2,▄Osa-AK,▄Osa-AK
 uk_9a35_m,▄Strela-10M,▄Strela-10M
 uk_adats_m113a3,ADATS (M113),ADATS (M113)
+uk_sky_sabre_fcs,Sky Sabre (СОЦ),Sky Sabre (TADS)
 uk_mark_v,Mark V,Mark V
 uk_sarc_mk4_a,SARC MkIVa,SARC MkIVa
 uk_marmon_herrington_mk_6_2pdr,SARC MkVI (2pdr),SARC MkVI (2pdr)
@@ -1725,7 +1742,9 @@ sea_venom_faw20,Sea Venom FAW 20,Sea Venom FAW 20
 scimitar_f1,Scimitar F Mk.1,Scimitar F Mk.1
 harrier_frs1_early,Sea Harrier FRS.1 (e),Sea Harrier FRS.1 (e)
 f-4k,Phantom FG.1,Phantom FG.1
+fa_18a_raaf,▄F/A-18A,▄F/A-18A
 sea_harrier_fa2,Sea Harrier FA 2,Sea Harrier FA 2
+fa_18a_hug_2_raaf,▄AF/A-18A Late,▄AF/A-18A Late
 v_156_b1,Chesapeake Mk I,Chesapeake Mk I
 blenheim_group,Blenheim/Beaufort,Blenheim/Beaufort
 blenheim_mkiv,Blenheim Mk.IV,Blenheim Mk IV
@@ -1739,6 +1758,8 @@ tempest_mkv_vikkers,Tempest Mk.V (Vickers P),Tempest Mk V (Vickers P)
 mosquito_group,Mosquito,Mosquito
 mosquito_fb_mk6,Mosquito FB.Mk.VI,Mosquito FB Mk VI
 mosquito_fb_mk18,Mosquito FB.Mk.XVIII,Mosquito FB Mk XVIII
+mosquito_nf_mk2,Mosquito NF.Mk.II,Mosquito NF.Mk.II
+mosquito_tr_mk33,Mosquito TR.Mk.33,Mosquito TR.Mk.33
 brigand_group,Brigand/Whirlwind,Brigand/Whirlwind
 brigand_b1,Brigand B 1,Brigand B 1
 whirlwind_mk1,Whirlwind Mk I,Whirlwind Mk I
@@ -1807,6 +1828,7 @@ harrier_gr1,Harrier GR.1,Harrier GR.1
 harrier_frs1,Sea Harrier FRS.1,Sea Harrier FRS.1
 f-4jk,F-4J(UK) Phantom II,F-4J(UK) Phantom II
 mig-21_bison,▄MiG-21 Bison,▄MiG-21 Bison
+cf_188a_canada,CF-188A,CF-188A
 spad_13,SPAD S.XIII,SPAD S.XIII
 swordfish_mk2,Swordfish Mk.II,Swordfish Mk II
 pby-5a_raf,▄Catalina Mk. IIIa,▄Catalina Mk IIIa
@@ -1846,6 +1868,7 @@ uk_battleship_marlborough,HMS Marlborough,HMS Marlborough
 uk_battleship_q_elizabet_class_warspite,HMS Warspite,HMS Warspite
 uk_battleship_vanguard,HMS Vanguard,HMS Vanguard
 uk_destroyer_g_grafton,HMS Grafton,HMS Grafton
+uk_destroyer_st_class_saumarez,HMS Saumarez,HMS Saumarez
 uk_destroyer_hunt_4series,HMS Brissenden,HMS Brissenden
 uk_destroyer_k_class,HMS Kelvin,HMS Kelvin
 uk_destroyer_daring_group,HMS Diana/HMS Daring,HMS Diana/HMS Daring
@@ -1879,6 +1902,7 @@ uk_cruiser_belfast,HMS Belfast,HMS Belfast
 uk_battleship_iron_duke,HMS Iron Duke,HMS Iron Duke
 uk_battlecruiser_renown,HMS Renown,HMS Renown
 uk_battleship_q_elizabet_class_barham,HMS Barham,HMS Barham
+uk_battleship_nelson,HMS Nelson,HMS Nelson
 uk_destroyer_clemson_montgomery_g95,HMS Montgomery,HMS Montgomery
 uk_destroyer_g_garland,ORP Garland,ORP Garland
 uk_destroyer_battle_cadiz,HMS Cadiz,HMS Cadiz
@@ -1985,10 +2009,14 @@ jp_type_95_so_ki,So-Ki,So-Ki
 jp_m19,▅M19A1,▅M19A1
 jp_m42_duster,▅M42,▅M42
 jp_sub_i_ii_20mm,SUB-I-II,SUB-I-II
+jp_m163_vulcan,▄M163,▄M163
 jp_type_87,Type 87,Type 87
 jp_type_93,Type 93,Type 93
 jp_type_81_tansam,Type 81 (C),Type 81 (C)
 jp_type_81_tansam_fcs,Tan-SAM Kai (СОЦ),Tan-SAM Kai (TADS)
+jp_m60a3_tts,▄M60A3 TTS,▄M60A3 TTS
+jp_stingray,▄Stingray,▄Stingray
+jp_oplot_t,BM Oplot-T,BM Oplot-T
 jp_type_95_ha_go_commander,Ha-Go Commander,Ha-Go Commander
 jp_type_95_heavy,Ro-Go,Ro-Go
 jp_type_97_chi_ha_12cm,Chi-Ha Short Gun,Chi-Ha Short Gun
@@ -2008,6 +2036,7 @@ uh_1b_japan,▅UH-1B,▅UH-1B
 ah_1s_early,▅AH-1E,▅AH-1E
 ah_1s_late,AH-1S,AH-1S
 ah_64d_japan,AH-64DJP,AH-64DJP
+mi_35p_indonesia,◥Mi-35,◥Mi-35
 ah_1s,AH-1S Kisarazu,AH-1S Kisarazu
 f1m2,F1M2,F1M2
 a5m4,A5M4,A5M4
@@ -2093,6 +2122,7 @@ alpha_jet_a_thailand,▄Alpha Jet A,▄Alpha Jet A
 alpha_jet_th_phase_1,▄Alpha Jet TH,▄Alpha Jet TH
 f-5a_thailand,▄F-5A,▄F-5A
 f-5t_thailand,▄F-5T SCU,▄F-5T SCU
+f-5th_thailand,▄F-5TH TCU,▄F-5TH TCU
 f_16a_block_15_ocu_thailand,▄F-16A OCU,▄F-16A OCU
 saab_jas39c_thailand,▄JAS39C,▄JAS39C
 b5n2,B5N2,B5N2
@@ -2164,6 +2194,7 @@ j6k1,J6K1,J6K1
 f-4ej_adtw,F-4EJ ADTW,F-4EJ ADTW
 jp_destroyer_momi,IJN Momi,IJN Momi
 jp_destroyer_matsu,IJN Matsu,IJN Matsu
+jp_minelayer_tsugaru,IJN Tsugaru,IJN Tsugaru
 jp_destroyer_harukaze,JDS Harukaze (DD-101),JDS Harukaze (DD-101)
 jp_destroyer_murasame,JDS Murasame (DD-107),JDS Murasame (DD-107)
 jp_destroyer_akizuki,IJN Akizuki,IJN Akizuki
@@ -2190,6 +2221,7 @@ jp_battleship_ise,IJN Ise,IJN Ise
 jp_battlecruiser_amagi,IJN Amagi,IJN Amagi
 jp_armoredcruiser_ikoma,IJN Ikoma,IJN Ikoma
 jp_battleship_settsu,IJN Settsu,IJN Settsu
+jp_battlecruiser_hiei,IJN Hiei,IJN Hiei
 jp_battlecruiser_kongo,IJN Kongo,IJN Kongo
 jp_battleship_mutsu,IJN Mutsu,IJN Mutsu
 jp_destroyer_satsuki,IJN Satsuki,IJN Satsuki
@@ -2257,6 +2289,7 @@ cn_m_41d,M41D,M41D
 cn_m60a3_tts,␗M60A3 TTS,␗M60A3 TTS
 cn_cm11,CM11,CM11
 cn_mbt2000,MBT-2000,MBT-2000
+cn_vt_4,VT4,VT4
 cn_wz_1001,WZ1001(E) LCT,WZ1001(E) LCT
 cn_vt_4b,VT4A1,VT4A1
 cn_t_26_1940,␗Т-26,␗T-26
@@ -2304,6 +2337,7 @@ cn_m8_scott,␗M8 HMC,␗M8 HMC
 cn_su_76m_1943,␗SU-76M,␗SU-76M
 cn_lvt_4_zis_2,LVT(A)(4) (ZiS-2),LVT(A)(4) (ZiS-2)
 cn_m10,␗M10 GMC,␗M10 GMC
+cn_m55,␗M55,␗M55
 cn_isu_152,␗ISU-152,␗ISU-152
 cn_m36_isu_group,M36/ISU-122,M36/ISU-122
 cn_m36,␗M36 GMC,␗M36 GMC
@@ -2436,6 +2470,7 @@ p-40c_china,H-81A-2,H-81A-2
 ki-45_hei_tei_china,␗Ki-45 Hei/Tei,␗Ki-45 Hei/Tei
 a6m2_zero_china,␗A6M2,␗A6M2
 a6m5_zero_china,␗A6M5,␗A6M5
+quing_6,Qing-6,Qing-6
 ki_84_ko_china,␗Ki-84 Ko,␗Ki-84 Ko
 f-84g-31-re_china,␗F-84G-31-RE,␗F-84G-31-RE
 mig-17_f5,Shenyang F-5,Shenyang F-5
@@ -2502,6 +2537,7 @@ it_9a33_35_group,Osa/Strela,Osa/Strela
 it_9a33bm3,▄Osa-AKM,▄Osa-AKM
 it_9a35_m,▄Strela-10M,▄Strela-10M
 it_otomatic,OTOMATIC,OTOMATIC
+it_samp_t_fcs,FSAF SAMP/T (СОЦ),FSAF SAMP/T (TADS)
 it_l3_cc,L3/33 CC,L3/33 CC
 it_semovente_l40,47/32 L40,47/32 L40
 it_lancia3ro_100,Lancia 3Ro (100/17),Lancia 3Ro (100/17)
@@ -2512,6 +2548,7 @@ it_semovente_m42_75_34,75/34 M42,75/34 M42
 it_semovente_m43_105_75_group,M43 105/75,M43 105/75
 it_semovente_m43_105,105/25 M43,105/25 M43
 it_semovente_m43_75_34,75/34 M43,75/34 M43
+it_m55,▄M55,▄M55
 it_semovente_stug_group,M41M/StuG,M41M/StuG
 it_semovente_m41m_90,90/53 M41M,90/53 M41M
 it_stug_iii_ausf_g,▄StuG III G,▄StuG III G
@@ -2720,6 +2757,7 @@ it_mas_stefano_turr,Stefano Turr,Stefano Turr
 it_a1_vosper,GIS 811,GIS 811
 it_ms473_2a,MS-472,MS-472
 it_mc490_folgore,MC-490,MC-490
+it_mc492_baleno,Baleno MC-492,Baleno MC-492
 it_alano_9851,Alano,Alano
 it_p494_saetta,Saetta P-494,Saetta P-494
 it_mas_classe500_3,MAS 555,MAS 555
@@ -2810,12 +2848,14 @@ fr_amx_30_dca,AMX-30 S DCA,AMX-30 S DCA
 fr_vab_santal,SANTAL,SANTAL
 fr_amx_30_roland,Roland 1,Roland 1
 fr_crotale_ng,▄ItO 90M,▄ItO 90M
+fr_samp_t_fcs,FSAF SAMP/T (Mamba) (СОЦ),FSAF SAMP/T (Mamba) (TADS)
 fr_amr_35_zt3,AMR.35 ZT3,AMR.35 ZT3
 fr_lorraine_37l,Lorraine 37L,Lorraine 37L
 fr_somua_sau40,SAu 40,SAu 40
 fr_m4a3_105_sherman,▄M4A3 (105),▄M4A3 (105)
 fr_m10,▄M10 GMC,▄M10 GMC
 fr_m44,▄M44,▄M44
+fr_m55,▄M55,▄M55
 fr_m36b2_cefeo,▄M36B2,▄M36B2
 fr_lorraine_elc_group,Lorraine/ELC,Lorraine/ELC
 fr_lorraine_100,CA Lorraine,CA Lorraine
@@ -2969,7 +3009,7 @@ so_4050_vautour_2n,S.O.4050 Vautour IIN,S.O.4050 Vautour IIN
 mirage_milan,Milan,Milan
 nf_5a_netherlands,◘NF-5A,◘NF-5A
 mirage_f1c_200,Mirage F1C-200,Mirage F1C-200
-mirage_2000c_s4,Mirage 2000C-S4,Mirage 2000C-S4
+f_16a_block_15_ocu_belgium,▄F-16A OCU,▄F-16A OCU
 late_298d,Late 298D,Late 298D
 d_371_hs9,D.371 H.S.9,D.371 H.S.9
 gl_832,GL.832HY,GL.832HY
@@ -2981,6 +3021,7 @@ fw-190a-8_france,NC.900,NC.900
 f-84f_iaf,F-84F IAF,F-84F IAF
 so_4050_vautour_2a_iaf,Vautour IIA IDF/AF,Vautour IIA IDF/AF
 jaguar_e,Jaguar E,Jaguar E
+mirage_2000c_s4,Mirage 2000C-S4,Mirage 2000C-S4
 fr_destroyer_bourrasque_class_bourrasque,Bourrasque,Bourrasque
 fr_destroyer_hunt_3series,La Combattante,La Combattante
 fr_destroyer_aigle_class_vautour,Vautour,Vautour
@@ -3002,6 +3043,7 @@ fr_cruiser_jeanne_darc,Jeanne d'Arc,Jeanne d'Arc
 fr_cruiser_dugauy_class_primaguet,Primauguet,Primauguet
 fr_cruiser_emile_bertin,Emile Bertin,Emile Bertin
 fr_cruiser_la_galissoniere_class_la_galissoniere,La Galissonnière,La Galissonnière
+fr_cruiser_la_galissoniere_class_gloire,Gloire,Gloire
 fr_battleship_bretagne_class_bretagne,Bretagne,Bretagne
 fr_destroyer_jaguar_class_panthere,Panthere,Panthere
 fr_destroyer_bourrasque_class_tornade,Tornade,Tornade
@@ -3018,6 +3060,7 @@ fr_vtb14,VTB-14,VTB-14
 fr_vtb12_mod,VTB-12,VTB-12
 fr_vtb18,VTB-18,VTB-18
 fr_type40k_vedette,VTB-19,VTB-19
+fr_adroit_class,L'Intrépide,L'Intrépide
 fr_arras_class_arras,Arras,Arras
 fr_vlt1,VLT-1,VLT-1
 fr_p730_combattante,La Combattante,La Combattante
@@ -3030,6 +3073,7 @@ fr_frigate_croix_de_lorraine_class_la_surprise,La Surprise,La Surprise
 fr_vtb10,VTB-10,VTB-10
 fr_vtb9,VTB-9,VTB-9
 fr_arras_class_amiens,Amiens,Amiens
+fr_marne_class_aisne,Aisne,Aisne
 fr_vlt2,VLT-2,VLT-2
 sw_strv_m31,Strv m/31,Strv m/31
 sw_bt_42,BT-42,BT-42
@@ -3040,6 +3084,7 @@ sw_pvkv_ii,Pvkv II,Pvkv II
 sw_pbv_501,Pbv 501,Pbv 501
 sw_ikv_91,Ikv 91,Ikv 91
 sw_landsverk_ush_405,U-SH 405,U-SH 405
+sw_cv_90105,CV 90105 TML,CV 90105 TML
 sw_ikv_91_105,Ikv 91-105,Ikv 91-105
 sw_cv_90_ifv_group,CV30FIN/Strf 40B,CV30FIN/Strf 40B
 sw_cv_9030_fin,CV 9030FIN,CV 9030FIN
@@ -3162,6 +3207,10 @@ saab_b17bs,S17BS,S17BS
 saab_b17a_group,B17,B17
 saab_b17b,B17B,B17B
 saab_b17a,B17A,B17A
+mosquito_f_mk2_norway,◢Mosquito F.Mk.II,◢Mosquito F.Mk.II
+mosquito_norway_group,◢Mosquito,◢Mosquito
+mosquito_fb_mk6_norway,◢Mosquito FB.Mk.VI,◢Mosquito FB Mk VI
+mosquito_fb_mk6_ash_norway,◢Mosquito FB.Mk.VI ASH,◢Mosquito FB Mk VI ASH
 saab_a21a_3,A21A-3,A21A-3
 saab_a21rb,A21RB,A21RB
 saab_j29b,A29B,A29B
@@ -3307,6 +3356,7 @@ so_4050_vautour_2a_israel_iaf,Vautour IIA,Vautour IIA
 so_4050_vautour_2n_iaf,Vautour IIN,Vautour IIN
 nesher,Nesher,Nesher
 f_16d_block_40_barak_2,F-16D Barak II,F-16D Barak II
+f_16i_sufa,F-16I Sufa,F-16I Sufa
 f_15i_raam,F-15I Ra’am,F-15I Ra’am
 spitfire_lf_mk9e_weisman,Spitfire LF Mk.IXe Вейцмана,Weizman's Spitfire LF Mk.IXe
 meteor_frmk9_iaf,Meteor FR.9,Meteor FR.9
