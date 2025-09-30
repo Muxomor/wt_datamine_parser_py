@@ -2,7 +2,7 @@
 
 This project extracts and formats War Thunder vehicle data from datamined files into a structured format for database import. It sources its data from the [War Thunder Datamine](https://github.com/gszabi99/War-Thunder-Datamine) project.
 
-The generated data is used by the [War Thunder Experience Calculator](https://github.com/Muxomor?tab=repositories) and requires the database setup from the [WTExpCalc_db](https://github.com/Muxomor/WTExpCalc_db) repository.
+The generated data is used by the [War Thunder Experience Calculator](https://github.com/Muxomor/WTExpCalc) and requires the database setup from the [WTExpCalc_db](https://github.com/Muxomor/WTExpCalc_db) repository.
 
 -----
 
