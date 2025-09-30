@@ -90,7 +90,7 @@ class LocalizationParser:
                         english_name = russian_name
                     
                     storage_key = None
-                    priority = 999  # Высокий приоритет = низкое число
+                    priority = 999 
                     
                     # Обрабатываем записи с суффиксом _shop (высший приоритет)
                     if unit_id.endswith('_shop'):

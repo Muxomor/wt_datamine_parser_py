@@ -89,7 +89,7 @@ def main(config_path: Optional[str] = None):
             print(f"Ошибка при парсинге misc данных: {e}")
             print("Основные этапы завершены, продолжаем с объединением данных...")
         
-        # 5. НОВОЕ: Запускаем объединение данных
+        # 5. Запускаем объединение данных
         print("\nЗапуск объединения данных и создания зависимостей...")
         merger = ModernNodesMerger(config_path)
         
@@ -136,10 +136,10 @@ def main(config_path: Optional[str] = None):
         print("   - nodes_merger_debug.log (лог объединения данных)")
         
     except KeyboardInterrupt:
-        print("\n⚠️ Операция прервана пользователем")
+        print("\nОперация прервана пользователем")
         sys.exit(1)
     except Exception as e:
-        print(f"\n❌ Критическая ошибка: {e}")
+        print(f"\nКритическая ошибка: {e}")
         sys.exit(1)
 
 
@@ -400,7 +400,7 @@ def main_merge_only(config_path: Optional[str] = None):
             vehicles_count = len([item for item in merged_data if item.get('type') == 'vehicle'])
             folders_count = len([item for item in merged_data if item.get('type') == 'folder'])
             
-            print(f"\n📈 Статистика:")
+            print(f"\nСтатистика:")
             print(f"   - Всего узлов: {len(merged_data)}")
             print(f"   - Техника: {vehicles_count}")
             print(f"   - Папки: {folders_count}")
@@ -410,7 +410,7 @@ def main_merge_only(config_path: Optional[str] = None):
         print("\nОперация прервана пользователем")
         sys.exit(1)
     except Exception as e:
-        print(f"\n❌ Критическая ошибка: {e}")
+        print(f"\nКритическая ошибка: {e}")
         sys.exit(1)
 
 

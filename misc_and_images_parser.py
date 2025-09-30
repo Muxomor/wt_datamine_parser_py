@@ -250,9 +250,9 @@ class MiscAndImagesParser:
             print(f"\nПроверка тестовых ID из shop.csv:")
             for test_id in test_ids:
                 if test_id in available_images:
-                    print(f"  ✅ {test_id} НАЙДЕН -> {available_images[test_id]}")
+                    print(f"  {test_id} НАЙДЕН -> {available_images[test_id]}")
                 else:
-                    print(f"  ❌ {test_id} НЕ НАЙДЕН")
+                    print(f"  {test_id} НЕ НАЙДЕН")
                     # Ищем похожие по частям имени
                     parts = test_id.replace('_', ' ').replace('-', ' ').split()
                     similar = []
@@ -264,7 +264,7 @@ class MiscAndImagesParser:
                         
             return available_images
         except Exception as e:
-            print(f"❌ Ошибка отладки GitHub API: {e}")
+            print(f"Ошибка отладки GitHub API: {e}")
             return {}
     
     def debug_search_strategies(self, unit_id: str, available_images: Dict[str, str]):
@@ -307,11 +307,11 @@ class MiscAndImagesParser:
         found = False
         for variant in unique_variants:
             if variant in available_images:
-                print(f"  ✅ НАЙДЕН: {variant} -> {available_images[variant]}")
+                print(f"  НАЙДЕН: {variant} -> {available_images[variant]}")
                 found = True
                 break
             else:
-                print(f"  ❌ НЕ НАЙДЕН: {variant}")
+                print(f"  НЕ НАЙДЕН: {variant}")
         
         if not found:
             # Ищем частично похожие
@@ -554,14 +554,14 @@ class MiscAndImagesParser:
                 response = requests.head(cdn_url, timeout=10)
                 
                 if response.status_code == 200:
-                    self.logger.log(f"  ✅ CDN ДОСТУПЕН: {test_id} -> {response.status_code}")
+                    self.logger.log(f"  CDN ДОСТУПЕН: {test_id} -> {response.status_code}")
                 else:
-                    self.logger.log(f"  ❌ CDN НЕДОСТУПЕН: {test_id} -> {response.status_code}")
+                    self.logger.log(f"  CDN НЕДОСТУПЕН: {test_id} -> {response.status_code}")
                     
             except requests.Timeout as e:
-                self.logger.log(f"  ⏰ ТАЙМАУТ CDN: {test_id} -> {e}")
+                self.logger.log(f"  ТАЙМАУТ CDN: {test_id} -> {e}")
             except requests.RequestException as e:
-                self.logger.log(f"  🔥 ОШИБКА CDN: {test_id} -> {e}")
+                self.logger.log(f"  ОШИБКА CDN: {test_id} -> {e}")
                 
         self.logger.log("=== КОНЕЦ ТЕСТА CDN ===\n")
     
@@ -666,7 +666,7 @@ class MiscAndImagesParser:
                 self.logger.log(f"Ошибка при обработке изображений техники: {e}", 'error')
                 self.logger.log("Продолжаем с обработкой версии...", 'warning')
             
-            # НОВОЕ: Обрабатываем версию данных
+            # Обрабатываем версию данных
             try:
                 version_raw_data = self.fetch_version_data()
                 version_data = self.process_version_data(version_raw_data)

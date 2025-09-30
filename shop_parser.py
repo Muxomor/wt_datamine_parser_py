@@ -286,11 +286,11 @@ class ShopParser:
         if item_name.endswith('_group'):
             return True
         
-        # 2. НОВОЕ: Если есть slaveUnit - это НЕ группа, а master-unit
+        # 2. Если есть slaveUnit - это НЕ группа, а master-unit
         if 'slaveUnit' in item_data:
             return False
             
-        # 3. УЛУЧШЕННОЕ: Проверяем наличие вложенных ЮНИТОВ (не служебных полей)
+        # 3. Проверяем наличие вложенных ЮНИТОВ (не служебных полей)
         nested_vehicle_items = []
         for key, value in item_data.items():
             if (key not in Constants.SERVICE_FIELDS and 
@@ -668,7 +668,7 @@ class ShopParser:
             'order_in_folder': None,
             'predecessor': predecessor if not is_premium else '',
             'original_column_pos': original_column_pos,
-            'have_prem_flag': self.has_premium_flag(item_info),  # НОВОЕ ПОЛЕ
+            'have_prem_flag': self.has_premium_flag(item_info),  
             # Координаты будут назначены позже
             'column_index': 0,  # временное значение
             'row_index': 0      # временное значение
