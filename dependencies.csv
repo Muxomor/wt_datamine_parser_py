@@ -80,6 +80,7 @@ us_m10,us_m4a3_105_sherman
 us_m44,us_m10
 us_m55,us_m44
 us_m36_group,us_m55
+us_m36,us_m36_group
 us_m36b2,us_m36
 us_m109a1,us_m36_group
 us_m56_scorpion,us_m109a1
@@ -406,6 +407,7 @@ germ_stug_iii_ausf_f,germ_stuh_iii_ausf_g
 germ_stug_iii_ausf_g,germ_marder_stuh_group
 germ_m55,germ_stug_iii_ausf_g
 germ_jagdpanzer_group,germ_m55
+germ_jgdpz_iv_l48,germ_jagdpanzer_group
 germ_jgdpz_38t,germ_jgdpz_iv_l48
 germ_pz_iv_l70,germ_jagdpanzer_group
 germ_jagdpanther_group,germ_pz_iv_l70
@@ -702,9 +704,10 @@ ussr_su_100_1945,ussr_isu_122s
 ussr_2s_group,ussr_isu_su_group
 ussr_2s1,ussr_2s_group
 ussr_2s3m,ussr_2s1
-ussr_su_122_54,ussr_2s_group
+ussr_su_object_group,ussr_2s_group
+ussr_su_122_54,ussr_su_object_group
 ussr_object_268,ussr_su_122_54
-ussr_2s19_m1,ussr_object_268
+ussr_2s19_m1,ussr_su_object_group
 ussr_it_1,ussr_2s19_m1
 ussr_9p149,ussr_it_1
 ussr_object_775,ussr_9p149
@@ -939,6 +942,7 @@ uk_crusader_mk_2,uk_crusader_group
 uk_crusader_mk_3,uk_crusader_mk_2
 uk_cruiser_ram_1,uk_crusader_group
 uk_cromwell_group,uk_cruiser_ram_1
+uk_a27m_cromwell_5,uk_cromwell_group
 uk_a27m_cromwell_1,uk_a27m_cromwell_5
 uk_sherman_ii,uk_cromwell_group
 uk_sherman_vc_firefly,uk_sherman_ii
@@ -1656,6 +1660,7 @@ it_semovente_m43_105,it_semovente_m43_105_75_group
 it_semovente_m43_75_34,it_semovente_m43_105
 it_m55,it_semovente_m43_105_75_group
 it_semovente_stug_group,it_m55
+it_semovente_m41m_90,it_semovente_stug_group
 it_stug_iii_ausf_g,it_semovente_m41m_90
 it_semovente_m43_75_46,it_semovente_stug_group
 it_m36b1,it_semovente_m43_75_46

@@ -1,19 +1,19 @@
 Запуск полного процесса объединения данных...
 Начало объединения данных...
-Загружено 3367 записей из shop.csv
+Загружено 3369 записей из shop.csv
 Загрузка вспомогательных данных...
-Загружено 3367 записей из localization.csv
-Загружено локализаций: 3367
-Загружено 2996 записей из wpcost.csv
-Загружено экономических данных: 2996
-Загружено 3367 записей из shop_images.csv
-Загружено изображений: 3367
+Загружено 3369 записей из localization.csv
+Загружено локализаций: 3369
+Загружено 2997 записей из wpcost.csv
+Загружено экономических данных: 2997
+Загружено 3369 записей из shop_images.csv
+Загружено изображений: 3369
 Объединение завершено:
-  Всего записей: 3367
-  Найдено локализаций: 3367 (100.0%)
-  Найдено экономических данных: 2996 (89.0%)
-  Найдено изображений: 3367 (100.0%)
-Объединенные данные (3367 записей) сохранены в vehicles_merged.csv
+  Всего записей: 3369
+  Найдено локализаций: 3369 (100.0%)
+  Найдено экономических данных: 2997 (89.0%)
+  Найдено изображений: 3369 (100.0%)
+Объединенные данные (3369 записей) сохранены в vehicles_merged.csv
 Извлечение зависимостей...
   Зависимость: us_m3_stuart -> us_m2a4
   Зависимость: us_m3a1_stuart -> us_m3_stuart
@@ -96,7 +96,7 @@
   Зависимость: us_m44 -> us_m10
   Зависимость: us_m55 -> us_m44
   Зависимость: us_m36_group -> us_m55
-  Предшественник не найден: us_m36 -> futurereqair
+  Зависимость: us_m36 -> us_m36_group
   Зависимость: us_m36b2 -> us_m36
   Зависимость: us_m109a1 -> us_m36_group
   Зависимость: us_m56_scorpion -> us_m109a1
@@ -423,7 +423,7 @@
   Зависимость: germ_stug_iii_ausf_g -> germ_marder_stuh_group
   Зависимость: germ_m55 -> germ_stug_iii_ausf_g
   Зависимость: germ_jagdpanzer_group -> germ_m55
-  Предшественник не найден: germ_jgdpz_iv_l48 -> futurereqair
+  Зависимость: germ_jgdpz_iv_l48 -> germ_jagdpanzer_group
   Зависимость: germ_jgdpz_38t -> germ_jgdpz_iv_l48
   Зависимость: germ_pz_iv_l70 -> germ_jagdpanzer_group
   Зависимость: germ_jagdpanther_group -> germ_pz_iv_l70
@@ -720,9 +720,10 @@
   Зависимость: ussr_2s_group -> ussr_isu_su_group
   Зависимость: ussr_2s1 -> ussr_2s_group
   Зависимость: ussr_2s3m -> ussr_2s1
-  Зависимость: ussr_su_122_54 -> ussr_2s_group
+  Зависимость: ussr_su_object_group -> ussr_2s_group
+  Зависимость: ussr_su_122_54 -> ussr_su_object_group
   Зависимость: ussr_object_268 -> ussr_su_122_54
-  Зависимость: ussr_2s19_m1 -> ussr_object_268
+  Зависимость: ussr_2s19_m1 -> ussr_su_object_group
   Зависимость: ussr_it_1 -> ussr_2s19_m1
   Зависимость: ussr_9p149 -> ussr_it_1
   Зависимость: ussr_object_775 -> ussr_9p149
@@ -957,7 +958,7 @@
   Зависимость: uk_crusader_mk_3 -> uk_crusader_mk_2
   Зависимость: uk_cruiser_ram_1 -> uk_crusader_group
   Зависимость: uk_cromwell_group -> uk_cruiser_ram_1
-  Предшественник не найден: uk_a27m_cromwell_5 -> futurereqair
+  Зависимость: uk_a27m_cromwell_5 -> uk_cromwell_group
   Зависимость: uk_a27m_cromwell_1 -> uk_a27m_cromwell_5
   Зависимость: uk_sherman_ii -> uk_cromwell_group
   Зависимость: uk_sherman_vc_firefly -> uk_sherman_ii
@@ -1675,7 +1676,7 @@
   Зависимость: it_semovente_m43_75_34 -> it_semovente_m43_105
   Зависимость: it_m55 -> it_semovente_m43_105_75_group
   Зависимость: it_semovente_stug_group -> it_m55
-  Предшественник не найден: it_semovente_m41m_90 -> futurereqair
+  Зависимость: it_semovente_m41m_90 -> it_semovente_stug_group
   Зависимость: it_stug_iii_ausf_g -> it_semovente_m41m_90
   Зависимость: it_semovente_m43_75_46 -> it_semovente_stug_group
   Зависимость: it_m36b1 -> it_semovente_m43_75_46
@@ -2235,13 +2236,13 @@
   Зависимость: f_16i_sufa -> f_16d_block_40_barak_2
   Зависимость: f_15i_raam -> f_16i_sufa
 Извлечение зависимостей завершено:
-  Обработано узлов: 3367
-  Найдено зависимостей: 2215
-  Пустых предшественников: 1148
-  Предшественников не найдено: 4
-Зависимости (2215 записей) сохранены в dependencies.csv
+  Обработано узлов: 3369
+  Найдено зависимостей: 2220
+  Пустых предшественников: 1149
+  Предшественников не найдено: 0
+Зависимости (2220 записей) сохранены в dependencies.csv
 Полный процесс объединения данных завершен успешно!
 Итоговая статистика:
-  Узлов в дереве: 3367
-  Зависимостей: 2215
-  Покрытие зависимостями: 65.8%
+  Узлов в дереве: 3369
+  Зависимостей: 2220
+  Покрытие зависимостями: 65.9%

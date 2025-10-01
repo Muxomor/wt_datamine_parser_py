@@ -146,6 +146,7 @@ us_m6a2e1,M6A2E1,M6A2E1
 us_t29,T29,T29
 us_t114,T114,T114
 us_magach_3,▃Magach 3 (ERA),▃Magach 3 (ERA)
+us_efv_p1,EFV,EFV
 us_merkava_mk_1,▃Merkava Mk.1,▃Merkava Mk.1
 us_merkava_mk_2b_late,▃Merkava Mk.2B,▃Merkava Mk.2B
 us_xm_8,XM8,XM8
@@ -1084,6 +1085,7 @@ ussr_su_100_1945,СУ-100,SU-100
 ussr_2s_group,2С1/2С3М,2S1/2S3M
 ussr_2s1,2С1,2S1
 ussr_2s3m,2С3М,2S3M
+ussr_su_object_group,СУ/Объект,SU/Object
 ussr_su_122_54,СУ-122-54,SU-122-54
 ussr_object_268,Объект 268,Object 268
 ussr_2s19_m1,2С19М1,2S19M1

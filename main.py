@@ -516,7 +516,7 @@ if __name__ == "__main__":
             main_misc_only(config_file)
         elif flag == '--merge-only':
             main_merge_only(config_file)
-        elif flag == '--db-upload':  # НОВОЕ
+        elif flag == '--db-upload': 
             main_db_upload(config_file)
         else:
             print(f"Неизвестный флаг: {flag}")
