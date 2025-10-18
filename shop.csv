@@ -128,7 +128,8 @@ us_m1128_wolfpack,7,usa,Наземная техника,vehicle,premium,0,0,,,Fa
 us_m1_abrams_kvt,7,usa,Наземная техника,vehicle,premium,0,1,,,True
 us_m1a1_aim_abrams,7,usa,Наземная техника,vehicle,premium,0,2,,,True
 us_m1a1_hc_usmc,7,usa,Наземная техника,vehicle,premium,0,3,,,True
-us_rdf_lt,7,usa,Наземная техника,vehicle,premium,0,4,,,True
+us_m1a1_hc_usmc_sm,7,usa,Наземная техника,vehicle,premium,0,4,,,True
+us_rdf_lt,7,usa,Наземная техника,vehicle,premium,0,5,,,True
 us_lvt_a_1_trb,1,usa,Наземная техника,vehicle,premium,1,0,,,True
 us_m8_greyhound,1,usa,Наземная техника,vehicle,premium,1,1,,,True
 us_lvt_4_zis_2,2,usa,Наземная техника,vehicle,premium,1,0,,,True
@@ -649,6 +650,7 @@ germ_leopard_c2_mexas,6,germany,Наземная техника,vehicle,premium,
 germ_boxer_3105,7,germany,Наземная техника,vehicle,premium,0,0,,,True
 germ_vilkas,7,germany,Наземная техника,vehicle,premium,0,1,,,True
 germ_leopard_2a4m_can,7,germany,Наземная техника,vehicle,premium,0,2,,,True
+germ_leopard_2a4m_can_sm,7,germany,Наземная техника,vehicle,premium,0,3,,,True
 germ_leopard_2pl,8,germany,Наземная техника,vehicle,premium,0,0,,,True
 germ_sdkfz_251_10,1,germany,Наземная техника,vehicle,premium,1,0,,,True
 germ_sdkfz_234_1,1,germany,Наземная техника,vehicle,premium,1,1,,,True
@@ -1153,6 +1155,7 @@ ussr_2s38,7,ussr,Наземная техника,vehicle,premium,0,1,,,False
 ussr_t_72av_turms,7,ussr,Наземная техника,vehicle,premium,0,2,,,True
 ussr_t_80ud,7,ussr,Наземная техника,vehicle,premium,0,3,,,False
 ussr_t_80ue1,7,ussr,Наземная техника,vehicle,premium,0,4,,,True
+ussr_t_80ue1_sm,7,ussr,Наземная техника,vehicle,premium,0,5,,,True
 ussr_t_26e,1,ussr,Наземная техника,vehicle,premium,1,0,,,True
 ussr_rbt_5,1,ussr,Наземная техника,vehicle,premium,1,1,,,True
 ussr_ba_11,1,ussr,Наземная техника,vehicle,premium,1,2,,,True

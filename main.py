@@ -427,7 +427,7 @@ def print_help():
     print("  python main.py --wpcost-only           - только парсинг wpcost")
     print("  python main.py --misc-only             - только парсинг misc данных (ранги + флаги + изображения)")
     print("  python main.py --merge-only            - только объединение данных (требует готовые CSV)")
-    print("  ℹ️  python main.py --db-upload              - загрузка данных в БД через PostgREST (требует готовые CSV)")
+    print("  python main.py --db-upload              - загрузка данных в БД через PostgREST (требует готовые CSV)")
     print("  python main.py --help                  - показать эту справку")
     print()
     print("Требования:")

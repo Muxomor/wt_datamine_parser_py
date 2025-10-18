@@ -128,6 +128,7 @@ us_m1128_wolfpack,M1128 Wolfpack,M1128 Wolfpack
 us_m1_abrams_kvt,M1 KVT,M1 KVT
 us_m1a1_aim_abrams,M1A1 AIM,M1A1 AIM
 us_m1a1_hc_usmc,M1A1 Click-Bait,M1A1 Click-Bait
+us_m1a1_hc_usmc_sm,◍M1A1 HC,◍M1A1 HC
 us_rdf_lt,RDF/LT,RDF/LT
 us_lvt_a_1_trb,○LVT(A)(1),○LVT(A)(1)
 us_m8_greyhound,M8 LAC,M8 LAC
@@ -649,6 +650,7 @@ germ_leopard_c2_mexas,C2A1,C2A1
 germ_boxer_3105,Boxer MGS,Boxer MGS
 germ_vilkas,Vilkas,Vilkas
 germ_leopard_2a4m_can,Leopard 2A4M,Leopard 2A4M
+germ_leopard_2a4m_can_sm,◍Leopard 2A4M,◍Leopard 2A4M
 germ_leopard_2pl,Leopard 2PL,Leopard 2PL
 germ_sdkfz_251_10,Sd.Kfz.251/10,Sd.Kfz.251/10
 germ_sdkfz_234_1,Sd.Kfz.234/1,Sd.Kfz.234/1
@@ -1153,6 +1155,7 @@ ussr_2s38,2С38,2S38
 ussr_t_72av_turms,Т-72АВ (TURMS-T),T-72AV (TURMS-T)
 ussr_t_80ud,Т-80УД,T-80UD
 ussr_t_80ue1,Т-80У-Е1,Т-80U-Е1
+ussr_t_80ue1_sm,◍Т-80У-Е1,◍Т-80U-Е1
 ussr_t_26e,Т-26Э,T-26E
 ussr_rbt_5,РБТ-5,RBT-5
 ussr_ba_11,БА-11,BA-11

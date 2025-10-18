@@ -2054,7 +2054,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 7
-Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_sl_amraam_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_launcher'}
+Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'jp_type_81_tansam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
   ussr_buk_m3_fcs -> ussr_buk_m3_launcher
@@ -2441,7 +2441,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
         ОТЛАДКА: get_group_items добавлен us_m4a3e8_76w_sherman_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен us_m18_hellcat_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен us_skink_aa_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 18/31 = 0.58, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 19/32 = 0.59, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника us_m2a4_1st_armor_div, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m2a4_1st_armor_div имеет reqAir='', предшественника нет
@@ -2536,11 +2536,14 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ОТЛАДКА: Техника us_m1a1_hc_usmc, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m1a1_hc_usmc имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_m1a1_hc_usmc с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника us_m1a1_hc_usmc_sm, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника us_m1a1_hc_usmc_sm имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника us_m1a1_hc_usmc_sm с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника us_rdf_lt, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_rdf_lt имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_rdf_lt с предшественником '', статус: premium, have_prem_flag: True
       ПРОПУСК: us_sl_amraam_launcher является slave-юнитом
-    Столбец 5: обработано 31 элементов
+    Столбец 5: обработано 32 элементов
       ОТЛАДКА: Премиум техники в колонке: 22/26 = 0.85, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника us_lvt_a_1_trb, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -3835,7 +3838,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ОТЛАДКА: Техника us_flagstaff_pgh1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_flagstaff_pgh1 с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 3 элементов
-Обработано 481 элементов для usa
+Обработано 482 элементов для usa
 Обработка страны: germany
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_ausf_F с order=0
@@ -4422,7 +4425,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ОТЛАДКА: Техника germ_wiesel_1_tow зависит от germ_raketenjagdpanzer_2_hot
       ОТЛАДКА: Добавлена техника germ_wiesel_1_tow с предшественником 'germ_raketenjagdpanzer_2_hot', статус: standard, have_prem_flag: False
     Столбец 4: обработано 30 элементов
-      ОТЛАДКА: Премиум техники в колонке: 16/30 = 0.53, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 17/31 = 0.55, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника germ_pzkpfw_35t_romania_mare, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_pzkpfw_35t_romania_mare имеет reqAir='', предшественника нет
@@ -4511,11 +4514,14 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ОТЛАДКА: Техника germ_leopard_2a4m_can, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_leopard_2a4m_can имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_leopard_2a4m_can с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника germ_leopard_2a4m_can_sm, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника germ_leopard_2a4m_can_sm имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника germ_leopard_2a4m_can_sm с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника germ_leopard_2pl, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника germ_leopard_2pl имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_leopard_2pl с предшественником '', статус: premium, have_prem_flag: True
       ПРОПУСК: germ_iris_slm_launcher является slave-юнитом
-    Столбец 5: обработано 30 элементов
+    Столбец 5: обработано 31 элементов
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_east с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_west с order=1
         ОТЛАДКА: get_group_items добавлен germ_flakpanzer_IV_Ostwind_2_net с order=2
@@ -5786,7 +5792,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ОТЛАДКА: Техника germ_frigate_koln_lubeck имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника germ_frigate_koln_lubeck с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 2 элементов
-Обработано 505 элементов для germany
+Обработано 506 элементов для germany
 Обработка страны: ussr
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен ussr_t_34_1941_l_11 с order=0
@@ -6301,7 +6307,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
         ОТЛАДКА: get_group_items добавлен ussr_is_1_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен ussr_t_34_85_zis_53_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен ussr_sdkfz_251_21_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 21/38 = 0.55, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 22/39 = 0.56, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ussr_t_26_1940_1st_GvTBr, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_26_1940_1st_GvTBr имеет reqAir='', предшественника нет
@@ -6420,8 +6426,11 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ОТЛАДКА: Техника ussr_t_80ue1, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_80ue1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_80ue1 с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника ussr_t_80ue1_sm, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника ussr_t_80ue1_sm имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника ussr_t_80ue1_sm с предшественником '', статус: premium, have_prem_flag: True
       ПРОПУСК: ussr_buk_m3_launcher является slave-юнитом
-    Столбец 5: обработано 38 элементов
+    Столбец 5: обработано 39 элементов
       ОТЛАДКА: Премиум техники в колонке: 28/31 = 0.90, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ussr_t_26E, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -7756,7 +7765,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ОТЛАДКА: Техника ussr_mpk_pr12412p имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_mpk_pr12412p с предшественником '', статус: premium, have_prem_flag: False
     Столбец 4: обработано 5 элементов
-Обработано 524 элементов для ussr
+Обработано 525 элементов для ussr
 Обработка страны: britain
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
@@ -14998,17 +15007,19 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       us_m901_itv: [0, 0] (элемент)
       us_xm1_chrysler: [0, 1] (элемент)
       us_xm1_gm: [0, 2] (элемент)
-    Ранг 7: 5 элементов, начинаем с row_index=0
+    Ранг 7: 6 элементов, начинаем с row_index=0
         Отдельный элемент: us_m1128_wolfpack
         Отдельный элемент: us_m1_abrams_kvt
         Отдельный элемент: us_m1a1_aim_abrams
         Отдельный элемент: us_m1a1_hc_usmc
+        Отдельный элемент: us_m1a1_hc_usmc_sm
         Отдельный элемент: us_rdf_lt
       us_m1128_wolfpack: [0, 0] (элемент)
       us_m1_abrams_kvt: [0, 1] (элемент)
       us_m1a1_aim_abrams: [0, 2] (элемент)
       us_m1a1_hc_usmc: [0, 3] (элемент)
-      us_rdf_lt: [0, 4] (элемент)
+      us_m1a1_hc_usmc_sm: [0, 4] (элемент)
+      us_rdf_lt: [0, 5] (элемент)
   Обработка столбца: usa/Наземная техника/col_6/premium_True
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: us_lvt_a_1_trb
@@ -16092,13 +16103,15 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       germ_thyssen_henschel_tam_2ip: [0, 0] (элемент)
       germ_leopard_a1a1_120: [0, 1] (элемент)
       germ_leopard_c2_mexas: [0, 2] (элемент)
-    Ранг 7: 3 элементов, начинаем с row_index=0
+    Ранг 7: 4 элементов, начинаем с row_index=0
         Отдельный элемент: germ_boxer_3105
         Отдельный элемент: germ_vilkas
         Отдельный элемент: germ_leopard_2a4m_can
+        Отдельный элемент: germ_leopard_2a4m_can_sm
       germ_boxer_3105: [0, 0] (элемент)
       germ_vilkas: [0, 1] (элемент)
       germ_leopard_2a4m_can: [0, 2] (элемент)
+      germ_leopard_2a4m_can_sm: [0, 3] (элемент)
     Ранг 8: 1 элементов, начинаем с row_index=0
         Отдельный элемент: germ_leopard_2pl
       germ_leopard_2pl: [0, 0] (элемент)
@@ -17139,17 +17152,19 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
       ussr_t_55_am: [0, 1] (элемент)
       ussr_bmd_4: [0, 2] (элемент)
       ussr_bmd_4m: [0, 3] (элемент)
-    Ранг 7: 5 элементов, начинаем с row_index=0
+    Ранг 7: 6 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_bmp_2m
         Отдельный элемент: ussr_2s38
         Отдельный элемент: ussr_t_72av_turms
         Отдельный элемент: ussr_t_80ud
         Отдельный элемент: ussr_t_80ue1
+        Отдельный элемент: ussr_t_80ue1_sm
       ussr_bmp_2m: [0, 0] (элемент)
       ussr_2s38: [0, 1] (элемент)
       ussr_t_72av_turms: [0, 2] (элемент)
       ussr_t_80ud: [0, 3] (элемент)
       ussr_t_80ue1: [0, 4] (элемент)
+      ussr_t_80ue1_sm: [0, 5] (элемент)
   Обработка столбца: ussr/Наземная техника/col_6/premium_True
     Ранг 1: 4 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_t_26E
@@ -22138,11 +22153,11 @@ Slave-юниты: {'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'it_samp_
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3369 элементов
-Данные (3369 записей) сохранены в shop.csv
+Координаты назначены для 3372 элементов
+Данные (3372 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2492, Премиумной: 877
+Статистика: Стандартной техники: 2492, Премиумной: 880
 Обработано master-slave пар: 7
 Slave-юниты пропущены: 7
 Поля image (379 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3369 элементов.
+Парсинг завершен успешно! Обработано 3372 элементов.
