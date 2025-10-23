@@ -1518,10 +1518,10 @@ uk_crusader_group,2,britain,Наземная техника,folder,standard,0,0,
 uk_crusader_mk_2,2,britain,Наземная техника,vehicle,standard,0,0,uk_crusader_group,0,False
 uk_crusader_mk_3,2,britain,Наземная техника,vehicle,standard,0,0,uk_crusader_mk_2,1,False
 uk_cruiser_ram_1,2,britain,Наземная техника,vehicle,standard,0,1,uk_crusader_group,,False
-uk_cromwell_group,2,britain,Наземная техника,folder,standard,0,2,uk_cruiser_ram_1,,False
-uk_a27m_cromwell_5,2,britain,Наземная техника,vehicle,standard,0,2,uk_cromwell_group,0,False
+uk_cromwell_sherman_group,2,britain,Наземная техника,folder,standard,0,2,uk_cruiser_ram_1,,False
+uk_a27m_cromwell_5,2,britain,Наземная техника,vehicle,standard,0,2,uk_cromwell_sherman_group,0,False
 uk_a27m_cromwell_1,2,britain,Наземная техника,vehicle,standard,0,2,uk_a27m_cromwell_5,1,False
-uk_sherman_ii,2,britain,Наземная техника,vehicle,standard,0,3,uk_cromwell_group,,False
+uk_sherman_ii,2,britain,Наземная техника,vehicle,standard,0,3,uk_cromwell_sherman_group,,False
 uk_sherman_vc_firefly,3,britain,Наземная техника,vehicle,standard,0,0,uk_sherman_ii,,False
 uk_challenger_comet_group,3,britain,Наземная техника,folder,standard,0,1,uk_sherman_vc_firefly,,False
 uk_a30_challenger,3,britain,Наземная техника,vehicle,standard,0,1,uk_challenger_comet_group,0,False
@@ -1562,10 +1562,12 @@ uk_a_22f_mk_7_churchill_1944,3,britain,Наземная техника,vehicle,s
 uk_charioteer_mk_7,4,britain,Наземная техника,vehicle,standard,1,0,uk_a_22f_mk_7_churchill_1944,,False
 uk_fv4202,4,britain,Наземная техника,vehicle,standard,1,1,uk_charioteer_mk_7,,False
 uk_vickers_mbt_mk_1,5,britain,Наземная техника,vehicle,standard,1,0,uk_fv4202,,False
-uk_vickers_mbt_mk_3,6,britain,Наземная техника,vehicle,standard,1,0,uk_vickers_mbt_mk_1,,False
-uk_vickers_mk_11,6,britain,Наземная техника,vehicle,standard,1,1,uk_vickers_mbt_mk_3,,False
-uk_vfm_5,6,britain,Наземная техника,vehicle,standard,1,2,uk_vickers_mk_11,,False
-uk_vickers_mk7,7,britain,Наземная техника,vehicle,standard,1,0,uk_vfm_5,,False
+uk_vickers_olifant_group,6,britain,Наземная техника,folder,standard,1,0,uk_vickers_mbt_mk_1,,False
+uk_vickers_mbt_mk_3,6,britain,Наземная техника,vehicle,standard,1,0,uk_vickers_olifant_group,0,False
+uk_olifant_mk_1a,6,britain,Наземная техника,vehicle,standard,1,0,uk_vickers_mbt_mk_3,1,False
+uk_olifant_mk_2,6,britain,Наземная техника,vehicle,standard,1,1,uk_vickers_olifant_group,,False
+uk_ttd,7,britain,Наземная техника,vehicle,standard,1,0,uk_olifant_mk_2,,False
+uk_vickers_mk7,7,britain,Наземная техника,vehicle,standard,1,1,uk_ttd,,False
 uk_a17_mk_1_tetrarch,1,britain,Наземная техника,vehicle,standard,2,0,,,False
 uk_daimler_mk_2,1,britain,Наземная техника,vehicle,standard,2,1,uk_a17_mk_1_tetrarch,,False
 uk_sp_17_pdr_valentine,2,britain,Наземная техника,vehicle,standard,2,0,,,False
@@ -1573,9 +1575,11 @@ uk_3_inch_gun_carrier,2,britain,Наземная техника,vehicle,standard
 uk_17_pdr_m10_achilles,2,britain,Наземная техника,vehicle,standard,2,2,uk_3_inch_gun_carrier,,False
 uk_m44,3,britain,Наземная техника,vehicle,standard,2,0,uk_17_pdr_m10_achilles,,False
 uk_a30_sp_avenger,3,britain,Наземная техника,vehicle,standard,2,1,uk_m44,,False
-uk_fv4005,4,britain,Наземная техника,vehicle,standard,2,0,uk_a30_sp_avenger,,False
-uk_m109a1,4,britain,Наземная техника,vehicle,standard,2,1,uk_fv4005,,False
-uk_tortoise_conway_group,4,britain,Наземная техника,folder,standard,2,2,uk_m109a1,,False
+uk_fv_m109_group,4,britain,Наземная техника,folder,standard,2,0,uk_a30_sp_avenger,,False
+uk_fv4005,4,britain,Наземная техника,vehicle,standard,2,0,uk_fv_m109_group,0,False
+uk_m109a1,4,britain,Наземная техника,vehicle,standard,2,0,uk_fv4005,1,False
+uk_g6_spg,4,britain,Наземная техника,vehicle,standard,2,1,uk_fv_m109_group,,False
+uk_tortoise_conway_group,4,britain,Наземная техника,folder,standard,2,2,uk_g6_spg,,False
 uk_a39_tortoise,4,britain,Наземная техника,vehicle,standard,2,2,uk_tortoise_conway_group,0,False
 uk_fv4004_conway,4,britain,Наземная техника,vehicle,standard,2,2,uk_a39_tortoise,1,False
 uk_fv438_swingfire,5,britain,Наземная техника,vehicle,standard,2,0,uk_tortoise_conway_group,,False
@@ -1615,20 +1619,17 @@ uk_concept3_ngac,3,britain,Наземная техника,vehicle,standard,4,0,
 uk_ratel_group,4,britain,Наземная техника,folder,standard,4,0,uk_concept3_ngac,,False
 uk_ratel_90,4,britain,Наземная техника,vehicle,standard,4,0,uk_ratel_group,0,False
 uk_ratel_20,4,britain,Наземная техника,vehicle,standard,4,0,uk_ratel_90,1,False
-uk_g6_eland_group,4,britain,Наземная техника,folder,standard,4,1,uk_ratel_group,,False
-uk_g6_spg,4,britain,Наземная техника,vehicle,standard,4,1,uk_g6_eland_group,0,False
-uk_eland_90_mk_7,4,britain,Наземная техника,vehicle,standard,4,1,uk_g6_spg,1,False
-uk_scimitar_fox_group,5,britain,Наземная техника,folder,standard,4,0,uk_g6_eland_group,,False
+uk_eland_90_mk_7,4,britain,Наземная техника,vehicle,standard,4,1,uk_ratel_group,,False
+uk_scimitar_fox_group,5,britain,Наземная техника,folder,standard,4,0,uk_eland_90_mk_7,,False
 uk_fv107_scimitar,5,britain,Наземная техника,vehicle,standard,4,0,uk_scimitar_fox_group,0,False
 uk_fv721_fox,5,britain,Наземная техника,vehicle,standard,4,0,uk_fv107_scimitar,1,False
-uk_rooikat_olifant_group,6,britain,Наземная техника,folder,standard,4,0,uk_scimitar_fox_group,,False
-uk_rooikat_76,6,britain,Наземная техника,vehicle,standard,4,0,uk_rooikat_olifant_group,0,False
-uk_olifant_mk_1a,6,britain,Наземная техника,vehicle,standard,4,0,uk_rooikat_76,1,False
-uk_badger,6,britain,Наземная техника,vehicle,standard,4,1,uk_rooikat_olifant_group,,False
-uk_mttd_olifant_group,6,britain,Наземная техника,folder,standard,4,2,uk_badger,,False
-uk_rooikat_mttd,6,britain,Наземная техника,vehicle,standard,4,2,uk_mttd_olifant_group,0,False
-uk_olifant_mk_2,6,britain,Наземная техника,vehicle,standard,4,2,uk_rooikat_mttd,1,False
-uk_ttd,7,britain,Наземная техника,vehicle,standard,4,0,uk_mttd_olifant_group,,False
+uk_vickers_rooikat_group,6,britain,Наземная техника,folder,standard,4,0,uk_scimitar_fox_group,,False
+uk_vickers_mk_11,6,britain,Наземная техника,vehicle,standard,4,0,uk_vickers_rooikat_group,0,False
+uk_rooikat_76,6,britain,Наземная техника,vehicle,standard,4,0,uk_vickers_mk_11,1,False
+uk_badger,6,britain,Наземная техника,vehicle,standard,4,1,uk_vickers_rooikat_group,,False
+uk_vfm_mttd_group,6,britain,Наземная техника,folder,standard,4,2,uk_badger,,False
+uk_vfm_5,6,britain,Наземная техника,vehicle,standard,4,2,uk_vfm_mttd_group,0,False
+uk_rooikat_mttd,6,britain,Наземная техника,vehicle,standard,4,2,uk_vfm_5,1,False
 uk_a_13_mk1_3rd_rtr,1,britain,Наземная техника,vehicle,premium,0,0,,,False
 uk_a1e1_independent,1,britain,Наземная техника,vehicle,premium,0,1,,,False
 uk_crusader_mk_2_the_saint,2,britain,Наземная техника,vehicle,premium,0,0,,,False
@@ -2724,6 +2725,7 @@ ro_57_quadriarma,2,italy,Авиация,vehicle,premium,1,1,,,True
 mc-202_d,2,italy,Авиация,vehicle,premium,1,2,,,True
 bf_110g_4_hungary,3,italy,Авиация,vehicle,premium,1,0,,,False
 bf-109f-4_hungary,3,italy,Авиация,vehicle,premium,1,1,,,True
+re_2005_vdm,4,italy,Авиация,vehicle,premium,1,0,,,True
 it_destroyer_turbine,1,italy,Большой флот,vehicle,standard,0,0,,,False
 it_destroyer_dardo,1,italy,Большой флот,vehicle,standard,0,1,it_destroyer_turbine,,False
 it_destroyer_leone_class,2,italy,Большой флот,vehicle,standard,0,0,it_destroyer_dardo,,False
@@ -2755,6 +2757,7 @@ it_destroyer_soldati_serie1_geniere,3,italy,Большой флот,vehicle,stan
 it_cruiser_zara_class_pola,4,italy,Большой флот,vehicle,standard,2,0,,,False
 it_battleship_leonardo_da_vinci,5,italy,Большой флот,vehicle,standard,2,0,,,False
 it_destroyer_soldati_serie1,3,italy,Большой флот,vehicle,premium,0,0,,,True
+it_cruiser_cadorna_class_cadorna,3,italy,Большой флот,vehicle,premium,0,1,,,True
 it_mas_classe500_3_1944,1,italy,Малый флот,vehicle,standard,0,0,,,False
 it_vas_baglietto_68t_1serie,1,italy,Малый флот,vehicle,standard,0,1,it_mas_classe500_3_1944,,False
 it_ms15_1a,2,italy,Малый флот,vehicle,standard,0,0,it_vas_baglietto_68t_1serie,,False
@@ -3216,7 +3219,7 @@ mosquito_f_mk2_norway,3,sweden,Авиация,vehicle,standard,1,0,,,False
 mosquito_norway_group,3,sweden,Авиация,folder,standard,1,1,mosquito_f_mk2_norway,,False
 mosquito_fb_mk6_norway,3,sweden,Авиация,vehicle,standard,1,1,mosquito_norway_group,0,False
 mosquito_fb_mk6_ash_norway,3,sweden,Авиация,vehicle,standard,1,1,mosquito_fb_mk6_norway,1,False
-saab_a21a_3,4,sweden,Авиация,vehicle,standard,1,0,,,False
+saab_a21a_3,4,sweden,Авиация,vehicle,standard,1,0,mosquito_norway_group,,False
 saab_a21rb,5,sweden,Авиация,vehicle,standard,1,0,saab_a21a_3,,False
 saab_j29b,5,sweden,Авиация,vehicle,standard,1,1,saab_a21rb,,False
 saab_a32a,6,sweden,Авиация,vehicle,standard,1,0,saab_j29b,,False

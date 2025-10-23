@@ -1,19 +1,19 @@
 Запуск полного процесса объединения данных...
 Начало объединения данных...
-Загружено 3372 записей из shop.csv
+Загружено 3375 записей из shop.csv
 Загрузка вспомогательных данных...
-Загружено 3372 записей из localization.csv
-Загружено локализаций: 3372
-Загружено 3000 записей из wpcost.csv
-Загружено экономических данных: 3000
-Загружено 3372 записей из shop_images.csv
-Загружено изображений: 3372
+Загружено 3375 записей из localization.csv
+Загружено локализаций: 3375
+Загружено 3002 записей из wpcost.csv
+Загружено экономических данных: 3002
+Загружено 3375 записей из shop_images.csv
+Загружено изображений: 3375
 Объединение завершено:
-  Всего записей: 3372
-  Найдено локализаций: 3372 (100.0%)
-  Найдено экономических данных: 3000 (89.0%)
-  Найдено изображений: 3372 (100.0%)
-Объединенные данные (3372 записей) сохранены в vehicles_merged.csv
+  Всего записей: 3375
+  Найдено локализаций: 3375 (100.0%)
+  Найдено экономических данных: 3002 (88.9%)
+  Найдено изображений: 3375 (100.0%)
+Объединенные данные (3375 записей) сохранены в vehicles_merged.csv
 Извлечение зависимостей...
   Зависимость: us_m3_stuart -> us_m2a4
   Зависимость: us_m3a1_stuart -> us_m3_stuart
@@ -957,10 +957,10 @@
   Зависимость: uk_crusader_mk_2 -> uk_crusader_group
   Зависимость: uk_crusader_mk_3 -> uk_crusader_mk_2
   Зависимость: uk_cruiser_ram_1 -> uk_crusader_group
-  Зависимость: uk_cromwell_group -> uk_cruiser_ram_1
-  Зависимость: uk_a27m_cromwell_5 -> uk_cromwell_group
+  Зависимость: uk_cromwell_sherman_group -> uk_cruiser_ram_1
+  Зависимость: uk_a27m_cromwell_5 -> uk_cromwell_sherman_group
   Зависимость: uk_a27m_cromwell_1 -> uk_a27m_cromwell_5
-  Зависимость: uk_sherman_ii -> uk_cromwell_group
+  Зависимость: uk_sherman_ii -> uk_cromwell_sherman_group
   Зависимость: uk_sherman_vc_firefly -> uk_sherman_ii
   Зависимость: uk_challenger_comet_group -> uk_sherman_vc_firefly
   Зависимость: uk_a30_challenger -> uk_challenger_comet_group
@@ -999,18 +999,22 @@
   Зависимость: uk_charioteer_mk_7 -> uk_a_22f_mk_7_churchill_1944
   Зависимость: uk_fv4202 -> uk_charioteer_mk_7
   Зависимость: uk_vickers_mbt_mk_1 -> uk_fv4202
-  Зависимость: uk_vickers_mbt_mk_3 -> uk_vickers_mbt_mk_1
-  Зависимость: uk_vickers_mk_11 -> uk_vickers_mbt_mk_3
-  Зависимость: uk_vfm_5 -> uk_vickers_mk_11
-  Зависимость: uk_vickers_mk7 -> uk_vfm_5
+  Зависимость: uk_vickers_olifant_group -> uk_vickers_mbt_mk_1
+  Зависимость: uk_vickers_mbt_mk_3 -> uk_vickers_olifant_group
+  Зависимость: uk_olifant_mk_1a -> uk_vickers_mbt_mk_3
+  Зависимость: uk_olifant_mk_2 -> uk_vickers_olifant_group
+  Зависимость: uk_ttd -> uk_olifant_mk_2
+  Зависимость: uk_vickers_mk7 -> uk_ttd
   Зависимость: uk_daimler_mk_2 -> uk_a17_mk_1_tetrarch
   Зависимость: uk_3_inch_gun_carrier -> uk_sp_17_pdr_valentine
   Зависимость: uk_17_pdr_m10_achilles -> uk_3_inch_gun_carrier
   Зависимость: uk_m44 -> uk_17_pdr_m10_achilles
   Зависимость: uk_a30_sp_avenger -> uk_m44
-  Зависимость: uk_fv4005 -> uk_a30_sp_avenger
+  Зависимость: uk_fv_m109_group -> uk_a30_sp_avenger
+  Зависимость: uk_fv4005 -> uk_fv_m109_group
   Зависимость: uk_m109a1 -> uk_fv4005
-  Зависимость: uk_tortoise_conway_group -> uk_m109a1
+  Зависимость: uk_g6_spg -> uk_fv_m109_group
+  Зависимость: uk_tortoise_conway_group -> uk_g6_spg
   Зависимость: uk_a39_tortoise -> uk_tortoise_conway_group
   Зависимость: uk_fv4004_conway -> uk_a39_tortoise
   Зависимость: uk_fv438_swingfire -> uk_tortoise_conway_group
@@ -1046,20 +1050,17 @@
   Зависимость: uk_ratel_group -> uk_concept3_ngac
   Зависимость: uk_ratel_90 -> uk_ratel_group
   Зависимость: uk_ratel_20 -> uk_ratel_90
-  Зависимость: uk_g6_eland_group -> uk_ratel_group
-  Зависимость: uk_g6_spg -> uk_g6_eland_group
-  Зависимость: uk_eland_90_mk_7 -> uk_g6_spg
-  Зависимость: uk_scimitar_fox_group -> uk_g6_eland_group
+  Зависимость: uk_eland_90_mk_7 -> uk_ratel_group
+  Зависимость: uk_scimitar_fox_group -> uk_eland_90_mk_7
   Зависимость: uk_fv107_scimitar -> uk_scimitar_fox_group
   Зависимость: uk_fv721_fox -> uk_fv107_scimitar
-  Зависимость: uk_rooikat_olifant_group -> uk_scimitar_fox_group
-  Зависимость: uk_rooikat_76 -> uk_rooikat_olifant_group
-  Зависимость: uk_olifant_mk_1a -> uk_rooikat_76
-  Зависимость: uk_badger -> uk_rooikat_olifant_group
-  Зависимость: uk_mttd_olifant_group -> uk_badger
-  Зависимость: uk_rooikat_mttd -> uk_mttd_olifant_group
-  Зависимость: uk_olifant_mk_2 -> uk_rooikat_mttd
-  Зависимость: uk_ttd -> uk_mttd_olifant_group
+  Зависимость: uk_vickers_rooikat_group -> uk_scimitar_fox_group
+  Зависимость: uk_vickers_mk_11 -> uk_vickers_rooikat_group
+  Зависимость: uk_rooikat_76 -> uk_vickers_mk_11
+  Зависимость: uk_badger -> uk_vickers_rooikat_group
+  Зависимость: uk_vfm_mttd_group -> uk_badger
+  Зависимость: uk_vfm_5 -> uk_vfm_mttd_group
+  Зависимость: uk_rooikat_mttd -> uk_vfm_5
   Зависимость: wasp_has_mk1 -> scout_ah_mk1
   Зависимость: wessex_mk5 -> wasp_has_mk1
   Зависимость: lynx_ah_mk1 -> wessex_mk5
@@ -2127,6 +2128,7 @@
   Зависимость: mosquito_norway_group -> mosquito_f_mk2_norway
   Зависимость: mosquito_fb_mk6_norway -> mosquito_norway_group
   Зависимость: mosquito_fb_mk6_ash_norway -> mosquito_fb_mk6_norway
+  Зависимость: saab_a21a_3 -> mosquito_norway_group
   Зависимость: saab_a21rb -> saab_a21a_3
   Зависимость: saab_j29b -> saab_a21rb
   Зависимость: saab_a32a -> saab_j29b
@@ -2236,13 +2238,13 @@
   Зависимость: f_16i_sufa -> f_16d_block_40_barak_2
   Зависимость: f_15i_raam -> f_16i_sufa
 Извлечение зависимостей завершено:
-  Обработано узлов: 3372
-  Найдено зависимостей: 2220
-  Пустых предшественников: 1152
+  Обработано узлов: 3375
+  Найдено зависимостей: 2222
+  Пустых предшественников: 1153
   Предшественников не найдено: 0
-Зависимости (2220 записей) сохранены в dependencies.csv
+Зависимости (2222 записей) сохранены в dependencies.csv
 Полный процесс объединения данных завершен успешно!
 Итоговая статистика:
-  Узлов в дереве: 3372
-  Зависимостей: 2220
+  Узлов в дереве: 3375
+  Зависимостей: 2222
   Покрытие зависимостями: 65.8%

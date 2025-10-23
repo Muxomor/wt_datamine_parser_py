@@ -1518,7 +1518,7 @@ uk_crusader_group,Crusader II/III,Crusader II/III
 uk_crusader_mk_2,Crusader II,Crusader II
 uk_crusader_mk_3,Crusader III,Crusader III
 uk_cruiser_ram_1,Ram I,Ram I
-uk_cromwell_group,Cromwell V/I,Cromwell V/I
+uk_cromwell_sherman_group,uk_cromwell_sherman_group,uk_cromwell_sherman_group
 uk_a27m_cromwell_5,Cromwell V,Cromwell V
 uk_a27m_cromwell_1,Cromwell I,Cromwell I
 uk_sherman_ii,Sherman II,Sherman II
@@ -1562,9 +1562,11 @@ uk_a_22f_mk_7_churchill_1944,Churchill VII,Churchill VII
 uk_charioteer_mk_7,Charioteer Mk.VII,Charioteer Mk VII
 uk_fv4202,FV4202,FV4202
 uk_vickers_mbt_mk_1,Vickers Mk.1,Vickers Mk.1
+uk_vickers_olifant_group,Vickers/Olifant,Vickers/Olifant
 uk_vickers_mbt_mk_3,Vickers Mk.3,Vickers Mk.3
-uk_vickers_mk_11,Vickers Mk.11,Vickers Mk.11
-uk_vfm_5,VFM5,VFM5
+uk_olifant_mk_1a,Olifant Mk.1A,Olifant Mk.1A
+uk_olifant_mk_2,Olifant Mk.2,Olifant Mk.2
+uk_ttd,TTD,TTD
 uk_vickers_mk7,Vickers Mk.7,Vickers Mk.7
 uk_a17_mk_1_tetrarch,Tetrarch I,Tetrarch I
 uk_daimler_mk_2,Daimler Mk II,Daimler Mk II
@@ -1573,8 +1575,10 @@ uk_3_inch_gun_carrier,Gun Carrier (3-in),Gun Carrier (3-in)
 uk_17_pdr_m10_achilles,Achilles,Achilles
 uk_m44,▄M44,▄M44
 uk_a30_sp_avenger,Avenger,Avenger
+uk_fv_m109_group,FV/M109,FV/M109
 uk_fv4005,FV4005,FV4005
 uk_m109a1,▄M109A1,▄M109A1
+uk_g6_spg,G6,G6
 uk_tortoise_conway_group,Tortoise/Conway,Tortoise/Conway
 uk_a39_tortoise,Tortoise,Tortoise
 uk_fv4004_conway,Conway,Conway
@@ -1615,20 +1619,17 @@ uk_concept3_ngac,Concept 3,Concept 3
 uk_ratel_group,Ratel 90/20,Ratel 90/20
 uk_ratel_90,Ratel 90,Ratel 90
 uk_ratel_20,Ratel 20,Ratel 20
-uk_g6_eland_group,G6/Eland,G6/Eland
-uk_g6_spg,G6,G6
 uk_eland_90_mk_7,Eland 90 Mk.7,Eland 90 Mk.7
 uk_scimitar_fox_group,Scimitar/Fox,Scimitar/Fox
 uk_fv107_scimitar,Scimitar,Scimitar
 uk_fv721_fox,Fox,Fox
-uk_rooikat_olifant_group,Rooikat/Olifant Mk.1,Rooikat/Olifant Mk.1
+uk_vickers_rooikat_group,Vickers/Rooikat,Vickers/Rooikat
+uk_vickers_mk_11,Vickers Mk.11,Vickers Mk.11
 uk_rooikat_76,Rooikat Mk.1D,Rooikat Mk.1D
-uk_olifant_mk_1a,Olifant Mk.1A,Olifant Mk.1A
 uk_badger,Badger,Badger
-uk_mttd_olifant_group,MTTD/Olifant Mk.2,MTTD/Olifant Mk.2
+uk_vfm_mttd_group,VFM/MTTD,VFM/MTTD
+uk_vfm_5,VFM5,VFM5
 uk_rooikat_mttd,Rooikat MTTD,Rooikat MTTD
-uk_olifant_mk_2,Olifant Mk.2,Olifant Mk.2
-uk_ttd,TTD,TTD
 uk_a_13_mk1_3rd_rtr,A13 Mk.I (3rd R.T.R.),A13 Mk I (3rd R.T.R.)
 uk_a1e1_independent,Independent,Independent
 uk_crusader_mk_2_the_saint,"Crusader ""The Saint""","Crusader ""The Saint"""
@@ -2724,6 +2725,7 @@ ro_57_quadriarma,Ro.57 Quadriarma,Ro.57 Quadriarma
 mc-202_d,C. 202D,C. 202D
 bf_110g_4_hungary,◐Bf 110 G-4,◐Bf 110 G-4
 bf-109f-4_hungary,◐Bf 109 F-4,◐Bf 109 F-4
+re_2005_vdm,Re.2005 (VDM),Re.2005 (VDM)
 it_destroyer_turbine,RN Turbine,RN Turbine
 it_destroyer_dardo,RN Dardo,RN Dardo
 it_destroyer_leone_class,RN Leone,RN Leone
@@ -2755,6 +2757,7 @@ it_destroyer_soldati_serie1_geniere,RN Geniere,RN Geniere
 it_cruiser_zara_class_pola,RN Pola,RN Pola
 it_battleship_leonardo_da_vinci,RN Leonardo da Vinci,RN Leonardo da Vinci
 it_destroyer_soldati_serie1,RN Aviere,RN Aviere
+it_cruiser_cadorna_class_cadorna,RN Luigi Cadorna,RN Luigi Cadorna
 it_mas_classe500_3_1944,MAS 561,MAS 561
 it_vas_baglietto_68t_1serie,VAS 201,VAS 201
 it_ms15_1a,MS-15,MS-15

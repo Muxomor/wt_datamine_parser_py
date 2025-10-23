@@ -640,7 +640,7 @@
   Найдено поле image: uk_crusader_group -> uk_crusader_group
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_3 с order=1
-  Найдено поле image: uk_cromwell_group -> uk_cromwell_group
+  Найдено поле image: uk_cromwell_sherman_group -> uk_cromwell_sherman_group
         ОТЛАДКА: get_group_items добавлен uk_a27m_cromwell_5 с order=0
         ОТЛАДКА: get_group_items добавлен uk_a27m_cromwell_1 с order=1
   Найдено поле image: uk_challenger_comet_group -> uk_a30_challenger
@@ -669,6 +669,12 @@
   Найдено поле image: uk_churchill_group -> uk_a_22b_mk_3_churchill_1942
         ОТЛАДКА: get_group_items добавлен uk_a_22b_mk_3_churchill_1942 с order=0
         ОТЛАДКА: get_group_items добавлен uk_churchill_na75 с order=1
+  Найдено поле image: uk_vickers_olifant_group -> uk_vickers_olifant_group
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mbt_mk_3 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
+  Найдено поле image: uk_fv_m109_group -> uk_fv4005_m109_group
+        ОТЛАДКА: get_group_items добавлен uk_fv4005 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_m109a1 с order=1
   Найдено поле image: uk_tortoise_conway_group -> uk_a39_tortoise
         ОТЛАДКА: get_group_items добавлен uk_a39_tortoise с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv4004_conway с order=1
@@ -691,18 +697,15 @@
   Найдено поле image: uk_ratel_group -> uk_ratel_90
         ОТЛАДКА: get_group_items добавлен uk_ratel_90 с order=0
         ОТЛАДКА: get_group_items добавлен uk_ratel_20 с order=1
-  Найдено поле image: uk_g6_eland_group -> uk_g6_spg
-        ОТЛАДКА: get_group_items добавлен uk_g6_spg с order=0
-        ОТЛАДКА: get_group_items добавлен uk_eland_90_mk_7 с order=1
   Найдено поле image: uk_scimitar_fox_group -> uk_scimitar_fox_group
         ОТЛАДКА: get_group_items добавлен uk_fv107_scimitar с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv721_fox с order=1
-  Найдено поле image: uk_rooikat_olifant_group -> uk_rooikat_76
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
-  Найдено поле image: uk_mttd_olifant_group -> uk_rooikat_mttd
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_2 с order=1
+  Найдено поле image: uk_vickers_rooikat_group -> uk_vickers_rooikat_group
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mk_11 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=1
+  Найдено поле image: uk_vfm_mttd_group -> uk_vfm_rooikat_group
+        ОТЛАДКА: get_group_items добавлен uk_vfm_5 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=1
   Найдено поле image: uk_kit_3rank_group -> uk_kit_3rank_group
         ОТЛАДКА: get_group_items добавлен uk_sherman_vc_firefly_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен uk_a30_sp_avenger_kit_3rank с order=1
@@ -1245,7 +1248,7 @@
   Найдено поле image: so_4050_vautour_iaf_group -> so_4050_vautour_iaf_group
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
-Извлечено полей image: 379
+Извлечено полей image: 380
 Сбор master-slave пар...
         ОТЛАДКА: get_group_items добавлен us_m4a1_1942_sherman с order=0
         ОТЛАДКА: get_group_items добавлен us_m4_sherman с order=1
@@ -1662,6 +1665,10 @@
         ОТЛАДКА: get_group_items добавлен uk_valentine_mk_9 с order=2
         ОТЛАДКА: get_group_items добавлен uk_a_22b_mk_3_churchill_1942 с order=0
         ОТЛАДКА: get_group_items добавлен uk_churchill_na75 с order=1
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mbt_mk_3 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
+        ОТЛАДКА: get_group_items добавлен uk_fv4005 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_m109a1 с order=1
         ОТЛАДКА: get_group_items добавлен uk_a39_tortoise с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv4004_conway с order=1
         ОТЛАДКА: get_group_items добавлен uk_fv510_isv с order=0
@@ -1677,14 +1684,12 @@
     Найдена пара: uk_sky_sabre_fcs -> uk_sky_sabre_launcher
         ОТЛАДКА: get_group_items добавлен uk_ratel_90 с order=0
         ОТЛАДКА: get_group_items добавлен uk_ratel_20 с order=1
-        ОТЛАДКА: get_group_items добавлен uk_g6_spg с order=0
-        ОТЛАДКА: get_group_items добавлен uk_eland_90_mk_7 с order=1
         ОТЛАДКА: get_group_items добавлен uk_fv107_scimitar с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv721_fox с order=1
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_2 с order=1
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mk_11 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=1
+        ОТЛАДКА: get_group_items добавлен uk_vfm_5 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=1
         ОТЛАДКА: get_group_items добавлен uk_sherman_vc_firefly_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен uk_a30_sp_avenger_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен uk_crusader_aa_mk_2_kit_3rank с order=2
@@ -2054,7 +2059,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 7
-Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'jp_type_81_tansam_launcher'}
+Slave-юниты: {'fr_samp_t_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher', 'germ_iris_slm_launcher', 'ussr_buk_m3_launcher', 'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
   ussr_buk_m3_fcs -> ussr_buk_m3_launcher
@@ -2101,7 +2106,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника us_stingray, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_stingray зависит от us_m3_bradley
       ОТЛАДКА: Добавлена техника us_stingray с предшественником 'us_m3_bradley', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника us_m3a3_bradley, reqAir в JSON: есть, значение: 'us_m3_bradley', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника us_m3a3_bradley, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_m3a3_bradley зависит от us_stingray
       ОТЛАДКА: Добавлена техника us_m3a3_bradley с предшественником 'us_stingray', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника us_hstv_l, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -2409,7 +2414,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Добавлена техника us_m55 с предшественником 'us_m44', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен us_m36 с order=0
         ОТЛАДКА: get_group_items добавлен us_m36b2 с order=1
-        ОТЛАДКА: Группа us_m36_group, reqAir в JSON: есть, значение: 'us_m44', has_dependency: True
+        ОТЛАДКА: Группа us_m36_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
         ОТЛАДКА: Группа us_m36_group зависит от us_m55
         ОТЛАДКА: Добавлена группа us_m36_group с предшественником 'us_m55', статус: standard, have_prem_flag: False
           ОТЛАДКА: Элемент us_m36, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=us_m36_group, has_dependency: True
@@ -3334,7 +3339,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника b_66b, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=b_57_group, has_dependency: True
       ОТЛАДКА: Техника b_66b зависит от группы b_57_group
       ОТЛАДКА: Добавлена техника b_66b с предшественником 'b_57_group', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника f-105d, reqAir в JSON: есть, значение: 'b-57', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника f-105d, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника f-105d зависит от b_66b
       ОТЛАДКА: Добавлена техника f-105d с предшественником 'b_66b', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника f_111a, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -3571,7 +3576,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника us_destroyer_cf_adams_class_cf_adams, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_destroyer_cf_adams_class_cf_adams зависит от us_destroyer_somers
       ОТЛАДКА: Добавлена техника us_destroyer_cf_adams_class_cf_adams с предшественником 'us_destroyer_somers', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника us_cruiser_atlanta_class_atlanta, reqAir в JSON: есть, значение: 'us_destroyer_somers', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника us_cruiser_atlanta_class_atlanta, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_cruiser_atlanta_class_atlanta зависит от us_destroyer_cf_adams_class_cf_adams
       ОТЛАДКА: Добавлена техника us_cruiser_atlanta_class_atlanta с предшественником 'us_destroyer_cf_adams_class_cf_adams', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника us_cruiser_worcester_class_roanoke, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -4372,7 +4377,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Добавлена техника germ_m55 с предшественником 'germ_stug_III_ausf_G', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен germ_jgdpz_IV_L48 с order=0
         ОТЛАДКА: get_group_items добавлен germ_jgdpz_38t с order=1
-        ОТЛАДКА: Группа germ_jagdpanzer_group, reqAir в JSON: есть, значение: 'germ_stug_III_ausf_G', has_dependency: True
+        ОТЛАДКА: Группа germ_jagdpanzer_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
         ОТЛАДКА: Группа germ_jagdpanzer_group зависит от germ_m55
         ОТЛАДКА: Добавлена группа germ_jagdpanzer_group с предшественником 'germ_m55', статус: standard, have_prem_flag: False
           ОТЛАДКА: Элемент germ_jgdpz_IV_L48, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=germ_jagdpanzer_group, has_dependency: True
@@ -5551,7 +5556,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника germ_destroyer_class1942_z51, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника germ_destroyer_class1942_z51 зависит от germ_destroyer_class1936a_mob_z32
       ОТЛАДКА: Добавлена техника germ_destroyer_class1942_z51 с предшественником 'germ_destroyer_class1936a_mob_z32', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника germ_destroyer_class1936c_z46, reqAir в JSON: есть, значение: 'germ_destroyer_class1936a_mob_z32', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника germ_destroyer_class1936c_z46, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника germ_destroyer_class1936c_z46 зависит от germ_destroyer_class1942_z51
       ОТЛАДКА: Добавлена техника germ_destroyer_class1936c_z46 с предшественником 'germ_destroyer_class1942_z51', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен germ_cruiser_leipzig с order=0
@@ -6101,7 +6106,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника ussr_bmd_4m2, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=ussr_bmp_3_group, has_dependency: True
       ОТЛАДКА: Техника ussr_bmd_4m2 зависит от группы ussr_bmp_3_group
       ОТЛАДКА: Добавлена техника ussr_bmd_4m2 с предшественником 'ussr_bmp_3_group', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника ussr_2s25m, reqAir в JSON: есть, значение: 'ussr_bmp_3', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника ussr_2s25m, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника ussr_2s25m зависит от ussr_bmd_4m2
       ОТЛАДКА: Добавлена техника ussr_2s25m с предшественником 'ussr_bmd_4m2', статус: standard, have_prem_flag: False
     Столбец 2: обработано 20 элементов
@@ -7809,19 +7814,19 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Добавлена техника uk_cruiser_ram_1 с предшественником 'uk_crusader_group', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен uk_a27m_cromwell_5 с order=0
         ОТЛАДКА: get_group_items добавлен uk_a27m_cromwell_1 с order=1
-        ОТЛАДКА: Группа uk_cromwell_group, reqAir в JSON: есть, значение: 'uk_crusader_mk_2', has_dependency: True
-        ОТЛАДКА: Группа uk_cromwell_group зависит от uk_cruiser_ram_1
-        ОТЛАДКА: Добавлена группа uk_cromwell_group с предшественником 'uk_cruiser_ram_1', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_a27m_cromwell_5, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_cromwell_group, has_dependency: True
-          ОТЛАДКА: Первый элемент группы uk_a27m_cromwell_5 (order=0) зависит от группы uk_cromwell_group
-          ОТЛАДКА: Добавлен элемент группы uk_a27m_cromwell_5 с предшественником 'uk_cromwell_group', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_a27m_cromwell_1, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_cromwell_group, has_dependency: True
+        ОТЛАДКА: Группа uk_cromwell_sherman_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
+        ОТЛАДКА: Группа uk_cromwell_sherman_group зависит от uk_cruiser_ram_1
+        ОТЛАДКА: Добавлена группа uk_cromwell_sherman_group с предшественником 'uk_cruiser_ram_1', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_a27m_cromwell_5, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_cromwell_sherman_group, has_dependency: True
+          ОТЛАДКА: Первый элемент группы uk_a27m_cromwell_5 (order=0) зависит от группы uk_cromwell_sherman_group
+          ОТЛАДКА: Добавлен элемент группы uk_a27m_cromwell_5 с предшественником 'uk_cromwell_sherman_group', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_a27m_cromwell_1, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_cromwell_sherman_group, has_dependency: True
           ОТЛАДКА: Элемент группы uk_a27m_cromwell_1 зависит от uk_a27m_cromwell_5
           ОТЛАДКА: Добавлен элемент группы uk_a27m_cromwell_1 с предшественником 'uk_a27m_cromwell_5', статус: standard, have_prem_flag: False
-        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_cromwell_group
-      ОТЛАДКА: Техника uk_sherman_II, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_cromwell_group, has_dependency: True
-      ОТЛАДКА: Техника uk_sherman_II зависит от группы uk_cromwell_group
-      ОТЛАДКА: Добавлена техника uk_sherman_II с предшественником 'uk_cromwell_group', статус: standard, have_prem_flag: False
+        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_cromwell_sherman_group
+      ОТЛАДКА: Техника uk_sherman_II, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_cromwell_sherman_group, has_dependency: True
+      ОТЛАДКА: Техника uk_sherman_II зависит от группы uk_cromwell_sherman_group
+      ОТЛАДКА: Добавлена техника uk_sherman_II с предшественником 'uk_cromwell_sherman_group', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника uk_sherman_vc_firefly, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_sherman_vc_firefly зависит от uk_sherman_II
       ОТЛАДКА: Добавлена техника uk_sherman_vc_firefly с предшественником 'uk_sherman_II', статус: standard, have_prem_flag: False
@@ -7922,7 +7927,9 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
         ОТЛАДКА: get_group_items добавлен uk_valentine_mk_9 с order=2
         ОТЛАДКА: get_group_items добавлен uk_a_22b_mk_3_churchill_1942 с order=0
         ОТЛАДКА: get_group_items добавлен uk_churchill_na75 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/19 = 0.00, порог: 0.2
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mbt_mk_3 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
+      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.2
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_m3_stuart, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Добавлена техника uk_m3_stuart с предшественником '', статус: standard, have_prem_flag: False
@@ -7975,24 +7982,35 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника uk_vickers_mbt_mk_1, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_vickers_mbt_mk_1 зависит от uk_fv4202
       ОТЛАДКА: Добавлена техника uk_vickers_mbt_mk_1 с предшественником 'uk_fv4202', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_vickers_mbt_mk_3, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_vickers_mbt_mk_3 зависит от uk_vickers_mbt_mk_1
-      ОТЛАДКА: Добавлена техника uk_vickers_mbt_mk_3 с предшественником 'uk_vickers_mbt_mk_1', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_vickers_mk_11, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_vickers_mk_11 зависит от uk_vickers_mbt_mk_3
-      ОТЛАДКА: Добавлена техника uk_vickers_mk_11 с предшественником 'uk_vickers_mbt_mk_3', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_vfm_5, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_vfm_5 зависит от uk_vickers_mk_11
-      ОТЛАДКА: Добавлена техника uk_vfm_5 с предшественником 'uk_vickers_mk_11', статус: standard, have_prem_flag: False
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mbt_mk_3 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
+        ОТЛАДКА: Группа uk_vickers_olifant_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
+        ОТЛАДКА: Группа uk_vickers_olifant_group зависит от uk_vickers_mbt_mk_1
+        ОТЛАДКА: Добавлена группа uk_vickers_olifant_group с предшественником 'uk_vickers_mbt_mk_1', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_vickers_mbt_mk_3, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_vickers_olifant_group, has_dependency: True
+          ОТЛАДКА: Первый элемент группы uk_vickers_mbt_mk_3 (order=0) зависит от группы uk_vickers_olifant_group
+          ОТЛАДКА: Добавлен элемент группы uk_vickers_mbt_mk_3 с предшественником 'uk_vickers_olifant_group', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_olifant_mk_1a, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_vickers_olifant_group, has_dependency: True
+          ОТЛАДКА: Элемент группы uk_olifant_mk_1a зависит от uk_vickers_mbt_mk_3
+          ОТЛАДКА: Добавлен элемент группы uk_olifant_mk_1a с предшественником 'uk_vickers_mbt_mk_3', статус: standard, have_prem_flag: False
+        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_vickers_olifant_group
+      ОТЛАДКА: Техника uk_olifant_mk_2, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_vickers_olifant_group, has_dependency: True
+      ОТЛАДКА: Техника uk_olifant_mk_2 зависит от группы uk_vickers_olifant_group
+      ОТЛАДКА: Добавлена техника uk_olifant_mk_2 с предшественником 'uk_vickers_olifant_group', статус: standard, have_prem_flag: False
+      ОТЛАДКА: Техника uk_ttd, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника uk_ttd зависит от uk_olifant_mk_2
+      ОТЛАДКА: Добавлена техника uk_ttd с предшественником 'uk_olifant_mk_2', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника uk_vickers_mk7, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_vickers_mk7 зависит от uk_vfm_5
-      ОТЛАДКА: Добавлена техника uk_vickers_mk7 с предшественником 'uk_vfm_5', статус: standard, have_prem_flag: False
-    Столбец 1: обработано 19 элементов
+      ОТЛАДКА: Техника uk_vickers_mk7 зависит от uk_ttd
+      ОТЛАДКА: Добавлена техника uk_vickers_mk7 с предшественником 'uk_ttd', статус: standard, have_prem_flag: False
+    Столбец 1: обработано 21 элементов
+        ОТЛАДКА: get_group_items добавлен uk_fv4005 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_m109a1 с order=1
         ОТЛАДКА: get_group_items добавлен uk_a39_tortoise с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv4004_conway с order=1
         ОТЛАДКА: get_group_items добавлен uk_fv510_isv с order=0
         ОТЛАДКА: get_group_items добавлен uk_ratel_zt3 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/18 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_a17_mk_1_tetrarch, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Добавлена техника uk_a17_mk_1_tetrarch с предшественником '', статус: standard, have_prem_flag: False
@@ -8014,17 +8032,26 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника uk_a30_sp_avenger, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_a30_sp_avenger зависит от uk_m44
       ОТЛАДКА: Добавлена техника uk_a30_sp_avenger с предшественником 'uk_m44', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_fv4005, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_fv4005 зависит от uk_a30_sp_avenger
-      ОТЛАДКА: Добавлена техника uk_fv4005 с предшественником 'uk_a30_sp_avenger', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_m109a1, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника uk_m109a1 зависит от uk_fv4005
-      ОТЛАДКА: Добавлена техника uk_m109a1 с предшественником 'uk_fv4005', статус: standard, have_prem_flag: False
+        ОТЛАДКА: get_group_items добавлен uk_fv4005 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_m109a1 с order=1
+        ОТЛАДКА: Группа uk_fv_m109_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
+        ОТЛАДКА: Группа uk_fv_m109_group зависит от uk_a30_sp_avenger
+        ОТЛАДКА: Добавлена группа uk_fv_m109_group с предшественником 'uk_a30_sp_avenger', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_fv4005, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_fv_m109_group, has_dependency: True
+          ОТЛАДКА: Первый элемент группы uk_fv4005 (order=0) зависит от группы uk_fv_m109_group
+          ОТЛАДКА: Добавлен элемент группы uk_fv4005 с предшественником 'uk_fv_m109_group', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_m109a1, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_fv_m109_group, has_dependency: True
+          ОТЛАДКА: Элемент группы uk_m109a1 зависит от uk_fv4005
+          ОТЛАДКА: Добавлен элемент группы uk_m109a1 с предшественником 'uk_fv4005', статус: standard, have_prem_flag: False
+        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_fv_m109_group
+      ОТЛАДКА: Техника uk_g6_spg, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_fv_m109_group, has_dependency: True
+      ОТЛАДКА: Техника uk_g6_spg зависит от группы uk_fv_m109_group
+      ОТЛАДКА: Добавлена техника uk_g6_spg с предшественником 'uk_fv_m109_group', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен uk_a39_tortoise с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv4004_conway с order=1
         ОТЛАДКА: Группа uk_tortoise_conway_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
-        ОТЛАДКА: Группа uk_tortoise_conway_group зависит от uk_m109a1
-        ОТЛАДКА: Добавлена группа uk_tortoise_conway_group с предшественником 'uk_m109a1', статус: standard, have_prem_flag: False
+        ОТЛАДКА: Группа uk_tortoise_conway_group зависит от uk_g6_spg
+        ОТЛАДКА: Добавлена группа uk_tortoise_conway_group с предшественником 'uk_g6_spg', статус: standard, have_prem_flag: False
           ОТЛАДКА: Элемент uk_a39_tortoise, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_tortoise_conway_group, has_dependency: True
           ОТЛАДКА: Первый элемент группы uk_a39_tortoise (order=0) зависит от группы uk_tortoise_conway_group
           ОТЛАДКА: Добавлен элемент группы uk_a39_tortoise с предшественником 'uk_tortoise_conway_group', статус: standard, have_prem_flag: False
@@ -8053,7 +8080,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника uk_desert_warrior, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_desert_warrior зависит от uk_fv102_striker
       ОТЛАДКА: Добавлена техника uk_desert_warrior с предшественником 'uk_fv102_striker', статус: standard, have_prem_flag: False
-    Столбец 2: обработано 18 элементов
+    Столбец 2: обработано 20 элементов
         ОТЛАДКА: get_group_items добавлен uk_ystervark_spaa с order=0
         ОТЛАДКА: get_group_items добавлен uk_crusader_aa_mk_2 с order=1
         ОТЛАДКА: get_group_items добавлен uk_chieftain_marksman с order=0
@@ -8145,15 +8172,13 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
     Столбец 3: обработано 22 элементов
         ОТЛАДКА: get_group_items добавлен uk_ratel_90 с order=0
         ОТЛАДКА: get_group_items добавлен uk_ratel_20 с order=1
-        ОТЛАДКА: get_group_items добавлен uk_g6_spg с order=0
-        ОТЛАДКА: get_group_items добавлен uk_eland_90_mk_7 с order=1
         ОТЛАДКА: get_group_items добавлен uk_fv107_scimitar с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv721_fox с order=1
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/23 = 0.04, порог: 0.2
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mk_11 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=1
+        ОТЛАДКА: get_group_items добавлен uk_vfm_5 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=1
+      ОТЛАДКА: Премиум техники в колонке: 1/20 = 0.05, порог: 0.2
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_mark_v, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Добавлена техника uk_mark_v с предшественником '', статус: standard, have_prem_flag: True
@@ -8184,23 +8209,14 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
           ОТЛАДКА: Элемент группы uk_ratel_20 зависит от uk_ratel_90
           ОТЛАДКА: Добавлен элемент группы uk_ratel_20 с предшественником 'uk_ratel_90', статус: standard, have_prem_flag: False
         ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_ratel_group
-        ОТЛАДКА: get_group_items добавлен uk_g6_spg с order=0
-        ОТЛАДКА: get_group_items добавлен uk_eland_90_mk_7 с order=1
-        ОТЛАДКА: Группа uk_g6_eland_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
-        ОТЛАДКА: Группа uk_g6_eland_group зависит от предыдущей группы uk_ratel_group
-        ОТЛАДКА: Добавлена группа uk_g6_eland_group с предшественником 'uk_ratel_group', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_g6_spg, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_g6_eland_group, has_dependency: True
-          ОТЛАДКА: Первый элемент группы uk_g6_spg (order=0) зависит от группы uk_g6_eland_group
-          ОТЛАДКА: Добавлен элемент группы uk_g6_spg с предшественником 'uk_g6_eland_group', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_eland_90_mk_7, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_g6_eland_group, has_dependency: True
-          ОТЛАДКА: Элемент группы uk_eland_90_mk_7 зависит от uk_g6_spg
-          ОТЛАДКА: Добавлен элемент группы uk_eland_90_mk_7 с предшественником 'uk_g6_spg', статус: standard, have_prem_flag: False
-        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_g6_eland_group
+      ОТЛАДКА: Техника uk_eland_90_mk_7, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_ratel_group, has_dependency: True
+      ОТЛАДКА: Техника uk_eland_90_mk_7 зависит от группы uk_ratel_group
+      ОТЛАДКА: Добавлена техника uk_eland_90_mk_7 с предшественником 'uk_ratel_group', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен uk_fv107_scimitar с order=0
         ОТЛАДКА: get_group_items добавлен uk_fv721_fox с order=1
         ОТЛАДКА: Группа uk_scimitar_fox_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
-        ОТЛАДКА: Группа uk_scimitar_fox_group зависит от предыдущей группы uk_g6_eland_group
-        ОТЛАДКА: Добавлена группа uk_scimitar_fox_group с предшественником 'uk_g6_eland_group', статус: standard, have_prem_flag: False
+        ОТЛАДКА: Группа uk_scimitar_fox_group зависит от uk_eland_90_mk_7
+        ОТЛАДКА: Добавлена группа uk_scimitar_fox_group с предшественником 'uk_eland_90_mk_7', статус: standard, have_prem_flag: False
           ОТЛАДКА: Элемент uk_fv107_scimitar, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_scimitar_fox_group, has_dependency: True
           ОТЛАДКА: Первый элемент группы uk_fv107_scimitar (order=0) зависит от группы uk_scimitar_fox_group
           ОТЛАДКА: Добавлен элемент группы uk_fv107_scimitar с предшественником 'uk_scimitar_fox_group', статус: standard, have_prem_flag: False
@@ -8208,37 +8224,34 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
           ОТЛАДКА: Элемент группы uk_fv721_fox зависит от uk_fv107_scimitar
           ОТЛАДКА: Добавлен элемент группы uk_fv721_fox с предшественником 'uk_fv107_scimitar', статус: standard, have_prem_flag: False
         ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_scimitar_fox_group
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
-        ОТЛАДКА: Группа uk_rooikat_olifant_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
-        ОТЛАДКА: Группа uk_rooikat_olifant_group зависит от предыдущей группы uk_scimitar_fox_group
-        ОТЛАДКА: Добавлена группа uk_rooikat_olifant_group с предшественником 'uk_scimitar_fox_group', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_rooikat_76, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_rooikat_olifant_group, has_dependency: True
-          ОТЛАДКА: Первый элемент группы uk_rooikat_76 (order=0) зависит от группы uk_rooikat_olifant_group
-          ОТЛАДКА: Добавлен элемент группы uk_rooikat_76 с предшественником 'uk_rooikat_olifant_group', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_olifant_mk_1a, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_rooikat_olifant_group, has_dependency: True
-          ОТЛАДКА: Элемент группы uk_olifant_mk_1a зависит от uk_rooikat_76
-          ОТЛАДКА: Добавлен элемент группы uk_olifant_mk_1a с предшественником 'uk_rooikat_76', статус: standard, have_prem_flag: False
-        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_rooikat_olifant_group
-      ОТЛАДКА: Техника uk_badger, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_rooikat_olifant_group, has_dependency: True
-      ОТЛАДКА: Техника uk_badger зависит от группы uk_rooikat_olifant_group
-      ОТЛАДКА: Добавлена техника uk_badger с предшественником 'uk_rooikat_olifant_group', статус: standard, have_prem_flag: False
-        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=0
-        ОТЛАДКА: get_group_items добавлен uk_olifant_mk_2 с order=1
-        ОТЛАДКА: Группа uk_mttd_olifant_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
-        ОТЛАДКА: Группа uk_mttd_olifant_group зависит от uk_badger
-        ОТЛАДКА: Добавлена группа uk_mttd_olifant_group с предшественником 'uk_badger', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_rooikat_mttd, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_mttd_olifant_group, has_dependency: True
-          ОТЛАДКА: Первый элемент группы uk_rooikat_mttd (order=0) зависит от группы uk_mttd_olifant_group
-          ОТЛАДКА: Добавлен элемент группы uk_rooikat_mttd с предшественником 'uk_mttd_olifant_group', статус: standard, have_prem_flag: False
-          ОТЛАДКА: Элемент uk_olifant_mk_2, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_mttd_olifant_group, has_dependency: True
-          ОТЛАДКА: Элемент группы uk_olifant_mk_2 зависит от uk_rooikat_mttd
-          ОТЛАДКА: Добавлен элемент группы uk_olifant_mk_2 с предшественником 'uk_rooikat_mttd', статус: standard, have_prem_flag: False
-        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_mttd_olifant_group
-      ОТЛАДКА: Техника uk_ttd, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_mttd_olifant_group, has_dependency: True
-      ОТЛАДКА: Техника uk_ttd зависит от группы uk_mttd_olifant_group
-      ОТЛАДКА: Добавлена техника uk_ttd с предшественником 'uk_mttd_olifant_group', статус: standard, have_prem_flag: False
-    Столбец 4: обработано 23 элементов
+        ОТЛАДКА: get_group_items добавлен uk_vickers_mk_11 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=1
+        ОТЛАДКА: Группа uk_vickers_rooikat_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
+        ОТЛАДКА: Группа uk_vickers_rooikat_group зависит от предыдущей группы uk_scimitar_fox_group
+        ОТЛАДКА: Добавлена группа uk_vickers_rooikat_group с предшественником 'uk_scimitar_fox_group', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_vickers_mk_11, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_vickers_rooikat_group, has_dependency: True
+          ОТЛАДКА: Первый элемент группы uk_vickers_mk_11 (order=0) зависит от группы uk_vickers_rooikat_group
+          ОТЛАДКА: Добавлен элемент группы uk_vickers_mk_11 с предшественником 'uk_vickers_rooikat_group', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_rooikat_76, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_vickers_rooikat_group, has_dependency: True
+          ОТЛАДКА: Элемент группы uk_rooikat_76 зависит от uk_vickers_mk_11
+          ОТЛАДКА: Добавлен элемент группы uk_rooikat_76 с предшественником 'uk_vickers_mk_11', статус: standard, have_prem_flag: False
+        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_vickers_rooikat_group
+      ОТЛАДКА: Техника uk_badger, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=uk_vickers_rooikat_group, has_dependency: True
+      ОТЛАДКА: Техника uk_badger зависит от группы uk_vickers_rooikat_group
+      ОТЛАДКА: Добавлена техника uk_badger с предшественником 'uk_vickers_rooikat_group', статус: standard, have_prem_flag: False
+        ОТЛАДКА: get_group_items добавлен uk_vfm_5 с order=0
+        ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=1
+        ОТЛАДКА: Группа uk_vfm_mttd_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
+        ОТЛАДКА: Группа uk_vfm_mttd_group зависит от uk_badger
+        ОТЛАДКА: Добавлена группа uk_vfm_mttd_group с предшественником 'uk_badger', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_vfm_5, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=uk_vfm_mttd_group, has_dependency: True
+          ОТЛАДКА: Первый элемент группы uk_vfm_5 (order=0) зависит от группы uk_vfm_mttd_group
+          ОТЛАДКА: Добавлен элемент группы uk_vfm_5 с предшественником 'uk_vfm_mttd_group', статус: standard, have_prem_flag: False
+          ОТЛАДКА: Элемент uk_rooikat_mttd, reqAir в JSON: нет, значение: 'отсутствует', order=1, parent_id=uk_vfm_mttd_group, has_dependency: True
+          ОТЛАДКА: Элемент группы uk_rooikat_mttd зависит от uk_vfm_5
+          ОТЛАДКА: Добавлен элемент группы uk_rooikat_mttd с предшественником 'uk_vfm_5', статус: standard, have_prem_flag: False
+        ОТЛАДКА: Установлен флаг next_should_depend_on_group=uk_vfm_mttd_group
+    Столбец 4: обработано 20 элементов
         ОТЛАДКА: get_group_items добавлен uk_sherman_vc_firefly_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен uk_a30_sp_avenger_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен uk_crusader_aa_mk_2_kit_3rank с order=2
@@ -8691,7 +8704,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника fa_18a_raaf, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fa_18a_raaf зависит от f-4k
       ОТЛАДКА: Добавлена техника fa_18a_raaf с предшественником 'f-4k', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника sea_harrier_fa2, reqAir в JSON: есть, значение: 'f-4k', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника sea_harrier_fa2, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника sea_harrier_fa2 зависит от fa_18a_raaf
       ОТЛАДКА: Добавлена техника sea_harrier_fa2 с предшественником 'fa_18a_raaf', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника fa_18a_hug_2_raaf, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -9159,7 +9172,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника uk_destroyer_st_class_saumarez, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_destroyer_st_class_saumarez зависит от uk_destroyer_g_grafton
       ОТЛАДКА: Добавлена техника uk_destroyer_st_class_saumarez с предшественником 'uk_destroyer_g_grafton', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_destroyer_hunt_4series, reqAir в JSON: есть, значение: 'uk_destroyer_g_grafton', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника uk_destroyer_hunt_4series, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_destroyer_hunt_4series зависит от uk_destroyer_st_class_saumarez
       ОТЛАДКА: Добавлена техника uk_destroyer_hunt_4series с предшественником 'uk_destroyer_st_class_saumarez', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника uk_destroyer_k_class, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -9414,7 +9427,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника uk_frigate_river имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника uk_frigate_river с предшественником '', статус: premium, have_prem_flag: True
     Столбец 3: обработано 3 элементов
-Обработано 437 элементов для britain
+Обработано 438 элементов для britain
 Обработка страны: japan
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен jp_type_60_sprg с order=0
@@ -9672,7 +9685,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника jp_m163_vulcan, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_m163_vulcan зависит от jp_sub_i_ii_20mm
       ОТЛАДКА: Добавлена техника jp_m163_vulcan с предшественником 'jp_sub_i_ii_20mm', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника jp_type_87, reqAir в JSON: есть, значение: 'jp_sub_i_ii_20mm', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника jp_type_87, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_type_87 зависит от jp_m163_vulcan
       ОТЛАДКА: Добавлена техника jp_type_87 с предшественником 'jp_m163_vulcan', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника jp_type_93, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -10118,7 +10131,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника f-5th_thailand, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника f-5th_thailand зависит от f-5t_thailand
       ОТЛАДКА: Добавлена техника f-5th_thailand с предшественником 'f-5t_thailand', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника f_16a_block_15_ocu_thailand, reqAir в JSON: есть, значение: 'f-5t_thailand', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника f_16a_block_15_ocu_thailand, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника f_16a_block_15_ocu_thailand зависит от f-5th_thailand
       ОТЛАДКА: Добавлена техника f_16a_block_15_ocu_thailand с предшественником 'f-5th_thailand', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника saab_jas39c_thailand, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -10381,7 +10394,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника jp_minelayer_tsugaru, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_minelayer_tsugaru зависит от jp_destroyer_matsu
       ОТЛАДКА: Добавлена техника jp_minelayer_tsugaru с предшественником 'jp_destroyer_matsu', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника jp_destroyer_harukaze, reqAir в JSON: есть, значение: 'jp_destroyer_matsu', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника jp_destroyer_harukaze, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_destroyer_harukaze зависит от jp_minelayer_tsugaru
       ОТЛАДКА: Добавлена техника jp_destroyer_harukaze с предшественником 'jp_minelayer_tsugaru', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника jp_destroyer_murasame, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -10469,7 +10482,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника jp_battlecruiser_hiei, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_battlecruiser_hiei зависит от jp_battleship_settsu
       ОТЛАДКА: Добавлена техника jp_battlecruiser_hiei с предшественником 'jp_battleship_settsu', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника jp_battlecruiser_kongo, reqAir в JSON: есть, значение: 'jp_battleship_settsu', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника jp_battlecruiser_kongo, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_battlecruiser_kongo зависит от jp_battlecruiser_hiei
       ОТЛАДКА: Добавлена техника jp_battlecruiser_kongo с предшественником 'jp_battlecruiser_hiei', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника jp_battleship_mutsu, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -10712,7 +10725,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника cn_vt_4, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника cn_vt_4 зависит от cn_mbt2000
       ОТЛАДКА: Добавлена техника cn_vt_4 с предшественником 'cn_mbt2000', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника cn_wz_1001, reqAir в JSON: есть, значение: 'cn_mbt2000', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника cn_wz_1001, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника cn_wz_1001 зависит от cn_vt_4
       ОТЛАДКА: Добавлена техника cn_wz_1001 с предшественником 'cn_vt_4', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника cn_vt_4b, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -10903,7 +10916,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника cn_m55, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника cn_m55 зависит от cn_m10
       ОТЛАДКА: Добавлена техника cn_m55 с предшественником 'cn_m10', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника cn_isu_152, reqAir в JSON: есть, значение: 'cn_m10', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника cn_isu_152, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника cn_isu_152 зависит от cn_m55
       ОТЛАДКА: Добавлена техника cn_isu_152 с предшественником 'cn_m55', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен cn_m36 с order=0
@@ -11698,7 +11711,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Добавлена техника it_m55 с предшественником 'it_semovente_m43_105_75_group', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен it_semovente_m41m_90 с order=0
         ОТЛАДКА: get_group_items добавлен it_stug_III_ausf_G с order=1
-        ОТЛАДКА: Группа it_semovente_stug_group, reqAir в JSON: есть, значение: 'it_semovente_m43_105', has_dependency: True
+        ОТЛАДКА: Группа it_semovente_stug_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
         ОТЛАДКА: Группа it_semovente_stug_group зависит от it_m55
         ОТЛАДКА: Добавлена группа it_semovente_stug_group с предшественником 'it_m55', статус: standard, have_prem_flag: False
           ОТЛАДКА: Элемент it_semovente_m41m_90, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=it_semovente_stug_group, has_dependency: True
@@ -12318,7 +12331,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника mig_29_9_12_sniper имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника mig_29_9_12_sniper с предшественником '', статус: premium, have_prem_flag: True
     Столбец 5: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/6 = 0.67, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 5/7 = 0.71, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ro_43, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ro_43 имеет reqAir='', предшественника нет
@@ -12338,7 +12351,10 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника bf-109f-4_hungary, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника bf-109f-4_hungary имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника bf-109f-4_hungary с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 6: обработано 6 элементов
+      ОТЛАДКА: Техника re_2005_vdm, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника re_2005_vdm имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника re_2005_vdm с предшественником '', статус: premium, have_prem_flag: True
+    Столбец 6: обработано 7 элементов
   Обработка типа: Большой флот, столбцов: 4
       ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
@@ -12437,12 +12453,15 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника it_battleship_leonardo_da_vinci имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника it_battleship_leonardo_da_vinci с предшественником '', статус: standard, have_prem_flag: False
     Столбец 2: обработано 6 элементов
-      ОТЛАДКА: Премиум техники в колонке: 1/1 = 1.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 2/2 = 1.00, порог: 0.2
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника it_destroyer_soldati_serie1, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника it_destroyer_soldati_serie1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника it_destroyer_soldati_serie1 с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 3: обработано 1 элементов
+      ОТЛАДКА: Техника it_cruiser_cadorna_class_cadorna, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника it_cruiser_cadorna_class_cadorna имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника it_cruiser_cadorna_class_cadorna с предшественником '', статус: premium, have_prem_flag: True
+    Столбец 3: обработано 2 элементов
   Обработка типа: Малый флот, столбцов: 4
       ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
@@ -12469,7 +12488,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника it_mc492_baleno, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника it_mc492_baleno зависит от it_mc490_folgore
       ОТЛАДКА: Добавлена техника it_mc492_baleno с предшественником 'it_mc490_folgore', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника it_alano_9851, reqAir в JSON: есть, значение: 'it_mc490_folgore', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника it_alano_9851, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника it_alano_9851 зависит от it_mc492_baleno
       ОТЛАДКА: Добавлена техника it_alano_9851 с предшественником 'it_mc492_baleno', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника it_p494_saetta, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -12529,7 +12548,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника it_p493_freccia имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника it_p493_freccia с предшественником '', статус: premium, have_prem_flag: True
     Столбец 3: обработано 1 элементов
-Обработано 294 элементов для italy
+Обработано 296 элементов для italy
 Обработка страны: france
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен fr_amc_34 с order=0
@@ -12840,7 +12859,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника fr_m55, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_m55 зависит от fr_m44
       ОТЛАДКА: Добавлена техника fr_m55 с предшественником 'fr_m44', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника fr_m36b2_cefeo, reqAir в JSON: есть, значение: 'fr_m44', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника fr_m36b2_cefeo, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_m36b2_cefeo зависит от fr_m55
       ОТЛАДКА: Добавлена техника fr_m36b2_cefeo с предшественником 'fr_m55', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен fr_lorraine_100 с order=0
@@ -13517,7 +13536,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника fr_cruiser_la_galissoniere_class_gloire, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_cruiser_la_galissoniere_class_gloire зависит от fr_cruiser_la_galissoniere_class_la_galissoniere
       ОТЛАДКА: Добавлена техника fr_cruiser_la_galissoniere_class_gloire с предшественником 'fr_cruiser_la_galissoniere_class_la_galissoniere', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника fr_battleship_bretagne_class_bretagne, reqAir в JSON: есть, значение: 'fr_cruiser_la_galissoniere_class_la_galissoniere', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника fr_battleship_bretagne_class_bretagne, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_battleship_bretagne_class_bretagne зависит от fr_cruiser_la_galissoniere_class_gloire
       ОТЛАДКА: Добавлена техника fr_battleship_bretagne_class_bretagne с предшественником 'fr_cruiser_la_galissoniere_class_gloire', статус: standard, have_prem_flag: False
     Столбец 1: обработано 11 элементов
@@ -13581,7 +13600,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника fr_adroit_class, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_adroit_class зависит от fr_type40k_vedette
       ОТЛАДКА: Добавлена техника fr_adroit_class с предшественником 'fr_type40k_vedette', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника fr_arras_class_arras, reqAir в JSON: есть, значение: 'fr_type40k_vedette', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника fr_arras_class_arras, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_arras_class_arras зависит от fr_adroit_class
       ОТЛАДКА: Добавлена техника fr_arras_class_arras с предшественником 'fr_adroit_class', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника fr_vlt1, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -13666,7 +13685,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника sw_cv_90105, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника sw_cv_90105 зависит от sw_landsverk_ush_405
       ОТЛАДКА: Добавлена техника sw_cv_90105 с предшественником 'sw_landsverk_ush_405', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника sw_ikv_91_105, reqAir в JSON: есть, значение: 'sw_landsverk_ush_405', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника sw_ikv_91_105, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника sw_ikv_91_105 зависит от sw_cv_90105
       ОТЛАДКА: Добавлена техника sw_ikv_91_105 с предшественником 'sw_cv_90105', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен sw_cv_9030_fin с order=0
@@ -14139,9 +14158,9 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
           ОТЛАДКА: Элемент группы mosquito_fb_mk6_ash_norway зависит от mosquito_fb_mk6_norway
           ОТЛАДКА: Добавлен элемент группы mosquito_fb_mk6_ash_norway с предшественником 'mosquito_fb_mk6_norway', статус: standard, have_prem_flag: False
         ОТЛАДКА: Установлен флаг next_should_depend_on_group=mosquito_norway_group
-      ОТЛАДКА: Техника saab_a21a_3, reqAir в JSON: есть, значение: '', next_should_depend_on_group=mosquito_norway_group, has_dependency: False
-      ОТЛАДКА: Техника saab_a21a_3 имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника saab_a21a_3 с предшественником '', статус: standard, have_prem_flag: False
+      ОТЛАДКА: Техника saab_a21a_3, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=mosquito_norway_group, has_dependency: True
+      ОТЛАДКА: Техника saab_a21a_3 зависит от группы mosquito_norway_group
+      ОТЛАДКА: Добавлена техника saab_a21a_3 с предшественником 'mosquito_norway_group', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника saab_a21rb, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника saab_a21rb зависит от saab_a21a_3
       ОТЛАДКА: Добавлена техника saab_a21rb с предшественником 'saab_a21a_3', статус: standard, have_prem_flag: False
@@ -14706,7 +14725,7 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       ОТЛАДКА: Техника f_16i_sufa, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника f_16i_sufa зависит от f_16d_block_40_barak_2
       ОТЛАДКА: Добавлена техника f_16i_sufa с предшественником 'f_16d_block_40_barak_2', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника f_15i_raam, reqAir в JSON: есть, значение: 'f_16d_block_40_barak_2', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника f_15i_raam, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника f_15i_raam зависит от f_16i_sufa
       ОТЛАДКА: Добавлена техника f_15i_raam с предшественником 'f_16i_sufa', статус: standard, have_prem_flag: False
     Столбец 2: обработано 8 элементов
@@ -17935,13 +17954,13 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
     Ранг 2: 8 элементов, начинаем с row_index=0
         Логическая группа: uk_crusader_group + 2 элементов
         Отдельный элемент: uk_cruiser_ram_1
-        Логическая группа: uk_cromwell_group + 2 элементов
+        Логическая группа: uk_cromwell_sherman_group + 2 элементов
         Отдельный элемент: uk_sherman_II
       uk_crusader_group: [0, 0] (группа)
       uk_crusader_mk_2: [0, 0] (элемент)
       uk_crusader_mk_3: [0, 0] (элемент)
       uk_cruiser_ram_1: [0, 1] (элемент)
-      uk_cromwell_group: [0, 2] (группа)
+      uk_cromwell_sherman_group: [0, 2] (группа)
       uk_a27m_cromwell_5: [0, 2] (элемент)
       uk_a27m_cromwell_1: [0, 2] (элемент)
       uk_sherman_II: [0, 3] (элемент)
@@ -18019,16 +18038,18 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
     Ранг 5: 1 элементов, начинаем с row_index=0
         Отдельный элемент: uk_vickers_mbt_mk_1
       uk_vickers_mbt_mk_1: [1, 0] (элемент)
-    Ранг 6: 3 элементов, начинаем с row_index=0
-        Отдельный элемент: uk_vickers_mbt_mk_3
-        Отдельный элемент: uk_vickers_mk_11
-        Отдельный элемент: uk_vfm_5
+    Ранг 6: 4 элементов, начинаем с row_index=0
+        Логическая группа: uk_vickers_olifant_group + 2 элементов
+        Отдельный элемент: uk_olifant_mk_2
+      uk_vickers_olifant_group: [1, 0] (группа)
       uk_vickers_mbt_mk_3: [1, 0] (элемент)
-      uk_vickers_mk_11: [1, 1] (элемент)
-      uk_vfm_5: [1, 2] (элемент)
-    Ранг 7: 1 элементов, начинаем с row_index=0
+      uk_olifant_mk_1a: [1, 0] (элемент)
+      uk_olifant_mk_2: [1, 1] (элемент)
+    Ранг 7: 2 элементов, начинаем с row_index=0
+        Отдельный элемент: uk_ttd
         Отдельный элемент: uk_vickers_mk7
-      uk_vickers_mk7: [1, 0] (элемент)
+      uk_ttd: [1, 0] (элемент)
+      uk_vickers_mk7: [1, 1] (элемент)
   Обработка столбца: britain/Наземная техника/col_2/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: uk_a17_mk_1_tetrarch
@@ -18047,12 +18068,14 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
         Отдельный элемент: uk_a30_sp_avenger
       uk_m44: [2, 0] (элемент)
       uk_a30_sp_avenger: [2, 1] (элемент)
-    Ранг 4: 5 элементов, начинаем с row_index=0
-        Отдельный элемент: uk_fv4005
-        Отдельный элемент: uk_m109a1
+    Ранг 4: 7 элементов, начинаем с row_index=0
+        Логическая группа: uk_fv_m109_group + 2 элементов
+        Отдельный элемент: uk_g6_spg
         Логическая группа: uk_tortoise_conway_group + 2 элементов
+      uk_fv_m109_group: [2, 0] (группа)
       uk_fv4005: [2, 0] (элемент)
-      uk_m109a1: [2, 1] (элемент)
+      uk_m109a1: [2, 0] (элемент)
+      uk_g6_spg: [2, 1] (элемент)
       uk_tortoise_conway_group: [2, 2] (группа)
       uk_a39_tortoise: [2, 2] (элемент)
       uk_fv4004_conway: [2, 2] (элемент)
@@ -18130,14 +18153,12 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
     Ранг 3: 1 элементов, начинаем с row_index=0
         Отдельный элемент: uk_concept3_ngac
       uk_concept3_ngac: [4, 0] (элемент)
-    Ранг 4: 6 элементов, начинаем с row_index=0
+    Ранг 4: 4 элементов, начинаем с row_index=0
         Логическая группа: uk_ratel_group + 2 элементов
-        Логическая группа: uk_g6_eland_group + 2 элементов
+        Отдельный элемент: uk_eland_90_mk_7
       uk_ratel_group: [4, 0] (группа)
       uk_ratel_90: [4, 0] (элемент)
       uk_ratel_20: [4, 0] (элемент)
-      uk_g6_eland_group: [4, 1] (группа)
-      uk_g6_spg: [4, 1] (элемент)
       uk_eland_90_mk_7: [4, 1] (элемент)
     Ранг 5: 3 элементов, начинаем с row_index=0
         Логическая группа: uk_scimitar_fox_group + 2 элементов
@@ -18145,19 +18166,16 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
       uk_fv107_scimitar: [4, 0] (элемент)
       uk_fv721_fox: [4, 0] (элемент)
     Ранг 6: 7 элементов, начинаем с row_index=0
-        Логическая группа: uk_rooikat_olifant_group + 2 элементов
+        Логическая группа: uk_vickers_rooikat_group + 2 элементов
         Отдельный элемент: uk_badger
-        Логическая группа: uk_mttd_olifant_group + 2 элементов
-      uk_rooikat_olifant_group: [4, 0] (группа)
+        Логическая группа: uk_vfm_mttd_group + 2 элементов
+      uk_vickers_rooikat_group: [4, 0] (группа)
+      uk_vickers_mk_11: [4, 0] (элемент)
       uk_rooikat_76: [4, 0] (элемент)
-      uk_olifant_mk_1a: [4, 0] (элемент)
       uk_badger: [4, 1] (элемент)
-      uk_mttd_olifant_group: [4, 2] (группа)
+      uk_vfm_mttd_group: [4, 2] (группа)
+      uk_vfm_5: [4, 2] (элемент)
       uk_rooikat_mttd: [4, 2] (элемент)
-      uk_olifant_mk_2: [4, 2] (элемент)
-    Ранг 7: 1 элементов, начинаем с row_index=0
-        Отдельный элемент: uk_ttd
-      uk_ttd: [4, 0] (элемент)
   Обработка столбца: britain/Наземная техника/col_5/premium_True
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: uk_a_13_mk1_3rd_rtr
@@ -20611,6 +20629,9 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
         Отдельный элемент: bf-109f-4_hungary
       bf_110g_4_hungary: [1, 0] (элемент)
       bf-109f-4_hungary: [1, 1] (элемент)
+    Ранг 4: 1 элементов, начинаем с row_index=0
+        Отдельный элемент: re_2005_vdm
+      re_2005_vdm: [1, 0] (элемент)
   Обработка столбца: italy/Большой флот/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_destroyer_turbine
@@ -20693,9 +20714,11 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
         Отдельный элемент: it_battleship_leonardo_da_vinci
       it_battleship_leonardo_da_vinci: [2, 0] (элемент)
   Обработка столбца: italy/Большой флот/col_3/premium_True
-    Ранг 3: 1 элементов, начинаем с row_index=0
+    Ранг 3: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_destroyer_soldati_serie1
+        Отдельный элемент: it_cruiser_cadorna_class_cadorna
       it_destroyer_soldati_serie1: [0, 0] (элемент)
+      it_cruiser_cadorna_class_cadorna: [0, 1] (элемент)
   Обработка столбца: italy/Малый флот/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_mas_classe500_3_1944
@@ -22153,11 +22176,11 @@ Slave-юниты: {'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3372 элементов
-Данные (3372 записей) сохранены в shop.csv
+Координаты назначены для 3375 элементов
+Данные (3375 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2492, Премиумной: 880
+Статистика: Стандартной техники: 2493, Премиумной: 882
 Обработано master-slave пар: 7
 Slave-юниты пропущены: 7
-Поля image (379 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3372 элементов.
+Поля image (380 записей) сохранены в shop_images_fields.csv
+Парсинг завершен успешно! Обработано 3375 элементов.
