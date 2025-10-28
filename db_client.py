@@ -346,6 +346,7 @@ def upload_all_data(config: Dict[str, str],
             try:
                 client._patch(f"nodes?external_id=eq.{external_id}",
                               {'parent_id': node_map[parent_external_id]})
+                print(f"Обновление связей {external_id}. Количество обновленных юнитов: {updated_count}/{len(merged_data)}")
                 updated_count += 1
             except Exception as e:
                 print(f"Ошибка обновления parent_id для {external_id}: {e}")
