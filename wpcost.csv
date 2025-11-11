@@ -50,7 +50,7 @@ us_t95e1,380000,135000,8.3
 us_xm_803,520000,190000,9
 us_mbt_70,620000,110000,9.3
 us_m1_abrams,710000,260000,10.7
-us_m1a1_abrams,830000,300000,11.3
+us_m1a1_abrams,830000,300000,11.7
 us_m1_ip_abrams,950000,175000,11.3
 us_m1a2_abrams,1080000,400000,12
 us_m1a2_sep_abrams,1100000,200000,12.7
@@ -65,7 +65,7 @@ us_skink_aa,155000,46000,5.3
 us_m163_vulcan,270000,95000,7.3
 us_xm246,380000,135000,8.3
 us_m247,520000,190000,9
-us_mim_72_chaparral,620000,220000,9
+us_mim_72_chaparral,620000,110000,9
 us_lav_ad,710000,260000,10
 us_xm_975_roland,830000,300000,10
 us_adats_bradley,1080000,400000,11.7
@@ -76,12 +76,12 @@ us_halftrack_m3_75mm_gmc,6300,5900,1.7
 us_m4a3_105_sherman,16000,9200,3
 us_m10,22000,11000,3.3
 us_m44,47000,18000,4
-us_m55,76000,26000,4
+us_m55,76000,13000,4
 us_m36,105000,33000,5.3
 us_m36b2,135000,20000,5.7
 us_m109a1,155000,46000,6.3
 us_m56_scorpion,185000,54000,6.7
-us_m50_ontos,200000,63000,6.7
+us_m50_ontos,200000,31000,6.7
 us_t95,240000,82000,7
 us_m60a2,380000,135000,8.3
 us_m1128_mgs,710000,260000,10.3
@@ -90,6 +90,7 @@ us_lvt_a_4,0,,1.3
 us_m3a1_stuart_usmc,0,,2.3
 us_m5a1_stuart_canadian_5st_arm,0,,2.7
 us_mk1_grant,0,,2.7
+us_lvt_a1_m24,0,,2.7
 us_m4a5_ram_2,0,,3.7
 us_m24_chaffee_tl,0,,3.7
 us_m4_sherman_promo,0,,3.7
@@ -158,6 +159,7 @@ h_34,0,,7.7
 uh_1c_xm_30,0,,8.7
 yah_64,0,,11.3
 ah_64a_greece_usa,0,,11.7
+ah_56a,0,,9.7
 ah_64a_peten,0,,11.7
 rah_66,0,,11.3
 p-26a_34_m2,0,,1.0
@@ -204,8 +206,9 @@ f-86f-2,380000,135000,8.7
 f-100d,520000,190000,9.3
 f-4c,710000,260000,10
 f-4e,950000,350000,11.3
-f_15a,1100000,410000,13
-f_15c_msip2,1120000,420000,13.7
+f_15a,1080000,400000,13
+f_15c_msip2,1100000,410000,13.7
+f_15c_golden_eagle,1120000,420000,14.3
 bf2c_1,0,,1.0
 f3f-2,700,2900,1.3
 f2a-1,2100,4000,2
@@ -308,6 +311,7 @@ p-47m-1-re_boxted,0,,5.7
 fw-190a-8_usa,0,,5
 spitfire_ix_usa,0,,5.7
 douglas_a_1h,0,,6.3
+xf5u_1,0,,5.3
 f-89b,0,,7
 f-89d,0,,7
 a_4e_early,0,,8.7
@@ -382,6 +386,7 @@ us_cruiser_portland_class,150000,23000,5.7
 us_cruiser_pensacola_class,185000,30000,5.7
 us_cruiser_new_orleans_class,230000,73000,6
 us_cruiser_baltimore_class_pittsburgh,340000,110000,6.3
+us_cruiser_oregon_class,440000,145000,6.3
 us_battlecruiser_alaska_class,660000,220000,7.3
 us_destroyer_clemson_welborn_c_wood,0,,3.3
 us_destroyer_mitscher_wilkinson,0,,4.7
@@ -421,6 +426,7 @@ us_admirable_class,300000,89000,3.7
 us_lcs_l_3,700000,250000,3.7
 us_frigate_buckley_class_coolbaugh,780000,280000,4
 us_pgm_59_class,180000,48000,3.3
+us_pgm_9_class,300000,89000,3.3
 us_cyclone_class_cyclone,700000,250000,3.3
 us_pt3,0,,1.0
 us_pc_466_carmi,0,,2.3
@@ -429,6 +435,7 @@ us_lcm_zippo,0,,2.3
 us_elco_80ft_pt_boat_thunderbolt,0,,3
 us_pt811,0,,3.7
 us_ashville_class_douglas,0,,4
+us_huckins_78ft_pt262,0,,2
 us_elco_80ft_pt109_boat,0,,1.7
 us_higgins_78ft_pt658,0,,2.7
 us_flagstaff_pgh1,0,,3
@@ -512,8 +519,8 @@ germ_flakpanzer_iv_kugelblitz,210000,71000,6.7
 germ_wiesel_1_mk20,240000,82000,7.3
 germ_sppz2_luchs_a2,270000,95000,7.3
 germ_flakpz_i_gepard,380000,135000,8.3
-germ_wiesel_2_adwc,710000,260000,9.7
-germ_flakpz_1a2_gepard,830000,150000,9.7
+germ_wiesel_2_adwc,520000,190000,9.7
+germ_flakpz_1a2_gepard,620000,110000,9.7
 germ_flarakpz_1,830000,300000,10
 germ_9a33bm3,950000,175000,10.3
 germ_9a35_m,950000,350000,10.3
@@ -539,7 +546,7 @@ germ_panzerjager_tiger_p_ferdinand,200000,63000,6.7
 germ_panzerjager_tiger,210000,35000,6.7
 germ_pzh_2000,270000,95000,7.7
 germ_spz_oerlikon_raketenautomat,300000,105000,8
-germ_raketenjagdpanzer_2,340000,120000,8
+germ_raketenjagdpanzer_2,340000,61000,8
 germ_raketenjagdpanzer_2_hot,380000,135000,8.3
 germ_wiesel_1_tow,710000,260000,9.7
 germ_pzkpfw_35t_romania_mare,0,,1.0
@@ -683,6 +690,7 @@ go229_v3,300000,105000,7
 fiat_g91_r3,380000,135000,8.7
 alpha_jet_a,450000,160000,8.7
 tornado_ids_de_assta1,1080000,400000,11.7
+tornado_ids_de_assta3_sle,1100000,410000,12.3
 hs-123a-1,700,2900,1.0
 ju-87b-2,2100,4000,1.0
 ju-87r-2,6300,3000,1.3
@@ -803,8 +811,9 @@ germ_cruiser_leipzig,115000,33000,5.3
 germ_cruiser_nurnberg,150000,23000,5.7
 germ_cruiser_admiral_hipper,185000,59000,6
 germ_battleship_westfalen,340000,110000,6
-germ_battleship_helgoland,440000,145000,6.7
-germ_battleship_kaiser,540000,180000,6.7
+germ_battleship_helgoland,440000,73000,6.7
+germ_battleship_kaiser,440000,145000,6.7
+germ_battleship_konig,540000,180000,6.7
 germ_battleship_bayern,780000,260000,7
 germ_battleship_sachsen,900000,300000,7
 germ_battleship_bismarck,1150000,400000,8.3
@@ -878,8 +887,9 @@ ussr_t_34_1941,22000,5600,4
 ussr_t_34_1942,22000,11000,4
 ussr_t_34e_stz,32000,6900,4
 ussr_t_34_1941_57,76000,26000,4.7
-ussr_t_34_85_d_5t,135000,40000,5.3
-ussr_t_34_85_zis_53,155000,46000,5.7
+ussr_t_34_85_d_5t,105000,33000,5.3
+ussr_t_34_85_zis_53,135000,20000,5.7
+ussr_t_34_85_stp_s53,200000,63000,6.3
 ussr_t_44,210000,71000,6.7
 ussr_t_44_100,270000,95000,7
 ussr_t_54_1947,300000,105000,7.7
@@ -947,15 +957,16 @@ ussr_su_85_1943,76000,13000,4.3
 ussr_isu_152,105000,17000,4.7
 ussr_su_85m,105000,33000,5
 ussr_isu_122,135000,20000,5.3
-ussr_isu_122s,155000,46000,5.7
-ussr_su_100_1945,185000,27000,6
+ussr_isu_122s,135000,20000,5.7
+ussr_su_100_1945,155000,46000,6
 ussr_2s1,200000,63000,6
 ussr_2s3m,210000,35000,6.3
 ussr_su_122_54,240000,82000,6.7
 ussr_object_268,270000,48000,7
 ussr_2s19_m1,300000,105000,7
 ussr_it_1,380000,135000,8.7
-ussr_9p149,450000,160000,8.7
+ussr_9p149,450000,81000,8.7
+ussr_btr_82at,450000,160000,9
 ussr_object_775,520000,190000,9.3
 ussr_9p157,710000,260000,9.7
 ussr_gaz_4m,700,2900,1.0
@@ -974,8 +985,8 @@ ussr_zsu_37_2,340000,120000,7.7
 ussr_zsu_23_4,380000,135000,8
 ussr_zsu_23_4m4,520000,190000,9.3
 ussr_9a33bm3,710000,260000,10.3
-ussr_9a35_m2,830000,300000,10.3
-ussr_zprk_2s6,950000,350000,10.7
+ussr_9a35_m2,830000,150000,10.3
+ussr_zprk_2s6,830000,300000,10.7
 ussr_pantsyr_s1,1080000,400000,12
 ussr_buk_m3_fcs,1100000,410000,12.7
 ussr_t_26_1940_1st_gvtbr,0,,1.0
@@ -1194,6 +1205,7 @@ tandem_mai,0,,1.7
 kor_1,0,,1.3
 kor_2,0,,1.3
 lagg-3-4,0,,2.3
+yak_1_litvyak,0,,2.3
 p-40e_ussr,0,,2.7
 hurricanemkii_ussr,0,,3
 i-153p,0,,2.7
@@ -1221,6 +1233,7 @@ mig-21_s,0,,9.7
 su_22m3,0,,11
 mig_23ml,0,,11.7
 su_33,0,,13
+su_30mk2v_venezuela,0,,13.3
 mbr-2,0,,1.0
 po-2m,0,,1.0
 tb_3_m17_32,0,,1.3
@@ -1271,6 +1284,7 @@ ussr_destroyer_regele_ferdinand_class_letuchiy,2100,4000,4
 ussr_destroyer_pr30_ognevoy,16000,9000,4.3
 ussr_destroyer_pr30bis_bezuprechnyi,22000,11000,4.3
 ussr_destroyer_pr20_tashkent,38000,15000,5
+ussr_destroyer_pr48k_erevan,55000,18000,5
 ussr_destroyer_pr56_spokoinyy,70000,21000,5.3
 ussr_destroyer_pr56_bravy,115000,33000,5.3
 ussr_battleship_imperatritsa_mariya,340000,110000,6.7
@@ -1342,7 +1356,7 @@ uk_crusader_mk_3,16000,4600,3
 uk_cruiser_ram_1,16000,9200,3
 uk_a27m_cromwell_5,22000,11000,3.3
 uk_a27m_cromwell_1,32000,6900,3.7
-uk_sherman_ii,32000,14000,3.7
+uk_sherman_ii,32000,6900,3.7
 uk_sherman_vc_firefly,76000,26000,4.7
 uk_a30_challenger,105000,33000,5.3
 uk_a_34_comet,135000,20000,5.3
@@ -1354,6 +1368,7 @@ uk_centurion_mk_10,300000,105000,8
 uk_chieftain_mk_3,380000,135000,8.7
 uk_chieftain_mk_5,450000,81000,8.7
 uk_chieftain_mk_10,520000,190000,9
+uk_chieftain_900,620000,110000,9
 uk_challenger_1,710000,260000,10.3
 uk_challenger_mk_3,830000,150000,10.7
 uk_challenger_ii,950000,350000,11.7
@@ -1408,10 +1423,10 @@ uk_skink_aa,155000,46000,5.3
 uk_falcon,300000,105000,8.3
 uk_chieftain_marksman,380000,135000,8.3
 uk_rooikat_za_35,450000,81000,8.7
-uk_tracked_rapier,710000,260000,9.7
-uk_stormer_air_defence,830000,300000,10
-uk_stormer_hvm,950000,175000,10.3
-uk_9a33bm2,950000,350000,10.3
+uk_tracked_rapier,620000,220000,9.7
+uk_stormer_air_defence,710000,260000,10
+uk_9a33bm2,830000,150000,10.3
+uk_stormer_hvm,830000,300000,10.3
 uk_9a35_m,950000,175000,10.3
 uk_adats_m113a3,1080000,400000,11.7
 uk_sky_sabre_fcs,1100000,410000,12.7
@@ -1473,6 +1488,7 @@ wasp_has_mk1,490000,150000,9
 wessex_mk5,980000,360000,9
 lynx_ah_mk1,1000000,380000,10.7
 ah_mk1,1020000,400000,12
+ah_64e_britain,1030000,400000,13
 super_hind_mk3,0,,10.3
 g_lynx,0,,10.7
 ah_2_rooivalk,0,,11.7
@@ -1558,6 +1574,8 @@ swift_f7,340000,120000,8.7
 jaguar_gr1,520000,190000,9.7
 harrier_gr3,620000,220000,9.7
 jaguar_gr1a,830000,300000,10.7
+hawk_200,950000,350000,10.7
+hawk_200_rda,950000,175000,11.3
 harrier_gr7,1080000,400000,12.3
 hp_12,0,,1.0
 swordfish_mk1,700,2900,1.0
@@ -1595,6 +1613,7 @@ corsair_fmk2,0,,2.7
 spitfiremkiia_ep,0,,3
 d_520,0,,3
 d_521,0,,3
+mosquito_b_mk16,0,,3.7
 hellcat_fmk1,0,,3.3
 thunderbolt_mk1,0,,3.7
 p-51b,0,,3.7
@@ -1656,6 +1675,7 @@ uk_destroyer_daring_class_daring,70000,11000,5
 uk_cruiser_dido,150000,46000,5.3
 uk_cruiser_york,185000,59000,5.3
 uk_battleship_colossus,440000,145000,6.3
+uk_battleship_centurion,540000,180000,6.7
 uk_battleship_rodney,900000,300000,7.7
 uk_destroyer_clemson_churchill,0,,3.3
 uk_minelayer_abdiel_class_abdiel,22000,11000,4.7
@@ -1743,7 +1763,7 @@ jp_type_1_chi_he,16000,9200,2.7
 jp_type_3_chi_nu,47000,18000,3.3
 jp_type_4_chi_to,105000,33000,4.7
 jp_type_4_chi_to_late,135000,20000,4.7
-jp_type_5_chi_ri,135000,40000,5
+jp_type_5_chi_ri,155000,46000,5.7
 jp_st_a1,185000,54000,6.3
 jp_st_a2,200000,31000,6.3
 jp_type_61,200000,63000,6.7
@@ -1804,6 +1824,7 @@ uh_1b_japan,390000,,7.7
 ah_1s_early,980000,360000,9.3
 ah_1s_late,1000000,380000,9.7
 ah_64d_japan,1020000,400000,11.7
+ah_64e_indonesia,1030000,400000,13
 mi_35p_indonesia,990000,370000,9.7
 ah_1s,0,380000,9.7
 f1m2,700,2900,1.0
@@ -1965,6 +1986,7 @@ jp_cruiser_mogami,440000,145000,6
 jp_battleship_hyuga,540000,180000,7
 jp_battleship_ise,780000,260000,7.7
 jp_battlecruiser_amagi,1050000,350000,8
+jp_battleship_musashi,1150000,400000,8.7
 jp_armoredcruiser_ikoma,185000,59000,5.7
 jp_battleship_settsu,440000,145000,6.3
 jp_battlecruiser_hiei,540000,180000,6.7
@@ -1980,6 +2002,7 @@ jp_destroyer_shimakaze,0,,5
 jp_cruiser_myoko,0,,6
 jp_cruiser_mogami_mikuma,0,,6
 jp_battleship_yamashiro,0,,7
+jp_battleship_nagato,0,,8.3
 jp_destroyer_hayanami,0,,4.7
 jp_destroyer_hatsuzuki,0,,5
 jp_destroyer_yuudachi,0,,4.3
@@ -1992,7 +2015,8 @@ jp_type5_escortboat,6300,5900,1.7
 jp_karotei_type2,16000,9200,1.7
 jp_sehatei_mod1,32000,14000,1.7
 jp_kusen_tei_13_1944,47000,18000,2.3
-jp_t51b,180000,48000,2.3
+jp_t51b,115000,36000,2.3
+jp_pc301_kari_class,180000,48000,3
 jp_type_11_pt_15,250000,75000,3.3
 jp_escort_ikazuchi_class,360000,120000,3.3
 jp_escort_hiburi_class_syonan,640000,220000,3.3
@@ -2031,9 +2055,9 @@ cn_m_41d,380000,135000,8
 cn_m60a3_tts,520000,190000,9
 cn_cm11,620000,220000,9.3
 cn_mbt2000,830000,300000,11.7
-cn_vt_4,1080000,400000,12.3
-cn_wz_1001,1100000,410000,12.3
-cn_vt_4b,1120000,420000,12.7
+cn_vt_4,950000,350000,12.3
+cn_wz_1001,1080000,400000,12.3
+cn_vt_4b,1100000,410000,12.7
 cn_t_26_1940,0,,1.0
 cn_type_97_chi_ha,700,2900,1.3
 cn_type_97_kai,10000,7900,2.3
@@ -2063,7 +2087,7 @@ cn_zsd63_pg87,155000,46000,5.7
 cn_zsl_92,240000,82000,6.3
 cn_wz_305,300000,105000,8
 cn_pgz_09,450000,160000,9
-cn_pgz_04a,710000,260000,9.3
+cn_pgz_04a,520000,190000,9.3
 cn_antelope_tc_1l_ads,830000,300000,10.3
 cn_tor_m1,1080000,400000,11.3
 cn_hq_17,1100000,200000,11.7
@@ -2084,6 +2108,7 @@ cn_cm_25,450000,160000,8.7
 cn_ptz_89,520000,94000,9
 cn_ptl_02,520000,190000,9
 cn_hj_9,620000,110000,9
+cn_cm_34,620000,220000,9.3
 cn_ztl_11,710000,260000,9.7
 cn_zbd_04a,830000,300000,10
 cn_t_26_no531,0,,1.0
@@ -2108,6 +2133,7 @@ cn_plz_83_130,0,,7.3
 cn_t_62,0,,8.7
 cn_t_80ud_478be,0,,10.7
 cn_al_khalid_1,0,,11.7
+cn_oplot_t,0,,12.3
 z_11wa,390000,,8.7
 z_9w,980000,360000,10.3
 z_9wa,1000000,380000,11
@@ -2117,6 +2143,7 @@ z_10me,1030000,400000,13
 sa_342l_china,490000,150000,8.7
 oh_58d_china,1000000,380000,10.3
 ah_1w_china,1010000,390000,11
+ah_64e_china,1030000,400000,13
 mi_35m_pakistan,0,,10.7
 z_19e,0,,11.3
 z_10a,0,,11.7
@@ -2161,7 +2188,7 @@ j_7e,830000,300000,11.3
 j_8b,950000,350000,11.3
 j_8f,1080000,400000,13
 j_11,1100000,410000,13
-j_11a,1120000,210000,13.7
+j_11a,1120000,210000,13.3
 j_11b,1120000,420000,13.7
 hs-123a-1_china,700,2900,1.0
 v_11g,2100,4000,1.3
@@ -2174,6 +2201,7 @@ f-84g_china,270000,95000,7.7
 q_5_early,380000,135000,9.3
 q_5a,450000,160000,10
 q_5l,710000,260000,10
+jh_7,830000,300000,11.3
 jh_7a,1080000,400000,12.3
 martin_139wc,700,2900,1.3
 db_3a_china,10000,7900,2.7
@@ -2197,6 +2225,7 @@ mig-17_f5,0,,9.3
 a_5c,0,,10.7
 j_7d,0,,10.7
 jf_17,0,,13.3
+jh_7a_prototype,0,,12.3
 p-51c-11-nt_china,0,,3.7
 f_47n_25_re_china,0,,4.7
 pe-2-359_china,0,,4.7
@@ -2246,7 +2275,7 @@ it_oto_r3_t20_fa,185000,54000,6
 it_zsu_57_2,240000,82000,7
 it_zsu_23_4,380000,135000,8
 it_otobreda_sidam_25,450000,160000,8.3
-it_otobreda_sidam_25_mistral,710000,260000,9.7
+it_otobreda_sidam_25_mistral,620000,220000,9.7
 it_9a33bm3,830000,300000,10.3
 it_9a35_m,950000,175000,10.3
 it_otomatic,950000,350000,11.3
@@ -2292,6 +2321,7 @@ it_m26_ariete,0,,6.7
 it_pzh_2000_hu,0,,7.7
 it_m60a1_ariete,0,,8
 it_aubl_74_60_70m,0,,8
+it_c13_tua,0,,8.3
 it_of_40_mtca,0,,9.3
 it_vrcc_centauro,0,,9.7
 it_centauro_rgo_120,0,,11.7
@@ -2360,7 +2390,8 @@ sm_91,22000,11000,3.7
 sm_92,47000,18000,4
 p-47d_30_italy,76000,26000,5
 il-10_1946_hungary,200000,63000,5
-f-84g_italy,240000,82000,7.7
+mb_326k,240000,82000,7
+f-84g_italy,270000,95000,7.7
 f-84f_italy,380000,135000,8.3
 tornado_ids_it,830000,300000,11.3
 tornado_ids_it_mod95,1080000,400000,11.7
@@ -2435,6 +2466,7 @@ it_cruiser_bolzano,230000,73000,5.7
 it_cruiser_zara_class,340000,110000,6
 it_battleship_andrea_doria,440000,145000,6.3
 it_battleship_caio_duilio,660000,220000,7.3
+it_battleship_littorio_class_littorio,1190000,410000,8.3
 it_destroyer_aquilone,0,2900,3.3
 it_destroyer_fletcher_geniere,0,13000,4.7
 it_destroyer_leone_class_tigre,0,25000,4
@@ -2477,6 +2509,7 @@ fr_amd_35_kwk39,10000,7900,2.7
 fr_crusader_mk_2,16000,9200,2.7
 fr_amx_13_fl_11,76000,26000,4.3
 fr_panhard_ebr_1951,135000,40000,5.3
+fr_amx_elc_bis,200000,63000,6
 fr_amx_13_75,210000,71000,7
 fr_aml_90,270000,95000,7.7
 fr_amx_13_90,300000,53000,7.7
@@ -2538,15 +2571,15 @@ fr_somua_sau40,6300,5900,1.7
 fr_m4a3_105_sherman,22000,11000,3
 fr_m10,32000,14000,3.3
 fr_m44,47000,18000,4
-fr_m55,76000,26000,4
+fr_m55,76000,13000,4
 fr_m36b2_cefeo,135000,40000,5.7
 fr_lorraine_100,185000,54000,6
-fr_amx_elc_bis,200000,31000,6
 fr_amx_30_auf_1,240000,82000,7
-fr_amx_10m_acra,270000,48000,7.3
 fr_amx_50_foch,300000,105000,7.3
+fr_amx_10m_acra,340000,61000,7.3
 fr_amx_30_acra,380000,135000,8.3
 fr_vcac_mephisto,450000,160000,8.7
+fr_jaguar_ebrc,1080000,400000,11
 fr_hotchkiss_h39_cambronne,0,,1.0
 fr_char_2c_bis,0,,1.7
 fr_b1_ter,0,,2.7
@@ -2574,8 +2607,9 @@ sa_316b,490000,150000,8.3
 sa_341f,990000,370000,9
 sa_342m,1000000,380000,9.7
 tiger_had_france,1020000,400000,11
-tiger_hac_france,1030000,200000,12.3
+tiger_hac_france,1030000,200000,13
 tiger_had_block2_france,1030000,400000,13
+ah_64e_netherlands,1030000,400000,13
 sa_313b_france,490000,150000,8.3
 iar_316b,0,,8.3
 tiger_hap_france,0,,10
@@ -2653,6 +2687,7 @@ mirage_2000d_rmv,1100000,410000,12.7
 gladiator_mk1_belgium,700,2900,1.0
 fokker_d21_netherlands,2100,4000,1.7
 fokker_g1a,10000,7900,2.3
+fokker_d23,16000,9200,2.3
 firefly_mk4_netherlands,76000,26000,3.7
 spitfire_fr_mk14e_belgium,200000,63000,5.7
 meteor_fmk8_belgium,340000,120000,8
@@ -2712,13 +2747,14 @@ fr_cruiser_emile_bertin,115000,33000,5.3
 fr_cruiser_la_galissoniere_class_la_galissoniere,185000,59000,5.7
 fr_cruiser_la_galissoniere_class_gloire,230000,73000,5.7
 fr_battleship_bretagne_class_bretagne,540000,180000,6.7
-fr_destroyer_jaguar_class_panthere,0,,3.7
-fr_destroyer_bourrasque_class_tornade,0,,3.7
-fr_destroyer_aigle_class_aigle,0,,4.3
+fr_battleship_richelieu_class_clemenceau,1150000,400000,8.3
+fr_destroyer_jaguar_class_panthere,0,2900,3.7
+fr_destroyer_bourrasque_class_tornade,0,4000,3.7
+fr_destroyer_aigle_class_aigle,0,9000,4.3
 fr_destroyer_le_fantasque_class_le_triomphant,0,,4.7
-fr_cruiser_dugauy_class_dugauy_trouin,0,,5
-fr_cruiser_suffren_class_dupleix,0,,5.7
-fr_battleship_courbet_class_courbet,0,,6
+fr_cruiser_dugauy_class_dugauy_trouin,0,21000,5
+fr_cruiser_suffren_class_dupleix,0,73000,5.7
+fr_battleship_courbet_class_courbet,0,180000,6
 fr_battleship_strasbourg,0,,7.3
 fr_vtb8,0,,1.0
 fr_vtb11,0,,1.0
@@ -2735,7 +2771,9 @@ fr_mtb96_vosper,10000,7900,2
 fr_flower_class_aconit,16000,9200,2.3
 fr_lcg_m_l9059,76000,26000,2.7
 fr_marne_class_marne,180000,48000,3.3
-fr_frigate_croix_de_lorraine_class_la_surprise,230000,61000,3.3
+fr_elan_class_commandant_domine,230000,61000,3.3
+fr_frigate_croix_de_lorraine_class_la_surprise,250000,75000,3.3
+fr_frigate_corse_class_brestois,860000,320000,4.3
 fr_vtb10,0,,1.0
 fr_vtb9,0,,1.0
 fr_arras_class_amiens,0,,3
@@ -2777,7 +2815,7 @@ sw_pvlvv_fm42,2100,4000,1.7
 sw_pbv_301,10000,7900,2.3
 sw_tgdgb_m40_lv,16000,9200,2.7
 sw_l_62_anti_ii,47000,18000,3.3
-sw_lvkv_42,155000,46000,4.7
+sw_lvkv_42,105000,33000,4.7
 sw_landsverk_ush_204_gk,185000,54000,5.3
 sw_zsu_57_2,240000,82000,7
 sw_veak_40,270000,95000,7.7
@@ -2869,6 +2907,7 @@ saab_j29b,300000,105000,7.7
 saab_a32a,620000,220000,9
 saab_aj37,710000,260000,10.3
 saab_ajs37,950000,350000,11
+f_16am_block_20_mlu_norway,1100000,410000,13.7
 he_115a_2_sweden,700,2900,1.0
 saab_b3c,2100,4000,1.3
 saab_b18a,10000,7900,2.7
@@ -2947,6 +2986,7 @@ il_spyder_aio,1100000,410000,12.7
 il_m109,155000,46000,6
 il_m109a1,185000,54000,6.3
 il_ss_11_halftrack,200000,31000,6.7
+il_m113_hvms,340000,120000,7.7
 il_m113a1_tow,450000,160000,8.3
 il_namer_rcws_30,710000,260000,11.3
 il_namer_tsrikhon,1080000,400000,11.3
@@ -2994,6 +3034,7 @@ f_16d_block_40_barak_2,1080000,400000,13.3
 f_16i_sufa,1100000,410000,14
 f_15i_raam,1120000,420000,14
 spitfire_lf_mk9e_weisman,0,,5.7
+md_450b_ouragan_iaf_29,0,,7.7
 meteor_frmk9_iaf,0,,8
 f-84f_israel_iaf,0,,8.3
 a_4e_late_iaf,0,,8.7
