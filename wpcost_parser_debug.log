@@ -7268,7 +7268,7 @@
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
   Обработан fr_vcac_mephisto: silver=450000, exp=160000, br=8.7
     БР расчет: economicRank=30, raw=11.000, округлено=11
-  Обработан fr_jaguar_ebrc: silver=1080000, exp=400000, br=11
+  Обработан fr_jaguar_ebrc: silver=710000, exp=260000, br=11
   Обрабатываем премиумный юнит: fr_hotchkiss_h39_cambronne (status=premium, have_prem_flag=False)
   Премиумный юнит fr_hotchkiss_h39_cambronne: silver=0, exp=None (обнулено)
     БР расчет: economicRank некорректен (0), используем fallback 1.0

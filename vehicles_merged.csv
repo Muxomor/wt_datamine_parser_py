@@ -88,7 +88,7 @@ us_m8_scott,M8 HMC,M8 HMC,usa,1.3,2100,1,Наземная техника,vehicle
 us_halftrack_m3_75mm_gmc,M3 GMC,M3 GMC,usa,1.7,6300,1,Наземная техника,vehicle,5900,standard,https://static.encyclopedia.warthunder.com/slots/us_halftrack_m3_75mm_gmc.png,us_m8_scott,4,2,
 us_m4a3_105_sherman,M4A3 (105),M4A3 (105),usa,3.0,16000,2,Наземная техника,vehicle,9200,standard,https://static.encyclopedia.warthunder.com/slots/us_m4a3_105_sherman.png,,4,0,
 us_m10,M10 GMC,M10 GMC,usa,3.3,22000,2,Наземная техника,vehicle,11000,standard,https://static.encyclopedia.warthunder.com/slots/us_m10.png,us_m4a3_105_sherman,4,1,
-us_m44_55_group,us_m44_55_group,us_m44_55_group,usa,,,3,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/us_m44_55_group.png,us_m10,4,0,
+us_m44_55_group,M44/55,M44/55,usa,,,3,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/us_m44_55_group.png,us_m10,4,0,
 us_m44,M44,M44,usa,4.0,47000,3,Наземная техника,vehicle,18000,standard,https://static.encyclopedia.warthunder.com/slots/us_m44.png,us_m44_55_group,4,0,0
 us_m55,M55,M55,usa,4.0,76000,3,Наземная техника,vehicle,13000,standard,https://static.encyclopedia.warthunder.com/slots/us_m55.png,us_m44,4,0,1
 us_m36_group,M36/M36B2,M36/M36B2,usa,,,3,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/us_m36_group.png,us_m44_55_group,4,1,
@@ -2915,7 +2915,7 @@ fr_amx_50_foch,AMX-50 Foch,AMX-50 Foch,france,7.3,300000,5,Наземная те
 fr_amx_10m_acra,AMX-10M,AMX-10M,france,7.3,340000,5,Наземная техника,vehicle,61000,standard,https://static.encyclopedia.warthunder.com/slots/fr_amx_10m_acra.png,fr_amx_50_foch,4,0,1
 fr_amx_30_acra,AMX-30 ACRA,AMX-30 ACRA,france,8.3,380000,6,Наземная техника,vehicle,135000,standard,https://static.encyclopedia.warthunder.com/slots/fr_amx_30_acra.png,fr_foch_acra_group,4,0,
 fr_vcac_mephisto,MEPHISTO,MEPHISTO,france,8.7,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/fr_vcac_mephisto.png,fr_amx_30_acra,4,1,
-fr_jaguar_ebrc,EBRC Jaguar,EBRC Jaguar,france,11.0,1080000,7,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/fr_jaguar_ebrc.png,fr_vcac_mephisto,4,0,
+fr_jaguar_ebrc,EBRC Jaguar,EBRC Jaguar,france,11.0,710000,7,Наземная техника,vehicle,260000,standard,https://static.encyclopedia.warthunder.com/slots/fr_jaguar_ebrc.png,fr_vcac_mephisto,4,0,
 fr_hotchkiss_h39_cambronne,"H.39 ""Cambronne""","H.39 ""Cambronne""",france,1.0,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/fr_hotchkiss_h39_cambronne.png,,0,0,
 fr_char_2c_bis,2C bis,2C bis,france,1.7,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/fr_char_2c_bis.png,,0,1,
 fr_b1_ter,B1 ter,B1 ter,france,2.7,0,2,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/fr_b1_ter.png,,0,0,
