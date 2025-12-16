@@ -22,7 +22,7 @@
   Извлечено требование: ussr Малый флот ранг 5 требует 6 юнитов
   Извлечено требование: ussr Большой флот ранг 2 требует 4 юнитов
   Извлечено требование: ussr Большой флот ранг 3 требует 4 юнитов
-  Извлечено требование: ussr Большой флот ранг 4 требует 4 юнитов
+  Извлечено требование: ussr Большой флот ранг 4 требует 5 юнитов
   Извлечено требование: ussr Большой флот ранг 5 требует 3 юнитов
   Извлечено требование: ussr Большой флот ранг 6 требует 4 юнитов
   Извлечено требование: ussr Большой флот ранг 7 требует 3 юнитов
@@ -46,7 +46,7 @@
   Извлечено требование: usa Малый флот ранг 2 требует 4 юнитов
   Извлечено требование: usa Малый флот ранг 3 требует 4 юнитов
   Извлечено требование: usa Малый флот ранг 4 требует 5 юнитов
-  Извлечено требование: usa Малый флот ранг 5 требует 4 юнитов
+  Извлечено требование: usa Малый флот ранг 5 требует 5 юнитов
   Извлечено требование: usa Большой флот ранг 2 требует 3 юнитов
   Извлечено требование: usa Большой флот ранг 3 требует 3 юнитов
   Извлечено требование: usa Большой флот ранг 4 требует 6 юнитов
@@ -78,7 +78,7 @@
   Извлечено требование: germany Большой флот ранг 3 требует 4 юнитов
   Извлечено требование: germany Большой флот ранг 4 требует 4 юнитов
   Извлечено требование: germany Большой флот ранг 5 требует 4 юнитов
-  Извлечено требование: germany Большой флот ранг 6 требует 4 юнитов
+  Извлечено требование: germany Большой флот ранг 6 требует 5 юнитов
   Извлечено требование: germany Большой флот ранг 7 требует 4 юнитов
   Извлечено требование: germany Большой флот ранг 8 требует 5 юнитов
   Извлечено требование: germany Вертолёты ранг 6 требует 1 юнитов
@@ -126,7 +126,7 @@
   Извлечено требование: japan Наземная техника ранг 8 требует 5 юнитов
   Извлечено требование: japan Малый флот ранг 2 требует 4 юнитов
   Извлечено требование: japan Малый флот ранг 3 требует 5 юнитов
-  Извлечено требование: japan Малый флот ранг 4 требует 5 юнитов
+  Извлечено требование: japan Малый флот ранг 4 требует 6 юнитов
   Извлечено требование: japan Малый флот ранг 5 требует 3 юнитов
   Извлечено требование: japan Большой флот ранг 2 требует 3 юнитов
   Извлечено требование: japan Большой флот ранг 3 требует 6 юнитов
@@ -181,7 +181,7 @@
   Извлечено требование: france Малый флот ранг 2 требует 3 юнитов
   Извлечено требование: france Малый флот ранг 3 требует 3 юнитов
   Извлечено требование: france Малый флот ранг 4 требует 4 юнитов
-  Извлечено требование: france Малый флот ранг 5 требует 2 юнитов
+  Извлечено требование: france Малый флот ранг 5 требует 3 юнитов
   Извлечено требование: france Большой флот ранг 2 требует 4 юнитов
   Извлечено требование: france Большой флот ранг 3 требует 6 юнитов
   Извлечено требование: france Большой флот ранг 4 требует 4 юнитов
@@ -288,11 +288,11 @@
 Данные о флагах стран (10 записей) сохранены в country_flags.csv
 Обработка флагов стран завершена успешно!
 Сбор изображений техники...
-Загружено 3426 ID из shop.csv
+Загружено 3475 ID из shop.csv
 Загрузка списка изображений из GitHub...
 Отправляем запрос к GitHub Tree API: https://api.github.com/repos/gszabi99/War-Thunder-Datamine/git/trees/master?recursive=1
-Получен ответ от GitHub Tree API. Status: 200, Size: 14717033 bytes
-GitHub Tree API вернул 51348 элементов
+Получен ответ от GitHub Tree API. Status: 200, Size: 15390016 bytes
+GitHub Tree API вернул 53716 элементов
     Файл: a-20g -> https://static.encyclopedia.warthunder.com/slots/a-20g.png
     Файл: a-26_group -> https://static.encyclopedia.warthunder.com/slots/a-26_group.png
     Файл: a-26b -> https://static.encyclopedia.warthunder.com/slots/a-26b.png
@@ -530,6 +530,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: cn_cm_ptz_group -> https://static.encyclopedia.warthunder.com/slots/cn_cm_ptz_group.png
     Файл: cn_gmc_cckw_353_m45_quad -> https://static.encyclopedia.warthunder.com/slots/cn_gmc_cckw_353_m45_quad.png
     Файл: cn_hj_9 -> https://static.encyclopedia.warthunder.com/slots/cn_hj_9.png
+    Файл: cn_hq_11 -> https://static.encyclopedia.warthunder.com/slots/cn_hq_11.png
     Файл: cn_hq_17 -> https://static.encyclopedia.warthunder.com/slots/cn_hq_17.png
     Файл: cn_is_2_1943 -> https://static.encyclopedia.warthunder.com/slots/cn_is_2_1943.png
     Файл: cn_is_2_1943_no402 -> https://static.encyclopedia.warthunder.com/slots/cn_is_2_1943_no402.png
@@ -541,6 +542,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: cn_m10 -> https://static.encyclopedia.warthunder.com/slots/cn_m10.png
     Файл: cn_m113a1_tow -> https://static.encyclopedia.warthunder.com/slots/cn_m113a1_tow.png
     Файл: cn_m18_hellcat -> https://static.encyclopedia.warthunder.com/slots/cn_m18_hellcat.png
+    Файл: cn_m1a2t -> https://static.encyclopedia.warthunder.com/slots/cn_m1a2t.png
     Файл: cn_m24_chaffee -> https://static.encyclopedia.warthunder.com/slots/cn_m24_chaffee.png
     Файл: cn_m36 -> https://static.encyclopedia.warthunder.com/slots/cn_m36.png
     Файл: cn_m36_isu_group -> https://static.encyclopedia.warthunder.com/slots/cn_m36_isu_group.png
@@ -658,6 +660,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: db_3a_china -> https://static.encyclopedia.warthunder.com/slots/db_3a_china.png
     Файл: db_3b -> https://static.encyclopedia.warthunder.com/slots/db_3b.png
     Файл: db_7 -> https://static.encyclopedia.warthunder.com/slots/db_7.png
+    Файл: db_lk -> https://static.encyclopedia.warthunder.com/slots/db_lk.png
     Файл: dh_110_sea_vixen -> https://static.encyclopedia.warthunder.com/slots/dh_110_sea_vixen.png
     Файл: do-217e_group -> https://static.encyclopedia.warthunder.com/slots/do-217e_group.png
     Файл: do-217j_group -> https://static.encyclopedia.warthunder.com/slots/do-217j_group.png
@@ -690,9 +693,12 @@ GitHub Tree API вернул 51348 элементов
     Файл: douglas_ad_group -> https://static.encyclopedia.warthunder.com/slots/douglas_ad_group.png
     Файл: e7k2 -> https://static.encyclopedia.warthunder.com/slots/e7k2.png
     Файл: e8n2 -> https://static.encyclopedia.warthunder.com/slots/e8n2.png
+    Файл: ef_2000_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000_aesa.png
     Файл: ef_2000_block_10 -> https://static.encyclopedia.warthunder.com/slots/ef_2000_block_10.png
     Файл: ef_2000_fgr4 -> https://static.encyclopedia.warthunder.com/slots/ef_2000_fgr4.png
+    Файл: ef_2000_typhoon_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000_typhoon_aesa.png
     Файл: ef_2000a -> https://static.encyclopedia.warthunder.com/slots/ef_2000a.png
+    Файл: ef_2000a_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000a_aesa.png
     Файл: er-2_ach30b_early -> https://static.encyclopedia.warthunder.com/slots/er-2_ach30b_early.png
     Файл: er-2_ach30b_group -> https://static.encyclopedia.warthunder.com/slots/er-2_ach30b_group.png
     Файл: er-2_ach30b_late -> https://static.encyclopedia.warthunder.com/slots/er-2_ach30b_late.png
@@ -887,6 +893,8 @@ GitHub Tree API вернул 51348 элементов
     Файл: fa_18c_late_switzerland -> https://static.encyclopedia.warthunder.com/slots/fa_18c_late_switzerland.png
     Файл: fa_18c_mlu_2_finland -> https://static.encyclopedia.warthunder.com/slots/fa_18c_mlu_2_finland.png
     Файл: fa_18c_switzerland -> https://static.encyclopedia.warthunder.com/slots/fa_18c_switzerland.png
+    Файл: fa_18d_late_malaysia -> https://static.encyclopedia.warthunder.com/slots/fa_18d_late_malaysia.png
+    Файл: fa_18e_block_2 -> https://static.encyclopedia.warthunder.com/slots/fa_18e_block_2.png
     Файл: fairey_3f_mk3b -> https://static.encyclopedia.warthunder.com/slots/fairey_3f_mk3b.png
     Файл: fc_20_bis -> https://static.encyclopedia.warthunder.com/slots/fc_20_bis.png
     Файл: ffa_p16 -> https://static.encyclopedia.warthunder.com/slots/ffa_p16.png
@@ -925,6 +933,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: fokker_d23 -> https://static.encyclopedia.warthunder.com/slots/fokker_d23.png
     Файл: fokker_d7 -> https://static.encyclopedia.warthunder.com/slots/fokker_d7.png
     Файл: fokker_g1a -> https://static.encyclopedia.warthunder.com/slots/fokker_g1a.png
+    Файл: fr_1_fireball -> https://static.encyclopedia.warthunder.com/slots/fr_1_fireball.png
     Файл: fr_adroit_class -> https://static.encyclopedia.warthunder.com/slots/fr_adroit_class.png
     Файл: fr_amc_34 -> https://static.encyclopedia.warthunder.com/slots/fr_amc_34.png
     Файл: fr_amc_35 -> https://static.encyclopedia.warthunder.com/slots/fr_amc_35.png
@@ -1000,6 +1009,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: fr_cruiser_la_galissoniere_class_la_galissoniere -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_la_galissoniere.png
     Файл: fr_cruiser_suffren_class_colbert -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_colbert.png
     Файл: fr_cruiser_suffren_class_dupleix -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_dupleix.png
+    Файл: fr_cruiser_suffren_class_suffren -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_suffren.png
     Файл: fr_crusader_mk_2 -> https://static.encyclopedia.warthunder.com/slots/fr_crusader_mk_2.png
     Файл: fr_cv_9035_nl -> https://static.encyclopedia.warthunder.com/slots/fr_cv_9035_nl.png
     Файл: fr_destroyer_aigle_class_aigle -> https://static.encyclopedia.warthunder.com/slots/fr_destroyer_aigle_class_aigle.png
@@ -1022,6 +1032,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: fr_flower_class_aconit -> https://static.encyclopedia.warthunder.com/slots/fr_flower_class_aconit.png
     Файл: fr_foch_acra_group -> https://static.encyclopedia.warthunder.com/slots/fr_foch_acra_group.png
     Файл: fr_frigate_corse_class_brestois -> https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_brestois.png
+    Файл: fr_frigate_corse_class_corse -> https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_corse.png
     Файл: fr_frigate_croix_de_lorraine_class_la_surprise -> https://static.encyclopedia.warthunder.com/slots/fr_frigate_croix_de_lorraine_class_la_surprise.png
     Файл: fr_hotchkiss_fcm_group -> https://static.encyclopedia.warthunder.com/slots/fr_hotchkiss_fcm_group.png
     Файл: fr_hotchkiss_h35 -> https://static.encyclopedia.warthunder.com/slots/fr_hotchkiss_h35.png
@@ -1187,6 +1198,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: germ_destroyer_class1939_t31 -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1939_t31.png
     Файл: germ_destroyer_class1942_z51 -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1942_z51.png
     Файл: germ_destroyer_fletcher_zerstorer4 -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_fletcher_zerstorer4.png
+    Файл: germ_destroyer_lutjens_class_lutjens -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_lutjens_class_lutjens.png
     Файл: germ_dicker_sturer_group -> https://static.encyclopedia.warthunder.com/slots/germ_dicker_sturer_group.png
     Файл: germ_erprobungstrager_3_achs_turm -> https://static.encyclopedia.warthunder.com/slots/germ_erprobungstrager_3_achs_turm.png
     Файл: germ_escort_typem1935 -> https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1935.png
@@ -1216,6 +1228,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: germ_iris_slm_launcher -> https://static.encyclopedia.warthunder.com/slots/germ_iris_slm_launcher.png
     Файл: germ_jagdpanther_group -> https://static.encyclopedia.warthunder.com/slots/germ_jagdpanther_group.png
     Файл: germ_jagdpanzer_group -> https://static.encyclopedia.warthunder.com/slots/germ_jagdpanzer_group.png
+    Файл: germ_jaguar_2 -> https://static.encyclopedia.warthunder.com/slots/germ_jaguar_2.png
     Файл: germ_jgdpz_38t -> https://static.encyclopedia.warthunder.com/slots/germ_jgdpz_38t.png
     Файл: germ_jgdpz_iv_l48 -> https://static.encyclopedia.warthunder.com/slots/germ_jgdpz_iv_l48.png
     Файл: germ_kanonenboot_k2 -> https://static.encyclopedia.warthunder.com/slots/germ_kanonenboot_k2.png
@@ -1284,6 +1297,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: germ_panzerjager_tiger_p_elefant -> https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_tiger_p_elefant.png
     Файл: germ_panzerjager_tiger_p_ferdinand -> https://static.encyclopedia.warthunder.com/slots/germ_panzerjager_tiger_p_ferdinand.png
     Файл: germ_panzerwerfer_42 -> https://static.encyclopedia.warthunder.com/slots/germ_panzerwerfer_42.png
+    Файл: germ_pr1331 -> https://static.encyclopedia.warthunder.com/slots/germ_pr1331.png
     Файл: germ_pr_131 -> https://static.encyclopedia.warthunder.com/slots/germ_pr_131.png
     Файл: germ_pr_206 -> https://static.encyclopedia.warthunder.com/slots/germ_pr_206.png
     Файл: germ_prewar_pz_iii_group -> https://static.encyclopedia.warthunder.com/slots/germ_prewar_pz_iii_group.png
@@ -1441,6 +1455,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: h-75a-1_france -> https://static.encyclopedia.warthunder.com/slots/h-75a-1_france.png
     Файл: h-75a-2_finland -> https://static.encyclopedia.warthunder.com/slots/h-75a-2_finland.png
     Файл: h-75a-4_france -> https://static.encyclopedia.warthunder.com/slots/h-75a-4_france.png
+    Файл: h-75m_china -> https://static.encyclopedia.warthunder.com/slots/h-75m_china.png
     Файл: h6k4 -> https://static.encyclopedia.warthunder.com/slots/h6k4.png
     Файл: h6k_h8k_group -> https://static.encyclopedia.warthunder.com/slots/h6k_h8k_group.png
     Файл: h8k2 -> https://static.encyclopedia.warthunder.com/slots/h8k2.png
@@ -1457,6 +1472,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: hawk_200 -> https://static.encyclopedia.warthunder.com/slots/hawk_200.png
     Файл: hawk_200_group -> https://static.encyclopedia.warthunder.com/slots/hawk_200_group.png
     Файл: hawk_200_rda -> https://static.encyclopedia.warthunder.com/slots/hawk_200_rda.png
+    Файл: hawk_209_indonesia -> https://static.encyclopedia.warthunder.com/slots/hawk_209_indonesia.png
     Файл: hawk_iii -> https://static.encyclopedia.warthunder.com/slots/hawk_iii.png
     Файл: he-111h-16_winter -> https://static.encyclopedia.warthunder.com/slots/he-111h-16_winter.png
     Файл: he-111h-2 -> https://static.encyclopedia.warthunder.com/slots/he-111h-2.png
@@ -1584,6 +1600,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: il_centurion_shot_kal_alef -> https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_alef.png
     Файл: il_centurion_shot_kal_d -> https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_d.png
     Файл: il_centurion_shot_kal_gimel -> https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_gimel.png
+    Файл: il_gimel_tiran_group -> https://static.encyclopedia.warthunder.com/slots/il_gimel_tiran_group.png
     Файл: il_m109 -> https://static.encyclopedia.warthunder.com/slots/il_m109.png
     Файл: il_m109a1 -> https://static.encyclopedia.warthunder.com/slots/il_m109a1.png
     Файл: il_m113_hvms -> https://static.encyclopedia.warthunder.com/slots/il_m113_hvms.png
@@ -1618,6 +1635,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: il_merkava_1_2_group -> https://static.encyclopedia.warthunder.com/slots/il_merkava_1_2_group.png
     Файл: il_merkava_3_group -> https://static.encyclopedia.warthunder.com/slots/il_merkava_3_group.png
     Файл: il_merkava_4_group -> https://static.encyclopedia.warthunder.com/slots/il_merkava_4_group.png
+    Файл: il_merkava_mk_1 -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1.png
     Файл: il_merkava_mk_1b -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1b.png
     Файл: il_merkava_mk_2b_early -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_2b_early.png
     Файл: il_merkava_mk_2d -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_2d.png
@@ -1683,6 +1701,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: it_c1_ariete_certezza -> https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_certezza.png
     Файл: it_c1_ariete_preserie -> https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_preserie.png
     Файл: it_c1_ariete_pso -> https://static.encyclopedia.warthunder.com/slots/it_c1_ariete_pso.png
+    Файл: it_cassiopea_p401 -> https://static.encyclopedia.warthunder.com/slots/it_cassiopea_p401.png
     Файл: it_centauro_105_group -> https://static.encyclopedia.warthunder.com/slots/it_centauro_105_group.png
     Файл: it_centauro_mgs_120 -> https://static.encyclopedia.warthunder.com/slots/it_centauro_mgs_120.png
     Файл: it_centauro_rgo_120 -> https://static.encyclopedia.warthunder.com/slots/it_centauro_rgo_120.png
@@ -1690,6 +1709,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: it_cruiser_bartolomeocolleoni_1940 -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_bartolomeocolleoni_1940.png
     Файл: it_cruiser_bolzano -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_bolzano.png
     Файл: it_cruiser_cadorna_class_cadorna -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_cadorna.png
+    Файл: it_cruiser_cadorna_class_diaz -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_diaz.png
     Файл: it_cruiser_capitani_romani_class_attilio_regolo -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_capitani_romani_class_attilio_regolo.png
     Файл: it_cruiser_etna_class -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_etna_class.png
     Файл: it_cruiser_eugenio_di_savoia -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_eugenio_di_savoia.png
@@ -1720,6 +1740,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: it_fiat_cm52 -> https://static.encyclopedia.warthunder.com/slots/it_fiat_cm52.png
     Файл: it_fiat_group -> https://static.encyclopedia.warthunder.com/slots/it_fiat_group.png
     Файл: it_freccia -> https://static.encyclopedia.warthunder.com/slots/it_freccia.png
+    Файл: it_freccia_hitfist_ows -> https://static.encyclopedia.warthunder.com/slots/it_freccia_hitfist_ows.png
     Файл: it_gabbiano_class -> https://static.encyclopedia.warthunder.com/slots/it_gabbiano_class.png
     Файл: it_gabbiano_class_c16 -> https://static.encyclopedia.warthunder.com/slots/it_gabbiano_class_c16.png
     Файл: it_kf_41 -> https://static.encyclopedia.warthunder.com/slots/it_kf_41.png
@@ -1831,6 +1852,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: j8m1 -> https://static.encyclopedia.warthunder.com/slots/j8m1.png
     Файл: j9_early -> https://static.encyclopedia.warthunder.com/slots/j9_early.png
     Файл: j_10a -> https://static.encyclopedia.warthunder.com/slots/j_10a.png
+    Файл: j_10c -> https://static.encyclopedia.warthunder.com/slots/j_10c.png
     Файл: j_11 -> https://static.encyclopedia.warthunder.com/slots/j_11.png
     Файл: j_11_group -> https://static.encyclopedia.warthunder.com/slots/j_11_group.png
     Файл: j_11a -> https://static.encyclopedia.warthunder.com/slots/j_11a.png
@@ -1866,6 +1888,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: jp_battleship_mutsu -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_mutsu.png
     Файл: jp_battleship_nagato -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_nagato.png
     Файл: jp_battleship_settsu -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_settsu.png
+    Файл: jp_battleship_tosa -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_tosa.png
     Файл: jp_battleship_yamashiro -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_yamashiro.png
     Файл: jp_battleship_yamato -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_yamato.png
     Файл: jp_chi_to_group -> https://static.encyclopedia.warthunder.com/slots/jp_chi_to_group.png
@@ -1881,6 +1904,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: jp_cruiser_mogami_mikuma -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_mikuma.png
     Файл: jp_cruiser_mogami_suzuya -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_suzuya.png
     Файл: jp_cruiser_myoko -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_myoko.png
+    Файл: jp_cruiser_oyodo -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_oyodo.png
     Файл: jp_cruiser_sendai -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_sendai.png
     Файл: jp_cruiser_tone -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_tone.png
     Файл: jp_cruiser_yubari -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_yubari.png
@@ -1956,6 +1980,8 @@ GitHub Tree API вернул 51348 элементов
     Файл: jp_type38_1944 -> https://static.encyclopedia.warthunder.com/slots/jp_type38_1944.png
     Файл: jp_type5_escortboat -> https://static.encyclopedia.warthunder.com/slots/jp_type5_escortboat.png
     Файл: jp_type7_pt808 -> https://static.encyclopedia.warthunder.com/slots/jp_type7_pt808.png
+    Файл: jp_type_03_chusam_fcs -> https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_fcs.png
+    Файл: jp_type_03_chusam_launcher -> https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_launcher.png
     Файл: jp_type_10 -> https://static.encyclopedia.warthunder.com/slots/jp_type_10.png
     Файл: jp_type_10_group -> https://static.encyclopedia.warthunder.com/slots/jp_type_10_group.png
     Файл: jp_type_10_prototype -> https://static.encyclopedia.warthunder.com/slots/jp_type_10_prototype.png
@@ -1983,6 +2009,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: jp_type_60_group -> https://static.encyclopedia.warthunder.com/slots/jp_type_60_group.png
     Файл: jp_type_60_sprg -> https://static.encyclopedia.warthunder.com/slots/jp_type_60_sprg.png
     Файл: jp_type_61 -> https://static.encyclopedia.warthunder.com/slots/jp_type_61.png
+    Файл: jp_type_61_mod -> https://static.encyclopedia.warthunder.com/slots/jp_type_61_mod.png
     Файл: jp_type_61_sta_group -> https://static.encyclopedia.warthunder.com/slots/jp_type_61_sta_group.png
     Файл: jp_type_74 -> https://static.encyclopedia.warthunder.com/slots/jp_type_74.png
     Файл: jp_type_74_c -> https://static.encyclopedia.warthunder.com/slots/jp_type_74_c.png
@@ -2173,6 +2200,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: mb_162 -> https://static.encyclopedia.warthunder.com/slots/mb_162.png
     Файл: mb_174_a3 -> https://static.encyclopedia.warthunder.com/slots/mb_174_a3.png
     Файл: mb_175t -> https://static.encyclopedia.warthunder.com/slots/mb_175t.png
+    Файл: mb_326b -> https://static.encyclopedia.warthunder.com/slots/mb_326b.png
     Файл: mb_326k -> https://static.encyclopedia.warthunder.com/slots/mb_326k.png
     Файл: mb_5 -> https://static.encyclopedia.warthunder.com/slots/mb_5.png
     Файл: mbr-2 -> https://static.encyclopedia.warthunder.com/slots/mbr-2.png
@@ -2335,6 +2363,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: mig_23ml -> https://static.encyclopedia.warthunder.com/slots/mig_23ml.png
     Файл: mig_23mla -> https://static.encyclopedia.warthunder.com/slots/mig_23mla.png
     Файл: mig_23mld -> https://static.encyclopedia.warthunder.com/slots/mig_23mld.png
+    Файл: mig_25pd -> https://static.encyclopedia.warthunder.com/slots/mig_25pd.png
     Файл: mig_27_group -> https://static.encyclopedia.warthunder.com/slots/mig_27_group.png
     Файл: mig_27k -> https://static.encyclopedia.warthunder.com/slots/mig_27k.png
     Файл: mig_27m -> https://static.encyclopedia.warthunder.com/slots/mig_27m.png
@@ -2343,6 +2372,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: mig_29_9_12b_hungary -> https://static.encyclopedia.warthunder.com/slots/mig_29_9_12b_hungary.png
     Файл: mig_29_9_12g -> https://static.encyclopedia.warthunder.com/slots/mig_29_9_12g.png
     Файл: mig_29_9_13 -> https://static.encyclopedia.warthunder.com/slots/mig_29_9_13.png
+    Файл: mig_29n -> https://static.encyclopedia.warthunder.com/slots/mig_29n.png
     Файл: mig_29smt_9_19 -> https://static.encyclopedia.warthunder.com/slots/mig_29smt_9_19.png
     Файл: mig_3_series_1_15 -> https://static.encyclopedia.warthunder.com/slots/mig_3_series_1_15.png
     Файл: mig_3_series_1_15_bk_pod -> https://static.encyclopedia.warthunder.com/slots/mig_3_series_1_15_bk_pod.png
@@ -2548,6 +2578,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: r2y2_v1 -> https://static.encyclopedia.warthunder.com/slots/r2y2_v1.png
     Файл: r2y2_v2 -> https://static.encyclopedia.warthunder.com/slots/r2y2_v2.png
     Файл: rafale_c_f3 -> https://static.encyclopedia.warthunder.com/slots/rafale_c_f3.png
+    Файл: rafale_m_f3r -> https://static.encyclopedia.warthunder.com/slots/rafale_m_f3r.png
     Файл: rah_66 -> https://static.encyclopedia.warthunder.com/slots/rah_66.png
     Файл: random_assault -> https://static.encyclopedia.warthunder.com/slots/random_assault.png
     Файл: random_boat -> https://static.encyclopedia.warthunder.com/slots/random_boat.png
@@ -2617,6 +2648,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: saab_jas39c_hungary -> https://static.encyclopedia.warthunder.com/slots/saab_jas39c_hungary.png
     Файл: saab_jas39c_south_africa -> https://static.encyclopedia.warthunder.com/slots/saab_jas39c_south_africa.png
     Файл: saab_jas39c_thailand -> https://static.encyclopedia.warthunder.com/slots/saab_jas39c_thailand.png
+    Файл: saab_jas39e -> https://static.encyclopedia.warthunder.com/slots/saab_jas39e.png
     Файл: saab_sk60b -> https://static.encyclopedia.warthunder.com/slots/saab_sk60b.png
     Файл: saab_t18b_1 -> https://static.encyclopedia.warthunder.com/slots/saab_t18b_1.png
     Файл: saab_t18b_2 -> https://static.encyclopedia.warthunder.com/slots/saab_t18b_2.png
@@ -2751,7 +2783,10 @@ GitHub Tree API вернул 51348 элементов
     Файл: su_27 -> https://static.encyclopedia.warthunder.com/slots/su_27.png
     Файл: su_27sm -> https://static.encyclopedia.warthunder.com/slots/su_27sm.png
     Файл: su_30mk2v_venezuela -> https://static.encyclopedia.warthunder.com/slots/su_30mk2v_venezuela.png
+    Файл: su_30mkk -> https://static.encyclopedia.warthunder.com/slots/su_30mkk.png
+    Файл: su_30mkm -> https://static.encyclopedia.warthunder.com/slots/su_30mkm.png
     Файл: su_30sm -> https://static.encyclopedia.warthunder.com/slots/su_30sm.png
+    Файл: su_30sm2 -> https://static.encyclopedia.warthunder.com/slots/su_30sm2.png
     Файл: su_33 -> https://static.encyclopedia.warthunder.com/slots/su_33.png
     Файл: su_34 -> https://static.encyclopedia.warthunder.com/slots/su_34.png
     Файл: su_6_single -> https://static.encyclopedia.warthunder.com/slots/su_6_single.png
@@ -2797,6 +2832,8 @@ GitHub Tree API вернул 51348 элементов
     Файл: sw_lvkv_asrad_group -> https://static.encyclopedia.warthunder.com/slots/sw_lvkv_asrad_group.png
     Файл: sw_lvrbv_701 -> https://static.encyclopedia.warthunder.com/slots/sw_lvrbv_701.png
     Файл: sw_m24_chaffee_dk -> https://static.encyclopedia.warthunder.com/slots/sw_m24_chaffee_dk.png
+    Файл: sw_nasams_fcs -> https://static.encyclopedia.warthunder.com/slots/sw_nasams_fcs.png
+    Файл: sw_nasams_launcher -> https://static.encyclopedia.warthunder.com/slots/sw_nasams_launcher.png
     Файл: sw_patria_amv_ctcv_105 -> https://static.encyclopedia.warthunder.com/slots/sw_patria_amv_ctcv_105.png
     Файл: sw_pbil_m40 -> https://static.encyclopedia.warthunder.com/slots/sw_pbil_m40.png
     Файл: sw_pbv_301 -> https://static.encyclopedia.warthunder.com/slots/sw_pbv_301.png
@@ -3238,6 +3275,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: uk_ac1_sentinel -> https://static.encyclopedia.warthunder.com/slots/uk_ac1_sentinel.png
     Файл: uk_ac4_thunderbolt -> https://static.encyclopedia.warthunder.com/slots/uk_ac4_thunderbolt.png
     Файл: uk_adats_m113a3 -> https://static.encyclopedia.warthunder.com/slots/uk_adats_m113a3.png
+    Файл: uk_ajax -> https://static.encyclopedia.warthunder.com/slots/uk_ajax.png
     Файл: uk_alecto_mk_1 -> https://static.encyclopedia.warthunder.com/slots/uk_alecto_mk_1.png
     Файл: uk_armored_car_aec_mk_2 -> https://static.encyclopedia.warthunder.com/slots/uk_armored_car_aec_mk_2.png
     Файл: uk_armored_car_mk_2_aa -> https://static.encyclopedia.warthunder.com/slots/uk_armored_car_mk_2_aa.png
@@ -3256,11 +3294,13 @@ GitHub Tree API вернул 51348 элементов
     Файл: uk_battleship_marlborough -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_marlborough.png
     Файл: uk_battleship_nelson -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_nelson.png
     Файл: uk_battleship_orion -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_orion.png
+    Файл: uk_battleship_prince_of_wales -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_prince_of_wales.png
     Файл: uk_battleship_q_elizabet_class_barham -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_q_elizabet_class_barham.png
     Файл: uk_battleship_q_elizabet_class_warspite -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_q_elizabet_class_warspite.png
     Файл: uk_battleship_rodney -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_rodney.png
     Файл: uk_battleship_vanguard -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_vanguard.png
     Файл: uk_bosvark -> https://static.encyclopedia.warthunder.com/slots/uk_bosvark.png
+    Файл: uk_boxer_crv_block2 -> https://static.encyclopedia.warthunder.com/slots/uk_boxer_crv_block2.png
     Файл: uk_brave_borderer -> https://static.encyclopedia.warthunder.com/slots/uk_brave_borderer.png
     Файл: uk_caernarvon_conqueror_group -> https://static.encyclopedia.warthunder.com/slots/uk_caernarvon_conqueror_group.png
     Файл: uk_centurion_action_x -> https://static.encyclopedia.warthunder.com/slots/uk_centurion_action_x.png
@@ -3308,6 +3348,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: uk_cruiser_belfast -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_belfast.png
     Файл: uk_cruiser_dido -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_dido.png
     Файл: uk_cruiser_enterprise_d52 -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_enterprise_d52.png
+    Файл: uk_cruiser_fiji_class_fiji -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_fiji_class_fiji.png
     Файл: uk_cruiser_hawkins -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_hawkins.png
     Файл: uk_cruiser_kent -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_kent.png
     Файл: uk_cruiser_kent_norfolk_group -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_kent_norfolk_group.png
@@ -3482,6 +3523,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: us_battleship_mississippi -> https://static.encyclopedia.warthunder.com/slots/us_battleship_mississippi.png
     Файл: us_battleship_nevada -> https://static.encyclopedia.warthunder.com/slots/us_battleship_nevada.png
     Файл: us_battleship_north_dakota -> https://static.encyclopedia.warthunder.com/slots/us_battleship_north_dakota.png
+    Файл: us_battleship_south_dakota -> https://static.encyclopedia.warthunder.com/slots/us_battleship_south_dakota.png
     Файл: us_battleship_tennessee -> https://static.encyclopedia.warthunder.com/slots/us_battleship_tennessee.png
     Файл: us_battleship_texas -> https://static.encyclopedia.warthunder.com/slots/us_battleship_texas.png
     Файл: us_battleship_wyoming_class -> https://static.encyclopedia.warthunder.com/slots/us_battleship_wyoming_class.png
@@ -3517,6 +3559,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: us_destroyer_fletcher -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher.png
     Файл: us_destroyer_fletcher_bennion -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher_bennion.png
     Файл: us_destroyer_fletcher_cowell -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher_cowell.png
+    Файл: us_destroyer_forrestsherman_class -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_forrestsherman_class.png
     Файл: us_destroyer_gearing -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_gearing.png
     Файл: us_destroyer_gearing_frank_knox -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_gearing_frank_knox.png
     Файл: us_destroyer_mitscher -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_mitscher.png
@@ -3563,6 +3606,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: us_m10 -> https://static.encyclopedia.warthunder.com/slots/us_m10.png
     Файл: us_m103 -> https://static.encyclopedia.warthunder.com/slots/us_m103.png
     Файл: us_m109a1 -> https://static.encyclopedia.warthunder.com/slots/us_m109a1.png
+    Файл: us_m10_booker_late -> https://static.encyclopedia.warthunder.com/slots/us_m10_booker_late.png
     Файл: us_m1128_mgs -> https://static.encyclopedia.warthunder.com/slots/us_m1128_mgs.png
     Файл: us_m1128_wolfpack -> https://static.encyclopedia.warthunder.com/slots/us_m1128_wolfpack.png
     Файл: us_m163_vulcan -> https://static.encyclopedia.warthunder.com/slots/us_m163_vulcan.png
@@ -3660,6 +3704,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: us_m728 -> https://static.encyclopedia.warthunder.com/slots/us_m728.png
     Файл: us_m8_greyhound -> https://static.encyclopedia.warthunder.com/slots/us_m8_greyhound.png
     Файл: us_m8_scott -> https://static.encyclopedia.warthunder.com/slots/us_m8_scott.png
+    Файл: us_m8_scott_snowball -> https://static.encyclopedia.warthunder.com/slots/us_m8_scott_snowball.png
     Файл: us_m8a1 -> https://static.encyclopedia.warthunder.com/slots/us_m8a1.png
     Файл: us_m901_itv -> https://static.encyclopedia.warthunder.com/slots/us_m901_itv.png
     Файл: us_magach_3 -> https://static.encyclopedia.warthunder.com/slots/us_magach_3.png
@@ -3670,6 +3715,8 @@ GitHub Tree API вернул 51348 элементов
     Файл: us_merkava_mk_3d -> https://static.encyclopedia.warthunder.com/slots/us_merkava_mk_3d.png
     Файл: us_mim_72_chaparral -> https://static.encyclopedia.warthunder.com/slots/us_mim_72_chaparral.png
     Файл: us_mk1_grant -> https://static.encyclopedia.warthunder.com/slots/us_mk1_grant.png
+    Файл: us_nasams_fcs -> https://static.encyclopedia.warthunder.com/slots/us_nasams_fcs.png
+    Файл: us_nasams_launcher -> https://static.encyclopedia.warthunder.com/slots/us_nasams_launcher.png
     Файл: us_nasty_ptf -> https://static.encyclopedia.warthunder.com/slots/us_nasty_ptf.png
     Файл: us_pc_451 -> https://static.encyclopedia.warthunder.com/slots/us_pc_451.png
     Файл: us_pc_466_carmi -> https://static.encyclopedia.warthunder.com/slots/us_pc_466_carmi.png
@@ -3749,6 +3796,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: ussr_battlecruiser_izmail -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_izmail.png
     Файл: ussr_battlecruiser_kronshtadt -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_kronshtadt.png
     Файл: ussr_battlecruiser_sevastopol -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_sevastopol.png
+    Файл: ussr_battlecruiser_stalingrad -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_stalingrad.png
     Файл: ussr_battleship_arhangelsk -> https://static.encyclopedia.warthunder.com/slots/ussr_battleship_arhangelsk.png
     Файл: ussr_battleship_imperatritsa_mariya -> https://static.encyclopedia.warthunder.com/slots/ussr_battleship_imperatritsa_mariya.png
     Файл: ussr_battleship_marat -> https://static.encyclopedia.warthunder.com/slots/ussr_battleship_marat.png
@@ -3770,6 +3818,8 @@ GitHub Tree API вернул 51348 элементов
     Файл: ussr_bmp_2m -> https://static.encyclopedia.warthunder.com/slots/ussr_bmp_2m.png
     Файл: ussr_bmp_3 -> https://static.encyclopedia.warthunder.com/slots/ussr_bmp_3.png
     Файл: ussr_bmp_3_group -> https://static.encyclopedia.warthunder.com/slots/ussr_bmp_3_group.png
+    Файл: ussr_bmpt -> https://static.encyclopedia.warthunder.com/slots/ussr_bmpt.png
+    Файл: ussr_bmpt_72 -> https://static.encyclopedia.warthunder.com/slots/ussr_bmpt_72.png
     Файл: ussr_bt_5 -> https://static.encyclopedia.warthunder.com/slots/ussr_bt_5.png
     Файл: ussr_bt_7_1937 -> https://static.encyclopedia.warthunder.com/slots/ussr_bt_7_1937.png
     Файл: ussr_bt_7_1937_td -> https://static.encyclopedia.warthunder.com/slots/ussr_bt_7_1937_td.png
@@ -3899,6 +3949,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: ussr_pr_183_egypt_bm_21 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_183_egypt_bm_21.png
     Файл: ussr_pr_191 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_191.png
     Файл: ussr_pr_191m -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_191m.png
+    Файл: ussr_pr_205pe_k225 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_205pe_k225.png
     Файл: ussr_pr_206 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_206.png
     Файл: ussr_pr_206m -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_206m.png
     Файл: ussr_pt_76_57 -> https://static.encyclopedia.warthunder.com/slots/ussr_pt_76_57.png
@@ -4011,6 +4062,7 @@ GitHub Tree API вернул 51348 элементов
     Файл: ussr_t_90a -> https://static.encyclopedia.warthunder.com/slots/ussr_t_90a.png
     Файл: ussr_t_90m_2020 -> https://static.encyclopedia.warthunder.com/slots/ussr_t_90m_2020.png
     Файл: ussr_to_55 -> https://static.encyclopedia.warthunder.com/slots/ussr_to_55.png
+    Файл: ussr_tor_m1 -> https://static.encyclopedia.warthunder.com/slots/ussr_tor_m1.png
     Файл: ussr_type_62 -> https://static.encyclopedia.warthunder.com/slots/ussr_type_62.png
     Файл: ussr_type_65_aa -> https://static.encyclopedia.warthunder.com/slots/ussr_type_65_aa.png
     Файл: ussr_valentine_mk_9 -> https://static.encyclopedia.warthunder.com/slots/ussr_valentine_mk_9.png
@@ -4118,16 +4170,16 @@ GitHub Tree API вернул 51348 элементов
     Файл: z_9wa -> https://static.encyclopedia.warthunder.com/slots/z_9wa.png
     Файл: zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
 ДИАГНОСТИКА GitHub Tree API:
-  Всего элементов в дереве: 51348
-  Файлов в целевой папке: 3821
-  PNG файлов: 3821
+  Всего элементов в дереве: 53716
+  Файлов в целевой папке: 3873
+  PNG файлов: 3873
   Проблемных файлов найдено: 3 из 3
   Найденные проблемные файлы: ['us_m24_chaffee.png', 'us_m2a4.png', 'us_m3_stuart.png']
   Первые 10 PNG файлов: ['a-20g', 'a-26_group', 'a-26b', 'a-26b_10', 'a-26c-45-dt', 'a-26c', 'a-35b', 'a2d', 'a5m4', 'a5m4_hagiri']
   Тестовых файлов найдено в словаре: 3 из 3
   Найденные тестовые файлы: ['us_m2a4', 'us_m3_stuart', 'us_m24_chaffee']
   Все ключи в lowercase для совместимости
-Загружено 389 fallback полей image
+Загружено 393 fallback полей image
 
 === ТЕСТ: Прямой доступ к CDN ===
 Проверяем прямой доступ: https://static.encyclopedia.warthunder.com/slots/us_m2a4.png
@@ -4165,6 +4217,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: us_stingray -> https://static.encyclopedia.warthunder.com/slots/us_stingray.png
     Найдено: us_m3a3_bradley -> us_m3a3_bradley -> https://static.encyclopedia.warthunder.com/slots/us_m3a3_bradley.png
   Найдено изображение: us_m3a3_bradley -> https://static.encyclopedia.warthunder.com/slots/us_m3a3_bradley.png
+    Найдено: us_m10_booker_late -> us_m10_booker_late -> https://static.encyclopedia.warthunder.com/slots/us_m10_booker_late.png
+  Найдено изображение: us_m10_booker_late -> https://static.encyclopedia.warthunder.com/slots/us_m10_booker_late.png
     Найдено: us_hstv_l -> us_hstv_l -> https://static.encyclopedia.warthunder.com/slots/us_hstv_l.png
   Найдено изображение: us_hstv_l -> https://static.encyclopedia.warthunder.com/slots/us_hstv_l.png
     Найдено: us_m2_medium -> us_m2_medium -> https://static.encyclopedia.warthunder.com/slots/us_m2_medium.png
@@ -4307,6 +4361,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: us_adats_bradley -> https://static.encyclopedia.warthunder.com/slots/us_adats_bradley.png
     Найдено: us_sl_amraam_fcs -> us_sl_amraam_fcs -> https://static.encyclopedia.warthunder.com/slots/us_sl_amraam_fcs.png
   Найдено изображение: us_sl_amraam_fcs -> https://static.encyclopedia.warthunder.com/slots/us_sl_amraam_fcs.png
+    Найдено: us_nasams_fcs -> us_nasams_fcs -> https://static.encyclopedia.warthunder.com/slots/us_nasams_fcs.png
+  Найдено изображение: us_nasams_fcs -> https://static.encyclopedia.warthunder.com/slots/us_nasams_fcs.png
     Найдено: us_m2a2 -> us_m2a2 -> https://static.encyclopedia.warthunder.com/slots/us_m2a2.png
   Найдено изображение: us_m2a2 -> https://static.encyclopedia.warthunder.com/slots/us_m2a2.png
     Найдено: us_m8_scott -> us_m8_scott -> https://static.encyclopedia.warthunder.com/slots/us_m8_scott.png
@@ -4333,11 +4389,11 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: us_m109a1 -> https://static.encyclopedia.warthunder.com/slots/us_m109a1.png
     Найдено: us_m56_m50_group -> us_m56_m50_group -> https://static.encyclopedia.warthunder.com/slots/us_m56_m50_group.png
   Найдено изображение: us_m56_m50_group -> https://static.encyclopedia.warthunder.com/slots/us_m56_m50_group.png
+  Обработано: 100/3475
     Найдено: us_m56_scorpion -> us_m56_scorpion -> https://static.encyclopedia.warthunder.com/slots/us_m56_scorpion.png
   Найдено изображение: us_m56_scorpion -> https://static.encyclopedia.warthunder.com/slots/us_m56_scorpion.png
     Найдено: us_m50_ontos -> us_m50_ontos -> https://static.encyclopedia.warthunder.com/slots/us_m50_ontos.png
   Найдено изображение: us_m50_ontos -> https://static.encyclopedia.warthunder.com/slots/us_m50_ontos.png
-  Обработано: 100/3426
     Найдено: us_t95 -> us_t95 -> https://static.encyclopedia.warthunder.com/slots/us_t95.png
   Найдено изображение: us_t95 -> https://static.encyclopedia.warthunder.com/slots/us_t95.png
     Найдено: us_m60a2 -> us_m60a2 -> https://static.encyclopedia.warthunder.com/slots/us_m60a2.png
@@ -4414,6 +4470,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: us_lvt_a_1_trb -> https://static.encyclopedia.warthunder.com/slots/us_lvt_a_1_trb.png
     Найдено: us_m8_greyhound -> us_m8_greyhound -> https://static.encyclopedia.warthunder.com/slots/us_m8_greyhound.png
   Найдено изображение: us_m8_greyhound -> https://static.encyclopedia.warthunder.com/slots/us_m8_greyhound.png
+    Найдено: us_m8_scott_snowball -> us_m8_scott_snowball -> https://static.encyclopedia.warthunder.com/slots/us_m8_scott_snowball.png
+  Найдено изображение: us_m8_scott_snowball -> https://static.encyclopedia.warthunder.com/slots/us_m8_scott_snowball.png
     Найдено: us_lvt_4_zis_2 -> us_lvt_4_zis_2 -> https://static.encyclopedia.warthunder.com/slots/us_lvt_4_zis_2.png
   Найдено изображение: us_lvt_4_zis_2 -> https://static.encyclopedia.warthunder.com/slots/us_lvt_4_zis_2.png
     Найдено: us_m5a1_stuart_td -> us_m5a1_stuart_td -> https://static.encyclopedia.warthunder.com/slots/us_m5a1_stuart_td.png
@@ -4532,13 +4590,13 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: p-63c-5 -> https://static.encyclopedia.warthunder.com/slots/p-63c-5.png
     Найдено: p-38_late_group -> p-38_late_group -> https://static.encyclopedia.warthunder.com/slots/p-38_late_group.png
   Найдено изображение: p-38_late_group -> https://static.encyclopedia.warthunder.com/slots/p-38_late_group.png
+  Обработано: 200/3475
     Найдено: p-38j -> p-38j -> https://static.encyclopedia.warthunder.com/slots/p-38j.png
   Найдено изображение: p-38j -> https://static.encyclopedia.warthunder.com/slots/p-38j.png
     Найдено: p-38l -> p-38l -> https://static.encyclopedia.warthunder.com/slots/p-38l.png
   Найдено изображение: p-38l -> https://static.encyclopedia.warthunder.com/slots/p-38l.png
     Найдено: f-82e -> f-82e -> https://static.encyclopedia.warthunder.com/slots/f-82e.png
   Найдено изображение: f-82e -> https://static.encyclopedia.warthunder.com/slots/f-82e.png
-  Обработано: 200/3426
     Найдено: f-80a -> f-80a -> https://static.encyclopedia.warthunder.com/slots/f-80a.png
   Найдено изображение: f-80a -> https://static.encyclopedia.warthunder.com/slots/f-80a.png
     Найдено: f-80 -> f-80 -> https://static.encyclopedia.warthunder.com/slots/f-80.png
@@ -4693,6 +4751,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f_14b -> https://static.encyclopedia.warthunder.com/slots/f_14b.png
     Найдено: fa_18c_late -> fa_18c_late -> https://static.encyclopedia.warthunder.com/slots/fa_18c_late.png
   Найдено изображение: fa_18c_late -> https://static.encyclopedia.warthunder.com/slots/fa_18c_late.png
+    Найдено: fa_18e_block_2 -> fa_18e_block_2 -> https://static.encyclopedia.warthunder.com/slots/fa_18e_block_2.png
+  Найдено изображение: fa_18e_block_2 -> https://static.encyclopedia.warthunder.com/slots/fa_18e_block_2.png
     Найдено: os2u_group -> os2u_group -> https://static.encyclopedia.warthunder.com/slots/os2u_group.png
   Найдено изображение: os2u_group -> https://static.encyclopedia.warthunder.com/slots/os2u_group.png
     Найдено: os2u_1 -> os2u_1 -> https://static.encyclopedia.warthunder.com/slots/os2u_1.png
@@ -4741,6 +4801,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: a-26b_group -> https://static.encyclopedia.warthunder.com/slots/a-26_group.png
     Найдено: a-26b_10 -> a-26b_10 -> https://static.encyclopedia.warthunder.com/slots/a-26b_10.png
   Найдено изображение: a-26b_10 -> https://static.encyclopedia.warthunder.com/slots/a-26b_10.png
+  Обработано: 300/3475
     Найдено: a-26b -> a-26b -> https://static.encyclopedia.warthunder.com/slots/a-26b.png
   Найдено изображение: a-26b -> https://static.encyclopedia.warthunder.com/slots/a-26b.png
     Найдено: douglas_ad_group -> douglas_ad_group -> https://static.encyclopedia.warthunder.com/slots/douglas_ad_group.png
@@ -4749,7 +4810,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: douglas_ad_2 -> https://static.encyclopedia.warthunder.com/slots/douglas_ad_2.png
     Найдено: douglas_ad_4 -> douglas_ad_4 -> https://static.encyclopedia.warthunder.com/slots/douglas_ad_4.png
   Найдено изображение: douglas_ad_4 -> https://static.encyclopedia.warthunder.com/slots/douglas_ad_4.png
-  Обработано: 300/3426
     Найдено: am_1_mauler -> am_1_mauler -> https://static.encyclopedia.warthunder.com/slots/am_1_mauler.png
   Найдено изображение: am_1_mauler -> https://static.encyclopedia.warthunder.com/slots/am_1_mauler.png
     Найдено: f3d_1 -> f3d_1 -> https://static.encyclopedia.warthunder.com/slots/f3d_1.png
@@ -4860,6 +4920,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: xp-50 -> https://static.encyclopedia.warthunder.com/slots/xp-50.png
     Найдено: bf-109f-4_usa -> bf-109f-4_usa -> https://static.encyclopedia.warthunder.com/slots/bf-109f-4_usa.png
   Найдено изображение: bf-109f-4_usa -> https://static.encyclopedia.warthunder.com/slots/bf-109f-4_usa.png
+    Найдено: fr_1_fireball -> fr_1_fireball -> https://static.encyclopedia.warthunder.com/slots/fr_1_fireball.png
+  Найдено изображение: fr_1_fireball -> https://static.encyclopedia.warthunder.com/slots/fr_1_fireball.png
     Найдено: xa_38 -> xa_38 -> https://static.encyclopedia.warthunder.com/slots/xa_38.png
   Найдено изображение: xa_38 -> https://static.encyclopedia.warthunder.com/slots/xa_38.png
     Найдено: p-51d-20-na -> p-51d-20-na -> https://static.encyclopedia.warthunder.com/slots/p-51d-20-na.png
@@ -4940,6 +5002,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f4u-4b_vmf_214 -> https://static.encyclopedia.warthunder.com/slots/f4u-4b_vmf_214.png
     Найдено: f4u-6_au-1 -> f4u-6_au-1 -> https://static.encyclopedia.warthunder.com/slots/f4u-6_au-1.png
   Найдено изображение: f4u-6_au-1 -> https://static.encyclopedia.warthunder.com/slots/f4u-6_au-1.png
+  Обработано: 400/3475
     Найдено: f2g-1 -> f2g-1 -> https://static.encyclopedia.warthunder.com/slots/f2g-1.png
   Найдено изображение: f2g-1 -> https://static.encyclopedia.warthunder.com/slots/f2g-1.png
     Найдено: f7f3 -> f7f3 -> https://static.encyclopedia.warthunder.com/slots/f7f3.png
@@ -4950,7 +5013,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f-86f-35 -> https://static.encyclopedia.warthunder.com/slots/f-86f-35.png
     Найдено: fj_4b_agm_12b -> fj_4b_agm_12b -> https://static.encyclopedia.warthunder.com/slots/fj_4b_agm_12b.png
   Найдено изображение: fj_4b_agm_12b -> https://static.encyclopedia.warthunder.com/slots/fj_4b_agm_12b.png
-  Обработано: 400/3426
     Найдено: f11f_1_late -> f11f_1_late -> https://static.encyclopedia.warthunder.com/slots/f11f_1_late.png
   Найдено изображение: f11f_1_late -> https://static.encyclopedia.warthunder.com/slots/f11f_1_late.png
     Найдено: f4d_1 -> f4d_1 -> https://static.encyclopedia.warthunder.com/slots/f4d_1.png
@@ -4977,6 +5039,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: us_destroyer_somers -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_somers.png
     Найдено: us_destroyer_cf_adams_class_cf_adams -> us_destroyer_cf_adams_class_cf_adams -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_cf_adams_class_cf_adams.png
   Найдено изображение: us_destroyer_cf_adams_class_cf_adams -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_cf_adams_class_cf_adams.png
+    Найдено: us_destroyer_forrestsherman_class -> us_destroyer_forrestsherman_class -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_forrestsherman_class.png
+  Найдено изображение: us_destroyer_forrestsherman_class -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_forrestsherman_class.png
     Найдено: us_cruiser_atlanta_class_atlanta -> us_cruiser_atlanta_class_atlanta -> https://static.encyclopedia.warthunder.com/slots/us_cruiser_atlanta_class_atlanta.png
   Найдено изображение: us_cruiser_atlanta_class_atlanta -> https://static.encyclopedia.warthunder.com/slots/us_cruiser_atlanta_class_atlanta.png
     Найдено: us_cruiser_worcester_class_roanoke -> us_cruiser_worcester_class_roanoke -> https://static.encyclopedia.warthunder.com/slots/us_cruiser_worcester_class_roanoke.png
@@ -5013,6 +5077,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: us_battleship_nevada -> https://static.encyclopedia.warthunder.com/slots/us_battleship_nevada.png
     Найдено: us_battleship_tennessee -> us_battleship_tennessee -> https://static.encyclopedia.warthunder.com/slots/us_battleship_tennessee.png
   Найдено изображение: us_battleship_tennessee -> https://static.encyclopedia.warthunder.com/slots/us_battleship_tennessee.png
+    Найдено: us_battleship_south_dakota -> us_battleship_south_dakota -> https://static.encyclopedia.warthunder.com/slots/us_battleship_south_dakota.png
+  Найдено изображение: us_battleship_south_dakota -> https://static.encyclopedia.warthunder.com/slots/us_battleship_south_dakota.png
     Найдено: us_battleship_iowa_class_iowa -> us_battleship_iowa_class_iowa -> https://static.encyclopedia.warthunder.com/slots/us_battleship_iowa_class_iowa.png
   Найдено изображение: us_battleship_iowa_class_iowa -> https://static.encyclopedia.warthunder.com/slots/us_battleship_iowa_class_iowa.png
     Найдено: us_destroyer_sumner -> us_destroyer_sumner -> https://static.encyclopedia.warthunder.com/slots/us_destroyer_sumner.png
@@ -5137,6 +5203,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: us_higgins_78ft_pt658 -> https://static.encyclopedia.warthunder.com/slots/us_higgins_78ft_pt658.png
     Найдено: us_flagstaff_pgh1 -> us_flagstaff_pgh1 -> https://static.encyclopedia.warthunder.com/slots/us_flagstaff_pgh1.png
   Найдено изображение: us_flagstaff_pgh1 -> https://static.encyclopedia.warthunder.com/slots/us_flagstaff_pgh1.png
+  Обработано: 500/3475
     Найдено: germ_garford_putilov -> germ_garford_putilov -> https://static.encyclopedia.warthunder.com/slots/germ_garford_putilov.png
   Найдено изображение: germ_garford_putilov -> https://static.encyclopedia.warthunder.com/slots/germ_garford_putilov.png
     Найдено: germ_pzkpfw_35t -> germ_pzkpfw_35t -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_35t.png
@@ -5151,7 +5218,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_pzkpfw_38t_na -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_38t_na.png
     Найдено: germ_amd_35_kwk39 -> germ_amd_35_kwk39 -> https://static.encyclopedia.warthunder.com/slots/germ_amd_35_kwk39.png
   Найдено изображение: germ_amd_35_kwk39 -> https://static.encyclopedia.warthunder.com/slots/germ_amd_35_kwk39.png
-  Обработано: 500/3426
     Найдено: germ_sdkfz_234_2 -> germ_sdkfz_234_2 -> https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_2.png
   Найдено изображение: germ_sdkfz_234_2 -> https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_2.png
     Найдено: germ_dicker_sturer_group -> germ_dicker_sturer_group -> https://static.encyclopedia.warthunder.com/slots/germ_dicker_sturer_group.png
@@ -5359,6 +5425,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_wiesel_1_mk20 -> https://static.encyclopedia.warthunder.com/slots/germ_wiesel_1_mk20.png
     Найдено: germ_sppz2_luchs_a2 -> germ_sppz2_luchs_a2 -> https://static.encyclopedia.warthunder.com/slots/germ_sppz2_luchs_a2.png
   Найдено изображение: germ_sppz2_luchs_a2 -> https://static.encyclopedia.warthunder.com/slots/germ_sppz2_luchs_a2.png
+  Обработано: 600/3475
     Найдено: germ_flakpz_i_gepard -> germ_flakpz_i_gepard -> https://static.encyclopedia.warthunder.com/slots/germ_flakpz_i_gepard.png
   Найдено изображение: germ_flakpz_i_gepard -> https://static.encyclopedia.warthunder.com/slots/germ_flakpz_i_gepard.png
     Найдено: germ_wiesel_gepard_group -> germ_wiesel_gepard_group -> https://static.encyclopedia.warthunder.com/slots/germ_wiesel_gepard_group.png
@@ -5373,7 +5440,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_flarakpz_1 -> https://static.encyclopedia.warthunder.com/slots/germ_flarakpz_1.png
     Найдено: germ_9a33bm3 -> germ_9a33bm3 -> https://static.encyclopedia.warthunder.com/slots/germ_9a33bm3.png
   Найдено изображение: germ_9a33bm3 -> https://static.encyclopedia.warthunder.com/slots/germ_9a33bm3.png
-  Обработано: 600/3426
     Найдено: germ_9a35_m -> germ_9a35_m -> https://static.encyclopedia.warthunder.com/slots/germ_9a35_m.png
   Найдено изображение: germ_9a35_m -> https://static.encyclopedia.warthunder.com/slots/germ_9a35_m.png
     Найдено: germ_flarakrad -> germ_flarakrad -> https://static.encyclopedia.warthunder.com/slots/germ_flarakrad.png
@@ -5440,6 +5506,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_raketenjagdpanzer_2 -> https://static.encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2.png
     Найдено: germ_raketenjagdpanzer_2_hot -> germ_raketenjagdpanzer_2_hot -> https://static.encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2_hot.png
   Найдено изображение: germ_raketenjagdpanzer_2_hot -> https://static.encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2_hot.png
+    Найдено: germ_jaguar_2 -> germ_jaguar_2 -> https://static.encyclopedia.warthunder.com/slots/germ_jaguar_2.png
+  Найдено изображение: germ_jaguar_2 -> https://static.encyclopedia.warthunder.com/slots/germ_jaguar_2.png
     Найдено: germ_wiesel_1_tow -> germ_wiesel_1_tow -> https://static.encyclopedia.warthunder.com/slots/germ_wiesel_1_tow.png
   Найдено изображение: germ_wiesel_1_tow -> https://static.encyclopedia.warthunder.com/slots/germ_wiesel_1_tow.png
     Найдено: germ_pzkpfw_35t_romania_mare -> germ_pzkpfw_35t_romania_mare -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_35t_romania_mare.png
@@ -5558,6 +5626,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_vt_1_2 -> https://static.encyclopedia.warthunder.com/slots/germ_vt_1_2.png
     Найдено: germ_th_800_bismark -> germ_th_800_bismark -> https://static.encyclopedia.warthunder.com/slots/germ_th_800_bismark.png
   Найдено изображение: germ_th_800_bismark -> https://static.encyclopedia.warthunder.com/slots/germ_th_800_bismark.png
+  Обработано: 700/3475
     Найдено: germ_th_400 -> germ_th_400 -> https://static.encyclopedia.warthunder.com/slots/germ_th_400.png
   Найдено изображение: germ_th_400 -> https://static.encyclopedia.warthunder.com/slots/germ_th_400.png
     Найдено: germ_leopard_2av -> germ_leopard_2av -> https://static.encyclopedia.warthunder.com/slots/germ_leopard_2av.png
@@ -5574,7 +5643,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: bo_105pah1 -> https://static.encyclopedia.warthunder.com/slots/bo_105pah1.png
     Найдено: bo_105pah1_a1 -> bo_105pah1_a1 -> https://static.encyclopedia.warthunder.com/slots/bo_105pah1_a1.png
   Найдено изображение: bo_105pah1_a1 -> https://static.encyclopedia.warthunder.com/slots/bo_105pah1_a1.png
-  Обработано: 700/3426
     Найдено: tiger_uht -> tiger_uht -> https://static.encyclopedia.warthunder.com/slots/tiger_uht.png
   Найдено изображение: tiger_uht -> https://static.encyclopedia.warthunder.com/slots/tiger_uht.png
     Найдено: mi_8tb -> mi_8tb -> https://static.encyclopedia.warthunder.com/slots/mi_8tb.png
@@ -5655,6 +5723,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f-4f_kws_lv -> https://static.encyclopedia.warthunder.com/slots/f-4f_kws_lv.png
     Найдено: ef_2000_block_10 -> ef_2000_block_10 -> https://static.encyclopedia.warthunder.com/slots/ef_2000_block_10.png
   Найдено изображение: ef_2000_block_10 -> https://static.encyclopedia.warthunder.com/slots/ef_2000_block_10.png
+    Найдено: ef_2000_aesa -> ef_2000_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000_aesa.png
+  Найдено изображение: ef_2000_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000_aesa.png
     Вариант не найден: he51_group
     Вариант не найден: he51-group
     Найдено: he51_group -> he-51_group -> https://static.encyclopedia.warthunder.com/slots/he-51_group.png
@@ -5781,6 +5851,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: me-410a_u2_group -> https://static.encyclopedia.warthunder.com/slots/me-410a_group.png
     Найдено: me-410a-1_u2 -> me-410a-1_u2 -> https://static.encyclopedia.warthunder.com/slots/me-410a-1_u2.png
   Найдено изображение: me-410a-1_u2 -> https://static.encyclopedia.warthunder.com/slots/me-410a-1_u2.png
+  Обработано: 800/3475
     Найдено: me-410b-1_u2 -> me-410b-1_u2 -> https://static.encyclopedia.warthunder.com/slots/me-410b-1_u2.png
   Найдено изображение: me-410b-1_u2 -> https://static.encyclopedia.warthunder.com/slots/me-410b-1_u2.png
     Найдено: me-410b-6_r3 -> me-410b-6_r3 -> https://static.encyclopedia.warthunder.com/slots/me-410b-6_r3.png
@@ -5799,7 +5870,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: hs-123a-1 -> https://static.encyclopedia.warthunder.com/slots/hs-123a-1.png
     Найдено: ju-87br_group -> ju-87br_group -> https://static.encyclopedia.warthunder.com/slots/ju-87br_group.png
   Найдено изображение: ju-87br_group -> https://static.encyclopedia.warthunder.com/slots/ju-87br_group.png
-  Обработано: 800/3426
     Найдено: ju-87b-2 -> ju-87b-2 -> https://static.encyclopedia.warthunder.com/slots/ju-87b-2.png
   Найдено изображение: ju-87b-2 -> https://static.encyclopedia.warthunder.com/slots/ju-87b-2.png
     Найдено: ju-87r-2 -> ju-87r-2 -> https://static.encyclopedia.warthunder.com/slots/ju-87r-2.png
@@ -5982,6 +6052,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: tornado_ids_de_wtd61 -> https://static.encyclopedia.warthunder.com/slots/tornado_ids_de_wtd61.png
     Найдено: su_22m4_de_wtd61 -> su_22m4_de_wtd61 -> https://static.encyclopedia.warthunder.com/slots/su_22m4_de_wtd61.png
   Найдено изображение: su_22m4_de_wtd61 -> https://static.encyclopedia.warthunder.com/slots/su_22m4_de_wtd61.png
+  Обработано: 900/3475
     Найдено: tornado_ids_de_mfg -> tornado_ids_de_mfg -> https://static.encyclopedia.warthunder.com/slots/tornado_ids_de_mfg.png
   Найдено изображение: tornado_ids_de_mfg -> https://static.encyclopedia.warthunder.com/slots/tornado_ids_de_mfg.png
     Найдено: fa_18c_switzerland -> fa_18c_switzerland -> https://static.encyclopedia.warthunder.com/slots/fa_18c_switzerland.png
@@ -6000,7 +6071,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
     Найдено: wellington_mk1c_luftwaffe -> wellington_mk1c_luftwaffe -> https://static.encyclopedia.warthunder.com/slots/wellington_mk1c_luftwaffe.png
   Найдено изображение: wellington_mk1c_luftwaffe -> https://static.encyclopedia.warthunder.com/slots/wellington_mk1c_luftwaffe.png
-  Обработано: 900/3426
     Найдено: he_112b_2 -> he_112b_2 -> https://static.encyclopedia.warthunder.com/slots/he_112b_2.png
   Найдено изображение: he_112b_2 -> https://static.encyclopedia.warthunder.com/slots/he_112b_2.png
     Найдено: h-75a-2_finland -> h-75a-2_finland -> https://static.encyclopedia.warthunder.com/slots/h-75a-2_finland.png
@@ -6065,6 +6135,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_destroyer_class1942_z51 -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1942_z51.png
     Найдено: germ_destroyer_class1936c_z46 -> germ_destroyer_class1936c_z46 -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936c_z46.png
   Найдено изображение: germ_destroyer_class1936c_z46 -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936c_z46.png
+    Найдено: germ_destroyer_lutjens_class_lutjens -> germ_destroyer_lutjens_class_lutjens -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_lutjens_class_lutjens.png
+  Найдено изображение: germ_destroyer_lutjens_class_lutjens -> https://static.encyclopedia.warthunder.com/slots/germ_destroyer_lutjens_class_lutjens.png
     Найдено: germ_cruiser_leipzig_nurnberg_group -> germ_cruiser_leipzig_nurnberg_group -> https://static.encyclopedia.warthunder.com/slots/germ_cruiser_leipzig_nurnberg_group.png
   Найдено изображение: germ_cruiser_leipzig_nurnberg_group -> https://static.encyclopedia.warthunder.com/slots/germ_cruiser_leipzig_nurnberg_group.png
     Найдено: germ_cruiser_leipzig -> germ_cruiser_leipzig -> https://static.encyclopedia.warthunder.com/slots/germ_cruiser_leipzig.png
@@ -6183,12 +6255,15 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_type140_jaguar -> https://static.encyclopedia.warthunder.com/slots/germ_type140_jaguar.png
     Найдено: germ_frigate_koln -> germ_frigate_koln -> https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln.png
   Найдено изображение: germ_frigate_koln -> https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln.png
+  Обработано: 1000/3475
     Найдено: germ_rdm242 -> germ_rdm242 -> https://static.encyclopedia.warthunder.com/slots/germ_rdm242.png
   Найдено изображение: germ_rdm242 -> https://static.encyclopedia.warthunder.com/slots/germ_rdm242.png
     Найдено: germ_schutze_class -> germ_schutze_class -> https://static.encyclopedia.warthunder.com/slots/germ_schutze_class.png
   Найдено изображение: germ_schutze_class -> https://static.encyclopedia.warthunder.com/slots/germ_schutze_class.png
     Найдено: germ_kondor2_class -> germ_kondor2_class -> https://static.encyclopedia.warthunder.com/slots/germ_kondor2_class.png
   Найдено изображение: germ_kondor2_class -> https://static.encyclopedia.warthunder.com/slots/germ_kondor2_class.png
+    Найдено: germ_pr1331 -> germ_pr1331 -> https://static.encyclopedia.warthunder.com/slots/germ_pr1331.png
+  Найдено изображение: germ_pr1331 -> https://static.encyclopedia.warthunder.com/slots/germ_pr1331.png
     Найдено: germ_type152_hugin -> germ_type152_hugin -> https://static.encyclopedia.warthunder.com/slots/germ_type152_hugin.png
   Найдено изображение: germ_type152_hugin -> https://static.encyclopedia.warthunder.com/slots/germ_type152_hugin.png
     Найдено: germ_type153_pfeil -> germ_type153_pfeil -> https://static.encyclopedia.warthunder.com/slots/germ_type153_pfeil.png
@@ -6203,7 +6278,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: germ_vs8_hydrofoil -> https://static.encyclopedia.warthunder.com/slots/germ_vs8_hydrofoil.png
     Найдено: germ_escort_typem1943 -> germ_escort_typem1943 -> https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1943.png
   Найдено изображение: germ_escort_typem1943 -> https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1943.png
-  Обработано: 1000/3426
     Найдено: germ_skr_pr50_karl_marx -> germ_skr_pr50_karl_marx -> https://static.encyclopedia.warthunder.com/slots/germ_skr_pr50_karl_marx.png
   Найдено изображение: germ_skr_pr50_karl_marx -> https://static.encyclopedia.warthunder.com/slots/germ_skr_pr50_karl_marx.png
     Найдено: germ_type143_bussard -> germ_type143_bussard -> https://static.encyclopedia.warthunder.com/slots/germ_type143_bussard.png
@@ -6382,6 +6456,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_su_76m_1943 -> https://static.encyclopedia.warthunder.com/slots/ussr_su_76m_1943.png
     Найдено: ussr_zis_su_group -> ussr_zis_su_group -> https://static.encyclopedia.warthunder.com/slots/ussr_zis_su_group.png
   Найдено изображение: ussr_zis_su_group -> https://static.encyclopedia.warthunder.com/slots/ussr_zis_su_group.png
+  Обработано: 1100/3475
     Найдено: ussr_zis_30 -> ussr_zis_30 -> https://static.encyclopedia.warthunder.com/slots/ussr_zis_30.png
   Найдено изображение: ussr_zis_30 -> https://static.encyclopedia.warthunder.com/slots/ussr_zis_30.png
     Найдено: ussr_su_57b -> ussr_su_57b -> https://static.encyclopedia.warthunder.com/slots/ussr_su_57b.png
@@ -6404,7 +6479,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_su_85m -> https://static.encyclopedia.warthunder.com/slots/ussr_su_85m.png
     Найдено: ussr_isu_122 -> ussr_isu_122 -> https://static.encyclopedia.warthunder.com/slots/ussr_isu_122.png
   Найдено изображение: ussr_isu_122 -> https://static.encyclopedia.warthunder.com/slots/ussr_isu_122.png
-  Обработано: 1100/3426
     Найдено: ussr_isu_122s -> ussr_isu_122s -> https://static.encyclopedia.warthunder.com/slots/ussr_isu_122s.png
   Найдено изображение: ussr_isu_122s -> https://static.encyclopedia.warthunder.com/slots/ussr_isu_122s.png
     Найдено: ussr_su_100_1945 -> ussr_su_100_1945 -> https://static.encyclopedia.warthunder.com/slots/ussr_su_100_1945.png
@@ -6435,6 +6509,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_object_775 -> https://static.encyclopedia.warthunder.com/slots/ussr_object_775.png
     Найдено: ussr_9p157 -> ussr_9p157 -> https://static.encyclopedia.warthunder.com/slots/ussr_9p157.png
   Найдено изображение: ussr_9p157 -> https://static.encyclopedia.warthunder.com/slots/ussr_9p157.png
+    Найдено: ussr_bmpt -> ussr_bmpt -> https://static.encyclopedia.warthunder.com/slots/ussr_bmpt.png
+  Найдено изображение: ussr_bmpt -> https://static.encyclopedia.warthunder.com/slots/ussr_bmpt.png
     Найдено: ussr_gaz_4m -> ussr_gaz_4m -> https://static.encyclopedia.warthunder.com/slots/ussr_gaz_4m.png
   Найдено изображение: ussr_gaz_4m -> https://static.encyclopedia.warthunder.com/slots/ussr_gaz_4m.png
     Найдено: ussr_gaz_dshk -> ussr_gaz_dshk -> https://static.encyclopedia.warthunder.com/slots/ussr_gaz_dshk.png
@@ -6477,6 +6553,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_9a35_m2 -> https://static.encyclopedia.warthunder.com/slots/ussr_9a35_m2.png
     Найдено: ussr_zprk_2s6 -> ussr_zprk_2s6 -> https://static.encyclopedia.warthunder.com/slots/ussr_zprk_2s6.png
   Найдено изображение: ussr_zprk_2s6 -> https://static.encyclopedia.warthunder.com/slots/ussr_zprk_2s6.png
+    Найдено: ussr_tor_m1 -> ussr_tor_m1 -> https://static.encyclopedia.warthunder.com/slots/ussr_tor_m1.png
+  Найдено изображение: ussr_tor_m1 -> https://static.encyclopedia.warthunder.com/slots/ussr_tor_m1.png
     Найдено: ussr_pantsyr_s1 -> ussr_pantsyr_s1 -> https://static.encyclopedia.warthunder.com/slots/ussr_pantsyr_s1.png
   Найдено изображение: ussr_pantsyr_s1 -> https://static.encyclopedia.warthunder.com/slots/ussr_pantsyr_s1.png
     Найдено: ussr_buk_m3_fcs -> ussr_buk_m3_fcs -> https://static.encyclopedia.warthunder.com/slots/ussr_buk_m3_fcs.png
@@ -6549,6 +6627,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_2s38 -> https://static.encyclopedia.warthunder.com/slots/ussr_2s38.png
     Найдено: ussr_t_72av_turms -> ussr_t_72av_turms -> https://static.encyclopedia.warthunder.com/slots/ussr_t_72av_turms.png
   Найдено изображение: ussr_t_72av_turms -> https://static.encyclopedia.warthunder.com/slots/ussr_t_72av_turms.png
+    Найдено: ussr_bmpt_72 -> ussr_bmpt_72 -> https://static.encyclopedia.warthunder.com/slots/ussr_bmpt_72.png
+  Найдено изображение: ussr_bmpt_72 -> https://static.encyclopedia.warthunder.com/slots/ussr_bmpt_72.png
     Найдено: ussr_t_80ud -> ussr_t_80ud -> https://static.encyclopedia.warthunder.com/slots/ussr_t_80ud.png
   Найдено изображение: ussr_t_80ud -> https://static.encyclopedia.warthunder.com/slots/ussr_t_80ud.png
     Найдено: ussr_t_80ue1 -> ussr_t_80ue1 -> https://static.encyclopedia.warthunder.com/slots/ussr_t_80ue1.png
@@ -6577,6 +6657,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_valentine_mk_9 -> https://static.encyclopedia.warthunder.com/slots/ussr_valentine_mk_9.png
     Найдено: ussr_su_85a -> ussr_su_85a -> https://static.encyclopedia.warthunder.com/slots/ussr_su_85a.png
   Найдено изображение: ussr_su_85a -> https://static.encyclopedia.warthunder.com/slots/ussr_su_85a.png
+  Обработано: 1200/3475
     Найдено: ussr_kv_2_1940 -> ussr_kv_2_1940 -> https://static.encyclopedia.warthunder.com/slots/ussr_kv_2_1940.png
   Найдено изображение: ussr_kv_2_1940 -> https://static.encyclopedia.warthunder.com/slots/ussr_kv_2_1940.png
     Найдено: ussr_kv_7_u13 -> ussr_kv_7_u13 -> https://static.encyclopedia.warthunder.com/slots/ussr_kv_7_u13.png
@@ -6605,7 +6686,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_t_10a -> https://static.encyclopedia.warthunder.com/slots/ussr_t_10a.png
     Найдено: ussr_pt_76_57 -> ussr_pt_76_57 -> https://static.encyclopedia.warthunder.com/slots/ussr_pt_76_57.png
   Найдено изображение: ussr_pt_76_57 -> https://static.encyclopedia.warthunder.com/slots/ussr_pt_76_57.png
-  Обработано: 1200/3426
     Найдено: ussr_is_7 -> ussr_is_7 -> https://static.encyclopedia.warthunder.com/slots/ussr_is_7.png
   Найдено изображение: ussr_is_7 -> https://static.encyclopedia.warthunder.com/slots/ussr_is_7.png
     Найдено: ussr_object_279 -> ussr_object_279 -> https://static.encyclopedia.warthunder.com/slots/ussr_object_279.png
@@ -6786,6 +6866,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: i-15_1935_moscow -> https://static.encyclopedia.warthunder.com/slots/i-15_1935_moscow.png
     Найдено: i-153_group -> i-153_group -> https://static.encyclopedia.warthunder.com/slots/i-153_group.png
   Найдено изображение: i-153_group -> https://static.encyclopedia.warthunder.com/slots/i-153_group.png
+  Обработано: 1300/3475
     Найдено: i-15bis -> i-15bis -> https://static.encyclopedia.warthunder.com/slots/i-15bis.png
   Найдено изображение: i-15bis -> https://static.encyclopedia.warthunder.com/slots/i-15bis.png
     Найдено: i-153_m62 -> i-153_m62 -> https://static.encyclopedia.warthunder.com/slots/i-153_m62.png
@@ -6814,7 +6895,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: la-7 -> https://static.encyclopedia.warthunder.com/slots/la-7.png
     Найдено: la-7b-20 -> la-7b-20 -> https://static.encyclopedia.warthunder.com/slots/la-7b-20.png
   Найдено изображение: la-7b-20 -> https://static.encyclopedia.warthunder.com/slots/la-7b-20.png
-  Обработано: 1300/3426
     Найдено: la-9 -> la-9 -> https://static.encyclopedia.warthunder.com/slots/la-9.png
   Найдено изображение: la-9 -> https://static.encyclopedia.warthunder.com/slots/la-9.png
     Найдено: su-9 -> su-9 -> https://static.encyclopedia.warthunder.com/slots/su-9.png
@@ -6841,6 +6921,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: su_27sm -> https://static.encyclopedia.warthunder.com/slots/su_27sm.png
     Найдено: su_30sm -> su_30sm -> https://static.encyclopedia.warthunder.com/slots/su_30sm.png
   Найдено изображение: su_30sm -> https://static.encyclopedia.warthunder.com/slots/su_30sm.png
+    Найдено: su_30sm2 -> su_30sm2 -> https://static.encyclopedia.warthunder.com/slots/su_30sm2.png
+  Найдено изображение: su_30sm2 -> https://static.encyclopedia.warthunder.com/slots/su_30sm2.png
     Найдено: po-2 -> po-2 -> https://static.encyclopedia.warthunder.com/slots/po-2.png
   Найдено изображение: po-2 -> https://static.encyclopedia.warthunder.com/slots/po-2.png
     Найдено: po-2_nw -> po-2_nw -> https://static.encyclopedia.warthunder.com/slots/po-2_nw.png
@@ -6992,12 +7074,15 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: su_34 -> https://static.encyclopedia.warthunder.com/slots/su_34.png
     Найдено: i-15bis_krasnolutsky -> i-15bis_krasnolutsky -> https://static.encyclopedia.warthunder.com/slots/i-15bis_krasnolutsky.png
   Найдено изображение: i-15bis_krasnolutsky -> https://static.encyclopedia.warthunder.com/slots/i-15bis_krasnolutsky.png
+  Обработано: 1400/3475
     Найдено: pby-5a_ussr -> pby-5a_ussr -> https://static.encyclopedia.warthunder.com/slots/pby-5a_ussr.png
   Найдено изображение: pby-5a_ussr -> https://static.encyclopedia.warthunder.com/slots/pby-5a_ussr.png
     Найдено: hp52_hampden_tbmk1_ussr_utk1 -> hp52_hampden_tbmk1_ussr_utk1 -> https://static.encyclopedia.warthunder.com/slots/hp52_hampden_tbmk1_ussr_utk1.png
   Найдено изображение: hp52_hampden_tbmk1_ussr_utk1 -> https://static.encyclopedia.warthunder.com/slots/hp52_hampden_tbmk1_ussr_utk1.png
     Найдено: tandem_mai -> tandem_mai -> https://static.encyclopedia.warthunder.com/slots/tandem_mai.png
   Найдено изображение: tandem_mai -> https://static.encyclopedia.warthunder.com/slots/tandem_mai.png
+    Найдено: db_lk -> db_lk -> https://static.encyclopedia.warthunder.com/slots/db_lk.png
+  Найдено изображение: db_lk -> https://static.encyclopedia.warthunder.com/slots/db_lk.png
     Найдено: kor_1 -> kor_1 -> https://static.encyclopedia.warthunder.com/slots/kor_1.png
   Найдено изображение: kor_1 -> https://static.encyclopedia.warthunder.com/slots/kor_1.png
     Найдено: kor_2 -> kor_2 -> https://static.encyclopedia.warthunder.com/slots/kor_2.png
@@ -7022,7 +7107,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: p-39n_su -> https://static.encyclopedia.warthunder.com/slots/p-39n_su.png
     Найдено: p-39q_15 -> p-39q_15 -> https://static.encyclopedia.warthunder.com/slots/p-39q_15.png
   Найдено изображение: p-39q_15 -> https://static.encyclopedia.warthunder.com/slots/p-39q_15.png
-  Обработано: 1400/3426
     Найдено: p-63a-5_ussr -> p-63a-5_ussr -> https://static.encyclopedia.warthunder.com/slots/p-63a-5_ussr.png
   Найдено изображение: p-63a-5_ussr -> https://static.encyclopedia.warthunder.com/slots/p-63a-5_ussr.png
     Найдено: p-47d_ussr -> p-47d_ussr -> https://static.encyclopedia.warthunder.com/slots/p-47d_ussr.png
@@ -7057,6 +7141,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: mig-21_s -> https://static.encyclopedia.warthunder.com/slots/mig-21_s.png
     Найдено: su_22m3 -> su_22m3 -> https://static.encyclopedia.warthunder.com/slots/su_22m3.png
   Найдено изображение: su_22m3 -> https://static.encyclopedia.warthunder.com/slots/su_22m3.png
+    Найдено: mig_25pd -> mig_25pd -> https://static.encyclopedia.warthunder.com/slots/mig_25pd.png
+  Найдено изображение: mig_25pd -> https://static.encyclopedia.warthunder.com/slots/mig_25pd.png
     Найдено: mig_23ml -> mig_23ml -> https://static.encyclopedia.warthunder.com/slots/mig_23ml.png
   Найдено изображение: mig_23ml -> https://static.encyclopedia.warthunder.com/slots/mig_23ml.png
     Найдено: su_33 -> su_33 -> https://static.encyclopedia.warthunder.com/slots/su_33.png
@@ -7177,6 +7263,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_battlecruiser_izmail -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_izmail.png
     Найдено: ussr_battlecruiser_kronshtadt -> ussr_battlecruiser_kronshtadt -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_kronshtadt.png
   Найдено изображение: ussr_battlecruiser_kronshtadt -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_kronshtadt.png
+    Найдено: ussr_battlecruiser_stalingrad -> ussr_battlecruiser_stalingrad -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_stalingrad.png
+  Найдено изображение: ussr_battlecruiser_stalingrad -> https://static.encyclopedia.warthunder.com/slots/ussr_battlecruiser_stalingrad.png
     Найдено: ussr_destroyer_kerch -> ussr_destroyer_kerch -> https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_kerch.png
   Найдено изображение: ussr_destroyer_kerch -> https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_kerch.png
     Найдено: ussr_destroyer_7_ryany -> ussr_destroyer_7_ryany -> https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_7_ryany.png
@@ -7187,6 +7275,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_destroyer_leningrad -> https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_leningrad.png
     Найдено: ussr_destroyer_pr56_blagorodny -> ussr_destroyer_pr56_blagorodny -> https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_blagorodny.png
   Найдено изображение: ussr_destroyer_pr56_blagorodny -> https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr56_blagorodny.png
+  Обработано: 1500/3475
     Найдено: ussr_cruiser_kerch -> ussr_cruiser_kerch -> https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_kerch.png
   Найдено изображение: ussr_cruiser_kerch -> https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_kerch.png
     Найдено: ussr_cruiser_zheleznyakov -> ussr_cruiser_zheleznyakov -> https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_zheleznyakov.png
@@ -7223,7 +7312,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_pr_1204_late -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_1204_late.png
     Найдено: ussr_bmo -> ussr_bmo -> https://static.encyclopedia.warthunder.com/slots/ussr_bmo.png
   Найдено изображение: ussr_bmo -> https://static.encyclopedia.warthunder.com/slots/ussr_bmo.png
-  Обработано: 1500/3426
     Найдено: ussr_pr_183 -> ussr_pr_183 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_183.png
   Найдено изображение: ussr_pr_183 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_183.png
     Найдено: ussr_pr_206 -> ussr_pr_206 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_206.png
@@ -7296,6 +7384,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ussr_mpk_201k -> https://static.encyclopedia.warthunder.com/slots/ussr_mpk_201k.png
     Найдено: ussr_mpk_pr12412p -> ussr_mpk_pr12412p -> https://static.encyclopedia.warthunder.com/slots/ussr_mpk_pr12412p.png
   Найдено изображение: ussr_mpk_pr12412p -> https://static.encyclopedia.warthunder.com/slots/ussr_mpk_pr12412p.png
+    Найдено: ussr_pr_205pe_k225 -> ussr_pr_205pe_k225 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_205pe_k225.png
+  Найдено изображение: ussr_pr_205pe_k225 -> https://static.encyclopedia.warthunder.com/slots/ussr_pr_205pe_k225.png
     Найдено: uk_a_13_mk1 -> uk_a_13_mk1 -> https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk1.png
   Найдено изображение: uk_a_13_mk1 -> https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk1.png
     Найдено: uk_a_13_mk2 -> uk_a_13_mk2 -> https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk2.png
@@ -7393,6 +7483,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_a_12_mk_2_matilda_2 -> https://static.encyclopedia.warthunder.com/slots/uk_a_12_mk_2_matilda_2.png
     Найдено: uk_a_22_mk_1_churchill_1941 -> uk_a_22_mk_1_churchill_1941 -> https://static.encyclopedia.warthunder.com/slots/uk_a_22_mk_1_churchill_1941.png
   Найдено изображение: uk_a_22_mk_1_churchill_1941 -> https://static.encyclopedia.warthunder.com/slots/uk_a_22_mk_1_churchill_1941.png
+  Обработано: 1600/3475
     Найдено: uk_churchill_group -> uk_churchill_group -> https://static.encyclopedia.warthunder.com/slots/uk_churchill_group.png
   Найдено изображение: uk_churchill_group -> https://static.encyclopedia.warthunder.com/slots/uk_churchill_group.png
     Найдено: uk_a_22b_mk_3_churchill_1942 -> uk_a_22b_mk_3_churchill_1942 -> https://static.encyclopedia.warthunder.com/slots/uk_a_22b_mk_3_churchill_1942.png
@@ -7431,7 +7522,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_17_pdr_m10_achilles -> https://static.encyclopedia.warthunder.com/slots/uk_17_pdr_m10_achilles.png
     Найдено: uk_m44 -> uk_m44 -> https://static.encyclopedia.warthunder.com/slots/uk_m44.png
   Найдено изображение: uk_m44 -> https://static.encyclopedia.warthunder.com/slots/uk_m44.png
-  Обработано: 1600/3426
     Найдено: uk_a30_sp_avenger -> uk_a30_sp_avenger -> https://static.encyclopedia.warthunder.com/slots/uk_a30_sp_avenger.png
   Найдено изображение: uk_a30_sp_avenger -> https://static.encyclopedia.warthunder.com/slots/uk_a30_sp_avenger.png
     Вариант не найден: uk_fv_m109_group
@@ -7558,6 +7648,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_vfm_5 -> https://static.encyclopedia.warthunder.com/slots/uk_vfm_5.png
     Найдено: uk_rooikat_mttd -> uk_rooikat_mttd -> https://static.encyclopedia.warthunder.com/slots/uk_rooikat_mttd.png
   Найдено изображение: uk_rooikat_mttd -> https://static.encyclopedia.warthunder.com/slots/uk_rooikat_mttd.png
+    Найдено: uk_ajax -> uk_ajax -> https://static.encyclopedia.warthunder.com/slots/uk_ajax.png
+  Найдено изображение: uk_ajax -> https://static.encyclopedia.warthunder.com/slots/uk_ajax.png
     Найдено: uk_a_13_mk1_3rd_rtr -> uk_a_13_mk1_3rd_rtr -> https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk1_3rd_rtr.png
   Найдено изображение: uk_a_13_mk1_3rd_rtr -> https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk1_3rd_rtr.png
     Найдено: uk_a1e1_independent -> uk_a1e1_independent -> https://static.encyclopedia.warthunder.com/slots/uk_a1e1_independent.png
@@ -7606,6 +7698,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_challenger_2_megatron -> https://static.encyclopedia.warthunder.com/slots/uk_challenger_2_megatron.png
     Найдено: uk_a_13_mk2_1939 -> uk_a_13_mk2_1939 -> https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk2_1939.png
   Найдено изображение: uk_a_13_mk2_1939 -> https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk2_1939.png
+  Обработано: 1700/3475
     Найдено: uk_alecto_mk_1 -> uk_alecto_mk_1 -> https://static.encyclopedia.warthunder.com/slots/uk_alecto_mk_1.png
   Найдено изображение: uk_alecto_mk_1 -> https://static.encyclopedia.warthunder.com/slots/uk_alecto_mk_1.png
     Найдено: uk_mk1_grant -> uk_mk1_grant -> https://static.encyclopedia.warthunder.com/slots/uk_mk1_grant.png
@@ -7634,6 +7727,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_shir_2 -> https://static.encyclopedia.warthunder.com/slots/uk_shir_2.png
     Найдено: uk_t_90s_bheeshma -> uk_t_90s_bheeshma -> https://static.encyclopedia.warthunder.com/slots/uk_t_90s_bheeshma.png
   Найдено изображение: uk_t_90s_bheeshma -> https://static.encyclopedia.warthunder.com/slots/uk_t_90s_bheeshma.png
+    Найдено: uk_boxer_crv_block2 -> uk_boxer_crv_block2 -> https://static.encyclopedia.warthunder.com/slots/uk_boxer_crv_block2.png
+  Найдено изображение: uk_boxer_crv_block2 -> https://static.encyclopedia.warthunder.com/slots/uk_boxer_crv_block2.png
     Найдено: scout_ah_mk1 -> scout_ah_mk1 -> https://static.encyclopedia.warthunder.com/slots/scout_ah_mk1.png
   Найдено изображение: scout_ah_mk1 -> https://static.encyclopedia.warthunder.com/slots/scout_ah_mk1.png
     Найдено: wasp_has_mk1 -> wasp_has_mk1 -> https://static.encyclopedia.warthunder.com/slots/wasp_has_mk1.png
@@ -7646,7 +7741,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ah_mk1 -> https://static.encyclopedia.warthunder.com/slots/ah_mk1.png
     Найдено: ah_64e_britain -> ah_64e_britain -> https://static.encyclopedia.warthunder.com/slots/ah_64e_britain.png
   Найдено изображение: ah_64e_britain -> https://static.encyclopedia.warthunder.com/slots/ah_64e_britain.png
-  Обработано: 1700/3426
     Найдено: super_hind_mk3 -> super_hind_mk3 -> https://static.encyclopedia.warthunder.com/slots/super_hind_mk3.png
   Найдено изображение: super_hind_mk3 -> https://static.encyclopedia.warthunder.com/slots/super_hind_mk3.png
     Найдено: g_lynx -> g_lynx -> https://static.encyclopedia.warthunder.com/slots/g_lynx.png
@@ -7693,6 +7787,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: saab_jas39c_south_africa -> https://static.encyclopedia.warthunder.com/slots/saab_jas39c_south_africa.png
     Найдено: ef_2000_fgr4 -> ef_2000_fgr4 -> https://static.encyclopedia.warthunder.com/slots/ef_2000_fgr4.png
   Найдено изображение: ef_2000_fgr4 -> https://static.encyclopedia.warthunder.com/slots/ef_2000_fgr4.png
+    Найдено: ef_2000_typhoon_aesa -> ef_2000_typhoon_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000_typhoon_aesa.png
+  Найдено изображение: ef_2000_typhoon_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000_typhoon_aesa.png
     Найдено: gladiator_mk2_france -> gladiator_mk2_france -> https://static.encyclopedia.warthunder.com/slots/gladiator_mk2_france.png
   Найдено изображение: gladiator_mk2_france -> https://static.encyclopedia.warthunder.com/slots/gladiator_mk2_france.png
     Найдено: gladiator_mk2_silver -> gladiator_mk2_silver -> https://static.encyclopedia.warthunder.com/slots/gladiator_mk2_silver.png
@@ -7843,6 +7939,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: sea_harrier_fa2 -> https://static.encyclopedia.warthunder.com/slots/sea_harrier_fa2.png
     Найдено: fa_18a_hug_2_raaf -> fa_18a_hug_2_raaf -> https://static.encyclopedia.warthunder.com/slots/fa_18a_hug_2_raaf.png
   Найдено изображение: fa_18a_hug_2_raaf -> https://static.encyclopedia.warthunder.com/slots/fa_18a_hug_2_raaf.png
+  Обработано: 1800/3475
     Найдено: v_156_b1 -> v_156_b1 -> https://static.encyclopedia.warthunder.com/slots/v_156_b1.png
   Найдено изображение: v_156_b1 -> https://static.encyclopedia.warthunder.com/slots/v_156_b1.png
     Найдено: blenheim_group -> blenheim_group -> https://static.encyclopedia.warthunder.com/slots/blenheim_group.png
@@ -7887,7 +7984,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: swift_f7 -> https://static.encyclopedia.warthunder.com/slots/swift_f7.png
     Найдено: jaguar_gr1 -> jaguar_gr1 -> https://static.encyclopedia.warthunder.com/slots/jaguar_gr1.png
   Найдено изображение: jaguar_gr1 -> https://static.encyclopedia.warthunder.com/slots/jaguar_gr1.png
-  Обработано: 1800/3426
     Найдено: harrier_gr3 -> harrier_gr3 -> https://static.encyclopedia.warthunder.com/slots/harrier_gr3.png
   Найдено изображение: harrier_gr3 -> https://static.encyclopedia.warthunder.com/slots/harrier_gr3.png
     Найдено: jaguar_gr1a -> jaguar_gr1a -> https://static.encyclopedia.warthunder.com/slots/jaguar_gr1a.png
@@ -8050,6 +8146,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: boomerang_mkii -> https://static.encyclopedia.warthunder.com/slots/boomerang_mkii.png
     Найдено: mosquito_b_mk16 -> mosquito_b_mk16 -> https://static.encyclopedia.warthunder.com/slots/mosquito_b_mk16.png
   Найдено изображение: mosquito_b_mk16 -> https://static.encyclopedia.warthunder.com/slots/mosquito_b_mk16.png
+  Обработано: 1900/3475
     Найдено: whirlwind_p9 -> whirlwind_p9 -> https://static.encyclopedia.warthunder.com/slots/whirlwind_p9.png
   Найдено изображение: whirlwind_p9 -> https://static.encyclopedia.warthunder.com/slots/whirlwind_p9.png
     Найдено: spitfire_mk9c_4cannons -> spitfire_mk9c_4cannons -> https://static.encyclopedia.warthunder.com/slots/spitfire_mk9c_4cannons.png
@@ -8090,11 +8187,12 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_cruiser_arethusa -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_arethusa.png
     Найдено: uk_cruiser_leander -> uk_cruiser_leander -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_leander.png
   Найдено изображение: uk_cruiser_leander -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_leander.png
+    Найдено: uk_cruiser_fiji_class_fiji -> uk_cruiser_fiji_class_fiji -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_fiji_class_fiji.png
+  Найдено изображение: uk_cruiser_fiji_class_fiji -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_fiji_class_fiji.png
     Найдено: uk_cruiser_southampton -> uk_cruiser_southampton -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_southampton.png
   Найдено изображение: uk_cruiser_southampton -> https://static.encyclopedia.warthunder.com/slots/uk_cruiser_southampton.png
     Найдено: uk_battleship_dreadnought -> uk_battleship_dreadnought -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_dreadnought.png
   Найдено изображение: uk_battleship_dreadnought -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_dreadnought.png
-  Обработано: 1900/3426
     Найдено: uk_battleship_orion -> uk_battleship_orion -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_orion.png
   Найдено изображение: uk_battleship_orion -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_orion.png
     Найдено: uk_battleship_marlborough -> uk_battleship_marlborough -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_marlborough.png
@@ -8127,6 +8225,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_battleship_centurion -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_centurion.png
     Найдено: uk_battleship_rodney -> uk_battleship_rodney -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_rodney.png
   Найдено изображение: uk_battleship_rodney -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_rodney.png
+    Найдено: uk_battleship_prince_of_wales -> uk_battleship_prince_of_wales -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_prince_of_wales.png
+  Найдено изображение: uk_battleship_prince_of_wales -> https://static.encyclopedia.warthunder.com/slots/uk_battleship_prince_of_wales.png
     Найдено: uk_destroyer_clemson_churchill -> uk_destroyer_clemson_churchill -> https://static.encyclopedia.warthunder.com/slots/uk_destroyer_clemson_churchill.png
   Найдено изображение: uk_destroyer_clemson_churchill -> https://static.encyclopedia.warthunder.com/slots/uk_destroyer_clemson_churchill.png
     Найдено: uk_minelayer_abdiel_class_abdiel -> uk_minelayer_abdiel_class_abdiel -> https://static.encyclopedia.warthunder.com/slots/uk_minelayer_abdiel_class_abdiel.png
@@ -8247,6 +8347,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: uk_gay_class_archer -> https://static.encyclopedia.warthunder.com/slots/uk_gay_class_archer.png
     Найдено: uk_fairmile_d_5001_5029 -> uk_fairmile_d_5001_5029 -> https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_5001_5029.png
   Найдено изображение: uk_fairmile_d_5001_5029 -> https://static.encyclopedia.warthunder.com/slots/uk_fairmile_d_5001_5029.png
+  Обработано: 2000/3475
     Найдено: uk_sgb_309 -> uk_sgb_309 -> https://static.encyclopedia.warthunder.com/slots/uk_sgb_309.png
   Найдено изображение: uk_sgb_309 -> https://static.encyclopedia.warthunder.com/slots/uk_sgb_309.png
     Найдено: uk_corvette_orla -> uk_corvette_orla -> https://static.encyclopedia.warthunder.com/slots/uk_corvette_orla.png
@@ -8295,7 +8396,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jp_type_97_chi_ha -> https://static.encyclopedia.warthunder.com/slots/jp_type_97_chi_ha.png
     Найдено: jp_type_2_ho_i -> jp_type_2_ho_i -> https://static.encyclopedia.warthunder.com/slots/jp_type_2_ho_i.png
   Найдено изображение: jp_type_2_ho_i -> https://static.encyclopedia.warthunder.com/slots/jp_type_2_ho_i.png
-  Обработано: 2000/3426
     Найдено: jp_type_97_kai -> jp_type_97_kai -> https://static.encyclopedia.warthunder.com/slots/jp_type_97_kai.png
   Найдено изображение: jp_type_97_kai -> https://static.encyclopedia.warthunder.com/slots/jp_type_97_kai.png
     Найдено: jp_type_1_chi_he -> jp_type_1_chi_he -> https://static.encyclopedia.warthunder.com/slots/jp_type_1_chi_he.png
@@ -8400,6 +8500,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jp_type_81_tansam -> https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam.png
     Найдено: jp_type_81_tansam_fcs -> jp_type_81_tansam_fcs -> https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam_fcs.png
   Найдено изображение: jp_type_81_tansam_fcs -> https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam_fcs.png
+    Найдено: jp_type_03_chusam_fcs -> jp_type_03_chusam_fcs -> https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_fcs.png
+  Найдено изображение: jp_type_03_chusam_fcs -> https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_fcs.png
     Найдено: jp_m60a3_tts -> jp_m60a3_tts -> https://static.encyclopedia.warthunder.com/slots/jp_m60a3_tts.png
   Найдено изображение: jp_m60a3_tts -> https://static.encyclopedia.warthunder.com/slots/jp_m60a3_tts.png
     Найдено: jp_stingray -> jp_stingray -> https://static.encyclopedia.warthunder.com/slots/jp_stingray.png
@@ -8418,6 +8520,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jp_type_3_chi_nu_75cm_type_5 -> https://static.encyclopedia.warthunder.com/slots/jp_type_3_chi_nu_75cm_type_5.png
     Найдено: jp_pzkpfw_vi_ausf_e_tiger -> jp_pzkpfw_vi_ausf_e_tiger -> https://static.encyclopedia.warthunder.com/slots/jp_pzkpfw_vi_ausf_e_tiger.png
   Найдено изображение: jp_pzkpfw_vi_ausf_e_tiger -> https://static.encyclopedia.warthunder.com/slots/jp_pzkpfw_vi_ausf_e_tiger.png
+    Найдено: jp_type_61_mod -> jp_type_61_mod -> https://static.encyclopedia.warthunder.com/slots/jp_type_61_mod.png
+  Найдено изображение: jp_type_61_mod -> https://static.encyclopedia.warthunder.com/slots/jp_type_61_mod.png
     Найдено: jp_type_5_ho_ri_prototype -> jp_type_5_ho_ri_prototype -> https://static.encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_prototype.png
   Найдено изображение: jp_type_5_ho_ri_prototype -> https://static.encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_prototype.png
     Найдено: jp_type_75_mlrs -> jp_type_75_mlrs -> https://static.encyclopedia.warthunder.com/slots/jp_type_75_mlrs.png
@@ -8444,6 +8548,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ah_1s_late -> https://static.encyclopedia.warthunder.com/slots/ah_1s_late.png
     Найдено: ah_64d_japan -> ah_64d_japan -> https://static.encyclopedia.warthunder.com/slots/ah_64d_japan.png
   Найдено изображение: ah_64d_japan -> https://static.encyclopedia.warthunder.com/slots/ah_64d_japan.png
+  Обработано: 2100/3475
     Найдено: ah_64e_indonesia -> ah_64e_indonesia -> https://static.encyclopedia.warthunder.com/slots/ah_64e_indonesia.png
   Найдено изображение: ah_64e_indonesia -> https://static.encyclopedia.warthunder.com/slots/ah_64e_indonesia.png
     Найдено: mi_35p_indonesia -> mi_35p_indonesia -> https://static.encyclopedia.warthunder.com/slots/mi_35p_indonesia.png
@@ -8496,7 +8601,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: kitsuka -> https://static.encyclopedia.warthunder.com/slots/kitsuka.png
     Найдено: f-86_japan_group -> f-86_japan_group -> https://static.encyclopedia.warthunder.com/slots/f-86_japan_group.png
   Найдено изображение: f-86_japan_group -> https://static.encyclopedia.warthunder.com/slots/f-86_japan_group.png
-  Обработано: 2100/3426
     Найдено: f-86f-30_japan -> f-86f-30_japan -> https://static.encyclopedia.warthunder.com/slots/f-86f-30_japan.png
   Найдено изображение: f-86f-30_japan -> https://static.encyclopedia.warthunder.com/slots/f-86f-30_japan.png
     Найдено: f-86f-40_japan -> f-86f-40_japan -> https://static.encyclopedia.warthunder.com/slots/f-86f-40_japan.png
@@ -8645,6 +8749,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: d4y2 -> https://static.encyclopedia.warthunder.com/slots/d4y2.png
     Найдено: d4y3 -> d4y3 -> https://static.encyclopedia.warthunder.com/slots/d4y3.png
   Найдено изображение: d4y3 -> https://static.encyclopedia.warthunder.com/slots/d4y3.png
+  Обработано: 2200/3475
     Найдено: p1y1_mod11 -> p1y1_mod11 -> https://static.encyclopedia.warthunder.com/slots/p1y1_mod11.png
   Найдено изображение: p1y1_mod11 -> https://static.encyclopedia.warthunder.com/slots/p1y1_mod11.png
     Найдено: b7a2 -> b7a2 -> https://static.encyclopedia.warthunder.com/slots/b7a2.png
@@ -8689,6 +8794,12 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ki_67_1_otsu -> https://static.encyclopedia.warthunder.com/slots/ki_67_1_otsu.png
     Найдено: g8n1 -> g8n1 -> https://static.encyclopedia.warthunder.com/slots/g8n1.png
   Найдено изображение: g8n1 -> https://static.encyclopedia.warthunder.com/slots/g8n1.png
+    Найдено: mig_29n -> mig_29n -> https://static.encyclopedia.warthunder.com/slots/mig_29n.png
+  Найдено изображение: mig_29n -> https://static.encyclopedia.warthunder.com/slots/mig_29n.png
+    Найдено: fa_18d_late_malaysia -> fa_18d_late_malaysia -> https://static.encyclopedia.warthunder.com/slots/fa_18d_late_malaysia.png
+  Найдено изображение: fa_18d_late_malaysia -> https://static.encyclopedia.warthunder.com/slots/fa_18d_late_malaysia.png
+    Найдено: su_30mkm -> su_30mkm -> https://static.encyclopedia.warthunder.com/slots/su_30mkm.png
+  Найдено изображение: su_30mkm -> https://static.encyclopedia.warthunder.com/slots/su_30mkm.png
     Найдено: a5m4_hagiri -> a5m4_hagiri -> https://static.encyclopedia.warthunder.com/slots/a5m4_hagiri.png
   Найдено изображение: a5m4_hagiri -> https://static.encyclopedia.warthunder.com/slots/a5m4_hagiri.png
     Найдено: ki-27_otsu_ep -> ki-27_otsu_ep -> https://static.encyclopedia.warthunder.com/slots/ki-27_otsu_ep.png
@@ -8697,7 +8808,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: a7he1 -> https://static.encyclopedia.warthunder.com/slots/a7he1.png
     Найдено: ki_44_1_ep -> ki_44_1_ep -> https://static.encyclopedia.warthunder.com/slots/ki_44_1_ep.png
   Найдено изображение: ki_44_1_ep -> https://static.encyclopedia.warthunder.com/slots/ki_44_1_ep.png
-  Обработано: 2200/3426
     Найдено: ki_44_2_otsu -> ki_44_2_otsu -> https://static.encyclopedia.warthunder.com/slots/ki_44_2_otsu.png
   Найдено изображение: ki_44_2_otsu -> https://static.encyclopedia.warthunder.com/slots/ki_44_2_otsu.png
     Найдено: h8k3 -> h8k3 -> https://static.encyclopedia.warthunder.com/slots/h8k3.png
@@ -8728,6 +8838,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: av_8s_thailand -> https://static.encyclopedia.warthunder.com/slots/av_8s_thailand.png
     Найдено: f-5e_fcu_thailand -> f-5e_fcu_thailand -> https://static.encyclopedia.warthunder.com/slots/f-5e_fcu_thailand.png
   Найдено изображение: f-5e_fcu_thailand -> https://static.encyclopedia.warthunder.com/slots/f-5e_fcu_thailand.png
+    Найдено: hawk_209_indonesia -> hawk_209_indonesia -> https://static.encyclopedia.warthunder.com/slots/hawk_209_indonesia.png
+  Найдено изображение: hawk_209_indonesia -> https://static.encyclopedia.warthunder.com/slots/hawk_209_indonesia.png
     Найдено: f_2a_adtw -> f_2a_adtw -> https://static.encyclopedia.warthunder.com/slots/f_2a_adtw.png
   Найдено изображение: f_2a_adtw -> https://static.encyclopedia.warthunder.com/slots/f_2a_adtw.png
     Найдено: e7k2 -> e7k2 -> https://static.encyclopedia.warthunder.com/slots/e7k2.png
@@ -8804,6 +8916,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jp_cruiser_sendai -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_sendai.png
     Найдено: jp_cruiser_agano -> jp_cruiser_agano -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_agano.png
   Найдено изображение: jp_cruiser_agano -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_agano.png
+    Найдено: jp_cruiser_oyodo -> jp_cruiser_oyodo -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_oyodo.png
+  Найдено изображение: jp_cruiser_oyodo -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_oyodo.png
     Найдено: jp_cruiser_mogami_suzuya -> jp_cruiser_mogami_suzuya -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_suzuya.png
   Найдено изображение: jp_cruiser_mogami_suzuya -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami_suzuya.png
     Найдено: jp_cruiser_mogami -> jp_cruiser_mogami -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_mogami.png
@@ -8836,6 +8950,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jp_destroyer_yukikaze -> https://static.encyclopedia.warthunder.com/slots/jp_destroyer_yukikaze.png
     Найдено: jp_destroyer_kiyoshimo -> jp_destroyer_kiyoshimo -> https://static.encyclopedia.warthunder.com/slots/jp_destroyer_kiyoshimo.png
   Найдено изображение: jp_destroyer_kiyoshimo -> https://static.encyclopedia.warthunder.com/slots/jp_destroyer_kiyoshimo.png
+  Обработано: 2300/3475
     Найдено: jp_cruiser_yubari -> jp_cruiser_yubari -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_yubari.png
   Найдено изображение: jp_cruiser_yubari -> https://static.encyclopedia.warthunder.com/slots/jp_cruiser_yubari.png
     Найдено: jp_destroyer_shimakaze -> jp_destroyer_shimakaze -> https://static.encyclopedia.warthunder.com/slots/jp_destroyer_shimakaze.png
@@ -8860,6 +8975,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jp_armoredcruiser_kurama -> https://static.encyclopedia.warthunder.com/slots/jp_armoredcruiser_kurama.png
     Найдено: jp_battlecruiser_haruna -> jp_battlecruiser_haruna -> https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_haruna.png
   Найдено изображение: jp_battlecruiser_haruna -> https://static.encyclopedia.warthunder.com/slots/jp_battlecruiser_haruna.png
+    Найдено: jp_battleship_tosa -> jp_battleship_tosa -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_tosa.png
+  Найдено изображение: jp_battleship_tosa -> https://static.encyclopedia.warthunder.com/slots/jp_battleship_tosa.png
     Найдено: jp_t14_class -> jp_t14_class -> https://static.encyclopedia.warthunder.com/slots/jp_t14_class.png
   Найдено изображение: jp_t14_class -> https://static.encyclopedia.warthunder.com/slots/jp_t14_class.png
     Найдено: jp_t14_class_mod02 -> jp_t14_class_mod02 -> https://static.encyclopedia.warthunder.com/slots/jp_t14_class_mod02.png
@@ -8898,7 +9015,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jp_type1_pt2 -> https://static.encyclopedia.warthunder.com/slots/jp_type1_pt2.png
     Найдено: jp_no1_ch2 -> jp_no1_ch2 -> https://static.encyclopedia.warthunder.com/slots/jp_no1_ch2.png
   Найдено изображение: jp_no1_ch2 -> https://static.encyclopedia.warthunder.com/slots/jp_no1_ch2.png
-  Обработано: 2300/3426
     Найдено: jp_no4_ch8 -> jp_no4_ch8 -> https://static.encyclopedia.warthunder.com/slots/jp_no4_ch8.png
   Найдено изображение: jp_no4_ch8 -> https://static.encyclopedia.warthunder.com/slots/jp_no4_ch8.png
     Найдено: jp_type7_pt808 -> jp_type7_pt808 -> https://static.encyclopedia.warthunder.com/slots/jp_type7_pt808.png
@@ -8967,6 +9083,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: cn_wz_1001 -> https://static.encyclopedia.warthunder.com/slots/cn_wz_1001.png
     Найдено: cn_vt_4b -> cn_vt_4b -> https://static.encyclopedia.warthunder.com/slots/cn_vt_4b.png
   Найдено изображение: cn_vt_4b -> https://static.encyclopedia.warthunder.com/slots/cn_vt_4b.png
+    Найдено: cn_m1a2t -> cn_m1a2t -> https://static.encyclopedia.warthunder.com/slots/cn_m1a2t.png
+  Найдено изображение: cn_m1a2t -> https://static.encyclopedia.warthunder.com/slots/cn_m1a2t.png
     Найдено: cn_t_26_1940 -> cn_t_26_1940 -> https://static.encyclopedia.warthunder.com/slots/cn_t_26_1940.png
   Найдено изображение: cn_t_26_1940 -> https://static.encyclopedia.warthunder.com/slots/cn_t_26_1940.png
     Найдено: cn_type_97_chi_ha -> cn_type_97_chi_ha -> https://static.encyclopedia.warthunder.com/slots/cn_type_97_chi_ha.png
@@ -9033,6 +9151,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: cn_zsd63_pg87 -> https://static.encyclopedia.warthunder.com/slots/cn_zsd63_pg87.png
     Найдено: cn_zsl_92 -> cn_zsl_92 -> https://static.encyclopedia.warthunder.com/slots/cn_zsl_92.png
   Найдено изображение: cn_zsl_92 -> https://static.encyclopedia.warthunder.com/slots/cn_zsl_92.png
+  Обработано: 2400/3475
     Найдено: cn_wz_305 -> cn_wz_305 -> https://static.encyclopedia.warthunder.com/slots/cn_wz_305.png
   Найдено изображение: cn_wz_305 -> https://static.encyclopedia.warthunder.com/slots/cn_wz_305.png
     Найдено: cn_pgz_09 -> cn_pgz_09 -> https://static.encyclopedia.warthunder.com/slots/cn_pgz_09.png
@@ -9049,6 +9168,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: cn_hq_17 -> https://static.encyclopedia.warthunder.com/slots/cn_hq_17.png
     Найдено: cn_pgz_625_fb10 -> cn_pgz_625_fb10 -> https://static.encyclopedia.warthunder.com/slots/cn_pgz_625_fb10.png
   Найдено изображение: cn_pgz_625_fb10 -> https://static.encyclopedia.warthunder.com/slots/cn_pgz_625_fb10.png
+    Найдено: cn_hq_11 -> cn_hq_11 -> https://static.encyclopedia.warthunder.com/slots/cn_hq_11.png
+  Найдено изображение: cn_hq_11 -> https://static.encyclopedia.warthunder.com/slots/cn_hq_11.png
     Найдено: cn_m8_scott -> cn_m8_scott -> https://static.encyclopedia.warthunder.com/slots/cn_m8_scott.png
   Найдено изображение: cn_m8_scott -> https://static.encyclopedia.warthunder.com/slots/cn_m8_scott.png
     Найдено: cn_su_76m_1943 -> cn_su_76m_1943 -> https://static.encyclopedia.warthunder.com/slots/cn_su_76m_1943.png
@@ -9099,7 +9220,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: cn_m3a3_stuart_1st_ptg -> https://static.encyclopedia.warthunder.com/slots/cn_m3a3_stuart_1st_ptg.png
     Найдено: cn_m4a4_sherman_1st_ptg -> cn_m4a4_sherman_1st_ptg -> https://static.encyclopedia.warthunder.com/slots/cn_m4a4_sherman_1st_ptg.png
   Найдено изображение: cn_m4a4_sherman_1st_ptg -> https://static.encyclopedia.warthunder.com/slots/cn_m4a4_sherman_1st_ptg.png
-  Обработано: 2400/3426
     Найдено: cn_m41_a3_walker_bulldog -> cn_m41_a3_walker_bulldog -> https://static.encyclopedia.warthunder.com/slots/cn_m41_a3_walker_bulldog.png
   Найдено изображение: cn_m41_a3_walker_bulldog -> https://static.encyclopedia.warthunder.com/slots/cn_m41_a3_walker_bulldog.png
     Найдено: cn_type_64 -> cn_type_64 -> https://static.encyclopedia.warthunder.com/slots/cn_type_64.png
@@ -9220,6 +9340,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: j_10a -> https://static.encyclopedia.warthunder.com/slots/j_10a.png
     Найдено: mirage_2000_5ei -> mirage_2000_5ei -> https://static.encyclopedia.warthunder.com/slots/mirage_2000_5ei.png
   Найдено изображение: mirage_2000_5ei -> https://static.encyclopedia.warthunder.com/slots/mirage_2000_5ei.png
+    Найдено: j_10c -> j_10c -> https://static.encyclopedia.warthunder.com/slots/j_10c.png
+  Найдено изображение: j_10c -> https://static.encyclopedia.warthunder.com/slots/j_10c.png
     Найдено: i-15bis_china -> i-15bis_china -> https://static.encyclopedia.warthunder.com/slots/i-15bis_china.png
   Найдено изображение: i-15bis_china -> https://static.encyclopedia.warthunder.com/slots/i-15bis_china.png
     Найдено: i-16_china_group -> i-16_china_group -> https://static.encyclopedia.warthunder.com/slots/i-16_china_group.png
@@ -9230,6 +9352,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: i-16_type5_1935_china -> https://static.encyclopedia.warthunder.com/slots/i-16_type5_1935_china.png
     Найдено: i-153_m62_china -> i-153_m62_china -> https://static.encyclopedia.warthunder.com/slots/i-153_m62_china.png
   Найдено изображение: i-153_m62_china -> https://static.encyclopedia.warthunder.com/slots/i-153_m62_china.png
+  Обработано: 2500/3475
     Найдено: i-16_type10_china -> i-16_type10_china -> https://static.encyclopedia.warthunder.com/slots/i-16_type10_china.png
   Найдено изображение: i-16_type10_china -> https://static.encyclopedia.warthunder.com/slots/i-16_type10_china.png
     Найдено: i-16_type17_china -> i-16_type17_china -> https://static.encyclopedia.warthunder.com/slots/i-16_type17_china.png
@@ -9300,7 +9423,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: jh_7 -> https://static.encyclopedia.warthunder.com/slots/jh_7.png
     Найдено: jh_7a -> jh_7a -> https://static.encyclopedia.warthunder.com/slots/jh_7a.png
   Найдено изображение: jh_7a -> https://static.encyclopedia.warthunder.com/slots/jh_7a.png
-  Обработано: 2500/3426
     Найдено: martin_139wc -> martin_139wc -> https://static.encyclopedia.warthunder.com/slots/martin_139wc.png
   Найдено изображение: martin_139wc -> https://static.encyclopedia.warthunder.com/slots/martin_139wc.png
     Найдено: db_3_china_group -> db_3_china_group -> https://static.encyclopedia.warthunder.com/slots/db_3_china_group.png
@@ -9325,6 +9447,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: hawk_iii -> https://static.encyclopedia.warthunder.com/slots/hawk_iii.png
     Найдено: d_510c -> d_510c -> https://static.encyclopedia.warthunder.com/slots/d_510c.png
   Найдено изображение: d_510c -> https://static.encyclopedia.warthunder.com/slots/d_510c.png
+    Найдено: h-75m_china -> h-75m_china -> https://static.encyclopedia.warthunder.com/slots/h-75m_china.png
+  Найдено изображение: h-75m_china -> https://static.encyclopedia.warthunder.com/slots/h-75m_china.png
     Найдено: p-40c_china -> p-40c_china -> https://static.encyclopedia.warthunder.com/slots/p-40c_china.png
   Найдено изображение: p-40c_china -> https://static.encyclopedia.warthunder.com/slots/p-40c_china.png
     Найдено: ki-45_hei_tei_china -> ki-45_hei_tei_china -> https://static.encyclopedia.warthunder.com/slots/ki-45_hei_tei_china.png
@@ -9357,6 +9481,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: pe-2-359_china -> https://static.encyclopedia.warthunder.com/slots/pe-2-359_china.png
     Найдено: f_100f_china -> f_100f_china -> https://static.encyclopedia.warthunder.com/slots/f_100f_china.png
   Найдено изображение: f_100f_china -> https://static.encyclopedia.warthunder.com/slots/f_100f_china.png
+    Найдено: su_30mkk -> su_30mkk -> https://static.encyclopedia.warthunder.com/slots/su_30mkk.png
+  Найдено изображение: su_30mkk -> https://static.encyclopedia.warthunder.com/slots/su_30mkk.png
     Найдено: it_ab_41 -> it_ab_41 -> https://static.encyclopedia.warthunder.com/slots/it_ab_41.png
   Найдено изображение: it_ab_41 -> https://static.encyclopedia.warthunder.com/slots/it_ab_41.png
     Найдено: it_m11_39 -> it_m11_39 -> https://static.encyclopedia.warthunder.com/slots/it_m11_39.png
@@ -9427,6 +9553,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: it_of_leo_group -> https://static.encyclopedia.warthunder.com/slots/it_of_leo_group.png
     Найдено: it_of_40_mk_1 -> it_of_40_mk_1 -> https://static.encyclopedia.warthunder.com/slots/it_of_40_mk_1.png
   Найдено изображение: it_of_40_mk_1 -> https://static.encyclopedia.warthunder.com/slots/it_of_40_mk_1.png
+  Обработано: 2600/3475
     Найдено: it_leopard_1a2 -> it_leopard_1a2 -> https://static.encyclopedia.warthunder.com/slots/it_leopard_1a2.png
   Найдено изображение: it_leopard_1a2 -> https://static.encyclopedia.warthunder.com/slots/it_leopard_1a2.png
     Найдено: it_of_40_mk_2a -> it_of_40_mk_2a -> https://static.encyclopedia.warthunder.com/slots/it_of_40_mk_2a.png
@@ -9508,7 +9635,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: it_stug_iii_ausf_g -> https://static.encyclopedia.warthunder.com/slots/it_stug_iii_ausf_g.png
     Найдено: it_semovente_m43_75_46 -> it_semovente_m43_75_46 -> https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_75_46.png
   Найдено изображение: it_semovente_m43_75_46 -> https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_75_46.png
-  Обработано: 2600/3426
     Найдено: it_m36b1 -> it_m36b1 -> https://static.encyclopedia.warthunder.com/slots/it_m36b1.png
   Найдено изображение: it_m36b1 -> https://static.encyclopedia.warthunder.com/slots/it_m36b1.png
     Найдено: it_m109g -> it_m109g -> https://static.encyclopedia.warthunder.com/slots/it_m109g.png
@@ -9591,6 +9717,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: it_aubl_74_60_70m -> https://static.encyclopedia.warthunder.com/slots/it_aubl_74_60_70m.png
     Найдено: it_c13_tua -> it_c13_tua -> https://static.encyclopedia.warthunder.com/slots/it_c13_tua.png
   Найдено изображение: it_c13_tua -> https://static.encyclopedia.warthunder.com/slots/it_c13_tua.png
+    Найдено: it_freccia_hitfist_ows -> it_freccia_hitfist_ows -> https://static.encyclopedia.warthunder.com/slots/it_freccia_hitfist_ows.png
+  Найдено изображение: it_freccia_hitfist_ows -> https://static.encyclopedia.warthunder.com/slots/it_freccia_hitfist_ows.png
     Найдено: ab_205a_1 -> ab_205a_1 -> https://static.encyclopedia.warthunder.com/slots/ab_205a_1.png
   Найдено изображение: ab_205a_1 -> https://static.encyclopedia.warthunder.com/slots/ab_205a_1.png
     Найдено: mi_24d_hungary -> mi_24d_hungary -> https://static.encyclopedia.warthunder.com/slots/mi_24d_hungary.png
@@ -9633,6 +9761,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: g_55_serie_group -> https://static.encyclopedia.warthunder.com/slots/g_55_serie_group.png
     Найдено: g_55_serie1 -> g_55_serie1 -> https://static.encyclopedia.warthunder.com/slots/g_55_serie1.png
   Найдено изображение: g_55_serie1 -> https://static.encyclopedia.warthunder.com/slots/g_55_serie1.png
+  Обработано: 2700/3475
     Найдено: re_2005_serie0 -> re_2005_serie0 -> https://static.encyclopedia.warthunder.com/slots/re_2005_serie0.png
   Найдено изображение: re_2005_serie0 -> https://static.encyclopedia.warthunder.com/slots/re_2005_serie0.png
     Найдено: g_56 -> g_56 -> https://static.encyclopedia.warthunder.com/slots/g_56.png
@@ -9653,6 +9782,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f_16a_block_15_adf_italy -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_15_adf_italy.png
     Найдено: ef_2000a -> ef_2000a -> https://static.encyclopedia.warthunder.com/slots/ef_2000a.png
   Найдено изображение: ef_2000a -> https://static.encyclopedia.warthunder.com/slots/ef_2000a.png
+    Найдено: ef_2000a_aesa -> ef_2000a_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000a_aesa.png
+  Найдено изображение: ef_2000a_aesa -> https://static.encyclopedia.warthunder.com/slots/ef_2000a_aesa.png
     Найдено: cr_32_group -> cr_32_group -> https://static.encyclopedia.warthunder.com/slots/cr_32_group.png
   Найдено изображение: cr_32_group -> https://static.encyclopedia.warthunder.com/slots/cr_32_group.png
     Найдено: cr_32 -> cr_32 -> https://static.encyclopedia.warthunder.com/slots/cr_32.png
@@ -9709,7 +9840,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: ba_65_group -> https://static.encyclopedia.warthunder.com/slots/ba_65_group.png
     Найдено: ba_65_k14_l -> ba_65_k14_l -> https://static.encyclopedia.warthunder.com/slots/ba_65_k14_l.png
   Найдено изображение: ba_65_k14_l -> https://static.encyclopedia.warthunder.com/slots/ba_65_k14_l.png
-  Обработано: 2700/3426
     Найдено: ju-87r-2_italy -> ju-87r-2_italy -> https://static.encyclopedia.warthunder.com/slots/ju-87r-2_italy.png
   Найдено изображение: ju-87r-2_italy -> https://static.encyclopedia.warthunder.com/slots/ju-87r-2_italy.png
     Найдено: breda_group -> breda_group -> https://static.encyclopedia.warthunder.com/slots/breda_group.png
@@ -9838,6 +9968,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: bf-109g-2_hungary -> https://static.encyclopedia.warthunder.com/slots/bf-109g-2_hungary.png
     Найдено: g_55s -> g_55s -> https://static.encyclopedia.warthunder.com/slots/g_55s.png
   Найдено изображение: g_55s -> https://static.encyclopedia.warthunder.com/slots/g_55s.png
+    Найдено: mb_326b -> mb_326b -> https://static.encyclopedia.warthunder.com/slots/mb_326b.png
+  Найдено изображение: mb_326b -> https://static.encyclopedia.warthunder.com/slots/mb_326b.png
     Найдено: fiat_g91_r4 -> fiat_g91_r4 -> https://static.encyclopedia.warthunder.com/slots/fiat_g91_r4.png
   Найдено изображение: fiat_g91_r4 -> https://static.encyclopedia.warthunder.com/slots/fiat_g91_r4.png
     Найдено: ariete -> ariete -> https://static.encyclopedia.warthunder.com/slots/ariete.png
@@ -9846,6 +9978,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: iar_93b -> https://static.encyclopedia.warthunder.com/slots/iar_93b.png
     Найдено: amx_a_1a_brazil -> amx_a_1a_brazil -> https://static.encyclopedia.warthunder.com/slots/amx_a_1a_brazil.png
   Найдено изображение: amx_a_1a_brazil -> https://static.encyclopedia.warthunder.com/slots/amx_a_1a_brazil.png
+  Обработано: 2800/3475
     Найдено: f-104s_cb -> f-104s_cb -> https://static.encyclopedia.warthunder.com/slots/f-104s_cb.png
   Найдено изображение: f-104s_cb -> https://static.encyclopedia.warthunder.com/slots/f-104s_cb.png
     Найдено: mig_29_9_12_sniper -> mig_29_9_12_sniper -> https://static.encyclopedia.warthunder.com/slots/mig_29_9_12_sniper.png
@@ -9876,6 +10009,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: it_destroyer_navigatori_class_verazzano -> https://static.encyclopedia.warthunder.com/slots/it_destroyer_navigatori_class_verazzano.png
     Найдено: it_cruiser_bartolomeocolleoni_1940 -> it_cruiser_bartolomeocolleoni_1940 -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_bartolomeocolleoni_1940.png
   Найдено изображение: it_cruiser_bartolomeocolleoni_1940 -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_bartolomeocolleoni_1940.png
+    Найдено: it_cruiser_cadorna_class_diaz -> it_cruiser_cadorna_class_diaz -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_diaz.png
+  Найдено изображение: it_cruiser_cadorna_class_diaz -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_diaz.png
     Найдено: it_cruiser_montecuccoli -> it_cruiser_montecuccoli -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_montecuccoli.png
   Найдено изображение: it_cruiser_montecuccoli -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_montecuccoli.png
     Найдено: it_cruiser_eugenio_di_savoia -> it_cruiser_eugenio_di_savoia -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_eugenio_di_savoia.png
@@ -9926,7 +10061,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: it_cruiser_zara_class_pola -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_zara_class_pola.png
     Найдено: it_battleship_leonardo_da_vinci -> it_battleship_leonardo_da_vinci -> https://static.encyclopedia.warthunder.com/slots/it_battleship_leonardo_da_vinci.png
   Найдено изображение: it_battleship_leonardo_da_vinci -> https://static.encyclopedia.warthunder.com/slots/it_battleship_leonardo_da_vinci.png
-  Обработано: 2800/3426
     Найдено: it_destroyer_soldati_serie1 -> it_destroyer_soldati_serie1 -> https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1.png
   Найдено изображение: it_destroyer_soldati_serie1 -> https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1.png
     Найдено: it_cruiser_cadorna_class_cadorna -> it_cruiser_cadorna_class_cadorna -> https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_cadorna.png
@@ -9949,6 +10083,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: it_mc492_baleno -> https://static.encyclopedia.warthunder.com/slots/it_mc492_baleno.png
     Найдено: it_alano_9851 -> it_alano_9851 -> https://static.encyclopedia.warthunder.com/slots/it_alano_9851.png
   Найдено изображение: it_alano_9851 -> https://static.encyclopedia.warthunder.com/slots/it_alano_9851.png
+    Найдено: it_cassiopea_p401 -> it_cassiopea_p401 -> https://static.encyclopedia.warthunder.com/slots/it_cassiopea_p401.png
+  Найдено изображение: it_cassiopea_p401 -> https://static.encyclopedia.warthunder.com/slots/it_cassiopea_p401.png
     Найдено: it_p494_saetta -> it_p494_saetta -> https://static.encyclopedia.warthunder.com/slots/it_p494_saetta.png
   Найдено изображение: it_p494_saetta -> https://static.encyclopedia.warthunder.com/slots/it_p494_saetta.png
     Найдено: it_mas_classe500_3 -> it_mas_classe500_3 -> https://static.encyclopedia.warthunder.com/slots/it_mas_classe500_3.png
@@ -10043,6 +10179,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: fr_m4a4_sherman -> https://static.encyclopedia.warthunder.com/slots/fr_m4a4_sherman.png
     Найдено: fr_m4a4_cn_75_50 -> fr_m4a4_cn_75_50 -> https://static.encyclopedia.warthunder.com/slots/fr_m4a4_cn_75_50.png
   Найдено изображение: fr_m4a4_cn_75_50 -> https://static.encyclopedia.warthunder.com/slots/fr_m4a4_cn_75_50.png
+  Обработано: 2900/3475
     Найдено: fr_m26_pershing -> fr_m26_pershing -> https://static.encyclopedia.warthunder.com/slots/fr_m26_pershing.png
   Найдено изображение: fr_m26_pershing -> https://static.encyclopedia.warthunder.com/slots/fr_m26_pershing.png
     Найдено: fr_lorraine_bat_group -> fr_lorraine_bat_group -> https://static.encyclopedia.warthunder.com/slots/fr_lorraine_bat_group.png
@@ -10127,7 +10264,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: fr_vab_santal -> https://static.encyclopedia.warthunder.com/slots/fr_vab_santal.png
     Найдено: fr_amx_30_roland -> fr_amx_30_roland -> https://static.encyclopedia.warthunder.com/slots/fr_amx_30_roland.png
   Найдено изображение: fr_amx_30_roland -> https://static.encyclopedia.warthunder.com/slots/fr_amx_30_roland.png
-  Обработано: 2900/3426
     Найдено: fr_crotale_ng -> fr_crotale_ng -> https://static.encyclopedia.warthunder.com/slots/fr_crotale_ng.png
   Найдено изображение: fr_crotale_ng -> https://static.encyclopedia.warthunder.com/slots/fr_crotale_ng.png
     Найдено: fr_samp_t_fcs -> fr_samp_t_fcs -> https://static.encyclopedia.warthunder.com/slots/fr_samp_t_fcs.png
@@ -10244,6 +10380,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: d_373 -> https://static.encyclopedia.warthunder.com/slots/d_373.png
     Найдено: caudron_cr714 -> caudron_cr714 -> https://static.encyclopedia.warthunder.com/slots/caudron_cr714.png
   Найдено изображение: caudron_cr714 -> https://static.encyclopedia.warthunder.com/slots/caudron_cr714.png
+  Обработано: 3000/3475
     Найдено: ms_405_406_group -> ms_405_406_group -> https://static.encyclopedia.warthunder.com/slots/ms_405_406_group.png
   Найдено изображение: ms_405_406_group -> https://static.encyclopedia.warthunder.com/slots/ms_405_406_group.png
     Найдено: ms_405c1 -> ms_405c1 -> https://static.encyclopedia.warthunder.com/slots/ms_405c1.png
@@ -10328,7 +10465,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f8f1b_france -> https://static.encyclopedia.warthunder.com/slots/f8f1b_france.png
     Найдено: so_4050_vautour_2n_late -> so_4050_vautour_2n_late -> https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n_late.png
   Найдено изображение: so_4050_vautour_2n_late -> https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n_late.png
-  Обработано: 3000/3426
     Найдено: f-86k_late -> f-86k_late -> https://static.encyclopedia.warthunder.com/slots/f-86k_late.png
   Найдено изображение: f-86k_late -> https://static.encyclopedia.warthunder.com/slots/f-86k_late.png
     Найдено: alpha_jet_e -> alpha_jet_e -> https://static.encyclopedia.warthunder.com/slots/alpha_jet_e.png
@@ -10337,6 +10473,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f-8e_fn -> https://static.encyclopedia.warthunder.com/slots/f-8e_fn.png
     Найдено: mirage_4000 -> mirage_4000 -> https://static.encyclopedia.warthunder.com/slots/mirage_4000.png
   Найдено изображение: mirage_4000 -> https://static.encyclopedia.warthunder.com/slots/mirage_4000.png
+    Найдено: rafale_m_f3r -> rafale_m_f3r -> https://static.encyclopedia.warthunder.com/slots/rafale_m_f3r.png
+  Найдено изображение: rafale_m_f3r -> https://static.encyclopedia.warthunder.com/slots/rafale_m_f3r.png
     Найдено: v_156_f -> v_156_f -> https://static.encyclopedia.warthunder.com/slots/v_156_f.png
   Найдено изображение: v_156_f -> https://static.encyclopedia.warthunder.com/slots/v_156_f.png
     Найдено: br_693_ab2 -> br_693_ab2 -> https://static.encyclopedia.warthunder.com/slots/br_693_ab2.png
@@ -10443,6 +10581,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: yak-9t_france -> https://static.encyclopedia.warthunder.com/slots/yak-9t_france.png
     Найдено: yak-3_france -> yak-3_france -> https://static.encyclopedia.warthunder.com/slots/yak-3_france.png
   Найдено изображение: yak-3_france -> https://static.encyclopedia.warthunder.com/slots/yak-3_france.png
+  Обработано: 3100/3475
     Найдено: so_8000_narval -> so_8000_narval -> https://static.encyclopedia.warthunder.com/slots/so_8000_narval.png
   Найдено изображение: so_8000_narval -> https://static.encyclopedia.warthunder.com/slots/so_8000_narval.png
     Найдено: douglas_ad_4na_france -> douglas_ad_4na_france -> https://static.encyclopedia.warthunder.com/slots/douglas_ad_4na_france.png
@@ -10499,6 +10638,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: fr_destroyer_mogador_class_mogador -> https://static.encyclopedia.warthunder.com/slots/fr_destroyer_mogador_class_mogador.png
     Найдено: fr_cruiser_suffren_class_colbert -> fr_cruiser_suffren_class_colbert -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_colbert.png
   Найдено изображение: fr_cruiser_suffren_class_colbert -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_colbert.png
+    Найдено: fr_cruiser_suffren_class_suffren -> fr_cruiser_suffren_class_suffren -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_suffren.png
+  Найдено изображение: fr_cruiser_suffren_class_suffren -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_suffren_class_suffren.png
     Найдено: fr_battleship_courbet_class_paris -> fr_battleship_courbet_class_paris -> https://static.encyclopedia.warthunder.com/slots/fr_battleship_courbet_class_paris.png
   Найдено изображение: fr_battleship_courbet_class_paris -> https://static.encyclopedia.warthunder.com/slots/fr_battleship_courbet_class_paris.png
     Найдено: fr_battleship_bretagne_class_lorraine -> fr_battleship_bretagne_class_lorraine -> https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_lorraine.png
@@ -10529,7 +10670,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: fr_cruiser_la_galissoniere_class_gloire -> https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_gloire.png
     Найдено: fr_battleship_bretagne_class_bretagne -> fr_battleship_bretagne_class_bretagne -> https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_bretagne.png
   Найдено изображение: fr_battleship_bretagne_class_bretagne -> https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_bretagne.png
-  Обработано: 3100/3426
     Найдено: fr_battleship_richelieu_class_clemenceau -> fr_battleship_richelieu_class_clemenceau -> https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_clemenceau.png
   Найдено изображение: fr_battleship_richelieu_class_clemenceau -> https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_clemenceau.png
     Найдено: fr_destroyer_jaguar_class_panthere -> fr_destroyer_jaguar_class_panthere -> https://static.encyclopedia.warthunder.com/slots/fr_destroyer_jaguar_class_panthere.png
@@ -10596,6 +10736,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: fr_marne_class_aisne -> https://static.encyclopedia.warthunder.com/slots/fr_marne_class_aisne.png
     Найдено: fr_vlt2 -> fr_vlt2 -> https://static.encyclopedia.warthunder.com/slots/fr_vlt2.png
   Найдено изображение: fr_vlt2 -> https://static.encyclopedia.warthunder.com/slots/fr_vlt2.png
+    Найдено: fr_frigate_corse_class_corse -> fr_frigate_corse_class_corse -> https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_corse.png
+  Найдено изображение: fr_frigate_corse_class_corse -> https://static.encyclopedia.warthunder.com/slots/fr_frigate_corse_class_corse.png
     Найдено: sw_strv_m31 -> sw_strv_m31 -> https://static.encyclopedia.warthunder.com/slots/sw_strv_m31.png
   Найдено изображение: sw_strv_m31 -> https://static.encyclopedia.warthunder.com/slots/sw_strv_m31.png
     Найдено: sw_bt_42 -> sw_bt_42 -> https://static.encyclopedia.warthunder.com/slots/sw_bt_42.png
@@ -10640,6 +10782,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: sw_pvkv_iv -> https://static.encyclopedia.warthunder.com/slots/sw_pvkv_iv.png
     Найдено: sw_strv_m42_delat_torn -> sw_strv_m42_delat_torn -> https://static.encyclopedia.warthunder.com/slots/sw_strv_m42_delat_torn.png
   Найдено изображение: sw_strv_m42_delat_torn -> https://static.encyclopedia.warthunder.com/slots/sw_strv_m42_delat_torn.png
+  Обработано: 3200/3475
     Найдено: sw_strv_74 -> sw_strv_74 -> https://static.encyclopedia.warthunder.com/slots/sw_strv_74.png
   Найдено изображение: sw_strv_74 -> https://static.encyclopedia.warthunder.com/slots/sw_strv_74.png
     Найдено: sw_strv_81 -> sw_strv_81 -> https://static.encyclopedia.warthunder.com/slots/sw_strv_81.png
@@ -10698,6 +10841,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: sw_crotale_ng -> https://static.encyclopedia.warthunder.com/slots/sw_crotale_ng.png
     Найдено: sw_eldenhet_98 -> sw_eldenhet_98 -> https://static.encyclopedia.warthunder.com/slots/sw_eldenhet_98.png
   Найдено изображение: sw_eldenhet_98 -> https://static.encyclopedia.warthunder.com/slots/sw_eldenhet_98.png
+    Найдено: sw_nasams_fcs -> sw_nasams_fcs -> https://static.encyclopedia.warthunder.com/slots/sw_nasams_fcs.png
+  Найдено изображение: sw_nasams_fcs -> https://static.encyclopedia.warthunder.com/slots/sw_nasams_fcs.png
     Найдено: sw_ikv_72 -> sw_ikv_72 -> https://static.encyclopedia.warthunder.com/slots/sw_ikv_72.png
   Найдено изображение: sw_ikv_72 -> https://static.encyclopedia.warthunder.com/slots/sw_ikv_72.png
     Найдено: sw_sav_m43_1944 -> sw_sav_m43_1944 -> https://static.encyclopedia.warthunder.com/slots/sw_sav_m43_1944.png
@@ -10730,7 +10875,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: sw_cv_90_mk4 -> https://static.encyclopedia.warthunder.com/slots/sw_cv_90_mk4.png
     Найдено: sw_vickers_mk_e_37 -> sw_vickers_mk_e_37 -> https://static.encyclopedia.warthunder.com/slots/sw_vickers_mk_e_37.png
   Найдено изображение: sw_vickers_mk_e_37 -> https://static.encyclopedia.warthunder.com/slots/sw_vickers_mk_e_37.png
-  Обработано: 3200/3426
     Найдено: sw_t_28 -> sw_t_28 -> https://static.encyclopedia.warthunder.com/slots/sw_t_28.png
   Найдено изображение: sw_t_28 -> https://static.encyclopedia.warthunder.com/slots/sw_t_28.png
     Найдено: sw_t_34_pz_4_group -> sw_t_34_pz_4_group -> https://static.encyclopedia.warthunder.com/slots/sw_t_34_pz_4_group.png
@@ -10846,6 +10990,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: saab_j29f -> https://static.encyclopedia.warthunder.com/slots/saab_j29f.png
     Найдено: saab_j32b -> saab_j32b -> https://static.encyclopedia.warthunder.com/slots/saab_j32b.png
   Найдено изображение: saab_j32b -> https://static.encyclopedia.warthunder.com/slots/saab_j32b.png
+  Обработано: 3300/3475
     Найдено: saab_j35d -> saab_j35d -> https://static.encyclopedia.warthunder.com/slots/saab_j35d.png
   Найдено изображение: saab_j35d -> https://static.encyclopedia.warthunder.com/slots/saab_j35d.png
     Найдено: saab_ja37 -> saab_ja37 -> https://static.encyclopedia.warthunder.com/slots/saab_ja37.png
@@ -10860,6 +11005,8 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: saab_jas39a -> https://static.encyclopedia.warthunder.com/slots/saab_jas39a.png
     Найдено: saab_jas39c -> saab_jas39c -> https://static.encyclopedia.warthunder.com/slots/saab_jas39c.png
   Найдено изображение: saab_jas39c -> https://static.encyclopedia.warthunder.com/slots/saab_jas39c.png
+    Найдено: saab_jas39e -> saab_jas39e -> https://static.encyclopedia.warthunder.com/slots/saab_jas39e.png
+  Найдено изображение: saab_jas39e -> https://static.encyclopedia.warthunder.com/slots/saab_jas39e.png
     Найдено: saab_b17bs -> saab_b17bs -> https://static.encyclopedia.warthunder.com/slots/saab_b17bs.png
   Найдено изображение: saab_b17bs -> https://static.encyclopedia.warthunder.com/slots/saab_b17bs.png
     Найдено: saab_b17a_group -> saab_b17a_group -> https://static.encyclopedia.warthunder.com/slots/saab_b17a_group.png
@@ -10938,7 +11085,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: fa_18c_finland -> https://static.encyclopedia.warthunder.com/slots/fa_18c_finland.png
     Найдено: fa_18c_mlu_2_finland -> fa_18c_mlu_2_finland -> https://static.encyclopedia.warthunder.com/slots/fa_18c_mlu_2_finland.png
   Найдено изображение: fa_18c_mlu_2_finland -> https://static.encyclopedia.warthunder.com/slots/fa_18c_mlu_2_finland.png
-  Обработано: 3300/3426
     Найдено: gladiator_j8a_iacobi -> gladiator_j8a_iacobi -> https://static.encyclopedia.warthunder.com/slots/gladiator_j8a_iacobi.png
   Найдено изображение: gladiator_j8a_iacobi -> https://static.encyclopedia.warthunder.com/slots/gladiator_j8a_iacobi.png
     Найдено: arado-196a-5 -> arado-196a-5 -> https://static.encyclopedia.warthunder.com/slots/arado-196a-5.png
@@ -11029,10 +11175,14 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: il_tiran_4_sh -> https://static.encyclopedia.warthunder.com/slots/il_tiran_4_sh.png
     Найдено: il_centurion_shot_kal_alef -> il_centurion_shot_kal_alef -> https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_alef.png
   Найдено изображение: il_centurion_shot_kal_alef -> https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_alef.png
+    Найдено: il_gimel_tiran_group -> il_gimel_tiran_group -> https://static.encyclopedia.warthunder.com/slots/il_gimel_tiran_group.png
+  Найдено изображение: il_gimel_tiran_group -> https://static.encyclopedia.warthunder.com/slots/il_gimel_tiran_group.png
     Найдено: il_centurion_shot_kal_gimel -> il_centurion_shot_kal_gimel -> https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_gimel.png
   Найдено изображение: il_centurion_shot_kal_gimel -> https://static.encyclopedia.warthunder.com/slots/il_centurion_shot_kal_gimel.png
     Найдено: il_tiran_6 -> il_tiran_6 -> https://static.encyclopedia.warthunder.com/slots/il_tiran_6.png
   Найдено изображение: il_tiran_6 -> https://static.encyclopedia.warthunder.com/slots/il_tiran_6.png
+    Найдено: il_merkava_mk_1 -> il_merkava_mk_1 -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1.png
+  Найдено изображение: il_merkava_mk_1 -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1.png
     Найдено: il_merkava_1_2_group -> il_merkava_1_2_group -> https://static.encyclopedia.warthunder.com/slots/il_merkava_1_2_group.png
   Найдено изображение: il_merkava_1_2_group -> https://static.encyclopedia.warthunder.com/slots/il_merkava_1_2_group.png
     Найдено: il_merkava_mk_1b -> il_merkava_mk_1b -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_1b.png
@@ -11041,6 +11191,7 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: il_merkava_mk_2b_early -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_2b_early.png
     Найдено: il_merkava_3_group -> il_merkava_3_group -> https://static.encyclopedia.warthunder.com/slots/il_merkava_3_group.png
   Найдено изображение: il_merkava_3_group -> https://static.encyclopedia.warthunder.com/slots/il_merkava_3_group.png
+  Обработано: 3400/3475
     Найдено: il_merkava_mk_3b -> il_merkava_mk_3b -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3b.png
   Найдено изображение: il_merkava_mk_3b -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3b.png
     Найдено: il_merkava_mk_3c -> il_merkava_mk_3c -> https://static.encyclopedia.warthunder.com/slots/il_merkava_mk_3c.png
@@ -11139,7 +11290,6 @@ GitHub Tree API вернул 51348 элементов
   Найдено изображение: f_16c_block_40_barak_2 -> https://static.encyclopedia.warthunder.com/slots/f_16c_block_40_barak_2.png
     Найдено: s_199 -> s_199 -> https://static.encyclopedia.warthunder.com/slots/s_199.png
   Найдено изображение: s_199 -> https://static.encyclopedia.warthunder.com/slots/s_199.png
-  Обработано: 3400/3426
     Найдено: p-51d-20-na_iaf -> p-51d-20-na_iaf -> https://static.encyclopedia.warthunder.com/slots/p-51d-20-na_iaf.png
   Найдено изображение: p-51d-20-na_iaf -> https://static.encyclopedia.warthunder.com/slots/p-51d-20-na_iaf.png
     Найдено: md_450b_ouragan_iaf -> md_450b_ouragan_iaf -> https://static.encyclopedia.warthunder.com/slots/md_450b_ouragan_iaf.png
@@ -11195,19 +11345,19 @@ GitHub Tree API вернул 51348 элементов
     Найдено: kfir_c10_colombia -> kfir_c10_colombia -> https://static.encyclopedia.warthunder.com/slots/kfir_c10_colombia.png
   Найдено изображение: kfir_c10_colombia -> https://static.encyclopedia.warthunder.com/slots/kfir_c10_colombia.png
 Статистика изображений техники:
-  Найдено обычным поиском: 3403
+  Найдено обычным поиском: 3452
   Найдено через fallback: 23
-  Всего найдено: 3426
+  Всего найдено: 3475
   Недоступно: 0
-  Всего обработано: 3426
+  Всего обработано: 3475
   Процент успеха: 100.0%
-Данные об изображениях техники (3426 записей) сохранены в shop_images.csv
+Данные об изображениях техники (3475 записей) сохранены в shop_images.csv
 Обработка изображений техники завершена успешно!
 Загрузка данных версии из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/version
-Данные версии успешно загружены: 2.51.0.41
+Данные версии успешно загружены: 2.53.0.7
 Обработка данных версии...
-Версия валидна: 2.51.0.41
-Данные версии сохранены в version.csv: 2.51.0.41
+Версия валидна: 2.53.0.7
+Данные версии сохранены в version.csv: 2.53.0.7
 Обработка версии завершена успешно!
 Парсинг misc данных завершен!
 Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

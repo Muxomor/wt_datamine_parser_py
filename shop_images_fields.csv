@@ -13,6 +13,7 @@ us_abrams_a2_group,us_abrams_a2_group
 us_m19_m42_group,us_m19_m42_group
 us_m247_mim72_group,us_m247_mim72_group
 us_sl_amraam_fcs,us_sl_amraam_group
+us_nasams_fcs,germ_iris_slm_group
 us_m44_55_group,us_m44_55_group
 us_m36_group,us_m36_group
 us_m56_m50_group,us_m56_m50_group
@@ -251,6 +252,7 @@ jp_type_90_group,jp_type_90_group
 jp_type_10_group,jp_type_10_group
 jp_ho_ni_group,jp_ho_ni_group
 jp_type_81_tansam_fcs,jp_type_81_tansam_group
+jp_type_03_chusam_fcs,jp_type_81_tansam_group
 a6m2_n1k1_group,a6m2_n1k1_group
 a6m2_group,a6m2_group
 a6m3_mod22_group,a6m3_mod22_group
@@ -362,6 +364,7 @@ sw_strv_101_103a_group,sw_strv_101_103a_group
 sw_strv_104_103c_group,sw_strv_104_103c_group
 sw_strv_122_group,sw_strv_122_group
 sw_lvkv_asrad_group,sw_lvkv_asrad_group
+sw_nasams_fcs,germ_iris_slm_group
 sw_pvkv_ikv_group,sw_pvkv_ikv_group
 sw_udes_pbv_group,sw_udes_pbv_group
 sw_t_34_pz_4_group,sw_t_34_pz_4_group
@@ -381,6 +384,7 @@ il_magach_6_group,il_magach_6_group
 il_magach_6m_c_group,il_magach_6m_c_group
 il_magach_batash_7_group,il_magach_batash_7_group
 il_tiran_4_group,il_tiran_4_group
+il_gimel_tiran_group,il_merkava_1_2_group
 il_merkava_1_2_group,il_merkava_1_2_group
 il_merkava_3_group,il_merkava_3_group
 il_merkava_4_group,il_merkava_4_group
