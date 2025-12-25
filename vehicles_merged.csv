@@ -1070,7 +1070,7 @@ ussr_t_10m,Т-10М,T-10M,ussr,8.3,380000,6,Наземная техника,vehic
 ussr_object_435,Объект 435,Object 435,ussr,9.0,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_object_435.png,ussr_t_10m,1,1,
 ussr_t_64_group,T-64A/Б,T-64A/B,ussr,,,6,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/ussr_t_64_group.png,ussr_object_435,1,2,
 ussr_t_64a_1971,Т-64А (1971),T-64A (1971),ussr,9.3,520000,6,Наземная техника,vehicle,190000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_t_64a_1971.png,ussr_t_64_group,1,2,0
-ussr_t_64_b_1984,Т-64Б,T-64B,ussr,9.7,620000,6,Наземная техника,vehicle,110000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_t_64_b_1984.png,ussr_t_64a_1971,1,2,1
+ussr_t_64_b_1984,Т-64Б,T-64B,ussr,10.0,620000,6,Наземная техника,vehicle,110000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_t_64_b_1984.png,ussr_t_64a_1971,1,2,1
 ussr_t_80b,Т-80Б,T-80B,ussr,10.7,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_t_80b.png,ussr_t_64_group,1,0,
 ussr_t_80u,Т-80У,T-80U,ussr,11.7,950000,7,Наземная техника,vehicle,350000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_t_80u.png,ussr_t_80b,1,1,
 ussr_t_80bvm,Т-80БВМ,T-80BVM,ussr,12.7,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_t_80bvm.png,ussr_t_80u,1,0,
@@ -1124,7 +1124,7 @@ ussr_9p149,Штурм-С,Shturm-S,ussr,8.7,450000,6,Наземная техни�
 ussr_btr_82at,БТР-82АТ,BTR-82AT,ussr,9.0,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_btr_82at.png,ussr_it_9p149_group,3,1,
 ussr_object_775,Объект 775,Object 775,ussr,9.3,520000,6,Наземная техника,vehicle,190000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_object_775.png,ussr_btr_82at,3,2,
 ussr_9p157,Хризантема-С,Khrizantema-S,ussr,9.7,710000,7,Наземная техника,vehicle,260000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_9p157.png,ussr_object_775,3,0,
-ussr_bmpt,БМПТ,BMPT,ussr,10.3,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_bmpt.png,ussr_9p157,3,1,
+ussr_bmpt,БМПТ,BMPT,ussr,10.7,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_bmpt.png,ussr_9p157,3,1,
 ussr_gaz_4m,ГАЗ-ААА (4М),GAZ-AAA (4M),ussr,1.0,700,1,Наземная техника,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/ussr_gaz_4m.png,,4,0,
 ussr_gaz_dshk,ГАЗ-ААА (ДШК),GAZ-AAA (DShK),ussr,1.0,2100,1,Наземная техника,vehicle,4000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_gaz_dshk.png,ussr_gaz_4m,4,1,
 ussr_gaz_mm_72k,ГАЗ-ММ (72-К),GAZ-MM (72-K),ussr,2.3,10000,2,Наземная техника,vehicle,7900,standard,https://static.encyclopedia.warthunder.com/slots/ussr_gaz_mm_72k.png,,4,0,
@@ -1183,7 +1183,7 @@ ussr_t_55_am,Т-55АМ-1,T-55AM-1,ussr,9.0,0,6,Наземная техника,v
 ussr_bmd_4m,БМД-4M,BMD-4M,ussr,9.7,0,6,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_bmd_4m.png,,0,2,
 ussr_2s38,2С38,2S38,ussr,10.3,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_2s38.png,,0,0,
 ussr_t_72av_turms,Т-72АВ (TURMS-T),T-72AV (TURMS-T),ussr,10.3,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_t_72av_turms.png,,0,1,
-ussr_bmpt_72,БМПТ-72,BMPT-72,ussr,10.3,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_bmpt_72.png,,0,2,
+ussr_bmpt_72,БМПТ-72,BMPT-72,ussr,10.7,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_bmpt_72.png,,0,2,
 ussr_t_80ud,Т-80УД,T-80UD,ussr,10.3,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_t_80ud.png,,0,3,
 ussr_t_80ue1,Т-80У-Е1,Т-80U-Е1,ussr,12.0,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_t_80ue1.png,,0,4,
 ussr_t_80ue1_sm,◍Т-80У-Е1,◍Т-80U-Е1,ussr,12.0,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_t_80ue1_sm.png,,0,5,
@@ -2100,7 +2100,7 @@ ah_1s_late,AH-1S,AH-1S,japan,9.7,1000000,6,Вертолёты,vehicle,380000,sta
 ah_64d_japan,AH-64DJP,AH-64DJP,japan,11.7,1020000,7,Вертолёты,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/ah_64d_japan.png,ah_1s_late,0,0,
 ah_64e_indonesia,◥AH-64E,◥AH-64E,japan,13.0,1030000,7,Вертолёты,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/ah_64e_indonesia.png,ah_64d_japan,0,1,
 mi_35p_indonesia,◥Mi-35,◥Mi-35,japan,9.7,990000,6,Вертолёты,vehicle,370000,standard,https://static.encyclopedia.warthunder.com/slots/mi_35p_indonesia.png,,1,0,
-ah_1s,AH-1S Kisarazu,AH-1S Kisarazu,japan,9.7,0,6,Вертолёты,vehicle,380000,standard,https://static.encyclopedia.warthunder.com/slots/ah_1s.png,,2,0,
+ah_1s,AH-1S Kisarazu,AH-1S Kisarazu,japan,9.7,0,6,Вертолёты,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ah_1s.png,,0,0,
 f1m2,F1M2,F1M2,japan,1.0,700,1,Авиация,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/f1m2.png,,0,0,
 a5m4,A5M4,A5M4,japan,1.3,2100,1,Авиация,vehicle,4000,standard,https://static.encyclopedia.warthunder.com/slots/a5m4.png,f1m2,0,1,
 a6m2_n1k1_group,A6M2/N1K1,A6M2/N1K1,japan,,,2,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/a6m2_n1k1_group.png,,0,0,

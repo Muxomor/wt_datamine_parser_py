@@ -1,8 +1,8 @@
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
   Всего строк в CSV: 3475
-  Премиумных юнитов: 928
-  Обычных юнитов: 2547
+  Премиумных юнитов: 929
+  Обычных юнитов: 2546
 Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Пробуем следующий URL...
@@ -2787,8 +2787,8 @@
   Не найден в wpcost: ussr_t_64_group (нормализован: ussr_t_64_group) - пропускается
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан ussr_t_64a_1971: silver=520000, exp=190000, br=9.3
-    БР расчет: economicRank=26, raw=9.667, округлено=9.7
-  Обработан ussr_t_64_b_1984: silver=620000, exp=110000, br=9.7
+    БР расчет: economicRank=27, raw=10.000, округлено=10
+  Обработан ussr_t_64_b_1984: silver=620000, exp=110000, br=10
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан ussr_t_80b: silver=830000, exp=300000, br=10.7
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
@@ -2888,8 +2888,8 @@
   Обработан ussr_object_775: silver=520000, exp=190000, br=9.3
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан ussr_9p157: silver=710000, exp=260000, br=9.7
-    БР расчет: economicRank=28, raw=10.333, округлено=10.3
-  Обработан ussr_bmpt: silver=830000, exp=300000, br=10.3
+    БР расчет: economicRank=29, raw=10.667, округлено=10.7
+  Обработан ussr_bmpt: silver=830000, exp=300000, br=10.7
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан ussr_gaz_4m: silver=700, exp=2900, br=1.0
     БР расчет: economicRank некорректен (0), используем fallback 1.0
@@ -3070,8 +3070,8 @@
   Обработан ussr_t_72av_turms (премиум): silver=0, exp=None, br=10.3
   Обрабатываем премиумный юнит: ussr_bmpt_72 (status=premium, have_prem_flag=True)
   Премиумный юнит ussr_bmpt_72: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=28, raw=10.333, округлено=10.3
-  Обработан ussr_bmpt_72 (премиум): silver=0, exp=None, br=10.3
+    БР расчет: economicRank=29, raw=10.667, округлено=10.7
+  Обработан ussr_bmpt_72 (премиум): silver=0, exp=None, br=10.7
   Обрабатываем премиумный юнит: ussr_t_80ud (status=premium, have_prem_flag=False)
   Премиумный юнит ussr_t_80ud: silver=0, exp=None (обнулено)
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
@@ -5387,8 +5387,10 @@
   Обработан ah_64e_indonesia: silver=1030000, exp=400000, br=13
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан mi_35p_indonesia: silver=990000, exp=370000, br=9.7
+  Обрабатываем премиумный юнит: ah_1s (status=premium, have_prem_flag=True)
+  Премиумный юнит ah_1s: silver=0, exp=None (обнулено)
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
-  Обработан ah_1s: silver=0, exp=380000, br=9.7
+  Обработан ah_1s (премиум): silver=0, exp=None, br=9.7
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан f1m2: silver=700, exp=2900, br=1.0
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -8617,12 +8619,12 @@
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13
 Статистика обработки wpcost:
   Найдено и обработано: 3092
-  Из них премиумных (с обнуленными silver/exp): 921
+  Из них премиумных (с обнуленными silver/exp): 922
   Не найдено в wpcost (пропущено): 383
   Всего ID из shop.csv: 3475
 Данные wpcost (3092 записей) сохранены в wpcost.csv
 Статистика данных:
-  Записей с опытом (exp): 2089
+  Записей с опытом (exp): 2088
   Записей с fallback БР (1.0): 156
   Всего записей: 3092
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

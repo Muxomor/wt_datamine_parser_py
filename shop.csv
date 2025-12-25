@@ -2100,7 +2100,7 @@ ah_1s_late,6,japan,Вертолёты,vehicle,standard,0,1,ah_1s_early,,False
 ah_64d_japan,7,japan,Вертолёты,vehicle,standard,0,0,ah_1s_late,,False
 ah_64e_indonesia,7,japan,Вертолёты,vehicle,standard,0,1,ah_64d_japan,,False
 mi_35p_indonesia,6,japan,Вертолёты,vehicle,standard,1,0,,,False
-ah_1s,6,japan,Вертолёты,vehicle,standard,2,0,,,False
+ah_1s,6,japan,Вертолёты,vehicle,premium,0,0,,,True
 f1m2,1,japan,Авиация,vehicle,standard,0,0,,,False
 a5m4,1,japan,Авиация,vehicle,standard,0,1,f1m2,,False
 a6m2_n1k1_group,2,japan,Авиация,folder,standard,0,0,,,False

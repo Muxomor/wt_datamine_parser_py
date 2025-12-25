@@ -2119,7 +2119,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'it_samp_t_launcher', 'us_nasams_launcher', 'uk_sky_sabre_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'fr_samp_t_launcher'}
+Slave-юниты: {'fr_samp_t_launcher', 'ussr_buk_m3_launcher', 'uk_sky_sabre_launcher', 'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'sw_nasams_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -10066,11 +10066,11 @@ Slave-юниты: {'it_samp_t_launcher', 'us_nasams_launcher', 'uk_sky_sabre_lau
       ОТЛАДКА: Техника mi_35p_indonesia, reqAir в JSON: есть, значение: 'ah_1s_early', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Добавлена техника mi_35p_indonesia с предшественником '', статус: standard, have_prem_flag: False
     Столбец 1: обработано 1 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/1 = 0.00, порог: 0.2
-    Столбец 2 определен как ОБЫЧНЫЙ
+      ОТЛАДКА: Премиум техники в колонке: 1/1 = 1.00, порог: 0.2
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ah_1s, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ah_1s имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ah_1s с предшественником '', статус: standard, have_prem_flag: False
+      ОТЛАДКА: Добавлена техника ah_1s с предшественником '', статус: premium, have_prem_flag: True
     Столбец 2: обработано 1 элементов
   Обработка типа: Авиация, столбцов: 7
         ОТЛАДКА: get_group_items добавлен a6m2_n_zero с order=0
@@ -19625,10 +19625,10 @@ Slave-юниты: {'it_samp_t_launcher', 'us_nasams_launcher', 'uk_sky_sabre_lau
     Ранг 6: 1 элементов, начинаем с row_index=0
         Отдельный элемент: mi_35p_indonesia
       mi_35p_indonesia: [1, 0] (элемент)
-  Обработка столбца: japan/Вертолёты/col_2/premium_False
+  Обработка столбца: japan/Вертолёты/col_2/premium_True
     Ранг 6: 1 элементов, начинаем с row_index=0
         Отдельный элемент: ah_1s
-      ah_1s: [2, 0] (элемент)
+      ah_1s: [0, 0] (элемент)
   Обработка столбца: japan/Авиация/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: f1m2
@@ -22798,7 +22798,7 @@ Slave-юниты: {'it_samp_t_launcher', 'us_nasams_launcher', 'uk_sky_sabre_lau
 Координаты назначены для 3475 элементов
 Данные (3475 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2571, Премиумной: 904
+Статистика: Стандартной техники: 2570, Премиумной: 905
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (393 записей) сохранены в shop_images_fields.csv
