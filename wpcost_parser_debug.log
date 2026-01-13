@@ -2888,8 +2888,8 @@
   Обработан ussr_object_775: silver=520000, exp=190000, br=9.3
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан ussr_9p157: silver=710000, exp=260000, br=9.7
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан ussr_bmpt: silver=830000, exp=300000, br=10.7
+    БР расчет: economicRank=31, raw=11.333, округлено=11.3
+  Обработан ussr_bmpt: silver=830000, exp=300000, br=11.3
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан ussr_gaz_4m: silver=700, exp=2900, br=1.0
     БР расчет: economicRank некорректен (0), используем fallback 1.0
@@ -3070,8 +3070,8 @@
   Обработан ussr_t_72av_turms (премиум): silver=0, exp=None, br=10.3
   Обрабатываем премиумный юнит: ussr_bmpt_72 (status=premium, have_prem_flag=True)
   Премиумный юнит ussr_bmpt_72: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан ussr_bmpt_72 (премиум): silver=0, exp=None, br=10.7
+    БР расчет: economicRank=31, raw=11.333, округлено=11.3
+  Обработан ussr_bmpt_72 (премиум): silver=0, exp=None, br=11.3
   Обрабатываем премиумный юнит: ussr_t_80ud (status=premium, have_prem_flag=False)
   Премиумный юнит ussr_t_80ud: silver=0, exp=None (обнулено)
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
