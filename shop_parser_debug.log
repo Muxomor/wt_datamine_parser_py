@@ -2119,7 +2119,7 @@
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a_israel_iaf с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_81_tansam_launcher', 'germ_iris_slm_launcher', 'ussr_buk_m3_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'it_samp_t_launcher'}
+Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -2175,7 +2175,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника us_m10_booker_late, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_m10_booker_late зависит от us_m3a3_bradley
       ОТЛАДКА: Добавлена техника us_m10_booker_late с предшественником 'us_m3a3_bradley', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника us_hstv_l, reqAir в JSON: есть, значение: 'us_m3a3_bradley', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника us_hstv_l, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_hstv_l зависит от us_m10_booker_late
       ОТЛАДКА: Добавлена техника us_hstv_l с предшественником 'us_m10_booker_late', статус: standard, have_prem_flag: False
     Столбец 0: обработано 15 элементов
@@ -2539,7 +2539,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
         ОТЛАДКА: get_group_items добавлен us_m4a3e8_76w_sherman_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен us_m18_hellcat_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен us_skink_aa_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 19/33 = 0.58, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 18/33 = 0.55, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника us_m2a4_1st_armor_div, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m2a4_1st_armor_div имеет reqAir='', предшественника нет
@@ -2624,7 +2624,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Добавлена техника us_xm1_chrysler с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника us_xm1_gm, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_xm1_gm имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника us_xm1_gm с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Добавлена техника us_xm1_gm с предшественником '', статус: premium, have_prem_flag: False
       ОТЛАДКА: Техника us_m1128_wolfpack, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m1128_wolfpack имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_m1128_wolfpack с предшественником '', статус: premium, have_prem_flag: False
@@ -3694,7 +3694,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника us_destroyer_forrestsherman_class, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_destroyer_forrestsherman_class зависит от us_destroyer_cf_adams_class_cf_adams
       ОТЛАДКА: Добавлена техника us_destroyer_forrestsherman_class с предшественником 'us_destroyer_cf_adams_class_cf_adams', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника us_cruiser_atlanta_class_atlanta, reqAir в JSON: есть, значение: 'us_destroyer_cf_adams_class_cf_adams', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника us_cruiser_atlanta_class_atlanta, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_cruiser_atlanta_class_atlanta зависит от us_destroyer_forrestsherman_class
       ОТЛАДКА: Добавлена техника us_cruiser_atlanta_class_atlanta с предшественником 'us_destroyer_forrestsherman_class', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника us_cruiser_worcester_class_roanoke, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -3758,7 +3758,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника us_battleship_south_dakota, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_battleship_south_dakota зависит от us_battleship_tennessee
       ОТЛАДКА: Добавлена техника us_battleship_south_dakota с предшественником 'us_battleship_tennessee', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника us_battleship_iowa_class_iowa, reqAir в JSON: есть, значение: 'us_battleship_tennessee', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника us_battleship_iowa_class_iowa, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника us_battleship_iowa_class_iowa зависит от us_battleship_south_dakota
       ОТЛАДКА: Добавлена техника us_battleship_iowa_class_iowa с предшественником 'us_battleship_south_dakota', статус: standard, have_prem_flag: False
     Столбец 1: обработано 15 элементов
@@ -4567,7 +4567,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника germ_jaguar_2, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника germ_jaguar_2 зависит от germ_raketenjagdpanzer_2_hot
       ОТЛАДКА: Добавлена техника germ_jaguar_2 с предшественником 'germ_raketenjagdpanzer_2_hot', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника germ_wiesel_1_tow, reqAir в JSON: есть, значение: 'germ_raketenjagdpanzer_2_hot', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника germ_wiesel_1_tow, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника germ_wiesel_1_tow зависит от germ_jaguar_2
       ОТЛАДКА: Добавлена техника germ_wiesel_1_tow с предшественником 'germ_jaguar_2', статус: standard, have_prem_flag: False
     Столбец 4: обработано 32 элементов
@@ -5716,7 +5716,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Добавлена техника germ_destroyer_lutjens_class_lutjens с предшественником 'germ_destroyer_class1936c_z46', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен germ_cruiser_leipzig с order=0
         ОТЛАДКА: get_group_items добавлен germ_cruiser_nurnberg с order=1
-        ОТЛАДКА: Группа germ_cruiser_leipzig_nurnberg_group, reqAir в JSON: есть, значение: 'germ_destroyer_class1936c_z46', has_dependency: True
+        ОТЛАДКА: Группа germ_cruiser_leipzig_nurnberg_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
         ОТЛАДКА: Группа germ_cruiser_leipzig_nurnberg_group зависит от germ_destroyer_lutjens_class_lutjens
         ОТЛАДКА: Добавлена группа germ_cruiser_leipzig_nurnberg_group с предшественником 'germ_destroyer_lutjens_class_lutjens', статус: standard, have_prem_flag: False
           ОТЛАДКА: Элемент germ_cruiser_leipzig, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=germ_cruiser_leipzig_nurnberg_group, has_dependency: True
@@ -5924,7 +5924,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника germ_pr1331, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника germ_pr1331 зависит от germ_kondor2_class
       ОТЛАДКА: Добавлена техника germ_pr1331 с предшественником 'germ_kondor2_class', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника germ_type152_hugin, reqAir в JSON: есть, значение: 'germ_kondor2_class', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника germ_type152_hugin, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника germ_type152_hugin зависит от germ_pr1331
       ОТЛАДКА: Добавлена техника germ_type152_hugin с предшественником 'germ_pr1331', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника germ_type153_pfeil, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -6499,7 +6499,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника ussr_tor_m1, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника ussr_tor_m1 зависит от ussr_zprk_2s6
       ОТЛАДКА: Добавлена техника ussr_tor_m1 с предшественником 'ussr_zprk_2s6', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника ussr_pantsyr_s1, reqAir в JSON: есть, значение: 'ussr_zprk_2s6', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника ussr_pantsyr_s1, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника ussr_pantsyr_s1 зависит от ussr_tor_m1
       ОТЛАДКА: Добавлена техника ussr_pantsyr_s1 с предшественником 'ussr_tor_m1', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника ussr_buk_m3_fcs, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -6630,7 +6630,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Добавлена техника ussr_t_80ue1_sm с предшественником '', статус: premium, have_prem_flag: True
       ПРОПУСК: ussr_buk_m3_launcher является slave-юнитом
     Столбец 5: обработано 38 элементов
-      ОТЛАДКА: Премиум техники в колонке: 30/33 = 0.91, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 31/34 = 0.91, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ussr_t_26E, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_26E имеет reqAir='', предшественника нет
@@ -6725,13 +6725,16 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника ussr_t_72m2_moderna, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_72m2_moderna имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_72m2_moderna с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника ussr_t_72b3_arena, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника ussr_t_72b3_arena имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника ussr_t_72b3_arena с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника ussr_t_80um2, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_80um2 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_80um2 с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника ussr_t_80uk, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_80uk имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_80uk с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 6: обработано 33 элементов
+    Столбец 6: обработано 34 элементов
   Обработка типа: Вертолёты, столбцов: 4
       ОТЛАДКА: Премиум техники в колонке: 0/7 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
@@ -7994,7 +7997,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника ussr_pr_205pe_k225 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_pr_205pe_k225 с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 6 элементов
-Обработано 540 элементов для ussr
+Обработано 541 элементов для ussr
 Обработка страны: britain
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
@@ -9412,7 +9415,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника uk_cruiser_fiji_class_fiji, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_cruiser_fiji_class_fiji зависит от uk_cruiser_leander
       ОТЛАДКА: Добавлена техника uk_cruiser_fiji_class_fiji с предшественником 'uk_cruiser_leander', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника uk_cruiser_southampton, reqAir в JSON: есть, значение: 'uk_cruiser_leander', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника uk_cruiser_southampton, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника uk_cruiser_southampton зависит от uk_cruiser_fiji_class_fiji
       ОТЛАДКА: Добавлена техника uk_cruiser_southampton с предшественником 'uk_cruiser_fiji_class_fiji', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника uk_battleship_dreadnought, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -10756,7 +10759,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника jp_cruiser_oyodo, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_cruiser_oyodo зависит от jp_cruiser_agano
       ОТЛАДКА: Добавлена техника jp_cruiser_oyodo с предшественником 'jp_cruiser_agano', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника jp_cruiser_mogami_suzuya, reqAir в JSON: есть, значение: 'jp_cruiser_agano', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника jp_cruiser_mogami_suzuya, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника jp_cruiser_mogami_suzuya зависит от jp_cruiser_oyodo
       ОТЛАДКА: Добавлена техника jp_cruiser_mogami_suzuya с предшественником 'jp_cruiser_oyodo', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника jp_cruiser_mogami, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -12735,7 +12738,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника it_cruiser_cadorna_class_diaz, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника it_cruiser_cadorna_class_diaz зависит от it_cruiser_bartolomeocolleoni_1940
       ОТЛАДКА: Добавлена техника it_cruiser_cadorna_class_diaz с предшественником 'it_cruiser_bartolomeocolleoni_1940', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника it_cruiser_montecuccoli, reqAir в JSON: есть, значение: 'it_cruiser_bartolomeocolleoni_1940', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника it_cruiser_montecuccoli, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника it_cruiser_montecuccoli зависит от it_cruiser_cadorna_class_diaz
       ОТЛАДКА: Добавлена техника it_cruiser_montecuccoli с предшественником 'it_cruiser_cadorna_class_diaz', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника it_cruiser_eugenio_di_savoia, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -12857,7 +12860,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника it_cassiopea_p401, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника it_cassiopea_p401 зависит от it_alano_9851
       ОТЛАДКА: Добавлена техника it_cassiopea_p401 с предшественником 'it_alano_9851', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника it_p494_saetta, reqAir в JSON: есть, значение: 'it_alano_9851', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника it_p494_saetta, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника it_p494_saetta зависит от it_cassiopea_p401
       ОТЛАДКА: Добавлена техника it_p494_saetta с предшественником 'it_cassiopea_p401', статус: standard, have_prem_flag: False
     Столбец 0: обработано 11 элементов
@@ -13310,7 +13313,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника fr_leopard_2a4nl_les имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_leopard_2a4nl_les с предшественником '', статус: premium, have_prem_flag: True
     Столбец 5: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 8/8 = 1.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 9/9 = 1.00, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника fr_amd_35_sa35, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника fr_amd_35_sa35 имеет reqAir='', предшественника нет
@@ -13321,6 +13324,9 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника fr_lorraine_155, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника fr_lorraine_155 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_lorraine_155 с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника fr_amx_elc_901, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника fr_amx_elc_901 имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника fr_amx_elc_901 с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника fr_panhard_ebr_1954, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника fr_panhard_ebr_1954 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_panhard_ebr_1954 с предшественником '', статус: premium, have_prem_flag: True
@@ -13337,7 +13343,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника fr_amx_50_1950 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_amx_50_1950 с предшественником '', статус: premium, have_prem_flag: True
       ПРОПУСК: fr_samp_t_launcher является slave-юнитом
-    Столбец 6: обработано 8 элементов
+    Столбец 6: обработано 9 элементов
   Обработка типа: Вертолёты, столбцов: 4
         ОТЛАДКА: get_group_items добавлен tiger_had_france с order=0
         ОТЛАДКА: get_group_items добавлен tiger_hac_france с order=1
@@ -13875,7 +13881,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника fr_cruiser_suffren_class_suffren, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_cruiser_suffren_class_suffren зависит от fr_cruiser_suffren_class_colbert
       ОТЛАДКА: Добавлена техника fr_cruiser_suffren_class_suffren с предшественником 'fr_cruiser_suffren_class_colbert', статус: standard, have_prem_flag: False
-      ОТЛАДКА: Техника fr_battleship_courbet_class_paris, reqAir в JSON: есть, значение: 'fr_cruiser_suffren_class_colbert', next_should_depend_on_group=None, has_dependency: True
+      ОТЛАДКА: Техника fr_battleship_courbet_class_paris, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
       ОТЛАДКА: Техника fr_battleship_courbet_class_paris зависит от fr_cruiser_suffren_class_suffren
       ОТЛАДКА: Добавлена техника fr_battleship_courbet_class_paris с предшественником 'fr_cruiser_suffren_class_suffren', статус: standard, have_prem_flag: False
       ОТЛАДКА: Техника fr_battleship_bretagne_class_lorraine, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
@@ -14043,7 +14049,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника fr_frigate_corse_class_corse имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_frigate_corse_class_corse с предшественником '', статус: standard, have_prem_flag: False
     Столбец 2: обработано 6 элементов
-Обработано 309 элементов для france
+Обработано 310 элементов для france
 Обработка страны: sweden
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен sw_cv_9030_fin с order=0
@@ -14721,7 +14727,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника saab_ja37di_f21 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника saab_ja37di_f21 с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/2 = 1.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 3/3 = 1.00, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника j9_early, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника j9_early имеет reqAir='', предшественника нет
@@ -14729,8 +14735,11 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Техника vl_myrsky_2_late, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника vl_myrsky_2_late имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника vl_myrsky_2_late с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 5: обработано 2 элементов
-Обработано 186 элементов для sweden
+      ОТЛАДКА: Техника mosquito_j30_sweden, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника mosquito_j30_sweden имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника mosquito_j30_sweden с предшественником '', статус: premium, have_prem_flag: True
+    Столбец 5: обработано 3 элементов
+Обработано 187 элементов для sweden
 Обработка страны: israel
   Обработка типа: Наземная техника, столбцов: 5
         ОТЛАДКА: get_group_items добавлен il_m48a1_patton_III с order=0
@@ -14882,7 +14891,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ОТЛАДКА: Добавлена техника il_merkava_mk_1 с предшественником 'il_gimel_tiran_group', статус: standard, have_prem_flag: False
         ОТЛАДКА: get_group_items добавлен il_merkava_mk_1b с order=0
         ОТЛАДКА: get_group_items добавлен il_merkava_mk_2b_early с order=1
-        ОТЛАДКА: Группа il_merkava_1_2_group, reqAir в JSON: есть, значение: 'il_centurion_shot_kal_gimel', has_dependency: True
+        ОТЛАДКА: Группа il_merkava_1_2_group, reqAir в JSON: нет, значение: 'отсутствует', has_dependency: True
         ОТЛАДКА: Группа il_merkava_1_2_group зависит от il_merkava_mk_1
         ОТЛАДКА: Добавлена группа il_merkava_1_2_group с предшественником 'il_merkava_mk_1', статус: standard, have_prem_flag: False
           ОТЛАДКА: Элемент il_merkava_mk_1b, reqAir в JSON: нет, значение: 'отсутствует', order=0, parent_id=il_merkava_1_2_group, has_dependency: True
@@ -17717,17 +17726,19 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
       ussr_is_7: [1, 0] (элемент)
       ussr_object_279: [1, 1] (элемент)
       ussr_bmd_4: [1, 2] (элемент)
-    Ранг 7: 5 элементов, начинаем с row_index=0
+    Ранг 7: 6 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_bmp_2m
         Отдельный элемент: ussr_object_292
         Отдельный элемент: ussr_t_72m2_moderna
+        Отдельный элемент: ussr_t_72b3_arena
         Отдельный элемент: ussr_t_80um2
         Отдельный элемент: ussr_t_80uk
       ussr_bmp_2m: [1, 0] (элемент)
       ussr_object_292: [1, 1] (элемент)
       ussr_t_72m2_moderna: [1, 2] (элемент)
-      ussr_t_80um2: [1, 3] (элемент)
-      ussr_t_80uk: [1, 4] (элемент)
+      ussr_t_72b3_arena: [1, 3] (элемент)
+      ussr_t_80um2: [1, 4] (элемент)
+      ussr_t_80uk: [1, 5] (элемент)
   Обработка столбца: ussr/Вертолёты/col_0/premium_False
     Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: mi_4av
@@ -21617,11 +21628,13 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
     Ранг 3: 1 элементов, начинаем с row_index=0
         Отдельный элемент: fr_lorraine_155
       fr_lorraine_155: [1, 0] (элемент)
-    Ранг 4: 2 элементов, начинаем с row_index=0
+    Ранг 4: 3 элементов, начинаем с row_index=0
+        Отдельный элемент: fr_amx_elc_901
         Отдельный элемент: fr_panhard_ebr_1954
         Отдельный элемент: fr_m46_patton
-      fr_panhard_ebr_1954: [1, 0] (элемент)
-      fr_m46_patton: [1, 1] (элемент)
+      fr_amx_elc_901: [1, 0] (элемент)
+      fr_panhard_ebr_1954: [1, 1] (элемент)
+      fr_m46_patton: [1, 2] (элемент)
     Ранг 5: 3 элементов, начинаем с row_index=0
         Отдельный элемент: fr_panhard_ebr_1963
         Отдельный элемент: fr_amx_50_surblinde
@@ -22542,6 +22555,9 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
         Отдельный элемент: vl_myrsky_2_late
       j9_early: [1, 0] (элемент)
       vl_myrsky_2_late: [1, 1] (элемент)
+    Ранг 3: 1 элементов, начинаем с row_index=0
+        Отдельный элемент: mosquito_j30_sweden
+      mosquito_j30_sweden: [1, 0] (элемент)
   Обработка столбца: israel/Наземная техника/col_0/premium_False
     Ранг 4: 4 элементов, начинаем с row_index=0
         Отдельный элемент: il_m_51
@@ -22795,11 +22811,11 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'jp_type_
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3475 элементов
-Данные (3475 записей) сохранены в shop.csv
+Координаты назначены для 3478 элементов
+Данные (3478 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2570, Премиумной: 905
+Статистика: Стандартной техники: 2570, Премиумной: 908
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (393 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3475 элементов.
+Парсинг завершен успешно! Обработано 3478 элементов.
