@@ -757,7 +757,7 @@ he_112v_5,He 112 V-5,He 112 V-5
 he_112a_0,He 112 A-0,He 112 A-0
 he_100d_1,He 100 D-1,He 100 D-1
 he_112b_0,He 112 B-0,He 112 B-0
-c_3604,◌С-3604,◌С-3604
+c_3604,◌С-3604,◌C-3604
 fw-190a-1,Fw 190 A-1,Fw 190 A-1
 fw-190a-4_group,Fw 190 A4/A5,Fw 190 A4/A5
 fw-190a-4,Fw 190 A-4,Fw 190 A-4
@@ -1044,7 +1044,7 @@ ussr_t_72a,Т-72А,T-72A
 ussr_t_72b_group,T-72Б/72Б(89),T-72B/72B(89)
 ussr_t_72b,Т-72Б,T-72B
 ussr_t_72b_1989,Т-72Б (1989),T-72B (1989)
-ussr_t_90a,Т-90А,Т-90А
+ussr_t_90a,Т-90А,T-90A
 ussr_t_72b3_2011,Т-72Б3,T-72B3
 ussr_t_72b3_arena_m,Т-72Б3А,T-72B3A
 ussr_t_90m_2020,Т-90М,T-90M
@@ -1185,7 +1185,7 @@ ussr_2s38,2С38,2S38
 ussr_t_72av_turms,Т-72АВ (TURMS-T),T-72AV (TURMS-T)
 ussr_bmpt_72,БМПТ-72,BMPT-72
 ussr_t_80ud,Т-80УД,T-80UD
-ussr_t_80ue1,Т-80У-Е1,Т-80U-Е1
+ussr_t_80ue1,Т-80У-Е1,T-80U-E1
 ussr_t_80ue1_sm,◍Т-80У-Е1,◍Т-80U-Е1
 ussr_t_26e,Т-26Э,T-26E
 ussr_rbt_5,РБТ-5,RBT-5
@@ -1196,7 +1196,7 @@ ussr_su_76d,СУ-76Д,SU-76D
 ussr_m3c,▂М-3 Средний,▂M3 Medium
 ussr_bm_13n,БМ-13Н,BM-13N
 ussr_a_12_mk_2_matilda_2a_f96,"▂МК-II ""Матильда""","▂MK-II ""Matilda"""
-ussr_valentine_mk_9,"▂МК-IX ""Валентин""","▂МК-IX ""Valentine"""
+ussr_valentine_mk_9,"▂МК-IX ""Валентин""","▂MK-IX ""Valentine"""
 ussr_su_85a,СУ-85А,SU-85A
 ussr_kv_2_1940,КВ-2 (1940),KV-2 (1940)
 ussr_kv_7_u13,КВ-7 (У-13),KV-7 (U-13)
@@ -2374,7 +2374,7 @@ cn_t_34_m4_group,T-34/M4A1,T-34/M4A1
 cn_t_34_1942,␗Т-34 (1943),␗T-34 (1943)
 cn_m4a1_76w_sherman,␗M4A1 (75) W,␗M4A1 (75) W
 cn_t_34_85_group,T-34-85/85Gai,T-34-85/85Gai
-cn_t_34_85_d_5t,␗Т-34-85 (S-53),␗Т-34-85 (S-53)
+cn_t_34_85_d_5t,␗Т-34-85 (S-53),␗T-34-85 (S-53)
 cn_type_58,Т-34-85 Gai,T-34-85 Gai
 cn_is_2_group,ИС-2 1943/1944,IS-2 1943/1944
 cn_is_2_1943,␗IS-2,␗IS-2
@@ -2450,7 +2450,7 @@ cn_bt_5,БТ-5,BT-5
 cn_type_95_ha_go,Ha-Go,Ha-Go
 cn_wz_141,WZ141-1,WZ141-1
 cn_plz_83_130,PLZ83-130,PLZ83-130
-cn_t_62,Т-62 №545,Т-62 №545
+cn_t_62,Т-62 №545,T-62 N545
 cn_t_80ud_478be,T-80UD/BE,T-80UD/BE
 cn_al_khalid_1,Al-Khalid-I,Al-Khalid-I
 z_11wa,Z-11WA,Z-11WA
@@ -2668,7 +2668,7 @@ it_m60a1_ariete,"M60A1 ""D.C.Ariete""","M60A1 ""D.C.Ariete"""
 it_of_40_mtca,OF-40 (MTCA),OF-40 (MTCA)
 it_vrcc_centauro,VRCC,VRCC
 it_centauro_rgo_120,Centauro RGO,Centauro RGO
-it_c1_ariete_certezza,Ariete Сertezza,Ariete Сertezza
+it_c1_ariete_certezza,Ariete Сertezza,Ariete Certezza
 it_toldi_ii_a,Toldi IIA,Toldi IIA
 it_41m_turan_2,Turan II,Turan II
 it_p_26_40,"P40 ""G.C. Leoncello""","P40 ""G.C. Leoncello"""
@@ -3094,7 +3094,7 @@ f_16a_block_15_belgium,▄F-16A,▄F-16A
 f_16am_block_15_mlu_belgium,▄F-16AM,▄F-16AM
 d_510,D.510 Пальера,Pallier's D.510
 pby-5a_late_france,▄PBY-5A Late,▄PBY-5A Late
-loire_130,Loire 130С,Loire 130С
+loire_130,Loire 130С,Loire 130C
 p-40f-5_france_ep,▄P-40F-5 Lafayette,▄P-40F-5 Lafayette
 mb_152c1,M.B.152C1,M.B.152C1
 p-47d_22_re_france,▄P-47D-22-RE,▄P-47D-22-RE
@@ -3207,7 +3207,7 @@ sw_strv_101,Strv 101,Strv 101
 sw_strv_103a,Strv 103A,Strv 103A
 sw_strv_104_103c_group,Strv 104/103C,Strv 104/103C
 sw_strv_104,Strv 104,Strv 104
-sw_strv_103c,Strv 103С,Strv 103С
+sw_strv_103c,Strv 103С,Strv 103C
 sw_strv_105,Strv 105,Strv 105
 sw_strv_121,Strv 121,Strv 121
 sw_strv_122_group,Strv 122/122 PLSS,Strv 122/122 PLSS
