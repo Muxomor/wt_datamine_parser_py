@@ -36,6 +36,7 @@ f4u_group,f4u_group
 f4u_late_group,f4u_late_group
 f8f1_group,f8f1_group
 f9f_group,f9f_group
+f_18_group,f_18_group
 f_14_group,f_14_group
 os2u_group,os2u_group
 sb2u_group,sb2u_group
@@ -135,7 +136,7 @@ ussr_t_72b_group,ussr_t_72b_group
 ussr_kv_1_2_group,ussr_kv_1_2_group
 ussr_kv_1_85_group,ussr_kv_1_85_group
 ussr_is_2_1944_group,ussr_is_2_1944_group
-ussr_t_64_group,ussr_t_64_group
+ussr_t_64_t_80_group,ussr_t_64_t_80_group
 ussr_bmp_1_group,ussr_bmp_1_group
 ussr_bmp_2_group,ussr_bmp_2_group
 ussr_bmp_3_group,ussr_bmp_3_group
@@ -225,6 +226,7 @@ meteor4_group,meteor4_group
 firefly_group,firefly_group
 seafire_group,seafire_group
 sea_hawk_group,sea_hawk_group
+fa_18a_raaf_group,fa_18a_raaf_group
 blenheim_group,blenheim_group
 beaufighter_group,beaufighter_group
 mosquito_group,mosquito_group
@@ -238,6 +240,7 @@ stirling_group,stirling_group
 lancaster_group,lancaster_group
 lincoln_group,lincoln_group
 canberra_group,canberra_group
+f_111c_tornado_group,f_111c_tornado_group
 uk_destroyer_battle_group,uk_destroyer_battle_group
 uk_destroyer_daring_group,uk_destroyer_daring_group
 uk_cruiser_kent_norfolk_group,uk_cruiser_kent_norfolk_group
@@ -250,6 +253,7 @@ jp_type_74_stb_group,jp_type_74_stb_group
 jp_type_74_group,jp_type_74_group
 jp_type_90_group,jp_type_90_group
 jp_type_10_group,jp_type_10_group
+jp_ro_ni_group,jp_ho_ni_group
 jp_ho_ni_group,jp_ho_ni_group
 jp_type_81_tansam_fcs,jp_type_81_tansam_group
 jp_type_03_chusam_fcs,jp_type_81_tansam_group
@@ -259,6 +263,7 @@ a6m3_mod22_group,a6m3_mod22_group
 a6m5_group,a6m5_group
 n1k2_group,n1k2_group
 f-86_japan_group,f-86_japan_group
+f_15j_group,f_15j_group
 ki-10_group,ki-10_group
 ki-43_group,ki-43_group
 ki_44_group,ki_44_group
@@ -268,6 +273,7 @@ ki_84_group,ki_84_group
 ki-45_eraly_group,ki-45_eraly_group
 ki-45_group,ki-45_group
 j2m_group,j2m_group
+f_5_f_16_thailand_group,f_5_f_16_thailand_group
 b6n_group,b6n_group
 d4y_group,d4y_group
 r2y2_group,r2y2_group
@@ -299,8 +305,8 @@ i-16_china_group,i-16_china_group
 mig-9_china_group,mig-9_china_group
 mig-15_china_group,mig-15_china_group
 mig-19_china_group,mig-19_china_group
-j_11_group,j_11_group
 db_3_china_group,db_3_china_group
+j_11_group,j_11_group
 it_fiat_group,it_fiat_group
 it_centauro_105_group,it_centauro_105_group
 it_m13_40_group,it_m13_40_group
@@ -330,6 +336,7 @@ sm_79_italy_group,sm-79_italy_group
 sm_79_1941_group,sm_79_1941_group
 z_1007_group,z_1007_group
 p_108_group,p_108_group
+me_210ca_1_hungary_group,image_in_progress
 mig-21_hungary_group,mig-21_group
 fr_hotchkiss_fcm_group,fr_hotchkiss_fcm_group
 fr_aml_amx_group,fr_aml_amx_group
@@ -372,6 +379,7 @@ sw_pt_76_comet_group,sw_pt_76_comet_group
 gladiator_j8a_group,gladiator_j8a
 saab_j21a_group,saab_j21a_group
 saab_ja37d_group,saab_ja37d_group
+saab_jas39_group,saab_jas39_group
 saab_b17a_group,saab_b17a_group
 mosquito_norway_group,mosquito_norway_group
 saab_t18b_group,saab_t18b_group
@@ -391,4 +399,6 @@ il_merkava_4_group,il_merkava_4_group
 il_rochev_tager_group,il_rochev_tager_group
 md_460_iaf_group,md_460_iaf_group
 a_4_iaf_group,a_4_iaf_group
+f_4e_f_15_iaf_group,f_4e_f_15_iaf_group
 so_4050_vautour_iaf_group,so_4050_vautour_iaf_group
+f_16d_iaf_group,f_16d_iaf_group
