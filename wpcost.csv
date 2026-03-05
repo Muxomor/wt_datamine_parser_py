@@ -866,6 +866,7 @@ germ_battlecruiser_mackensen_class,0,,7
 germ_ls_class,0,,1.0
 germ_s38,0,,1.0
 germ_s38b,10000,7900,1.7
+germ_s30_s61,16000,9200,1.7
 germ_s_100_class,22000,11000,2.3
 germ_s_100_s_174_class,76000,26000,2.7
 germ_pr_131,115000,36000,3
@@ -1265,6 +1266,7 @@ mig_25pd,0,,11
 mig_23ml,0,,11.7
 su_33,0,,13
 su_30mk2v_venezuela,0,,13.3
+mig_29m_9_15,0,,13.7
 mbr-2,0,,1.0
 po-2m,0,,1.0
 tb_3_m17_32,0,,1.3
@@ -1395,6 +1397,7 @@ uk_sherman_vc_firefly,76000,26000,4.7
 uk_a30_challenger,105000,33000,5.3
 uk_a_34_comet,135000,20000,5.3
 uk_centurion_mk_1,155000,46000,6
+uk_fv4004_conway,200000,63000,7
 uk_centurion_mk_3,210000,71000,7.7
 uk_fv221_caernarvon,240000,82000,7.7
 uk_conqueror_mk_2,270000,48000,7.7
@@ -1439,9 +1442,8 @@ uk_a30_sp_avenger,76000,26000,4.7
 uk_fv4005,155000,46000,6.3
 uk_m109a1,185000,27000,6.3
 uk_g6_spg,185000,54000,6.7
-uk_a39_tortoise,200000,63000,6.7
-uk_fv4004_conway,210000,35000,7
-uk_as_90_mk_2,240000,82000,7
+uk_a39_tortoise,200000,31000,6.7
+uk_as_90_mk_2,200000,63000,7
 uk_fv438_swingfire,300000,105000,8
 uk_fv510_isv,380000,135000,8.3
 uk_ratel_zt3,450000,81000,8.3
@@ -1821,8 +1823,8 @@ jp_type_90b,950000,175000,11.7
 jp_type_10,1080000,400000,12.7
 jp_tkx_prot,1100000,200000,12.7
 jp_type_4_ho_ro,700,2900,1.3
-jp_type_2_ho_ni_2,2100,2000,1.7
-jp_hiro_sha,2100,4000,1.7
+jp_type_2_ho_ni_2,2100,4000,1.7
+jp_hiro_sha,6300,5900,1.7
 jp_type_3_ho_ni_i,10000,7900,2
 jp_type_3_ho_ni_iii,16000,4600,2.3
 jp_navy_120mm_spg,16000,9200,3
@@ -2480,12 +2482,13 @@ tu-2_postwar_late_hungary,210000,71000,5.7
 il_28_hungary,300000,105000,8
 su_22m3_hungary,580000,210000,11
 wm_21,700,2900,1.0
-re_2000_heja_1,2100,4000,2.3
+re_2000_heja_1,2100,4000,2
 re_2000_heja_2,6300,5900,2.3
 wm_23,16000,9200,2.3
 me_210ca_1_hungary,47000,18000,3
 me_210ca_1_40_mm_hungary,76000,13000,3.3
 yak-9p_hungary,200000,63000,5
+fw_190f_8_hungary,210000,71000,5
 mig-15bis_nr23_hungary,340000,120000,8.3
 mig-17pf_hungary,420000,150000,8.7
 mig-21_mf_hungary,580000,210000,10.3
@@ -2502,7 +2505,6 @@ hs-129b-2_romania_italy,0,,2.3
 spitfire_mk5b_italy,0,,3.7
 bf-109g-2_hungary,0,,4.3
 g_55s,0,,5
-fw_190f_8_hungary,0,,5
 mb_326b,0,,6.7
 fiat_g91_r4,0,,8.7
 ariete,0,,9.3

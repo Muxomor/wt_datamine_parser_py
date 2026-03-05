@@ -213,7 +213,7 @@ f_16_group,F-16 ранний,F-16 early,usa,,,8,Авиация,folder,,standard,
 f_16a_block_10,F-16A,F-16A,usa,12.3,780000,8,Авиация,vehicle,290000,standard,https://static.encyclopedia.warthunder.com/slots/f_16a_block_10.png,f_16_group,0,0,0
 f_16a_block_15_adf,F-16A ADF,F-16A ADF,usa,13.3,860000,8,Авиация,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/f_16a_block_15_adf.png,f_16a_block_10,0,0,1
 f_16c_block_50,F-16C,F-16C,usa,13.7,940000,8,Авиация,vehicle,350000,standard,https://static.encyclopedia.warthunder.com/slots/f_16c_block_50.png,f_16_group,0,1,
-f_16c_block_52_aesa,F-16C,F-16C,usa,14.3,1080000,9,Авиация,vehicle,400000,standard,,f_16c_block_50,0,0,
+f_16c_block_52_aesa,F-16C,F-16C,usa,14.3,1080000,9,Авиация,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/f_16c_block_52_aesa.png,f_16c_block_50,0,0,
 p-36a,P-36A,P-36A,usa,1.3,700,1,Авиация,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/p-36a.png,,1,0,
 p-36c,P-36C,P-36C,usa,1.7,2100,1,Авиация,vehicle,4000,standard,https://static.encyclopedia.warthunder.com/slots/p-36c.png,p-36a,1,1,
 p-36g,P-36G,P-36G,usa,2.7,10000,2,Авиация,vehicle,7900,standard,https://static.encyclopedia.warthunder.com/slots/p-36g.png,,1,0,
@@ -645,7 +645,7 @@ germ_raketenjagdpanzer_2,RakJPz 2,RakJPz 2,germany,8.0,340000,5,Наземная
 germ_raketenjagdpanzer_2_hot,RakJPz 2 (HOT),RakJPz 2 (HOT),germany,8.3,380000,6,Наземная техника,vehicle,135000,standard,https://static.encyclopedia.warthunder.com/slots/germ_raketenjagdpanzer_2_hot.png,germ_raketen_group,4,0,
 germ_jaguar_2,Jaguar 2,Jaguar 2,germany,9.0,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/germ_jaguar_2.png,germ_raketenjagdpanzer_2_hot,4,1,
 germ_wiesel_1_tow,Wiesel 1A2,Wiesel 1A2,germany,9.7,710000,7,Наземная техника,vehicle,260000,standard,https://static.encyclopedia.warthunder.com/slots/germ_wiesel_1_tow.png,germ_jaguar_2,4,0,
-germ_boxer_swatrinf,sWaTrInf,sWaTrInf,germany,10.7,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/germ_boxer_swatrinf.png,germ_wiesel_1_tow,4,1,
+germ_boxer_swatrinf,sWaTrgInf,sWaTrgInf,germany,10.7,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/germ_boxer_swatrinf.png,germ_wiesel_1_tow,4,1,
 germ_pzkpfw_35t_romania_mare,Pz.35(t) RM,Pz.35(t) RM,germany,1.0,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_35t_romania_mare.png,,0,0,
 germ_pzkpfw_ii_ausf_c_td,Pz.II C TD,Pz.II C TD,germany,1.3,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c_td.png,,0,1,
 germ_pzkpfw_ii_ausf_c_dak,Pz.II C (DAK),Pz.II C (DAK),germany,1.3,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_ausf_c_dak.png,,0,2,
@@ -654,7 +654,7 @@ germ_pzkpfw_38t_aufklarungspanzer,Sd.Kfz. 140/1,Sd.Kfz. 140/1,germany,2.0,0,1,Н
 germ_panzerwerfer_42,15 cm Pz.W.42,15 cm Pz.W.42,germany,2.3,0,2,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_panzerwerfer_42.png,,0,0,
 germ_pzkpfw_iii_ausf_j_td,Pz.III J1 TD,Pz.III J1 TD,germany,2.7,0,2,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_j_td.png,,0,1,
 germ_pzkpfw_iii_ausf_n,Pz.III N,Pz.III N,germany,3.0,0,2,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_n.png,,0,2,
-germ_sdkfz_234_2_mod,s.Pz.Sp.Wg. Biene,s.Pz.Sp.Wg. Biene,germany,3.7,0,2,Наземная техника,vehicle,,premium,,,0,3,
+germ_sdkfz_234_2_mod,"Sd.Kfz.234/2 ""Biene""","Sd.Kfz.234/2 ""Biene""",germany,3.7,0,2,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_sdkfz_234_2_mod.png,,0,3,
 germ_kv_2_754r,▀KW II 754 (r),▀KW II 754 (r),germany,3.7,0,3,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_kv_2_754r.png,,0,0,
 germ_panzerbefelhswagen_iv_ausf_j,Pz.Bef.Wg.IV J,Pz.Bef.Wg.IV J,germany,3.7,0,3,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_panzerbefelhswagen_iv_ausf_j.png,,0,1,
 germ_infanterie_kampfpanzer_churchill,▀Pz.Kpfw. Churchill,▀Pz.Kpfw. Churchill,germany,4.0,0,3,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/germ_infanterie_kampfpanzer_churchill.png,,0,2,
@@ -825,7 +825,7 @@ hs-129b-2,Hs 129 B-2,Hs 129 B-2,germany,2.3,16000,2,Авиация,vehicle,4600,
 ju-87d_group,Ju 87 D,Ju 87 D,germany,,,2,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/ju-87d_group.png,hs-129_group,3,1,
 ju-87d-3,Ju 87 D-3,Ju 87 D-3,germany,2.0,16000,2,Авиация,vehicle,9200,standard,https://static.encyclopedia.warthunder.com/slots/ju-87d-3.png,ju-87d_group,3,1,0
 ju-87d-5,Ju 87 D-5,Ju 87 D-5,germany,3.3,22000,2,Авиация,vehicle,5600,standard,https://static.encyclopedia.warthunder.com/slots/ju-87d-5.png,ju-87d-3,3,1,1
-me_210a_1,Me 210 A-1,Me 210A-1,germany,2.7,22000,2,Авиация,vehicle,11000,standard,,ju-87d_group,3,2,
+me_210a_1,Me 210 A-1,Me 210A-1,germany,2.7,22000,2,Авиация,vehicle,11000,standard,https://static.encyclopedia.warthunder.com/slots/me_210a_1.png,ju-87d_group,3,2,
 me-410a-1_group,Me 410 A,Me 410 A,germany,,,2,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/me-410a-1_group.png,me_210a_1,3,3,
 me-410a-1_u4,Me 410 A-1/U4,Me 410 A-1/U4,germany,2.7,32000,2,Авиация,vehicle,14000,standard,https://static.encyclopedia.warthunder.com/slots/me-410a-1_u4.png,me-410a-1_group,3,3,0
 me-410b-2_u4,Me 410 B-2/U4,Me 410 B-2/U4,germany,3.0,32000,2,Авиация,vehicle,6900,standard,https://static.encyclopedia.warthunder.com/slots/me-410b-2_u4.png,me-410a-1_u4,3,3,1
@@ -990,7 +990,8 @@ germ_battlecruiser_mackensen_class,Mackensen,Mackensen,germany,7.0,0,6,Боль�
 germ_ls_class,LS 3,LS 3,germany,1.0,0,1,Малый флот,vehicle,,standard,https://static.encyclopedia.warthunder.com/slots/germ_ls_class.png,,0,0,
 germ_s38,S-38,S-38,germany,1.0,0,1,Малый флот,vehicle,,standard,https://static.encyclopedia.warthunder.com/slots/germ_s38.png,,0,1,
 germ_s38b,S-38b,S-38b,germany,1.7,10000,2,Малый флот,vehicle,7900,standard,https://static.encyclopedia.warthunder.com/slots/germ_s38b.png,germ_s38,0,0,
-germ_s_100_class,S-100,S-100,germany,2.3,22000,2,Малый флот,vehicle,11000,standard,https://static.encyclopedia.warthunder.com/slots/germ_s_100_class.png,germ_s38b,0,1,
+germ_s30_s61,S-61,S-61,germany,1.7,16000,2,Малый флот,vehicle,9200,standard,https://static.encyclopedia.warthunder.com/slots/germ_s30_s61.png,germ_s38b,0,1,
+germ_s_100_class,S-100,S-100,germany,2.3,22000,2,Малый флот,vehicle,11000,standard,https://static.encyclopedia.warthunder.com/slots/germ_s_100_class.png,germ_s30_s61,0,2,
 germ_s_100_s_174_class,S-147,S-147,germany,2.7,76000,3,Малый флот,vehicle,26000,standard,https://static.encyclopedia.warthunder.com/slots/germ_s_100_s_174_class.png,germ_s_100_class,0,0,
 germ_pr_131,V-990,V-990,germany,3.0,115000,3,Малый флот,vehicle,36000,standard,https://static.encyclopedia.warthunder.com/slots/germ_pr_131.png,germ_s_100_s_174_class,0,1,
 germ_vs10_hydrofoil,VS-10,VS-10,germany,3.0,250000,4,Малый флот,vehicle,75000,standard,https://static.encyclopedia.warthunder.com/slots/germ_vs10_hydrofoil.png,germ_pr_131,0,0,
@@ -1159,7 +1160,7 @@ ussr_zprk_2s6,2С6,2S6,ussr,10.7,830000,7,Наземная техника,vehicl
 ussr_tor_m1,Тор-М1,Tor-M1,ussr,11.3,950000,7,Наземная техника,vehicle,350000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_tor_m1.png,ussr_zprk_2s6,4,2,
 ussr_pantsyr_s1,Панцирь-С1,Pantsir-S1,ussr,12.0,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_pantsyr_s1.png,ussr_tor_m1,4,0,
 ussr_buk_m3_fcs,"9К317М ""БУК-М3"" (СОЦ)","9K317M ""BUK-M3"" (TADS)",ussr,12.7,1100000,8,Наземная техника,vehicle,410000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_buk_m3_fcs.png,ussr_pantsyr_s1,4,1,
-ussr_pantsyr_sm_sv,Панцирь СМ-СВ,Pantsir SM-SV,ussr,12.7,1120000,8,Наземная техника,vehicle,420000,standard,,ussr_buk_m3_fcs,4,2,
+ussr_pantsyr_sm_sv,Панцирь СМ-СВ,Pantsir SM-SV,ussr,12.7,1120000,8,Наземная техника,vehicle,420000,standard,https://static.encyclopedia.warthunder.com/slots/ussr_pantsyr_sm_sv.png,ussr_buk_m3_fcs,4,2,
 ussr_t_26_1940_1st_gvtbr,Т-26 (1 Гв.Т.Бр.),T-26 (1st Gv.T.Br.),ussr,1.0,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_t_26_1940_1st_gvtbr.png,,0,0,
 ussr_bt_7_1937_td,БТ-7 TD,BT-7 TD,ussr,1.3,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_bt_7_1937_td.png,,0,1,
 ussr_t_35,Т-35,T-35,ussr,1.3,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_t_35.png,,0,2,
@@ -1449,6 +1450,7 @@ mig_25pd,МиГ-25ПД,MiG-25PD,ussr,11.0,0,7,Авиация,vehicle,,premium,ht
 mig_23ml,МиГ-23МЛ,MiG-23ML,ussr,11.7,0,7,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/mig_23ml.png,,0,2,
 su_33,Су-33,Su-33,ussr,13.0,0,8,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/su_33.png,,0,0,
 su_30mk2v_venezuela,▄Su-30МК2 AMV,▄Su-30MK2 AMV,ussr,13.3,0,8,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/su_30mk2v_venezuela.png,,0,1,
+mig_29m_9_15,МиГ-29М (9-15),MiG-29M (9-15),ussr,13.7,0,8,Авиация,vehicle,,premium,,,0,2,
 mbr-2,МБР-2-М-34,MBR-2-M-34,ussr,1.0,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/mbr-2.png,,1,0,
 po-2m,По-2М,Po-2M,ussr,1.0,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/po-2m.png,,1,1,
 tb_3_m17_32,ТБ-3М-17-32,TB-3M-17-32,ussr,1.3,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/tb_3_m17_32.png,,1,2,
@@ -1583,7 +1585,8 @@ uk_challenger_comet_group,Challenger/Comet,Challenger/Comet,britain,,,3,Назе
 uk_a30_challenger,Challenger,Challenger,britain,5.3,105000,3,Наземная техника,vehicle,33000,standard,https://static.encyclopedia.warthunder.com/slots/uk_a30_challenger.png,uk_challenger_comet_group,0,1,0
 uk_a_34_comet,Comet I,Comet I,britain,5.3,135000,3,Наземная техника,vehicle,20000,standard,https://static.encyclopedia.warthunder.com/slots/uk_a_34_comet.png,uk_a30_challenger,0,1,1
 uk_centurion_mk_1,Centurion Mk.1,Centurion Mk 1,britain,6.0,155000,4,Наземная техника,vehicle,46000,standard,https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_1.png,uk_challenger_comet_group,0,0,
-uk_centurion_mk_3,Centurion Mk.3,Centurion Mk 3,britain,7.7,210000,4,Наземная техника,vehicle,71000,standard,https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_3.png,uk_centurion_mk_1,0,1,
+uk_fv4004_conway,Conway,Conway,britain,7.0,200000,4,Наземная техника,vehicle,63000,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv4004_conway.png,uk_centurion_mk_1,0,1,
+uk_centurion_mk_3,Centurion Mk.3,Centurion Mk 3,britain,7.7,210000,4,Наземная техника,vehicle,71000,standard,https://static.encyclopedia.warthunder.com/slots/uk_centurion_mk_3.png,uk_fv4004_conway,0,2,
 uk_caernarvon_conqueror_group,Caernarvon/Conqueror,Caernarvon/Conqueror,britain,,,5,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/uk_caernarvon_conqueror_group.png,uk_centurion_mk_3,0,0,
 uk_fv221_caernarvon,Caernarvon,Caernarvon,britain,7.7,240000,5,Наземная техника,vehicle,82000,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv221_caernarvon.png,uk_caernarvon_conqueror_group,0,0,0
 uk_conqueror_mk_2,Conqueror,Conqueror,britain,7.7,270000,5,Наземная техника,vehicle,48000,standard,https://static.encyclopedia.warthunder.com/slots/uk_conqueror_mk_2.png,uk_fv221_caernarvon,0,0,1
@@ -1636,11 +1639,10 @@ uk_a30_sp_avenger,Avenger,Avenger,britain,4.7,76000,3,Наземная техн�
 uk_fv_m109_group,FV/M109,FV/M109,britain,,,4,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv4005_m109_group.png,uk_a30_sp_avenger,2,0,
 uk_fv4005,FV4005,FV4005,britain,6.3,155000,4,Наземная техника,vehicle,46000,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv4005.png,uk_fv_m109_group,2,0,0
 uk_m109a1,▄M109A1,▄M109A1,britain,6.3,185000,4,Наземная техника,vehicle,27000,standard,https://static.encyclopedia.warthunder.com/slots/uk_m109a1.png,uk_fv4005,2,0,1
-uk_g6_spg,G6,G6,britain,6.7,185000,4,Наземная техника,vehicle,54000,standard,https://static.encyclopedia.warthunder.com/slots/uk_g6_spg.png,uk_fv_m109_group,2,1,
-uk_tortoise_conway_group,Tortoise/Conway,Tortoise/Conway,britain,,,4,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/uk_tortoise_conway_group.png,uk_g6_spg,2,2,
-uk_a39_tortoise,Tortoise,Tortoise,britain,6.7,200000,4,Наземная техника,vehicle,63000,standard,https://static.encyclopedia.warthunder.com/slots/uk_a39_tortoise.png,uk_tortoise_conway_group,2,2,0
-uk_fv4004_conway,Conway,Conway,britain,7.0,210000,4,Наземная техника,vehicle,35000,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv4004_conway.png,uk_a39_tortoise,2,2,1
-uk_as_90_mk_2,AS-90,AS-90,britain,7.0,240000,4,Наземная техника,vehicle,82000,standard,,uk_tortoise_conway_group,2,3,
+uk_g6_tortoise_group,uk_g6_tortoise_group,uk_g6_tortoise_group,britain,,,4,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/uk_g6_tortoise_group.png,uk_fv_m109_group,2,1,
+uk_g6_spg,G6,G6,britain,6.7,185000,4,Наземная техника,vehicle,54000,standard,https://static.encyclopedia.warthunder.com/slots/uk_g6_spg.png,uk_g6_tortoise_group,2,1,0
+uk_a39_tortoise,Tortoise,Tortoise,britain,6.7,200000,4,Наземная техника,vehicle,31000,standard,https://static.encyclopedia.warthunder.com/slots/uk_a39_tortoise.png,uk_g6_spg,2,1,1
+uk_as_90_mk_2,AS90,AS90,britain,7.0,200000,4,Наземная техника,vehicle,63000,standard,https://static.encyclopedia.warthunder.com/slots/uk_as_90_mk_2.png,uk_g6_tortoise_group,2,2,
 uk_fv438_swingfire,Swingfire,Swingfire,britain,8.0,300000,5,Наземная техника,vehicle,105000,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv438_swingfire.png,uk_as_90_mk_2,2,0,
 uk_fv510_zt3_group,Warrior/ZT3A2,Warrior/ZT3A2,britain,,,6,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv510_zt3_group.png,uk_fv438_swingfire,2,0,
 uk_fv510_isv,Warrior,Warrior,britain,8.3,380000,6,Наземная техника,vehicle,135000,standard,https://static.encyclopedia.warthunder.com/slots/uk_fv510_isv.png,uk_fv510_zt3_group,2,0,0
@@ -2069,10 +2071,9 @@ jp_type_90b,Type 90 (B),Type 90 (B),japan,11.7,950000,7,Наземная тех�
 jp_type_10_group,Type 10/TKX,Type 10/TKX,japan,,,8,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_10_group.png,jp_type_90_group,1,0,
 jp_type_10,Type 10,Type 10,japan,12.7,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_10.png,jp_type_10_group,1,0,0
 jp_tkx_prot,TKX,TKX,japan,12.7,1100000,8,Наземная техника,vehicle,200000,standard,https://static.encyclopedia.warthunder.com/slots/jp_tkx_prot.png,jp_type_10,1,0,1
-jp_ro_ni_group,jp_ro_ni_group,jp_ro_ni_group,japan,,,1,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/jp_ho_ni_group.png,,2,0,
-jp_type_4_ho_ro,Ho-Ro,Ho-Ro,japan,1.3,700,1,Наземная техника,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_4_ho_ro.png,jp_ro_ni_group,2,0,0
-jp_type_2_ho_ni_2,Ho-Ni II,Ho-Ni II,japan,1.7,2100,1,Наземная техника,vehicle,2000,standard,,jp_type_4_ho_ro,2,0,1
-jp_hiro_sha,Ro-Go Exp.,Ro-Go Exp.,japan,1.7,2100,1,Наземная техника,vehicle,4000,standard,https://static.encyclopedia.warthunder.com/slots/jp_hiro_sha.png,jp_ro_ni_group,2,1,
+jp_type_4_ho_ro,Ho-Ro,Ho-Ro,japan,1.3,700,1,Наземная техника,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_4_ho_ro.png,,2,0,
+jp_type_2_ho_ni_2,Ho-Ni II,Ho-Ni II,japan,1.7,2100,1,Наземная техника,vehicle,4000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_2_ho_ni_2.png,jp_type_4_ho_ro,2,1,
+jp_hiro_sha,Ro-Go Exp.,Ro-Go Exp.,japan,1.7,6300,1,Наземная техника,vehicle,5900,standard,https://static.encyclopedia.warthunder.com/slots/jp_hiro_sha.png,jp_type_2_ho_ni_2,2,2,
 jp_ho_ni_group,Ho-Ni I/III,Ho-Ni I/III,japan,,,2,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/jp_ho_ni_group.png,,2,0,
 jp_type_3_ho_ni_i,Ho-Ni I,Ho-Ni I,japan,2.0,10000,2,Наземная техника,vehicle,7900,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_3_ho_ni_i.png,jp_ho_ni_group,2,0,0
 jp_type_3_ho_ni_iii,Ho-Ni III,Ho-Ni III,japan,2.3,16000,2,Наземная техника,vehicle,4600,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_3_ho_ni_iii.png,jp_type_3_ho_ni_i,2,0,1
@@ -2098,7 +2099,7 @@ jp_type_93,Type 93,Type 93,japan,9.3,710000,7,Наземная техника,ve
 jp_type_81_tansam,Type 81 (C),Type 81 (C),japan,11.7,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam.png,jp_type_93,3,1,
 jp_type_81_tansam_fcs,Tan-SAM Kai (СОЦ),Tan-SAM Kai (TADS),japan,12.0,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam_fcs.png,jp_type_81_tansam,3,0,
 jp_type_03_chusam_fcs,Type 03 (СОЦ),Type 03 (TADS),japan,12.7,1100000,8,Наземная техника,vehicle,410000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_fcs.png,jp_type_81_tansam_fcs,3,1,
-jp_btr_3e1,БТР-3Е1,BTR-3E1,japan,9.0,450000,6,Наземная техника,vehicle,160000,standard,,,4,0,
+jp_btr_3e1,БТР-3Е1,BTR-3E1,japan,9.0,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/jp_btr_3e1.png,,4,0,
 jp_m60a3_tts,▄M60A3 TTS,▄M60A3 TTS,japan,9.0,520000,6,Наземная техника,vehicle,190000,standard,https://static.encyclopedia.warthunder.com/slots/jp_m60a3_tts.png,,4,1,
 jp_stingray,▄Stingray,▄Stingray,japan,9.3,620000,6,Наземная техника,vehicle,220000,standard,https://static.encyclopedia.warthunder.com/slots/jp_stingray.png,jp_m60a3_tts,4,2,
 jp_oplot_t,BM Oplot-T,BM Oplot-T,japan,12.3,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/jp_oplot_t.png,jp_stingray,4,0,
@@ -2255,7 +2256,7 @@ ki-27_otsu_ep,Ki-27 Otsu Tachiarai,Ki-27 Otsu Tachiarai,japan,2.0,0,1,Авиац
 a7he1,A7He1,A7He1,japan,2.0,0,2,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/a7he1.png,,0,0,
 ki_44_1_ep,Ki-44-I 34,Ki-44-I 34,japan,2.7,0,2,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ki_44_1_ep.png,,0,1,
 ki_44_2_otsu,Ki-44-II Otsu,Ki-44-II Otsu,japan,3.0,0,2,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ki_44_2_otsu.png,,0,2,
-me_210_v22_japan,▅Me 210 V22,▅Me 210 V22,japan,2.7,0,2,Авиация,vehicle,,premium,,,0,3,
+me_210_v22_japan,▅Me 210 V22,▅Me 210 V22,japan,2.7,0,2,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/me_210_v22_japan.png,,0,3,
 h8k3,H8K3,H8K3,japan,4.0,0,2,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/h8k3.png,,0,4,
 ki-96,Ki-96,Ki-96,japan,3.7,0,3,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ki-96.png,,0,0,
 ki_100_2,Ki-100-II,Ki-100-II,japan,3.7,0,3,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ki_100_2.png,,0,1,
@@ -2574,7 +2575,7 @@ j_11_group,J-11,J-11,china,,,8,Авиация,folder,,standard,https://static.en
 j_11,J-11,J-11,china,13.0,860000,8,Авиация,vehicle,320000,standard,https://static.encyclopedia.warthunder.com/slots/j_11.png,j_11_group,3,0,0
 j_11a,J-11A,J-11A,china,13.3,940000,8,Авиация,vehicle,175000,standard,https://static.encyclopedia.warthunder.com/slots/j_11a.png,j_11,3,0,1
 j_11b,J-11B,J-11B,china,13.7,940000,8,Авиация,vehicle,350000,standard,https://static.encyclopedia.warthunder.com/slots/j_11b.png,j_11_group,3,1,
-j_15t,J-15T,J-15T,china,14.7,1080000,9,Авиация,vehicle,400000,standard,,j_11b,3,0,
+j_15t,J-15T,J-15T,china,14.7,1080000,9,Авиация,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/j_15t.png,j_11b,3,0,
 hawk_iii,Hawk III,Hawk III,china,1.0,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/hawk_iii.png,,0,0,
 d_510c,D.510C,D.510C,china,1.3,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/d_510c.png,,0,1,
 h-75m_china,␗H-75M,␗H-75M,china,2.0,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/h-75m_china.png,,0,2,
@@ -2809,14 +2810,15 @@ tu-2_postwar_late_hungary,◔Tu-2S-59,◔Tu-2S-59,italy,5.7,210000,4,Авиац�
 il_28_hungary,◔IL-28,◔IL-28,italy,8.0,300000,5,Авиация,vehicle,105000,standard,https://static.encyclopedia.warthunder.com/slots/il_28_hungary.png,tu-2_postwar_late_hungary,3,0,
 su_22m3_hungary,◔Su-22M3,◔Su-22M3,italy,11.0,580000,7,Авиация,vehicle,210000,standard,https://static.encyclopedia.warthunder.com/slots/su_22m3_hungary.png,il_28_hungary,3,0,
 wm_21,◔WM-21,◔WM-21,italy,1.0,700,1,Авиация,vehicle,2900,standard,,,4,0,
-re_2000_heja_1,◔Héja I,◔Héja I,italy,2.3,2100,1,Авиация,vehicle,4000,standard,,wm_21,4,1,
+re_2000_heja_1,◔Héja I,◔Héja I,italy,2.0,2100,1,Авиация,vehicle,4000,standard,,wm_21,4,1,
 re_2000_heja_2,◔Héja II,◔Héja II,italy,2.3,6300,1,Авиация,vehicle,5900,standard,,re_2000_heja_1,4,2,
 wm_23,◔WM-23,◔WM-23,italy,2.3,16000,2,Авиация,vehicle,9200,standard,,,4,0,
-me_210ca_1_hungary_group,◔Me 210 Ca,◔Me 410 Ca,italy,,,3,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/image_in_progress.png,wm_23,4,0,
-me_210ca_1_hungary,◔Me 210 Ca-1,◔Me 210 Ca-1,italy,3.0,47000,3,Авиация,vehicle,18000,standard,,me_210ca_1_hungary_group,4,0,0
-me_210ca_1_40_mm_hungary,◔Me 210 Ca-1 39M,◔Me 210 Ca-1 39M,italy,3.3,76000,3,Авиация,vehicle,13000,standard,,me_210ca_1_hungary,4,0,1
+me_210ca_1_hungary_group,◔Me 210 Ca,◔Me 210 Ca,italy,,,3,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/me_210ca_1_hungary_group.png,wm_23,4,0,
+me_210ca_1_hungary,◔Me 210 Ca-1,◔Me 210 Ca-1,italy,3.0,47000,3,Авиация,vehicle,18000,standard,https://static.encyclopedia.warthunder.com/slots/me_210ca_1_hungary.png,me_210ca_1_hungary_group,4,0,0
+me_210ca_1_40_mm_hungary,◔Me 210 Ca-1 39M,◔Me 210 Ca-1 39M,italy,3.3,76000,3,Авиация,vehicle,13000,standard,https://static.encyclopedia.warthunder.com/slots/me_210ca_1_40_mm_hungary.png,me_210ca_1_hungary,4,0,1
 yak-9p_hungary,◔Yak-9P,◔Yak-9P,italy,5.0,200000,4,Авиация,vehicle,63000,standard,https://static.encyclopedia.warthunder.com/slots/yak-9p_hungary.png,,4,0,
-mig-15bis_nr23_hungary,◔MiG-15bis,◔MiG-15bis,italy,8.3,340000,5,Авиация,vehicle,120000,standard,https://static.encyclopedia.warthunder.com/slots/mig-15bis_nr23_hungary.png,yak-9p_hungary,4,0,
+fw_190f_8_hungary,◔Fw 190 F-8,◔Fw 190 F-8,italy,5.0,210000,4,Авиация,vehicle,71000,standard,,yak-9p_hungary,4,1,
+mig-15bis_nr23_hungary,◔MiG-15bis,◔MiG-15bis,italy,8.3,340000,5,Авиация,vehicle,120000,standard,https://static.encyclopedia.warthunder.com/slots/mig-15bis_nr23_hungary.png,,4,0,
 mig-17pf_hungary,◔MiG-17PF,◔MiG-17PF,italy,8.7,420000,6,Авиация,vehicle,150000,standard,https://static.encyclopedia.warthunder.com/slots/mig-17pf_hungary.png,mig-15bis_nr23_hungary,4,0,
 mig-21_hungary_group,◔MiG-21,◔MiG-21,italy,,,7,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/mig-21_group.png,mig-17pf_hungary,4,0,
 mig-21_mf_hungary,◔MiG-21MF,◔MiG-21MF,italy,10.3,580000,7,Авиация,vehicle,210000,standard,https://static.encyclopedia.warthunder.com/slots/mig-21_mf_hungary.png,mig-21_hungary_group,4,0,0
@@ -2833,7 +2835,6 @@ hs-129b-2_romania_italy,Hs 129 B-2 (Румыния),Hs 129 B-2 (Romania),italy,2
 spitfire_mk5b_italy,▄Spitfire Mk.Vb/trop,▄Spitfire Mk Vb/trop,italy,3.7,0,3,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/spitfire_mk5b_italy.png,,0,1,
 bf-109g-2_hungary,◔Bf 109 G-2,◔Bf 109 G-2,italy,4.3,0,4,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/bf-109g-2_hungary.png,,0,0,
 g_55s,G.55S,G.55S,italy,5.0,0,4,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/g_55s.png,,0,1,
-fw_190f_8_hungary,◔Fw 190 F-8,◔Fw 190 F-8,italy,5.0,0,4,Авиация,vehicle,,premium,,,0,2,
 mb_326b,MB-326B,MB-326B,italy,6.7,0,5,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/mb_326b.png,,0,0,
 fiat_g91_r4,G.91 R/4,G.91 R/4,italy,8.7,0,5,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/fiat_g91_r4.png,,0,1,
 ariete,Ariete,Ariete,italy,9.3,0,6,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ariete.png,,0,0,
@@ -3468,7 +3469,7 @@ il_ss_11_halftrack,Zachlam Tager,Zachlam Tager,israel,6.7,200000,4,Наземн�
 il_m113_hvms,Bardelas/60mm HVMS,Bardelas/60mm HVMS,israel,7.7,340000,5,Наземная техника,vehicle,120000,standard,https://static.encyclopedia.warthunder.com/slots/il_m113_hvms.png,il_rochev_tager_group,3,0,
 il_m113a1_tow,Giraf,Giraf,israel,8.3,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/il_m113a1_tow.png,il_m113_hvms,3,0,
 il_namer_rcws_30,Namer 30,Namer 30,israel,11.3,710000,7,Наземная техника,vehicle,260000,standard,https://static.encyclopedia.warthunder.com/slots/il_namer_rcws_30.png,il_m113a1_tow,3,0,
-il_eitan,Eitan (P),Eitan (P),israel,11.3,830000,7,Наземная техника,vehicle,300000,standard,,il_namer_rcws_30,3,1,
+il_eitan,Eitan (P),Eitan (P),israel,11.3,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/il_eitan.png,il_namer_rcws_30,3,1,
 il_namer_tsrikhon,Namer Tsrikhon,Namer Tsrikhon,israel,11.3,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/il_namer_tsrikhon.png,il_eitan,3,0,
 il_m_51_w,M-51 (W),M-51 (W),israel,6.3,0,4,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/il_m_51_w.png,,0,0,
 il_sholef,Sholef,Sholef,israel,7.3,0,4,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/il_sholef.png,,0,1,

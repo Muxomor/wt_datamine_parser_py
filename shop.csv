@@ -990,7 +990,8 @@ germ_battlecruiser_mackensen_class,6,germany,Большой флот,vehicle,pre
 germ_ls_class,1,germany,Малый флот,vehicle,standard,0,0,,,False
 germ_s38,1,germany,Малый флот,vehicle,standard,0,1,,,False
 germ_s38b,2,germany,Малый флот,vehicle,standard,0,0,germ_s38,,False
-germ_s_100_class,2,germany,Малый флот,vehicle,standard,0,1,germ_s38b,,False
+germ_s30_s61,2,germany,Малый флот,vehicle,standard,0,1,germ_s38b,,False
+germ_s_100_class,2,germany,Малый флот,vehicle,standard,0,2,germ_s30_s61,,False
 germ_s_100_s_174_class,3,germany,Малый флот,vehicle,standard,0,0,germ_s_100_class,,False
 germ_pr_131,3,germany,Малый флот,vehicle,standard,0,1,germ_s_100_s_174_class,,False
 germ_vs10_hydrofoil,4,germany,Малый флот,vehicle,standard,0,0,germ_pr_131,,False
@@ -1449,6 +1450,7 @@ mig_25pd,7,ussr,Авиация,vehicle,premium,0,1,,,True
 mig_23ml,7,ussr,Авиация,vehicle,premium,0,2,,,True
 su_33,8,ussr,Авиация,vehicle,premium,0,0,,,True
 su_30mk2v_venezuela,8,ussr,Авиация,vehicle,premium,0,1,,,True
+mig_29m_9_15,8,ussr,Авиация,vehicle,premium,0,2,,,True
 mbr-2,1,ussr,Авиация,vehicle,premium,1,0,,,True
 po-2m,1,ussr,Авиация,vehicle,premium,1,1,,,True
 tb_3_m17_32,1,ussr,Авиация,vehicle,premium,1,2,,,True
@@ -1583,7 +1585,8 @@ uk_challenger_comet_group,3,britain,Наземная техника,folder,stand
 uk_a30_challenger,3,britain,Наземная техника,vehicle,standard,0,1,uk_challenger_comet_group,0,False
 uk_a_34_comet,3,britain,Наземная техника,vehicle,standard,0,1,uk_a30_challenger,1,False
 uk_centurion_mk_1,4,britain,Наземная техника,vehicle,standard,0,0,uk_challenger_comet_group,,False
-uk_centurion_mk_3,4,britain,Наземная техника,vehicle,standard,0,1,uk_centurion_mk_1,,False
+uk_fv4004_conway,4,britain,Наземная техника,vehicle,standard,0,1,uk_centurion_mk_1,,False
+uk_centurion_mk_3,4,britain,Наземная техника,vehicle,standard,0,2,uk_fv4004_conway,,False
 uk_caernarvon_conqueror_group,5,britain,Наземная техника,folder,standard,0,0,uk_centurion_mk_3,,False
 uk_fv221_caernarvon,5,britain,Наземная техника,vehicle,standard,0,0,uk_caernarvon_conqueror_group,0,False
 uk_conqueror_mk_2,5,britain,Наземная техника,vehicle,standard,0,0,uk_fv221_caernarvon,1,False
@@ -1636,11 +1639,10 @@ uk_a30_sp_avenger,3,britain,Наземная техника,vehicle,standard,2,1
 uk_fv_m109_group,4,britain,Наземная техника,folder,standard,2,0,uk_a30_sp_avenger,,False
 uk_fv4005,4,britain,Наземная техника,vehicle,standard,2,0,uk_fv_m109_group,0,False
 uk_m109a1,4,britain,Наземная техника,vehicle,standard,2,0,uk_fv4005,1,False
-uk_g6_spg,4,britain,Наземная техника,vehicle,standard,2,1,uk_fv_m109_group,,False
-uk_tortoise_conway_group,4,britain,Наземная техника,folder,standard,2,2,uk_g6_spg,,False
-uk_a39_tortoise,4,britain,Наземная техника,vehicle,standard,2,2,uk_tortoise_conway_group,0,False
-uk_fv4004_conway,4,britain,Наземная техника,vehicle,standard,2,2,uk_a39_tortoise,1,False
-uk_as_90_mk_2,4,britain,Наземная техника,vehicle,standard,2,3,uk_tortoise_conway_group,,False
+uk_g6_tortoise_group,4,britain,Наземная техника,folder,standard,2,1,uk_fv_m109_group,,False
+uk_g6_spg,4,britain,Наземная техника,vehicle,standard,2,1,uk_g6_tortoise_group,0,False
+uk_a39_tortoise,4,britain,Наземная техника,vehicle,standard,2,1,uk_g6_spg,1,False
+uk_as_90_mk_2,4,britain,Наземная техника,vehicle,standard,2,2,uk_g6_tortoise_group,,False
 uk_fv438_swingfire,5,britain,Наземная техника,vehicle,standard,2,0,uk_as_90_mk_2,,False
 uk_fv510_zt3_group,6,britain,Наземная техника,folder,standard,2,0,uk_fv438_swingfire,,False
 uk_fv510_isv,6,britain,Наземная техника,vehicle,standard,2,0,uk_fv510_zt3_group,0,False
@@ -2069,10 +2071,9 @@ jp_type_90b,7,japan,Наземная техника,vehicle,standard,1,0,jp_type
 jp_type_10_group,8,japan,Наземная техника,folder,standard,1,0,jp_type_90_group,,False
 jp_type_10,8,japan,Наземная техника,vehicle,standard,1,0,jp_type_10_group,0,False
 jp_tkx_prot,8,japan,Наземная техника,vehicle,standard,1,0,jp_type_10,1,False
-jp_ro_ni_group,1,japan,Наземная техника,folder,standard,2,0,,,False
-jp_type_4_ho_ro,1,japan,Наземная техника,vehicle,standard,2,0,jp_ro_ni_group,0,False
-jp_type_2_ho_ni_2,1,japan,Наземная техника,vehicle,standard,2,0,jp_type_4_ho_ro,1,False
-jp_hiro_sha,1,japan,Наземная техника,vehicle,standard,2,1,jp_ro_ni_group,,False
+jp_type_4_ho_ro,1,japan,Наземная техника,vehicle,standard,2,0,,,False
+jp_type_2_ho_ni_2,1,japan,Наземная техника,vehicle,standard,2,1,jp_type_4_ho_ro,,False
+jp_hiro_sha,1,japan,Наземная техника,vehicle,standard,2,2,jp_type_2_ho_ni_2,,False
 jp_ho_ni_group,2,japan,Наземная техника,folder,standard,2,0,,,False
 jp_type_3_ho_ni_i,2,japan,Наземная техника,vehicle,standard,2,0,jp_ho_ni_group,0,False
 jp_type_3_ho_ni_iii,2,japan,Наземная техника,vehicle,standard,2,0,jp_type_3_ho_ni_i,1,False
@@ -2816,7 +2817,8 @@ me_210ca_1_hungary_group,3,italy,Авиация,folder,standard,4,0,wm_23,,False
 me_210ca_1_hungary,3,italy,Авиация,vehicle,standard,4,0,me_210ca_1_hungary_group,0,False
 me_210ca_1_40_mm_hungary,3,italy,Авиация,vehicle,standard,4,0,me_210ca_1_hungary,1,False
 yak-9p_hungary,4,italy,Авиация,vehicle,standard,4,0,,,False
-mig-15bis_nr23_hungary,5,italy,Авиация,vehicle,standard,4,0,yak-9p_hungary,,False
+fw_190f_8_hungary,4,italy,Авиация,vehicle,standard,4,1,yak-9p_hungary,,False
+mig-15bis_nr23_hungary,5,italy,Авиация,vehicle,standard,4,0,,,False
 mig-17pf_hungary,6,italy,Авиация,vehicle,standard,4,0,mig-15bis_nr23_hungary,,False
 mig-21_hungary_group,7,italy,Авиация,folder,standard,4,0,mig-17pf_hungary,,False
 mig-21_mf_hungary,7,italy,Авиация,vehicle,standard,4,0,mig-21_hungary_group,0,False
@@ -2833,7 +2835,6 @@ hs-129b-2_romania_italy,3,italy,Авиация,vehicle,premium,0,0,,,False
 spitfire_mk5b_italy,3,italy,Авиация,vehicle,premium,0,1,,,False
 bf-109g-2_hungary,4,italy,Авиация,vehicle,premium,0,0,,,False
 g_55s,4,italy,Авиация,vehicle,premium,0,1,,,False
-fw_190f_8_hungary,4,italy,Авиация,vehicle,premium,0,2,,,True
 mb_326b,5,italy,Авиация,vehicle,premium,0,0,,,False
 fiat_g91_r4,5,italy,Авиация,vehicle,premium,0,1,,,False
 ariete,6,italy,Авиация,vehicle,premium,0,0,,,False
