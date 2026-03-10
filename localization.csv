@@ -213,7 +213,7 @@ f_16_group,F-16 ранний,F-16 early
 f_16a_block_10,F-16A,F-16A
 f_16a_block_15_adf,F-16A ADF,F-16A ADF
 f_16c_block_50,F-16C,F-16C
-f_16c_block_52_aesa,F-16C,F-16C
+f_16c_block_52_aesa,F-16CM PoBIT,F-16CM PoBIT
 p-36a,P-36A,P-36A
 p-36c,P-36C,P-36C
 p-36g,P-36G,P-36G
@@ -468,6 +468,7 @@ us_destroyer_porter_1944,USS Phelps,USS Phelps
 us_cruiser_omaha_class_detroit,USS Detroit,USS Detroit
 us_cruiser_des_moines_class_newport_news,USS Newport News,USS Newport News
 us_cruiser_des_moines_class,USS Des Moines,USS Des Moines
+us_battleship_oklahoma,USS Oklahoma,USS Oklahoma
 us_pt6,PT-6,PT-6
 us_nasty_ptf,PTF-7,PTF-7
 us_elco_80ft_pt_boat,PT-103,PT-103
@@ -3322,6 +3323,7 @@ sw_strv121b_christian2,Christian II,Christian II
 sw_t_80u,T 80 U,T 80 U
 sw_strv_m39_td,Strv m/39 TD,Strv m/39 TD
 sw_pbil_m40,Pbil m/40,Pbil m/40
+sw_t_50_fin,sw_t_50_fin,sw_t_50_fin
 sw_kv_1_1942_fin,▄KV-1 m1942,▄KV-1 m1942
 sw_k9_vidar,VIDAR,VIDAR
 sw_bmp_2md,BMP-2MD,BMP-2MD
@@ -3369,6 +3371,7 @@ saab_j29b,A29B,A29B
 saab_a32a,A32A,A32A
 saab_aj37,AJ37,AJ37
 saab_ajs37,AJS37,AJS37
+f_16a_block_10_norway,◢F-16A,◢F-16A
 f_16am_block_20_mlu_norway,◢F-16AM,◢F-16AM
 he_115a_2_sweden,T 2,T 2
 saab_b3c,B3C,B3C

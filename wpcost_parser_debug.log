@@ -1,8 +1,8 @@
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3529
-  Премиумных юнитов: 947
-  Обычных юнитов: 2582
+  Всего строк в CSV: 3532
+  Премиумных юнитов: 949
+  Обычных юнитов: 2583
 Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Пробуем следующий URL...
@@ -120,10 +120,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3253
-  Нормализованных ID: 3253
+  Исходных ID: 3256
+  Нормализованных ID: 3256
   Конфликтов: 0
-В wpcost найдено 3253 юнитов после нормализации
+В wpcost найдено 3256 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -1321,6 +1321,10 @@
   Премиумный юнит us_cruiser_des_moines_class: silver=0, exp=None (обнулено)
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан us_cruiser_des_moines_class (премиум): silver=0, exp=None, br=6.7
+  Обрабатываем премиумный юнит: us_battleship_oklahoma (status=premium, have_prem_flag=True)
+  Премиумный юнит us_battleship_oklahoma: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=18, raw=7.000, округлено=7
+  Обработан us_battleship_oklahoma (премиум): silver=0, exp=None, br=7
     reqExp отсутствует или некорректно для us_pt6, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_pt6: silver=0, exp=None, br=1.0
@@ -8282,6 +8286,10 @@
   Премиумный юнит sw_pbil_m40: silver=0, exp=None (обнулено)
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан sw_pbil_m40 (премиум): silver=0, exp=None, br=2
+  Обрабатываем премиумный юнит: sw_t_50_fin (status=premium, have_prem_flag=False)
+  Премиумный юнит sw_t_50_fin: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=6, raw=3.000, округлено=3
+  Обработан sw_t_50_fin (премиум): silver=0, exp=None, br=3
   Обрабатываем премиумный юнит: sw_kv_1_1942_fin (status=premium, have_prem_flag=False)
   Премиумный юнит sw_kv_1_1942_fin: silver=0, exp=None (обнулено)
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
@@ -8381,6 +8389,8 @@
   Обработан saab_aj37: silver=580000, exp=210000, br=10.3
     БР расчет: economicRank=30, raw=11.000, округлено=11
   Обработан saab_ajs37: silver=720000, exp=260000, br=11
+    БР расчет: economicRank=34, raw=12.333, округлено=12.3
+  Обработан f_16a_block_10_norway: silver=780000, exp=290000, br=12.3
     БР расчет: economicRank=38, raw=13.667, округлено=13.7
   Обработан f_16am_block_20_mlu_norway: silver=860000, exp=320000, br=13.7
     БР расчет: economicRank некорректен (0), используем fallback 1.0
@@ -8753,13 +8763,13 @@
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13
 Статистика обработки wpcost:
-  Найдено и обработано: 3137
-  Из них премиумных (с обнуленными silver/exp): 940
+  Найдено и обработано: 3140
+  Из них премиумных (с обнуленными silver/exp): 942
   Не найдено в wpcost (пропущено): 392
-  Всего ID из shop.csv: 3529
-Данные wpcost (3137 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3532
+Данные wpcost (3140 записей) сохранены в wpcost.csv
 Статистика данных:
-  Записей с опытом (exp): 2115
+  Записей с опытом (exp): 2116
   Записей с fallback БР (1.0): 157
-  Всего записей: 3137
+  Всего записей: 3140
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

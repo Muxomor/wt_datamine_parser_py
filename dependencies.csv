@@ -311,7 +311,6 @@ germ_pzkpfw_38t_ausf_a,germ_pzkpfw_35t
 germ_pzkpfw_38t_group,germ_pzkpfw_38t_ausf_a
 germ_pzkpfw_38t_ausf_f,germ_pzkpfw_38t_group
 germ_pzkpfw_38t_na,germ_pzkpfw_38t_ausf_f
-germ_amd_35_kwk39,germ_pzkpfw_38t_group
 germ_sdkfz_234_2,germ_amd_35_kwk39
 germ_dicker_sturer_group,germ_sdkfz_234_2
 germ_pzsfl_iva_dickermax,germ_dicker_sturer_group
@@ -1067,7 +1066,6 @@ uk_stormer_hvm,uk_stormer_9a35_group
 uk_9a35_m,uk_stormer_hvm
 uk_adats_m113a3,uk_stormer_9a35_group
 uk_sky_sabre_fcs,uk_adats_m113a3
-uk_marmon_herrington_mk_6_2pdr,uk_sarc_mk4_a
 uk_a25_mk_8,uk_marmon_herrington_mk_6_2pdr
 uk_marmon_herrington_mk_6_6pdr,uk_a25_mk_8
 uk_concept3_ngac,uk_marmon_herrington_mk_6_6pdr
@@ -1895,7 +1893,6 @@ it_ciclone_class_ghibli,it_gabbiano_class
 it_albatros_class_f543,it_ciclone_class_ghibli
 fr_amc_34,fr_hotchkiss_fcm_group
 fr_amc_35,fr_amd_35
-fr_amd_35_kwk39,fr_amc_35
 fr_crusader_mk_2,fr_amd_35_kwk39
 fr_amx_13_fl_11,fr_crusader_mk_2
 fr_panhard_ebr_1951,fr_amx_13_fl_11
@@ -2212,7 +2209,8 @@ saab_j29b,saab_a21rb
 saab_a32a,saab_j29b
 saab_aj37,saab_a32a
 saab_ajs37,saab_aj37
-f_16am_block_20_mlu_norway,saab_ajs37
+f_16a_block_10_norway,saab_ajs37
+f_16am_block_20_mlu_norway,f_16a_block_10_norway
 saab_b3c,he_115a_2_sweden
 ju-88a-4_finland,saab_b18a
 saab_b18b,ju-88a-4_finland

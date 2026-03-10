@@ -468,6 +468,7 @@ us_destroyer_porter_1944,3,usa,Большой флот,vehicle,premium,1,1,,,Tru
 us_cruiser_omaha_class_detroit,3,usa,Большой флот,vehicle,premium,1,2,,,True
 us_cruiser_des_moines_class_newport_news,5,usa,Большой флот,vehicle,premium,1,0,,,True
 us_cruiser_des_moines_class,5,usa,Большой флот,vehicle,premium,1,1,,,False
+us_battleship_oklahoma,6,usa,Большой флот,vehicle,premium,1,0,,,True
 us_pt6,1,usa,Малый флот,vehicle,standard,0,0,,,False
 us_nasty_ptf,1,usa,Малый флот,vehicle,standard,0,1,us_pt6,,False
 us_elco_80ft_pt_boat,2,usa,Малый флот,vehicle,standard,0,0,us_nasty_ptf,,False
@@ -509,7 +510,7 @@ germ_pzkpfw_38t_ausf_a,1,germany,Наземная техника,vehicle,standar
 germ_pzkpfw_38t_group,1,germany,Наземная техника,folder,standard,0,3,germ_pzkpfw_38t_ausf_a,,False
 germ_pzkpfw_38t_ausf_f,1,germany,Наземная техника,vehicle,standard,0,3,germ_pzkpfw_38t_group,0,False
 germ_pzkpfw_38t_na,1,germany,Наземная техника,vehicle,standard,0,3,germ_pzkpfw_38t_ausf_f,1,False
-germ_amd_35_kwk39,2,germany,Наземная техника,vehicle,standard,0,0,germ_pzkpfw_38t_group,,False
+germ_amd_35_kwk39,2,germany,Наземная техника,vehicle,standard,0,0,,,False
 germ_sdkfz_234_2,2,germany,Наземная техника,vehicle,standard,0,1,germ_amd_35_kwk39,,False
 germ_dicker_sturer_group,2,germany,Наземная техника,folder,standard,0,2,germ_sdkfz_234_2,,False
 germ_pzsfl_iva_dickermax,2,germany,Наземная техника,vehicle,standard,0,2,germ_dicker_sturer_group,0,False
@@ -1673,7 +1674,7 @@ uk_adats_m113a3,8,britain,Наземная техника,vehicle,standard,3,0,u
 uk_sky_sabre_fcs,8,britain,Наземная техника,vehicle,standard,3,1,uk_adats_m113a3,,False
 uk_mark_v,1,britain,Наземная техника,vehicle,standard,4,0,,,True
 uk_sarc_mk4_a,1,britain,Наземная техника,vehicle,standard,4,1,,,False
-uk_marmon_herrington_mk_6_2pdr,2,britain,Наземная техника,vehicle,standard,4,0,uk_sarc_mk4_a,,False
+uk_marmon_herrington_mk_6_2pdr,2,britain,Наземная техника,vehicle,standard,4,0,,,False
 uk_a25_mk_8,2,britain,Наземная техника,vehicle,standard,4,1,uk_marmon_herrington_mk_6_2pdr,,False
 uk_marmon_herrington_mk_6_6pdr,2,britain,Наземная техника,vehicle,standard,4,2,uk_a25_mk_8,,False
 uk_concept3_ngac,3,britain,Наземная техника,vehicle,standard,4,0,uk_marmon_herrington_mk_6_6pdr,,False
@@ -2918,7 +2919,7 @@ fr_hotchkiss_h35,1,france,Наземная техника,vehicle,standard,0,0,,
 fr_fcm_36,1,france,Наземная техника,vehicle,standard,0,0,,2,False
 fr_amd_35,1,france,Наземная техника,vehicle,standard,0,1,,,False
 fr_amc_35,1,france,Наземная техника,vehicle,standard,0,2,fr_amd_35,,False
-fr_amd_35_kwk39,2,france,Наземная техника,vehicle,standard,0,0,fr_amc_35,,False
+fr_amd_35_kwk39,2,france,Наземная техника,vehicle,standard,0,0,,,False
 fr_crusader_mk_2,2,france,Наземная техника,vehicle,standard,0,1,fr_amd_35_kwk39,,False
 fr_amx_13_fl_11,3,france,Наземная техника,vehicle,standard,0,0,fr_crusader_mk_2,,False
 fr_panhard_ebr_1951,3,france,Наземная техника,vehicle,standard,0,1,fr_amx_13_fl_11,,False
@@ -3322,6 +3323,7 @@ sw_strv121b_christian2,7,sweden,Наземная техника,vehicle,premium,
 sw_t_80u,8,sweden,Наземная техника,vehicle,premium,0,0,,,True
 sw_strv_m39_td,1,sweden,Наземная техника,vehicle,premium,1,0,,,True
 sw_pbil_m40,1,sweden,Наземная техника,vehicle,premium,1,1,,,True
+sw_t_50_fin,2,sweden,Наземная техника,vehicle,premium,1,0,,,False
 sw_kv_1_1942_fin,3,sweden,Наземная техника,vehicle,premium,1,0,,,False
 sw_k9_vidar,5,sweden,Наземная техника,vehicle,premium,1,0,,,True
 sw_bmp_2md,6,sweden,Наземная техника,vehicle,premium,1,0,,,True
@@ -3369,7 +3371,8 @@ saab_j29b,5,sweden,Авиация,vehicle,standard,1,1,saab_a21rb,,False
 saab_a32a,6,sweden,Авиация,vehicle,standard,1,0,saab_j29b,,False
 saab_aj37,7,sweden,Авиация,vehicle,standard,1,0,saab_a32a,,False
 saab_ajs37,7,sweden,Авиация,vehicle,standard,1,1,saab_aj37,,False
-f_16am_block_20_mlu_norway,8,sweden,Авиация,vehicle,standard,1,0,saab_ajs37,,False
+f_16a_block_10_norway,8,sweden,Авиация,vehicle,standard,1,0,saab_ajs37,,False
+f_16am_block_20_mlu_norway,8,sweden,Авиация,vehicle,standard,1,1,f_16a_block_10_norway,,False
 he_115a_2_sweden,1,sweden,Авиация,vehicle,standard,2,0,,,False
 saab_b3c,1,sweden,Авиация,vehicle,standard,2,1,he_115a_2_sweden,,False
 saab_b18a,2,sweden,Авиация,vehicle,standard,2,0,,,False

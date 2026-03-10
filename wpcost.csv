@@ -415,6 +415,7 @@ us_destroyer_porter_1944,0,,5
 us_cruiser_omaha_class_detroit,0,,5
 us_cruiser_des_moines_class_newport_news,0,,6.7
 us_cruiser_des_moines_class,0,,6.7
+us_battleship_oklahoma,0,,7
 us_pt6,0,,1.0
 us_nasty_ptf,2100,4000,1.7
 us_elco_80ft_pt_boat,16000,9200,1.7
@@ -2956,6 +2957,7 @@ sw_strv121b_christian2,0,,10.7
 sw_t_80u,0,,11.3
 sw_strv_m39_td,0,,1.0
 sw_pbil_m40,0,,2
+sw_t_50_fin,0,,3
 sw_kv_1_1942_fin,0,,4.7
 sw_k9_vidar,0,,8
 sw_bmp_2md,0,,8.7
@@ -2997,6 +2999,7 @@ saab_j29b,300000,105000,7.7
 saab_a32a,480000,170000,9
 saab_aj37,580000,210000,10.3
 saab_ajs37,720000,260000,11
+f_16a_block_10_norway,780000,290000,12.3
 f_16am_block_20_mlu_norway,860000,320000,13.7
 he_115a_2_sweden,700,2900,1.0
 saab_b3c,2100,4000,1.3
