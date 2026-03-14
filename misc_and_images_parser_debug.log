@@ -300,8 +300,8 @@
 Загружено 3532 ID из shop.csv
 Загрузка списка изображений из GitHub...
 Отправляем запрос к GitHub Tree API: https://api.github.com/repos/gszabi99/War-Thunder-Datamine/git/trees/master?recursive=1
-Получен ответ от GitHub Tree API. Status: 200, Size: 15680512 bytes
-GitHub Tree API вернул 54708 элементов
+Получен ответ от GitHub Tree API. Status: 200, Size: 15714159 bytes
+GitHub Tree API вернул 54825 элементов
     Файл: a-20g -> https://static.encyclopedia.warthunder.com/slots/a-20g.png
     Файл: a-26_group -> https://static.encyclopedia.warthunder.com/slots/a-26_group.png
     Файл: a-26b -> https://static.encyclopedia.warthunder.com/slots/a-26b.png
@@ -877,6 +877,7 @@ GitHub Tree API вернул 54708 элементов
     Файл: f_16a_block_10 -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_10.png
     Файл: f_16a_block_10_iaf -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_iaf.png
     Файл: f_16a_block_10_netz_mod -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_netz_mod.png
+    Файл: f_16a_block_10_norway -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_norway.png
     Файл: f_16a_block_15_adf -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_15_adf.png
     Файл: f_16a_block_15_adf_italy -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_15_adf_italy.png
     Файл: f_16a_block_15_belgium -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_15_belgium.png
@@ -1158,6 +1159,7 @@ GitHub Tree API вернул 54708 элементов
     Файл: fw-190d_group -> https://static.encyclopedia.warthunder.com/slots/fw-190d_group.png
     Файл: fw-190f-8 -> https://static.encyclopedia.warthunder.com/slots/fw-190f-8.png
     Файл: fw_190a_5_u14 -> https://static.encyclopedia.warthunder.com/slots/fw_190a_5_u14.png
+    Файл: fw_190f_8_hungary -> https://static.encyclopedia.warthunder.com/slots/fw_190f_8_hungary.png
     Файл: fw_200c_1 -> https://static.encyclopedia.warthunder.com/slots/fw_200c_1.png
     Файл: g4m1 -> https://static.encyclopedia.warthunder.com/slots/g4m1.png
     Файл: g5n1 -> https://static.encyclopedia.warthunder.com/slots/g5n1.png
@@ -2418,6 +2420,7 @@ GitHub Tree API вернул 54708 элементов
     Файл: mig_29_9_12b_hungary -> https://static.encyclopedia.warthunder.com/slots/mig_29_9_12b_hungary.png
     Файл: mig_29_9_12g -> https://static.encyclopedia.warthunder.com/slots/mig_29_9_12g.png
     Файл: mig_29_9_13 -> https://static.encyclopedia.warthunder.com/slots/mig_29_9_13.png
+    Файл: mig_29m_9_15 -> https://static.encyclopedia.warthunder.com/slots/mig_29m_9_15.png
     Файл: mig_29n -> https://static.encyclopedia.warthunder.com/slots/mig_29n.png
     Файл: mig_29smt_9_19 -> https://static.encyclopedia.warthunder.com/slots/mig_29smt_9_19.png
     Файл: mig_3_series_1_15 -> https://static.encyclopedia.warthunder.com/slots/mig_3_series_1_15.png
@@ -2939,6 +2942,7 @@ GitHub Tree API вернул 54708 элементов
     Файл: sw_t_34_1941 -> https://static.encyclopedia.warthunder.com/slots/sw_t_34_1941.png
     Файл: sw_t_34_85_zis_53 -> https://static.encyclopedia.warthunder.com/slots/sw_t_34_85_zis_53.png
     Файл: sw_t_34_pz_4_group -> https://static.encyclopedia.warthunder.com/slots/sw_t_34_pz_4_group.png
+    Файл: sw_t_50_fin -> https://static.encyclopedia.warthunder.com/slots/sw_t_50_fin.png
     Файл: sw_t_54_1951 -> https://static.encyclopedia.warthunder.com/slots/sw_t_54_1951.png
     Файл: sw_t_55m -> https://static.encyclopedia.warthunder.com/slots/sw_t_55m.png
     Файл: sw_t_72m1 -> https://static.encyclopedia.warthunder.com/slots/sw_t_72m1.png
@@ -4234,9 +4238,9 @@ GitHub Tree API вернул 54708 элементов
     Файл: z_9wa -> https://static.encyclopedia.warthunder.com/slots/z_9wa.png
     Файл: zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
 ДИАГНОСТИКА GitHub Tree API:
-  Всего элементов в дереве: 54708
-  Файлов в целевой папке: 3928
-  PNG файлов: 3928
+  Всего элементов в дереве: 54825
+  Файлов в целевой папке: 3932
+  PNG файлов: 3932
   Проблемных файлов найдено: 3 из 3
   Найденные проблемные файлы: ['us_m24_chaffee.png', 'us_m2a4.png', 'us_m3_stuart.png']
   Первые 10 PNG файлов: ['a-20g', 'a-26_group', 'a-26b', 'a-26b_10', 'a-26c-45-dt', 'a-26c', 'a-35b', 'a2d', 'a5m4', 'a5m4_hagiri']
@@ -7249,10 +7253,8 @@ GitHub Tree API вернул 54708 элементов
   Найдено изображение: su_33 -> https://static.encyclopedia.warthunder.com/slots/su_33.png
     Найдено: su_30mk2v_venezuela -> su_30mk2v_venezuela -> https://static.encyclopedia.warthunder.com/slots/su_30mk2v_venezuela.png
   Найдено изображение: su_30mk2v_venezuela -> https://static.encyclopedia.warthunder.com/slots/su_30mk2v_venezuela.png
-    Вариант не найден: mig_29m_9_15
-    Вариант не найден: mig-29m-9-15
-    Изображение не найдено для: mig_29m_9_15
-  Изображение не найдено: mig_29m_9_15
+    Найдено: mig_29m_9_15 -> mig_29m_9_15 -> https://static.encyclopedia.warthunder.com/slots/mig_29m_9_15.png
+  Найдено изображение: mig_29m_9_15 -> https://static.encyclopedia.warthunder.com/slots/mig_29m_9_15.png
     Найдено: mbr-2 -> mbr-2 -> https://static.encyclopedia.warthunder.com/slots/mbr-2.png
   Найдено изображение: mbr-2 -> https://static.encyclopedia.warthunder.com/slots/mbr-2.png
     Найдено: po-2m -> po-2m -> https://static.encyclopedia.warthunder.com/slots/po-2m.png
@@ -10080,10 +10082,8 @@ GitHub Tree API вернул 54708 элементов
   Найдено изображение: me_210ca_1_40_mm_hungary -> https://static.encyclopedia.warthunder.com/slots/me_210ca_1_40_mm_hungary.png
     Найдено: yak-9p_hungary -> yak-9p_hungary -> https://static.encyclopedia.warthunder.com/slots/yak-9p_hungary.png
   Найдено изображение: yak-9p_hungary -> https://static.encyclopedia.warthunder.com/slots/yak-9p_hungary.png
-    Вариант не найден: fw_190f_8_hungary
-    Вариант не найден: fw-190f-8-hungary
-    Изображение не найдено для: fw_190f_8_hungary
-  Изображение не найдено: fw_190f_8_hungary
+    Найдено: fw_190f_8_hungary -> fw_190f_8_hungary -> https://static.encyclopedia.warthunder.com/slots/fw_190f_8_hungary.png
+  Найдено изображение: fw_190f_8_hungary -> https://static.encyclopedia.warthunder.com/slots/fw_190f_8_hungary.png
     Найдено: mig-15bis_nr23_hungary -> mig-15bis_nr23_hungary -> https://static.encyclopedia.warthunder.com/slots/mig-15bis_nr23_hungary.png
   Найдено изображение: mig-15bis_nr23_hungary -> https://static.encyclopedia.warthunder.com/slots/mig-15bis_nr23_hungary.png
     Найдено: mig-17pf_hungary -> mig-17pf_hungary -> https://static.encyclopedia.warthunder.com/slots/mig-17pf_hungary.png
@@ -11106,10 +11106,8 @@ GitHub Tree API вернул 54708 элементов
   Найдено изображение: sw_strv_m39_td -> https://static.encyclopedia.warthunder.com/slots/sw_strv_m39_td.png
     Найдено: sw_pbil_m40 -> sw_pbil_m40 -> https://static.encyclopedia.warthunder.com/slots/sw_pbil_m40.png
   Найдено изображение: sw_pbil_m40 -> https://static.encyclopedia.warthunder.com/slots/sw_pbil_m40.png
-    Вариант не найден: sw_t_50_fin
-    Вариант не найден: sw-t-50-fin
-    Изображение не найдено для: sw_t_50_fin
-  Изображение не найдено: sw_t_50_fin
+    Найдено: sw_t_50_fin -> sw_t_50_fin -> https://static.encyclopedia.warthunder.com/slots/sw_t_50_fin.png
+  Найдено изображение: sw_t_50_fin -> https://static.encyclopedia.warthunder.com/slots/sw_t_50_fin.png
     Найдено: sw_kv_1_1942_fin -> sw_kv_1_1942_fin -> https://static.encyclopedia.warthunder.com/slots/sw_kv_1_1942_fin.png
   Найдено изображение: sw_kv_1_1942_fin -> https://static.encyclopedia.warthunder.com/slots/sw_kv_1_1942_fin.png
     Найдено: sw_k9_vidar -> sw_k9_vidar -> https://static.encyclopedia.warthunder.com/slots/sw_k9_vidar.png
@@ -11211,10 +11209,8 @@ GitHub Tree API вернул 54708 элементов
   Найдено изображение: saab_aj37 -> https://static.encyclopedia.warthunder.com/slots/saab_aj37.png
     Найдено: saab_ajs37 -> saab_ajs37 -> https://static.encyclopedia.warthunder.com/slots/saab_ajs37.png
   Найдено изображение: saab_ajs37 -> https://static.encyclopedia.warthunder.com/slots/saab_ajs37.png
-    Вариант не найден: f_16a_block_10_norway
-    Вариант не найден: f-16a-block-10-norway
-    Изображение не найдено для: f_16a_block_10_norway
-  Изображение не найдено: f_16a_block_10_norway
+    Найдено: f_16a_block_10_norway -> f_16a_block_10_norway -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_norway.png
+  Найдено изображение: f_16a_block_10_norway -> https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_norway.png
     Найдено: f_16am_block_20_mlu_norway -> f_16am_block_20_mlu_norway -> https://static.encyclopedia.warthunder.com/slots/f_16am_block_20_mlu_norway.png
   Найдено изображение: f_16am_block_20_mlu_norway -> https://static.encyclopedia.warthunder.com/slots/f_16am_block_20_mlu_norway.png
     Найдено: he_115a_2_sweden -> he_115a_2_sweden -> https://static.encyclopedia.warthunder.com/slots/he_115a_2_sweden.png
@@ -11536,27 +11532,23 @@ GitHub Tree API вернул 54708 элементов
     Найдено: kfir_c10_colombia -> kfir_c10_colombia -> https://static.encyclopedia.warthunder.com/slots/kfir_c10_colombia.png
   Найдено изображение: kfir_c10_colombia -> https://static.encyclopedia.warthunder.com/slots/kfir_c10_colombia.png
 Статистика изображений техники:
-  Найдено обычным поиском: 3503
+  Найдено обычным поиском: 3507
   Найдено через fallback: 23
-  Всего найдено: 3526
-  Недоступно: 6
+  Всего найдено: 3530
+  Недоступно: 2
   Всего обработано: 3532
-  Процент успеха: 99.8%
+  Процент успеха: 99.9%
 
 Первые 10 проблемных ID:
   - ah_64a_killstreak
   - mi_35m_killstreak
-  - mig_29m_9_15
-  - fw_190f_8_hungary
-  - sw_t_50_fin
-  - f_16a_block_10_norway
 Данные об изображениях техники (3532 записей) сохранены в shop_images.csv
 Обработка изображений техники завершена успешно!
 Загрузка данных версии из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/version
-Данные версии успешно загружены: 2.54.0.29
+Данные версии успешно загружены: 2.54.0.45
 Обработка данных версии...
-Версия валидна: 2.54.0.29
-Данные версии сохранены в version.csv: 2.54.0.29
+Версия валидна: 2.54.0.45
+Данные версии сохранены в version.csv: 2.54.0.45
 Обработка версии завершена успешно!
 Парсинг misc данных завершен!
 Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

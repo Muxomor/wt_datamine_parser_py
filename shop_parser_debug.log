@@ -705,7 +705,7 @@
   Найдено поле image: uk_fv_m109_group -> uk_fv4005_m109_group
         ОТЛАДКА: get_group_items добавлен uk_fv4005 с order=0
         ОТЛАДКА: get_group_items добавлен uk_m109a1 с order=1
-  Найдено поле image: uk_g6_tortoise_group -> uk_a39_tortoise
+  Найдено поле image: uk_g6_tortoise_group -> uk_g6_tortoise_group
         ОТЛАДКА: get_group_items добавлен uk_g6_spg с order=0
         ОТЛАДКА: get_group_items добавлен uk_a39_tortoise с order=1
   Найдено поле image: uk_fv510_zt3_group -> uk_fv510_isv
@@ -2164,7 +2164,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'jp_type_03_chusam_launcher', 'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher'}
+Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'jp_type_81_tansam_launcher', 'us_nasams_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'uk_sky_sabre_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -2587,7 +2587,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'sw_nasams_launcher', 'jp_type_
         ОТЛАДКА: get_group_items добавлен us_m4a3e8_76w_sherman_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен us_m18_hellcat_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен us_skink_aa_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 18/33 = 0.55, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 17/33 = 0.52, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника us_m2a4_1st_armor_div, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m2a4_1st_armor_div имеет reqAir='', предшественника нет
@@ -2654,7 +2654,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'sw_nasams_launcher', 'jp_type_
       ОТЛАДКА: Добавлена техника us_m46_patton_73_armor_bat с предшественником '', статус: premium, have_prem_flag: False
       ОТЛАДКА: Техника us_m728, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_m728 имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника us_m728 с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Добавлена техника us_m728 с предшественником '', статус: premium, have_prem_flag: False
       ОТЛАДКА: Техника us_t54e2, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника us_t54e2 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_t54e2 с предшественником '', статус: premium, have_prem_flag: False

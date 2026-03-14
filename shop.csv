@@ -124,7 +124,7 @@ us_t20,4,usa,Наземная техника,vehicle,premium,0,1,,,False
 us_m26_t99,4,usa,Наземная техника,vehicle,premium,0,2,,,False
 us_m26e1_pershing,4,usa,Наземная техника,vehicle,premium,0,3,,,True
 us_m46_patton_73_armor_bat,4,usa,Наземная техника,vehicle,premium,0,4,,,False
-us_m728,5,usa,Наземная техника,vehicle,premium,0,0,,,True
+us_m728,5,usa,Наземная техника,vehicle,premium,0,0,,,False
 us_t54e2,5,usa,Наземная техника,vehicle,premium,0,1,,,False
 us_t54e1,5,usa,Наземная техника,vehicle,premium,0,2,,,False
 us_t58,5,usa,Наземная техника,vehicle,premium,0,3,,,True

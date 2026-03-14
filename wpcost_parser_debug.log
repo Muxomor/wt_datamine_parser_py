@@ -397,7 +397,7 @@
   Премиумный юнит us_m46_patton_73_armor_bat: silver=0, exp=None (обнулено)
     БР расчет: economicRank=18, raw=7.000, округлено=7
   Обработан us_m46_patton_73_armor_bat (премиум): silver=0, exp=None, br=7
-  Обрабатываем премиумный юнит: us_m728 (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: us_m728 (status=premium, have_prem_flag=False)
   Премиумный юнит us_m728: silver=0, exp=None (обнулено)
     БР расчет: economicRank=18, raw=7.000, округлено=7
   Обработан us_m728 (премиум): silver=0, exp=None, br=7

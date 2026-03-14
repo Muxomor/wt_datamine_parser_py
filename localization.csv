@@ -1443,10 +1443,10 @@ yak-3_vk107,Як-3 (ВК-107),Yak-3 (VK-107)
 l_39za,▂L-39ZA Albatros,▂L-39ZA Albatros
 su-11,Су-11,Su-11
 mig-15bis_ish,МиГ-15бис ИШ,MiG-15bis ISh
-mig-17_cuba,МиГ-17AC,MiG-17AS
+mig-17_cuba,MiG-17AS,MiG-17AS
 yak-38,Як-38,Yak-38
 mig-21_s,МиГ-21С (Р-13-300),MiG-21S (R-13-300)
-su_22m3,Су-22М3,Su-22M3
+su_22m3,Su-22M3,Su-22M3
 mig_25pd,МиГ-25ПД,MiG-25PD
 mig_23ml,МиГ-23МЛ,MiG-23ML
 su_33,Су-33,Su-33
@@ -1478,8 +1478,8 @@ tu-1,Ту-1,Tu-1
 bi,БИ,BI
 la_174,Ла-174,La-174
 mig-21_pfm,МиГ-21ПФМ,MiG-21PFM
-su-7bmk,Су-7БМК,Su-7BMK
-su_25k,Су-25К,Su-25K
+su-7bmk,Su-7BMK,Su-7BMK
+su_25k,Su-25K,Su-25K
 su_25_558arz,Су-25БМ,Su-25BM
 su_25tm,Су-39,Su-39
 ussr_destroyer_frunze,Фрунзе,Frunze
@@ -1640,7 +1640,7 @@ uk_a30_sp_avenger,Avenger,Avenger
 uk_fv_m109_group,FV/M109,FV/M109
 uk_fv4005,FV4005,FV4005
 uk_m109a1,▄M109A1,▄M109A1
-uk_g6_tortoise_group,uk_g6_tortoise_group,uk_g6_tortoise_group
+uk_g6_tortoise_group,G6/Tortoise,G6/Tortoise
 uk_g6_spg,G6,G6
 uk_a39_tortoise,Tortoise,Tortoise
 uk_as_90_mk_2,AS90,AS90
@@ -3323,7 +3323,7 @@ sw_strv121b_christian2,Christian II,Christian II
 sw_t_80u,T 80 U,T 80 U
 sw_strv_m39_td,Strv m/39 TD,Strv m/39 TD
 sw_pbil_m40,Pbil m/40,Pbil m/40
-sw_t_50_fin,sw_t_50_fin,sw_t_50_fin
+sw_t_50_fin,▄T-50,▄T-50
 sw_kv_1_1942_fin,▄KV-1 m1942,▄KV-1 m1942
 sw_k9_vidar,VIDAR,VIDAR
 sw_bmp_2md,BMP-2MD,BMP-2MD
