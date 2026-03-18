@@ -300,8 +300,8 @@
 Загружено 3532 ID из shop.csv
 Загрузка списка изображений из GitHub...
 Отправляем запрос к GitHub Tree API: https://api.github.com/repos/gszabi99/War-Thunder-Datamine/git/trees/master?recursive=1
-Получен ответ от GitHub Tree API. Status: 200, Size: 15714159 bytes
-GitHub Tree API вернул 54825 элементов
+Получен ответ от GitHub Tree API. Status: 200, Size: 15715599 bytes
+GitHub Tree API вернул 54830 элементов
     Файл: a-20g -> https://static.encyclopedia.warthunder.com/slots/a-20g.png
     Файл: a-26_group -> https://static.encyclopedia.warthunder.com/slots/a-26_group.png
     Файл: a-26b -> https://static.encyclopedia.warthunder.com/slots/a-26b.png
@@ -4238,7 +4238,7 @@ GitHub Tree API вернул 54825 элементов
     Файл: z_9wa -> https://static.encyclopedia.warthunder.com/slots/z_9wa.png
     Файл: zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
 ДИАГНОСТИКА GitHub Tree API:
-  Всего элементов в дереве: 54825
+  Всего элементов в дереве: 54830
   Файлов в целевой папке: 3932
   PNG файлов: 3932
   Проблемных файлов найдено: 3 из 3
@@ -11545,10 +11545,10 @@ GitHub Tree API вернул 54825 элементов
 Данные об изображениях техники (3532 записей) сохранены в shop_images.csv
 Обработка изображений техники завершена успешно!
 Загрузка данных версии из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/version
-Данные версии успешно загружены: 2.54.0.45
+Данные версии успешно загружены: 2.55.0.7
 Обработка данных версии...
-Версия валидна: 2.54.0.45
-Данные версии сохранены в version.csv: 2.54.0.45
+Версия валидна: 2.55.0.7
+Данные версии сохранены в version.csv: 2.55.0.7
 Обработка версии завершена успешно!
 Парсинг misc данных завершен!
 Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

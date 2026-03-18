@@ -2100,7 +2100,7 @@ jp_type_93,Type 93,Type 93,japan,9.3,710000,7,Наземная техника,ve
 jp_type_81_tansam,Type 81 (C),Type 81 (C),japan,11.7,830000,7,Наземная техника,vehicle,300000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam.png,jp_type_93,3,1,
 jp_type_81_tansam_fcs,Tan-SAM Kai (СОЦ),Tan-SAM Kai (TADS),japan,12.0,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_81_tansam_fcs.png,jp_type_81_tansam,3,0,
 jp_type_03_chusam_fcs,Type 03 (СОЦ),Type 03 (TADS),japan,12.7,1100000,8,Наземная техника,vehicle,410000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_03_chusam_fcs.png,jp_type_81_tansam_fcs,3,1,
-jp_btr_3e1,БТР-3Е1,BTR-3E1,japan,9.0,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/jp_btr_3e1.png,,4,0,
+jp_btr_3e1,BTR-3E1,BTR-3E1,japan,9.0,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/jp_btr_3e1.png,,4,0,
 jp_m60a3_tts,▄M60A3 TTS,▄M60A3 TTS,japan,9.0,520000,6,Наземная техника,vehicle,190000,standard,https://static.encyclopedia.warthunder.com/slots/jp_m60a3_tts.png,,4,1,
 jp_stingray,▄Stingray,▄Stingray,japan,9.3,620000,6,Наземная техника,vehicle,220000,standard,https://static.encyclopedia.warthunder.com/slots/jp_stingray.png,jp_m60a3_tts,4,2,
 jp_oplot_t,BM Oplot-T,BM Oplot-T,japan,12.3,1080000,8,Наземная техника,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/jp_oplot_t.png,jp_stingray,4,0,
@@ -2816,7 +2816,7 @@ re_2000_heja_2,◔Héja II,◔Héja II,italy,2.3,6300,1,Авиация,vehicle,5
 wm_23,◔WM-23,◔WM-23,italy,2.3,16000,2,Авиация,vehicle,9200,standard,https://static.encyclopedia.warthunder.com/slots/wm_23.png,,4,0,
 me_210ca_1_hungary_group,◔Me 210 Ca,◔Me 210 Ca,italy,,,3,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/me_210ca_1_hungary_group.png,wm_23,4,0,
 me_210ca_1_hungary,◔Me 210 Ca-1,◔Me 210 Ca-1,italy,3.0,47000,3,Авиация,vehicle,18000,standard,https://static.encyclopedia.warthunder.com/slots/me_210ca_1_hungary.png,me_210ca_1_hungary_group,4,0,0
-me_210ca_1_40_mm_hungary,◔Me 210 Ca-1 39M,◔Me 210 Ca-1 39M,italy,3.3,76000,3,Авиация,vehicle,13000,standard,https://static.encyclopedia.warthunder.com/slots/me_210ca_1_40_mm_hungary.png,me_210ca_1_hungary,4,0,1
+me_210ca_1_40_mm_hungary,◔Me 210 Ca-1 36.M,◔Me 210 Ca-1 36.M,italy,3.3,76000,3,Авиация,vehicle,13000,standard,https://static.encyclopedia.warthunder.com/slots/me_210ca_1_40_mm_hungary.png,me_210ca_1_hungary,4,0,1
 yak-9p_hungary,◔Yak-9P,◔Yak-9P,italy,5.0,200000,4,Авиация,vehicle,63000,standard,https://static.encyclopedia.warthunder.com/slots/yak-9p_hungary.png,,4,0,
 fw_190f_8_hungary,◔Fw 190 F-8,◔Fw 190 F-8,italy,5.0,210000,4,Авиация,vehicle,71000,standard,https://static.encyclopedia.warthunder.com/slots/fw_190f_8_hungary.png,yak-9p_hungary,4,1,
 mig-15bis_nr23_hungary,◔MiG-15bis,◔MiG-15bis,italy,8.3,340000,5,Авиация,vehicle,120000,standard,https://static.encyclopedia.warthunder.com/slots/mig-15bis_nr23_hungary.png,,4,0,

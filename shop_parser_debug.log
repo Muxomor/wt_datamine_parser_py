@@ -2164,7 +2164,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'jp_type_81_tansam_launcher', 'us_nasams_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'uk_sky_sabre_launcher'}
+Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_launcher', 'ussr_buk_m3_launcher', 'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'jp_type_03_chusam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'fr_samp_t_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
