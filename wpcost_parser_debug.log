@@ -1,7 +1,7 @@
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3532
-  Премиумных юнитов: 949
+  Всего строк в CSV: 3530
+  Премиумных юнитов: 947
   Обычных юнитов: 2583
 Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
@@ -120,10 +120,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3256
-  Нормализованных ID: 3256
+  Исходных ID: 3260
+  Нормализованных ID: 3260
   Конфликтов: 0
-В wpcost найдено 3256 юнитов после нормализации
+В wpcost найдено 3260 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -610,10 +610,6 @@
   Премиумный юнит yah_64: silver=0, exp=None (обнулено)
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан yah_64 (премиум): silver=0, exp=None, br=11.3
-  Обрабатываем премиумный юнит: ah_64a_killstreak (status=premium, have_prem_flag=True)
-  Премиумный юнит ah_64a_killstreak: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=32, raw=11.667, округлено=11.7
-  Обработан ah_64a_killstreak (премиум): silver=0, exp=None, br=11.7
     reqExp отсутствует или некорректно для p-26a_34_m2, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан p-26a_34_m2: silver=0, exp=None, br=1.0
@@ -3288,10 +3284,6 @@
   Премиумный юнит ka_50: silver=0, exp=None (обнулено)
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан ka_50 (премиум): silver=0, exp=None, br=11.3
-  Обрабатываем премиумный юнит: mi_35m_killstreak (status=premium, have_prem_flag=True)
-  Премиумный юнит mi_35m_killstreak: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан mi_35m_killstreak (премиум): silver=0, exp=None, br=10.7
   Обрабатываем премиумный юнит: mi_35p (status=premium, have_prem_flag=True)
   Премиумный юнит mi_35p: silver=0, exp=None (обнулено)
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
@@ -8763,13 +8755,13 @@
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13
 Статистика обработки wpcost:
-  Найдено и обработано: 3140
-  Из них премиумных (с обнуленными silver/exp): 942
+  Найдено и обработано: 3138
+  Из них премиумных (с обнуленными silver/exp): 940
   Не найдено в wpcost (пропущено): 392
-  Всего ID из shop.csv: 3532
-Данные wpcost (3140 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3530
+Данные wpcost (3138 записей) сохранены в wpcost.csv
 Статистика данных:
   Записей с опытом (exp): 2116
   Записей с fallback БР (1.0): 157
-  Всего записей: 3140
+  Всего записей: 3138
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

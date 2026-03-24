@@ -183,7 +183,6 @@ ah_64a_greece_usa,AH-64A (GR),AH-64A (GR),usa,11.7,0,6,Вертолёты,vehicl
 ah_64a_peten,▃AH-64A Peten,▃AH-64A Peten,usa,11.7,0,6,Вертолёты,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ah_64a_peten.png,,0,2,
 ah_56a,AH-56A,AH-56A,usa,9.7,0,6,Вертолёты,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ah_56a.png,,0,3,
 yah_64,YAH-64,YAH-64,usa,11.3,0,6,Вертолёты,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/yah_64.png,,0,4,
-ah_64a_killstreak,AH-64A,AH-64A,usa,11.7,0,6,Вертолёты,vehicle,,premium,,,0,5,
 p-26a_34_m2,P-26A-34 M2,P-26A-34 M2,usa,1.0,0,1,Авиация,vehicle,,standard,https://static.encyclopedia.warthunder.com/slots/p-26a_34_m2.png,,0,0,
 p-26_group,P-26,P-26,usa,,,1,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/p-26_group.png,p-26a_34_m2,0,1,
 p-26a_33,P-26A-33,P-26A-33,usa,1.0,700,1,Авиация,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/p-26a_33.png,p-26_group,0,1,0
@@ -1248,7 +1247,6 @@ ka_29,Ка-29,Ka-29,ussr,9.7,1000000,6,Вертолёты,vehicle,380000,standar
 ka_52,Ка-52,Ka-52,ussr,12.0,1030000,7,Вертолёты,vehicle,400000,standard,https://static.encyclopedia.warthunder.com/slots/ka_52.png,ka_29,2,0,
 mi_24d,▂Ми-24Д,▂Mi-24D,ussr,8.7,0,5,Вертолёты,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/mi_24d.png,,0,0,
 ka_50,Ка-50,Ka-50,ussr,11.3,0,6,Вертолёты,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ka_50.png,,0,0,
-mi_35m_killstreak,Ми-35М,Mi-35M,ussr,10.7,0,6,Вертолёты,vehicle,,premium,,,0,1,
 mi_35p,Ми-35П,Mi-35P,ussr,11.7,0,7,Вертолёты,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/mi_35p.png,,0,0,
 yak-1_group,Як-1,Yak-1,ussr,,,2,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/yak-1_group.png,,0,0,
 yak-1_early,Як-1,Yak-1,ussr,2.3,10000,2,Авиация,vehicle,7900,standard,https://static.encyclopedia.warthunder.com/slots/yak-1_early.png,yak-1_group,0,0,0

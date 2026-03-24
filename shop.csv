@@ -183,7 +183,6 @@ ah_64a_greece_usa,6,usa,Вертолёты,vehicle,premium,0,1,,,True
 ah_64a_peten,6,usa,Вертолёты,vehicle,premium,0,2,,,True
 ah_56a,6,usa,Вертолёты,vehicle,premium,0,3,,,True
 yah_64,6,usa,Вертолёты,vehicle,premium,0,4,,,True
-ah_64a_killstreak,6,usa,Вертолёты,vehicle,premium,0,5,,,True
 p-26a_34_m2,1,usa,Авиация,vehicle,standard,0,0,,,False
 p-26_group,1,usa,Авиация,folder,standard,0,1,p-26a_34_m2,,False
 p-26a_33,1,usa,Авиация,vehicle,standard,0,1,p-26_group,0,False
@@ -1248,7 +1247,6 @@ ka_29,6,ussr,Вертолёты,vehicle,standard,2,0,,,False
 ka_52,7,ussr,Вертолёты,vehicle,standard,2,0,ka_29,,False
 mi_24d,5,ussr,Вертолёты,vehicle,premium,0,0,,,True
 ka_50,6,ussr,Вертолёты,vehicle,premium,0,0,,,True
-mi_35m_killstreak,6,ussr,Вертолёты,vehicle,premium,0,1,,,True
 mi_35p,7,ussr,Вертолёты,vehicle,premium,0,0,,,True
 yak-1_group,2,ussr,Авиация,folder,standard,0,0,,,False
 yak-1_early,2,ussr,Авиация,vehicle,standard,0,0,yak-1_group,0,False

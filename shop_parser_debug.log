@@ -1,7 +1,7 @@
 Запуск парсера shop.blkx...
 Порог для определения премиумных колонок: 20.0%
 Обработка slave-юнитов: отключена
-Аномальные окончания: ['_race', '_football', '_yt_cup_2019', '_event', '_naval']
+Аномальные окончания: ['_race', '_football', '_yt_cup_2019', '_event', '_naval', '_killstreak']
 Аномальные начала: ['ucav_', 'uav_']
 Загрузка данных из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/shop.blkx
 Данные успешно загружены
@@ -11,6 +11,7 @@
     УДАЛЕН: us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
     УДАЛЕН: us_m18_hellcat_black_cat_race (аномальное окончание/начало)
     УДАЛЕН: ah_1f_event (аномальное окончание/начало)
+    УДАЛЕН: ah_64a_killstreak (аномальное окончание/начало)
     УДАЛЕН: os2u_1_naval (аномальное окончание/начало)
     УДАЛЕН: ucav_mq_1_predator (аномальное окончание/начало)
     УДАЛЕН: f_4e_event (аномальное окончание/начало)
@@ -25,6 +26,7 @@
     УДАЛЕН: ussr_m551_football (аномальное окончание/начало)
     УДАЛЕН: ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
     УДАЛЕН: ussr_t_80u_race (аномальное окончание/начало)
+    УДАЛЕН: mi_35m_killstreak (аномальное окончание/начало)
     УДАЛЕН: mig-21_bis_event (аномальное окончание/начало)
     УДАЛЕН: ucav_orion (аномальное окончание/начало)
     УДАЛЕН: ussr_pr_206_race (аномальное окончание/начало)
@@ -41,12 +43,13 @@
     УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание/начало)
   Очистка страны: sweden
   Очистка страны: israel
-Очистка завершена. Удалено элементов: 23
+Очистка завершена. Удалено элементов: 25
 Подробный список удаленных элементов:
   - usa/Наземная техника/column_5/us_m551_football (аномальное окончание/начало)
   - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
   - usa/Наземная техника/column_6/us_m18_hellcat_black_cat_race (аномальное окончание/начало)
   - usa/Вертолёты/column_3/ah_1f_event (аномальное окончание/начало)
+  - usa/Вертолёты/column_3/ah_64a_killstreak (аномальное окончание/начало)
   - usa/Авиация/column_5/os2u_1_naval (аномальное окончание/начало)
   - usa/Авиация/column_5/ucav_mq_1_predator (аномальное окончание/начало)
   - usa/Авиация/column_5/f_4e_event (аномальное окончание/начало)
@@ -58,6 +61,7 @@
   - ussr/Наземная техника/column_6/ussr_m551_football (аномальное окончание/начало)
   - ussr/Наземная техника/column_6/ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
   - ussr/Наземная техника/column_6/ussr_t_80u_race (аномальное окончание/начало)
+  - ussr/Вертолёты/column_3/mi_35m_killstreak (аномальное окончание/начало)
   - ussr/Авиация/column_5/mig-21_bis_event (аномальное окончание/начало)
   - ussr/Авиация/column_6/ucav_orion (аномальное окончание/начало)
   - ussr/Малый флот/column_4/ussr_pr_206_race (аномальное окончание/начало)
@@ -2164,7 +2168,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_launcher', 'ussr_buk_m3_launcher', 'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'jp_type_03_chusam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'fr_samp_t_launcher'}
+Slave-юниты: {'ussr_buk_m3_launcher', 'sw_nasams_launcher', 'it_samp_t_launcher', 'uk_sky_sabre_launcher', 'jp_type_03_chusam_launcher', 'fr_samp_t_launcher', 'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'us_nasams_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -2821,7 +2825,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника ah_64e зависит от ah_64d
       ОТЛАДКА: Добавлена техника ah_64e с предшественником 'ah_64d', статус: standard, have_prem_flag: False
     Столбец 2: обработано 3 элементов
-      ОТЛАДКА: Премиум техники в колонке: 8/8 = 1.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 7/7 = 1.00, порог: 0.2
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника h_34, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника h_34 имеет reqAir='', предшественника нет
@@ -2844,10 +2848,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника yah_64, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника yah_64 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника yah_64 с предшественником '', статус: premium, have_prem_flag: True
-      ОТЛАДКА: Техника ah_64a_killstreak, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника ah_64a_killstreak имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника ah_64a_killstreak с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 3: обработано 8 элементов
+    Столбец 3: обработано 7 элементов
   Обработка типа: Авиация, столбцов: 7
         ОТЛАДКА: get_group_items добавлен p-26a_33 с order=0
         ОТЛАДКА: get_group_items добавлен p-26b_35 с order=1
@@ -4041,7 +4042,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника us_flagstaff_pgh1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника us_flagstaff_pgh1 с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 4 элементов
-Обработано 505 элементов для usa
+Обработано 504 элементов для usa
 Обработка страны: germany
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_ausf_F с order=0
@@ -6867,7 +6868,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника ka_52 зависит от ka_29
       ОТЛАДКА: Добавлена техника ka_52 с предшественником 'ka_29', статус: standard, have_prem_flag: False
     Столбец 2: обработано 2 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/4 = 1.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 3/3 = 1.00, порог: 0.2
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника mi_24d, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника mi_24d имеет reqAir='', предшественника нет
@@ -6875,13 +6876,10 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника ka_50, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ka_50 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ka_50 с предшественником '', статус: premium, have_prem_flag: True
-      ОТЛАДКА: Техника mi_35m_killstreak, reqAir в JSON: нет, значение: 'отсутствует', next_should_depend_on_group=None, has_dependency: True
-      ОТЛАДКА: Техника mi_35m_killstreak имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника mi_35m_killstreak с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника mi_35p, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника mi_35p имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника mi_35p с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 3: обработано 4 элементов
+    Столбец 3: обработано 3 элементов
   Обработка типа: Авиация, столбцов: 7
         ОТЛАДКА: get_group_items добавлен yak-1_early с order=0
         ОТЛАДКА: get_group_items добавлен yak-1b с order=1
@@ -8099,7 +8097,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника ussr_pr_205pe_k225 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_pr_205pe_k225 с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 6 элементов
-Обработано 546 элементов для ussr
+Обработано 545 элементов для ussr
 Обработка страны: britain
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
@@ -15832,19 +15830,17 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
         Отдельный элемент: uh_1c_xm_30
       h_34: [0, 0] (элемент)
       uh_1c_xm_30: [0, 1] (элемент)
-    Ранг 6: 6 элементов, начинаем с row_index=0
+    Ранг 6: 5 элементов, начинаем с row_index=0
         Отдельный элемент: rah_66
         Отдельный элемент: ah_64a_greece_usa
         Отдельный элемент: ah_64a_peten
         Отдельный элемент: ah_56a
         Отдельный элемент: yah_64
-        Отдельный элемент: ah_64a_killstreak
       rah_66: [0, 0] (элемент)
       ah_64a_greece_usa: [0, 1] (элемент)
       ah_64a_peten: [0, 2] (элемент)
       ah_56a: [0, 3] (элемент)
       yah_64: [0, 4] (элемент)
-      ah_64a_killstreak: [0, 5] (элемент)
   Обработка столбца: usa/Авиация/col_0/premium_False
     Ранг 1: 4 элементов, начинаем с row_index=0
         Отдельный элемент: p-26a_34_m2
@@ -18060,11 +18056,9 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
     Ранг 5: 1 элементов, начинаем с row_index=0
         Отдельный элемент: mi_24d
       mi_24d: [0, 0] (элемент)
-    Ранг 6: 2 элементов, начинаем с row_index=0
+    Ранг 6: 1 элементов, начинаем с row_index=0
         Отдельный элемент: ka_50
-        Отдельный элемент: mi_35m_killstreak
       ka_50: [0, 0] (элемент)
-      mi_35m_killstreak: [0, 1] (элемент)
     Ранг 7: 1 элементов, начинаем с row_index=0
         Отдельный элемент: mi_35p
       mi_35p: [0, 0] (элемент)
@@ -23180,11 +23174,11 @@ Slave-юниты: {'germ_iris_slm_launcher', 'it_samp_t_launcher', 'sw_nasams_la
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3532 элементов
-Данные (3532 записей) сохранены в shop.csv
+Координаты назначены для 3530 элементов
+Данные (3530 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2607, Премиумной: 925
+Статистика: Стандартной техники: 2607, Премиумной: 923
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (402 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3532 элементов.
+Парсинг завершен успешно! Обработано 3530 элементов.
