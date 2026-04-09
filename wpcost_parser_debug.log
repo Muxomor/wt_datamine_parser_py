@@ -1,7 +1,7 @@
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3530
-  Премиумных юнитов: 947
+  Всего строк в CSV: 3532
+  Премиумных юнитов: 949
   Обычных юнитов: 2583
 Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
@@ -120,10 +120,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3260
-  Нормализованных ID: 3260
+  Исходных ID: 3271
+  Нормализованных ID: 3271
   Конфликтов: 0
-В wpcost найдено 3260 юнитов после нормализации
+В wpcost найдено 3271 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -1148,6 +1148,10 @@
   Премиумный юнит fj_4b_agm_12b: silver=0, exp=None (обнулено)
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
   Обработан fj_4b_agm_12b (премиум): silver=0, exp=None, br=8.7
+  Обрабатываем премиумный юнит: b_52h (status=premium, have_prem_flag=True)
+  Премиумный юнит b_52h: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=23, raw=8.667, округлено=8.7
+  Обработан b_52h (премиум): silver=0, exp=None, br=8.7
   Обрабатываем премиумный юнит: f11f_1_late (status=premium, have_prem_flag=True)
   Премиумный юнит f11f_1_late: silver=0, exp=None (обнулено)
     БР расчет: economicRank=24, raw=9.000, округлено=9
@@ -3849,6 +3853,10 @@
   Премиумный юнит la_174: silver=0, exp=None (обнулено)
     БР расчет: economicRank=21, raw=8.000, округлено=8
   Обработан la_174 (премиум): silver=0, exp=None, br=8
+  Обрабатываем премиумный юнит: tu_95m (status=premium, have_prem_flag=True)
+  Премиумный юнит tu_95m: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=22, raw=8.333, округлено=8.3
+  Обработан tu_95m (премиум): silver=0, exp=None, br=8.3
   Обрабатываем премиумный юнит: mig-21_pfm (status=premium, have_prem_flag=True)
   Премиумный юнит mig-21_pfm: silver=0, exp=None (обнулено)
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
@@ -4875,7 +4883,7 @@
   Премиумный юнит harrier_frs1: silver=0, exp=None (обнулено)
     БР расчет: economicRank=30, raw=11.000, округлено=11
   Обработан harrier_frs1 (премиум): silver=0, exp=None, br=11
-  Обрабатываем премиумный юнит: f-4jk (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: f-4jk (status=premium, have_prem_flag=False)
   Премиумный юнит f-4jk: silver=0, exp=None (обнулено)
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан f-4jk (премиум): silver=0, exp=None, br=12
@@ -4975,7 +4983,7 @@
   Премиумный юнит jaguar_is: silver=0, exp=None (обнулено)
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан jaguar_is (премиум): silver=0, exp=None, br=11.3
-  Обрабатываем премиумный юнит: harrier_t10 (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: harrier_t10 (status=premium, have_prem_flag=False)
   Премиумный юнит harrier_t10: silver=0, exp=None (обнулено)
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан harrier_t10 (премиум): silver=0, exp=None, br=11.3
@@ -5762,7 +5770,7 @@
   Премиумный юнит t2_early: silver=0, exp=None (обнулено)
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан t2_early (премиум): silver=0, exp=None, br=9.7
-  Обрабатываем премиумный юнит: av_8s_thailand (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: av_8s_thailand (status=premium, have_prem_flag=False)
   Премиумный юнит av_8s_thailand: silver=0, exp=None (обнулено)
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан av_8s_thailand (премиум): silver=0, exp=None, br=9.7
@@ -5944,7 +5952,7 @@
   Премиумный юнит jp_cruiser_mogami_mikuma: silver=0, exp=None (обнулено)
     БР расчет: economicRank=15, raw=6.000, округлено=6
   Обработан jp_cruiser_mogami_mikuma (премиум): silver=0, exp=None, br=6
-  Обрабатываем премиумный юнит: jp_battleship_yamashiro (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: jp_battleship_yamashiro (status=premium, have_prem_flag=False)
   Премиумный юнит jp_battleship_yamashiro: silver=0, exp=None (обнулено)
     БР расчет: economicRank=18, raw=7.000, округлено=7
   Обработан jp_battleship_yamashiro (премиум): silver=0, exp=None, br=7
@@ -8755,13 +8763,13 @@
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13
 Статистика обработки wpcost:
-  Найдено и обработано: 3138
-  Из них премиумных (с обнуленными silver/exp): 940
+  Найдено и обработано: 3140
+  Из них премиумных (с обнуленными silver/exp): 942
   Не найдено в wpcost (пропущено): 392
-  Всего ID из shop.csv: 3530
-Данные wpcost (3138 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3532
+Данные wpcost (3140 записей) сохранены в wpcost.csv
 Статистика данных:
   Записей с опытом (exp): 2116
   Записей с fallback БР (1.0): 157
-  Всего записей: 3138
+  Всего записей: 3140
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

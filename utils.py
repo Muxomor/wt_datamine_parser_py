@@ -165,7 +165,7 @@ class Constants:
     ANOMALOUS_SUFFIXES = ['_race', '_football', '_yt_cup_2019', '_event', '_naval', '_killstreak']
     
     # НОВОЕ: Аномальные начала для удаления
-    ANOMALOUS_PREFIXES = ['ucav_', 'uav_']
+    ANOMALOUS_PREFIXES = ['ucav_', 'uav_', 'nt_']
     
     # Поля для CSV экспорта
     CSV_FIELDNAMES = [
