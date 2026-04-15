@@ -1548,7 +1548,7 @@ ussr_skr_pr50_jenot,5,ussr,Малый флот,vehicle,standard,1,0,ussr_mpk_204
 ussr_mpk_pr1331m,5,ussr,Малый флот,vehicle,standard,1,1,ussr_skr_pr50_jenot,,False
 ussr_skr_pr159,5,ussr,Малый флот,vehicle,standard,1,2,ussr_mpk_pr1331m,,False
 ussr_d3_tk126,1,ussr,Малый флот,vehicle,standard,2,0,,,False
-ussr_pr253l,2,ussr,Малый флот,vehicle,standard,2,0,,,False
+ussr_pr253l,2,ussr,Малый флот,vehicle,standard,2,0,ussr_d3_tk126,,False
 ussr_pr_191,3,ussr,Малый флот,vehicle,standard,2,0,ussr_pr253l,,False
 ussr_pr_191m,3,ussr,Малый флот,vehicle,standard,2,1,ussr_pr_191,,False
 ussr_mkl_186,4,ussr,Малый флот,vehicle,standard,2,0,ussr_pr_191m,,False
@@ -2101,7 +2101,7 @@ jp_type_81_tansam,7,japan,Наземная техника,vehicle,standard,3,1,j
 jp_type_81_tansam_fcs,8,japan,Наземная техника,vehicle,standard,3,0,jp_type_81_tansam,,False
 jp_type_03_chusam_fcs,8,japan,Наземная техника,vehicle,standard,3,1,jp_type_81_tansam_fcs,,False
 jp_btr_3e1,6,japan,Наземная техника,vehicle,standard,4,0,,,False
-jp_m60a3_tts,6,japan,Наземная техника,vehicle,standard,4,1,,,False
+jp_m60a3_tts,6,japan,Наземная техника,vehicle,standard,4,1,jp_btr_3e1,,False
 jp_stingray,6,japan,Наземная техника,vehicle,standard,4,2,jp_m60a3_tts,,False
 jp_oplot_t,8,japan,Наземная техника,vehicle,standard,4,0,jp_stingray,,False
 jp_type_95_ha_go_commander,1,japan,Наземная техника,vehicle,premium,0,0,,,False
@@ -2319,7 +2319,7 @@ jp_battleship_ise,6,japan,Большой флот,vehicle,standard,1,0,jp_battle
 jp_battlecruiser_amagi,6,japan,Большой флот,vehicle,standard,1,1,jp_battleship_ise,,False
 jp_battleship_musashi,7,japan,Большой флот,vehicle,standard,1,0,jp_battlecruiser_amagi,,False
 jp_destroyer_kagero,3,japan,Большой флот,vehicle,standard,2,0,,,False
-jp_armoredcruiser_ikoma,4,japan,Большой флот,vehicle,standard,2,0,,,False
+jp_armoredcruiser_ikoma,4,japan,Большой флот,vehicle,standard,2,0,jp_destroyer_kagero,,False
 jp_battleship_settsu,5,japan,Большой флот,vehicle,standard,2,0,jp_armoredcruiser_ikoma,,False
 jp_battlecruiser_hiei,5,japan,Большой флот,vehicle,standard,2,1,jp_battleship_settsu,,False
 jp_battlecruiser_kongo,6,japan,Большой флот,vehicle,standard,2,0,jp_battlecruiser_hiei,,False
@@ -2588,6 +2588,7 @@ quing_6,4,china,Авиация,vehicle,premium,0,0,,,False
 ki_84_ko_china,4,china,Авиация,vehicle,premium,0,1,,,False
 f-84g-31-re_china,5,china,Авиация,vehicle,premium,0,0,,,False
 mig-17_f5,6,china,Авиация,vehicle,premium,0,0,,,False
+f_6c_pakistan,6,china,Авиация,vehicle,premium,0,1,,,True
 a_5c,7,china,Авиация,vehicle,premium,0,0,,,False
 j_7d,7,china,Авиация,vehicle,premium,0,1,,,True
 jh_7a_prototype,8,china,Авиация,vehicle,premium,0,0,,,True
@@ -2817,9 +2818,9 @@ wm_23,2,italy,Авиация,vehicle,standard,4,0,,,False
 me_210ca_1_hungary_group,3,italy,Авиация,folder,standard,4,0,wm_23,,False
 me_210ca_1_hungary,3,italy,Авиация,vehicle,standard,4,0,me_210ca_1_hungary_group,0,False
 me_210ca_1_40_mm_hungary,3,italy,Авиация,vehicle,standard,4,0,me_210ca_1_hungary,1,False
-yak-9p_hungary,4,italy,Авиация,vehicle,standard,4,0,,,False
+yak-9p_hungary,4,italy,Авиация,vehicle,standard,4,0,me_210ca_1_hungary_group,,False
 fw_190f_8_hungary,4,italy,Авиация,vehicle,standard,4,1,yak-9p_hungary,,False
-mig-15bis_nr23_hungary,5,italy,Авиация,vehicle,standard,4,0,,,False
+mig-15bis_nr23_hungary,5,italy,Авиация,vehicle,standard,4,0,fw_190f_8_hungary,,False
 mig-17pf_hungary,6,italy,Авиация,vehicle,standard,4,0,mig-15bis_nr23_hungary,,False
 mig-21_hungary_group,7,italy,Авиация,folder,standard,4,0,mig-17pf_hungary,,False
 mig-21_mf_hungary,7,italy,Авиация,vehicle,standard,4,0,mig-21_hungary_group,0,False

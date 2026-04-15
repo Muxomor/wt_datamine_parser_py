@@ -966,6 +966,7 @@ ussr_mpk_204,ussr_mpk_201m
 ussr_skr_pr50_jenot,ussr_mpk_204
 ussr_mpk_pr1331m,ussr_skr_pr50_jenot
 ussr_skr_pr159,ussr_mpk_pr1331m
+ussr_pr253l,ussr_d3_tk126
 ussr_pr_191,ussr_pr253l
 ussr_pr_191m,ussr_pr_191
 ussr_mkl_186,ussr_pr_191m
@@ -1341,6 +1342,7 @@ jp_type_93,jp_type_87
 jp_type_81_tansam,jp_type_93
 jp_type_81_tansam_fcs,jp_type_81_tansam
 jp_type_03_chusam_fcs,jp_type_81_tansam_fcs
+jp_m60a3_tts,jp_btr_3e1
 jp_stingray,jp_m60a3_tts
 jp_oplot_t,jp_stingray
 ah_1s_early,uh_1b_japan
@@ -1487,6 +1489,7 @@ jp_battleship_hyuga,jp_cruiser_mogami
 jp_battleship_ise,jp_battleship_hyuga
 jp_battlecruiser_amagi,jp_battleship_ise
 jp_battleship_musashi,jp_battlecruiser_amagi
+jp_armoredcruiser_ikoma,jp_destroyer_kagero
 jp_battleship_settsu,jp_armoredcruiser_ikoma
 jp_battlecruiser_hiei,jp_battleship_settsu
 jp_battlecruiser_kongo,jp_battlecruiser_hiei
@@ -1841,7 +1844,9 @@ re_2000_heja_2,re_2000_heja_1
 me_210ca_1_hungary_group,wm_23
 me_210ca_1_hungary,me_210ca_1_hungary_group
 me_210ca_1_40_mm_hungary,me_210ca_1_hungary
+yak-9p_hungary,me_210ca_1_hungary_group
 fw_190f_8_hungary,yak-9p_hungary
+mig-15bis_nr23_hungary,fw_190f_8_hungary
 mig-17pf_hungary,mig-15bis_nr23_hungary
 mig-21_hungary_group,mig-17pf_hungary
 mig-21_mf_hungary,mig-21_hungary_group

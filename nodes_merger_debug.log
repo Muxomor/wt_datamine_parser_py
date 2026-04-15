@@ -1,19 +1,19 @@
 Запуск полного процесса объединения данных...
 Начало объединения данных...
-Загружено 3532 записей из shop.csv
+Загружено 3533 записей из shop.csv
 Загрузка вспомогательных данных...
-Загружено 3532 записей из localization.csv
-Загружено локализаций: 3532
-Загружено 3140 записей из wpcost.csv
-Загружено экономических данных: 3140
-Загружено 3532 записей из shop_images.csv
-Загружено изображений: 3532
+Загружено 3533 записей из localization.csv
+Загружено локализаций: 3533
+Загружено 3141 записей из wpcost.csv
+Загружено экономических данных: 3141
+Загружено 3533 записей из shop_images.csv
+Загружено изображений: 3533
 Объединение завершено:
-  Всего записей: 3532
-  Найдено локализаций: 3532 (100.0%)
-  Найдено экономических данных: 3140 (88.9%)
-  Найдено изображений: 3532 (100.0%)
-Объединенные данные (3532 записей) сохранены в vehicles_merged.csv
+  Всего записей: 3533
+  Найдено локализаций: 3533 (100.0%)
+  Найдено экономических данных: 3141 (88.9%)
+  Найдено изображений: 3533 (100.0%)
+Объединенные данные (3533 записей) сохранены в vehicles_merged.csv
 Извлечение зависимостей...
   Зависимость: us_m3_stuart -> us_m2a4
   Зависимость: us_m3a1_stuart -> us_m3_stuart
@@ -982,6 +982,7 @@
   Зависимость: ussr_skr_pr50_jenot -> ussr_mpk_204
   Зависимость: ussr_mpk_pr1331m -> ussr_skr_pr50_jenot
   Зависимость: ussr_skr_pr159 -> ussr_mpk_pr1331m
+  Зависимость: ussr_pr253l -> ussr_d3_tk126
   Зависимость: ussr_pr_191 -> ussr_pr253l
   Зависимость: ussr_pr_191m -> ussr_pr_191
   Зависимость: ussr_mkl_186 -> ussr_pr_191m
@@ -1357,6 +1358,7 @@
   Зависимость: jp_type_81_tansam -> jp_type_93
   Зависимость: jp_type_81_tansam_fcs -> jp_type_81_tansam
   Зависимость: jp_type_03_chusam_fcs -> jp_type_81_tansam_fcs
+  Зависимость: jp_m60a3_tts -> jp_btr_3e1
   Зависимость: jp_stingray -> jp_m60a3_tts
   Зависимость: jp_oplot_t -> jp_stingray
   Зависимость: ah_1s_early -> uh_1b_japan
@@ -1503,6 +1505,7 @@
   Зависимость: jp_battleship_ise -> jp_battleship_hyuga
   Зависимость: jp_battlecruiser_amagi -> jp_battleship_ise
   Зависимость: jp_battleship_musashi -> jp_battlecruiser_amagi
+  Зависимость: jp_armoredcruiser_ikoma -> jp_destroyer_kagero
   Зависимость: jp_battleship_settsu -> jp_armoredcruiser_ikoma
   Зависимость: jp_battlecruiser_hiei -> jp_battleship_settsu
   Зависимость: jp_battlecruiser_kongo -> jp_battlecruiser_hiei
@@ -1857,7 +1860,9 @@
   Зависимость: me_210ca_1_hungary_group -> wm_23
   Зависимость: me_210ca_1_hungary -> me_210ca_1_hungary_group
   Зависимость: me_210ca_1_40_mm_hungary -> me_210ca_1_hungary
+  Зависимость: yak-9p_hungary -> me_210ca_1_hungary_group
   Зависимость: fw_190f_8_hungary -> yak-9p_hungary
+  Зависимость: mig-15bis_nr23_hungary -> fw_190f_8_hungary
   Зависимость: mig-17pf_hungary -> mig-15bis_nr23_hungary
   Зависимость: mig-21_hungary_group -> mig-17pf_hungary
   Зависимость: mig-21_mf_hungary -> mig-21_hungary_group
@@ -2337,13 +2342,13 @@
   Зависимость: f_16i_sufa -> f_16d_block_40_barak_2
   Зависимость: f_15i_raam -> f_16d_iaf_group
 Извлечение зависимостей завершено:
-  Обработано узлов: 3532
-  Найдено зависимостей: 2321
-  Пустых предшественников: 1211
+  Обработано узлов: 3533
+  Найдено зависимостей: 2326
+  Пустых предшественников: 1207
   Предшественников не найдено: 0
-Зависимости (2321 записей) сохранены в dependencies.csv
+Зависимости (2326 записей) сохранены в dependencies.csv
 Полный процесс объединения данных завершен успешно!
 Итоговая статистика:
-  Узлов в дереве: 3532
-  Зависимостей: 2321
-  Покрытие зависимостями: 65.7%
+  Узлов в дереве: 3533
+  Зависимостей: 2326
+  Покрытие зависимостями: 65.8%
