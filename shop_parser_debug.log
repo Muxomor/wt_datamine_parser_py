@@ -32,6 +32,7 @@
     УДАЛЕН: ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
     УДАЛЕН: ussr_t_80u_race (аномальное окончание/начало)
     УДАЛЕН: mi_35m_killstreak (аномальное окончание/начало)
+    УДАЛЕН: mi_28n_killstreak (аномальное окончание/начало)
     УДАЛЕН: mig-21_bis_event (аномальное окончание/начало)
     УДАЛЕН: ucav_orion (аномальное окончание/начало)
     УДАЛЕН: nt_mig_23mld (аномальное окончание/начало)
@@ -52,7 +53,7 @@
     УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание/начало)
   Очистка страны: sweden
   Очистка страны: israel
-Очистка завершена. Удалено элементов: 34
+Очистка завершена. Удалено элементов: 35
 Подробный список удаленных элементов:
   - usa/Наземная техника/column_5/us_m551_football (аномальное окончание/начало)
   - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
@@ -76,6 +77,7 @@
   - ussr/Наземная техника/column_6/ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
   - ussr/Наземная техника/column_6/ussr_t_80u_race (аномальное окончание/начало)
   - ussr/Вертолёты/column_3/mi_35m_killstreak (аномальное окончание/начало)
+  - ussr/Вертолёты/column_3/mi_28n_killstreak (аномальное окончание/начало)
   - ussr/Авиация/column_5/mig-21_bis_event (аномальное окончание/начало)
   - ussr/Авиация/column_6/ucav_orion (аномальное окончание/начало)
   - ussr/Авиация/column_6/nt_mig_23mld (аномальное окончание/начало)
@@ -2186,7 +2188,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'ussr_buk_m3_launcher', 'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_sl_amraam_launcher', 'jp_type_03_chusam_launcher', 'germ_iris_slm_launcher'}
+Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_t_launcher', 'jp_type_03_chusam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -3650,7 +3652,7 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника fa_18c_early имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fa_18c_early с предшественником '', статус: premium, have_prem_flag: True
     Столбец 5: обработано 35 элементов
-      ОТЛАДКА: Премиум техники в колонке: 32/34 = 0.94, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 31/34 = 0.91, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника p-26a_34, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника p-26a_34 имеет reqAir='', предшественника нет
@@ -3747,7 +3749,7 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Добавлена техника f-5a с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника a_6e_tram, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника a_6e_tram имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника a_6e_tram с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Добавлена техника a_6e_tram с предшественником '', статус: premium, have_prem_flag: False
       ОТЛАДКА: Техника a_7k, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника a_7k имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника a_7k с предшественником '', статус: premium, have_prem_flag: True
@@ -11017,7 +11019,7 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника jp_battleship_nagato имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника jp_battleship_nagato с предшественником '', статус: premium, have_prem_flag: True
     Столбец 3: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 6/7 = 0.86, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 7/8 = 0.88, порог: 0.2
     Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника jp_destroyer_tade, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника jp_destroyer_tade имеет reqAir='', предшественника нет
@@ -11031,6 +11033,9 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника jp_destroyer_yuudachi, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника jp_destroyer_yuudachi имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника jp_destroyer_yuudachi с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника jp_destroyer_suzutsuki, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника jp_destroyer_suzutsuki имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника jp_destroyer_suzutsuki с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника jp_armoredcruiser_kurama, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника jp_armoredcruiser_kurama имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника jp_armoredcruiser_kurama с предшественником '', статус: premium, have_prem_flag: True
@@ -11040,7 +11045,7 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника jp_battleship_tosa, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника jp_battleship_tosa имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника jp_battleship_tosa с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 4: обработано 7 элементов
+    Столбец 4: обработано 8 элементов
   Обработка типа: Малый флот, столбцов: 3
       ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
@@ -11142,7 +11147,7 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника jp_escort_hiburi_class_shisaka имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника jp_escort_hiburi_class_shisaka с предшественником '', статус: premium, have_prem_flag: True
     Столбец 2: обработано 7 элементов
-Обработано 346 элементов для japan
+Обработано 347 элементов для japan
 Обработка страны: china
   Обработка типа: Наземная техника, столбцов: 6
         ОТЛАДКА: get_group_items добавлен cn_m3a3_stuart с order=0
@@ -12866,7 +12871,7 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника saab_jas39c_hungary зависит от mig_29_9_12b_hungary
       ОТЛАДКА: Добавлена техника saab_jas39c_hungary с предшественником 'mig_29_9_12b_hungary', статус: standard, have_prem_flag: False
     Столбец 4: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/16 = 0.31, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 4/16 = 0.25, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника fiat_cr42_marcolin_italy, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника fiat_cr42_marcolin_italy имеет reqAir='', предшественника нет
@@ -12909,7 +12914,7 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Добавлена техника iar_93b с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника amx_a_1a_brazil, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника amx_a_1a_brazil имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника amx_a_1a_brazil с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Добавлена техника amx_a_1a_brazil с предшественником '', статус: premium, have_prem_flag: False
       ОТЛАДКА: Техника f-104s_cb, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f-104s_cb имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f-104s_cb с предшественником '', статус: premium, have_prem_flag: False
@@ -15434,11 +15439,14 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника f_15i_raam зависит от группы f_16d_iaf_group
       ОТЛАДКА: Добавлена техника f_15i_raam с предшественником 'f_16d_iaf_group', статус: standard, have_prem_flag: False
     Столбец 2: обработано 9 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/9 = 0.44, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 5/10 = 0.50, порог: 0.2
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника spitfire_lf_mk9e_weisman, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника spitfire_lf_mk9e_weisman имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника spitfire_lf_mk9e_weisman с предшественником '', статус: premium, have_prem_flag: False
+      ОТЛАДКА: Техника spitfire_lf_mk9c_cw_greece, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника spitfire_lf_mk9c_cw_greece имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника spitfire_lf_mk9c_cw_greece с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника md_450b_ouragan_iaf_29, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника md_450b_ouragan_iaf_29 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника md_450b_ouragan_iaf_29 с предшественником '', статус: premium, have_prem_flag: False
@@ -15463,8 +15471,8 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       ОТЛАДКА: Техника kfir_c10_colombia, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника kfir_c10_colombia имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника kfir_c10_colombia с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 3: обработано 9 элементов
-Обработано 115 элементов для israel
+    Столбец 3: обработано 10 элементов
+Обработано 116 элементов для israel
 Начинаем назначение координат...
   Обработка столбца: usa/Наземная техника/col_0/premium_False
     Ранг 1: 3 элементов, начинаем с row_index=0
@@ -20427,11 +20435,13 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
     Ранг 2: 1 элементов, начинаем с row_index=0
         Отдельный элемент: jp_destroyer_hayanami
       jp_destroyer_hayanami: [1, 0] (элемент)
-    Ранг 3: 2 элементов, начинаем с row_index=0
+    Ранг 3: 3 элементов, начинаем с row_index=0
         Отдельный элемент: jp_destroyer_hatsuzuki
         Отдельный элемент: jp_destroyer_yuudachi
+        Отдельный элемент: jp_destroyer_suzutsuki
       jp_destroyer_hatsuzuki: [1, 0] (элемент)
       jp_destroyer_yuudachi: [1, 1] (элемент)
+      jp_destroyer_suzutsuki: [1, 2] (элемент)
     Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: jp_armoredcruiser_kurama
         Отдельный элемент: jp_battlecruiser_haruna
@@ -23184,9 +23194,11 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
       f_16i_sufa: [2, 0] (элемент)
       f_15i_raam: [2, 1] (элемент)
   Обработка столбца: israel/Авиация/col_3/premium_True
-    Ранг 4: 1 элементов, начинаем с row_index=0
+    Ранг 4: 2 элементов, начинаем с row_index=0
         Отдельный элемент: spitfire_lf_mk9e_weisman
+        Отдельный элемент: spitfire_lf_mk9c_cw_greece
       spitfire_lf_mk9e_weisman: [0, 0] (элемент)
+      spitfire_lf_mk9c_cw_greece: [0, 1] (элемент)
     Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: md_450b_ouragan_iaf_29
         Отдельный элемент: meteor_frmk9_iaf
@@ -23207,11 +23219,11 @@ Slave-юниты: {'it_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launch
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3533 элементов
-Данные (3533 записей) сохранены в shop.csv
+Координаты назначены для 3535 элементов
+Данные (3535 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2607, Премиумной: 926
+Статистика: Стандартной техники: 2607, Премиумной: 928
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (402 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3533 элементов.
+Парсинг завершен успешно! Обработано 3535 элементов.

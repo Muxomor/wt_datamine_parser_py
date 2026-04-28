@@ -411,7 +411,7 @@ f11f_1_late,6,usa,Авиация,vehicle,premium,1,2,,,True
 f4d_1,6,usa,Авиация,vehicle,premium,1,3,,,True
 f_106a_1972,6,usa,Авиация,vehicle,premium,1,4,,,True
 f-5a,7,usa,Авиация,vehicle,premium,1,0,,,True
-a_6e_tram,7,usa,Авиация,vehicle,premium,1,1,,,True
+a_6e_tram,7,usa,Авиация,vehicle,premium,1,1,,,False
 a_7k,7,usa,Авиация,vehicle,premium,1,2,,,True
 f_14a_iriaf,8,usa,Авиация,vehicle,premium,1,0,,,True
 us_destroyer_clemson_litchfield,1,usa,Большой флот,vehicle,standard,0,0,,,False
@@ -2340,6 +2340,7 @@ jp_destroyer_tade,1,japan,Большой флот,vehicle,premium,1,0,,,False
 jp_destroyer_hayanami,2,japan,Большой флот,vehicle,premium,1,0,,,True
 jp_destroyer_hatsuzuki,3,japan,Большой флот,vehicle,premium,1,0,,,True
 jp_destroyer_yuudachi,3,japan,Большой флот,vehicle,premium,1,1,,,True
+jp_destroyer_suzutsuki,3,japan,Большой флот,vehicle,premium,1,2,,,True
 jp_armoredcruiser_kurama,5,japan,Большой флот,vehicle,premium,1,0,,,True
 jp_battlecruiser_haruna,5,japan,Большой флот,vehicle,premium,1,1,,,True
 jp_battleship_tosa,6,japan,Большой флот,vehicle,premium,1,0,,,True
@@ -2841,7 +2842,7 @@ mb_326b,5,italy,Авиация,vehicle,premium,0,0,,,False
 fiat_g91_r4,5,italy,Авиация,vehicle,premium,0,1,,,False
 ariete,6,italy,Авиация,vehicle,premium,0,0,,,False
 iar_93b,6,italy,Авиация,vehicle,premium,0,1,,,True
-amx_a_1a_brazil,7,italy,Авиация,vehicle,premium,0,0,,,True
+amx_a_1a_brazil,7,italy,Авиация,vehicle,premium,0,0,,,False
 f-104s_cb,7,italy,Авиация,vehicle,premium,0,1,,,False
 mig_29_9_12_sniper,8,italy,Авиация,vehicle,premium,0,0,,,True
 ba_65_a80,1,italy,Авиация,vehicle,premium,1,0,,,False
@@ -3524,6 +3525,7 @@ f_16d_block_40_barak_2,8,israel,Авиация,vehicle,standard,2,0,f_16d_iaf_gr
 f_16i_sufa,8,israel,Авиация,vehicle,standard,2,0,f_16d_block_40_barak_2,1,False
 f_15i_raam,8,israel,Авиация,vehicle,standard,2,1,f_16d_iaf_group,,False
 spitfire_lf_mk9e_weisman,4,israel,Авиация,vehicle,premium,0,0,,,False
+spitfire_lf_mk9c_cw_greece,4,israel,Авиация,vehicle,premium,0,1,,,True
 md_450b_ouragan_iaf_29,5,israel,Авиация,vehicle,premium,0,0,,,False
 meteor_frmk9_iaf,5,israel,Авиация,vehicle,premium,0,1,,,True
 f-84f_israel_iaf,6,israel,Авиация,vehicle,premium,0,0,,,False
