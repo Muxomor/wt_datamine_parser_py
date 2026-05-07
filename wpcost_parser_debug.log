@@ -1,7 +1,7 @@
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3535
-  Премиумных юнитов: 952
+  Всего строк в CSV: 3536
+  Премиумных юнитов: 953
   Обычных юнитов: 2583
 Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
@@ -120,10 +120,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3275
-  Нормализованных ID: 3275
+  Исходных ID: 3276
+  Нормализованных ID: 3276
   Конфликтов: 0
-В wpcost найдено 3275 юнитов после нормализации
+В wpcost найдено 3276 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -3151,6 +3151,10 @@
   Премиумный юнит ussr_bm_13n: silver=0, exp=None (обнулено)
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан ussr_bm_13n (премиум): silver=0, exp=None, br=2.7
+  Обрабатываем премиумный юнит: ussr_kv_8 (status=premium, have_prem_flag=True)
+  Премиумный юнит ussr_kv_8: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=8, raw=3.667, округлено=3.7
+  Обработан ussr_kv_8 (премиум): silver=0, exp=None, br=3.7
   Обрабатываем премиумный юнит: ussr_a_12_mk_2_matilda_2a_f96 (status=premium, have_prem_flag=True)
   Премиумный юнит ussr_a_12_mk_2_matilda_2a_f96: silver=0, exp=None (обнулено)
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
@@ -8775,13 +8779,13 @@
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13.3
 Статистика обработки wpcost:
-  Найдено и обработано: 3143
-  Из них премиумных (с обнуленными silver/exp): 945
+  Найдено и обработано: 3144
+  Из них премиумных (с обнуленными silver/exp): 946
   Не найдено в wpcost (пропущено): 392
-  Всего ID из shop.csv: 3535
-Данные wpcost (3143 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3536
+Данные wpcost (3144 записей) сохранены в wpcost.csv
 Статистика данных:
   Записей с опытом (exp): 2116
   Записей с fallback БР (1.0): 157
-  Всего записей: 3143
+  Всего записей: 3144
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

@@ -2188,7 +2188,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_t_launcher', 'jp_type_03_chusam_launcher'}
+Slave-юниты: {'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_t_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher', 'jp_type_03_chusam_launcher', 'uk_sky_sabre_launcher', 'ussr_buk_m3_launcher', 'us_nasams_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -6743,7 +6743,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sa
       ОТЛАДКА: Добавлена техника ussr_t_80ue1_sm с предшественником '', статус: premium, have_prem_flag: True
       ПРОПУСК: ussr_buk_m3_launcher является slave-юнитом
     Столбец 5: обработано 38 элементов
-      ОТЛАДКА: Премиум техники в колонке: 31/34 = 0.91, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 32/35 = 0.91, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ussr_t_26E, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_26E имеет reqAir='', предшественника нет
@@ -6769,6 +6769,9 @@ Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sa
       ОТЛАДКА: Техника ussr_bm_13n, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_bm_13n имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_bm_13n с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника ussr_kv_8, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника ussr_kv_8 имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника ussr_kv_8 с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника ussr_a_12_mk_2_matilda_2A_F96, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_a_12_mk_2_matilda_2A_F96 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_a_12_mk_2_matilda_2A_F96 с предшественником '', статус: premium, have_prem_flag: True
@@ -6847,7 +6850,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sa
       ОТЛАДКА: Техника ussr_t_80uk, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника ussr_t_80uk имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_t_80uk с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 6: обработано 34 элементов
+    Столбец 6: обработано 35 элементов
   Обработка типа: Вертолёты, столбцов: 4
       ОТЛАДКА: Премиум техники в колонке: 0/7 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
@@ -8123,7 +8126,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sa
       ОТЛАДКА: Техника ussr_pr_205pe_k225 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника ussr_pr_205pe_k225 с предшественником '', статус: premium, have_prem_flag: True
     Столбец 4: обработано 6 элементов
-Обработано 546 элементов для ussr
+Обработано 547 элементов для ussr
 Обработка страны: britain
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
@@ -17988,11 +17991,12 @@ Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sa
       ussr_rbt_5: [1, 1] (элемент)
       ussr_ba_11: [1, 2] (элемент)
       ussr_bm_8_24: [1, 3] (элемент)
-    Ранг 2: 7 элементов, начинаем с row_index=0
+    Ранг 2: 8 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_su_76m_5st_kav_corps
         Отдельный элемент: ussr_su_76d
         Отдельный элемент: ussr_m3c
         Отдельный элемент: ussr_bm_13n
+        Отдельный элемент: ussr_kv_8
         Отдельный элемент: ussr_a_12_mk_2_matilda_2A_F96
         Отдельный элемент: ussr_valentine_mk_9
         Отдельный элемент: ussr_su_85a
@@ -18000,9 +18004,10 @@ Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sa
       ussr_su_76d: [1, 1] (элемент)
       ussr_m3c: [1, 2] (элемент)
       ussr_bm_13n: [1, 3] (элемент)
-      ussr_a_12_mk_2_matilda_2A_F96: [1, 4] (элемент)
-      ussr_valentine_mk_9: [1, 5] (элемент)
-      ussr_su_85a: [1, 6] (элемент)
+      ussr_kv_8: [1, 4] (элемент)
+      ussr_a_12_mk_2_matilda_2A_F96: [1, 5] (элемент)
+      ussr_valentine_mk_9: [1, 6] (элемент)
+      ussr_su_85a: [1, 7] (элемент)
     Ранг 3: 5 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_kv_2_1940
         Отдельный элемент: ussr_kv_7_u13
@@ -23219,11 +23224,11 @@ Slave-юниты: {'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'uk_sky_sa
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3535 элементов
-Данные (3535 записей) сохранены в shop.csv
+Координаты назначены для 3536 элементов
+Данные (3536 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2607, Премиумной: 928
+Статистика: Стандартной техники: 2607, Премиумной: 929
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (402 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3535 элементов.
+Парсинг завершен успешно! Обработано 3536 элементов.

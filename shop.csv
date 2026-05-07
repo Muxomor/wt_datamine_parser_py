@@ -1208,9 +1208,10 @@ ussr_su_76m_5st_kav_corps,2,ussr,Наземная техника,vehicle,premium
 ussr_su_76d,2,ussr,Наземная техника,vehicle,premium,1,1,,,True
 ussr_m3c,2,ussr,Наземная техника,vehicle,premium,1,2,,,True
 ussr_bm_13n,2,ussr,Наземная техника,vehicle,premium,1,3,,,True
-ussr_a_12_mk_2_matilda_2a_f96,2,ussr,Наземная техника,vehicle,premium,1,4,,,True
-ussr_valentine_mk_9,2,ussr,Наземная техника,vehicle,premium,1,5,,,True
-ussr_su_85a,2,ussr,Наземная техника,vehicle,premium,1,6,,,True
+ussr_kv_8,2,ussr,Наземная техника,vehicle,premium,1,4,,,True
+ussr_a_12_mk_2_matilda_2a_f96,2,ussr,Наземная техника,vehicle,premium,1,5,,,True
+ussr_valentine_mk_9,2,ussr,Наземная техника,vehicle,premium,1,6,,,True
+ussr_su_85a,2,ussr,Наземная техника,vehicle,premium,1,7,,,True
 ussr_kv_2_1940,3,ussr,Наземная техника,vehicle,premium,1,0,,,True
 ussr_kv_7_u13,3,ussr,Наземная техника,vehicle,premium,1,1,,,True
 ussr_kv_1e,3,ussr,Наземная техника,vehicle,premium,1,2,,,True
