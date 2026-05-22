@@ -3228,6 +3228,7 @@ fr_arras_class_amiens,3,france,Малый флот,vehicle,standard,2,0,,,True
 fr_marne_class_aisne,3,france,Малый флот,vehicle,standard,2,1,,,False
 fr_vlt2,4,france,Малый флот,vehicle,standard,2,0,,,False
 fr_frigate_corse_class_corse,4,france,Малый флот,vehicle,standard,2,1,,,False
+fr_trident_class_glaive_p671,3,france,Малый флот,vehicle,premium,0,0,,,True
 sw_strv_m31,1,sweden,Наземная техника,vehicle,standard,0,0,,,False
 sw_bt_42,1,sweden,Наземная техника,vehicle,standard,0,1,sw_strv_m31,,False
 sw_strv_m41_s2,2,sweden,Наземная техника,vehicle,standard,0,0,,,False

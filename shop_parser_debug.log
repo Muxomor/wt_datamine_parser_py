@@ -2188,7 +2188,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_t_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher', 'jp_type_03_chusam_launcher', 'uk_sky_sabre_launcher', 'ussr_buk_m3_launcher', 'us_nasams_launcher', 'germ_iris_slm_launcher'}
+Slave-юниты: {'ussr_buk_m3_launcher', 'us_sl_amraam_launcher', 'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'fr_samp_t_launcher', 'us_nasams_launcher', 'it_samp_t_launcher', 'jp_type_81_tansam_launcher', 'jp_type_03_chusam_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -14208,7 +14208,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_
       ОТЛАДКА: Техника fr_battleship_strasbourg имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_battleship_strasbourg с предшественником '', статус: premium, have_prem_flag: True
     Столбец 2: обработано 8 элементов
-  Обработка типа: Малый флот, столбцов: 3
+  Обработка типа: Малый флот, столбцов: 4
         ОТЛАДКА: get_group_items добавлен fr_vtb8 с order=0
         ОТЛАДКА: get_group_items добавлен fr_vtb11 с order=1
         ОТЛАДКА: get_group_items добавлен fr_vtb14 с order=2
@@ -14298,7 +14298,13 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_
       ОТЛАДКА: Техника fr_frigate_corse_class_corse имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника fr_frigate_corse_class_corse с предшественником '', статус: standard, have_prem_flag: False
     Столбец 2: обработано 6 элементов
-Обработано 312 элементов для france
+      ОТЛАДКА: Премиум техники в колонке: 1/1 = 1.00, порог: 0.2
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Техника fr_trident_class_glaive_p671, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника fr_trident_class_glaive_p671 имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника fr_trident_class_glaive_p671 с предшественником '', статус: premium, have_prem_flag: True
+    Столбец 3: обработано 1 элементов
+Обработано 313 элементов для france
 Обработка страны: sweden
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен sw_cv_9030_fin с order=0
@@ -22511,6 +22517,10 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_
         Отдельный элемент: fr_frigate_corse_class_corse
       fr_vlt2: [2, 0] (элемент)
       fr_frigate_corse_class_corse: [2, 1] (элемент)
+  Обработка столбца: france/Малый флот/col_3/premium_True
+    Ранг 3: 1 элементов, начинаем с row_index=0
+        Отдельный элемент: fr_trident_class_glaive_p671
+      fr_trident_class_glaive_p671: [0, 0] (элемент)
   Обработка столбца: sweden/Наземная техника/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: sw_strv_m31
@@ -23224,11 +23234,11 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3536 элементов
-Данные (3536 записей) сохранены в shop.csv
+Координаты назначены для 3537 элементов
+Данные (3537 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2607, Премиумной: 929
+Статистика: Стандартной техники: 2607, Премиумной: 930
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (402 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3536 элементов.
+Парсинг завершен успешно! Обработано 3537 элементов.
