@@ -6,13 +6,13 @@ wpcost_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char
 
 wpcost_fallback_urls=https://github.com/gszabi99/War-Thunder-Datamine/raw/master/char.vromfs.bin_u/config/wpcost.blkx,https://cdn.statically.io/gh/gszabi99/War-Thunder-Datamine/master/char.vromfs.bin_u/config/wpcost.blkx,https://gitcdn.xyz/repo/gszabi99/War-Thunder-Datamine/master/char.vromfs.bin_u/config/wpcost.blkx
 
-rank_url=https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/rank.blkx
+rank_url=https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/refs/heads/master/char.vromfs.bin_u/config/rank.blkx
 
 version_url=https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/refs/heads/master/version
 
-base_url=http://192.168.0.105:8881/api
-parser_api_key=6285d1ced593a6f7b0a232fd3c68052e83f353767e7d95623f006048a8739fdb
-jwt_secret=miDDcpWOWoJ313N6x5Fq7SwEX+TXPQ799MNSjbvGY0A=
+base_url=http://wtmeta.ru/api
+parser_api_key=c575db1e7b4ff01307590ee3b1f665ea97ec58033458f43f71afb6631874264b
+jwt_secret=VGfdaI2wyEzJNYsE8tuOfIz2ApR2Xm1Vv5U7LsIl2hQ=
 
 debug_mode=true
 save_intermediate_files=true

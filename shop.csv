@@ -1718,6 +1718,7 @@ uk_khalid,6,britain,Наземная техника,vehicle,premium,0,1,,,False
 uk_rooikat_105_td,6,britain,Наземная техника,vehicle,premium,0,2,,,False
 uk_challenger_1_mk_3_gulf,7,britain,Наземная техника,vehicle,premium,0,0,,,True
 uk_challenger_2_megatron,7,britain,Наземная техника,vehicle,premium,0,1,,,False
+uk_challenger_2_megatron_sm,7,britain,Наземная техника,vehicle,premium,0,2,,,True
 uk_a_13_mk2_1939,1,britain,Наземная техника,vehicle,premium,1,0,,,True
 uk_alecto_mk_1,1,britain,Наземная техника,vehicle,premium,1,1,,,True
 uk_mk1_grant,2,britain,Наземная техника,vehicle,premium,1,0,,,True
@@ -2119,6 +2120,7 @@ jp_type_74_mod_g_kai,6,japan,Наземная техника,vehicle,premium,0,0
 jp_type_16_mod,6,japan,Наземная техника,vehicle,premium,0,1,,,True
 jp_icv_prototype,7,japan,Наземная техника,vehicle,premium,0,0,,,True
 jp_type_90b_camo,7,japan,Наземная техника,vehicle,premium,0,1,,,True
+jp_type_90b_sm,7,japan,Наземная техника,vehicle,premium,0,2,,,True
 jp_type_3_ka_chi,1,japan,Наземная техника,vehicle,premium,1,0,,,True
 jp_type_97_kai_td,2,japan,Наземная техника,vehicle,premium,1,0,,,True
 uh_1b_japan,5,japan,Вертолёты,vehicle,standard,0,0,,,False
@@ -2487,6 +2489,7 @@ cn_plz_83_130,5,china,Наземная техника,vehicle,premium,1,0,,,True
 cn_t_62,6,china,Наземная техника,vehicle,premium,1,0,,,True
 cn_t_80ud_478be,7,china,Наземная техника,vehicle,premium,1,0,,,True
 cn_al_khalid_1,7,china,Наземная техника,vehicle,premium,1,1,,,True
+cn_mbt2000_sm,7,china,Наземная техника,vehicle,premium,1,2,,,True
 z_11wa,5,china,Вертолёты,vehicle,standard,0,0,,,False
 z_9w,6,china,Вертолёты,vehicle,standard,0,0,z_11wa,,False
 z_9wa,6,china,Вертолёты,vehicle,standard,0,1,z_9w,,False
