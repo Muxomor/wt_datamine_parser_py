@@ -42,15 +42,19 @@ class LocalizationParser:
         self.logger.log("Парсинг данных локализации...")
         
         try:
-            # Разбираем CSV содержимое
-            lines = csv_content.strip().split('\n')
+            # Разбираем CSV содержимое.
+            # Важно: feed-им весь контент в csv.reader разом, а не построчно — иначе
+            # поля со встроенными \n внутри кавычек (валидный RFC 4180) парсятся как
+            # обрывки. Например, shop/group/he_112_group в источнике переносится на
+            # две физические строки, и при построчной обработке row.len < 7 и запись теряется.
+            lines = csv_content.splitlines()
             
             # Пропускаем заголовок
             if not lines:
                 self.logger.log("Файл локализации пуст", 'warning')
                 return
             
-            header_line = lines[0] if lines else ""
+            header_line = lines[0]
             self.logger.log(f"Заголовок: {header_line[:100]}...", 'debug')
             
             # Словарь для временного хранения записей по приоритету
@@ -60,15 +64,23 @@ class LocalizationParser:
             processed_count = 0
             entries_count = 0
             
-            for line_num, line in enumerate(lines[1:], 2):  # Пропускаем заголовок
-                if not line.strip():
-                    continue
-                    
+            reader = csv.reader(lines[1:], delimiter=';', quotechar='"')
+            
+            while True:
                 try:
-                    # Парсим CSV строку с учетом кавычек и точек с запятой
-                    reader = csv.reader([line], delimiter=';', quotechar='"')
                     row = next(reader)
-                    
+                except StopIteration:
+                    break
+                except csv.Error as e:
+                    self.logger.log(f"Ошибка CSV около строки {reader.line_num}: {e}", 'warning')
+                    continue
+                
+                line_num = reader.line_num + 1  # +1 за заголовок
+                
+                if not row or not row[0].strip():
+                    continue
+                
+                try:
                     if len(row) < 7:  # Проверяем, что есть минимум 7 колонок (до русского языка)
                         self.logger.log(f"Строка {line_num}: недостаточно колонок ({len(row)})", 'debug')
                         continue

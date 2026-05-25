@@ -359,7 +359,10 @@ class MiscAndImagesParser:
         unit_id_lower = unit_id.lower()
         
         if unit_id_lower in image_fields:
-            image_name = image_fields[unit_id_lower]
+            # Файлы на CDN всегда в lowercase, а в датамайне могут быть римские
+            # цифры с большой буквы (например, germ_pzkpfw_III_group). Без .lower()
+            # формируется битый URL с 404.
+            image_name = image_fields[unit_id_lower].lower()
             fallback_url = f"{Constants.IMAGES_BASE_URL}{image_name}.png"
             
             self.logger.log(f"    FALLBACK: {unit_id} -> {image_name} -> {fallback_url}", 'debug')

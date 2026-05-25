@@ -286,16 +286,16 @@
   Найдено поле image: germ_puma_group -> germ_puma_group
         ОТЛАДКА: get_group_items добавлен germ_schutzenpanzer_puma с order=0
         ОТЛАДКА: get_group_items добавлен germ_schutzenpanzer_puma_vjtf с order=1
-  Найдено поле image: germ_prewar_pz_III_group -> germ_prewar_pz_III_group
+  Найдено поле image: germ_prewar_pz_III_group -> germ_prewar_pz_iii_group
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_E с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_B с order=1
-  Найдено поле image: germ_pzkpfw_III_late_group -> germ_pzkpfw_III_group
+  Найдено поле image: germ_pzkpfw_III_late_group -> germ_pzkpfw_iii_group
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_L с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_M с order=1
   Найдено поле image: germ_kpz_super_group -> germ_kpz_super_group
         ОТЛАДКА: get_group_items добавлен germ_kpz_70 с order=0
         ОТЛАДКА: get_group_items добавлен germ_mkpz_super_m48 с order=1
-  Найдено поле image: germ_pzkpfw_II_early_group -> germ_pzkpfw_II_early_group
+  Найдено поле image: germ_pzkpfw_II_early_group -> germ_pzkpfw_ii_early_group
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_II_ausf_C с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_II_ausf_F с order=1
   Найдено поле image: germ_pzkpfw_4_early_group -> germ_pzkpfw_4_early_group
@@ -307,7 +307,7 @@
   Найдено поле image: germ_pz_4_late_group -> germ_pzkpfw_iv_late_group
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_H с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_IV_ausf_J с order=1
-  Найдено поле image: germ_pzkpfw_V_a_f_group -> germ_pzkpfw_V_a_f_group
+  Найдено поле image: germ_pzkpfw_V_a_f_group -> germ_pzkpfw_v_a_f_group
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_V_ausf_a_panther с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_V_ausf_g_panther с order=1
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_V_ausf_f_panther с order=2
@@ -709,7 +709,7 @@
   Найдено поле image: uk_challenger_group -> uk_challenger_1
         ОТЛАДКА: get_group_items добавлен uk_challenger_1 с order=0
         ОТЛАДКА: get_group_items добавлен uk_challenger_mk_3 с order=1
-  Найдено поле image: uk_challenger_2_group -> uk_challenger_II
+  Найдено поле image: uk_challenger_2_group -> uk_challenger_ii
         ОТЛАДКА: get_group_items добавлен uk_challenger_II с order=0
         ОТЛАДКА: get_group_items добавлен uk_challenger_2_dorchester с order=1
         ОТЛАДКА: get_group_items добавлен uk_challenger_2_tes с order=2
@@ -2188,7 +2188,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher', 'germ_iris_slm_launcher', 'sw_nasams_launcher', 'fr_samp_t_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'jp_type_03_chusam_launcher', 'us_nasams_launcher', 'us_sl_amraam_launcher'}
+Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_chusam_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'ussr_buk_m3_launcher', 'sw_nasams_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher

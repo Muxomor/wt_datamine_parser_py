@@ -5382,9 +5382,9 @@ GitHub Tree API вернул 55402 элементов
     Вариант не найден: ge-rm_pzkpfw_iii_late_group
     Вариант не найден: ger-m_pzkpfw_iii_late_group
     Изображение не найдено для: germ_pzkpfw_iii_late_group
-    FALLBACK: germ_pzkpfw_iii_late_group -> germ_pzkpfw_III_group -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_III_group.png
-  FALLBACK изображение: germ_pzkpfw_iii_late_group -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_III_group.png
-  Найдено изображение: germ_pzkpfw_iii_late_group -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_III_group.png
+    FALLBACK: germ_pzkpfw_iii_late_group -> germ_pzkpfw_iii_group -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_group.png
+  FALLBACK изображение: germ_pzkpfw_iii_late_group -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_group.png
+  Найдено изображение: germ_pzkpfw_iii_late_group -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_group.png
     Найдено: germ_pzkpfw_iii_ausf_l -> germ_pzkpfw_iii_ausf_l -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_l.png
   Найдено изображение: germ_pzkpfw_iii_ausf_l -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_l.png
     Найдено: germ_pzkpfw_iii_ausf_m -> germ_pzkpfw_iii_ausf_m -> https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iii_ausf_m.png
@@ -11565,10 +11565,10 @@ GitHub Tree API вернул 55402 элементов
 Данные об изображениях техники (3540 записей) сохранены в shop_images.csv
 Обработка изображений техники завершена успешно!
 Загрузка данных версии из: https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/refs/heads/master/version
-Данные версии успешно загружены: 2.55.1.129
+Данные версии успешно загружены: 2.55.1.130
 Обработка данных версии...
-Версия валидна: 2.55.1.129
-Данные версии сохранены в version.csv: 2.55.1.129
+Версия валидна: 2.55.1.130
+Данные версии сохранены в version.csv: 2.55.1.130
 Обработка версии завершена успешно!
 Парсинг misc данных завершен!
 Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

@@ -195,7 +195,9 @@ class ShopParser:
             image_path = item_info['image']
             # Форматируем: берем текст после последнего #
             if '#' in image_path:
-                formatted_image = image_path.split('#')[-1]
+                # Приводим к нижнему регистру: файлы на CDN всегда в lowercase
+                # (например, datamine указывает germ_pzkpfw_III_group, а на CDN germ_pzkpfw_iii_group.png)
+                formatted_image = image_path.split('#')[-1].lower()
                 self.image_fields[item_name.lower()] = formatted_image
                 self.logger.log(f"  Найдено поле image: {item_name} -> {formatted_image}", 'debug')
 
