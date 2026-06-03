@@ -1895,6 +1895,7 @@ corsair_fmk2,2,britain,Авиация,vehicle,premium,0,3,,,False
 spitfiremkiia_ep,2,britain,Авиация,vehicle,premium,0,4,,,False
 d_520,2,britain,Авиация,vehicle,premium,0,5,,,True
 d_521,2,britain,Авиация,vehicle,premium,0,6,,,True
+spitfire_mk5b_float,2,britain,Авиация,vehicle,premium,0,7,,,True
 hellcat_fmk1,3,britain,Авиация,vehicle,premium,0,0,,,False
 thunderbolt_mk1,3,britain,Авиация,vehicle,premium,0,1,,,False
 p-51b,3,britain,Авиация,vehicle,premium,0,2,,,False
@@ -2291,7 +2292,7 @@ fw-190a-5_japan,4,japan,Авиация,vehicle,premium,1,1,,,True
 ki_94_2,4,japan,Авиация,vehicle,premium,1,2,,,True
 ki_87,4,japan,Авиация,vehicle,premium,1,3,,,False
 j6k1,4,japan,Авиация,vehicle,premium,1,4,,,True
-f-4ej_adtw,7,japan,Авиация,vehicle,premium,1,0,,,True
+f-4ej_adtw,7,japan,Авиация,vehicle,premium,1,0,,,False
 jp_destroyer_momi,1,japan,Большой флот,vehicle,standard,0,0,,,False
 jp_destroyer_matsu,1,japan,Большой флот,vehicle,standard,0,1,jp_destroyer_momi,,False
 jp_minelayer_tsugaru,2,japan,Большой флот,vehicle,standard,0,0,jp_destroyer_matsu,,False

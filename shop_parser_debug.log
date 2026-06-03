@@ -2188,7 +2188,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_chusam_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher', 'ussr_buk_m3_launcher', 'sw_nasams_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher'}
+Slave-юниты: {'ussr_buk_m3_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'germ_iris_slm_launcher', 'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'us_nasams_launcher', 'uk_sky_sabre_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -9375,7 +9375,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       ОТЛАДКА: Техника tornado_gr4 зависит от группы f_111c_tornado_group
       ОТЛАДКА: Добавлена техника tornado_gr4 с предшественником 'f_111c_tornado_group', статус: standard, have_prem_flag: False
     Столбец 4: обработано 33 элементов
-      ОТЛАДКА: Премиум техники в колонке: 14/28 = 0.50, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 15/29 = 0.52, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника gladiator_mk2_tuck, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника gladiator_mk2_tuck имеет reqAir='', предшественника нет
@@ -9413,6 +9413,9 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       ОТЛАДКА: Техника d_521, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника d_521 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника d_521 с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Техника spitfire_mk5b_float, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
+      ОТЛАДКА: Техника spitfire_mk5b_float имеет reqAir='', предшественника нет
+      ОТЛАДКА: Добавлена техника spitfire_mk5b_float с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника hellcat_fmk1, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника hellcat_fmk1 имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника hellcat_fmk1 с предшественником '', статус: premium, have_prem_flag: False
@@ -9461,7 +9464,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       ОТЛАДКА: Техника cf_188a_canada, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника cf_188a_canada имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника cf_188a_canada с предшественником '', статус: premium, have_prem_flag: True
-    Столбец 5: обработано 28 элементов
+    Столбец 5: обработано 29 элементов
       ОТЛАДКА: Премиум техники в колонке: 19/23 = 0.83, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника spad_13, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
@@ -9865,7 +9868,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       ОТЛАДКА: Техника uk_frigate_river имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника uk_frigate_river с предшественником '', статус: premium, have_prem_flag: True
     Столбец 3: обработано 3 элементов
-Обработано 458 элементов для britain
+Обработано 459 элементов для britain
 Обработка страны: japan
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен jp_type_60_sprg с order=0
@@ -10824,7 +10827,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       ОТЛАДКА: Техника f_2a_adtw имеет reqAir='', предшественника нет
       ОТЛАДКА: Добавлена техника f_2a_adtw с предшественником '', статус: premium, have_prem_flag: True
     Столбец 5: обработано 22 элементов
-      ОТЛАДКА: Премиум техники в колонке: 11/15 = 0.73, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 10/15 = 0.67, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника e7k2, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника e7k2 имеет reqAir='', предшественника нет
@@ -10870,7 +10873,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       ОТЛАДКА: Добавлена техника j6k1 с предшественником '', статус: premium, have_prem_flag: True
       ОТЛАДКА: Техника f-4ej_adtw, reqAir в JSON: есть, значение: '', next_should_depend_on_group=None, has_dependency: False
       ОТЛАДКА: Техника f-4ej_adtw имеет reqAir='', предшественника нет
-      ОТЛАДКА: Добавлена техника f-4ej_adtw с предшественником '', статус: premium, have_prem_flag: True
+      ОТЛАДКА: Добавлена техника f-4ej_adtw с предшественником '', статус: premium, have_prem_flag: False
     Столбец 6: обработано 15 элементов
   Обработка типа: Большой флот, столбцов: 5
         ОТЛАДКА: get_group_items добавлен jp_cruiser_furutaka с order=0
@@ -19423,7 +19426,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       osprey_mk4: [0, 2] (элемент)
       walrus_mk1: [0, 3] (элемент)
       fairey_3f_mk3b: [0, 4] (элемент)
-    Ранг 2: 7 элементов, начинаем с row_index=0
+    Ранг 2: 8 элементов, начинаем с row_index=0
         Отдельный элемент: avenger_mk1
         Отдельный элемент: hudson_mk_v
         Отдельный элемент: b_48_firecrest
@@ -19431,6 +19434,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
         Отдельный элемент: spitfiremkiia_ep
         Отдельный элемент: d_520
         Отдельный элемент: d_521
+        Отдельный элемент: spitfire_mk5b_float
       avenger_mk1: [0, 0] (элемент)
       hudson_mk_v: [0, 1] (элемент)
       b_48_firecrest: [0, 2] (элемент)
@@ -19438,6 +19442,7 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
       spitfiremkiia_ep: [0, 4] (элемент)
       d_520: [0, 5] (элемент)
       d_521: [0, 6] (элемент)
+      spitfire_mk5b_float: [0, 7] (элемент)
     Ранг 3: 4 элементов, начинаем с row_index=0
         Отдельный элемент: hellcat_fmk1
         Отдельный элемент: thunderbolt_mk1
@@ -23249,11 +23254,11 @@ Slave-юниты: {'it_samp_t_launcher', 'germ_iris_slm_launcher', 'jp_type_03_c
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3540 элементов
-Данные (3540 записей) сохранены в shop.csv
+Координаты назначены для 3541 элементов
+Данные (3541 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2607, Премиумной: 933
+Статистика: Стандартной техники: 2607, Премиумной: 934
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (402 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3540 элементов.
+Парсинг завершен успешно! Обработано 3541 элементов.
