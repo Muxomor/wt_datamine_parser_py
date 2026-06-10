@@ -99,8 +99,10 @@ uh_1c,uh_1b
 ah_1f,uh_1c
 ah_1w,ah_1f
 ah_1z,ah_1w
+ah_6m,uh_1b
 oh_58d,ah_6m
 mh_60l_dap,oh_58d
+ah_64a,ah_1f
 ah_64d,ah_64a
 ah_64e,ah_64d
 p-26_group,p-26a_34_m2
@@ -441,6 +443,7 @@ uh_1d,sa_313b
 bo_105pah1,uh_1d
 bo_105pah1_a1,bo_105pah1
 tiger_uht,bo_105pah1_a1
+mi_8tb,sa_313b
 mi_24p_german,mi_8tb
 bf-109c_1,bf-109b_2
 bf-109e_group,bf-109e-1
@@ -770,8 +773,10 @@ mi_24p,mi_24v
 mi_35m,mi_24p
 mi_28n,mi_35m
 mi_28nm,mi_28n
+mi_8tv,mi_4av
 mi_8amtsh,mi_8tv
 mi_8amtsh_vn,mi_8amtsh
+ka_29,mi_24p
 ka_52,ka_29
 yak-1_early,yak-1_group
 yak-1b,yak-1_early
@@ -1349,6 +1354,7 @@ ah_1s_early,uh_1b_japan
 ah_1s_late,ah_1s_early
 ah_64d_japan,ah_1s_late
 ah_64e_indonesia,ah_64d_japan
+mi_35p_indonesia,ah_1s_early
 a5m4,f1m2
 a6m2_n_zero,a6m2_n1k1_group
 n1k1_kyuofu,a6m2_n_zero
@@ -1598,6 +1604,7 @@ z_9wa,z_9w
 z_19,z_9wa
 z_10,z_19
 z_10me,z_10
+sa_342l_china,z_11wa
 oh_58d_china,sa_342l_china
 ah_1w_china,oh_58d_china
 ah_64e_china,ah_1w_china
@@ -1981,6 +1988,8 @@ tiger_group,sa_342m
 tiger_had_france,tiger_group
 tiger_hac_france,tiger_had_france
 tiger_had_block2_france,tiger_group
+ah_64e_netherlands,tiger_group
+sa_313b_france,h_34_france
 d_371,d_371_group
 d_373,d_371
 caudron_cr714,d_371_group
@@ -2294,6 +2303,7 @@ ah_1q_iaf,ah_1g_iaf
 ah_1f_iaf,ah_1q_iaf
 ah_64a_iaf,ah_1f_iaf
 ah_64d_i_saraph,ah_64a_iaf
+md_500_tow_late,ah_1g_iaf
 ah_60_iaf,md_500_tow_late
 spitfire_lf_mk9e_iaf,spitfire_mk9c_iaf
 meteor_nfmk13,spitfire_lf_mk9e_iaf

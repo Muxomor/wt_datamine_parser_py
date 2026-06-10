@@ -1,12 +1,12 @@
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
   Всего строк в CSV: 3541
-  Премиумных юнитов: 958
-  Обычных юнитов: 2583
-Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
-Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
+  Премиумных юнитов: 960
+  Обычных юнитов: 2581
+Попытка 1: Загрузка данных wpcost из: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@2.55.1.153/char.vromfs.bin_u/config/wpcost.blkx
+Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@2.55.1.153/char.vromfs.bin_u/config/wpcost.blkx
 Пробуем следующий URL...
-Попытка 2: Загрузка данных wpcost из: https://github.com/gszabi99/War-Thunder-Datamine/raw/master/char.vromfs.bin_u/config/wpcost.blkx
+Попытка 2: Загрузка данных wpcost из: https://github.com/gszabi99/War-Thunder-Datamine/raw/2.55.1.153/char.vromfs.bin_u/config/wpcost.blkx
 Размер файла: 1.8 МБ
 Данные wpcost успешно загружены с попытки 2
 Начинаем обработку данных wpcost...
@@ -8349,8 +8349,10 @@
   Обработан hkp9a_cb3_fc: silver=990000, exp=370000, br=9.7
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан ahs: silver=1020000, exp=400000, br=11.7
+  Обрабатываем премиумный юнит: mi_28a_sweden (status=premium, have_prem_flag=False)
+  Премиумный юнит mi_28a_sweden: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан mi_28a_sweden: silver=0, exp=400000, br=10.7
+  Обработан mi_28a_sweden (премиум): silver=0, exp=None, br=10.7
   Не найден в wpcost: gladiator_j8a_group (нормализован: gladiator_j8a_group) - пропускается
     reqExp отсутствует или некорректно для gladiator_j8a, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
@@ -8694,8 +8696,10 @@
   Обработан md_500_tow_late: silver=490000, exp=150000, br=9
     БР расчет: economicRank=35, raw=12.667, округлено=12.7
   Обработан ah_60_iaf: silver=1020000, exp=400000, br=12.7
+  Обрабатываем премиумный юнит: ah_64a_peten_iaf (status=premium, have_prem_flag=False)
+  Премиумный юнит ah_64a_peten_iaf: silver=0, exp=None (обнулено)
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
-  Обработан ah_64a_peten_iaf: silver=0, exp=400000, br=11.7
+  Обработан ah_64a_peten_iaf (премиум): silver=0, exp=None, br=11.7
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан spitfire_mk9c_iaf: silver=185000, exp=54000, br=4.3
     БР расчет: economicRank=14, raw=5.667, округлено=5.7
@@ -8800,12 +8804,12 @@
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13.3
 Статистика обработки wpcost:
   Найдено и обработано: 3149
-  Из них премиумных (с обнуленными silver/exp): 951
+  Из них премиумных (с обнуленными silver/exp): 953
   Не найдено в wpcost (пропущено): 392
   Всего ID из shop.csv: 3541
 Данные wpcost (3149 записей) сохранены в wpcost.csv
 Статистика данных:
-  Записей с опытом (exp): 2116
+  Записей с опытом (exp): 2114
   Записей с fallback БР (1.0): 157
   Всего записей: 3149
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

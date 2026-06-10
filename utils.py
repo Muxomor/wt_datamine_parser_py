@@ -83,8 +83,11 @@ class Constants:
     
     # Порог для определения премиумной колонки (0.X = X0% премиумной техники)
     PREMIUM_THRESHOLD = 0.2
+
+    # Минимальный X rankPosXY для premium-секции вертолётов
+    HELI_PREMIUM_X_MIN = 6
     
-    # Обрабатывать ли slave-юниты (для будущего развития)
+    # Обрабатывать ли slave-юниты
     PROCESS_SLAVE_UNITS = False
     
     # Маппинг типов техники из JSON в название для БД

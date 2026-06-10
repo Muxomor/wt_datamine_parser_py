@@ -164,25 +164,25 @@ us_m60a3_slep,7,usa,Наземная техника,vehicle,premium,1,1,,,True
 us_losat_ccv,7,usa,Наземная техника,vehicle,premium,1,2,,,True
 us_ags_teledyne,7,usa,Наземная техника,vehicle,premium,1,3,,,True
 us_merkava_mk_3d,7,usa,Наземная техника,vehicle,premium,1,4,,,True
-ah_1g,5,usa,Вертолёты,vehicle,standard,0,0,,,False
-uh_1b,5,usa,Вертолёты,vehicle,standard,0,1,ah_1g,,False
-uh_1c,5,usa,Вертолёты,vehicle,standard,0,2,uh_1b,,False
-ah_1f,6,usa,Вертолёты,vehicle,standard,0,0,uh_1c,,False
-ah_1w,6,usa,Вертолёты,vehicle,standard,0,1,ah_1f,,False
-ah_1z,7,usa,Вертолёты,vehicle,standard,0,0,ah_1w,,False
-ah_6m,6,usa,Вертолёты,vehicle,standard,1,0,,,False
-oh_58d,6,usa,Вертолёты,vehicle,standard,1,1,ah_6m,,False
-mh_60l_dap,7,usa,Вертолёты,vehicle,standard,1,0,oh_58d,,False
-ah_64a,6,usa,Вертолёты,vehicle,standard,2,0,,,False
-ah_64d,7,usa,Вертолёты,vehicle,standard,2,0,ah_64a,,False
-ah_64e,7,usa,Вертолёты,vehicle,standard,2,1,ah_64d,,False
+ah_1g,5,usa,Вертолёты,vehicle,standard,1,0,,,False
+uh_1b,5,usa,Вертолёты,vehicle,standard,1,1,ah_1g,,False
+uh_1c,5,usa,Вертолёты,vehicle,standard,2,1,uh_1b,,False
+ah_1f,6,usa,Вертолёты,vehicle,standard,2,0,uh_1c,,False
+ah_1w,6,usa,Вертолёты,vehicle,standard,2,1,ah_1f,,False
+ah_1z,7,usa,Вертолёты,vehicle,standard,2,0,ah_1w,,False
+ah_6m,6,usa,Вертолёты,vehicle,standard,0,0,uh_1b,,False
+oh_58d,6,usa,Вертолёты,vehicle,standard,0,1,ah_6m,,False
+mh_60l_dap,7,usa,Вертолёты,vehicle,standard,0,0,oh_58d,,False
+ah_64a,6,usa,Вертолёты,vehicle,standard,1,1,ah_1f,,False
+ah_64d,7,usa,Вертолёты,vehicle,standard,1,0,ah_64a,,False
+ah_64e,7,usa,Вертолёты,vehicle,standard,1,1,ah_64d,,False
 h_34,5,usa,Вертолёты,vehicle,premium,0,0,,,True
 uh_1c_xm_30,5,usa,Вертолёты,vehicle,premium,0,1,,,True
 rah_66,6,usa,Вертолёты,vehicle,premium,0,0,,,True
 ah_64a_greece_usa,6,usa,Вертолёты,vehicle,premium,0,1,,,True
 ah_64a_peten,6,usa,Вертолёты,vehicle,premium,0,2,,,True
-ah_56a,6,usa,Вертолёты,vehicle,premium,0,3,,,True
-yah_64,6,usa,Вертолёты,vehicle,premium,0,4,,,True
+ah_56a,6,usa,Вертолёты,vehicle,premium,1,0,,,True
+yah_64,6,usa,Вертолёты,vehicle,premium,1,1,,,True
 p-26a_34_m2,1,usa,Авиация,vehicle,standard,0,0,,,False
 p-26_group,1,usa,Авиация,folder,standard,0,1,p-26a_34_m2,,False
 p-26a_33,1,usa,Авиация,vehicle,standard,0,1,p-26_group,0,False
@@ -710,13 +710,13 @@ germ_th_400,6,germany,Наземная техника,vehicle,premium,1,2,,,True
 germ_leopard_2av,7,germany,Наземная техника,vehicle,premium,1,0,,,True
 germ_leopard_2_pt14,7,germany,Наземная техника,vehicle,premium,1,1,,,True
 germ_leopard_2a4_pzbtl_123,7,germany,Наземная техника,vehicle,premium,1,2,,,True
-sa_313b,5,germany,Вертолёты,vehicle,standard,0,0,,,False
+sa_313b,5,germany,Вертолёты,vehicle,standard,1,0,,,False
 uh_1d,5,germany,Вертолёты,vehicle,standard,0,1,sa_313b,,False
 bo_105pah1,6,germany,Вертолёты,vehicle,standard,0,0,uh_1d,,False
 bo_105pah1_a1,6,germany,Вертолёты,vehicle,standard,0,1,bo_105pah1,,False
 tiger_uht,7,germany,Вертолёты,vehicle,standard,0,0,bo_105pah1_a1,,False
-mi_8tb,5,germany,Вертолёты,vehicle,standard,1,0,,,False
-mi_24p_german,6,germany,Вертолёты,vehicle,standard,1,0,mi_8tb,,False
+mi_8tb,5,germany,Вертолёты,vehicle,standard,1,1,sa_313b,,False
+mi_24p_german,6,germany,Вертолёты,vehicle,standard,1,1,mi_8tb,,False
 bo_105cb2,5,germany,Вертолёты,vehicle,premium,0,0,,,True
 mi_24p_german_hfs80,6,germany,Вертолёты,vehicle,premium,0,0,,,False
 tiger_had_spain,7,germany,Вертолёты,vehicle,premium,0,0,,,True
@@ -1235,17 +1235,17 @@ ussr_t_72m2_moderna,7,ussr,Наземная техника,vehicle,premium,1,2,,
 ussr_t_72b3_arena,7,ussr,Наземная техника,vehicle,premium,1,3,,,True
 ussr_t_80um2,7,ussr,Наземная техника,vehicle,premium,1,4,,,True
 ussr_t_80uk,7,ussr,Наземная техника,vehicle,premium,1,5,,,True
-mi_4av,5,ussr,Вертолёты,vehicle,standard,0,0,,,False
-mi_24a,5,ussr,Вертолёты,vehicle,standard,0,1,mi_4av,,False
-mi_24v,6,ussr,Вертолёты,vehicle,standard,0,0,mi_24a,,False
-mi_24p,6,ussr,Вертолёты,vehicle,standard,0,1,mi_24v,,False
-mi_35m,6,ussr,Вертолёты,vehicle,standard,0,2,mi_24p,,False
-mi_28n,7,ussr,Вертолёты,vehicle,standard,0,0,mi_35m,,False
-mi_28nm,7,ussr,Вертолёты,vehicle,standard,0,1,mi_28n,,False
-mi_8tv,5,ussr,Вертолёты,vehicle,standard,1,0,,,False
-mi_8amtsh,6,ussr,Вертолёты,vehicle,standard,1,0,mi_8tv,,False
-mi_8amtsh_vn,7,ussr,Вертолёты,vehicle,standard,1,0,mi_8amtsh,,False
-ka_29,6,ussr,Вертолёты,vehicle,standard,2,0,,,False
+mi_4av,5,ussr,Вертолёты,vehicle,standard,1,0,,,False
+mi_24a,5,ussr,Вертолёты,vehicle,standard,1,1,mi_4av,,False
+mi_24v,6,ussr,Вертолёты,vehicle,standard,1,0,mi_24a,,False
+mi_24p,6,ussr,Вертолёты,vehicle,standard,1,1,mi_24v,,False
+mi_35m,6,ussr,Вертолёты,vehicle,standard,1,2,mi_24p,,False
+mi_28n,7,ussr,Вертолёты,vehicle,standard,1,0,mi_35m,,False
+mi_28nm,7,ussr,Вертолёты,vehicle,standard,1,1,mi_28n,,False
+mi_8tv,5,ussr,Вертолёты,vehicle,standard,0,1,mi_4av,,False
+mi_8amtsh,6,ussr,Вертолёты,vehicle,standard,0,1,mi_8tv,,False
+mi_8amtsh_vn,7,ussr,Вертолёты,vehicle,standard,0,0,mi_8amtsh,,False
+ka_29,6,ussr,Вертолёты,vehicle,standard,2,2,mi_24p,,False
 ka_52,7,ussr,Вертолёты,vehicle,standard,2,0,ka_29,,False
 mi_24d,5,ussr,Вертолёты,vehicle,premium,0,0,,,True
 ka_50,6,ussr,Вертолёты,vehicle,premium,0,0,,,True
@@ -2129,7 +2129,7 @@ ah_1s_early,6,japan,Вертолёты,vehicle,standard,0,0,uh_1b_japan,,False
 ah_1s_late,6,japan,Вертолёты,vehicle,standard,0,1,ah_1s_early,,False
 ah_64d_japan,7,japan,Вертолёты,vehicle,standard,0,0,ah_1s_late,,False
 ah_64e_indonesia,7,japan,Вертолёты,vehicle,standard,0,1,ah_64d_japan,,False
-mi_35p_indonesia,6,japan,Вертолёты,vehicle,standard,1,0,,,False
+mi_35p_indonesia,6,japan,Вертолёты,vehicle,standard,1,1,ah_1s_early,,False
 ah_1s,6,japan,Вертолёты,vehicle,premium,0,0,,,True
 ah_64d_lightweight_japan,7,japan,Вертолёты,vehicle,premium,0,0,,,True
 f1m2,1,japan,Авиация,vehicle,standard,0,0,,,False
@@ -2497,7 +2497,7 @@ z_9wa,6,china,Вертолёты,vehicle,standard,0,1,z_9w,,False
 z_19,6,china,Вертолёты,vehicle,standard,0,2,z_9wa,,False
 z_10,7,china,Вертолёты,vehicle,standard,0,0,z_19,,False
 z_10me,7,china,Вертолёты,vehicle,standard,0,1,z_10,,False
-sa_342l_china,5,china,Вертолёты,vehicle,standard,1,0,,,False
+sa_342l_china,5,china,Вертолёты,vehicle,standard,1,1,z_11wa,,False
 oh_58d_china,6,china,Вертолёты,vehicle,standard,1,0,sa_342l_china,,False
 ah_1w_china,6,china,Вертолёты,vehicle,standard,1,1,oh_58d_china,,False
 ah_64e_china,7,china,Вертолёты,vehicle,standard,1,0,ah_1w_china,,False
@@ -3036,15 +3036,15 @@ fr_panhard_ebr_1963,5,france,Наземная техника,vehicle,premium,1,0
 fr_amx_50_surblinde,5,france,Наземная техника,vehicle,premium,1,1,,,True
 fr_amx_50_1950,5,france,Наземная техника,vehicle,premium,1,2,,,True
 h_34_france,5,france,Вертолёты,vehicle,standard,0,0,,,False
-sa_316b,5,france,Вертолёты,vehicle,standard,0,1,h_34_france,,False
-sa_341f,6,france,Вертолёты,vehicle,standard,0,0,sa_316b,,False
-sa_342m,6,france,Вертолёты,vehicle,standard,0,1,sa_341f,,False
-tiger_group,7,france,Вертолёты,folder,standard,0,0,sa_342m,,False
-tiger_had_france,7,france,Вертолёты,vehicle,standard,0,0,tiger_group,0,False
-tiger_hac_france,7,france,Вертолёты,vehicle,standard,0,0,tiger_had_france,1,False
-tiger_had_block2_france,7,france,Вертолёты,vehicle,standard,0,1,tiger_group,,False
-ah_64e_netherlands,7,france,Вертолёты,vehicle,standard,1,0,,,False
-sa_313b_france,5,france,Вертолёты,vehicle,standard,2,0,,,False
+sa_316b,5,france,Вертолёты,vehicle,standard,1,1,h_34_france,,False
+sa_341f,6,france,Вертолёты,vehicle,standard,1,0,sa_316b,,False
+sa_342m,6,france,Вертолёты,vehicle,standard,1,1,sa_341f,,False
+tiger_group,7,france,Вертолёты,folder,standard,1,0,sa_342m,,False
+tiger_had_france,7,france,Вертолёты,vehicle,standard,1,0,tiger_group,0,False
+tiger_hac_france,7,france,Вертолёты,vehicle,standard,1,0,tiger_had_france,1,False
+tiger_had_block2_france,7,france,Вертолёты,vehicle,standard,1,1,tiger_group,,False
+ah_64e_netherlands,7,france,Вертолёты,vehicle,standard,0,1,tiger_group,,False
+sa_313b_france,5,france,Вертолёты,vehicle,standard,0,1,h_34_france,,False
 iar_316b,5,france,Вертолёты,vehicle,premium,0,0,,,True
 tiger_hap_france,6,france,Вертолёты,vehicle,premium,0,0,,,False
 ah_64d_netherlands,7,france,Вертолёты,vehicle,premium,0,0,,,False
@@ -3341,7 +3341,7 @@ hkp2,5,sweden,Вертолёты,vehicle,standard,0,1,hkp3c,,False
 hkp9a_cb2,6,sweden,Вертолёты,vehicle,standard,0,0,hkp2,,False
 hkp9a_cb3_fc,6,sweden,Вертолёты,vehicle,standard,0,1,hkp9a_cb2,,False
 ahs,7,sweden,Вертолёты,vehicle,standard,0,0,hkp9a_cb3_fc,,False
-mi_28a_sweden,6,sweden,Вертолёты,vehicle,standard,1,0,,,False
+mi_28a_sweden,6,sweden,Вертолёты,vehicle,premium,0,0,,,False
 gladiator_j8a_group,1,sweden,Авиация,folder,standard,0,0,,,False
 gladiator_j8a,1,sweden,Авиация,vehicle,standard,0,0,gladiator_j8a_group,0,False
 j6b,1,sweden,Авиация,vehicle,standard,0,0,gladiator_j8a,1,False
@@ -3494,9 +3494,9 @@ ah_1q_iaf,6,israel,Вертолёты,vehicle,standard,0,0,ah_1g_iaf,,False
 ah_1f_iaf,6,israel,Вертолёты,vehicle,standard,0,1,ah_1q_iaf,,False
 ah_64a_iaf,6,israel,Вертолёты,vehicle,standard,0,2,ah_1f_iaf,,False
 ah_64d_i_saraph,7,israel,Вертолёты,vehicle,standard,0,0,ah_64a_iaf,,False
-md_500_tow_late,5,israel,Вертолёты,vehicle,standard,1,0,,,False
+md_500_tow_late,5,israel,Вертолёты,vehicle,standard,1,1,ah_1g_iaf,,False
 ah_60_iaf,7,israel,Вертолёты,vehicle,standard,1,0,md_500_tow_late,,False
-ah_64a_peten_iaf,6,israel,Вертолёты,vehicle,standard,2,0,,,False
+ah_64a_peten_iaf,6,israel,Вертолёты,vehicle,premium,0,0,,,False
 spitfire_mk9c_iaf,4,israel,Авиация,vehicle,standard,0,0,,,False
 spitfire_lf_mk9e_iaf,4,israel,Авиация,vehicle,standard,0,1,spitfire_mk9c_iaf,,False
 meteor_nfmk13,5,israel,Авиация,vehicle,standard,0,0,spitfire_lf_mk9e_iaf,,False

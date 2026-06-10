@@ -3,7 +3,10 @@ import csv
 import requests
 from typing import Dict, List, Any, Optional, Set, Tuple
 
+from collections import defaultdict
 from utils import Config, Logger, Constants
+
+HELICOPTERS_TYPE = Constants.VEHICLE_TYPE_MAPPING['helicopters']
 
 
 class ShopParser:
@@ -329,14 +332,157 @@ class ShopParser:
                 
         return items
 
+    def _get_rank_pos_xy(self, item_info: Dict[str, Any]) -> Optional[List[int]]:
+        """Извлекает rankPosXY [x, y] из данных юнита (1-based координаты из shop.blkx)."""
+        raw = item_info.get('rankPosXY')
+        if not raw or not isinstance(raw, (list, tuple)) or len(raw) < 2:
+            return None
+        return [int(raw[0]), int(raw[1])]
+
+    def _is_helicopters(self, vehicle_type: str) -> bool:
+        return vehicle_type == HELICOPTERS_TYPE
+
+    def _is_helicopter_premium(self, item_info: Dict[str, Any], rank_pos_xy: Optional[List[int]]) -> bool:
+        """Premium-секция вертолётов: rankPosXY.x >= 6 или явные premium-флаги."""
+        if rank_pos_xy and rank_pos_xy[0] >= Constants.HELI_PREMIUM_X_MIN:
+            return True
+        return self.has_premium_flag(item_info)
+
+    def _resolve_predecessor(
+        self,
+        item_info: Dict[str, Any],
+        is_premium: bool,
+        results: List[Dict[str, Any]],
+        next_should_depend_on_group: Optional[str] = None,
+        is_helicopter: bool = False,
+    ) -> str:
+        """Определяет predecessor: для вертолётов reqAir имеет приоритет над sequential."""
+        if is_premium:
+            return ''
+
+        req_air = item_info.get('reqAir')
+        if req_air == '':
+            return ''
+
+        if is_helicopter and req_air:
+            return req_air
+
+        if next_should_depend_on_group:
+            return next_should_depend_on_group
+        if results:
+            return results[-1]['id']
+        return ''
+
+    def assign_helicopter_coordinates(self, parsed_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Назначает координаты вертолётам из rankPosXY с dense-rank remap X по дереву нации."""
+        self.logger.log("Назначение координат вертолётов из rankPosXY...")
+
+        heli_by_country: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+        for item in parsed_data:
+            if self._is_helicopters(item['vehicle_type']):
+                heli_by_country[item['country']].append(item)
+
+        for country, items in heli_by_country.items():
+            standard_xs = sorted({
+                item['rank_pos_xy'][0]
+                for item in items
+                if item.get('rank_pos_xy') and item['status'] == 'standard'
+            })
+            premium_xs = sorted({
+                item['rank_pos_xy'][0]
+                for item in items
+                if item.get('rank_pos_xy') and item['status'] == 'premium'
+            })
+            standard_x_map = {x: i for i, x in enumerate(standard_xs)}
+            premium_x_map = {x: i for i, x in enumerate(premium_xs)}
+
+            self.logger.log(
+                f"  {country}: standard X {standard_xs} → cols 0..{len(standard_xs)-1}, "
+                f"premium X {premium_xs} → cols 0..{len(premium_xs)-1}"
+            )
+
+            for item in items:
+                xy = item.get('rank_pos_xy')
+                if not xy:
+                    self.logger.log(
+                        f"    ПРЕДУПРЕЖДЕНИЕ: {item['id']} без rankPosXY, координаты не назначены",
+                        'warning',
+                    )
+                    continue
+
+                x, y = xy[0], xy[1]
+                if item['status'] == 'premium':
+                    if x not in premium_x_map:
+                        self.logger.log(
+                            f"    ПРЕДУПРЕЖДЕНИЕ: premium {item['id']} X={x} вне premium_x_map",
+                            'warning',
+                        )
+                        continue
+                    item['column_index'] = premium_x_map[x]
+                else:
+                    if x not in standard_x_map:
+                        self.logger.log(
+                            f"    ПРЕДУПРЕЖДЕНИЕ: {item['id']} X={x} вне standard_x_map",
+                            'warning',
+                        )
+                        continue
+                    item['column_index'] = standard_x_map[x]
+
+                item['row_index'] = y - 1
+                self.logger.log(
+                    f"    {item['id']}: rankPosXY [{x}, {y}] → [{item['column_index']}, {item['row_index']}] "
+                    f"({item['status']})",
+                    'debug',
+                )
+
+        return parsed_data
+
+    def normalize_folder_predecessors(self, parsed_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Перенаправляет predecessor на папку, если внешний юнит зависит от элемента внутри folder.
+
+        В shop.blkx reqAir может указывать на конкретный вариант в группе (tiger_had_france),
+        но на сетке отображается только folder (tiger_group). Внутри папки цепочки сохраняются.
+        """
+        by_id = {item['id']: item for item in parsed_data}
+
+        for item in parsed_data:
+            pred_id = item.get('predecessor')
+            if not pred_id:
+                continue
+
+            pred_item = by_id.get(pred_id)
+            if not pred_item:
+                continue
+
+            folder_id = pred_item.get('parent_id')
+            if not folder_id:
+                continue
+
+            if item.get('parent_id') == folder_id:
+                continue
+
+            item['predecessor'] = folder_id
+            self.logger.log(
+                f"  normalize_folder_predecessors: {item['id']} -> {folder_id} "
+                f"(было {pred_id}, элемент внутри folder)",
+                'debug',
+            )
+
+        return parsed_data
+
     def assign_coordinates_after_parsing(self, parsed_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Назначает координаты после парсинга всех данных на основе структурного анализа"""
         self.logger.log("Начинаем назначение координат...")
+
+        parsed_data = self.assign_helicopter_coordinates(parsed_data)
         
         # Группируем данные по (страна, тип_техники, original_column_pos, is_premium)
         columns_structure = {}
         
         for item in parsed_data:
+            if self._is_helicopters(item['vehicle_type']):
+                continue
+
             key = (
                 item['country'], 
                 item['vehicle_type'], 
@@ -447,6 +593,7 @@ class ShopParser:
         results = []
         next_should_depend_on_group = None
         parsing_order = 0  # Счетчик для сохранения порядка парсинга
+        is_helicopter = self._is_helicopters(vehicle_type)
         
         # Обрабатываем элементы в том порядке, в котором они идут в JSON
         for item_name, item_info in range_data.items():
@@ -463,7 +610,8 @@ class ShopParser:
                 # Обрабатываем группу
                 group_results = self._process_group(item_name, item_info, country, vehicle_type, 
                                                  original_column_pos, is_premium, results, 
-                                                 next_should_depend_on_group, parsing_order)
+                                                 next_should_depend_on_group, parsing_order,
+                                                 is_helicopter=is_helicopter)
                 
                 # Устанавливаем parsing_order для всех элементов группы
                 for group_item in group_results:
@@ -473,7 +621,9 @@ class ShopParser:
                 parsing_order += 1
                 
                 # После группы следующий элемент должен зависеть от группы
-                if not (item_name in self.slave_units and not Constants.PROCESS_SLAVE_UNITS) and not is_premium:
+                last_group_item = group_results[-1] if group_results else None
+                if (last_group_item and last_group_item.get('status') != 'premium'
+                        and not (item_name in self.slave_units and not Constants.PROCESS_SLAVE_UNITS)):
                     next_should_depend_on_group = item_name
                     self.logger.log(f"        ОТЛАДКА: Установлен флаг next_should_depend_on_group={item_name}", 'debug')
                     
@@ -481,7 +631,8 @@ class ShopParser:
                 # Обрабатываем обычную технику
                 regular_item = self._process_regular_item(item_name, item_info, country, vehicle_type,
                                                         original_column_pos, is_premium, results,
-                                                        next_should_depend_on_group)
+                                                        next_should_depend_on_group,
+                                                        is_helicopter=is_helicopter)
                 if regular_item:
                     regular_item['parsing_order'] = parsing_order
                     results.append(regular_item)
@@ -493,10 +644,11 @@ class ShopParser:
     def _process_group(self, item_name: str, item_info: Dict[str, Any], country: str, 
                       vehicle_type: str, original_column_pos: int, is_premium: bool,
                       results: List[Dict[str, Any]], next_should_depend_on_group: Optional[str], 
-                      parsing_order: int) -> List[Dict[str, Any]]:
+                      parsing_order: int, is_helicopter: bool = False) -> List[Dict[str, Any]]:
         """Обрабатывает группу техники"""
         group_results = []
         rank = item_info.get('rank', 1)
+        group_rank_pos_xy = self._get_rank_pos_xy(item_info)
         
         # Получаем элементы группы для определения правильного ранга
         group_items = self.get_group_items(item_info)
@@ -518,7 +670,9 @@ class ShopParser:
         if not (item_name in self.slave_units and not Constants.PROCESS_SLAVE_UNITS):
             group_item = self._create_group_item(item_name, item_info, country, vehicle_type,
                                                original_column_pos, is_premium, actual_rank,
-                                               results, next_should_depend_on_group)
+                                               results, next_should_depend_on_group,
+                                               is_helicopter=is_helicopter,
+                                               inherited_rank_pos_xy=group_rank_pos_xy)
             if group_item:
                 group_results.append(group_item)
         
@@ -535,7 +689,9 @@ class ShopParser:
             
             nested_item = self._create_group_child_item(nested_name, nested_info, item_name, country,
                                                       vehicle_type, original_column_pos, is_premium,
-                                                      actual_rank, order, group_items)
+                                                      actual_rank, order, group_items,
+                                                      is_helicopter=is_helicopter,
+                                                      inherited_rank_pos_xy=group_rank_pos_xy)
             if nested_item:
                 group_results.append(nested_item)
         
@@ -544,23 +700,25 @@ class ShopParser:
     def _create_group_item(self, item_name: str, item_info: Dict[str, Any], country: str,
                           vehicle_type: str, original_column_pos: int, is_premium: bool,
                           actual_rank: int, results: List[Dict[str, Any]], 
-                          next_should_depend_on_group: Optional[str]) -> Optional[Dict[str, Any]]:
+                          next_should_depend_on_group: Optional[str],
+                          is_helicopter: bool = False,
+                          inherited_rank_pos_xy: Optional[List[int]] = None) -> Optional[Dict[str, Any]]:
         """Создает элемент группы - БЕЗ назначения координат"""
-        
-        # Определяем предшественника для группы
-        predecessor = ''
-        has_dependency = 'reqAir' not in item_info or item_info.get('reqAir') != ''
-        self.logger.log(f"        ОТЛАДКА: Группа {item_name}, reqAir в JSON: {'есть' if 'reqAir' in item_info else 'нет'}, значение: '{item_info.get('reqAir', 'отсутствует')}', has_dependency: {has_dependency}", 'debug')
-        
-        if has_dependency and not is_premium:
-            if next_should_depend_on_group:
-                predecessor = next_should_depend_on_group
-                self.logger.log(f"        ОТЛАДКА: Группа {item_name} зависит от предыдущей группы {predecessor}", 'debug')
-            elif results:
-                predecessor = results[-1]['id']
-                self.logger.log(f"        ОТЛАДКА: Группа {item_name} зависит от {predecessor}", 'debug')
-        else:
-            self.logger.log(f"        ОТЛАДКА: Группа {item_name} имеет reqAir='', предшественника нет", 'debug')
+        rank_pos_xy = inherited_rank_pos_xy or self._get_rank_pos_xy(item_info)
+        item_is_premium = (
+            self._is_helicopter_premium(item_info, rank_pos_xy)
+            if is_helicopter
+            else is_premium
+        )
+
+        predecessor = self._resolve_predecessor(
+            item_info, item_is_premium, results, next_should_depend_on_group, is_helicopter
+        )
+        self.logger.log(
+            f"        ОТЛАДКА: Группа {item_name}, predecessor='{predecessor}', "
+            f"rankPosXY={rank_pos_xy}, premium={item_is_premium}",
+            'debug',
+        )
         
         group_item = {
             'id': item_name,
@@ -568,42 +726,50 @@ class ShopParser:
             'country': country,
             'vehicle_type': vehicle_type,
             'type': 'folder',
-            'status': 'premium' if is_premium else 'standard',
+            'status': 'premium' if item_is_premium else 'standard',
             'reqAir': item_info.get('reqAir', None),
             'is_group': True,
             'order_in_folder': None,
-            'predecessor': predecessor if not is_premium else '',
+            'predecessor': predecessor,
             'original_column_pos': original_column_pos,
-            'have_prem_flag': self.has_premium_flag(item_info),  # НОВОЕ ПОЛЕ
-            # Координаты будут назначены позже
-            'column_index': 0,  # временное значение
-            'row_index': 0      # временное значение
+            'have_prem_flag': self.has_premium_flag(item_info),
+            'rank_pos_xy': rank_pos_xy,
+            'column_index': 0,
+            'row_index': 0
         }
         
-        self.logger.log(f"        ОТЛАДКА: Добавлена группа {item_name} с предшественником '{predecessor}', статус: {group_item['status']}, have_prem_flag: {group_item['have_prem_flag']}", 'debug')
+        self.logger.log(f"        ОТЛАДКА: Добавлена группа {item_name} с предшественником '{predecessor}', статус: {group_item['status']}", 'debug')
         return group_item
 
     def _create_group_child_item(self, nested_name: str, nested_info: Dict[str, Any], parent_name: str,
                                country: str, vehicle_type: str, original_column_pos: int, is_premium: bool,
-                               actual_rank: int, order: int, group_items: List[tuple]) -> Optional[Dict[str, Any]]:
+                               actual_rank: int, order: int, group_items: List[tuple],
+                               is_helicopter: bool = False,
+                               inherited_rank_pos_xy: Optional[List[int]] = None) -> Optional[Dict[str, Any]]:
         """Создает элемент внутри группы - БЕЗ назначения координат"""
         nested_rank = nested_info.get('rank', actual_rank)
+        rank_pos_xy = self._get_rank_pos_xy(nested_info) or inherited_rank_pos_xy
         
         # Для slave-unit берем только основной элемент
         parent_id = self.master_slave_pairs.get(parent_name, parent_name)
         
-        # Определяем предшественника для элемента группы
+        item_is_premium = (
+            self._is_helicopter_premium(nested_info, rank_pos_xy)
+            if is_helicopter
+            else is_premium
+        )
+
         predecessor = ''
-        has_dependency = 'reqAir' not in nested_info or nested_info.get('reqAir') != ''
-        self.logger.log(f"          ОТЛАДКА: Элемент {nested_name}, reqAir в JSON: {'есть' if 'reqAir' in nested_info else 'нет'}, значение: '{nested_info.get('reqAir', 'отсутствует')}', order={order}, parent_id={parent_id}, has_dependency: {has_dependency}", 'debug')
-        
-        if has_dependency and not is_premium:
-            if order == 0:
-                # Первый элемент группы зависит от самой группы
+        if not item_is_premium:
+            req_air = nested_info.get('reqAir')
+            if is_helicopter and req_air:
+                predecessor = req_air
+            elif req_air == '':
+                predecessor = ''
+            elif order == 0:
                 predecessor = parent_id
-                self.logger.log(f"          ОТЛАДКА: Первый элемент группы {nested_name} (order={order}) зависит от группы {parent_id}", 'debug')
+                self.logger.log(f"          ОТЛАДКА: Первый элемент группы {nested_name} зависит от группы {parent_id}", 'debug')
             else:
-                # Остальные элементы зависят от предыдущего элемента группы
                 prev_order = order - 1
                 for prev_order_item, prev_name, prev_info in group_items:
                     if prev_order_item == prev_order:
@@ -612,8 +778,6 @@ class ShopParser:
                         predecessor = prev_name
                         self.logger.log(f"          ОТЛАДКА: Элемент группы {nested_name} зависит от {prev_name}", 'debug')
                         break
-        else:
-            self.logger.log(f"          ОТЛАДКА: Элемент группы {nested_name} имеет reqAir='', предшественника нет", 'debug')
         
         nested_item = {
             'id': nested_name,
@@ -621,42 +785,43 @@ class ShopParser:
             'country': country,
             'vehicle_type': vehicle_type,
             'type': 'vehicle',
-            'status': 'premium' if is_premium else 'standard',
+            'status': 'premium' if item_is_premium else 'standard',
             'reqAir': nested_info.get('reqAir', None),
             'is_group': False,
             'parent_id': parent_id,
             'order_in_folder': order,
-            'predecessor': predecessor if not is_premium else '',
+            'predecessor': predecessor,
             'original_column_pos': original_column_pos,
-            'have_prem_flag': self.has_premium_flag(nested_info),  # НОВОЕ ПОЛЕ
-            # Координаты будут назначены позже
-            'column_index': 0,  # временное значение
-            'row_index': 0      # временное значение
+            'have_prem_flag': self.has_premium_flag(nested_info),
+            'rank_pos_xy': rank_pos_xy,
+            'column_index': 0,
+            'row_index': 0
         }
         
-        self.logger.log(f"          ОТЛАДКА: Добавлен элемент группы {nested_name} с предшественником '{predecessor}', статус: {nested_item['status']}, have_prem_flag: {nested_item['have_prem_flag']}", 'debug')
+        self.logger.log(f"          ОТЛАДКА: Добавлен элемент группы {nested_name} с предшественником '{predecessor}'", 'debug')
         return nested_item
 
     def _process_regular_item(self, item_name: str, item_info: Dict[str, Any], country: str,
                             vehicle_type: str, original_column_pos: int, is_premium: bool,
-                            results: List[Dict[str, Any]], next_should_depend_on_group: Optional[str]) -> Optional[Dict[str, Any]]:
+                            results: List[Dict[str, Any]], next_should_depend_on_group: Optional[str],
+                            is_helicopter: bool = False) -> Optional[Dict[str, Any]]:
         """Обрабатывает обычную технику - БЕЗ назначения координат"""
         rank = item_info.get('rank', 1)
-        
-        # Определяем предшественника
-        predecessor = ''
-        has_dependency = 'reqAir' not in item_info or item_info.get('reqAir') != ''
-        self.logger.log(f"      ОТЛАДКА: Техника {item_name}, reqAir в JSON: {'есть' if 'reqAir' in item_info else 'нет'}, значение: '{item_info.get('reqAir', 'отсутствует')}', next_should_depend_on_group={next_should_depend_on_group}, has_dependency: {has_dependency}", 'debug')
-        
-        if has_dependency and not is_premium:
-            if next_should_depend_on_group:
-                predecessor = next_should_depend_on_group
-                self.logger.log(f"      ОТЛАДКА: Техника {item_name} зависит от группы {predecessor}", 'debug')
-            elif results:
-                predecessor = results[-1]['id']
-                self.logger.log(f"      ОТЛАДКА: Техника {item_name} зависит от {predecessor}", 'debug')
-        else:
-            self.logger.log(f"      ОТЛАДКА: Техника {item_name} имеет reqAir='', предшественника нет", 'debug')
+        rank_pos_xy = self._get_rank_pos_xy(item_info)
+        item_is_premium = (
+            self._is_helicopter_premium(item_info, rank_pos_xy)
+            if is_helicopter
+            else is_premium
+        )
+
+        predecessor = self._resolve_predecessor(
+            item_info, item_is_premium, results, next_should_depend_on_group, is_helicopter
+        )
+        self.logger.log(
+            f"      ОТЛАДКА: Техника {item_name}, predecessor='{predecessor}', "
+            f"rankPosXY={rank_pos_xy}, premium={item_is_premium}",
+            'debug',
+        )
             
         regular_item = {
             'id': item_name,
@@ -664,19 +829,19 @@ class ShopParser:
             'country': country,
             'vehicle_type': vehicle_type,
             'type': 'vehicle',
-            'status': 'premium' if is_premium else 'standard',
+            'status': 'premium' if item_is_premium else 'standard',
             'reqAir': item_info.get('reqAir', None),
             'is_group': False,
             'order_in_folder': None,
-            'predecessor': predecessor if not is_premium else '',
+            'predecessor': predecessor,
             'original_column_pos': original_column_pos,
-            'have_prem_flag': self.has_premium_flag(item_info),  
-            # Координаты будут назначены позже
-            'column_index': 0,  # временное значение
-            'row_index': 0      # временное значение
+            'have_prem_flag': self.has_premium_flag(item_info),
+            'rank_pos_xy': rank_pos_xy,
+            'column_index': 0,
+            'row_index': 0
         }
         
-        self.logger.log(f"      ОТЛАДКА: Добавлена техника {item_name} с предшественником '{predecessor}', статус: {regular_item['status']}, have_prem_flag: {regular_item['have_prem_flag']}", 'debug')
+        self.logger.log(f"      ОТЛАДКА: Добавлена техника {item_name} с предшественником '{predecessor}', статус: {regular_item['status']}", 'debug')
         return regular_item
 
     def process_country_data(self, country_data: Dict[str, Any], country: str) -> List[Dict[str, Any]]:
@@ -691,6 +856,7 @@ class ShopParser:
             range_data = type_data.get('range', [])
             
             self.logger.log(f"  Обработка типа: {vehicle_type_name}, столбцов: {len(range_data)}")
+            is_helicopter = self._is_helicopters(vehicle_type_name)
             
             # Обрабатываем каждый столбец (range)
             for column_index, column_data in enumerate(range_data):
@@ -698,13 +864,15 @@ class ShopParser:
                     self.logger.log(f"    ОШИБКА: Столбец {column_index} не является словарем: {type(column_data)}", 'error')
                     continue
                 
-                # Определяем, является ли колонка премиумной
-                is_premium = self.is_premium_column(column_data)
+                # Для вертолётов premium определяется по rankPosXY.x >= 6 на уровне юнита
+                is_premium = False if is_helicopter else self.is_premium_column(column_data)
                 
                 if is_premium:
                     self.logger.log(f"    Столбец {column_index} определен как ПРЕМИУМНЫЙ (порог: {Constants.PREMIUM_THRESHOLD*100}%)")
-                else:
+                elif not is_helicopter:
                     self.logger.log(f"    Столбец {column_index} определен как ОБЫЧНЫЙ")
+                else:
+                    self.logger.log(f"    Столбец {column_index}: вертолёты — premium по rankPosXY.x")
                 
                 column_results = self.process_range_column(
                     column_data, country, vehicle_type_name, column_index, is_premium
@@ -739,9 +907,9 @@ class ShopParser:
             
             self.logger.log(f"Обработано {len(country_results)} элементов для {country_name}")
         
-        # НОВОЕ: назначаем координаты после сбора всех данных
         all_results = self.assign_coordinates_after_parsing(all_results)
-        
+        all_results = self.normalize_folder_predecessors(all_results)
+
         return all_results
     
     def save_image_fields_to_csv(self, filename: str = 'shop_images_fields.csv'):
