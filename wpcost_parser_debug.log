@@ -2653,8 +2653,8 @@
   Обработан germ_destroyer_class1936a_z25 (премиум): silver=0, exp=None, br=4.3
   Обрабатываем премиумный юнит: germ_cruiser_admiral_scheer (status=premium, have_prem_flag=False)
   Премиумный юнит germ_cruiser_admiral_scheer: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан germ_cruiser_admiral_scheer (премиум): silver=0, exp=None, br=6
+    БР расчет: economicRank=14, raw=5.667, округлено=5.7
+  Обработан germ_cruiser_admiral_scheer (премиум): silver=0, exp=None, br=5.7
   Обрабатываем премиумный юнит: germ_battlecruiser_mackensen_class (status=premium, have_prem_flag=True)
   Премиумный юнит germ_battlecruiser_mackensen_class: silver=0, exp=None (обнулено)
     БР расчет: economicRank=18, raw=7.000, округлено=7
@@ -4961,7 +4961,7 @@
   Премиумный юнит f-4jk: silver=0, exp=None (обнулено)
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан f-4jk (премиум): silver=0, exp=None, br=12
-  Обрабатываем премиумный юнит: mig-21_bison (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: mig-21_bison (status=premium, have_prem_flag=False)
   Премиумный юнит mig-21_bison: silver=0, exp=None (обнулено)
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан mig-21_bison (премиум): silver=0, exp=None, br=12.3
@@ -6631,7 +6631,7 @@
   Премиумный юнит a_5c: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан a_5c (премиум): silver=0, exp=None, br=10.7
-  Обрабатываем премиумный юнит: j_7d (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: j_7d (status=premium, have_prem_flag=False)
   Премиумный юнит j_7d: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан j_7d (премиум): silver=0, exp=None, br=10.7
@@ -7977,10 +7977,10 @@
   Премиумный юнит mirage_2000c_s4: silver=0, exp=None (обнулено)
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан mirage_2000c_s4 (премиум): silver=0, exp=None, br=12.3
-  Обрабатываем премиумный юнит: f_16am_block_15_mlu_fs_belgium (status=premium, have_prem_flag=True)
-  Премиумный юнит f_16am_block_15_mlu_fs_belgium: silver=0, exp=None (обнулено)
+  Обрабатываем премиумный юнит: f_16am_block_20_mlu_netherlands (status=premium, have_prem_flag=True)
+  Премиумный юнит f_16am_block_20_mlu_netherlands: silver=0, exp=None (обнулено)
     БР расчет: economicRank=38, raw=13.667, округлено=13.7
-  Обработан f_16am_block_15_mlu_fs_belgium (премиум): silver=0, exp=None, br=13.7
+  Обработан f_16am_block_20_mlu_netherlands (премиум): silver=0, exp=None, br=13.7
     reqExp отсутствует или некорректно для fr_destroyer_bourrasque_class_bourrasque, установлено None
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан fr_destroyer_bourrasque_class_bourrasque: silver=0, exp=None, br=3.7

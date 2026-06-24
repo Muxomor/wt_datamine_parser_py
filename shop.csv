@@ -1933,7 +1933,7 @@ lightning_f53,6,britain,Авиация,vehicle,premium,0,0,,,False
 harrier_gr1,6,britain,Авиация,vehicle,premium,0,1,,,False
 harrier_frs1,7,britain,Авиация,vehicle,premium,0,0,,,True
 f-4jk,7,britain,Авиация,vehicle,premium,0,1,,,False
-mig-21_bison,8,britain,Авиация,vehicle,premium,0,0,,,True
+mig-21_bison,8,britain,Авиация,vehicle,premium,0,0,,,False
 cf_188a_canada,8,britain,Авиация,vehicle,premium,0,1,,,True
 spad_13,1,britain,Авиация,vehicle,premium,1,0,,,True
 swordfish_mk2,1,britain,Авиация,vehicle,premium,1,1,,,True
@@ -2627,7 +2627,7 @@ f-84g-31-re_china,5,china,Авиация,vehicle,premium,0,0,,,False
 mig-17_f5,6,china,Авиация,vehicle,premium,0,0,,,False
 f_6c_pakistan,6,china,Авиация,vehicle,premium,0,1,,,True
 a_5c,7,china,Авиация,vehicle,premium,0,0,,,False
-j_7d,7,china,Авиация,vehicle,premium,0,1,,,True
+j_7d,7,china,Авиация,vehicle,premium,0,1,,,False
 jh_7a_prototype,8,china,Авиация,vehicle,premium,0,0,,,True
 jf_17,8,china,Авиация,vehicle,premium,0,1,,,True
 p-51c-11-nt_china,3,china,Авиация,vehicle,premium,1,0,,,True
@@ -3208,7 +3208,7 @@ f-84f_iaf,6,france,Авиация,vehicle,premium,1,0,,,True
 so_4050_vautour_2a_iaf,6,france,Авиация,vehicle,premium,1,1,,,True
 jaguar_e,7,france,Авиация,vehicle,premium,1,0,,,True
 mirage_2000c_s4,8,france,Авиация,vehicle,premium,1,0,,,True
-f_16am_block_15_mlu_fs_belgium,8,france,Авиация,vehicle,premium,1,1,,,True
+f_16am_block_20_mlu_netherlands,8,france,Авиация,vehicle,premium,1,1,,,True
 fr_destroyer_bourrasque_class_bourrasque,1,france,Большой флот,vehicle,standard,0,0,,,False
 fr_destroyer_hunt_3series,1,france,Большой флот,vehicle,standard,0,1,fr_destroyer_bourrasque_class_bourrasque,,False
 fr_destroyer_aigle_class_vautour,2,france,Большой флот,vehicle,standard,0,0,fr_destroyer_hunt_3series,,False

@@ -634,7 +634,7 @@ germ_stuh_iii_ausf_g,StuH 42 G,StuH 42 G
 germ_stug_iii_ausf_f,StuG III F,StuG III F
 germ_hummel,Hummel,Hummel
 germ_stug_iii_ausf_g,StuG III G,StuG III G
-germ_m44_55_group,M44/M55,M44/M55
+germ_m44_55_group,germ_m44_55_group,germ_m44_55_group
 germ_m44,M44,M44
 germ_m55,◄M55,◄M55
 germ_jagdpanzer_group,Jagdpanzer IV/38(t),Jagdpanzer IV/38(t)
@@ -1292,7 +1292,7 @@ yak-23,Як-23,Yak-23
 yak-30d,Як-30Д,Yak-30D
 yak-38m,Як-38М,Yak-38M
 yak_141,Як-141,Yak-141
-mig_29kr_9_41r,МиГ-29К (9-41Р),MiG-29K (9-41R)
+mig_29kr_9_41r,МиГ-29КР (9-41Р),MiG-29KR (9-41R)
 i-16_type5,И-16 тип 5,I-16 type 5
 mig_3_series_1_15,МиГ-3-15,MiG-3-15
 i-16_group,И-16,I-16
@@ -3208,7 +3208,7 @@ f-84f_iaf,F-84F IAF,F-84F IAF
 so_4050_vautour_2a_iaf,Vautour IIA IDF/AF,Vautour IIA IDF/AF
 jaguar_e,Jaguar E,Jaguar E
 mirage_2000c_s4,Mirage 2000C-S4,Mirage 2000C-S4
-f_16am_block_15_mlu_fs_belgium,▄F-16AM,▄F-16AM
+f_16am_block_20_mlu_netherlands,◘F-16AM,◘F-16AM
 fr_destroyer_bourrasque_class_bourrasque,Bourrasque,Bourrasque
 fr_destroyer_hunt_3series,La Combattante,La Combattante
 fr_destroyer_aigle_class_vautour,Vautour,Vautour
@@ -3320,7 +3320,7 @@ sw_lvkv_asrad_group,Lvkv/ASRAD,Lvkv/ASRAD
 sw_lvkv_90c,Lvkv 9040C,Lvkv 9040C
 sw_asrad_r,ASRAD-R,ASRAD-R
 sw_crotale_ng,ItO 90M,ItO 90M
-sw_eldenhet_nomads_group,sw_eldenhet_nomads_group,sw_eldenhet_nomads_group
+sw_eldenhet_nomads_group,EldE 98/NOMADS,EldE 98/NOMADS
 sw_eldenhet_98,EldE 98,EldE 98
 sw_nomads,NOMADS,NOMADS
 sw_nasams_fcs,NASAMS 3 (СОЦ),NASAMS 3 (TADS)

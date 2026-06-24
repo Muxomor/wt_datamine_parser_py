@@ -876,7 +876,7 @@ germ_battleship_gneisenau_380mm,0,,7.7
 germ_battleship_baden,0,,7
 germ_destroyer_class1939_t31,0,,4
 germ_destroyer_class1936a_z25,0,,4.3
-germ_cruiser_admiral_scheer,0,,6
+germ_cruiser_admiral_scheer,0,,5.7
 germ_battlecruiser_mackensen_class,0,,7
 germ_ls_class,0,,1.0
 germ_s38,0,,1.0
@@ -2852,7 +2852,7 @@ f-84f_iaf,0,,8.3
 so_4050_vautour_2a_iaf,0,,9
 jaguar_e,0,,10.7
 mirage_2000c_s4,0,,12.3
-f_16am_block_15_mlu_fs_belgium,0,,13.7
+f_16am_block_20_mlu_netherlands,0,,13.7
 fr_destroyer_bourrasque_class_bourrasque,0,,3.7
 fr_destroyer_hunt_3series,2100,4000,4
 fr_destroyer_aigle_class_vautour,16000,9000,4.3

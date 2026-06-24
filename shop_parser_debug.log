@@ -1242,7 +1242,7 @@
   Найдено поле image: sw_lvkv_asrad_group -> sw_lvkv_asrad_group
         ОТЛАДКА: get_group_items добавлен sw_lvkv_90c с order=0
         ОТЛАДКА: get_group_items добавлен sw_asrad_r с order=1
-  Найдено поле image: sw_eldenhet_nomads_group -> sw_lvkv_asrad_group
+  Найдено поле image: sw_eldenhet_nomads_group -> sw_eldenhet_nomads_group
         ОТЛАДКА: get_group_items добавлен sw_eldenhet_98 с order=0
         ОТЛАДКА: get_group_items добавлен sw_nomads с order=1
   Найдено поле image: sw_nasams_fcs -> germ_iris_slm_group
@@ -2193,7 +2193,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'us_sl_amraam_launcher', 'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'jp_type_81_tansam_launcher', 'jp_type_03_chusam_launcher', 'fr_samp_t_launcher', 'germ_iris_slm_launcher', 'us_nasams_launcher'}
+Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher', 'sw_nasams_launcher', 'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -7557,7 +7557,7 @@ Slave-юниты: {'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'us_sl_amraam_
       ОТЛАДКА: Техника tornado_gr4, predecessor='f_111c_tornado_group', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника tornado_gr4 с предшественником 'f_111c_tornado_group', статус: standard
     Столбец 4: обработано 34 элементов
-      ОТЛАДКА: Премиум техники в колонке: 11/29 = 0.38, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 10/29 = 0.34, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника gladiator_mk2_tuck, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника gladiator_mk2_tuck с предшественником '', статус: premium
@@ -9455,7 +9455,7 @@ Slave-юниты: {'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'us_sl_amraam_
       ОТЛАДКА: Техника j_15t, predecessor='j_11b', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника j_15t с предшественником 'j_11b', статус: standard
     Столбец 3: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/16 = 0.31, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 4/16 = 0.25, порог: 0.2
     Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника hawk_iii, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника hawk_iii с предшественником '', статус: premium
@@ -11064,8 +11064,8 @@ Slave-юниты: {'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'us_sl_amraam_
       ОТЛАДКА: Добавлена техника jaguar_e с предшественником '', статус: premium
       ОТЛАДКА: Техника mirage_2000c_s4, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника mirage_2000c_s4 с предшественником '', статус: premium
-      ОТЛАДКА: Техника f_16am_block_15_mlu_fs_belgium, predecessor='', rankPosXY=None, premium=True
-      ОТЛАДКА: Добавлена техника f_16am_block_15_mlu_fs_belgium с предшественником '', статус: premium
+      ОТЛАДКА: Техника f_16am_block_20_mlu_netherlands, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника f_16am_block_20_mlu_netherlands с предшественником '', статус: premium
     Столбец 6: обработано 13 элементов
   Обработка типа: Большой флот, столбцов: 3
       ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
@@ -18923,9 +18923,9 @@ Slave-юниты: {'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'us_sl_amraam_
       jaguar_e: [1, 0] (элемент)
     Ранг 8: 2 элементов, начинаем с row_index=0
         Отдельный элемент: mirage_2000c_s4
-        Отдельный элемент: f_16am_block_15_mlu_fs_belgium
+        Отдельный элемент: f_16am_block_20_mlu_netherlands
       mirage_2000c_s4: [1, 0] (элемент)
-      f_16am_block_15_mlu_fs_belgium: [1, 1] (элемент)
+      f_16am_block_20_mlu_netherlands: [1, 1] (элемент)
   Обработка столбца: france/Большой флот/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: fr_destroyer_bourrasque_class_bourrasque
