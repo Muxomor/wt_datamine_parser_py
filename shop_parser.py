@@ -22,11 +22,17 @@ class ShopParser:
         self.config = Config(config_path)
         self.logger = Logger()
         self.vehicles_data = []
-        
+
         # Кэш для master-slave пар
         self.master_slave_pairs: Dict[str, str] = {}  # master_id -> slave_id
         self.slave_units: Set[str] = set()  # множество всех slave-юнитов
         self.image_fields: Dict[str, str] = {}
+
+        # Данные wpcost для определения premium-колонок
+        # True = wpcost подтвердил premium (costGold>0 или freeRepairs>0)
+        # False = wpcost подтвердил standard (value>0)
+        # отсутствует = неоднозначно, используем shop.blkx флаги
+        self.wpcost_column_data: Dict[str, bool] = {}
 
     def fetch_shop_data(self) -> Dict[str, Any]:
         """Загружает данные shop.blkx из источника"""
@@ -238,6 +244,49 @@ class ShopParser:
         
         self.logger.log(f"Извлечено полей image: {len(self.image_fields)}")
 
+    def load_wpcost_column_data(self, wpcost_raw: Dict[str, Any]):
+        """Строит словарь premium/standard из сырых данных wpcost.blkx для определения колонок.
+
+        Критерии:
+        - costGold > 0 или freeRepairs > 0 → confirmed premium (продаётся за GE / есть premium-привилегии)
+        - value > 0 → confirmed standard (есть серебряная стоимость = исследуемый юнит)
+        - value == 0 без costGold/freeRepairs → неоднозначно, не сохраняем (fallback на shop.blkx флаги)
+        """
+        confirmed_premium = 0
+        confirmed_standard = 0
+
+        for unit_id, unit_data in wpcost_raw.items():
+            if not isinstance(unit_data, dict):
+                continue
+
+            nid = unit_id.lower()
+            cost_gold = unit_data.get('costGold') or 0
+            free_repairs = unit_data.get('freeRepairs') or 0
+            value = unit_data.get('value') or 0
+
+            if cost_gold > 0 or free_repairs > 0:
+                self.wpcost_column_data[nid] = True
+                confirmed_premium += 1
+            elif value > 0:
+                self.wpcost_column_data[nid] = False
+                confirmed_standard += 1
+
+        self.logger.log(
+            f"Данные wpcost для колонок загружены: "
+            f"{confirmed_premium} premium, {confirmed_standard} standard, "
+            f"{len(wpcost_raw) - confirmed_premium - confirmed_standard} неоднозначных (fallback на shop флаги)"
+        )
+
+    def _is_premium_for_column(self, item_name: str, item_data: Dict[str, Any]) -> bool:
+        """Premium-детекция для подсчёта соотношения в колонке.
+
+        Приоритет: wpcost (надёжнее) → shop.blkx флаги (fallback).
+        """
+        wpcost_status = self.wpcost_column_data.get(item_name.lower())
+        if wpcost_status is not None:
+            return wpcost_status
+        return self.has_premium_flag(item_data)
+
     def has_premium_flag(self, item_data: Dict[str, Any]) -> bool:
         """Проверяет наличие явных премиумных флагов у юнита"""
         return any(indicator in item_data for indicator in Constants.PREMIUM_INDICATORS)
@@ -251,19 +300,19 @@ class ShopParser:
         # Считаем количество премиумной техники в колонке
         total_items = 0
         premium_items = 0
-        
+
         for item_name, item_info in column_data.items():
             if not isinstance(item_info, dict):
                 continue
-                
+
             # Пропускаем slave-юниты если они найдены отдельно
             if not Constants.PROCESS_SLAVE_UNITS and item_name in self.slave_units:
                 continue
-                
+
             total_items += 1
-            if self.is_premium_vehicle(item_info):
+            if self._is_premium_for_column(item_name, item_info):
                 premium_items += 1
-            
+
             # Проверяем элементы внутри групп
             if self.is_group(item_name, item_info):
                 group_items = self.get_group_items(item_info)
@@ -272,9 +321,9 @@ class ShopParser:
                         # Пропускаем slave-юниты если они найдены отдельно
                         if not Constants.PROCESS_SLAVE_UNITS and nested_name in self.slave_units:
                             continue
-                            
+
                         total_items += 1
-                        if self.is_premium_vehicle(nested_info):
+                        if self._is_premium_for_column(nested_name, nested_info):
                             premium_items += 1
         
         # Если больше установленного порога техники премиумная, считаем колонку премиумной

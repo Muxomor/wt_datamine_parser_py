@@ -364,16 +364,21 @@ class WpcostParser:
             self.logger.log(f"Ошибка при сохранении wpcost в CSV: {e}", 'error')
             raise
     
-    def run(self, shop_csv_path: str = 'shop.csv', output_file: str = 'wpcost.csv'):
+    def run(self, shop_csv_path: str = 'shop.csv', output_file: str = 'wpcost.csv',
+            preloaded_raw: Dict[str, Any] = None):
         """Основной метод запуска парсера wpcost"""
         try:
             self.logger.log("Запуск парсера wpcost.blkx...")
-            
+
             # Загружаем данные из shop.csv (для всех юнитов)
             shop_data = self.load_shop_ids(shop_csv_path)
-            
-            # Загружаем данные wpcost.blkx
-            wpcost_data = self.fetch_wpcost_data()
+
+            # Используем предзагруженные данные или загружаем сами
+            if preloaded_raw is not None:
+                self.logger.log("Используем предзагруженные данные wpcost.blkx")
+                wpcost_data = preloaded_raw
+            else:
+                wpcost_data = self.fetch_wpcost_data()
             
             # Обрабатываем данные
             processed_data = self.process_wpcost_data(shop_data, wpcost_data)

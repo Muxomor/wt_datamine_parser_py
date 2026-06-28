@@ -37,22 +37,36 @@ def main(config_path: Optional[str] = None):
             print("version_url=https://example.com/version")
             sys.exit(1)
         
-        # 1. Создаем экземпляр основного парсера
-        print("Запуск парсера shop.blkx...")
+        # 1. Предзагружаем сырые данные wpcost для точного определения premium-колонок
+        wpcost_raw = None
+        wpcost_parser = WpcostParser(config_path)
+        print("Предзагрузка данных wpcost.blkx для определения premium-колонок...")
+        try:
+            wpcost_raw = wpcost_parser.fetch_wpcost_data()
+            print("Данные wpcost.blkx предзагружены успешно")
+        except Exception as e:
+            print(f"Предупреждение: не удалось предзагрузить wpcost ({e})")
+            print("Определение premium-колонок будет работать только по флагам shop.blkx")
+
+        # 2. Создаем экземпляр основного парсера
+        print("\nЗапуск парсера shop.blkx...")
         parser = ShopParser(config_path)
-        
+
+        if wpcost_raw is not None:
+            parser.load_wpcost_column_data(wpcost_raw)
+
         # Запускаем основной парсинг
         parser.run()
-        
+
         print("Основной парсинг успешно завершен!")
         print("Результаты сохранены в файлы:")
         print("   - shop.csv (основные данные)")
         print("   - shop_images_fields.csv (поля image для fallback)")
-        
-        # 2. Запускаем парсинг локализации
+
+        # 3. Запускаем парсинг локализации
         print("\nЗапуск парсера локализации...")
         localization_parser = LocalizationParser(config_path)
-        
+
         try:
             localization_parser.run()
             print("Парсинг локализации успешно завершен!")
@@ -60,20 +74,19 @@ def main(config_path: Optional[str] = None):
         except Exception as e:
             print(f"Ошибка при парсинге локализации: {e}")
             print("Основной парсинг завершен успешно, продолжаем с wpcost...")
-        
-        # 3. Запускаем парсинг wpcost
+
+        # 4. Запускаем парсинг wpcost (переиспользуем предзагруженные данные)
         print("\nЗапуск парсера wpcost...")
-        wpcost_parser = WpcostParser(config_path)
-        
+
         try:
-            wpcost_parser.run()
+            wpcost_parser.run(preloaded_raw=wpcost_raw)
             print("Парсинг wpcost успешно завершен!")
             print("Результаты сохранены в файл wpcost.csv")
         except Exception as e:
             print(f"Ошибка при парсинге wpcost: {e}")
             print("Основные этапы завершены, продолжаем с misc данными...")
         
-        # 4. Запускаем парсинг misc данных
+        # 5. Запускаем парсинг misc данных
         print("\nЗапуск парсера misc данных...")
         misc_parser = MiscAndImagesParser(config_path)
         
@@ -89,7 +102,7 @@ def main(config_path: Optional[str] = None):
             print(f"Ошибка при парсинге misc данных: {e}")
             print("Основные этапы завершены, продолжаем с объединением данных...")
         
-        # 5. Запускаем объединение данных
+        # 6. Запускаем объединение данных
         print("\nЗапуск объединения данных и создания зависимостей...")
         merger = ModernNodesMerger(config_path)
         

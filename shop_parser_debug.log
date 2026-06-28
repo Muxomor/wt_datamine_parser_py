@@ -1,5 +1,6 @@
+Данные wpcost для колонок загружены: 770 premium, 2484 standard, 71 неоднозначных (fallback на shop флаги)
 Запуск парсера shop.blkx...
-Порог для определения премиумных колонок: 20.0%
+Порог для определения премиумных колонок: 18.0%
 Обработка slave-юнитов: отключена
 Аномальные окончания: ['_race', '_football', '_yt_cup_2019', '_event', '_naval', '_killstreak']
 Аномальные начала: ['ucav_', 'uav_', 'nt_']
@@ -2193,7 +2194,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher', 'sw_nasams_launcher', 'fr_samp_t_launcher', 'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'germ_iris_slm_launcher'}
+Slave-юниты: {'jp_type_81_tansam_launcher', 'sw_nasams_launcher', 'us_sl_amraam_launcher', 'uk_sky_sabre_launcher', 'germ_iris_slm_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'fr_samp_t_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -2206,7 +2207,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
   sw_nasams_fcs -> sw_nasams_launcher
 Обработка страны: usa
   Обработка типа: Наземная техника, столбцов: 7
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_m2a4, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_m2a4 с предшественником '', статус: standard
@@ -2250,7 +2251,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен us_m48a1_patton_III с order=1
         ОТЛАДКА: get_group_items добавлен us_m60a1 с order=0
         ОТЛАДКА: get_group_items добавлен us_m60a1_rise_passive_era с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/25 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/25 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_m2_medium, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_m2_medium с предшественником '', статус: standard
@@ -2331,7 +2332,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен us_m1_ip_abrams с order=1
         ОТЛАДКА: get_group_items добавлен us_m1a2_sep_abrams с order=0
         ОТЛАДКА: get_group_items добавлен us_m1a2_sep2_abrams с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/30 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/30 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_lvt_a_1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_lvt_a_1 с предшественником '', статус: standard
@@ -2416,7 +2417,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен us_m42_duster с order=1
         ОТЛАДКА: get_group_items добавлен us_m247 с order=0
         ОТЛАДКА: get_group_items добавлен us_mim_72_chaparral с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/18 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/18 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_halftrack_m13, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_halftrack_m13 с предшественником '', статус: standard
@@ -2467,7 +2468,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен us_m36b2 с order=1
         ОТЛАДКА: get_group_items добавлен us_m56_scorpion с order=0
         ОТЛАДКА: get_group_items добавлен us_m50_ontos с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/19 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/19 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_m2a2, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_m2a2 с предшественником '', статус: standard
@@ -2520,8 +2521,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен us_m4a3e8_76w_sherman_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен us_m18_hellcat_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен us_skink_aa_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 16/34 = 0.47, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 29/34 = 0.85, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника us_m2a4_1st_armor_div, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_m2a4_1st_armor_div с предшественником '', статус: premium
       ОТЛАДКА: Техника us_lvt_a_4, predecessor='', rankPosXY=None, premium=True
@@ -2593,8 +2594,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ПРОПУСК: us_sl_amraam_launcher является slave-юнитом
       ПРОПУСК: us_nasams_launcher является slave-юнитом
     Столбец 5: обработано 34 элементов
-      ОТЛАДКА: Премиум техники в колонке: 23/27 = 0.85, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 14/27 = 0.52, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника us_lvt_a_1_trb, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_lvt_a_1_trb с предшественником '', статус: premium
       ОТЛАДКА: Техника us_m8_greyhound, predecessor='', rankPosXY=None, premium=True
@@ -2712,7 +2713,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен f-104c с order=1
         ОТЛАДКА: get_group_items добавлен f_16a_block_10 с order=0
         ОТЛАДКА: get_group_items добавлен f_16a_block_15_adf с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника p-26a_34_m2, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника p-26a_34_m2 с предшественником '', статус: standard
@@ -2810,7 +2811,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен f-84g с order=1
         ОТЛАДКА: get_group_items добавлен f-86a-5 с order=0
         ОТЛАДКА: get_group_items добавлен f-86f-25 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника p-36a, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника p-36a с предшественником '', статус: standard
@@ -2910,7 +2911,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fa_18c_late с order=1
         ОТЛАДКА: get_group_items добавлен f_14a_early с order=0
         ОТЛАДКА: get_group_items добавлен f_14b с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/37 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/37 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника bf2c_1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника bf2c_1 с предшественником '', статус: standard
@@ -3030,7 +3031,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fj_4b с order=1
         ОТЛАДКА: get_group_items добавлен a_7d с order=0
         ОТЛАДКА: get_group_items добавлен a_7e с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/37 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/37 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен os2u_1 с order=0
         ОТЛАДКА: get_group_items добавлен os2u_3 с order=1
@@ -3143,7 +3144,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен b_24d с order=1
         ОТЛАДКА: get_group_items добавлен b-57 с order=0
         ОТЛАДКА: get_group_items добавлен b-57b с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен tbd-1_1938 с order=0
         ОТЛАДКА: get_group_items добавлен b_18a с order=1
@@ -3215,8 +3216,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника f_15e, predecessor='f_111f', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника f_15e с предшественником 'f_111f', статус: standard
     Столбец 4: обработано 27 элементов
-      ОТЛАДКА: Премиум техники в колонке: 16/35 = 0.46, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 29/35 = 0.83, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника f3f-2_galer, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника f3f-2_galer с предшественником '', статус: premium
       ОТЛАДКА: Техника p-36c_rb, predecessor='', rankPosXY=None, premium=True
@@ -3288,8 +3289,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fa_18c_early, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fa_18c_early с предшественником '', статус: premium
     Столбец 5: обработано 35 элементов
-      ОТЛАДКА: Премиум техники в колонке: 29/35 = 0.83, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 25/35 = 0.71, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника p-26a_34, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника p-26a_34 с предшественником '', статус: premium
       ОТЛАДКА: Техника p-36a_rasmussen, predecessor='', rankPosXY=None, premium=True
@@ -3362,7 +3363,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника f_14d с предшественником '', статус: premium
     Столбец 6: обработано 35 элементов
   Обработка типа: Большой флот, столбцов: 5
-      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_destroyer_clemson_litchfield, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_destroyer_clemson_litchfield с предшественником '', статус: standard
@@ -3393,7 +3394,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Столбец 0: обработано 13 элементов
         ОТЛАДКА: get_group_items добавлен us_cruiser_fargo_class с order=0
         ОТЛАДКА: get_group_items добавлен us_cruiser_brooklyn_class_brooklyn с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_destroyer_clemson_barker, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_destroyer_clemson_barker с предшественником '', статус: standard
@@ -3434,7 +3435,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен us_cruiser_northampton_class с order=0
         ОТЛАДКА: get_group_items добавлен us_cruiser_portland_class с order=1
         ОТЛАДКА: get_group_items добавлен us_cruiser_pensacola_class с order=2
-      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_destroyer_sumner, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_destroyer_sumner с предшественником '', статус: standard
@@ -3461,8 +3462,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника us_battlecruiser_alaska_class, predecessor='us_cruiser_oregon_class', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_battlecruiser_alaska_class с предшественником 'us_cruiser_oregon_class', статус: standard
     Столбец 2: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/12 = 0.42, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 10/12 = 0.83, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника us_destroyer_clemson_welborn_c_wood, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_destroyer_clemson_welborn_c_wood с предшественником '', статус: premium
       ОТЛАДКА: Техника us_destroyer_bagley_class_helm, predecessor='', rankPosXY=None, premium=True
@@ -3488,8 +3489,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника us_battleship_colorado_class_maryland, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_battleship_colorado_class_maryland с предшественником '', статус: premium
     Столбец 3: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/6 = 0.83, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 4/6 = 0.67, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника us_destroyer_somers_davis, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_destroyer_somers_davis с предшественником '', статус: premium
       ОТЛАДКА: Техника us_destroyer_porter_1944, predecessor='', rankPosXY=None, premium=True
@@ -3504,7 +3505,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника us_battleship_oklahoma с предшественником '', статус: premium
     Столбец 4: обработано 6 элементов
   Обработка типа: Малый флот, столбцов: 5
-      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_pt6, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_pt6 с предшественником '', статус: standard
@@ -3529,7 +3530,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника us_frigate_dealey, predecessor='us_frigate_tacoma', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_frigate_dealey с предшественником 'us_frigate_tacoma', статус: standard
     Столбец 0: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_elco_77ft_pt20, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_elco_77ft_pt20 с предшественником '', статус: standard
@@ -3552,7 +3553,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника us_frigate_buckley_class_coolbaugh, predecessor='us_lcs_l_3', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_frigate_buckley_class_coolbaugh с предшественником 'us_lcs_l_3', статус: standard
     Столбец 1: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/3 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/3 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника us_pgm_59_class, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_pgm_59_class с предшественником '', статус: standard
@@ -3561,8 +3562,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника us_cyclone_class_cyclone, predecessor='us_pgm_9_class', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника us_cyclone_class_cyclone с предшественником 'us_pgm_9_class', статус: standard
     Столбец 2: обработано 3 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/7 = 0.29, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 7/7 = 1.00, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника us_pt3, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_pt3 с предшественником '', статус: premium
       ОТЛАДКА: Техника us_pc_466_carmi, predecessor='', rankPosXY=None, premium=True
@@ -3578,8 +3579,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника us_ashville_class_douglas, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_ashville_class_douglas с предшественником '', статус: premium
     Столбец 3: обработано 7 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/4 = 0.75, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 4/4 = 1.00, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника us_huckins_78ft_pt262, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_huckins_78ft_pt262 с предшественником '', статус: premium
       ОТЛАДКА: Техника us_elco_80ft_pt109_boat, predecessor='', rankPosXY=None, premium=True
@@ -3608,7 +3609,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен germ_thyssen_henschel_tam_2c с order=1
         ОТЛАДКА: get_group_items добавлен germ_schutzenpanzer_puma с order=0
         ОТЛАДКА: get_group_items добавлен germ_schutzenpanzer_puma_vjtf с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/33 = 0.03, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/33 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_garford_putilov, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_garford_putilov с предшественником '', статус: standard
@@ -3707,7 +3708,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_III_ausf_M с order=1
         ОТЛАДКА: get_group_items добавлен germ_kpz_70 с order=0
         ОТЛАДКА: get_group_items добавлен germ_mkpz_super_m48 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/21 = 0.05, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_beutepanzer_mk_iv, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_beutepanzer_mk_iv с предшественником '', статус: standard
@@ -3776,7 +3777,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен germ_leopard_1a5 с order=1
         ОТЛАДКА: get_group_items добавлен germ_leopard_2a5 с order=0
         ОТЛАДКА: get_group_items добавлен germ_leopard_2a6 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/30 = 0.03, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/30 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_a7v, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_a7v с предшественником '', статус: standard
@@ -3869,7 +3870,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен germ_flakpz_1a2_Gepard с order=1
         ОТЛАДКА: get_group_items добавлен germ_flarakpz_1 с order=0
         ОТЛАДКА: get_group_items добавлен germ_9a33bm3 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен germ_flakpanzer_I_ausf_A с order=0
         ОТЛАДКА: get_group_items добавлен germ_flakpanzer_38t_Gepard с order=1
@@ -3951,7 +3952,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен germ_panzerjager_tiger с order=1
         ОТЛАДКА: get_group_items добавлен germ_spz_oerlikon_raketenautomat с order=0
         ОТЛАДКА: get_group_items добавлен germ_raketenjagdpanzer_2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/36 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/36 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен germ_sturmpanzer_II с order=0
         ОТЛАДКА: get_group_items добавлен germ_sdkfz_221_s_pz_b_41 с order=1
@@ -4054,8 +4055,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_boxer_swatrinf, predecessor='germ_wiesel_1_tow', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_boxer_swatrinf с предшественником 'germ_wiesel_1_tow', статус: standard
     Столбец 4: обработано 36 элементов
-      ОТЛАДКА: Премиум техники в колонке: 16/32 = 0.50, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 25/32 = 0.78, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника germ_pzkpfw_35t_romania_mare, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_pzkpfw_35t_romania_mare с предшественником '', статус: premium
       ОТЛАДКА: Техника germ_pzkpfw_II_ausf_C_td, predecessor='', rankPosXY=None, premium=True
@@ -4125,8 +4126,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_east с order=0
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_VI_ausf_h1_tiger_west с order=1
         ОТЛАДКА: get_group_items добавлен germ_flakpanzer_IV_Ostwind_2_net с order=2
-      ОТЛАДКА: Премиум техники в колонке: 29/32 = 0.91, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 21/32 = 0.66, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника germ_sdkfz_251_10, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_sdkfz_251_10 с предшественником '', статус: premium
       ОТЛАДКА: Техника germ_sdkfz_234_1, predecessor='', rankPosXY=None, premium=True
@@ -4239,7 +4240,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен me-163b-0 с order=1
         ОТЛАДКА: get_group_items добавлен f-86_canadair_german с order=0
         ОТЛАДКА: get_group_items добавлен f-86_cl_13b_mk6 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/35 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/35 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника bf-109b_2, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника bf-109b_2 с предшественником '', статус: standard
@@ -4353,7 +4354,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ta-152c с order=1
         ОТЛАДКА: get_group_items добавлен mig-21_mf с order=0
         ОТЛАДКА: get_group_items добавлен mig-21_bis_sau с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/35 = 0.03, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/35 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен he51a1 с order=0
         ОТЛАДКА: get_group_items добавлен he51b1 с order=1
@@ -4458,7 +4459,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен bf_110g_4 с order=1
         ОТЛАДКА: get_group_items добавлен me-410a-1_u2 с order=0
         ОТЛАДКА: get_group_items добавлен me-410b-1_u2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/23 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/23 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника do_17z_7, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника do_17z_7 с предшественником '', статус: standard
@@ -4536,7 +4537,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен me-410b-1 с order=1
         ОТЛАДКА: get_group_items добавлен do_335a_1 с order=0
         ОТЛАДКА: get_group_items добавлен do_335a_0 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/30 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/30 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника hs-123a-1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника hs-123a-1 с предшественником '', статус: standard
@@ -4634,7 +4635,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен do_217m_1 с order=1
         ОТЛАДКА: get_group_items добавлен arado-234 с order=0
         ОТЛАДКА: get_group_items добавлен arado-234c-3 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен do_17e_1 с order=0
         ОТЛАДКА: get_group_items добавлен do_17z_2 с order=1
@@ -4726,8 +4727,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен mc200_serie3 с order=0
         ОТЛАДКА: get_group_items добавлен mc200_serie7 с order=1
         ОТЛАДКА: get_group_items добавлен mc-202 с order=2
-      ОТЛАДКА: Премиум техники в колонке: 17/35 = 0.49, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 24/35 = 0.69, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника bf-109a_1, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника bf-109a_1 с предшественником '', статус: premium
       ОТЛАДКА: Техника ju-87r-2_snake, predecessor='', rankPosXY=None, premium=True
@@ -4806,8 +4807,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен sm_79_iar с order=4
         ОТЛАДКА: get_group_items добавлен sm_79_1937 с order=5
         ОТЛАДКА: get_group_items добавлен sm_79_1942 с order=6
-      ОТЛАДКА: Премиум техники в колонке: 28/35 = 0.80, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 20/35 = 0.57, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника he51b_2w, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника he51b_2w с предшественником '', статус: premium
       ОТЛАДКА: Техника arado-196a-3, predecessor='', rankPosXY=None, premium=True
@@ -4884,7 +4885,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен germ_cruiser_nurnberg с order=1
         ОТЛАДКА: get_group_items добавлен germ_battleship_westfalen с order=0
         ОТЛАДКА: get_group_items добавлен germ_battleship_helgoland с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_destroyer_class1924_leopard1932, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_destroyer_class1924_leopard1932 с предшественником '', статус: standard
@@ -4933,7 +4934,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_battleship_bismarck, predecessor='germ_battleship_sachsen', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_battleship_bismarck с предшественником 'germ_battleship_sachsen', статус: standard
     Столбец 0: обработано 20 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_kanonenboot_k4_lorelei, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_kanonenboot_k4_lorelei с предшественником '', статус: standard
@@ -4962,8 +4963,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_battleship_scharnhorst, predecessor='germ_battlecruiser_ersatz_yorck', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_battleship_scharnhorst с предшественником 'germ_battlecruiser_ersatz_yorck', статус: standard
     Столбец 1: обработано 13 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/11 = 0.36, порог: 0.2
-    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 9/11 = 0.82, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника germ_destroyer_class1924_iltis, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_destroyer_class1924_iltis с предшественником '', статус: premium
       ОТЛАДКА: Техника germ_destroyer_fletcher_zerstorer4, predecessor='', rankPosXY=None, premium=True
@@ -4987,8 +4988,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_battleship_baden, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_battleship_baden с предшественником '', статус: premium
     Столбец 2: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/4 = 0.50, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 3/4 = 0.75, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника germ_destroyer_class1939_t31, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_destroyer_class1939_t31 с предшественником '', статус: premium
       ОТЛАДКА: Техника germ_destroyer_class1936a_z25, predecessor='', rankPosXY=None, premium=True
@@ -4999,7 +5000,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника germ_battlecruiser_mackensen_class с предшественником '', статус: premium
     Столбец 3: обработано 4 элементов
   Обработка типа: Малый флот, столбцов: 5
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_ls_class, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_ls_class с предшественником '', статус: standard
@@ -5026,7 +5027,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_pr_206, predecessor='germ_type143_albatros', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_pr_206 с предшественником 'germ_type143_albatros', статус: standard
     Столбец 0: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_rboot_r41, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_rboot_r41 с предшественником '', статус: standard
@@ -5049,7 +5050,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_frigate_koln, predecessor='germ_type140_jaguar', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_frigate_koln с предшественником 'germ_type140_jaguar', статус: standard
     Столбец 1: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_rdm242, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_rdm242 с предшественником '', статус: standard
@@ -5064,8 +5065,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_type153_pfeil, predecessor='germ_type152_hugin', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_type153_pfeil с предшественником 'germ_type152_hugin', статус: standard
     Столбец 2: обработано 6 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/7 = 0.43, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 5/7 = 0.71, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника germ_ls4_class, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_ls4_class с предшественником '', статус: premium
       ОТЛАДКА: Техника germ_km5, predecessor='', rankPosXY=None, premium=True
@@ -5081,8 +5082,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника germ_type143_bussard, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_type143_bussard с предшественником '', статус: premium
     Столбец 3: обработано 7 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/2 = 1.00, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 2/2 = 1.00, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника germ_s_700_s_701, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_s_700_s_701 с предшественником '', статус: premium
       ОТЛАДКА: Техника germ_frigate_koln_lubeck, predecessor='', rankPosXY=None, premium=True
@@ -5106,7 +5107,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ussr_t_62m1 с order=1
         ОТЛАДКА: get_group_items добавлен ussr_t_72b с order=0
         ОТЛАДКА: get_group_items добавлен ussr_t_72b_1989 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/36 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/36 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_bt_5, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_bt_5 с предшественником '', статус: standard
@@ -5211,7 +5212,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ussr_is_2_1944_321 с order=1
         ОТЛАДКА: get_group_items добавлен ussr_t_64_b_1984 с order=0
         ОТЛАДКА: get_group_items добавлен ussr_t_80b с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/26 = 0.04, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/26 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_t_26_1940, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_t_26_1940 с предшественником '', статус: standard
@@ -5283,7 +5284,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ussr_object_685 с order=1
         ОТЛАДКА: get_group_items добавлен ussr_bmp_3 с order=0
         ОТЛАДКА: get_group_items добавлен ussr_2s25 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_t_26_4, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_t_26_4 с предшественником '', статус: standard
@@ -5349,7 +5350,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ussr_object_268 с order=1
         ОТЛАДКА: get_group_items добавлен ussr_it_1 с order=0
         ОТЛАДКА: get_group_items добавлен ussr_9p149 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/31 = 0.03, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_garford_putilov, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_garford_putilov с предшественником '', статус: standard
@@ -5440,7 +5441,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ussr_zsu_37 с order=1
         ОТЛАДКА: get_group_items добавлен ussr_9a33bm3 с order=0
         ОТЛАДКА: get_group_items добавлен ussr_9a35_m2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/25 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/25 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_gaz_4m, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_gaz_4m с предшественником '', статус: standard
@@ -5505,8 +5506,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ussr_is_1_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен ussr_t_34_85_zis_53_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен ussr_sdkfz_251_21_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 18/38 = 0.47, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 36/38 = 0.95, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника ussr_t_26_1940_1st_GvTBr, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_t_26_1940_1st_GvTBr с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_bt_7_1937_td, predecessor='', rankPosXY=None, premium=True
@@ -5585,8 +5586,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника ussr_t_80ue1_sm с предшественником '', статус: premium
       ПРОПУСК: ussr_buk_m3_launcher является slave-юнитом
     Столбец 5: обработано 38 элементов
-      ОТЛАДКА: Премиум техники в колонке: 29/35 = 0.83, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 24/35 = 0.69, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника ussr_t_26E, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_t_26E с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_rbt_5, predecessor='', rankPosXY=None, premium=True
@@ -5713,7 +5714,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен yak-15_early с order=0
         ОТЛАДКА: get_group_items добавлен yak-15 с order=1
         ОТЛАДКА: get_group_items добавлен yak-17 с order=2
-      ОТЛАДКА: Премиум техники в колонке: 0/28 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/28 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен yak-1_early с order=0
         ОТЛАДКА: get_group_items добавлен yak-1b с order=1
@@ -5809,7 +5810,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен mig-21_bis с order=1
         ОТЛАДКА: get_group_items добавлен mig_23m с order=0
         ОТЛАДКА: get_group_items добавлен mig_23mld с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/32 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/32 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника i-16_type5, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника i-16_type5 с предшественником '', статус: standard
@@ -5913,7 +5914,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен la-15 с order=1
         ОТЛАДКА: get_group_items добавлен su-7b с order=0
         ОТЛАДКА: get_group_items добавлен su-7bkl с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/33 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/33 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен i-15_1934 с order=0
         ОТЛАДКА: get_group_items добавлен i-15_1935 с order=1
@@ -6018,7 +6019,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен il-10_1946 с order=1
         ОТЛАДКА: get_group_items добавлен il_28 с order=0
         ОТЛАДКА: get_group_items добавлен il_28sh с order=1
-      ОТЛАДКА: Премиум техники в колонке: 2/31 = 0.06, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника po-2, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника po-2 с предшественником '', статус: standard
@@ -6128,7 +6129,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен tu-2_postwar_late с order=2
         ОТЛАДКА: get_group_items добавлен mig_27m с order=0
         ОТЛАДКА: get_group_items добавлен mig_27k с order=1
-      ОТЛАДКА: Премиум техники в колонке: 4/41 = 0.10, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/41 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен sb_2m_100 с order=0
         ОТЛАДКА: get_group_items добавлен sb_2m_103c с order=1
@@ -6243,8 +6244,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника su_34, predecessor='su_24m', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника su_34 с предшественником 'su_24m', статус: standard
     Столбец 4: обработано 41 элементов
-      ОТЛАДКА: Премиум техники в колонке: 14/39 = 0.36, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 33/39 = 0.85, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника i-15bis_krasnolutsky, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника i-15bis_krasnolutsky с предшественником '', статус: premium
       ОТЛАДКА: Техника pby-5a_ussr, predecessor='', rankPosXY=None, premium=True
@@ -6324,8 +6325,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника mig_29m_9_15, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника mig_29m_9_15 с предшественником '', статус: premium
     Столбец 5: обработано 39 элементов
-      ОТЛАДКА: Премиум техники в колонке: 25/32 = 0.78, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 26/32 = 0.81, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника mbr-2, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника mbr-2 с предшественником '', статус: premium
       ОТЛАДКА: Техника po-2m, predecessor='', rankPosXY=None, premium=True
@@ -6395,7 +6396,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_chapayev с order=0
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_sverdlov с order=1
         ОТЛАДКА: get_group_items добавлен ussr_cruiser_mikhail_kutuzov с order=2
-      ОТЛАДКА: Премиум техники в колонке: 0/17 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/17 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_destroyer_frunze, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_destroyer_frunze с предшественником '', статус: standard
@@ -6436,7 +6437,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника ussr_battleship_pr23_sovetskij_soyuz, predecessor='ussr_battleship_arhangelsk', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_battleship_pr23_sovetskij_soyuz с предшественником 'ussr_battleship_arhangelsk', статус: standard
     Столбец 0: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_destroyer_pr45, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_destroyer_pr45 с предшественником '', статус: standard
@@ -6463,8 +6464,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника ussr_battlecruiser_stalingrad, predecessor='ussr_battlecruiser_kronshtadt', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_battlecruiser_stalingrad с предшественником 'ussr_battlecruiser_kronshtadt', статус: standard
     Столбец 1: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/10 = 0.30, порог: 0.2
-    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 9/10 = 0.90, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника ussr_destroyer_kerch, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_destroyer_kerch с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_destroyer_7_ryany, predecessor='', rankPosXY=None, premium=True
@@ -6486,8 +6487,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника ussr_battlecruiser_sevastopol, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_battlecruiser_sevastopol с предшественником '', статус: premium
     Столбец 2: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/5 = 0.60, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 3/5 = 0.60, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника ussr_destroyer_7y_stroyny, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_destroyer_7y_stroyny с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_cruiser_omaha_class_murmansk, predecessor='', rankPosXY=None, premium=True
@@ -6500,7 +6501,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника ussr_cruiser_maxim_gorky с предшественником '', статус: premium
     Столбец 3: обработано 5 элементов
   Обработка типа: Малый флот, столбцов: 5
-      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_g5_mtb, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_g5_mtb с предшественником '', статус: standard
@@ -6525,7 +6526,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника ussr_pr_206m, predecessor='ussr_pr_206', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_pr_206m с предшественником 'ussr_pr_206', статус: standard
     Столбец 0: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_mo_4, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_mo_4 с предшественником '', статус: standard
@@ -6550,7 +6551,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника ussr_skr_pr159, predecessor='ussr_mpk_pr1331m', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_skr_pr159 с предшественником 'ussr_mpk_pr1331m', статус: standard
     Столбец 1: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/9 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/9 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ussr_d3_tk126, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_d3_tk126 с предшественником '', статус: standard
@@ -6571,8 +6572,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника ussr_mpk_pr_1124, predecessor='ussr_mpk_pr11451', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ussr_mpk_pr_1124 с предшественником 'ussr_mpk_pr11451', статус: standard
     Столбец 2: обработано 9 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/9 = 0.44, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 8/9 = 0.89, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника ussr_g5_mtb_shvak, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_g5_mtb_shvak с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_ya_5m, predecessor='', rankPosXY=None, premium=True
@@ -6592,8 +6593,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника ussr_skr_pr35, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_skr_pr35 с предшественником '', статус: premium
     Столбец 3: обработано 9 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/6 = 0.83, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 4/6 = 0.67, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника ussr_g5_rct, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_g5_rct с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_1124_rct, predecessor='', rankPosXY=None, premium=True
@@ -6630,7 +6631,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен uk_challenger_2_tes с order=2
         ОТЛАДКА: get_group_items добавлен uk_challenger_2_bn с order=0
         ОТЛАДКА: get_group_items добавлен uk_challenger_2e с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/38 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/38 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_a_13_mk1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_a_13_mk1 с предшественником '', статус: standard
@@ -6745,7 +6746,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен uk_churchill_na75 с order=1
         ОТЛАДКА: get_group_items добавлен uk_vickers_mbt_mk_3 с order=0
         ОТЛАДКА: get_group_items добавлен uk_olifant_mk_1a с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_m3_stuart, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_m3_stuart с предшественником '', статус: standard
@@ -6808,7 +6809,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен uk_a39_tortoise с order=1
         ОТЛАДКА: get_group_items добавлен uk_fv510_isv с order=0
         ОТЛАДКА: get_group_items добавлен uk_ratel_zt3 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_a17_mk_1_tetrarch, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_a17_mk_1_tetrarch с предшественником '', статус: standard
@@ -6868,7 +6869,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен uk_9a33bm2 с order=1
         ОТЛАДКА: get_group_items добавлен uk_stormer_hvm с order=0
         ОТЛАДКА: get_group_items добавлен uk_9a35_m с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_vickers_mk_6_aa_mk_1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_vickers_mk_6_aa_mk_1 с предшественником '', статус: standard
@@ -6935,7 +6936,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен uk_rooikat_76 с order=1
         ОТЛАДКА: get_group_items добавлен uk_vfm_5 с order=0
         ОТЛАДКА: get_group_items добавлен uk_rooikat_mttd с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/21 = 0.05, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_mark_v, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_mark_v с предшественником '', статус: standard
@@ -6995,8 +6996,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен uk_sherman_vc_firefly_kit_3rank с order=0
         ОТЛАДКА: get_group_items добавлен uk_a30_sp_avenger_kit_3rank с order=1
         ОТЛАДКА: get_group_items добавлен uk_crusader_aa_mk_2_kit_3rank с order=2
-      ОТЛАДКА: Премиум техники в колонке: 10/25 = 0.40, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 24/25 = 0.96, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника uk_a_13_mk1_3rd_rtr, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_a_13_mk1_3rd_rtr с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_a1e1_independent, predecessor='', rankPosXY=None, premium=True
@@ -7049,8 +7050,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника uk_challenger_2_megatron_sm с предшественником '', статус: premium
       ПРОПУСК: uk_sky_sabre_launcher является slave-юнитом
     Столбец 5: обработано 25 элементов
-      ОТЛАДКА: Премиум техники в колонке: 16/17 = 0.94, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 13/17 = 0.76, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника uk_a_13_mk2_1939, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_a_13_mk2_1939 с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_alecto_mk_1, predecessor='', rankPosXY=None, premium=True
@@ -7114,7 +7115,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fury_mk2 с order=1
         ОТЛАДКА: get_group_items добавлен hurricanemkii с order=0
         ОТЛАДКА: get_group_items добавлен hurricane_mk1 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/18 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/18 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен fury_mk1 с order=0
         ОТЛАДКА: get_group_items добавлен fury_mk2 с order=1
@@ -7177,7 +7178,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен meteor_fmk4_lw с order=0
         ОТЛАДКА: get_group_items добавлен meteor_fmk4_sw с order=1
         ОТЛАДКА: get_group_items добавлен meteor_fmk8 с order=2
-      ОТЛАДКА: Премиум техники в колонке: 2/34 = 0.06, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/34 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника gladiator_mk2_france, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника gladiator_mk2_france с предшественником '', статус: standard
@@ -7282,7 +7283,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен sea_venom_faw20 с order=1
         ОТЛАДКА: get_group_items добавлен fa_18a_raaf с order=0
         ОТЛАДКА: get_group_items добавлен fa_18a_hug_2_raaf с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/26 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/26 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника nimrod_mk1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника nimrod_mk1 с предшественником '', статус: standard
@@ -7362,7 +7363,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен whirlwind_mk1 с order=1
         ОТЛАДКА: get_group_items добавлен hawk_200 с order=0
         ОТЛАДКА: get_group_items добавлен hawk_200_rda с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/29 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/29 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника v_156_b1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника v_156_b1 с предшественником '', статус: standard
@@ -7459,7 +7460,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен canberra_bimk6 с order=1
         ОТЛАДКА: get_group_items добавлен f_111c_raaf с order=0
         ОТЛАДКА: get_group_items добавлен tornado_gr1 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/34 = 0.03, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/34 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника hp_12, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника hp_12 с предшественником '', статус: standard
@@ -7557,8 +7558,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника tornado_gr4, predecessor='f_111c_tornado_group', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника tornado_gr4 с предшественником 'f_111c_tornado_group', статус: standard
     Столбец 4: обработано 34 элементов
-      ОТЛАДКА: Премиум техники в колонке: 10/29 = 0.34, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 23/29 = 0.79, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника gladiator_mk2_tuck, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника gladiator_mk2_tuck с предшественником '', статус: premium
       ОТЛАДКА: Техника wirraway, predecessor='', rankPosXY=None, premium=True
@@ -7618,8 +7619,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника cf_188a_canada, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника cf_188a_canada с предшественником '', статус: premium
     Столбец 5: обработано 29 элементов
-      ОТЛАДКА: Премиум техники в колонке: 13/23 = 0.57, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 18/23 = 0.78, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника spad_13, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника spad_13 с предшественником '', статус: premium
       ОТЛАДКА: Техника swordfish_mk2, predecessor='', rankPosXY=None, premium=True
@@ -7670,7 +7671,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
   Обработка типа: Большой флот, столбцов: 5
         ОТЛАДКА: get_group_items добавлен uk_destroyer_battle_2series с order=0
         ОТЛАДКА: get_group_items добавлен uk_destroyer_battle_tobruk с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_destroyer_v_class_vega, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_destroyer_v_class_vega с предшественником '', статус: standard
@@ -7710,7 +7711,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Столбец 0: обработано 16 элементов
         ОТЛАДКА: get_group_items добавлен uk_destroyer_daring_class_diana с order=0
         ОТЛАДКА: get_group_items добавлен uk_destroyer_daring_class_daring с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_destroyer_g_grafton, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_destroyer_g_grafton с предшественником '', статус: standard
@@ -7745,7 +7746,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен uk_cruiser_kent с order=0
         ОТЛАДКА: get_group_items добавлен uk_cruiser_norfolk с order=1
         ОТЛАДКА: get_group_items добавлен uk_cruiser_london с order=2
-      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_destroyer_clemson_churchill, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_destroyer_clemson_churchill с предшественником '', статус: standard
@@ -7780,8 +7781,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника uk_battlecruiser_hood, predecessor='uk_battlecruiser_repulse', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_battlecruiser_hood с предшественником 'uk_battlecruiser_repulse', статус: standard
     Столбец 2: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/12 = 0.42, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 9/12 = 0.75, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника uk_destroyer_v_class_verdun, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_destroyer_v_class_verdun с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_destroyer_v_class_valhalla, predecessor='', rankPosXY=None, premium=True
@@ -7807,8 +7808,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника uk_battleship_nelson, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_battleship_nelson с предшественником '', статус: premium
     Столбец 3: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/4 = 0.75, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 3/4 = 0.75, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника uk_destroyer_clemson_montgomery_g95, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_destroyer_clemson_montgomery_g95 с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_destroyer_g_garland, predecessor='', rankPosXY=None, premium=True
@@ -7819,7 +7820,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника uk_cruiser_tiger с предшественником '', статус: premium
     Столбец 4: обработано 4 элементов
   Обработка типа: Малый флот, столбцов: 4
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_mtb_1series, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_mtb_1series с предшественником '', статус: standard
@@ -7852,7 +7853,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника uk_frigate_leopard, predecessor='uk_destroyer_restigouche_class_terranova', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_frigate_leopard с предшественником 'uk_destroyer_restigouche_class_terranova', статус: standard
     Столбец 0: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника uk_mtb_vosper_1series, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_mtb_vosper_1series с предшественником '', статус: standard
@@ -7881,8 +7882,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника uk_corvette_peacock, predecessor='uk_frigate_whitby_blackpool', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_corvette_peacock с предшественником 'uk_frigate_whitby_blackpool', статус: standard
     Столбец 1: обработано 13 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/8 = 0.25, порог: 0.2
-    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 8/8 = 1.00, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника uk_mtb_2series, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_mtb_2series с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_73ft_vosper_type2, predecessor='', rankPosXY=None, premium=True
@@ -7900,8 +7901,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника uk_frigate_whitby, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_frigate_whitby с предшественником '', статус: premium
     Столбец 2: обработано 8 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/3 = 1.00, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 2/3 = 0.67, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника uk_higgins_78ft_mtb422, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_higgins_78ft_mtb422 с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_dark_class_mtb_td, predecessor='', rankPosXY=None, premium=True
@@ -7916,7 +7917,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен jp_type_60_atm с order=1
         ОТЛАДКА: get_group_items добавлен jp_type_87_rcv с order=0
         ОТЛАДКА: get_group_items добавлен jp_type_89 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_type_95_ha_go, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_95_ha_go с предшественником '', статус: standard
@@ -7971,7 +7972,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен jp_type_90b с order=1
         ОТЛАДКА: get_group_items добавлен jp_type_10 с order=0
         ОТЛАДКА: get_group_items добавлен jp_tkx_prot с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/29 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/29 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_type_89b_i_go_otsu, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_89b_i_go_otsu с предшественником '', статус: standard
@@ -8055,7 +8056,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Столбец 1: обработано 29 элементов
         ОТЛАДКА: get_group_items добавлен jp_type_3_ho_ni_I с order=0
         ОТЛАДКА: get_group_items добавлен jp_type_3_ho_ni_III с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_type_4_ho_ro, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_4_ho_ro с предшественником '', статус: standard
@@ -8091,7 +8092,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_type_16, predecessor='jp_type_16_mcv_prot', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_16 с предшественником 'jp_type_16_mcv_prot', статус: standard
     Столбец 2: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_type_94, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_94 с предшественником '', статус: standard
@@ -8120,7 +8121,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_type_03_chusam_fcs, predecessor='jp_type_81_tansam_fcs', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_03_chusam_fcs с предшественником 'jp_type_81_tansam_fcs', статус: standard
     Столбец 3: обработано 13 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/4 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/4 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_btr_3e1, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_btr_3e1 с предшественником '', статус: standard
@@ -8131,8 +8132,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_oplot_t, predecessor='jp_stingray', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_oplot_t с предшественником 'jp_stingray', статус: standard
     Столбец 4: обработано 4 элементов
-      ОТЛАДКА: Премиум техники в колонке: 7/15 = 0.47, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 14/15 = 0.93, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника jp_type_95_ha_go_commander, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_type_95_ha_go_commander с предшественником '', статус: premium
       ОТЛАДКА: Техника jp_type_95_heavy, predecessor='', rankPosXY=None, premium=True
@@ -8164,8 +8165,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_type_90b_sm, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_type_90b_sm с предшественником '', статус: premium
     Столбец 5: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/2 = 1.00, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 1/2 = 0.50, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника jp_type_3_ka_chi, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_type_3_ka_chi с предшественником '', статус: premium
       ОТЛАДКА: Техника jp_type_97_kai_td, predecessor='', rankPosXY=None, premium=True
@@ -8213,7 +8214,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен f-86f-40_japan с order=1
         ОТЛАДКА: get_group_items добавлен f_15j с order=0
         ОТЛАДКА: get_group_items добавлен f_15j_kai с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника f1m2, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника f1m2 с предшественником '', статус: standard
@@ -8315,7 +8316,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ki_61_2_early с order=1
         ОТЛАДКА: get_group_items добавлен ki_84_ko с order=0
         ОТЛАДКА: get_group_items добавлен ki_84_otsu с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/32 = 0.03, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/32 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен ki_10_1 с order=0
         ОТЛАДКА: get_group_items добавлен ki_10_2 с order=1
@@ -8409,7 +8410,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен j2m5 с order=1
         ОТЛАДКА: get_group_items добавлен f-5th_thailand с order=0
         ОТЛАДКА: get_group_items добавлен f_16a_block_15_ocu_thailand с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен ki-45_tei с order=0
         ОТЛАДКА: get_group_items добавлен ki-45_otsu с order=1
@@ -8485,7 +8486,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен r2y2_v1 с order=0
         ОТЛАДКА: get_group_items добавлен r2y2_v2 с order=1
         ОТЛАДКА: get_group_items добавлен r2y2_kai с order=2
-      ОТЛАДКА: Премиум техники в колонке: 3/16 = 0.19, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника b5n2, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника b5n2 с предшественником '', статус: standard
@@ -8536,7 +8537,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен ki-49_2b_late с order=1
         ОТЛАДКА: get_group_items добавлен ki_67_1_ko с order=0
         ОТЛАДКА: get_group_items добавлен ki_67_1_otsu с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/19 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/19 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ki_32, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ki_32 с предшественником '', статус: standard
@@ -8586,55 +8587,55 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника su_30mkm, predecessor='fa_18d_late_malaysia', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника su_30mkm с предшественником 'fa_18d_late_malaysia', статус: standard
     Столбец 4: обработано 19 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/22 = 0.18, порог: 0.2
-    Столбец 5 определен как ОБЫЧНЫЙ
-      ОТЛАДКА: Техника a5m4_hagiri, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника a5m4_hagiri с предшественником '', статус: standard
-      ОТЛАДКА: Техника ki-27_otsu_ep, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника ki-27_otsu_ep с предшественником '', статус: standard
-      ОТЛАДКА: Техника a7he1, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника a7he1 с предшественником '', статус: standard
-      ОТЛАДКА: Техника ki_44_1_ep, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника ki_44_1_ep с предшественником '', статус: standard
-      ОТЛАДКА: Техника ki_44_2_otsu, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника ki_44_2_otsu с предшественником '', статус: standard
-      ОТЛАДКА: Техника me_210_v22_japan, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника me_210_v22_japan с предшественником '', статус: standard
-      ОТЛАДКА: Техника h8k3, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника h8k3 с предшественником '', статус: standard
-      ОТЛАДКА: Техника ki-96, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника ki-96 с предшественником '', статус: standard
-      ОТЛАДКА: Техника ki_100_2, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника ki_100_2 с предшественником '', статус: standard
-      ОТЛАДКА: Техника sb2c_5_thailand, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника sb2c_5_thailand с предшественником '', статус: standard
-      ОТЛАДКА: Техника b-17e_japan, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника b-17e_japan с предшественником '', статус: standard
-      ОТЛАДКА: Техника a7m1, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника a7m1 с предшественником '', статус: standard
-      ОТЛАДКА: Техника a6m5ko, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника a6m5ko с предшественником '', статус: standard
-      ОТЛАДКА: Техника ki_61_1a_hei_ep, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника ki_61_1a_hei_ep с предшественником '', статус: standard
-      ОТЛАДКА: Техника j2m4_kai, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника j2m4_kai с предшественником '', статус: standard
-      ОТЛАДКА: Техника j2m5_30mm, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника j2m5_30mm с предшественником '', статус: standard
-      ОТЛАДКА: Техника f-86f-40_japan_blue_impulse, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника f-86f-40_japan_blue_impulse с предшественником '', статус: standard
-      ОТЛАДКА: Техника t2_early, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника t2_early с предшественником '', статус: standard
-      ОТЛАДКА: Техника av_8s_thailand, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника av_8s_thailand с предшественником '', статус: standard
-      ОТЛАДКА: Техника f-5e_fcu_thailand, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника f-5e_fcu_thailand с предшественником '', статус: standard
-      ОТЛАДКА: Техника hawk_209_indonesia, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника hawk_209_indonesia с предшественником '', статус: standard
-      ОТЛАДКА: Техника f_2a_adtw, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника f_2a_adtw с предшественником '', статус: standard
+      ОТЛАДКА: Премиум техники в колонке: 21/22 = 0.95, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
+      ОТЛАДКА: Техника a5m4_hagiri, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника a5m4_hagiri с предшественником '', статус: premium
+      ОТЛАДКА: Техника ki-27_otsu_ep, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ki-27_otsu_ep с предшественником '', статус: premium
+      ОТЛАДКА: Техника a7he1, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника a7he1 с предшественником '', статус: premium
+      ОТЛАДКА: Техника ki_44_1_ep, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ki_44_1_ep с предшественником '', статус: premium
+      ОТЛАДКА: Техника ki_44_2_otsu, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ki_44_2_otsu с предшественником '', статус: premium
+      ОТЛАДКА: Техника me_210_v22_japan, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника me_210_v22_japan с предшественником '', статус: premium
+      ОТЛАДКА: Техника h8k3, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника h8k3 с предшественником '', статус: premium
+      ОТЛАДКА: Техника ki-96, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ki-96 с предшественником '', статус: premium
+      ОТЛАДКА: Техника ki_100_2, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ki_100_2 с предшественником '', статус: premium
+      ОТЛАДКА: Техника sb2c_5_thailand, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника sb2c_5_thailand с предшественником '', статус: premium
+      ОТЛАДКА: Техника b-17e_japan, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника b-17e_japan с предшественником '', статус: premium
+      ОТЛАДКА: Техника a7m1, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника a7m1 с предшественником '', статус: premium
+      ОТЛАДКА: Техника a6m5ko, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника a6m5ko с предшественником '', статус: premium
+      ОТЛАДКА: Техника ki_61_1a_hei_ep, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ki_61_1a_hei_ep с предшественником '', статус: premium
+      ОТЛАДКА: Техника j2m4_kai, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника j2m4_kai с предшественником '', статус: premium
+      ОТЛАДКА: Техника j2m5_30mm, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника j2m5_30mm с предшественником '', статус: premium
+      ОТЛАДКА: Техника f-86f-40_japan_blue_impulse, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника f-86f-40_japan_blue_impulse с предшественником '', статус: premium
+      ОТЛАДКА: Техника t2_early, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника t2_early с предшественником '', статус: premium
+      ОТЛАДКА: Техника av_8s_thailand, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника av_8s_thailand с предшественником '', статус: premium
+      ОТЛАДКА: Техника f-5e_fcu_thailand, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника f-5e_fcu_thailand с предшественником '', статус: premium
+      ОТЛАДКА: Техника hawk_209_indonesia, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника hawk_209_indonesia с предшественником '', статус: premium
+      ОТЛАДКА: Техника f_2a_adtw, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника f_2a_adtw с предшественником '', статус: premium
     Столбец 5: обработано 22 элементов
-      ОТЛАДКА: Премиум техники в колонке: 9/15 = 0.60, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 11/15 = 0.73, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника e7k2, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника e7k2 с предшественником '', статус: premium
       ОТЛАДКА: Техника e8n2, predecessor='', rankPosXY=None, premium=True
@@ -8669,7 +8670,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
   Обработка типа: Большой флот, столбцов: 5
         ОТЛАДКА: get_group_items добавлен jp_cruiser_furutaka с order=0
         ОТЛАДКА: get_group_items добавлен jp_cruiser_aoba с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_destroyer_momi, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_destroyer_momi с предшественником '', статус: standard
@@ -8703,7 +8704,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_battleship_yamato, predecessor='jp_battleship_fuso', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_battleship_yamato с предшественником 'jp_battleship_fuso', статус: standard
     Столбец 0: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_destroyer_mutsuki, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_destroyer_mutsuki с предшественником '', статус: standard
@@ -8736,7 +8737,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_battleship_musashi, predecessor='jp_battlecruiser_amagi', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_battleship_musashi с предшественником 'jp_battlecruiser_amagi', статус: standard
     Столбец 1: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_destroyer_kagero, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_destroyer_kagero с предшественником '', статус: standard
@@ -8751,8 +8752,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_battleship_mutsu, predecessor='jp_battlecruiser_kongo', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_battleship_mutsu с предшественником 'jp_battlecruiser_kongo', статус: standard
     Столбец 2: обработано 6 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/12 = 0.33, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 10/12 = 0.83, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника jp_destroyer_satsuki, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_destroyer_satsuki с предшественником '', статус: premium
       ОТЛАДКА: Техника jp_destroyer_nenohi, predecessor='', rankPosXY=None, premium=True
@@ -8778,8 +8779,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_battleship_nagato, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_battleship_nagato с предшественником '', статус: premium
     Столбец 3: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 7/8 = 0.88, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 4/8 = 0.50, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника jp_destroyer_tade, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_destroyer_tade с предшественником '', статус: premium
       ОТЛАДКА: Техника jp_destroyer_hayanami, predecessor='', rankPosXY=None, premium=True
@@ -8798,7 +8799,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника jp_battleship_tosa с предшественником '', статус: premium
     Столбец 4: обработано 8 элементов
   Обработка типа: Малый флот, столбцов: 3
-      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_t14_class, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_t14_class с предшественником '', статус: standard
@@ -8829,7 +8830,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_destroyer_chidori, predecessor='jp_yuri_class_asagao', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_destroyer_chidori с предшественником 'jp_yuri_class_asagao', статус: standard
     Столбец 0: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_type_t1_1941, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_t1_1941 с предшественником '', статус: standard
@@ -8854,8 +8855,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jp_destroyer_ayanami, predecessor='jp_destroyer_isuzu', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_destroyer_ayanami с предшественником 'jp_destroyer_isuzu', статус: standard
     Столбец 1: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/7 = 0.43, порог: 0.2
-    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 6/7 = 0.86, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника jp_t14_class_mod01, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_t14_class_mod01 с предшественником '', статус: premium
       ОТЛАДКА: Техника jp_kusen_tei_13_1942, predecessor='', rankPosXY=None, premium=True
@@ -8882,7 +8883,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен cn_type_62 с order=1
         ОТЛАДКА: get_group_items добавлен cn_zts_63_1980 с order=0
         ОТЛАДКА: get_group_items добавлен cn_type_86 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/22 = 0.05, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника cn_m8_greyhound, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника cn_m8_greyhound с предшественником '', статус: standard
@@ -8952,7 +8953,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен cn_ztz_88a с order=1
         ОТЛАДКА: get_group_items добавлен cn_ztz_99 с order=0
         ОТЛАДКА: get_group_items добавлен cn_ztz_99_w с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/28 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/28 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника cn_t_26_1940, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника cn_t_26_1940 с предшественником '', статус: standard
@@ -9031,7 +9032,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Столбец 1: обработано 28 элементов
         ОТЛАДКА: get_group_items добавлен cn_tor_m1 с order=0
         ОТЛАДКА: get_group_items добавлен cn_hq_17 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника cn_sdkfz_222_early, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника cn_sdkfz_222_early с предшественником '', статус: standard
@@ -9075,7 +9076,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен cn_ptz_89 с order=1
         ОТЛАДКА: get_group_items добавлен cn_ptl_02 с order=0
         ОТЛАДКА: get_group_items добавлен cn_hj_9 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника cn_m8_scott, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника cn_m8_scott с предшественником '', статус: standard
@@ -9131,8 +9132,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника cn_zbd_04a, predecessor='cn_ztl_11', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника cn_zbd_04a с предшественником 'cn_ztl_11', статус: standard
     Столбец 3: обработано 22 элементов
-      ОТЛАДКА: Премиум техники в колонке: 6/17 = 0.35, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 13/17 = 0.76, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника cn_t_26_no531, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника cn_t_26_no531 с предшественником '', статус: premium
       ОТЛАДКА: Техника cn_m3a3_stuart_1st_ptg, predecessor='', rankPosXY=None, premium=True
@@ -9168,8 +9169,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника cn_oplot_t, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника cn_oplot_t с предшественником '', статус: premium
     Столбец 4: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 7/8 = 0.88, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 4/8 = 0.50, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника cn_bt_5, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника cn_bt_5 с предшественником '', статус: premium
       ОТЛАДКА: Техника cn_type_95_ha_go, predecessor='', rankPosXY=None, premium=True
@@ -9233,7 +9234,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен f-86f-40_china с order=1
         ОТЛАДКА: get_group_items добавлен f-5a_china с order=0
         ОТЛАДКА: get_group_items добавлен f-5e_aidc с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника gladiator_mk1_china, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника gladiator_mk1_china с предшественником '', статус: standard
@@ -9316,7 +9317,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен mig-17_china с order=1
         ОТЛАДКА: get_group_items добавлен mig-19j_6a с order=0
         ОТЛАДКА: get_group_items добавлен j_7_mk2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/25 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/25 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника i-15bis_china, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника i-15bis_china с предшественником '', статус: standard
@@ -9381,7 +9382,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника j_10c, predecessor='j_10a', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника j_10c с предшественником 'j_10a', статус: standard
     Столбец 1: обработано 25 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника hs-123a-1_china, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника hs-123a-1_china с предшественником '', статус: standard
@@ -9416,7 +9417,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен sb_2m_103u_china с order=1
         ОТЛАДКА: get_group_items добавлен j_11 с order=0
         ОТЛАДКА: get_group_items добавлен j_11a с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника martin_139wc, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника martin_139wc с предшественником '', статус: standard
@@ -9455,8 +9456,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника j_15t, predecessor='j_11b', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника j_15t с предшественником 'j_11b', статус: standard
     Столбец 3: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/16 = 0.25, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 14/16 = 0.88, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника hawk_iii, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника hawk_iii с предшественником '', статус: premium
       ОТЛАДКА: Техника d_510c, predecessor='', rankPosXY=None, premium=True
@@ -9490,8 +9491,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника jf_17, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jf_17 с предшественником '', статус: premium
     Столбец 4: обработано 16 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/5 = 1.00, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 3/5 = 0.60, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника p-51c-11-nt_china, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника p-51c-11-nt_china с предшественником '', статус: premium
       ОТЛАДКА: Техника a6m5_zero_china, predecessor='', rankPosXY=None, premium=True
@@ -9510,7 +9511,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен it_fiat_6614_106sr с order=1
         ОТЛАДКА: get_group_items добавлен it_b1_centauro с order=0
         ОТЛАДКА: get_group_items добавлен it_b1_centauro_romor с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_ab_41, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_ab_41 с предшественником '', статус: standard
@@ -9567,7 +9568,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен it_leopard_1a2 с order=1
         ОТЛАДКА: get_group_items добавлен it_c1_ariete_pso с order=0
         ОТЛАДКА: get_group_items добавлен it_c1_ariete с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_l6, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_l6 с предшественником '', статус: standard
@@ -9632,7 +9633,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Столбец 1: обработано 24 элементов
         ОТЛАДКА: get_group_items добавлен it_9a33bm3 с order=0
         ОТЛАДКА: get_group_items добавлен it_9a35_m с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_as_42_metropolitana, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_as_42_metropolitana с предшественником '', статус: standard
@@ -9675,7 +9676,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен it_stug_III_ausf_G с order=1
         ОТЛАДКА: get_group_items добавлен it_dardo_vcc с order=0
         ОТЛАДКА: get_group_items добавлен it_vcc_80_hitfist_30 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_l3_cc, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_l3_cc с предшественником '', статус: standard
@@ -9739,7 +9740,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника it_freccia, predecessor='it_dardo_group', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_freccia с предшественником 'it_dardo_group', статус: standard
     Столбец 3: обработано 24 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_39m_csaba, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_39m_csaba с предшественником '', статус: standard
@@ -9762,42 +9763,42 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника it_leopard_2a7_hungary, predecessor='it_kf_41', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_leopard_2a7_hungary с предшественником 'it_kf_41', статус: standard
     Столбец 4: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/15 = 0.13, порог: 0.2
-    Столбец 5 определен как ОБЫЧНЫЙ
-      ОТЛАДКА: Техника it_l6_leone, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_l6_leone с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_m13_40_serie_2, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_m13_40_serie_2 с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_m14_41_47_40, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_m14_41_47_40 с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_sahariano, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_sahariano с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_semovente_m43_105_leoncello, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_semovente_m43_105_leoncello с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_sherman_75_37, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_sherman_75_37 с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_pzkpfw_IV_ausf_G, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_pzkpfw_IV_ausf_G с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_pzkpfw_VI_ausf_e_tiger, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_pzkpfw_VI_ausf_e_tiger с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_m26_ariete, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_m26_ariete с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_pzh_2000_hu, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_pzh_2000_hu с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_m60a1_ariete, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_m60a1_ariete с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_of_40_mtca, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_of_40_mtca с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_vrcc_centauro, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_vrcc_centauro с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_centauro_rgo_120, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_centauro_rgo_120 с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_c1_ariete_certezza, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_c1_ariete_certezza с предшественником '', статус: standard
+      ОТЛАДКА: Премиум техники в колонке: 15/15 = 1.00, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
+      ОТЛАДКА: Техника it_l6_leone, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_l6_leone с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_m13_40_serie_2, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_m13_40_serie_2 с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_m14_41_47_40, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_m14_41_47_40 с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_sahariano, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_sahariano с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_semovente_m43_105_leoncello, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_semovente_m43_105_leoncello с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_sherman_75_37, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_sherman_75_37 с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_pzkpfw_IV_ausf_G, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_pzkpfw_IV_ausf_G с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_pzkpfw_VI_ausf_e_tiger, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_pzkpfw_VI_ausf_e_tiger с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_m26_ariete, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_m26_ariete с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_pzh_2000_hu, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_pzh_2000_hu с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_m60a1_ariete, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_m60a1_ariete с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_of_40_mtca, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_of_40_mtca с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_vrcc_centauro, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_vrcc_centauro с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_centauro_rgo_120, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_centauro_rgo_120 с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_c1_ariete_certezza, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_c1_ariete_certezza с предшественником '', статус: premium
       ПРОПУСК: it_samp_t_launcher является slave-юнитом
     Столбец 5: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 8/9 = 0.89, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 6/9 = 0.67, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника it_toldi_II_a, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_toldi_II_a с предшественником '', статус: premium
       ОТЛАДКА: Техника it_41m_turan_2, predecessor='', rankPosXY=None, premium=True
@@ -9847,7 +9848,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен re_2001_cb с order=1
         ОТЛАДКА: get_group_items добавлен g_55_serie1 с order=0
         ОТЛАДКА: get_group_items добавлен re_2005_serie0 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/23 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/23 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника ro_44, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника ro_44 с предшественником '', статус: standard
@@ -9917,7 +9918,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fiat_g91_r1 с order=1
         ОТЛАДКА: get_group_items добавлен fiat_g91_y с order=0
         ОТЛАДКА: get_group_items добавлен fiat_g91_ys с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/27 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен cr_32 с order=0
         ОТЛАДКА: get_group_items добавлен cr_32_quater с order=1
@@ -9998,7 +9999,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен p_108a_serie2 с order=1
         ОТЛАДКА: get_group_items добавлен tornado_ids_it_mod95 с order=0
         ОТЛАДКА: get_group_items добавлен tornado_ids_it_ret8 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен ba_65_k14_l с order=0
         ОТЛАДКА: get_group_items добавлен ju-87r-2_italy с order=1
@@ -10061,7 +10062,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен z_1007_bis_serie5 с order=1
         ОТЛАДКА: get_group_items добавлен p_108b_serie1 с order=0
         ОТЛАДКА: get_group_items добавлен p_108b_serie2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника s_81_ar125, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника s_81_ar125 с предшественником '', статус: standard
@@ -10124,7 +10125,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен me_210ca_1_40_mm_hungary с order=1
         ОТЛАДКА: get_group_items добавлен mig-21_mf_hungary с order=0
         ОТЛАДКА: get_group_items добавлен mig-21_bis_sau_hungary с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/17 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/17 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника wm_21, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника wm_21 с предшественником '', статус: standard
@@ -10167,8 +10168,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника saab_jas39c_hungary, predecessor='mig_29_9_12b_hungary', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника saab_jas39c_hungary с предшественником 'mig_29_9_12b_hungary', статус: standard
     Столбец 4: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/16 = 0.25, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 15/16 = 0.94, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника fiat_cr42_marcolin_italy, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fiat_cr42_marcolin_italy с предшественником '', статус: premium
       ОТЛАДКА: Техника cr_32_bis, predecessor='', rankPosXY=None, premium=True
@@ -10202,8 +10203,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника mig_29_9_12_sniper, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника mig_29_9_12_sniper с предшественником '', статус: premium
     Столбец 5: обработано 16 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/8 = 0.62, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 7/8 = 0.88, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника ba_65_a80, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ba_65_a80 с предшественником '', статус: premium
       ОТЛАДКА: Техника ro_43, predecessor='', rankPosXY=None, premium=True
@@ -10222,7 +10223,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника re_2005_vdm с предшественником '', статус: premium
     Столбец 6: обработано 8 элементов
   Обработка типа: Большой флот, столбцов: 4
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_destroyer_turbine, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_destroyer_turbine с предшественником '', статус: standard
@@ -10255,7 +10256,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника it_battleship_littorio_class_roma, predecessor='it_battleship_conte_di_cavour', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_battleship_littorio_class_roma с предшественником 'it_battleship_conte_di_cavour', статус: standard
     Столбец 0: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_destroyer_vifor_class_aquila, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_destroyer_vifor_class_aquila с предшественником '', статус: standard
@@ -10282,23 +10283,23 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника it_battleship_littorio_class_littorio, predecessor='it_battleship_caio_duilio', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_battleship_littorio_class_littorio с предшественником 'it_battleship_caio_duilio', статус: standard
     Столбец 1: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.2
-    Столбец 2 определен как ОБЫЧНЫЙ
-      ОТЛАДКА: Техника it_destroyer_aquilone, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_destroyer_aquilone с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_destroyer_fletcher_geniere, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_destroyer_fletcher_geniere с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_destroyer_leone_class_tigre, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_destroyer_leone_class_tigre с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_destroyer_soldati_serie1_geniere, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_destroyer_soldati_serie1_geniere с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_cruiser_zara_class_pola, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_cruiser_zara_class_pola с предшественником '', статус: standard
-      ОТЛАДКА: Техника it_battleship_leonardo_da_vinci, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника it_battleship_leonardo_da_vinci с предшественником '', статус: standard
+      ОТЛАДКА: Премиум техники в колонке: 6/6 = 1.00, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
+      ОТЛАДКА: Техника it_destroyer_aquilone, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_destroyer_aquilone с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_destroyer_fletcher_geniere, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_destroyer_fletcher_geniere с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_destroyer_leone_class_tigre, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_destroyer_leone_class_tigre с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_destroyer_soldati_serie1_geniere, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_destroyer_soldati_serie1_geniere с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_cruiser_zara_class_pola, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_cruiser_zara_class_pola с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_battleship_leonardo_da_vinci, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_battleship_leonardo_da_vinci с предшественником '', статус: premium
     Столбец 2: обработано 6 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/3 = 0.67, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 3/3 = 1.00, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника it_destroyer_saetta, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_destroyer_saetta с предшественником '', статус: premium
       ОТЛАДКА: Техника it_destroyer_soldati_serie1, predecessor='', rankPosXY=None, premium=True
@@ -10307,7 +10308,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника it_cruiser_cadorna_class_cadorna с предшественником '', статус: premium
     Столбец 3: обработано 3 элементов
   Обработка типа: Малый флот, столбцов: 4
-      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_mas_classe500_3_1944, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_mas_classe500_3_1944 с предшественником '', статус: standard
@@ -10332,7 +10333,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника it_p494_saetta, predecessor='it_cassiopea_p401', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_p494_saetta с предшественником 'it_cassiopea_p401', статус: standard
     Столбец 0: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/9 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/9 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника it_mas_classe500_3, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_mas_classe500_3 с предшественником '', статус: standard
@@ -10353,8 +10354,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника it_albatros_class_f543, predecessor='it_ciclone_class_ghibli', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника it_albatros_class_f543 с предшественником 'it_ciclone_class_ghibli', статус: standard
     Столбец 1: обработано 9 элементов
-      ОТЛАДКА: Премиум техники в колонке: 2/6 = 0.33, порог: 0.2
-    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 5/6 = 0.83, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника it_mas_classe500_4, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_mas_classe500_4 с предшественником '', статус: premium
       ОТЛАДКА: Техника it_ms444, predecessor='', rankPosXY=None, premium=True
@@ -10368,8 +10369,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника it_albatros_class_f544, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_albatros_class_f544 с предшественником '', статус: premium
     Столбец 2: обработано 6 элементов
-      ОТЛАДКА: Премиум техники в колонке: 1/1 = 1.00, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 1/1 = 1.00, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника it_p493_freccia, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_p493_freccia с предшественником '', статус: premium
     Столбец 3: обработано 1 элементов
@@ -10385,7 +10386,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fr_amx_13_hot с order=1
         ОТЛАДКА: get_group_items добавлен fr_amx_10rc с order=0
         ОТЛАДКА: get_group_items добавлен fr_sk105_a2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/24 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен fr_amc_34 с order=0
         ОТЛАДКА: get_group_items добавлен fr_hotchkiss_h35 с order=1
@@ -10453,7 +10454,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fr_amx_30_b2_brenus с order=1
         ОТЛАДКА: get_group_items добавлен fr_leclerc_s1 с order=0
         ОТЛАДКА: get_group_items добавлен fr_leclerc_s2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 1/22 = 0.05, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/22 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fr_saint_chamond, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_saint_chamond с предшественником '', статус: standard
@@ -10515,7 +10516,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fr_m4a3e2_sherman_jumbo с order=1
         ОТЛАДКА: get_group_items добавлен fr_amx_32_105 с order=0
         ОТЛАДКА: get_group_items добавлен fr_amx_32 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/19 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/19 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fr_renault_r39, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_renault_r39 с предшественником '', статус: standard
@@ -10565,7 +10566,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fr_leopard_2a6nl, predecessor='fr_leopard_2a5nl', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_leopard_2a6nl с предшественником 'fr_leopard_2a5nl', статус: standard
     Столбец 2: обработано 19 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fr_citroen_kegresse_p4t, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_citroen_kegresse_p4t с предшественником '', статус: standard
@@ -10594,7 +10595,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fr_m55 с order=1
         ОТЛАДКА: get_group_items добавлен fr_amx_50_foch с order=0
         ОТЛАДКА: get_group_items добавлен fr_amx_10m_acra с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/17 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/17 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fr_amr_35_zt3, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_amr_35_zt3 с предшественником '', статус: standard
@@ -10637,8 +10638,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fr_jaguar_ebrc, predecessor='fr_vcac_mephisto', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_jaguar_ebrc с предшественником 'fr_vcac_mephisto', статус: standard
     Столбец 4: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/14 = 0.21, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 13/14 = 0.93, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника fr_hotchkiss_h39_cambronne, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fr_hotchkiss_h39_cambronne с предшественником '', статус: premium
       ОТЛАДКА: Техника fr_char_2c_bis, predecessor='', rankPosXY=None, premium=True
@@ -10668,8 +10669,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fr_leopard_2a4nl_les, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fr_leopard_2a4nl_les с предшественником '', статус: premium
     Столбец 5: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 9/9 = 1.00, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 8/9 = 0.89, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника fr_amd_35_sa35, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fr_amd_35_sa35 с предшественником '', статус: premium
       ОТЛАДКА: Техника fr_lvt_bofors, predecessor='', rankPosXY=None, premium=True
@@ -10743,7 +10744,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен md_460 с order=1
         ОТЛАДКА: get_group_items добавлен mirage_3c с order=0
         ОТЛАДКА: get_group_items добавлен mirage_3e с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/31 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен d_371 с order=0
         ОТЛАДКА: get_group_items добавлен d_373 с order=1
@@ -10835,7 +10836,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен h-75a-4_france с order=1
         ОТЛАДКА: get_group_items добавлен potez_630 с order=0
         ОТЛАДКА: get_group_items добавлен potez_631 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен d_500 с order=0
         ОТЛАДКА: get_group_items добавлен d_501 с order=1
@@ -10887,7 +10888,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника rafale_m_f3r, predecessor='mirage_4000', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника rafale_m_f3r с предшественником 'mirage_4000', статус: standard
     Столбец 1: обработано 20 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника v_156_f, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника v_156_f с предшественником '', статус: standard
@@ -10920,7 +10921,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен leo_451_late с order=1
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2b с order=0
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2a с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника potez_633, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника potez_633 с предшественником '', статус: standard
@@ -10974,7 +10975,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника mirage_2000d_rmv, predecessor='mirage_2000d_r1', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника mirage_2000d_rmv с предшественником 'mirage_2000d_r1', статус: standard
     Столбец 3: обработано 21 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника gladiator_mk1_belgium, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника gladiator_mk1_belgium с предшественником '', статус: standard
@@ -11001,8 +11002,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника f_16am_block_15_mlu_belgium, predecessor='f_16a_block_15_belgium', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника f_16am_block_15_mlu_belgium с предшественником 'f_16a_block_15_belgium', статус: standard
     Столбец 4: обработано 12 элементов
-      ОТЛАДКА: Премиум техники в колонке: 7/17 = 0.41, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 14/17 = 0.82, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника d_510, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника d_510 с предшественником '', статус: premium
       ОТЛАДКА: Техника pby-5a_late_france, predecessor='', rankPosXY=None, premium=True
@@ -11038,8 +11039,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника f_16a_block_15_ocu_belgium, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника f_16a_block_15_ocu_belgium с предшественником '', статус: premium
     Столбец 5: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 13/13 = 1.00, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 10/13 = 0.77, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника late_298d, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника late_298d с предшественником '', статус: premium
       ОТЛАДКА: Техника d_371_hs9, predecessor='', rankPosXY=None, premium=True
@@ -11068,7 +11069,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Добавлена техника f_16am_block_20_mlu_netherlands с предшественником '', статус: premium
     Столбец 6: обработано 13 элементов
   Обработка типа: Большой флот, столбцов: 3
-      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fr_destroyer_bourrasque_class_bourrasque, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_destroyer_bourrasque_class_bourrasque с предшественником '', статус: standard
@@ -11097,7 +11098,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fr_battleship_richelieu_class_richelieu, predecessor='fr_battleship_dunkerque', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_battleship_richelieu_class_richelieu с предшественником 'fr_battleship_dunkerque', статус: standard
     Столбец 0: обработано 13 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fr_destroyer_jaguar_class_leopard, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_destroyer_jaguar_class_leopard с предшественником '', статус: standard
@@ -11126,8 +11127,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fr_battleship_richelieu_class_clemenceau, predecessor='fr_battleship_bretagne_class_bretagne', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_battleship_richelieu_class_clemenceau с предшественником 'fr_battleship_bretagne_class_bretagne', статус: standard
     Столбец 1: обработано 13 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/9 = 0.33, порог: 0.2
-    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 8/9 = 0.89, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника fr_destroyer_jaguar_class_panthere, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fr_destroyer_jaguar_class_panthere с предшественником '', статус: premium
       ОТЛАДКА: Техника fr_destroyer_bourrasque_class_tornade, predecessor='', rankPosXY=None, premium=True
@@ -11151,7 +11152,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен fr_vtb8 с order=0
         ОТЛАДКА: get_group_items добавлен fr_vtb11 с order=1
         ОТЛАДКА: get_group_items добавлен fr_vtb14 с order=2
-      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен fr_vtb8 с order=0
         ОТЛАДКА: get_group_items добавлен fr_vtb11 с order=1
@@ -11178,7 +11179,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fr_p730_combattante, predecessor='fr_vlt1', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_p730_combattante с предшественником 'fr_vlt1', статус: standard
     Столбец 0: обработано 11 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/8 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/8 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fr_vtb13, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_vtb13 с предшественником '', статус: standard
@@ -11197,23 +11198,23 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fr_frigate_corse_class_brestois, predecessor='fr_frigate_croix_de_lorraine_class_la_surprise', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fr_frigate_corse_class_brestois с предшественником 'fr_frigate_croix_de_lorraine_class_la_surprise', статус: standard
     Столбец 1: обработано 8 элементов
-      ОТЛАДКА: Премиум техники в колонке: 1/6 = 0.17, порог: 0.2
-    Столбец 2 определен как ОБЫЧНЫЙ
-      ОТЛАДКА: Техника fr_vtb10, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника fr_vtb10 с предшественником '', статус: standard
-      ОТЛАДКА: Техника fr_vtb9, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника fr_vtb9 с предшественником '', статус: standard
-      ОТЛАДКА: Техника fr_arras_class_amiens, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника fr_arras_class_amiens с предшественником '', статус: standard
-      ОТЛАДКА: Техника fr_marne_class_aisne, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника fr_marne_class_aisne с предшественником '', статус: standard
-      ОТЛАДКА: Техника fr_vlt2, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника fr_vlt2 с предшественником '', статус: standard
-      ОТЛАДКА: Техника fr_frigate_corse_class_corse, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника fr_frigate_corse_class_corse с предшественником '', статус: standard
+      ОТЛАДКА: Премиум техники в колонке: 6/6 = 1.00, порог: 0.18
+    Столбец 2 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
+      ОТЛАДКА: Техника fr_vtb10, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fr_vtb10 с предшественником '', статус: premium
+      ОТЛАДКА: Техника fr_vtb9, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fr_vtb9 с предшественником '', статус: premium
+      ОТЛАДКА: Техника fr_arras_class_amiens, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fr_arras_class_amiens с предшественником '', статус: premium
+      ОТЛАДКА: Техника fr_marne_class_aisne, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fr_marne_class_aisne с предшественником '', статус: premium
+      ОТЛАДКА: Техника fr_vlt2, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fr_vlt2 с предшественником '', статус: premium
+      ОТЛАДКА: Техника fr_frigate_corse_class_corse, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fr_frigate_corse_class_corse с предшественником '', статус: premium
     Столбец 2: обработано 6 элементов
-      ОТЛАДКА: Премиум техники в колонке: 1/1 = 1.00, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 1/1 = 1.00, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника fr_trident_class_glaive_p671, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fr_trident_class_glaive_p671 с предшественником '', статус: premium
     Столбец 3: обработано 1 элементов
@@ -11222,7 +11223,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен sw_cv_9030_fin с order=0
         ОТЛАДКА: get_group_items добавлен sw_strf_90b с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника sw_strv_m31, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника sw_strv_m31 с предшественником '', статус: standard
@@ -11266,7 +11267,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен sw_strv_103c с order=1
         ОТЛАДКА: get_group_items добавлен sw_strv_122 с order=0
         ОТЛАДКА: get_group_items добавлен sw_strv_122b_plss с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/20 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника sw_strv_m38, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника sw_strv_m38 с предшественником '', статус: standard
@@ -11322,7 +11323,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен sw_asrad_r с order=1
         ОТЛАДКА: get_group_items добавлен sw_eldenhet_98 с order=0
         ОТЛАДКА: get_group_items добавлен sw_nomads с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/18 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/18 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника sw_pvlvv_fm42, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника sw_pvlvv_fm42 с предшественником '', статус: standard
@@ -11371,7 +11372,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен sw_ikv_103 с order=1
         ОТЛАДКА: get_group_items добавлен sw_udes_33 с order=0
         ОТЛАДКА: get_group_items добавлен sw_pbv_302_bill с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника sw_ikv_72, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника sw_ikv_72 с предшественником '', статус: standard
@@ -11414,7 +11415,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен sw_pzkpfw_IV_ausf_J с order=1
         ОТЛАДКА: get_group_items добавлен sw_pt_76b с order=0
         ОТЛАДКА: get_group_items добавлен sw_a_34_comet с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.18
     Столбец 4 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника sw_vickers_mk_e_37, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника sw_vickers_mk_e_37 с предшественником '', статус: standard
@@ -11453,8 +11454,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника sw_leopard_2a6nl, predecessor='sw_leopard_2a4_fin', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника sw_leopard_2a6nl с предшественником 'sw_leopard_2a4_fin', статус: standard
     Столбец 4: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/14 = 0.36, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 13/14 = 0.93, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника sw_strv_m39, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника sw_strv_m39 с предшественником '', статус: premium
       ОТЛАДКА: Техника sw_vickers_mk_e_45, predecessor='', rankPosXY=None, premium=True
@@ -11484,8 +11485,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника sw_t_80u, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника sw_t_80u с предшественником '', статус: premium
     Столбец 5: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/7 = 0.71, порог: 0.2
-    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 4/7 = 0.57, порог: 0.18
+    Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника sw_strv_m39_td, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника sw_strv_m39_td с предшественником '', статус: premium
       ОТЛАДКА: Техника sw_pbil_m40, predecessor='', rankPosXY=None, premium=True
@@ -11528,7 +11529,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен saab_ja37di с order=1
         ОТЛАДКА: get_group_items добавлен saab_jas39a с order=0
         ОТЛАДКА: get_group_items добавлен saab_jas39c с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/23 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/23 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
         ОТЛАДКА: get_group_items добавлен gladiator_j8a с order=0
         ОТЛАДКА: get_group_items добавлен j6b с order=1
@@ -11593,7 +11594,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен saab_b17a с order=1
         ОТЛАДКА: get_group_items добавлен mosquito_fb_mk6_norway с order=0
         ОТЛАДКА: get_group_items добавлен mosquito_fb_mk6_ash_norway с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/16 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника saab_b17bs, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника saab_b17bs с предшественником '', статус: standard
@@ -11636,7 +11637,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Столбец 1: обработано 16 элементов
         ОТЛАДКА: get_group_items добавлен saab_t18b_1 с order=0
         ОТЛАДКА: get_group_items добавлен saab_t18b_2 с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника he_115a_2_sweden, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника he_115a_2_sweden с предшественником '', статус: standard
@@ -11666,7 +11667,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен bf-109g-6_erla_finland с order=1
         ОТЛАДКА: get_group_items добавлен vampire_fb5_j28b с order=0
         ОТЛАДКА: get_group_items добавлен vampire_fb52_finland с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника fokker_d21_serie3_finland, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fokker_d21_serie3_finland с предшественником '', статус: standard
@@ -11703,8 +11704,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника fa_18c_mlu_2_finland, predecessor='fa_18c_finland', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника fa_18c_mlu_2_finland с предшественником 'fa_18c_finland', статус: standard
     Столбец 3: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 5/16 = 0.31, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 13/16 = 0.81, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника gladiator_j8a_iacobi, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника gladiator_j8a_iacobi с предшественником '', статус: premium
       ОТЛАДКА: Техника arado-196a-5, predecessor='', rankPosXY=None, premium=True
@@ -11738,8 +11739,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника saab_jas39d, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника saab_jas39d с предшественником '', статус: premium
     Столбец 4: обработано 16 элементов
-      ОТЛАДКА: Премиум техники в колонке: 4/4 = 1.00, порог: 0.2
-    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 4/4 = 1.00, порог: 0.18
+    Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника j9_early, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника j9_early с предшественником '', статус: premium
       ОТЛАДКА: Техника vl_myrsky_2_late, predecessor='', rankPosXY=None, premium=True
@@ -11765,7 +11766,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен il_magach_6c с order=1
         ОТЛАДКА: get_group_items добавлен il_magach_6b_gal_batash с order=0
         ОТЛАДКА: get_group_items добавлен il_magach_7c с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника il_m_51, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника il_m_51 с предшественником '', статус: standard
@@ -11839,7 +11840,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен il_merkava_mk_3c с order=1
         ОТЛАДКА: get_group_items добавлен il_merkava_mk_4b с order=0
         ОТЛАДКА: get_group_items добавлен il_merkava_mk_4_lic с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/21 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника il_amx_13_75, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника il_amx_13_75 с предшественником '', статус: standard
@@ -11899,7 +11900,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника il_merkava_mk_4m, predecessor='il_merkava_4_group', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника il_merkava_mk_4m с предшественником 'il_merkava_4_group', статус: standard
     Столбец 1: обработано 21 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/7 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/7 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника il_tcm_20, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника il_tcm_20 с предшественником '', статус: standard
@@ -11918,7 +11919,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Столбец 2: обработано 7 элементов
         ОТЛАДКА: get_group_items добавлен il_m109a1 с order=0
         ОТЛАДКА: get_group_items добавлен il_ss_11_halftrack с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.18
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника il_m109, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника il_m109 с предшественником '', статус: standard
@@ -11944,8 +11945,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника il_namer_tsrikhon, predecessor='il_eitan', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника il_namer_tsrikhon с предшественником 'il_eitan', статус: standard
     Столбец 3: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/7 = 0.43, порог: 0.2
-    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 6/7 = 0.86, порог: 0.18
+    Столбец 4 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника il_m_51_w, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника il_m_51_w с предшественником '', статус: premium
       ОТЛАДКА: Техника il_sholef, predecessor='', rankPosXY=None, premium=True
@@ -11987,7 +11988,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
   Обработка типа: Авиация, столбцов: 4
         ОТЛАДКА: get_group_items добавлен md_460_sambad с order=0
         ОТЛАДКА: get_group_items добавлен md_460_saar с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.18
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника spitfire_mk9c_iaf, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника spitfire_mk9c_iaf с предшественником '', статус: standard
@@ -12021,7 +12022,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен a_4e_early_iaf с order=1
         ОТЛАДКА: get_group_items добавлен f-4e_kurnass_2000 с order=0
         ОТЛАДКА: get_group_items добавлен f_15a_iaf с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.18
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника s_199, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника s_199 с предшественником '', статус: standard
@@ -12058,7 +12059,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         ОТЛАДКА: get_group_items добавлен so_4050_vautour_2n_iaf с order=1
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/9 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/9 = 0.00, порог: 0.18
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника b-17g_iaf, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника b-17g_iaf с предшественником '', статус: standard
@@ -12085,8 +12086,8 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
       ОТЛАДКА: Техника f_15i_raam, predecessor='f_16d_iaf_group', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника f_15i_raam с предшественником 'f_16d_iaf_group', статус: standard
     Столбец 2: обработано 9 элементов
-      ОТЛАДКА: Премиум техники в колонке: 6/11 = 0.55, порог: 0.2
-    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
+      ОТЛАДКА: Премиум техники в колонке: 7/11 = 0.64, порог: 0.18
+    Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 18.0%)
       ОТЛАДКА: Техника spitfire_lf_mk9e_weisman, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника spitfire_lf_mk9e_weisman с предшественником '', статус: premium
       ОТЛАДКА: Техника spitfire_lf_mk9c_cw_greece, predecessor='', rankPosXY=None, premium=True
@@ -16867,30 +16868,30 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Ранг 9: 1 элементов, начинаем с row_index=0
         Отдельный элемент: su_30mkm
       su_30mkm: [4, 0] (элемент)
-  Обработка столбца: japan/Авиация/col_5/premium_False
+  Обработка столбца: japan/Авиация/col_5/premium_True
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: a5m4_hagiri
         Отдельный элемент: ki-27_otsu_ep
-      a5m4_hagiri: [5, 0] (элемент)
-      ki-27_otsu_ep: [5, 1] (элемент)
+      a5m4_hagiri: [0, 0] (элемент)
+      ki-27_otsu_ep: [0, 1] (элемент)
     Ранг 2: 5 элементов, начинаем с row_index=0
         Отдельный элемент: a7he1
         Отдельный элемент: ki_44_1_ep
         Отдельный элемент: ki_44_2_otsu
         Отдельный элемент: me_210_v22_japan
         Отдельный элемент: h8k3
-      a7he1: [5, 0] (элемент)
-      ki_44_1_ep: [5, 1] (элемент)
-      ki_44_2_otsu: [5, 2] (элемент)
-      me_210_v22_japan: [5, 3] (элемент)
-      h8k3: [5, 4] (элемент)
+      a7he1: [0, 0] (элемент)
+      ki_44_1_ep: [0, 1] (элемент)
+      ki_44_2_otsu: [0, 2] (элемент)
+      me_210_v22_japan: [0, 3] (элемент)
+      h8k3: [0, 4] (элемент)
     Ранг 3: 3 элементов, начинаем с row_index=0
         Отдельный элемент: ki-96
         Отдельный элемент: ki_100_2
         Отдельный элемент: sb2c_5_thailand
-      ki-96: [5, 0] (элемент)
-      ki_100_2: [5, 1] (элемент)
-      sb2c_5_thailand: [5, 2] (элемент)
+      ki-96: [0, 0] (элемент)
+      ki_100_2: [0, 1] (элемент)
+      sb2c_5_thailand: [0, 2] (элемент)
     Ранг 4: 6 элементов, начинаем с row_index=0
         Отдельный элемент: b-17e_japan
         Отдельный элемент: a7m1
@@ -16898,64 +16899,64 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
         Отдельный элемент: ki_61_1a_hei_ep
         Отдельный элемент: j2m4_kai
         Отдельный элемент: j2m5_30mm
-      b-17e_japan: [5, 0] (элемент)
-      a7m1: [5, 1] (элемент)
-      a6m5ko: [5, 2] (элемент)
-      ki_61_1a_hei_ep: [5, 3] (элемент)
-      j2m4_kai: [5, 4] (элемент)
-      j2m5_30mm: [5, 5] (элемент)
+      b-17e_japan: [0, 0] (элемент)
+      a7m1: [0, 1] (элемент)
+      a6m5ko: [0, 2] (элемент)
+      ki_61_1a_hei_ep: [0, 3] (элемент)
+      j2m4_kai: [0, 4] (элемент)
+      j2m5_30mm: [0, 5] (элемент)
     Ранг 5: 1 элементов, начинаем с row_index=0
         Отдельный элемент: f-86f-40_japan_blue_impulse
-      f-86f-40_japan_blue_impulse: [5, 0] (элемент)
+      f-86f-40_japan_blue_impulse: [0, 0] (элемент)
     Ранг 6: 2 элементов, начинаем с row_index=0
         Отдельный элемент: t2_early
         Отдельный элемент: av_8s_thailand
-      t2_early: [5, 0] (элемент)
-      av_8s_thailand: [5, 1] (элемент)
+      t2_early: [0, 0] (элемент)
+      av_8s_thailand: [0, 1] (элемент)
     Ранг 7: 2 элементов, начинаем с row_index=0
         Отдельный элемент: f-5e_fcu_thailand
         Отдельный элемент: hawk_209_indonesia
-      f-5e_fcu_thailand: [5, 0] (элемент)
-      hawk_209_indonesia: [5, 1] (элемент)
+      f-5e_fcu_thailand: [0, 0] (элемент)
+      hawk_209_indonesia: [0, 1] (элемент)
     Ранг 8: 1 элементов, начинаем с row_index=0
         Отдельный элемент: f_2a_adtw
-      f_2a_adtw: [5, 0] (элемент)
+      f_2a_adtw: [0, 0] (элемент)
   Обработка столбца: japan/Авиация/col_6/premium_True
     Ранг 1: 3 элементов, начинаем с row_index=0
         Отдельный элемент: e7k2
         Отдельный элемент: e8n2
         Отдельный элемент: aichi_e13a
-      e7k2: [0, 0] (элемент)
-      e8n2: [0, 1] (элемент)
-      aichi_e13a: [0, 2] (элемент)
+      e7k2: [1, 0] (элемент)
+      e8n2: [1, 1] (элемент)
+      aichi_e13a: [1, 2] (элемент)
     Ранг 2: 4 элементов, начинаем с row_index=0
         Отдельный элемент: ki_48_2_otsu
         Отдельный элемент: ki_21_1hei
         Отдельный элемент: bf-109e-3_japan
         Отдельный элемент: f4u-1a_japan
-      ki_48_2_otsu: [0, 0] (элемент)
-      ki_21_1hei: [0, 1] (элемент)
-      bf-109e-3_japan: [0, 2] (элемент)
-      f4u-1a_japan: [0, 3] (элемент)
+      ki_48_2_otsu: [1, 0] (элемент)
+      ki_21_1hei: [1, 1] (элемент)
+      bf-109e-3_japan: [1, 2] (элемент)
+      f4u-1a_japan: [1, 3] (элемент)
     Ранг 3: 2 элементов, начинаем с row_index=0
         Отдельный элемент: p-51c-11-nt_japan
         Отдельный элемент: b7a2_homare_23
-      p-51c-11-nt_japan: [0, 0] (элемент)
-      b7a2_homare_23: [0, 1] (элемент)
+      p-51c-11-nt_japan: [1, 0] (элемент)
+      b7a2_homare_23: [1, 1] (элемент)
     Ранг 4: 5 элементов, начинаем с row_index=0
         Отдельный элемент: a6m6c
         Отдельный элемент: fw-190a-5_japan
         Отдельный элемент: ki_94_2
         Отдельный элемент: ki_87
         Отдельный элемент: j6k1
-      a6m6c: [0, 0] (элемент)
-      fw-190a-5_japan: [0, 1] (элемент)
-      ki_94_2: [0, 2] (элемент)
-      ki_87: [0, 3] (элемент)
-      j6k1: [0, 4] (элемент)
+      a6m6c: [1, 0] (элемент)
+      fw-190a-5_japan: [1, 1] (элемент)
+      ki_94_2: [1, 2] (элемент)
+      ki_87: [1, 3] (элемент)
+      j6k1: [1, 4] (элемент)
     Ранг 7: 1 элементов, начинаем с row_index=0
         Отдельный элемент: f-4ej_adtw
-      f-4ej_adtw: [0, 0] (элемент)
+      f-4ej_adtw: [1, 0] (элемент)
   Обработка столбца: japan/Большой флот/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: jp_destroyer_momi
@@ -17862,69 +17863,69 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Ранг 8: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_leopard_2a7_hungary
       it_leopard_2a7_hungary: [4, 0] (элемент)
-  Обработка столбца: italy/Наземная техника/col_5/premium_False
+  Обработка столбца: italy/Наземная техника/col_5/premium_True
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_l6_leone
         Отдельный элемент: it_m13_40_serie_2
-      it_l6_leone: [5, 0] (элемент)
-      it_m13_40_serie_2: [5, 1] (элемент)
+      it_l6_leone: [0, 0] (элемент)
+      it_m13_40_serie_2: [0, 1] (элемент)
     Ранг 2: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_m14_41_47_40
         Отдельный элемент: it_sahariano
-      it_m14_41_47_40: [5, 0] (элемент)
-      it_sahariano: [5, 1] (элемент)
+      it_m14_41_47_40: [0, 0] (элемент)
+      it_sahariano: [0, 1] (элемент)
     Ранг 3: 3 элементов, начинаем с row_index=0
         Отдельный элемент: it_semovente_m43_105_leoncello
         Отдельный элемент: it_sherman_75_37
         Отдельный элемент: it_pzkpfw_IV_ausf_G
-      it_semovente_m43_105_leoncello: [5, 0] (элемент)
-      it_sherman_75_37: [5, 1] (элемент)
-      it_pzkpfw_IV_ausf_G: [5, 2] (элемент)
+      it_semovente_m43_105_leoncello: [0, 0] (элемент)
+      it_sherman_75_37: [0, 1] (элемент)
+      it_pzkpfw_IV_ausf_G: [0, 2] (элемент)
     Ранг 4: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_pzkpfw_VI_ausf_e_tiger
         Отдельный элемент: it_m26_ariete
-      it_pzkpfw_VI_ausf_e_tiger: [5, 0] (элемент)
-      it_m26_ariete: [5, 1] (элемент)
+      it_pzkpfw_VI_ausf_e_tiger: [0, 0] (элемент)
+      it_m26_ariete: [0, 1] (элемент)
     Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_pzh_2000_hu
         Отдельный элемент: it_m60a1_ariete
-      it_pzh_2000_hu: [5, 0] (элемент)
-      it_m60a1_ariete: [5, 1] (элемент)
+      it_pzh_2000_hu: [0, 0] (элемент)
+      it_m60a1_ariete: [0, 1] (элемент)
     Ранг 6: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_of_40_mtca
         Отдельный элемент: it_vrcc_centauro
-      it_of_40_mtca: [5, 0] (элемент)
-      it_vrcc_centauro: [5, 1] (элемент)
+      it_of_40_mtca: [0, 0] (элемент)
+      it_vrcc_centauro: [0, 1] (элемент)
     Ранг 7: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_centauro_rgo_120
         Отдельный элемент: it_c1_ariete_certezza
-      it_centauro_rgo_120: [5, 0] (элемент)
-      it_c1_ariete_certezza: [5, 1] (элемент)
+      it_centauro_rgo_120: [0, 0] (элемент)
+      it_c1_ariete_certezza: [0, 1] (элемент)
   Обработка столбца: italy/Наземная техника/col_6/premium_True
     Ранг 1: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_toldi_II_a
-      it_toldi_II_a: [0, 0] (элемент)
+      it_toldi_II_a: [1, 0] (элемент)
     Ранг 2: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_41m_turan_2
         Отдельный элемент: it_p_26_40
-      it_41m_turan_2: [0, 0] (элемент)
-      it_p_26_40: [0, 1] (элемент)
+      it_41m_turan_2: [1, 0] (элемент)
+      it_p_26_40: [1, 1] (элемент)
     Ранг 3: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_44m_zrinyi_1
         Отдельный элемент: it_breda_52_autocannone
-      it_44m_zrinyi_1: [0, 0] (элемент)
-      it_breda_52_autocannone: [0, 1] (элемент)
+      it_44m_zrinyi_1: [1, 0] (элемент)
+      it_breda_52_autocannone: [1, 1] (элемент)
     Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_fiat_6614_firos
         Отдельный элемент: it_aubl_74_60_70m
-      it_fiat_6614_firos: [0, 0] (элемент)
-      it_aubl_74_60_70m: [0, 1] (элемент)
+      it_fiat_6614_firos: [1, 0] (элемент)
+      it_aubl_74_60_70m: [1, 1] (элемент)
     Ранг 6: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_c13_tua
-      it_c13_tua: [0, 0] (элемент)
+      it_c13_tua: [1, 0] (элемент)
     Ранг 7: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_freccia_hitfist_ows
-      it_freccia_hitfist_ows: [0, 0] (элемент)
+      it_freccia_hitfist_ows: [1, 0] (элемент)
   Обработка столбца: italy/Авиация/col_0/premium_False
     Ранг 1: 4 элементов, начинаем с row_index=0
         Отдельный элемент: ro_44
@@ -18276,33 +18277,33 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Ранг 7: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_battleship_littorio_class_littorio
       it_battleship_littorio_class_littorio: [1, 0] (элемент)
-  Обработка столбца: italy/Большой флот/col_2/premium_False
+  Обработка столбца: italy/Большой флот/col_2/premium_True
     Ранг 1: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_destroyer_aquilone
-      it_destroyer_aquilone: [2, 0] (элемент)
+      it_destroyer_aquilone: [0, 0] (элемент)
     Ранг 2: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_destroyer_fletcher_geniere
-      it_destroyer_fletcher_geniere: [2, 0] (элемент)
+      it_destroyer_fletcher_geniere: [0, 0] (элемент)
     Ранг 3: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_destroyer_leone_class_tigre
         Отдельный элемент: it_destroyer_soldati_serie1_geniere
-      it_destroyer_leone_class_tigre: [2, 0] (элемент)
-      it_destroyer_soldati_serie1_geniere: [2, 1] (элемент)
+      it_destroyer_leone_class_tigre: [0, 0] (элемент)
+      it_destroyer_soldati_serie1_geniere: [0, 1] (элемент)
     Ранг 4: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_cruiser_zara_class_pola
-      it_cruiser_zara_class_pola: [2, 0] (элемент)
+      it_cruiser_zara_class_pola: [0, 0] (элемент)
     Ранг 5: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_battleship_leonardo_da_vinci
-      it_battleship_leonardo_da_vinci: [2, 0] (элемент)
+      it_battleship_leonardo_da_vinci: [0, 0] (элемент)
   Обработка столбца: italy/Большой флот/col_3/premium_True
     Ранг 1: 1 элементов, начинаем с row_index=0
         Отдельный элемент: it_destroyer_saetta
-      it_destroyer_saetta: [0, 0] (элемент)
+      it_destroyer_saetta: [1, 0] (элемент)
     Ранг 3: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_destroyer_soldati_serie1
         Отдельный элемент: it_cruiser_cadorna_class_cadorna
-      it_destroyer_soldati_serie1: [0, 0] (элемент)
-      it_cruiser_cadorna_class_cadorna: [0, 1] (элемент)
+      it_destroyer_soldati_serie1: [1, 0] (элемент)
+      it_cruiser_cadorna_class_cadorna: [1, 1] (элемент)
   Обработка столбца: italy/Малый флот/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_mas_classe500_3_1944
@@ -19066,26 +19067,26 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
     Ранг 5: 1 элементов, начинаем с row_index=0
         Отдельный элемент: fr_frigate_corse_class_brestois
       fr_frigate_corse_class_brestois: [1, 0] (элемент)
-  Обработка столбца: france/Малый флот/col_2/premium_False
+  Обработка столбца: france/Малый флот/col_2/premium_True
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: fr_vtb10
         Отдельный элемент: fr_vtb9
-      fr_vtb10: [2, 0] (элемент)
-      fr_vtb9: [2, 1] (элемент)
+      fr_vtb10: [0, 0] (элемент)
+      fr_vtb9: [0, 1] (элемент)
     Ранг 3: 2 элементов, начинаем с row_index=0
         Отдельный элемент: fr_arras_class_amiens
         Отдельный элемент: fr_marne_class_aisne
-      fr_arras_class_amiens: [2, 0] (элемент)
-      fr_marne_class_aisne: [2, 1] (элемент)
+      fr_arras_class_amiens: [0, 0] (элемент)
+      fr_marne_class_aisne: [0, 1] (элемент)
     Ранг 4: 2 элементов, начинаем с row_index=0
         Отдельный элемент: fr_vlt2
         Отдельный элемент: fr_frigate_corse_class_corse
-      fr_vlt2: [2, 0] (элемент)
-      fr_frigate_corse_class_corse: [2, 1] (элемент)
+      fr_vlt2: [0, 0] (элемент)
+      fr_frigate_corse_class_corse: [0, 1] (элемент)
   Обработка столбца: france/Малый флот/col_3/premium_True
     Ранг 3: 1 элементов, начинаем с row_index=0
         Отдельный элемент: fr_trident_class_glaive_p671
-      fr_trident_class_glaive_p671: [0, 0] (элемент)
+      fr_trident_class_glaive_p671: [1, 0] (элемент)
   Обработка столбца: sweden/Наземная техника/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: sw_strv_m31
@@ -19769,7 +19770,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'ussr_buk_m3_launcher', 'it_sam
   normalize_folder_predecessors: ah_64e_netherlands -> tiger_group (было tiger_had_france, элемент внутри folder)
 Данные (3583 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2671, Премиумной: 912
+Статистика: Стандартной техники: 2622, Премиумной: 961
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (403 записей) сохранены в shop_images_fields.csv
