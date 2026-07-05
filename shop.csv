@@ -380,7 +380,7 @@ f_117,6,usa,Авиация,vehicle,premium,0,1,,,True
 av_8a,6,usa,Авиация,vehicle,premium,0,2,,,False
 a_10a_early,6,usa,Авиация,vehicle,premium,0,3,,,True
 f-5c,7,usa,Авиация,vehicle,premium,0,0,,,True
-av_8b_na,7,usa,Авиация,vehicle,premium,0,1,,,True
+av_8b_na,7,usa,Авиация,vehicle,premium,0,1,,,False
 f-4s,7,usa,Авиация,vehicle,premium,0,2,,,True
 f_20a,8,usa,Авиация,vehicle,premium,0,0,,,True
 fa_18c_early,8,usa,Авиация,vehicle,premium,0,1,,,True

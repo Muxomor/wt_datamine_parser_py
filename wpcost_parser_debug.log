@@ -1039,7 +1039,7 @@
   Премиумный юнит f-5c: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан f-5c (премиум): silver=0, exp=None, br=10.7
-  Обрабатываем премиумный юнит: av_8b_na (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: av_8b_na (status=premium, have_prem_flag=False)
   Премиумный юнит av_8b_na: silver=0, exp=None (обнулено)
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан av_8b_na (премиум): silver=0, exp=None, br=11.3
