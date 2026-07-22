@@ -1751,6 +1751,7 @@ uk_a_34_comet_iron_duke,"Comet I ""Iron Duke IV""","Comet I ""Iron Duke IV"""
 uk_tog_2,TOG II,TOG II
 uk_a_43_black_prince,Black Prince,Black Prince
 uk_centurion_mk_2,Centurion Mk.2,Centurion Mk.2
+uk_fv107_scimitar_mk2,Scimitar Mk.2,Scimitar Mk.2
 uk_centurion_shot_kal_d,▄Sho't Kal Dalet,▄Sho't Kal Dalet
 uk_shir_2,FV4030/3,FV4030/3
 uk_t_90s_bheeshma,Bhishma TWMP,Bhishma TWMP
@@ -2747,6 +2748,7 @@ it_41m_turan_2,Turan II,Turan II
 it_p_26_40,"P40 ""G.C. Leoncello""","P40 ""G.C. Leoncello"""
 it_44m_zrinyi_1,Zrinyi I,Zrinyi I
 it_breda_52_autocannone,Breda 90/53,Breda 90/53
+it_fiat_6616_ub,FIAT 6616UB,FIAT 6616UB
 it_fiat_6614_firos,FIROS 6,FIROS 6
 it_aubl_74_60_70m,AUBL/74 HVG,AUBL/74 HVG
 it_c13_tua,C13/TUA,C13/TUA
@@ -2870,6 +2872,7 @@ saab_jas39c_hungary,◔JAS39EBS HU C,◔JAS39EBS HU C
 fiat_cr42_marcolin_italy,CR.42 CN Марколина,Marcolin's C.R.42 CN
 cr_32_bis,CR.32 bis,CR.32 bis
 he_112b_1_italy,He 112 B-1/U2,He 112 B-1/U2
+ro_57_quadriarma,Ro.57 Quadriarma,Ro.57 Quadriarma
 re_2000_ga_ep,Re.2000 G.A. Red 5,Re.2000 G.A. Red 5
 re_2001_serie1_ep,Re.2001 gruppo 22,Re.2001 gruppo 22
 hs-129b-2_romania_italy,Hs 129 B-2 (Румыния),Hs 129 B-2 (Romania)
@@ -2886,8 +2889,8 @@ mig_29_9_12_sniper,MiG-29 Sniper,MiG-29 Sniper
 ba_65_a80,Ba.65 A.80,Ba.65 A.80
 ro_43,Ro.43,Ro.43
 iar_81c,IAR-81C,IAR-81C
-ro_57_quadriarma,Ro.57 Quadriarma,Ro.57 Quadriarma
 mc-202_d,C. 202D,C. 202D
+iar_81c_db_605,IAR-81C (DB 605),IAR-81C (DB 605)
 bf_110g_4_hungary,◔Bf 110 G-4,◔Bf 110 G-4
 bf-109f-4_hungary,◔Bf 109 F-4,◔Bf 109 F-4
 re_2005_vdm,Re.2005 (VDM),Re.2005 (VDM)

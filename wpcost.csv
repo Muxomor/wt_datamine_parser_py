@@ -1542,6 +1542,7 @@ uk_a_34_comet_iron_duke,0,,5.3
 uk_tog_2,0,,5.3
 uk_a_43_black_prince,0,,6
 uk_centurion_mk_2,0,,6.7
+uk_fv107_scimitar_mk2,0,,8
 uk_centurion_shot_kal_d,0,,9
 uk_shir_2,0,,10
 uk_t_90s_bheeshma,0,,10.7
@@ -2436,6 +2437,7 @@ it_41m_turan_2,0,,2.3
 it_p_26_40,0,,3.3
 it_44m_zrinyi_1,0,,4
 it_breda_52_autocannone,0,,4
+it_fiat_6616_ub,0,,6
 it_fiat_6614_firos,0,,7.7
 it_aubl_74_60_70m,0,,8
 it_c13_tua,0,,8.3
@@ -2540,6 +2542,7 @@ saab_jas39c_hungary,940000,350000,13.7
 fiat_cr42_marcolin_italy,0,,1.3
 cr_32_bis,0,,1.7
 he_112b_1_italy,0,,2
+ro_57_quadriarma,0,,2.7
 re_2000_ga_ep,0,,2.3
 re_2001_serie1_ep,0,,3
 hs-129b-2_romania_italy,0,,2.3
@@ -2556,8 +2559,8 @@ mig_29_9_12_sniper,0,,12.7
 ba_65_a80,0,,1.3
 ro_43,0,,1.3
 iar_81c,0,,2.7
-ro_57_quadriarma,0,,2.7
 mc-202_d,0,,3
+iar_81c_db_605,0,,3
 bf_110g_4_hungary,0,,3.7
 bf-109f-4_hungary,0,,4
 re_2005_vdm,0,,6.3

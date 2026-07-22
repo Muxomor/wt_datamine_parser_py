@@ -6,8 +6,8 @@
 Данные wpcost успешно загружены с попытки 2
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3583
-  Премиумных юнитов: 983
+  Всего строк в CSV: 3586
+  Премиумных юнитов: 986
   Обычных юнитов: 2600
 Используем предзагруженные данные wpcost.blkx
 Начинаем обработку данных wpcost...
@@ -121,10 +121,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3324
-  Нормализованных ID: 3324
+  Исходных ID: 3339
+  Нормализованных ID: 3339
   Конфликтов: 0
-В wpcost найдено 3324 юнитов после нормализации
+В wpcost найдено 3339 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -4546,6 +4546,10 @@
   Премиумный юнит uk_centurion_mk_2: silver=0, exp=None (обнулено)
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан uk_centurion_mk_2 (премиум): silver=0, exp=None, br=6.7
+  Обрабатываем премиумный юнит: uk_fv107_scimitar_mk2 (status=premium, have_prem_flag=True)
+  Премиумный юнит uk_fv107_scimitar_mk2: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=21, raw=8.000, округлено=8
+  Обработан uk_fv107_scimitar_mk2 (премиум): silver=0, exp=None, br=8
   Обрабатываем премиумный юнит: uk_centurion_shot_kal_d (status=premium, have_prem_flag=True)
   Премиумный юнит uk_centurion_shot_kal_d: silver=0, exp=None (обнулено)
     БР расчет: economicRank=24, raw=9.000, округлено=9
@@ -6955,6 +6959,10 @@
   Премиумный юнит it_breda_52_autocannone: silver=0, exp=None (обнулено)
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан it_breda_52_autocannone (премиум): silver=0, exp=None, br=4
+  Обрабатываем премиумный юнит: it_fiat_6616_ub (status=premium, have_prem_flag=True)
+  Премиумный юнит it_fiat_6616_ub: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=15, raw=6.000, округлено=6
+  Обработан it_fiat_6616_ub (премиум): silver=0, exp=None, br=6
   Обрабатываем премиумный юнит: it_fiat_6614_firos (status=premium, have_prem_flag=True)
   Премиумный юнит it_fiat_6614_firos: silver=0, exp=None (обнулено)
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
@@ -7205,6 +7213,10 @@
   Премиумный юнит he_112b_1_italy: silver=0, exp=None (обнулено)
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан he_112b_1_italy (премиум): silver=0, exp=None, br=2
+  Обрабатываем премиумный юнит: ro_57_quadriarma (status=premium, have_prem_flag=True)
+  Премиумный юнит ro_57_quadriarma: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=5, raw=2.667, округлено=2.7
+  Обработан ro_57_quadriarma (премиум): silver=0, exp=None, br=2.7
   Обрабатываем премиумный юнит: re_2000_ga_ep (status=premium, have_prem_flag=True)
   Премиумный юнит re_2000_ga_ep: silver=0, exp=None (обнулено)
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
@@ -7269,14 +7281,14 @@
   Премиумный юнит iar_81c: silver=0, exp=None (обнулено)
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан iar_81c (премиум): silver=0, exp=None, br=2.7
-  Обрабатываем премиумный юнит: ro_57_quadriarma (status=premium, have_prem_flag=True)
-  Премиумный юнит ro_57_quadriarma: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=5, raw=2.667, округлено=2.7
-  Обработан ro_57_quadriarma (премиум): silver=0, exp=None, br=2.7
   Обрабатываем премиумный юнит: mc-202_d (status=premium, have_prem_flag=True)
   Премиумный юнит mc-202_d: silver=0, exp=None (обнулено)
     БР расчет: economicRank=6, raw=3.000, округлено=3
   Обработан mc-202_d (премиум): silver=0, exp=None, br=3
+  Обрабатываем премиумный юнит: iar_81c_db_605 (status=premium, have_prem_flag=True)
+  Премиумный юнит iar_81c_db_605: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=6, raw=3.000, округлено=3
+  Обработан iar_81c_db_605 (премиум): silver=0, exp=None, br=3
   Обрабатываем премиумный юнит: bf_110g_4_hungary (status=premium, have_prem_flag=False)
   Премиумный юнит bf_110g_4_hungary: silver=0, exp=None (обнулено)
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
@@ -8933,13 +8945,13 @@
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13.3
 Статистика обработки wpcost:
-  Найдено и обработано: 3190
-  Из них премиумных (с обнуленными silver/exp): 976
+  Найдено и обработано: 3193
+  Из них премиумных (с обнуленными silver/exp): 979
   Не найдено в wpcost (пропущено): 393
-  Всего ID из shop.csv: 3583
-Данные wpcost (3190 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3586
+Данные wpcost (3193 записей) сохранены в wpcost.csv
 Статистика данных:
   Записей с опытом (exp): 2132
   Записей с fallback БР (1.0): 157
-  Всего записей: 3190
+  Всего записей: 3193
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv

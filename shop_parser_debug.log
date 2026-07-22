@@ -1,4 +1,4 @@
-Данные wpcost для колонок загружены: 770 premium, 2484 standard, 71 неоднозначных (fallback на shop флаги)
+Данные wpcost для колонок загружены: 772 premium, 2497 standard, 71 неоднозначных (fallback на shop флаги)
 Запуск парсера shop.blkx...
 Порог для определения премиумных колонок: 20.0%
 Обработка slave-юнитов: отключена
@@ -2194,7 +2194,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'sw_nasams_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_launcher', 'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_sl_amraam_launcher'}
+Slave-юниты: {'jp_type_81_tansam_launcher', 'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'us_sl_amraam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'fr_samp_t_launcher', 'germ_iris_slm_launcher', 'sw_nasams_launcher', 'jp_type_03_chusam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -7050,7 +7050,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника uk_challenger_2_megatron_sm с предшественником '', статус: premium
       ПРОПУСК: uk_sky_sabre_launcher является slave-юнитом
     Столбец 5: обработано 25 элементов
-      ОТЛАДКА: Премиум техники в колонке: 13/17 = 0.76, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 13/18 = 0.72, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника uk_a_13_mk2_1939, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_a_13_mk2_1939 с предшественником '', статус: premium
@@ -7076,6 +7076,8 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника uk_a_43_black_prince с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_centurion_mk_2, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_centurion_mk_2 с предшественником '', статус: premium
+      ОТЛАДКА: Техника uk_fv107_scimitar_mk2, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника uk_fv107_scimitar_mk2 с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_centurion_shot_kal_d, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_centurion_shot_kal_d с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_shir_2, predecessor='', rankPosXY=None, premium=True
@@ -7086,7 +7088,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника uk_boxer_crv_block2 с предшественником '', статус: premium
       ОТЛАДКА: Техника uk_m1a1_aim_abrams, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_m1a1_aim_abrams с предшественником '', статус: premium
-    Столбец 6: обработано 17 элементов
+    Столбец 6: обработано 18 элементов
   Обработка типа: Вертолёты, столбцов: 2
     Столбец 0: вертолёты — premium по rankPosXY.x
       ОТЛАДКА: Техника scout_ah_mk1, predecessor='', rankPosXY=[3, 1], premium=False
@@ -7910,7 +7912,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Техника uk_frigate_river, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника uk_frigate_river с предшественником '', статус: premium
     Столбец 3: обработано 3 элементов
-Обработано 465 элементов для britain
+Обработано 466 элементов для britain
 Обработка страны: japan
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен jp_type_60_sprg с order=0
@@ -9797,7 +9799,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника it_c1_ariete_certezza с предшественником '', статус: premium
       ПРОПУСК: it_samp_t_launcher является slave-юнитом
     Столбец 5: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 6/9 = 0.67, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 7/10 = 0.70, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника it_toldi_II_a, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_toldi_II_a с предшественником '', статус: premium
@@ -9809,6 +9811,8 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника it_44m_zrinyi_1 с предшественником '', статус: premium
       ОТЛАДКА: Техника it_breda_52_autocannone, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_breda_52_autocannone с предшественником '', статус: premium
+      ОТЛАДКА: Техника it_fiat_6616_ub, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника it_fiat_6616_ub с предшественником '', статус: premium
       ОТЛАДКА: Техника it_fiat_6614_firos, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_fiat_6614_firos с предшественником '', статус: premium
       ОТЛАДКА: Техника it_aubl_74_60_70m, predecessor='', rankPosXY=None, premium=True
@@ -9817,7 +9821,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника it_c13_tua с предшественником '', статус: premium
       ОТЛАДКА: Техника it_freccia_hitfist_ows, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_freccia_hitfist_ows с предшественником '', статус: premium
-    Столбец 6: обработано 9 элементов
+    Столбец 6: обработано 10 элементов
   Обработка типа: Вертолёты, столбцов: 2
     Столбец 0: вертолёты — premium по rankPosXY.x
       ОТЛАДКА: Техника ab_205a_1, predecessor='', rankPosXY=[3, 1], premium=False
@@ -10168,7 +10172,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Техника saab_jas39c_hungary, predecessor='mig_29_9_12b_hungary', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника saab_jas39c_hungary с предшественником 'mig_29_9_12b_hungary', статус: standard
     Столбец 4: обработано 17 элементов
-      ОТЛАДКА: Премиум техники в колонке: 15/16 = 0.94, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 16/17 = 0.94, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника fiat_cr42_marcolin_italy, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fiat_cr42_marcolin_italy с предшественником '', статус: premium
@@ -10176,6 +10180,8 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника cr_32_bis с предшественником '', статус: premium
       ОТЛАДКА: Техника he_112b_1_italy, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника he_112b_1_italy с предшественником '', статус: premium
+      ОТЛАДКА: Техника ro_57_quadriarma, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ro_57_quadriarma с предшественником '', статус: premium
       ОТЛАДКА: Техника re_2000_ga_ep, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника re_2000_ga_ep с предшественником '', статус: premium
       ОТЛАДКА: Техника re_2001_serie1_ep, predecessor='', rankPosXY=None, premium=True
@@ -10202,7 +10208,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника f-104s_cb с предшественником '', статус: premium
       ОТЛАДКА: Техника mig_29_9_12_sniper, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника mig_29_9_12_sniper с предшественником '', статус: premium
-    Столбец 5: обработано 16 элементов
+    Столбец 5: обработано 17 элементов
       ОТЛАДКА: Премиум техники в колонке: 7/8 = 0.88, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ba_65_a80, predecessor='', rankPosXY=None, premium=True
@@ -10211,10 +10217,10 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Добавлена техника ro_43 с предшественником '', статус: premium
       ОТЛАДКА: Техника iar_81c, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника iar_81c с предшественником '', статус: premium
-      ОТЛАДКА: Техника ro_57_quadriarma, predecessor='', rankPosXY=None, premium=True
-      ОТЛАДКА: Добавлена техника ro_57_quadriarma с предшественником '', статус: premium
       ОТЛАДКА: Техника mc-202_d, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника mc-202_d с предшественником '', статус: premium
+      ОТЛАДКА: Техника iar_81c_db_605, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника iar_81c_db_605 с предшественником '', статус: premium
       ОТЛАДКА: Техника bf_110g_4_hungary, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника bf_110g_4_hungary с предшественником '', статус: premium
       ОТЛАДКА: Техника bf-109f-4_hungary, predecessor='', rankPosXY=None, premium=True
@@ -10374,7 +10380,7 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
       ОТЛАДКА: Техника it_p493_freccia, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника it_p493_freccia с предшественником '', статус: premium
     Столбец 3: обработано 1 элементов
-Обработано 319 элементов для italy
+Обработано 321 элементов для italy
 Обработка страны: france
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен fr_amc_34 с order=0
@@ -15770,11 +15776,13 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
         Отдельный элемент: uk_centurion_mk_2
       uk_a_43_black_prince: [1, 0] (элемент)
       uk_centurion_mk_2: [1, 1] (элемент)
-    Ранг 6: 2 элементов, начинаем с row_index=0
+    Ранг 6: 3 элементов, начинаем с row_index=0
+        Отдельный элемент: uk_fv107_scimitar_mk2
         Отдельный элемент: uk_centurion_shot_kal_d
         Отдельный элемент: uk_shir_2
-      uk_centurion_shot_kal_d: [1, 0] (элемент)
-      uk_shir_2: [1, 1] (элемент)
+      uk_fv107_scimitar_mk2: [1, 0] (элемент)
+      uk_centurion_shot_kal_d: [1, 1] (элемент)
+      uk_shir_2: [1, 2] (элемент)
     Ранг 7: 3 элементов, начинаем с row_index=0
         Отдельный элемент: uk_t_90s_bheeshma
         Отдельный элемент: uk_boxer_crv_block2
@@ -17915,6 +17923,9 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
         Отдельный элемент: it_breda_52_autocannone
       it_44m_zrinyi_1: [1, 0] (элемент)
       it_breda_52_autocannone: [1, 1] (элемент)
+    Ранг 4: 1 элементов, начинаем с row_index=0
+        Отдельный элемент: it_fiat_6616_ub
+      it_fiat_6616_ub: [1, 0] (элемент)
     Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: it_fiat_6614_firos
         Отдельный элемент: it_aubl_74_60_70m
@@ -18151,13 +18162,15 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
         Отдельный элемент: cr_32_bis
       fiat_cr42_marcolin_italy: [0, 0] (элемент)
       cr_32_bis: [0, 1] (элемент)
-    Ранг 2: 3 элементов, начинаем с row_index=0
+    Ранг 2: 4 элементов, начинаем с row_index=0
         Отдельный элемент: he_112b_1_italy
+        Отдельный элемент: ro_57_quadriarma
         Отдельный элемент: re_2000_ga_ep
         Отдельный элемент: re_2001_serie1_ep
       he_112b_1_italy: [0, 0] (элемент)
-      re_2000_ga_ep: [0, 1] (элемент)
-      re_2001_serie1_ep: [0, 2] (элемент)
+      ro_57_quadriarma: [0, 1] (элемент)
+      re_2000_ga_ep: [0, 2] (элемент)
+      re_2001_serie1_ep: [0, 3] (элемент)
     Ранг 3: 2 элементов, начинаем с row_index=0
         Отдельный элемент: hs-129b-2_romania_italy
         Отдельный элемент: spitfire_mk5b_italy
@@ -18192,18 +18205,18 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
         Отдельный элемент: ro_43
       ba_65_a80: [1, 0] (элемент)
       ro_43: [1, 1] (элемент)
-    Ранг 2: 3 элементов, начинаем с row_index=0
+    Ранг 2: 2 элементов, начинаем с row_index=0
         Отдельный элемент: iar_81c
-        Отдельный элемент: ro_57_quadriarma
         Отдельный элемент: mc-202_d
       iar_81c: [1, 0] (элемент)
-      ro_57_quadriarma: [1, 1] (элемент)
-      mc-202_d: [1, 2] (элемент)
-    Ранг 3: 2 элементов, начинаем с row_index=0
+      mc-202_d: [1, 1] (элемент)
+    Ранг 3: 3 элементов, начинаем с row_index=0
+        Отдельный элемент: iar_81c_db_605
         Отдельный элемент: bf_110g_4_hungary
         Отдельный элемент: bf-109f-4_hungary
-      bf_110g_4_hungary: [1, 0] (элемент)
-      bf-109f-4_hungary: [1, 1] (элемент)
+      iar_81c_db_605: [1, 0] (элемент)
+      bf_110g_4_hungary: [1, 1] (элемент)
+      bf-109f-4_hungary: [1, 2] (элемент)
     Ранг 4: 1 элементов, начинаем с row_index=0
         Отдельный элемент: re_2005_vdm
       re_2005_vdm: [1, 0] (элемент)
@@ -19766,12 +19779,12 @@ Slave-юниты: {'fr_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_lau
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3583 элементов
+Координаты назначены для 3586 элементов
   normalize_folder_predecessors: ah_64e_netherlands -> tiger_group (было tiger_had_france, элемент внутри folder)
-Данные (3583 записей) сохранены в shop.csv
+Данные (3586 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2622, Премиумной: 961
+Статистика: Стандартной техники: 2622, Премиумной: 964
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (403 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3583 элементов.
+Парсинг завершен успешно! Обработано 3586 элементов.

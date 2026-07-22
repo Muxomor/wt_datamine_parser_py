@@ -1751,8 +1751,9 @@ uk_a_34_comet_iron_duke,3,britain,Наземная техника,vehicle,premiu
 uk_tog_2,3,britain,Наземная техника,vehicle,premium,1,3,,,True
 uk_a_43_black_prince,4,britain,Наземная техника,vehicle,premium,1,0,,,False
 uk_centurion_mk_2,4,britain,Наземная техника,vehicle,premium,1,1,,,True
-uk_centurion_shot_kal_d,6,britain,Наземная техника,vehicle,premium,1,0,,,True
-uk_shir_2,6,britain,Наземная техника,vehicle,premium,1,1,,,True
+uk_fv107_scimitar_mk2,6,britain,Наземная техника,vehicle,premium,1,0,,,True
+uk_centurion_shot_kal_d,6,britain,Наземная техника,vehicle,premium,1,1,,,True
+uk_shir_2,6,britain,Наземная техника,vehicle,premium,1,2,,,True
 uk_t_90s_bheeshma,7,britain,Наземная техника,vehicle,premium,1,0,,,True
 uk_boxer_crv_block2,7,britain,Наземная техника,vehicle,premium,1,1,,,True
 uk_m1a1_aim_abrams,7,britain,Наземная техника,vehicle,premium,1,2,,,True
@@ -2747,6 +2748,7 @@ it_41m_turan_2,2,italy,Наземная техника,vehicle,premium,1,0,,,Tru
 it_p_26_40,2,italy,Наземная техника,vehicle,premium,1,1,,,False
 it_44m_zrinyi_1,3,italy,Наземная техника,vehicle,premium,1,0,,,True
 it_breda_52_autocannone,3,italy,Наземная техника,vehicle,premium,1,1,,,True
+it_fiat_6616_ub,4,italy,Наземная техника,vehicle,premium,1,0,,,True
 it_fiat_6614_firos,5,italy,Наземная техника,vehicle,premium,1,0,,,True
 it_aubl_74_60_70m,5,italy,Наземная техника,vehicle,premium,1,1,,,True
 it_c13_tua,6,italy,Наземная техника,vehicle,premium,1,0,,,True
@@ -2870,8 +2872,9 @@ saab_jas39c_hungary,8,italy,Авиация,vehicle,standard,4,1,mig_29_9_12b_hun
 fiat_cr42_marcolin_italy,1,italy,Авиация,vehicle,premium,0,0,,,False
 cr_32_bis,1,italy,Авиация,vehicle,premium,0,1,,,True
 he_112b_1_italy,2,italy,Авиация,vehicle,premium,0,0,,,False
-re_2000_ga_ep,2,italy,Авиация,vehicle,premium,0,1,,,True
-re_2001_serie1_ep,2,italy,Авиация,vehicle,premium,0,2,,,False
+ro_57_quadriarma,2,italy,Авиация,vehicle,premium,0,1,,,True
+re_2000_ga_ep,2,italy,Авиация,vehicle,premium,0,2,,,True
+re_2001_serie1_ep,2,italy,Авиация,vehicle,premium,0,3,,,False
 hs-129b-2_romania_italy,3,italy,Авиация,vehicle,premium,0,0,,,False
 spitfire_mk5b_italy,3,italy,Авиация,vehicle,premium,0,1,,,False
 bf-109g-2_hungary,4,italy,Авиация,vehicle,premium,0,0,,,False
@@ -2886,10 +2889,10 @@ mig_29_9_12_sniper,8,italy,Авиация,vehicle,premium,0,0,,,True
 ba_65_a80,1,italy,Авиация,vehicle,premium,1,0,,,False
 ro_43,1,italy,Авиация,vehicle,premium,1,1,,,True
 iar_81c,2,italy,Авиация,vehicle,premium,1,0,,,False
-ro_57_quadriarma,2,italy,Авиация,vehicle,premium,1,1,,,True
-mc-202_d,2,italy,Авиация,vehicle,premium,1,2,,,True
-bf_110g_4_hungary,3,italy,Авиация,vehicle,premium,1,0,,,False
-bf-109f-4_hungary,3,italy,Авиация,vehicle,premium,1,1,,,True
+mc-202_d,2,italy,Авиация,vehicle,premium,1,1,,,True
+iar_81c_db_605,3,italy,Авиация,vehicle,premium,1,0,,,True
+bf_110g_4_hungary,3,italy,Авиация,vehicle,premium,1,1,,,False
+bf-109f-4_hungary,3,italy,Авиация,vehicle,premium,1,2,,,True
 re_2005_vdm,4,italy,Авиация,vehicle,premium,1,0,,,True
 it_destroyer_turbine,1,italy,Большой флот,vehicle,standard,0,0,,,False
 it_destroyer_dardo,1,italy,Большой флот,vehicle,standard,0,1,it_destroyer_turbine,,False
