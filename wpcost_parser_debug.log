@@ -4548,8 +4548,8 @@
   Обработан uk_centurion_mk_2 (премиум): silver=0, exp=None, br=6.7
   Обрабатываем премиумный юнит: uk_fv107_scimitar_mk2 (status=premium, have_prem_flag=True)
   Премиумный юнит uk_fv107_scimitar_mk2: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=21, raw=8.000, округлено=8
-  Обработан uk_fv107_scimitar_mk2 (премиум): silver=0, exp=None, br=8
+    БР расчет: economicRank=22, raw=8.333, округлено=8.3
+  Обработан uk_fv107_scimitar_mk2 (премиум): silver=0, exp=None, br=8.3
   Обрабатываем премиумный юнит: uk_centurion_shot_kal_d (status=premium, have_prem_flag=True)
   Премиумный юнит uk_centurion_shot_kal_d: silver=0, exp=None (обнулено)
     БР расчет: economicRank=24, raw=9.000, округлено=9
