@@ -726,7 +726,7 @@ bo_105pah1_a1,6,germany,Вертолёты,vehicle,standard,0,1,bo_105pah1,,Fals
 tiger_uht,7,germany,Вертолёты,vehicle,standard,0,0,bo_105pah1_a1,,False
 mi_8tb,5,germany,Вертолёты,vehicle,standard,1,1,sa_313b,,False
 mi_24d_german,6,germany,Вертолёты,vehicle,standard,1,0,mi_8tb,,False
-mi_24p_german,6,germany,Вертолёты,vehicle,standard,1,1,mi_8tb,,False
+mi_24p_german,6,germany,Вертолёты,vehicle,standard,1,1,mi_24d_german,,False
 bo_105cb2,5,germany,Вертолёты,vehicle,premium,0,0,,,False
 mi_24p_german_hfs80,6,germany,Вертолёты,vehicle,premium,0,0,,,False
 tiger_had_spain,7,germany,Вертолёты,vehicle,premium,0,0,,,True
@@ -975,7 +975,7 @@ germ_battleship_bayern,6,germany,Большой флот,vehicle,standard,0,0,ge
 germ_battleship_sachsen,6,germany,Большой флот,vehicle,standard,0,1,germ_battleship_bayern,,False
 germ_battleship_bismarck,7,germany,Большой флот,vehicle,standard,0,0,germ_battleship_sachsen,,False
 germ_kanonenboot_k4_lorelei,1,germany,Большой флот,vehicle,standard,1,0,,,False
-germ_destroyer_class1939_t22,1,germany,Большой флот,vehicle,standard,1,1,,,False
+germ_destroyer_class1939_t22,1,germany,Большой флот,vehicle,standard,1,1,germ_kanonenboot_k4_lorelei,,False
 germ_kanonenboot_k2,1,germany,Большой флот,vehicle,standard,1,2,germ_destroyer_class1939_t22,,False
 germ_destroyer_class1936_z20,2,germany,Большой флот,vehicle,standard,1,0,germ_kanonenboot_k2,,False
 germ_destroyer_class1936b,2,germany,Большой флот,vehicle,standard,1,1,germ_destroyer_class1936_z20,,False
@@ -1990,7 +1990,7 @@ uk_battleship_rodney,6,britain,Большой флот,vehicle,standard,1,0,uk_b
 uk_battleship_prince_of_wales,6,britain,Большой флот,vehicle,standard,1,1,uk_battleship_rodney,,False
 uk_destroyer_clemson_churchill,1,britain,Большой флот,vehicle,standard,2,0,,,False
 uk_egret_class,2,britain,Большой флот,vehicle,standard,2,0,,,False
-uk_minelayer_abdiel_class_abdiel,2,britain,Большой флот,vehicle,standard,2,1,,,False
+uk_minelayer_abdiel_class_abdiel,2,britain,Большой флот,vehicle,standard,2,1,uk_egret_class,,False
 uk_cruiser_enterprise_d52,3,britain,Большой флот,vehicle,standard,2,0,uk_minelayer_abdiel_class_abdiel,,False
 uk_cruiser_hawkins,3,britain,Большой флот,vehicle,standard,2,1,uk_cruiser_enterprise_d52,,False
 uk_cruiser_kent_norfolk_group,4,britain,Большой флот,folder,standard,2,0,uk_cruiser_hawkins,,False

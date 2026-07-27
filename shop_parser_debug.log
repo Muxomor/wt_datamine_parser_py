@@ -2194,7 +2194,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'us_nasams_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'uk_sky_sabre_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'jp_type_03_chusam_launcher'}
+Slave-юниты: {'ussr_buk_m3_launcher', 'sw_nasams_launcher', 'it_samp_t_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_t_launcher', 'jp_type_03_chusam_launcher', 'us_sl_amraam_launcher', 'germ_iris_slm_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -4211,8 +4211,8 @@ Slave-юниты: {'us_nasams_launcher', 'fr_samp_t_launcher', 'sw_nasams_launch
       ОТЛАДКА: Добавлена техника mi_8tb с предшественником 'sa_313b', статус: standard
       ОТЛАДКА: Техника mi_24d_german, predecessor='mi_8tb', rankPosXY=[3, 1], premium=False
       ОТЛАДКА: Добавлена техника mi_24d_german с предшественником 'mi_8tb', статус: standard
-      ОТЛАДКА: Техника mi_24p_german, predecessor='mi_8tb', rankPosXY=[3, 2], premium=False
-      ОТЛАДКА: Добавлена техника mi_24p_german с предшественником 'mi_8tb', статус: standard
+      ОТЛАДКА: Техника mi_24p_german, predecessor='mi_24d_german', rankPosXY=[3, 2], premium=False
+      ОТЛАДКА: Добавлена техника mi_24p_german с предшественником 'mi_24d_german', статус: standard
     Столбец 1: обработано 3 элементов
     Столбец 2: вертолёты — premium по rankPosXY.x
       ОТЛАДКА: Техника bo_105cb2, predecessor='', rankPosXY=[6, 1], premium=True
@@ -4938,8 +4938,8 @@ Slave-юниты: {'us_nasams_launcher', 'fr_samp_t_launcher', 'sw_nasams_launch
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_kanonenboot_k4_lorelei, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_kanonenboot_k4_lorelei с предшественником '', статус: standard
-      ОТЛАДКА: Техника germ_destroyer_class1939_t22, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника germ_destroyer_class1939_t22 с предшественником '', статус: standard
+      ОТЛАДКА: Техника germ_destroyer_class1939_t22, predecessor='germ_kanonenboot_k4_lorelei', rankPosXY=None, premium=False
+      ОТЛАДКА: Добавлена техника germ_destroyer_class1939_t22 с предшественником 'germ_kanonenboot_k4_lorelei', статус: standard
       ОТЛАДКА: Техника germ_kanonenboot_k2, predecessor='germ_destroyer_class1939_t22', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_kanonenboot_k2 с предшественником 'germ_destroyer_class1939_t22', статус: standard
       ОТЛАДКА: Техника germ_destroyer_class1936_z20, predecessor='germ_kanonenboot_k2', rankPosXY=None, premium=False
@@ -7754,8 +7754,8 @@ Slave-юниты: {'us_nasams_launcher', 'fr_samp_t_launcher', 'sw_nasams_launch
       ОТЛАДКА: Добавлена техника uk_destroyer_clemson_churchill с предшественником '', статус: standard
       ОТЛАДКА: Техника uk_egret_class, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_egret_class с предшественником '', статус: standard
-      ОТЛАДКА: Техника uk_minelayer_abdiel_class_abdiel, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника uk_minelayer_abdiel_class_abdiel с предшественником '', статус: standard
+      ОТЛАДКА: Техника uk_minelayer_abdiel_class_abdiel, predecessor='uk_egret_class', rankPosXY=None, premium=False
+      ОТЛАДКА: Добавлена техника uk_minelayer_abdiel_class_abdiel с предшественником 'uk_egret_class', статус: standard
       ОТЛАДКА: Техника uk_cruiser_enterprise_d52, predecessor='uk_minelayer_abdiel_class_abdiel', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника uk_cruiser_enterprise_d52 с предшественником 'uk_minelayer_abdiel_class_abdiel', статус: standard
       ОТЛАДКА: Техника uk_cruiser_hawkins, predecessor='uk_cruiser_enterprise_d52', rankPosXY=None, premium=False

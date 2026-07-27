@@ -451,7 +451,7 @@ bo_105pah1_a1,bo_105pah1
 tiger_uht,bo_105pah1_a1
 mi_8tb,sa_313b
 mi_24d_german,mi_8tb
-mi_24p_german,mi_8tb
+mi_24p_german,mi_24d_german
 bf-109c_1,bf-109b_2
 bf-109e_group,bf-109e-1
 bf-109e-3,bf-109e_group
@@ -614,6 +614,7 @@ germ_battleship_konig,germ_battleship_kaiser
 germ_battleship_bayern,germ_battleship_konig
 germ_battleship_sachsen,germ_battleship_bayern
 germ_battleship_bismarck,germ_battleship_sachsen
+germ_destroyer_class1939_t22,germ_kanonenboot_k4_lorelei
 germ_kanonenboot_k2,germ_destroyer_class1939_t22
 germ_destroyer_class1936_z20,germ_kanonenboot_k2
 germ_destroyer_class1936b,germ_destroyer_class1936_z20
@@ -1262,6 +1263,7 @@ uk_battleship_colossus,uk_cruiser_york
 uk_battleship_centurion,uk_battleship_colossus
 uk_battleship_rodney,uk_battleship_centurion
 uk_battleship_prince_of_wales,uk_battleship_rodney
+uk_minelayer_abdiel_class_abdiel,uk_egret_class
 uk_cruiser_enterprise_d52,uk_minelayer_abdiel_class_abdiel
 uk_cruiser_hawkins,uk_cruiser_enterprise_d52
 uk_cruiser_kent_norfolk_group,uk_cruiser_hawkins

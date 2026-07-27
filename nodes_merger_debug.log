@@ -467,7 +467,7 @@
   Зависимость: tiger_uht -> bo_105pah1_a1
   Зависимость: mi_8tb -> sa_313b
   Зависимость: mi_24d_german -> mi_8tb
-  Зависимость: mi_24p_german -> mi_8tb
+  Зависимость: mi_24p_german -> mi_24d_german
   Зависимость: bf-109c_1 -> bf-109b_2
   Зависимость: bf-109e_group -> bf-109e-1
   Зависимость: bf-109e-3 -> bf-109e_group
@@ -630,6 +630,7 @@
   Зависимость: germ_battleship_bayern -> germ_battleship_konig
   Зависимость: germ_battleship_sachsen -> germ_battleship_bayern
   Зависимость: germ_battleship_bismarck -> germ_battleship_sachsen
+  Зависимость: germ_destroyer_class1939_t22 -> germ_kanonenboot_k4_lorelei
   Зависимость: germ_kanonenboot_k2 -> germ_destroyer_class1939_t22
   Зависимость: germ_destroyer_class1936_z20 -> germ_kanonenboot_k2
   Зависимость: germ_destroyer_class1936b -> germ_destroyer_class1936_z20
@@ -1278,6 +1279,7 @@
   Зависимость: uk_battleship_centurion -> uk_battleship_colossus
   Зависимость: uk_battleship_rodney -> uk_battleship_centurion
   Зависимость: uk_battleship_prince_of_wales -> uk_battleship_rodney
+  Зависимость: uk_minelayer_abdiel_class_abdiel -> uk_egret_class
   Зависимость: uk_cruiser_enterprise_d52 -> uk_minelayer_abdiel_class_abdiel
   Зависимость: uk_cruiser_hawkins -> uk_cruiser_enterprise_d52
   Зависимость: uk_cruiser_kent_norfolk_group -> uk_cruiser_hawkins
@@ -2380,12 +2382,12 @@
   Зависимость: f_15i_raam -> f_16d_iaf_group
 Извлечение зависимостей завершено:
   Обработано узлов: 3586
-  Найдено зависимостей: 2363
-  Пустых предшественников: 1223
+  Найдено зависимостей: 2365
+  Пустых предшественников: 1221
   Предшественников не найдено: 0
-Зависимости (2363 записей) сохранены в dependencies.csv
+Зависимости (2365 записей) сохранены в dependencies.csv
 Полный процесс объединения данных завершен успешно!
 Итоговая статистика:
   Узлов в дереве: 3586
-  Зависимостей: 2363
-  Покрытие зависимостями: 65.9%
+  Зависимостей: 2365
+  Покрытие зависимостями: 66.0%
