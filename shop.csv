@@ -916,7 +916,7 @@ hunter_f58_switzerland,6,germany,Авиация,vehicle,premium,0,0,,,True
 mig-21_sps_k,6,germany,Авиация,vehicle,premium,0,1,,,False
 mig-21_bis_lazur,7,germany,Авиация,vehicle,premium,0,0,,,True
 tornado_ids_de_wtd61,7,germany,Авиация,vehicle,premium,0,1,,,True
-su_22m4_de_wtd61,7,germany,Авиация,vehicle,premium,0,2,,,True
+su_22m4_de_wtd61,7,germany,Авиация,vehicle,premium,0,2,,,False
 tornado_ids_de_mfg,8,germany,Авиация,vehicle,premium,0,0,,,True
 fa_18c_switzerland,8,germany,Авиация,vehicle,premium,0,1,,,True
 he51b_2w,1,germany,Авиация,vehicle,premium,1,0,,,True

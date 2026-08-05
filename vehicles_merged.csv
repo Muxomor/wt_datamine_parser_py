@@ -3131,7 +3131,7 @@ mb_157,M.B.157,M.B.157,france,3.3,47000,3,Авиация,vehicle,18000,standard,
 p-63c-5_france,▄P-63C-5,▄P-63C-5,france,4.0,76000,3,Авиация,vehicle,26000,standard,https://static.encyclopedia.warthunder.com/slots/p-63c-5_france.png,mb_157,1,1,
 f6f-5n_france,▄F6F-5N,▄F6F-5N,france,4.3,155000,4,Авиация,vehicle,46000,standard,https://static.encyclopedia.warthunder.com/slots/f6f-5n_france.png,p-63c-5_france,1,0,
 f8f1b_france,▄F8F-1B,▄F8F-1B,france,6.3,185000,4,Авиация,vehicle,54000,standard,https://static.encyclopedia.warthunder.com/slots/f8f1b_france.png,f6f-5n_france,1,1,
-so_4050_vautour_2n_late,S.O.4050 Vautour IIN (Late),S.O.4050 Vautour IIN (Late),france,8.3,300000,5,Авиация,vehicle,105000,standard,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n_late.png,f8f1b_france,1,0,
+so_4050_vautour_2n_late,Vautour IIN(M),Vautour IIN(M),france,8.3,300000,5,Авиация,vehicle,105000,standard,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n_late.png,f8f1b_france,1,0,
 f-86k_late,▄F-86K,▄F-86K,france,9.0,420000,6,Авиация,vehicle,150000,standard,https://static.encyclopedia.warthunder.com/slots/f-86k_late.png,so_4050_vautour_2n_late,1,0,
 alpha_jet_e,Alpha Jet E,Alpha Jet E,france,9.0,480000,6,Авиация,vehicle,170000,standard,https://static.encyclopedia.warthunder.com/slots/alpha_jet_e.png,f-86k_late,1,1,
 f-8e_fn,▄F-8E(FN),▄F-8E(FN),france,10.0,580000,7,Авиация,vehicle,210000,standard,https://static.encyclopedia.warthunder.com/slots/f-8e_fn.png,alpha_jet_e,1,0,
@@ -3193,7 +3193,7 @@ yak-3_france,▄Yak-3,▄Yak-3,france,4.7,0,3,Авиация,vehicle,,premium,ht
 so_8000_narval,S.O.8000 Narval,S.O.8000 Narval,france,5.7,0,4,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/so_8000_narval.png,,0,0,
 douglas_ad_4na_france,▄AD-4NA,▄AD-4NA,france,6.0,0,4,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/douglas_ad_4na_france.png,,0,1,
 sea_hawk_fga50_netherlands,◘Sea Hawk Mk.50,◘Sea Hawk Mk.50,france,8.3,0,5,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/sea_hawk_fga50_netherlands.png,,0,0,
-so_4050_vautour_2n,S.O.4050 Vautour IIN,S.O.4050 Vautour IIN,france,9.0,0,6,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n.png,,0,0,
+so_4050_vautour_2n,Vautour IIN(C),Vautour IIN(C),france,9.0,0,6,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n.png,,0,0,
 mirage_milan,Milan,Milan,france,9.7,0,6,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/mirage_milan.png,,0,1,
 nf_5a_netherlands,◘NF-5A,◘NF-5A,france,10.7,0,7,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/nf_5a_netherlands.png,,0,0,
 mirage_f1c_200,Mirage F1C-200,Mirage F1C-200,france,12.0,0,7,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/mirage_f1c_200.png,,0,1,
@@ -3568,7 +3568,7 @@ f_15c_baz_msip,Baz Meshupar,Baz Meshupar,israel,13.7,940000,8,Авиация,veh
 b-17g_iaf,B-17G,B-17G,israel,5.0,200000,4,Авиация,vehicle,63000,standard,https://static.encyclopedia.warthunder.com/slots/b-17g_iaf.png,,2,0,
 so_4050_vautour_iaf_group,S.O.4050 Vautour II,S.O.4050 Vautour II,israel,,,6,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_iaf_group.png,b-17g_iaf,2,0,
 so_4050_vautour_2a_israel_iaf,Vautour IIA,Vautour IIA,israel,9.0,420000,6,Авиация,vehicle,150000,standard,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2a_israel_iaf.png,so_4050_vautour_iaf_group,2,0,0
-so_4050_vautour_2n_iaf,Vautour IIN,Vautour IIN,israel,9.0,480000,6,Авиация,vehicle,86000,standard,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n_iaf.png,so_4050_vautour_2a_israel_iaf,2,0,1
+so_4050_vautour_2n_iaf,Vautour IIN(C),Vautour IIN(C),israel,9.0,480000,6,Авиация,vehicle,86000,standard,https://static.encyclopedia.warthunder.com/slots/so_4050_vautour_2n_iaf.png,so_4050_vautour_2a_israel_iaf,2,0,1
 nesher,Nesher,Nesher,israel,10.0,580000,7,Авиация,vehicle,210000,standard,https://static.encyclopedia.warthunder.com/slots/nesher.png,so_4050_vautour_iaf_group,2,0,
 f_16d_iaf_group,Barak II/Sufa,Barak II/Sufa,israel,,,8,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/f_16d_iaf_group.png,nesher,2,0,
 f_16d_block_40_barak_2,F-16D Barak II,F-16D Barak II,israel,13.3,860000,8,Авиация,vehicle,320000,standard,https://static.encyclopedia.warthunder.com/slots/f_16d_block_40_barak_2.png,f_16d_iaf_group,2,0,0
