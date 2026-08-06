@@ -435,9 +435,10 @@
   Найдено поле image: ju-87d_group -> ju-87d_group
         ОТЛАДКА: get_group_items добавлен ju-87d-3 с order=0
         ОТЛАДКА: get_group_items добавлен ju-87d-5 с order=1
-  Найдено поле image: me-410a-1_group -> me-410a-1_group
-        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=0
-        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=1
+  Найдено поле image: me_210_410_group -> me-410a-1_group
+        ОТЛАДКА: get_group_items добавлен me_210a_1 с order=0
+        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=1
+        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=2
   Найдено поле image: me-410a_group -> me-410a_group
         ОТЛАДКА: get_group_items добавлен me-410a-1 с order=0
         ОТЛАДКА: get_group_items добавлен me-410b-1 с order=1
@@ -1574,8 +1575,9 @@
         ОТЛАДКА: get_group_items добавлен hs-129b-2 с order=1
         ОТЛАДКА: get_group_items добавлен ju-87d-3 с order=0
         ОТЛАДКА: get_group_items добавлен ju-87d-5 с order=1
-        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=0
-        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=1
+        ОТЛАДКА: get_group_items добавлен me_210a_1 с order=0
+        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=1
+        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=2
         ОТЛАДКА: get_group_items добавлен me-410a-1 с order=0
         ОТЛАДКА: get_group_items добавлен me-410b-1 с order=1
         ОТЛАДКА: get_group_items добавлен do_335a_1 с order=0
@@ -2194,7 +2196,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'fr_samp_t_launcher', 'germ_iris_slm_launcher', 'us_sl_amraam_launcher', 'jp_type_81_tansam_launcher', 'us_nasams_launcher', 'uk_sky_sabre_launcher'}
+Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'it_samp_t_launcher', 'uk_sky_sabre_launcher', 'ussr_buk_m3_launcher', 'jp_type_03_chusam_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -4531,8 +4533,9 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
         ОТЛАДКА: get_group_items добавлен hs-129b-2 с order=1
         ОТЛАДКА: get_group_items добавлен ju-87d-3 с order=0
         ОТЛАДКА: get_group_items добавлен ju-87d-5 с order=1
-        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=0
-        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=1
+        ОТЛАДКА: get_group_items добавлен me_210a_1 с order=0
+        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=1
+        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=2
         ОТЛАДКА: get_group_items добавлен me-410a-1 с order=0
         ОТЛАДКА: get_group_items добавлен me-410b-1 с order=1
         ОТЛАДКА: get_group_items добавлен do_335a_1 с order=0
@@ -4577,21 +4580,22 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
           ОТЛАДКА: Элемент группы ju-87d-5 зависит от ju-87d-3
           ОТЛАДКА: Добавлен элемент группы ju-87d-5 с предшественником 'ju-87d-3'
         ОТЛАДКА: Установлен флаг next_should_depend_on_group=ju-87d_group
-      ОТЛАДКА: Техника me_210a_1, predecessor='ju-87d_group', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника me_210a_1 с предшественником 'ju-87d_group', статус: standard
-        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=0
-        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=1
-        ОТЛАДКА: Группа me-410a-1_group, predecessor='me_210a_1', rankPosXY=None, premium=False
-        ОТЛАДКА: Добавлена группа me-410a-1_group с предшественником 'me_210a_1', статус: standard
-          ОТЛАДКА: Первый элемент группы me-410a-1_u4 зависит от группы me-410a-1_group
-          ОТЛАДКА: Добавлен элемент группы me-410a-1_u4 с предшественником 'me-410a-1_group'
+        ОТЛАДКА: get_group_items добавлен me_210a_1 с order=0
+        ОТЛАДКА: get_group_items добавлен me-410a-1_u4 с order=1
+        ОТЛАДКА: get_group_items добавлен me-410b-2_u4 с order=2
+        ОТЛАДКА: Группа me_210_410_group, predecessor='ju-87d_group', rankPosXY=None, premium=False
+        ОТЛАДКА: Добавлена группа me_210_410_group с предшественником 'ju-87d_group', статус: standard
+          ОТЛАДКА: Первый элемент группы me_210a_1 зависит от группы me_210_410_group
+          ОТЛАДКА: Добавлен элемент группы me_210a_1 с предшественником 'me_210_410_group'
+          ОТЛАДКА: Элемент группы me-410a-1_u4 зависит от me_210a_1
+          ОТЛАДКА: Добавлен элемент группы me-410a-1_u4 с предшественником 'me_210a_1'
           ОТЛАДКА: Элемент группы me-410b-2_u4 зависит от me-410a-1_u4
           ОТЛАДКА: Добавлен элемент группы me-410b-2_u4 с предшественником 'me-410a-1_u4'
-        ОТЛАДКА: Установлен флаг next_should_depend_on_group=me-410a-1_group
+        ОТЛАДКА: Установлен флаг next_should_depend_on_group=me_210_410_group
         ОТЛАДКА: get_group_items добавлен me-410a-1 с order=0
         ОТЛАДКА: get_group_items добавлен me-410b-1 с order=1
-        ОТЛАДКА: Группа me-410a_group, predecessor='me-410a-1_group', rankPosXY=None, premium=False
-        ОТЛАДКА: Добавлена группа me-410a_group с предшественником 'me-410a-1_group', статус: standard
+        ОТЛАДКА: Группа me-410a_group, predecessor='me_210_410_group', rankPosXY=None, premium=False
+        ОТЛАДКА: Добавлена группа me-410a_group с предшественником 'me_210_410_group', статус: standard
           ОТЛАДКА: Первый элемент группы me-410a-1 зависит от группы me-410a_group
           ОТЛАДКА: Добавлен элемент группы me-410a-1 с предшественником 'me-410a_group'
           ОТЛАДКА: Элемент группы me-410b-1 зависит от me-410a-1
@@ -4817,12 +4821,12 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       ОТЛАДКА: Добавлена техника bf-109c_1_promo с предшественником '', статус: premium
       ОТЛАДКА: Техника fw-189a-1, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fw-189a-1 с предшественником '', статус: premium
-      ОТЛАДКА: Техника fw_189c_0, predecessor='', rankPosXY=None, premium=True
-      ОТЛАДКА: Добавлена техника fw_189c_0 с предшественником '', статус: premium
       ОТЛАДКА: Техника fokker_d7, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fokker_d7 с предшественником '', статус: premium
       ОТЛАДКА: Техника zeppelin, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника zeppelin с предшественником '', статус: premium
+      ОТЛАДКА: Техника fw_189c_0, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fw_189c_0 с предшественником '', статус: premium
       ОТЛАДКА: Техника wellington_mk1c_luftwaffe, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника wellington_mk1c_luftwaffe с предшественником '', статус: premium
       ОТЛАДКА: Техника he_112b_2, predecessor='', rankPosXY=None, premium=True
@@ -5000,7 +5004,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       ОТЛАДКА: Добавлена техника germ_battlecruiser_mackensen_class с предшественником '', статус: premium
     Столбец 3: обработано 4 элементов
   Обработка типа: Малый флот, столбцов: 5
-      ОТЛАДКА: Премиум техники в колонке: 0/12 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_ls_class, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_ls_class с предшественником '', статус: standard
@@ -5016,17 +5020,15 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       ОТЛАДКА: Добавлена техника germ_s_100_s_174_class с предшественником 'germ_s_100_class', статус: standard
       ОТЛАДКА: Техника germ_pr_131, predecessor='germ_s_100_s_174_class', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_pr_131 с предшественником 'germ_s_100_s_174_class', статус: standard
-      ОТЛАДКА: Техника germ_vs10_hydrofoil, predecessor='germ_pr_131', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника germ_vs10_hydrofoil с предшественником 'germ_pr_131', статус: standard
-      ОТЛАДКА: Техника germ_mz_1, predecessor='germ_vs10_hydrofoil', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника germ_mz_1 с предшественником 'germ_vs10_hydrofoil', статус: standard
+      ОТЛАДКА: Техника germ_mz_1, predecessor='germ_pr_131', rankPosXY=None, premium=False
+      ОТЛАДКА: Добавлена техника germ_mz_1 с предшественником 'germ_pr_131', статус: standard
       ОТЛАДКА: Техника germ_minelayer_drache, predecessor='germ_mz_1', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_minelayer_drache с предшественником 'germ_mz_1', статус: standard
       ОТЛАДКА: Техника germ_type143_albatros, predecessor='germ_minelayer_drache', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_type143_albatros с предшественником 'germ_minelayer_drache', статус: standard
       ОТЛАДКА: Техника germ_pr_206, predecessor='germ_type143_albatros', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_pr_206 с предшественником 'germ_type143_albatros', статус: standard
-    Столбец 0: обработано 12 элементов
+    Столбец 0: обработано 11 элементов
       ОТЛАДКА: Премиум техники в колонке: 0/10 = 0.00, порог: 0.2
     Столбец 1 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника germ_rboot_r41, predecessor='', rankPosXY=None, premium=False
@@ -5050,10 +5052,12 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       ОТЛАДКА: Техника germ_frigate_koln, predecessor='germ_type140_jaguar', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_frigate_koln с предшественником 'germ_type140_jaguar', статус: standard
     Столбец 1: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 0/6 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/7 = 0.00, порог: 0.2
     Столбец 2 определен как ОБЫЧНЫЙ
-      ОТЛАДКА: Техника germ_rdm242, predecessor='', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника germ_rdm242 с предшественником '', статус: standard
+      ОТЛАДКА: Техника germ_vs10_hydrofoil, predecessor='', rankPosXY=None, premium=False
+      ОТЛАДКА: Добавлена техника germ_vs10_hydrofoil с предшественником '', статус: standard
+      ОТЛАДКА: Техника germ_rdm242, predecessor='germ_vs10_hydrofoil', rankPosXY=None, premium=False
+      ОТЛАДКА: Добавлена техника germ_rdm242 с предшественником 'germ_vs10_hydrofoil', статус: standard
       ОТЛАДКА: Техника germ_schutze_class, predecessor='germ_rdm242', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_schutze_class с предшественником 'germ_rdm242', статус: standard
       ОТЛАДКА: Техника germ_kondor2_class, predecessor='germ_schutze_class', rankPosXY=None, premium=False
@@ -5064,7 +5068,7 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       ОТЛАДКА: Добавлена техника germ_type152_hugin с предшественником 'germ_pr1331', статус: standard
       ОТЛАДКА: Техника germ_type153_pfeil, predecessor='germ_type152_hugin', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника germ_type153_pfeil с предшественником 'germ_type152_hugin', статус: standard
-    Столбец 2: обработано 6 элементов
+    Столбец 2: обработано 7 элементов
       ОТЛАДКА: Премиум техники в колонке: 5/7 = 0.71, порог: 0.2
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника germ_ls4_class, predecessor='', rankPosXY=None, premium=True
@@ -13887,18 +13891,17 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
     Ранг 2: 10 элементов, начинаем с row_index=0
         Логическая группа: hs-129_group + 2 элементов
         Логическая группа: ju-87d_group + 2 элементов
-        Отдельный элемент: me_210a_1
-        Логическая группа: me-410a-1_group + 2 элементов
+        Логическая группа: me_210_410_group + 3 элементов
       hs-129_group: [3, 0] (группа)
       hs-129b-3: [3, 0] (элемент)
       hs-129b-2: [3, 0] (элемент)
       ju-87d_group: [3, 1] (группа)
       ju-87d-3: [3, 1] (элемент)
       ju-87d-5: [3, 1] (элемент)
+      me_210_410_group: [3, 2] (группа)
       me_210a_1: [3, 2] (элемент)
-      me-410a-1_group: [3, 3] (группа)
-      me-410a-1_u4: [3, 3] (элемент)
-      me-410b-2_u4: [3, 3] (элемент)
+      me-410a-1_u4: [3, 2] (элемент)
+      me-410b-2_u4: [3, 2] (элемент)
     Ранг 3: 6 элементов, начинаем с row_index=0
         Логическая группа: me-410a_group + 2 элементов
         Логическая группа: do_335_group + 2 элементов
@@ -14057,41 +14060,41 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       tornado_ids_de_mfg: [0, 0] (элемент)
       fa_18c_switzerland: [0, 1] (элемент)
   Обработка столбца: germany/Авиация/col_6/premium_True
-    Ранг 1: 7 элементов, начинаем с row_index=0
+    Ранг 1: 6 элементов, начинаем с row_index=0
         Отдельный элемент: he51b_2w
         Отдельный элемент: arado-196a-3
         Отдельный элемент: bf-109c_1_promo
         Отдельный элемент: fw-189a-1
-        Отдельный элемент: fw_189c_0
         Отдельный элемент: fokker_d7
         Отдельный элемент: zeppelin
       he51b_2w: [1, 0] (элемент)
       arado-196a-3: [1, 1] (элемент)
       bf-109c_1_promo: [1, 2] (элемент)
       fw-189a-1: [1, 3] (элемент)
-      fw_189c_0: [1, 4] (элемент)
-      fokker_d7: [1, 5] (элемент)
-      zeppelin: [1, 6] (элемент)
-    Ранг 2: 13 элементов, начинаем с row_index=0
+      fokker_d7: [1, 4] (элемент)
+      zeppelin: [1, 5] (элемент)
+    Ранг 2: 14 элементов, начинаем с row_index=0
+        Отдельный элемент: fw_189c_0
         Отдельный элемент: wellington_mk1c_luftwaffe
         Отдельный элемент: he_112b_2
         Отдельный элемент: h-75a-2_finland
         Отдельный элемент: bf-109e-7
         Отдельный элемент: bf-110c-6
         Логическая группа: sm_79_group + 7 элементов
-      wellington_mk1c_luftwaffe: [1, 0] (элемент)
-      he_112b_2: [1, 1] (элемент)
-      h-75a-2_finland: [1, 2] (элемент)
-      bf-109e-7: [1, 3] (элемент)
-      bf-110c-6: [1, 4] (элемент)
-      sm_79_group: [1, 5] (группа)
-      sm_79_1936: [1, 5] (элемент)
-      sm_79_1939: [1, 5] (элемент)
-      sm_79_1941: [1, 5] (элемент)
-      sm_79_1943: [1, 5] (элемент)
-      sm_79_iar: [1, 5] (элемент)
-      sm_79_1937: [1, 5] (элемент)
-      sm_79_1942: [1, 5] (элемент)
+      fw_189c_0: [1, 0] (элемент)
+      wellington_mk1c_luftwaffe: [1, 1] (элемент)
+      he_112b_2: [1, 2] (элемент)
+      h-75a-2_finland: [1, 3] (элемент)
+      bf-109e-7: [1, 4] (элемент)
+      bf-110c-6: [1, 5] (элемент)
+      sm_79_group: [1, 6] (группа)
+      sm_79_1936: [1, 6] (элемент)
+      sm_79_1939: [1, 6] (элемент)
+      sm_79_1941: [1, 6] (элемент)
+      sm_79_1943: [1, 6] (элемент)
+      sm_79_iar: [1, 6] (элемент)
+      sm_79_1937: [1, 6] (элемент)
+      sm_79_1942: [1, 6] (элемент)
     Ранг 3: 4 элементов, начинаем с row_index=0
         Отдельный элемент: hs-129b-2_romania
         Отдельный элемент: p-47d_luftwaffe
@@ -14263,13 +14266,11 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
         Отдельный элемент: germ_pr_131
       germ_s_100_s_174_class: [0, 0] (элемент)
       germ_pr_131: [0, 1] (элемент)
-    Ранг 4: 3 элементов, начинаем с row_index=0
-        Отдельный элемент: germ_vs10_hydrofoil
+    Ранг 4: 2 элементов, начинаем с row_index=0
         Отдельный элемент: germ_mz_1
         Отдельный элемент: germ_minelayer_drache
-      germ_vs10_hydrofoil: [0, 0] (элемент)
-      germ_mz_1: [0, 1] (элемент)
-      germ_minelayer_drache: [0, 2] (элемент)
+      germ_mz_1: [0, 0] (элемент)
+      germ_minelayer_drache: [0, 1] (элемент)
     Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: germ_type143_albatros
         Отдельный элемент: germ_pr_206
@@ -14302,6 +14303,9 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       germ_type140_jaguar: [1, 0] (элемент)
       germ_frigate_koln: [1, 1] (элемент)
   Обработка столбца: germany/Малый флот/col_2/premium_False
+    Ранг 3: 1 элементов, начинаем с row_index=0
+        Отдельный элемент: germ_vs10_hydrofoil
+      germ_vs10_hydrofoil: [2, 0] (элемент)
     Ранг 4: 3 элементов, начинаем с row_index=0
         Отдельный элемент: germ_rdm242
         Отдельный элемент: germ_schutze_class
@@ -15339,16 +15343,16 @@ Slave-юниты: {'sw_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_
       ussr_g5_mtb: [0, 0] (элемент)
       ussr_d3: [0, 1] (элемент)
       ussr_pr_103_sm4: [0, 2] (элемент)
-    Ранг 2: 2 элементов, начинаем с row_index=0
+    Ранг 2: 3 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_mpk_163
         Отдельный элемент: ussr_pr_123bis
+        Отдельный элемент: ussr_pr_123k
       ussr_mpk_163: [0, 0] (элемент)
       ussr_pr_123bis: [0, 1] (элемент)
-    Ранг 3: 2 элементов, начинаем с row_index=0
-        Отдельный элемент: ussr_pr_123k
+      ussr_pr_123k: [0, 2] (элемент)
+    Ранг 3: 1 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_pr_1204_late
-      ussr_pr_123k: [0, 0] (элемент)
-      ussr_pr_1204_late: [0, 1] (элемент)
+      ussr_pr_1204_late: [0, 0] (элемент)
     Ранг 4: 2 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_bmo
         Отдельный элемент: ussr_pr_183

@@ -836,8 +836,8 @@ hs-129b-2,Hs 129 B-2,Hs 129 B-2
 ju-87d_group,Ju 87 D,Ju 87 D
 ju-87d-3,Ju 87 D-3,Ju 87 D-3
 ju-87d-5,Ju 87 D-5,Ju 87 D-5
+me_210_410_group,me_210_410_group,me_210_410_group
 me_210a_1,Me 210 A-1,Me 210 A-1
-me-410a-1_group,Me 410 A,Me 410 A
 me-410a-1_u4,Me 410 A-1/U4,Me 410 A-1/U4
 me-410b-2_u4,Me 410 B-2/U4,Me 410 B-2/U4
 me-410a_group,Me 410,Me 410
@@ -923,9 +923,9 @@ he51b_2w,He 51 B-2/H,He 51 B-2/H
 arado-196a-3,Ar 196 A-3,Ar 196 A-3
 bf-109c_1_promo,Bf 109 C-1,Bf 109 C-1
 fw-189a-1,Fw 189 A-1,Fw 189 A-1
-fw_189c_0,Fw 189 C,Fw 189 C
 fokker_d7,Fokker D.VII,Fokker D.VII
 zeppelin,Zeppelin,Zeppelin
+fw_189c_0,Fw 189 C,Fw 189 C
 wellington_mk1c_luftwaffe,▀Wellington Mk.Ic,▀Wellington Mk Ic
 he_112b_2,He 112 B-2/U2,He 112 B-2/U2
 h-75a-2_finland,▀Hawk H-75A-2,▀Hawk H-75A-2
@@ -1009,7 +1009,6 @@ germ_s30_s61,S-61,S-61
 germ_s_100_class,S-100,S-100
 germ_s_100_s_174_class,S-147,S-147
 germ_pr_131,V-990,V-990
-germ_vs10_hydrofoil,VS-10,VS-10
 germ_mz_1,MZ1,MZ1
 germ_minelayer_drache,Drache,Drache
 germ_type143_albatros,Albatros,Albatros
@@ -1024,6 +1023,7 @@ germ_artilleriefahrprahm_typ_d3,AF D3,AF D3
 germ_escort_typem1935,M-17,M-17
 germ_type140_jaguar,Jaguar,Jaguar
 germ_frigate_koln,Köln,Köln
+germ_vs10_hydrofoil,VS-10,VS-10
 germ_rdm242,Krischan der Große,Krischan der Große
 germ_schutze_class,Schütze,Schütze
 germ_kondor2_class,Bernau,Bernau

@@ -836,11 +836,11 @@ hs-129b-2,2,germany,Авиация,vehicle,standard,3,0,hs-129b-3,1,False
 ju-87d_group,2,germany,Авиация,folder,standard,3,1,hs-129_group,,False
 ju-87d-3,2,germany,Авиация,vehicle,standard,3,1,ju-87d_group,0,False
 ju-87d-5,2,germany,Авиация,vehicle,standard,3,1,ju-87d-3,1,False
-me_210a_1,2,germany,Авиация,vehicle,standard,3,2,ju-87d_group,,False
-me-410a-1_group,2,germany,Авиация,folder,standard,3,3,me_210a_1,,False
-me-410a-1_u4,2,germany,Авиация,vehicle,standard,3,3,me-410a-1_group,0,False
-me-410b-2_u4,2,germany,Авиация,vehicle,standard,3,3,me-410a-1_u4,1,False
-me-410a_group,3,germany,Авиация,folder,standard,3,0,me-410a-1_group,,False
+me_210_410_group,2,germany,Авиация,folder,standard,3,2,ju-87d_group,,False
+me_210a_1,2,germany,Авиация,vehicle,standard,3,2,me_210_410_group,0,False
+me-410a-1_u4,2,germany,Авиация,vehicle,standard,3,2,me_210a_1,1,False
+me-410b-2_u4,2,germany,Авиация,vehicle,standard,3,2,me-410a-1_u4,2,False
+me-410a_group,3,germany,Авиация,folder,standard,3,0,me_210_410_group,,False
 me-410a-1,3,germany,Авиация,vehicle,standard,3,0,me-410a_group,0,False
 me-410b-1,3,germany,Авиация,vehicle,standard,3,0,me-410a-1,1,False
 do_335_group,3,germany,Авиация,folder,standard,3,1,me-410a_group,,False
@@ -923,22 +923,22 @@ he51b_2w,1,germany,Авиация,vehicle,premium,1,0,,,True
 arado-196a-3,1,germany,Авиация,vehicle,premium,1,1,,,True
 bf-109c_1_promo,1,germany,Авиация,vehicle,premium,1,2,,,True
 fw-189a-1,1,germany,Авиация,vehicle,premium,1,3,,,True
-fw_189c_0,1,germany,Авиация,vehicle,premium,1,4,,,False
-fokker_d7,1,germany,Авиация,vehicle,premium,1,5,,,True
-zeppelin,1,germany,Авиация,vehicle,premium,1,6,,,True
-wellington_mk1c_luftwaffe,2,germany,Авиация,vehicle,premium,1,0,,,False
-he_112b_2,2,germany,Авиация,vehicle,premium,1,1,,,True
-h-75a-2_finland,2,germany,Авиация,vehicle,premium,1,2,,,True
-bf-109e-7,2,germany,Авиация,vehicle,premium,1,3,,,True
-bf-110c-6,2,germany,Авиация,vehicle,premium,1,4,,,True
-sm_79_group,2,germany,Авиация,folder,premium,1,5,,,False
-sm_79_1936,2,germany,Авиация,vehicle,premium,1,5,,0,True
-sm_79_1939,2,germany,Авиация,vehicle,premium,1,5,,1,True
-sm_79_1941,2,germany,Авиация,vehicle,premium,1,5,,2,True
-sm_79_1943,2,germany,Авиация,vehicle,premium,1,5,,3,True
-sm_79_iar,2,germany,Авиация,vehicle,premium,1,5,,4,True
-sm_79_1937,2,germany,Авиация,vehicle,premium,1,5,,5,True
-sm_79_1942,2,germany,Авиация,vehicle,premium,1,5,,6,True
+fokker_d7,1,germany,Авиация,vehicle,premium,1,4,,,True
+zeppelin,1,germany,Авиация,vehicle,premium,1,5,,,True
+fw_189c_0,2,germany,Авиация,vehicle,premium,1,0,,,False
+wellington_mk1c_luftwaffe,2,germany,Авиация,vehicle,premium,1,1,,,False
+he_112b_2,2,germany,Авиация,vehicle,premium,1,2,,,True
+h-75a-2_finland,2,germany,Авиация,vehicle,premium,1,3,,,True
+bf-109e-7,2,germany,Авиация,vehicle,premium,1,4,,,True
+bf-110c-6,2,germany,Авиация,vehicle,premium,1,5,,,True
+sm_79_group,2,germany,Авиация,folder,premium,1,6,,,False
+sm_79_1936,2,germany,Авиация,vehicle,premium,1,6,,0,True
+sm_79_1939,2,germany,Авиация,vehicle,premium,1,6,,1,True
+sm_79_1941,2,germany,Авиация,vehicle,premium,1,6,,2,True
+sm_79_1943,2,germany,Авиация,vehicle,premium,1,6,,3,True
+sm_79_iar,2,germany,Авиация,vehicle,premium,1,6,,4,True
+sm_79_1937,2,germany,Авиация,vehicle,premium,1,6,,5,True
+sm_79_1942,2,germany,Авиация,vehicle,premium,1,6,,6,True
 hs-129b-2_romania,3,germany,Авиация,vehicle,premium,1,0,,,True
 p-47d_luftwaffe,3,germany,Авиация,vehicle,premium,1,1,,,True
 la-5fn_luftwaffe,3,germany,Авиация,vehicle,premium,1,2,,,False
@@ -1009,9 +1009,8 @@ germ_s30_s61,2,germany,Малый флот,vehicle,standard,0,1,germ_s38b,,False
 germ_s_100_class,2,germany,Малый флот,vehicle,standard,0,2,germ_s30_s61,,False
 germ_s_100_s_174_class,3,germany,Малый флот,vehicle,standard,0,0,germ_s_100_class,,False
 germ_pr_131,3,germany,Малый флот,vehicle,standard,0,1,germ_s_100_s_174_class,,False
-germ_vs10_hydrofoil,4,germany,Малый флот,vehicle,standard,0,0,germ_pr_131,,False
-germ_mz_1,4,germany,Малый флот,vehicle,standard,0,1,germ_vs10_hydrofoil,,False
-germ_minelayer_drache,4,germany,Малый флот,vehicle,standard,0,2,germ_mz_1,,False
+germ_mz_1,4,germany,Малый флот,vehicle,standard,0,0,germ_pr_131,,False
+germ_minelayer_drache,4,germany,Малый флот,vehicle,standard,0,1,germ_mz_1,,False
 germ_type143_albatros,5,germany,Малый флот,vehicle,standard,0,0,germ_minelayer_drache,,False
 germ_pr_206,5,germany,Малый флот,vehicle,standard,0,1,germ_type143_albatros,,False
 germ_rboot_r41,1,germany,Малый флот,vehicle,standard,1,0,,,False
@@ -1024,7 +1023,8 @@ germ_artilleriefahrprahm_typ_d3,4,germany,Малый флот,vehicle,standard,1
 germ_escort_typem1935,4,germany,Малый флот,vehicle,standard,1,2,germ_artilleriefahrprahm_typ_d3,,False
 germ_type140_jaguar,5,germany,Малый флот,vehicle,standard,1,0,germ_escort_typem1935,,False
 germ_frigate_koln,5,germany,Малый флот,vehicle,standard,1,1,germ_type140_jaguar,,False
-germ_rdm242,4,germany,Малый флот,vehicle,standard,2,0,,,False
+germ_vs10_hydrofoil,3,germany,Малый флот,vehicle,standard,2,0,,,False
+germ_rdm242,4,germany,Малый флот,vehicle,standard,2,0,germ_vs10_hydrofoil,,False
 germ_schutze_class,4,germany,Малый флот,vehicle,standard,2,1,germ_rdm242,,False
 germ_kondor2_class,4,germany,Малый флот,vehicle,standard,2,2,germ_schutze_class,,False
 germ_pr1331,5,germany,Малый флот,vehicle,standard,2,0,germ_kondor2_class,,False
@@ -1550,8 +1550,8 @@ ussr_d3,1,ussr,Малый флот,vehicle,standard,0,1,,,False
 ussr_pr_103_sm4,1,ussr,Малый флот,vehicle,standard,0,2,ussr_d3,,False
 ussr_mpk_163,2,ussr,Малый флот,vehicle,standard,0,0,ussr_pr_103_sm4,,False
 ussr_pr_123bis,2,ussr,Малый флот,vehicle,standard,0,1,ussr_mpk_163,,False
-ussr_pr_123k,3,ussr,Малый флот,vehicle,standard,0,0,ussr_pr_123bis,,False
-ussr_pr_1204_late,3,ussr,Малый флот,vehicle,standard,0,1,ussr_pr_123k,,False
+ussr_pr_123k,2,ussr,Малый флот,vehicle,standard,0,2,ussr_pr_123bis,,False
+ussr_pr_1204_late,3,ussr,Малый флот,vehicle,standard,0,0,ussr_pr_123k,,False
 ussr_bmo,4,ussr,Малый флот,vehicle,standard,0,0,ussr_pr_1204_late,,False
 ussr_pr_183,4,ussr,Малый флот,vehicle,standard,0,1,ussr_bmo,,False
 ussr_pr_206,5,ussr,Малый флот,vehicle,standard,0,0,ussr_pr_183,,False

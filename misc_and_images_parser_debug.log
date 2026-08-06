@@ -18,8 +18,8 @@
   Извлечено требование: ussr Наземная техника ранг 7 требует 5 юнитов
   Извлечено требование: ussr Наземная техника ранг 8 требует 5 юнитов
   Извлечено требование: ussr Малый флот ранг 2 требует 5 юнитов
-  Извлечено требование: ussr Малый флот ранг 3 требует 5 юнитов
-  Извлечено требование: ussr Малый флот ранг 4 требует 5 юнитов
+  Извлечено требование: ussr Малый флот ранг 3 требует 6 юнитов
+  Извлечено требование: ussr Малый флот ранг 4 требует 4 юнитов
   Извлечено требование: ussr Малый флот ранг 5 требует 6 юнитов
   Извлечено требование: ussr Большой флот ранг 2 требует 4 юнитов
   Извлечено требование: ussr Большой флот ранг 3 требует 4 юнитов
@@ -75,7 +75,7 @@
   Извлечено требование: germany Наземная техника ранг 8 требует 5 юнитов
   Извлечено требование: germany Малый флот ранг 2 требует 2 юнитов
   Извлечено требование: germany Малый флот ранг 3 требует 5 юнитов
-  Извлечено требование: germany Малый флот ранг 4 требует 4 юнитов
+  Извлечено требование: germany Малый флот ранг 4 требует 5 юнитов
   Извлечено требование: germany Малый флот ранг 5 требует 6 юнитов
   Извлечено требование: germany Большой флот ранг 2 требует 5 юнитов
   Извлечено требование: germany Большой флот ранг 3 требует 4 юнитов
@@ -300,8 +300,8 @@
 Загружено 3586 ID из shop.csv
 Загрузка списка изображений из GitHub...
 Отправляем запрос к GitHub Tree API: https://api.github.com/repos/gszabi99/War-Thunder-Datamine/git/trees/master?recursive=1
-Получен ответ от GitHub Tree API. Status: 200, Size: 16348262 bytes
-GitHub Tree API вернул 56993 элементов
+Получен ответ от GitHub Tree API. Status: 200, Size: 16348559 bytes
+GitHub Tree API вернул 56994 элементов
     Файл: a-20g -> https://static.encyclopedia.warthunder.com/slots/a-20g.png
     Файл: a-26_group -> https://static.encyclopedia.warthunder.com/slots/a-26_group.png
     Файл: a-26b -> https://static.encyclopedia.warthunder.com/slots/a-26b.png
@@ -4299,7 +4299,7 @@ GitHub Tree API вернул 56993 элементов
     Файл: z_9wa -> https://static.encyclopedia.warthunder.com/slots/z_9wa.png
     Файл: zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
 ДИАГНОСТИКА GitHub Tree API:
-  Всего элементов в дереве: 56993
+  Всего элементов в дереве: 56994
   Файлов в целевой папке: 3993
   PNG файлов: 3993
   Проблемных файлов найдено: 3 из 3
@@ -6050,10 +6050,10 @@ GitHub Tree API вернул 56993 элементов
   Найдено изображение: ju-87d-3 -> https://static.encyclopedia.warthunder.com/slots/ju-87d-3.png
     Найдено: ju-87d-5 -> ju-87d-5 -> https://static.encyclopedia.warthunder.com/slots/ju-87d-5.png
   Найдено изображение: ju-87d-5 -> https://static.encyclopedia.warthunder.com/slots/ju-87d-5.png
+    Найдено: me_210_410_group -> me_210_410_group -> https://static.encyclopedia.warthunder.com/slots/me_210_410_group.png
+  Найдено изображение: me_210_410_group -> https://static.encyclopedia.warthunder.com/slots/me_210_410_group.png
     Найдено: me_210a_1 -> me_210a_1 -> https://static.encyclopedia.warthunder.com/slots/me_210a_1.png
   Найдено изображение: me_210a_1 -> https://static.encyclopedia.warthunder.com/slots/me_210a_1.png
-    Найдено: me-410a-1_group -> me-410a-1_group -> https://static.encyclopedia.warthunder.com/slots/me-410a-1_group.png
-  Найдено изображение: me-410a-1_group -> https://static.encyclopedia.warthunder.com/slots/me-410a-1_group.png
     Найдено: me-410a-1_u4 -> me-410a-1_u4 -> https://static.encyclopedia.warthunder.com/slots/me-410a-1_u4.png
   Найдено изображение: me-410a-1_u4 -> https://static.encyclopedia.warthunder.com/slots/me-410a-1_u4.png
     Найдено: me-410b-2_u4 -> me-410b-2_u4 -> https://static.encyclopedia.warthunder.com/slots/me-410b-2_u4.png
@@ -6225,12 +6225,12 @@ GitHub Tree API вернул 56993 элементов
   Найдено изображение: bf-109c_1_promo -> https://static.encyclopedia.warthunder.com/slots/bf-109c_1_promo.png
     Найдено: fw-189a-1 -> fw-189a-1 -> https://static.encyclopedia.warthunder.com/slots/fw-189a-1.png
   Найдено изображение: fw-189a-1 -> https://static.encyclopedia.warthunder.com/slots/fw-189a-1.png
-    Найдено: fw_189c_0 -> fw_189c_0 -> https://static.encyclopedia.warthunder.com/slots/fw_189c_0.png
-  Найдено изображение: fw_189c_0 -> https://static.encyclopedia.warthunder.com/slots/fw_189c_0.png
     Найдено: fokker_d7 -> fokker_d7 -> https://static.encyclopedia.warthunder.com/slots/fokker_d7.png
   Найдено изображение: fokker_d7 -> https://static.encyclopedia.warthunder.com/slots/fokker_d7.png
     Найдено: zeppelin -> zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
   Найдено изображение: zeppelin -> https://static.encyclopedia.warthunder.com/slots/zeppelin.png
+    Найдено: fw_189c_0 -> fw_189c_0 -> https://static.encyclopedia.warthunder.com/slots/fw_189c_0.png
+  Найдено изображение: fw_189c_0 -> https://static.encyclopedia.warthunder.com/slots/fw_189c_0.png
     Найдено: wellington_mk1c_luftwaffe -> wellington_mk1c_luftwaffe -> https://static.encyclopedia.warthunder.com/slots/wellington_mk1c_luftwaffe.png
   Найдено изображение: wellington_mk1c_luftwaffe -> https://static.encyclopedia.warthunder.com/slots/wellington_mk1c_luftwaffe.png
     Найдено: he_112b_2 -> he_112b_2 -> https://static.encyclopedia.warthunder.com/slots/he_112b_2.png
@@ -6400,8 +6400,6 @@ GitHub Tree API вернул 56993 элементов
   Найдено изображение: germ_s_100_s_174_class -> https://static.encyclopedia.warthunder.com/slots/germ_s_100_s_174_class.png
     Найдено: germ_pr_131 -> germ_pr_131 -> https://static.encyclopedia.warthunder.com/slots/germ_pr_131.png
   Найдено изображение: germ_pr_131 -> https://static.encyclopedia.warthunder.com/slots/germ_pr_131.png
-    Найдено: germ_vs10_hydrofoil -> germ_vs10_hydrofoil -> https://static.encyclopedia.warthunder.com/slots/germ_vs10_hydrofoil.png
-  Найдено изображение: germ_vs10_hydrofoil -> https://static.encyclopedia.warthunder.com/slots/germ_vs10_hydrofoil.png
     Найдено: germ_mz_1 -> germ_mz_1 -> https://static.encyclopedia.warthunder.com/slots/germ_mz_1.png
   Найдено изображение: germ_mz_1 -> https://static.encyclopedia.warthunder.com/slots/germ_mz_1.png
     Найдено: germ_minelayer_drache -> germ_minelayer_drache -> https://static.encyclopedia.warthunder.com/slots/germ_minelayer_drache.png
@@ -6430,6 +6428,8 @@ GitHub Tree API вернул 56993 элементов
   Найдено изображение: germ_type140_jaguar -> https://static.encyclopedia.warthunder.com/slots/germ_type140_jaguar.png
     Найдено: germ_frigate_koln -> germ_frigate_koln -> https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln.png
   Найдено изображение: germ_frigate_koln -> https://static.encyclopedia.warthunder.com/slots/germ_frigate_koln.png
+    Найдено: germ_vs10_hydrofoil -> germ_vs10_hydrofoil -> https://static.encyclopedia.warthunder.com/slots/germ_vs10_hydrofoil.png
+  Найдено изображение: germ_vs10_hydrofoil -> https://static.encyclopedia.warthunder.com/slots/germ_vs10_hydrofoil.png
     Найдено: germ_rdm242 -> germ_rdm242 -> https://static.encyclopedia.warthunder.com/slots/germ_rdm242.png
   Найдено изображение: germ_rdm242 -> https://static.encyclopedia.warthunder.com/slots/germ_rdm242.png
     Найдено: germ_schutze_class -> germ_schutze_class -> https://static.encyclopedia.warthunder.com/slots/germ_schutze_class.png
@@ -11699,10 +11699,10 @@ GitHub Tree API вернул 56993 элементов
 Данные об изображениях техники (3586 записей) сохранены в shop_images.csv
 Обработка изображений техники завершена успешно!
 Загрузка данных версии из: https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/refs/heads/master/version
-Данные версии успешно загружены: 2.57.1.69
+Данные версии успешно загружены: 2.57.1.72
 Обработка данных версии...
-Версия валидна: 2.57.1.69
-Данные версии сохранены в version.csv: 2.57.1.69
+Версия валидна: 2.57.1.72
+Данные версии сохранены в version.csv: 2.57.1.72
 Обработка версии завершена успешно!
 Парсинг misc данных завершен!
 Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

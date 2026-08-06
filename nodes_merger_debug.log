@@ -565,11 +565,11 @@
   Зависимость: ju-87d_group -> hs-129_group
   Зависимость: ju-87d-3 -> ju-87d_group
   Зависимость: ju-87d-5 -> ju-87d-3
-  Зависимость: me_210a_1 -> ju-87d_group
-  Зависимость: me-410a-1_group -> me_210a_1
-  Зависимость: me-410a-1_u4 -> me-410a-1_group
+  Зависимость: me_210_410_group -> ju-87d_group
+  Зависимость: me_210a_1 -> me_210_410_group
+  Зависимость: me-410a-1_u4 -> me_210a_1
   Зависимость: me-410b-2_u4 -> me-410a-1_u4
-  Зависимость: me-410a_group -> me-410a-1_group
+  Зависимость: me-410a_group -> me_210_410_group
   Зависимость: me-410a-1 -> me-410a_group
   Зависимость: me-410b-1 -> me-410a-1
   Зависимость: do_335_group -> me-410a_group
@@ -647,8 +647,7 @@
   Зависимость: germ_s_100_class -> germ_s30_s61
   Зависимость: germ_s_100_s_174_class -> germ_s_100_class
   Зависимость: germ_pr_131 -> germ_s_100_s_174_class
-  Зависимость: germ_vs10_hydrofoil -> germ_pr_131
-  Зависимость: germ_mz_1 -> germ_vs10_hydrofoil
+  Зависимость: germ_mz_1 -> germ_pr_131
   Зависимость: germ_minelayer_drache -> germ_mz_1
   Зависимость: germ_type143_albatros -> germ_minelayer_drache
   Зависимость: germ_pr_206 -> germ_type143_albatros
@@ -661,6 +660,7 @@
   Зависимость: germ_escort_typem1935 -> germ_artilleriefahrprahm_typ_d3
   Зависимость: germ_type140_jaguar -> germ_escort_typem1935
   Зависимость: germ_frigate_koln -> germ_type140_jaguar
+  Зависимость: germ_rdm242 -> germ_vs10_hydrofoil
   Зависимость: germ_schutze_class -> germ_rdm242
   Зависимость: germ_kondor2_class -> germ_schutze_class
   Зависимость: germ_pr1331 -> germ_kondor2_class
