@@ -1,4 +1,4 @@
-Данные wpcost для колонок загружены: 772 premium, 2495 standard, 71 неоднозначных (fallback на shop флаги)
+Данные wpcost для колонок загружены: 772 premium, 2505 standard, 71 неоднозначных (fallback на shop флаги)
 Запуск парсера shop.blkx...
 Порог для определения премиумных колонок: 20.0%
 Обработка slave-юнитов: отключена
@@ -2196,7 +2196,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'us_nasams_launcher', 'jp_type_81_tansam_launcher', 'us_sl_amraam_launcher', 'it_samp_t_launcher', 'uk_sky_sabre_launcher', 'ussr_buk_m3_launcher', 'jp_type_03_chusam_launcher'}
+Slave-юниты: {'us_sl_amraam_launcher', 'jp_type_03_chusam_launcher', 'fr_samp_t_launcher', 'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'ussr_buk_m3_launcher', 'it_samp_t_launcher', 'jp_type_81_tansam_launcher', 'germ_iris_slm_launcher', 'us_nasams_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -3218,7 +3218,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника f_15e, predecessor='f_111f', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника f_15e с предшественником 'f_111f', статус: standard
     Столбец 4: обработано 27 элементов
-      ОТЛАДКА: Премиум техники в колонке: 29/35 = 0.83, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 29/36 = 0.81, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника f3f-2_galer, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника f3f-2_galer с предшественником '', статус: premium
@@ -3288,9 +3288,11 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Добавлена техника f-4s с предшественником '', статус: premium
       ОТЛАДКА: Техника f_20a, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника f_20a с предшественником '', статус: premium
+      ОТЛАДКА: Техника f_16xl, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника f_16xl с предшественником '', статус: premium
       ОТЛАДКА: Техника fa_18c_early, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fa_18c_early с предшественником '', статус: premium
-    Столбец 5: обработано 35 элементов
+    Столбец 5: обработано 36 элементов
       ОТЛАДКА: Премиум техники в колонке: 25/35 = 0.71, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника p-26a_34, predecessor='', rankPosXY=None, premium=True
@@ -3592,7 +3594,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника us_flagstaff_pgh1, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника us_flagstaff_pgh1 с предшественником '', статус: premium
     Столбец 4: обработано 4 элементов
-Обработано 512 элементов для usa
+Обработано 513 элементов для usa
 Обработка страны: germany
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен germ_pzkpfw_38t_ausf_F с order=0
@@ -6491,7 +6493,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника ussr_battlecruiser_sevastopol, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_battlecruiser_sevastopol с предшественником '', статус: premium
     Столбец 2: обработано 10 элементов
-      ОТЛАДКА: Премиум техники в колонке: 3/5 = 0.60, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 3/6 = 0.50, порог: 0.2
     Столбец 3 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника ussr_destroyer_7y_stroyny, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_destroyer_7y_stroyny с предшественником '', статус: premium
@@ -6503,7 +6505,9 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Добавлена техника ussr_cruiser_voroshilov с предшественником '', статус: premium
       ОТЛАДКА: Техника ussr_cruiser_maxim_gorky, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_cruiser_maxim_gorky с предшественником '', статус: premium
-    Столбец 3: обработано 5 элементов
+      ОТЛАДКА: Техника ussr_battleship_oktyabrskaya_revolutsiya, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ussr_battleship_oktyabrskaya_revolutsiya с предшественником '', статус: premium
+    Столбец 3: обработано 6 элементов
   Обработка типа: Малый флот, столбцов: 5
       ОТЛАДКА: Премиум техники в колонке: 0/11 = 0.00, порог: 0.2
     Столбец 0 определен как ОБЫЧНЫЙ
@@ -6612,7 +6616,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника ussr_pr_205pe_k225, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ussr_pr_205pe_k225 с предшественником '', статус: premium
     Столбец 4: обработано 6 элементов
-Обработано 552 элементов для ussr
+Обработано 553 элементов для ussr
 Обработка страны: britain
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен uk_crusader_mk_2 с order=0
@@ -8062,7 +8066,7 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
     Столбец 1: обработано 29 элементов
         ОТЛАДКА: get_group_items добавлен jp_type_3_ho_ni_I с order=0
         ОТЛАДКА: get_group_items добавлен jp_type_3_ho_ni_III с order=1
-      ОТЛАДКА: Премиум техники в колонке: 0/15 = 0.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 0/14 = 0.00, порог: 0.2
     Столбец 2 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_type_4_ho_ro, predecessor='', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_4_ho_ro с предшественником '', статус: standard
@@ -8091,13 +8095,11 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Добавлена техника jp_type_75 с предшественником 'jp_m36b2_jgsdf', статус: standard
       ОТЛАДКА: Техника jp_type_99, predecessor='jp_type_75', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_99 с предшественником 'jp_type_75', статус: standard
-      ОТЛАДКА: Техника jp_type_5_ho_ri_production, predecessor='jp_type_99', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника jp_type_5_ho_ri_production с предшественником 'jp_type_99', статус: standard
-      ОТЛАДКА: Техника jp_type_16_mcv_prot, predecessor='jp_type_5_ho_ri_production', rankPosXY=None, premium=False
-      ОТЛАДКА: Добавлена техника jp_type_16_mcv_prot с предшественником 'jp_type_5_ho_ri_production', статус: standard
+      ОТЛАДКА: Техника jp_type_16_mcv_prot, predecessor='jp_type_99', rankPosXY=None, premium=False
+      ОТЛАДКА: Добавлена техника jp_type_16_mcv_prot с предшественником 'jp_type_99', статус: standard
       ОТЛАДКА: Техника jp_type_16, predecessor='jp_type_16_mcv_prot', rankPosXY=None, premium=False
       ОТЛАДКА: Добавлена техника jp_type_16 с предшественником 'jp_type_16_mcv_prot', статус: standard
-    Столбец 2: обработано 15 элементов
+    Столбец 2: обработано 14 элементов
       ОТЛАДКА: Премиум техники в колонке: 0/13 = 0.00, порог: 0.2
     Столбец 3 определен как ОБЫЧНЫЙ
       ОТЛАДКА: Техника jp_type_94, predecessor='', rankPosXY=None, premium=False
@@ -8171,15 +8173,17 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       ОТЛАДКА: Техника jp_type_90b_sm, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_type_90b_sm с предшественником '', статус: premium
     Столбец 5: обработано 15 элементов
-      ОТЛАДКА: Премиум техники в колонке: 1/2 = 0.50, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 1/3 = 0.33, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника jp_type_3_ka_chi, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_type_3_ka_chi с предшественником '', статус: premium
       ОТЛАДКА: Техника jp_type_97_kai_td, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника jp_type_97_kai_td с предшественником '', статус: premium
+      ОТЛАДКА: Техника jp_type_5_ho_ri_production, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника jp_type_5_ho_ri_production с предшественником '', статус: premium
       ПРОПУСК: jp_type_81_tansam_launcher является slave-юнитом
       ПРОПУСК: jp_type_03_chusam_launcher является slave-юнитом
-    Столбец 6: обработано 2 элементов
+    Столбец 6: обработано 3 элементов
   Обработка типа: Вертолёты, столбцов: 3
     Столбец 0: вертолёты — premium по rankPosXY.x
       ОТЛАДКА: Техника uh_1b_japan, predecessor='', rankPosXY=[3, 1], premium=False
@@ -12978,11 +12982,13 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
       f-5c: [0, 0] (элемент)
       av_8b_na: [0, 1] (элемент)
       f-4s: [0, 2] (элемент)
-    Ранг 8: 2 элементов, начинаем с row_index=0
+    Ранг 8: 3 элементов, начинаем с row_index=0
         Отдельный элемент: f_20a
+        Отдельный элемент: f_16xl
         Отдельный элемент: fa_18c_early
       f_20a: [0, 0] (элемент)
-      fa_18c_early: [0, 1] (элемент)
+      f_16xl: [0, 1] (элемент)
+      fa_18c_early: [0, 2] (элемент)
   Обработка столбца: usa/Авиация/col_6/premium_True
     Ранг 1: 4 элементов, начинаем с row_index=0
         Отдельный элемент: p-26a_34
@@ -15332,9 +15338,11 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
     Ранг 4: 1 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_cruiser_voroshilov
       ussr_cruiser_voroshilov: [1, 0] (элемент)
-    Ранг 5: 1 элементов, начинаем с row_index=0
+    Ранг 5: 2 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_cruiser_maxim_gorky
+        Отдельный элемент: ussr_battleship_oktyabrskaya_revolutsiya
       ussr_cruiser_maxim_gorky: [1, 0] (элемент)
+      ussr_battleship_oktyabrskaya_revolutsiya: [1, 1] (элемент)
   Обработка столбца: ussr/Малый флот/col_0/premium_False
     Ранг 1: 3 элементов, начинаем с row_index=0
         Отдельный элемент: ussr_g5_mtb
@@ -16540,11 +16548,9 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
         Отдельный элемент: jp_type_75
       jp_m36b2_jgsdf: [2, 0] (элемент)
       jp_type_75: [2, 1] (элемент)
-    Ранг 5: 2 элементов, начинаем с row_index=0
+    Ранг 5: 1 элементов, начинаем с row_index=0
         Отдельный элемент: jp_type_99
-        Отдельный элемент: jp_type_5_ho_ri_production
       jp_type_99: [2, 0] (элемент)
-      jp_type_5_ho_ri_production: [2, 1] (элемент)
     Ранг 6: 1 элементов, начинаем с row_index=0
         Отдельный элемент: jp_type_16_mcv_prot
       jp_type_16_mcv_prot: [2, 0] (элемент)
@@ -16642,6 +16648,9 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
     Ранг 2: 1 элементов, начинаем с row_index=0
         Отдельный элемент: jp_type_97_kai_td
       jp_type_97_kai_td: [1, 0] (элемент)
+    Ранг 5: 1 элементов, начинаем с row_index=0
+        Отдельный элемент: jp_type_5_ho_ri_production
+      jp_type_5_ho_ri_production: [1, 0] (элемент)
   Обработка столбца: japan/Авиация/col_0/premium_False
     Ранг 1: 2 элементов, начинаем с row_index=0
         Отдельный элемент: f1m2
@@ -19783,12 +19792,12 @@ Slave-юниты: {'germ_iris_slm_launcher', 'fr_samp_t_launcher', 'sw_nasams_la
         Отдельный элемент: kfir_c10_colombia
       f_16a_block_10_netz_mod: [0, 0] (элемент)
       kfir_c10_colombia: [0, 1] (элемент)
-Координаты назначены для 3586 элементов
+Координаты назначены для 3588 элементов
   normalize_folder_predecessors: ah_64e_netherlands -> tiger_group (было tiger_had_france, элемент внутри folder)
-Данные (3586 записей) сохранены в shop.csv
+Данные (3588 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2622, Премиумной: 964
+Статистика: Стандартной техники: 2621, Премиумной: 967
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (403 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3586 элементов.
+Парсинг завершен успешно! Обработано 3588 элементов.

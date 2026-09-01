@@ -7201,6 +7201,42 @@
     сохранено/обновлено: wheeled_vehicles/ussr_zis5_fuel_1 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/ussr_zis5_fuel_1)
     числовой суффикс: wheeled_vehicles/ussr_zis5_fuel_2 -> ключ: wheeled_vehicles/ussr_zis5_fuel_2 (приоритет: 10)
     сохранено/обновлено: wheeled_vehicles/ussr_zis5_fuel_2 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/ussr_zis5_fuel_2)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_awning_0 -> ключ: wheeled_vehicles/ussr_zil_131_awning_0 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_awning_0 -> RU: ЗиЛ-131, EN: ZiL-131 (источник: wheeled_vehicles/ussr_zil_131_awning_0)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_awning_1 -> ключ: wheeled_vehicles/ussr_zil_131_awning_1 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_awning_1 -> RU: ЗиЛ-131, EN: ZiL-131 (источник: wheeled_vehicles/ussr_zil_131_awning_1)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_awning_2 -> ключ: wheeled_vehicles/ussr_zil_131_awning_2 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_awning_2 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/ussr_zil_131_awning_2)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_fuel_carrier_0 -> ключ: wheeled_vehicles/ussr_zil_131_fuel_carrier_0 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_fuel_carrier_0 -> RU: ЗиЛ-131, EN: ZiL-131 (источник: wheeled_vehicles/ussr_zil_131_fuel_carrier_0)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_fuel_carrier_1 -> ключ: wheeled_vehicles/ussr_zil_131_fuel_carrier_1 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_fuel_carrier_1 -> RU: ЗиЛ-131, EN: ZiL-131 (источник: wheeled_vehicles/ussr_zil_131_fuel_carrier_1)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_fuel_carrier_2 -> ключ: wheeled_vehicles/ussr_zil_131_fuel_carrier_2 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_fuel_carrier_2 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/ussr_zil_131_fuel_carrier_2)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_0 -> ключ: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_0 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_0 -> RU: ЗиЛ-131, EN: ZiL-131 (источник: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_0)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_1 -> ключ: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_1 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_1 -> RU: ЗиЛ-131, EN: ZiL-131 (источник: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_1)
+    числовой суффикс: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_2 -> ключ: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_2 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_2 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/ussr_zil_131_awning_ammo_carrier_2)
+    числовой суффикс: wheeled_vehicles/us_m35a2_awning_ammo_carrier_0 -> ключ: wheeled_vehicles/us_m35a2_awning_ammo_carrier_0 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_awning_ammo_carrier_0 -> RU: M35A2, EN: M35A2 (источник: wheeled_vehicles/us_m35a2_awning_ammo_carrier_0)
+    числовой суффикс: wheeled_vehicles/us_m35a2_awning_ammo_carrier_1 -> ключ: wheeled_vehicles/us_m35a2_awning_ammo_carrier_1 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_awning_ammo_carrier_1 -> RU: M35A2, EN: M35A2 (источник: wheeled_vehicles/us_m35a2_awning_ammo_carrier_1)
+    числовой суффикс: wheeled_vehicles/us_m35a2_awning_ammo_carrier_2 -> ключ: wheeled_vehicles/us_m35a2_awning_ammo_carrier_2 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_awning_ammo_carrier_2 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/us_m35a2_awning_ammo_carrier_2)
+    числовой суффикс: wheeled_vehicles/us_m35a2_awning_0 -> ключ: wheeled_vehicles/us_m35a2_awning_0 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_awning_0 -> RU: M35A2, EN: M35A2 (источник: wheeled_vehicles/us_m35a2_awning_0)
+    числовой суффикс: wheeled_vehicles/us_m35a2_awning_1 -> ключ: wheeled_vehicles/us_m35a2_awning_1 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_awning_1 -> RU: M35A2, EN: M35A2 (источник: wheeled_vehicles/us_m35a2_awning_1)
+    числовой суффикс: wheeled_vehicles/us_m35a2_awning_2 -> ключ: wheeled_vehicles/us_m35a2_awning_2 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_awning_2 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/us_m35a2_awning_2)
+    числовой суффикс: wheeled_vehicles/us_m35a2_fuel_carrier_0 -> ключ: wheeled_vehicles/us_m35a2_fuel_carrier_0 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_fuel_carrier_0 -> RU: M35A2, EN: M35A2 (источник: wheeled_vehicles/us_m35a2_fuel_carrier_0)
+    числовой суффикс: wheeled_vehicles/us_m35a2_fuel_carrier_1 -> ключ: wheeled_vehicles/us_m35a2_fuel_carrier_1 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_fuel_carrier_1 -> RU: M35A2, EN: M35A2 (источник: wheeled_vehicles/us_m35a2_fuel_carrier_1)
+    числовой суффикс: wheeled_vehicles/us_m35a2_fuel_carrier_2 -> ключ: wheeled_vehicles/us_m35a2_fuel_carrier_2 (приоритет: 10)
+    сохранено/обновлено: wheeled_vehicles/us_m35a2_fuel_carrier_2 -> RU: Автотранспорт, EN: Vehicle (источник: wheeled_vehicles/us_m35a2_fuel_carrier_2)
     числовой суффикс: wheeled_vehicles/ussr_kamaz_4310_awning_0 -> ключ: wheeled_vehicles/ussr_kamaz_4310_awning_0 (приоритет: 10)
     сохранено/обновлено: wheeled_vehicles/ussr_kamaz_4310_awning_0 -> RU: КАМАЗ-4310, EN: KAMAZ-4310 (источник: wheeled_vehicles/ussr_kamaz_4310_awning_0)
     числовой суффикс: wheeled_vehicles/ussr_kamaz_4310_awning_1 -> ключ: wheeled_vehicles/ussr_kamaz_4310_awning_1 (приоритет: 10)
@@ -11011,6 +11047,8 @@
     сохранено/обновлено: me-410a-1_u2_2 -> RU: Me 410, EN: Me 410 (источник: me-410a-1_u2_2)
     группа: shop/group/me-410a-1_group -> ключ: me-410a-1_group (приоритет: 1)
     сохранено/обновлено: me-410a-1_group -> RU: Me 410 A, EN: Me 410 A (источник: shop/group/me-410a-1_group)
+    группа: shop/group/me_210_410_group -> ключ: me_210_410_group (приоритет: 1)
+    сохранено/обновлено: me_210_410_group -> RU: Me 210/Me 410, EN: Me 210/Me 410 (источник: shop/group/me_210_410_group)
     _shop запись: me-410a-1_u4_shop -> ключ: me-410a-1_u4 (приоритет: 1)
     сохранено/обновлено: me-410a-1_u4 -> RU: Me 410 A-1/U4, EN: Me 410 A-1/U4 (источник: me-410a-1_u4_shop)
     числовой суффикс: me-410a-1_u4_0 -> ключ: me-410a-1_u4_0 (приоритет: 10)
@@ -12151,6 +12189,14 @@
     сохранено/обновлено: j_10c_1 -> RU: J-10C, EN: J-10C (источник: j_10c_1)
     числовой суффикс: j_10c_2 -> ключ: j_10c_2 (приоритет: 10)
     сохранено/обновлено: j_10c_2 -> RU: J-10, EN: J-10 (источник: j_10c_2)
+    _shop запись: j_10a_killstreak_shop -> ключ: j_10a_killstreak (приоритет: 1)
+    сохранено/обновлено: j_10a_killstreak -> RU: ☢J-10A, EN: ☢J-10A (источник: j_10a_killstreak_shop)
+    числовой суффикс: j_10a_killstreak_0 -> ключ: j_10a_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: j_10a_killstreak_0 -> RU: ☢J-10A, EN: ☢J-10A (источник: j_10a_killstreak_0)
+    числовой суффикс: j_10a_killstreak_1 -> ключ: j_10a_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: j_10a_killstreak_1 -> RU: ☢J-10A, EN: ☢J-10A (источник: j_10a_killstreak_1)
+    числовой суффикс: j_10a_killstreak_2 -> ключ: j_10a_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: j_10a_killstreak_2 -> RU: ☢J-10, EN: ☢J-10 (источник: j_10a_killstreak_2)
     _shop запись: q_5a_shop -> ключ: q_5a (приоритет: 1)
     сохранено/обновлено: q_5a -> RU: Q-5A, EN: Q-5A (источник: q_5a_shop)
     числовой суффикс: q_5a_0 -> ключ: q_5a_0 (приоритет: 10)
@@ -13841,6 +13887,22 @@
     сохранено/обновлено: f-105d_1 -> RU: F-105D, EN: F-105D (источник: f-105d_1)
     числовой суффикс: f-105d_2 -> ключ: f-105d_2 (приоритет: 10)
     сохранено/обновлено: f-105d_2 -> RU: F-105D, EN: F-105D (источник: f-105d_2)
+    _shop запись: f_105d_killstreak_shop -> ключ: f_105d_killstreak (приоритет: 1)
+    сохранено/обновлено: f_105d_killstreak -> RU: ☢F-105D, EN: ☢F-105D (источник: f_105d_killstreak_shop)
+    числовой суффикс: f_105d_killstreak_0 -> ключ: f_105d_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: f_105d_killstreak_0 -> RU: ☢F-105D Thunderchief, EN: ☢F-105D Thunderchief (источник: f_105d_killstreak_0)
+    числовой суффикс: f_105d_killstreak_1 -> ключ: f_105d_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: f_105d_killstreak_1 -> RU: ☢F-105D, EN: ☢F-105D (источник: f_105d_killstreak_1)
+    числовой суффикс: f_105d_killstreak_2 -> ключ: f_105d_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: f_105d_killstreak_2 -> RU: ☢F-105D, EN: ☢F-105D (источник: f_105d_killstreak_2)
+    _shop запись: f_105d_japan_killstreak_shop -> ключ: f_105d_japan_killstreak (приоритет: 1)
+    сохранено/обновлено: f_105d_japan_killstreak -> RU: ☢F-105D, EN: ☢F-105D (источник: f_105d_japan_killstreak_shop)
+    числовой суффикс: f_105d_japan_killstreak_0 -> ключ: f_105d_japan_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: f_105d_japan_killstreak_0 -> RU: ☢F-105D Thunderchief, EN: ☢F-105D Thunderchief (источник: f_105d_japan_killstreak_0)
+    числовой суффикс: f-105d_japan_killstreak_1 -> ключ: f-105d_japan_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: f-105d_japan_killstreak_1 -> RU: ☢F-105D, EN: ☢F-105D (источник: f-105d_japan_killstreak_1)
+    числовой суффикс: f-105d_japan_killstreak_2 -> ключ: f-105d_japan_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: f-105d_japan_killstreak_2 -> RU: ☢F-105D, EN: ☢F-105D (источник: f-105d_japan_killstreak_2)
     _shop запись: f_106a_1972_shop -> ключ: f_106a_1972 (приоритет: 1)
     сохранено/обновлено: f_106a_1972 -> RU: F-106A, EN: F-106A (источник: f_106a_1972_shop)
     числовой суффикс: f_106a_1972_0 -> ключ: f_106a_1972_0 (приоритет: 10)
@@ -14115,6 +14177,22 @@
     сохранено/обновлено: b-57b_1 -> RU: B-57, EN: B-57 (источник: b-57b_1)
     числовой суффикс: b-57b_2 -> ключ: b-57b_2 (приоритет: 10)
     сохранено/обновлено: b-57b_2 -> RU: B-57, EN: B-57 (источник: b-57b_2)
+    _shop запись: b_57b_killstreak_shop -> ключ: b_57b_killstreak (приоритет: 1)
+    сохранено/обновлено: b_57b_killstreak -> RU: ☢B-57B, EN: ☢B-57B (источник: b_57b_killstreak_shop)
+    числовой суффикс: b_57b_killstreak_0 -> ключ: b_57b_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: b_57b_killstreak_0 -> RU: ☢B-57B Canberra, EN: ☢B-57B Canberra (источник: b_57b_killstreak_0)
+    числовой суффикс: b_57b_killstreak_1 -> ключ: b_57b_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: b_57b_killstreak_1 -> RU: ☢B-57, EN: ☢B-57 (источник: b_57b_killstreak_1)
+    числовой суффикс: b_57b_killstreak_2 -> ключ: b_57b_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: b_57b_killstreak_2 -> RU: ☢B-57, EN: ☢B-57 (источник: b_57b_killstreak_2)
+    _shop запись: b_57b_japan_killstreak_shop -> ключ: b_57b_japan_killstreak (приоритет: 1)
+    сохранено/обновлено: b_57b_japan_killstreak -> RU: ☢B-57B, EN: ☢B-57B (источник: b_57b_japan_killstreak_shop)
+    числовой суффикс: b_57b_japan_killstreak_0 -> ключ: b_57b_japan_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: b_57b_japan_killstreak_0 -> RU: ☢B-57B Canberra, EN: ☢B-57B Canberra (источник: b_57b_japan_killstreak_0)
+    числовой суффикс: b_57b_japan_killstreak_1 -> ключ: b_57b_japan_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: b_57b_japan_killstreak_1 -> RU: ☢B-57, EN: ☢B-57 (источник: b_57b_japan_killstreak_1)
+    числовой суффикс: b_57b_japan_killstreak_2 -> ключ: b_57b_japan_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: b_57b_japan_killstreak_2 -> RU: ☢B-57, EN: ☢B-57 (источник: b_57b_japan_killstreak_2)
     _shop запись: b_66b_shop -> ключ: b_66b (приоритет: 1)
     сохранено/обновлено: b_66b -> RU: B-66B, EN: B-66B (источник: b_66b_shop)
     числовой суффикс: b_66b_0 -> ключ: b_66b_0 (приоритет: 10)
@@ -22223,6 +22301,14 @@
     сохранено/обновлено: f_16c_block_50_missile_test_1 -> RU: F-16C, EN: F-16C (источник: f_16c_block_50_missile_test_1)
     числовой суффикс: f_16c_block_50_missile_test_2 -> ключ: f_16c_block_50_missile_test_2 (приоритет: 10)
     сохранено/обновлено: f_16c_block_50_missile_test_2 -> RU: F-16, EN: F-16 (источник: f_16c_block_50_missile_test_2)
+    _shop запись: f_16xl_shop -> ключ: f_16xl (приоритет: 1)
+    сохранено/обновлено: f_16xl -> RU: F-16XL, EN: F-16XL (источник: f_16xl_shop)
+    числовой суффикс: f_16xl_0 -> ключ: f_16xl_0 (приоритет: 10)
+    сохранено/обновлено: f_16xl_0 -> RU: F-16XL-1, EN: F-16XL-1 (источник: f_16xl_0)
+    числовой суффикс: f_16xl_1 -> ключ: f_16xl_1 (приоритет: 10)
+    сохранено/обновлено: f_16xl_1 -> RU: F-16XL, EN: F-16XL (источник: f_16xl_1)
+    числовой суффикс: f_16xl_2 -> ключ: f_16xl_2 (приоритет: 10)
+    сохранено/обновлено: f_16xl_2 -> RU: F-16, EN: F-16 (источник: f_16xl_2)
     _shop запись: mi_24p_german_hfs80_shop -> ключ: mi_24p_german_hfs80 (приоритет: 1)
     сохранено/обновлено: mi_24p_german_hfs80 -> RU: ◄Mi-24P HFS 80, EN: ◄Mi-24P HFS 80 (источник: mi_24p_german_hfs80_shop)
     числовой суффикс: mi_24p_german_hfs80_0 -> ключ: mi_24p_german_hfs80_0 (приоритет: 10)
@@ -22379,6 +22465,14 @@
     сохранено/обновлено: tornado_ids_it_mod95_1 -> RU: ▄Tornado IDS, EN: ▄Tornado IDS (источник: tornado_ids_it_mod95_1)
     числовой суффикс: tornado_ids_it_mod95_2 -> ключ: tornado_ids_it_mod95_2 (приоритет: 10)
     сохранено/обновлено: tornado_ids_it_mod95_2 -> RU: ▄Tornado, EN: ▄Tornado (источник: tornado_ids_it_mod95_2)
+    _shop запись: tornado_ids_it_mod95_killstreak_shop -> ключ: tornado_ids_it_mod95_killstreak (приоритет: 1)
+    сохранено/обновлено: tornado_ids_it_mod95_killstreak -> RU: ☢Tornado IDS (1995), EN: ☢Tornado IDS (1995) (источник: tornado_ids_it_mod95_killstreak_shop)
+    числовой суффикс: tornado_ids_it_mod95_killstreak_0 -> ключ: tornado_ids_it_mod95_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: tornado_ids_it_mod95_killstreak_0 -> RU: ☢Tornado IDS (1995), EN: ☢Tornado IDS (1995) (источник: tornado_ids_it_mod95_killstreak_0)
+    числовой суффикс: tornado_ids_it_mod95_killstreak_1 -> ключ: tornado_ids_it_mod95_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: tornado_ids_it_mod95_killstreak_1 -> RU: ☢Tornado IDS, EN: ☢Tornado IDS (источник: tornado_ids_it_mod95_killstreak_1)
+    числовой суффикс: tornado_ids_it_mod95_killstreak_2 -> ключ: tornado_ids_it_mod95_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: tornado_ids_it_mod95_killstreak_2 -> RU: ☢Tornado, EN: ☢Tornado (источник: tornado_ids_it_mod95_killstreak_2)
     _shop запись: tornado_ids_it_ret8_shop -> ключ: tornado_ids_it_ret8 (приоритет: 1)
     сохранено/обновлено: tornado_ids_it_ret8 -> RU: ▄Tornado IDS MLU (RET.8), EN: ▄Tornado IDS MLU (RET.8) (источник: tornado_ids_it_ret8_shop)
     числовой суффикс: tornado_ids_it_ret8_0 -> ключ: tornado_ids_it_ret8_0 (приоритет: 10)
@@ -30915,6 +31009,14 @@
     сохранено/обновлено: ussr_cruiser_chervona_ukraina_1 -> RU: Червона Украина, EN: Chervona Ukraina (источник: ussr_cruiser_chervona_ukraina_1)
     числовой суффикс: ussr_cruiser_chervona_ukraina_2 -> ключ: ussr_cruiser_chervona_ukraina_2 (приоритет: 10)
     сохранено/обновлено: ussr_cruiser_chervona_ukraina_2 -> RU: Лёгкий крейсер, EN: Light cruiser (источник: ussr_cruiser_chervona_ukraina_2)
+    _shop запись: ussr_battleship_oktyabrskaya_revolutsiya_shop -> ключ: ussr_battleship_oktyabrskaya_revolutsiya (приоритет: 1)
+    сохранено/обновлено: ussr_battleship_oktyabrskaya_revolutsiya -> RU: Октябрьская Революция, EN: Oktyabrskaya Revolutsiya (источник: ussr_battleship_oktyabrskaya_revolutsiya_shop)
+    числовой суффикс: ussr_battleship_oktyabrskaya_revolutsiya_0 -> ключ: ussr_battleship_oktyabrskaya_revolutsiya_0 (приоритет: 10)
+    сохранено/обновлено: ussr_battleship_oktyabrskaya_revolutsiya_0 -> RU: Тип Севастополь, Октябрьская Революция, 1946, EN: Sevastopol-class, Oktyabrskaya Revolutsiya, 1946 (источник: ussr_battleship_oktyabrskaya_revolutsiya_0)
+    числовой суффикс: ussr_battleship_oktyabrskaya_revolutsiya_1 -> ключ: ussr_battleship_oktyabrskaya_revolutsiya_1 (приоритет: 10)
+    сохранено/обновлено: ussr_battleship_oktyabrskaya_revolutsiya_1 -> RU: Октябрьская Революция, EN: Oktyabrskaya Revolutsiya (источник: ussr_battleship_oktyabrskaya_revolutsiya_1)
+    числовой суффикс: ussr_battleship_oktyabrskaya_revolutsiya_2 -> ключ: ussr_battleship_oktyabrskaya_revolutsiya_2 (приоритет: 10)
+    сохранено/обновлено: ussr_battleship_oktyabrskaya_revolutsiya_2 -> RU: Линейный корабль, EN: Battleship (источник: ussr_battleship_oktyabrskaya_revolutsiya_2)
     _shop запись: cn_cm_34_shop -> ключ: cn_cm_34 (приоритет: 1)
     сохранено/обновлено: cn_cm_34 -> RU: CM34, EN: CM34 (источник: cn_cm_34_shop)
     числовой суффикс: cn_cm_34_0 -> ключ: cn_cm_34_0 (приоритет: 10)
@@ -31095,10 +31197,10 @@
     сохранено/обновлено: it_fiat_6616_ub_1 -> RU: FIAT 6616UB, EN: FIAT 6616UB (источник: it_fiat_6616_ub_1)
     числовой суффикс: it_fiat_6616_ub_2 -> ключ: it_fiat_6616_ub_2 (приоритет: 10)
     сохранено/обновлено: it_fiat_6616_ub_2 -> RU: Лёгкий танк, EN: Light tank (источник: it_fiat_6616_ub_2)
-Обработано строк: 15585
-Найдено записей для локализации: 15539
-Всего ключей в словаре: 15539
-Загружено 3586 ID из shop.csv
+Обработано строк: 15636
+Найдено записей для локализации: 15590
+Всего ключей в словаре: 15590
+Загружено 3588 ID из shop.csv
 Создание маппинга локализации...
     Поиск локализации для: us_m2a4
     Прямой поиск: us_m2a4 -> RU: M2A4, EN: M2A4
@@ -32252,6 +32354,9 @@
     Поиск локализации для: f_20a
     Прямой поиск: f_20a -> RU: F-20A, EN: F-20A
   Найдено: f_20a -> RU: F-20A, EN: F-20A
+    Поиск локализации для: f_16xl
+    Прямой поиск: f_16xl -> RU: F-16XL, EN: F-16XL
+  Найдено: f_16xl -> RU: F-16XL, EN: F-16XL
     Поиск локализации для: fa_18c_early
     Прямой поиск: fa_18c_early -> RU: F/A-18C Early, EN: F/A-18C Early
   Найдено: fa_18c_early -> RU: F/A-18C Early, EN: F/A-18C Early
@@ -33612,8 +33717,8 @@
     Прямой поиск: ju-87d-5 -> RU: Ju 87 D-5, EN: Ju 87 D-5
   Найдено: ju-87d-5 -> RU: Ju 87 D-5, EN: Ju 87 D-5
     Поиск локализации для: me_210_410_group
-    Fallback: me_210_410_group -> RU: me_210_410_group, EN: me_210_410_group
-  Не найдено: me_210_410_group -> RU: me_210_410_group (fallback), EN: me_210_410_group (fallback)
+    Прямой поиск: me_210_410_group -> RU: Me 210/Me 410, EN: Me 210/Me 410
+  Найдено: me_210_410_group -> RU: Me 210/Me 410, EN: Me 210/Me 410
     Поиск локализации для: me_210a_1
     Прямой поиск: me_210a_1 -> RU: Me 210 A-1, EN: Me 210 A-1
   Найдено: me_210a_1 -> RU: Me 210 A-1, EN: Me 210 A-1
@@ -35738,6 +35843,9 @@
     Поиск локализации для: ussr_cruiser_maxim_gorky
     Прямой поиск: ussr_cruiser_maxim_gorky -> RU: Максим Горький, EN: Maxim Gorky
   Найдено: ussr_cruiser_maxim_gorky -> RU: Максим Горький, EN: Maxim Gorky
+    Поиск локализации для: ussr_battleship_oktyabrskaya_revolutsiya
+    Прямой поиск: ussr_battleship_oktyabrskaya_revolutsiya -> RU: Октябрьская Революция, EN: Oktyabrskaya Revolutsiya
+  Найдено: ussr_battleship_oktyabrskaya_revolutsiya -> RU: Октябрьская Революция, EN: Oktyabrskaya Revolutsiya
     Поиск локализации для: ussr_g5_mtb
     Прямой поиск: ussr_g5_mtb -> RU: Г-5, EN: G-5
   Найдено: ussr_g5_mtb -> RU: Г-5, EN: G-5
@@ -37445,9 +37553,6 @@
     Поиск локализации для: jp_type_99
     Прямой поиск: jp_type_99 -> RU: Type 99, EN: Type 99
   Найдено: jp_type_99 -> RU: Type 99, EN: Type 99
-    Поиск локализации для: jp_type_5_ho_ri_production
-    Прямой поиск: jp_type_5_ho_ri_production -> RU: Ho-Ri Production, EN: Ho-Ri Production
-  Найдено: jp_type_5_ho_ri_production -> RU: Ho-Ri Production, EN: Ho-Ri Production
     Поиск локализации для: jp_type_16_mcv_prot
     Прямой поиск: jp_type_16_mcv_prot -> RU: Type 16 (P), EN: Type 16 (P)
   Найдено: jp_type_16_mcv_prot -> RU: Type 16 (P), EN: Type 16 (P)
@@ -37556,6 +37661,9 @@
     Поиск локализации для: jp_type_97_kai_td
     Прямой поиск: jp_type_97_kai_td -> RU: Chi-Ha Kai TD, EN: Chi-Ha Kai TD
   Найдено: jp_type_97_kai_td -> RU: Chi-Ha Kai TD, EN: Chi-Ha Kai TD
+    Поиск локализации для: jp_type_5_ho_ri_production
+    Прямой поиск: jp_type_5_ho_ri_production -> RU: Ho-Ri Production, EN: Ho-Ri Production
+  Найдено: jp_type_5_ho_ri_production -> RU: Ho-Ri Production, EN: Ho-Ri Production
     Поиск локализации для: uh_1b_japan
     Прямой поиск: uh_1b_japan -> RU: ▅UH-1B, EN: ▅UH-1B
   Найдено: uh_1b_japan -> RU: ▅UH-1B, EN: ▅UH-1B
@@ -41859,12 +41967,12 @@
     Прямой поиск: kfir_c10_colombia -> RU: ◡Kfir C.10, EN: ◡Kfir C.10
   Найдено: kfir_c10_colombia -> RU: ◡Kfir C.10, EN: ◡Kfir C.10
 Статистика локализации:
-  Найдено локализаций: 3585
-  Использован fallback: 1
-  Всего обработано: 3586
-Данные локализации (3586 записей) сохранены в localization.csv
+  Найдено локализаций: 3588
+  Использован fallback: 0
+  Всего обработано: 3588
+Данные локализации (3588 записей) сохранены в localization.csv
 Статистика сохранения:
-  Русских локализаций: 3585
-  Английских локализаций: 3585
-  Всего записей: 3586
+  Русских локализаций: 3588
+  Английских локализаций: 3588
+  Всего записей: 3588
 Парсинг локализации завершен успешно! Создан файл localization.csv

@@ -382,8 +382,9 @@ a_10a_early,6,usa,Авиация,vehicle,premium,0,3,,,True
 f-5c,7,usa,Авиация,vehicle,premium,0,0,,,True
 av_8b_na,7,usa,Авиация,vehicle,premium,0,1,,,False
 f-4s,7,usa,Авиация,vehicle,premium,0,2,,,True
-f_20a,8,usa,Авиация,vehicle,premium,0,0,,,True
-fa_18c_early,8,usa,Авиация,vehicle,premium,0,1,,,True
+f_20a,8,usa,Авиация,vehicle,premium,0,0,,,False
+f_16xl,8,usa,Авиация,vehicle,premium,0,1,,,True
+fa_18c_early,8,usa,Авиация,vehicle,premium,0,2,,,True
 p-26a_34,1,usa,Авиация,vehicle,premium,1,0,,,True
 p-36a_rasmussen,1,usa,Авиация,vehicle,premium,1,1,,,True
 b_10b,1,usa,Авиация,vehicle,premium,1,2,,,False
@@ -1545,6 +1546,7 @@ ussr_cruiser_omaha_class_murmansk,3,ussr,Большой флот,vehicle,premium
 ussr_destroyer_pr41_neustrashimy,3,ussr,Большой флот,vehicle,premium,1,2,,,False
 ussr_cruiser_voroshilov,4,ussr,Большой флот,vehicle,premium,1,0,,,True
 ussr_cruiser_maxim_gorky,5,ussr,Большой флот,vehicle,premium,1,0,,,True
+ussr_battleship_oktyabrskaya_revolutsiya,5,ussr,Большой флот,vehicle,premium,1,1,,,True
 ussr_g5_mtb,1,ussr,Малый флот,vehicle,standard,0,0,,,False
 ussr_d3,1,ussr,Малый флот,vehicle,standard,0,1,,,False
 ussr_pr_103_sm4,1,ussr,Малый флот,vehicle,standard,0,2,ussr_d3,,False
@@ -2114,8 +2116,7 @@ jp_m44,3,japan,Наземная техника,vehicle,standard,2,1,jp_type_5_na
 jp_m36b2_jgsdf,4,japan,Наземная техника,vehicle,standard,2,0,jp_m44,,False
 jp_type_75,4,japan,Наземная техника,vehicle,standard,2,1,jp_m36b2_jgsdf,,False
 jp_type_99,5,japan,Наземная техника,vehicle,standard,2,0,jp_type_75,,False
-jp_type_5_ho_ri_production,5,japan,Наземная техника,vehicle,standard,2,1,jp_type_99,,False
-jp_type_16_mcv_prot,6,japan,Наземная техника,vehicle,standard,2,0,jp_type_5_ho_ri_production,,False
+jp_type_16_mcv_prot,6,japan,Наземная техника,vehicle,standard,2,0,jp_type_99,,False
 jp_type_16,7,japan,Наземная техника,vehicle,standard,2,0,jp_type_16_mcv_prot,,False
 jp_type_94,1,japan,Наземная техника,vehicle,standard,3,0,,,False
 jp_type_98_ta_se,1,japan,Наземная техника,vehicle,standard,3,1,jp_type_94,,False
@@ -2141,7 +2142,7 @@ jp_type_1_chi_he_5th_regiment,2,japan,Наземная техника,vehicle,pr
 jp_type_3_chi_nu_75cm_type_5,3,japan,Наземная техника,vehicle,premium,0,0,,,False
 jp_pzkpfw_vi_ausf_e_tiger,4,japan,Наземная техника,vehicle,premium,0,0,,,True
 jp_type_61_mod,4,japan,Наземная техника,vehicle,premium,0,1,,,True
-jp_type_5_ho_ri_prototype,4,japan,Наземная техника,vehicle,premium,0,2,,,False
+jp_type_5_ho_ri_prototype,4,japan,Наземная техника,vehicle,premium,0,2,,,True
 jp_type_75_mlrs,5,japan,Наземная техника,vehicle,premium,0,0,,,False
 jp_type_74_red_star,5,japan,Наземная техника,vehicle,premium,0,1,,,True
 jp_type_74_mod_g_kai,6,japan,Наземная техника,vehicle,premium,0,0,,,False
@@ -2151,6 +2152,7 @@ jp_type_90b_camo,7,japan,Наземная техника,vehicle,premium,0,1,,,T
 jp_type_90b_sm,7,japan,Наземная техника,vehicle,premium,0,2,,,True
 jp_type_3_ka_chi,1,japan,Наземная техника,vehicle,premium,1,0,,,True
 jp_type_97_kai_td,2,japan,Наземная техника,vehicle,premium,1,0,,,True
+jp_type_5_ho_ri_production,5,japan,Наземная техника,vehicle,premium,1,0,,,True
 uh_1b_japan,5,japan,Вертолёты,vehicle,standard,0,0,,,False
 ah_1s_early,6,japan,Вертолёты,vehicle,standard,0,0,uh_1b_japan,,False
 ah_1s_late,6,japan,Вертолёты,vehicle,standard,0,1,ah_1s_early,,False
@@ -2304,7 +2306,7 @@ f-86f-40_japan_blue_impulse,5,japan,Авиация,vehicle,premium,0,0,,,False
 t2_early,6,japan,Авиация,vehicle,premium,0,0,,,False
 av_8s_thailand,6,japan,Авиация,vehicle,premium,0,1,,,False
 f-5e_fcu_thailand,7,japan,Авиация,vehicle,premium,0,0,,,True
-hawk_209_indonesia,7,japan,Авиация,vehicle,premium,0,1,,,True
+hawk_209_indonesia,7,japan,Авиация,vehicle,premium,0,1,,,False
 f_2a_adtw,8,japan,Авиация,vehicle,premium,0,0,,,True
 e7k2,1,japan,Авиация,vehicle,premium,1,0,,,True
 e8n2,1,japan,Авиация,vehicle,premium,1,1,,,True
@@ -2737,7 +2739,7 @@ it_sherman_75_37,3,italy,Наземная техника,vehicle,premium,0,1,,,F
 it_pzkpfw_iv_ausf_g,3,italy,Наземная техника,vehicle,premium,0,2,,,False
 it_pzkpfw_vi_ausf_e_tiger,4,italy,Наземная техника,vehicle,premium,0,0,,,False
 it_m26_ariete,4,italy,Наземная техника,vehicle,premium,0,1,,,False
-it_pzh_2000_hu,5,italy,Наземная техника,vehicle,premium,0,0,,,True
+it_pzh_2000_hu,5,italy,Наземная техника,vehicle,premium,0,0,,,False
 it_m60a1_ariete,5,italy,Наземная техника,vehicle,premium,0,1,,,False
 it_of_40_mtca,6,italy,Наземная техника,vehicle,premium,0,0,,,False
 it_vrcc_centauro,6,italy,Наземная техника,vehicle,premium,0,1,,,False

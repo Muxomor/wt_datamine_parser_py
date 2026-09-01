@@ -383,6 +383,7 @@ f-5c,F-5C,F-5C
 av_8b_na,AV-8B (NA),AV-8B (NA)
 f-4s,F-4S Phantom II,F-4S Phantom II
 f_20a,F-20A,F-20A
+f_16xl,F-16XL,F-16XL
 fa_18c_early,F/A-18C Early,F/A-18C Early
 p-26a_34,P-26A-34,P-26A-34
 p-36a_rasmussen,P-36A Расмуссена,Rasmussen's P-36A
@@ -836,7 +837,7 @@ hs-129b-2,Hs 129 B-2,Hs 129 B-2
 ju-87d_group,Ju 87 D,Ju 87 D
 ju-87d-3,Ju 87 D-3,Ju 87 D-3
 ju-87d-5,Ju 87 D-5,Ju 87 D-5
-me_210_410_group,me_210_410_group,me_210_410_group
+me_210_410_group,Me 210/Me 410,Me 210/Me 410
 me_210a_1,Me 210 A-1,Me 210 A-1
 me-410a-1_u4,Me 410 A-1/U4,Me 410 A-1/U4
 me-410b-2_u4,Me 410 B-2/U4,Me 410 B-2/U4
@@ -1545,6 +1546,7 @@ ussr_cruiser_omaha_class_murmansk,Мурманск,Murmansk
 ussr_destroyer_pr41_neustrashimy,Неустрашимый,Neustrashimy
 ussr_cruiser_voroshilov,Ворошилов,Voroshilov
 ussr_cruiser_maxim_gorky,Максим Горький,Maxim Gorky
+ussr_battleship_oktyabrskaya_revolutsiya,Октябрьская Революция,Oktyabrskaya Revolutsiya
 ussr_g5_mtb,Г-5,G-5
 ussr_d3,Д-3,D-3
 ussr_pr_103_sm4,СМ-4,SM-4
@@ -2114,7 +2116,6 @@ jp_m44,▅M44,▅M44
 jp_m36b2_jgsdf,▅M36,▅M36
 jp_type_75,Type 75 SPH,Type 75 SPH
 jp_type_99,Type 99,Type 99
-jp_type_5_ho_ri_production,Ho-Ri Production,Ho-Ri Production
 jp_type_16_mcv_prot,Type 16 (P),Type 16 (P)
 jp_type_16,Type 16,Type 16
 jp_type_94,Type 94,Type 94
@@ -2151,6 +2152,7 @@ jp_type_90b_camo,"Type 90 (B) ""Fuji""","Type 90 (B) ""Fuji"""
 jp_type_90b_sm,◍Type 90 (B),◍Type 90 (B)
 jp_type_3_ka_chi,Ka-Chi,Ka-Chi
 jp_type_97_kai_td,Chi-Ha Kai TD,Chi-Ha Kai TD
+jp_type_5_ho_ri_production,Ho-Ri Production,Ho-Ri Production
 uh_1b_japan,▅UH-1B,▅UH-1B
 ah_1s_early,▅AH-1E,▅AH-1E
 ah_1s_late,AH-1S,AH-1S

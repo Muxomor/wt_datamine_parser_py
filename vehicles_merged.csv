@@ -383,7 +383,8 @@ f-5c,F-5C,F-5C,usa,10.7,0,7,Авиация,vehicle,,premium,https://static.encyc
 av_8b_na,AV-8B (NA),AV-8B (NA),usa,11.3,0,7,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/av_8b_na.png,,0,1,
 f-4s,F-4S Phantom II,F-4S Phantom II,usa,12.0,0,7,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/f-4s.png,,0,2,
 f_20a,F-20A,F-20A,usa,12.3,0,8,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/f_20a.png,,0,0,
-fa_18c_early,F/A-18C Early,F/A-18C Early,usa,12.7,0,8,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/fa_18c_early.png,,0,1,
+f_16xl,F-16XL,F-16XL,usa,13.0,0,8,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/f_16xl.png,,0,1,
+fa_18c_early,F/A-18C Early,F/A-18C Early,usa,12.7,0,8,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/fa_18c_early.png,,0,2,
 p-26a_34,P-26A-34,P-26A-34,usa,1.0,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/p-26a_34.png,,1,0,
 p-36a_rasmussen,P-36A Расмуссена,Rasmussen's P-36A,usa,1.3,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/p-36a_rasmussen.png,,1,1,
 b_10b,B-10B,B-10B,usa,1.3,0,1,Авиация,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/b_10b.png,,1,2,
@@ -836,7 +837,7 @@ hs-129b-2,Hs 129 B-2,Hs 129 B-2,germany,2.3,16000,2,Авиация,vehicle,4600,
 ju-87d_group,Ju 87 D,Ju 87 D,germany,,,2,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/ju-87d_group.png,hs-129_group,3,1,
 ju-87d-3,Ju 87 D-3,Ju 87 D-3,germany,2.0,16000,2,Авиация,vehicle,9200,standard,https://static.encyclopedia.warthunder.com/slots/ju-87d-3.png,ju-87d_group,3,1,0
 ju-87d-5,Ju 87 D-5,Ju 87 D-5,germany,3.3,22000,2,Авиация,vehicle,5600,standard,https://static.encyclopedia.warthunder.com/slots/ju-87d-5.png,ju-87d-3,3,1,1
-me_210_410_group,me_210_410_group,me_210_410_group,germany,,,2,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/me_210_410_group.png,ju-87d_group,3,2,
+me_210_410_group,Me 210/Me 410,Me 210/Me 410,germany,,,2,Авиация,folder,,standard,https://static.encyclopedia.warthunder.com/slots/me_210_410_group.png,ju-87d_group,3,2,
 me_210a_1,Me 210 A-1,Me 210 A-1,germany,2.7,22000,2,Авиация,vehicle,11000,standard,https://static.encyclopedia.warthunder.com/slots/me_210a_1.png,me_210_410_group,3,2,0
 me-410a-1_u4,Me 410 A-1/U4,Me 410 A-1/U4,germany,2.7,32000,2,Авиация,vehicle,6900,standard,https://static.encyclopedia.warthunder.com/slots/me-410a-1_u4.png,me_210a_1,3,2,1
 me-410b-2_u4,Me 410 B-2/U4,Me 410 B-2/U4,germany,3.0,32000,2,Авиация,vehicle,6900,standard,https://static.encyclopedia.warthunder.com/slots/me-410b-2_u4.png,me-410a-1_u4,3,2,2
@@ -1545,6 +1546,7 @@ ussr_cruiser_omaha_class_murmansk,Мурманск,Murmansk,ussr,5.0,0,3,Бол�
 ussr_destroyer_pr41_neustrashimy,Неустрашимый,Neustrashimy,ussr,5.3,0,3,Большой флот,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_destroyer_pr41_neustrashimy.png,,1,2,
 ussr_cruiser_voroshilov,Ворошилов,Voroshilov,ussr,5.7,0,4,Большой флот,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_voroshilov.png,,1,0,
 ussr_cruiser_maxim_gorky,Максим Горький,Maxim Gorky,ussr,5.7,0,5,Большой флот,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_cruiser_maxim_gorky.png,,1,0,
+ussr_battleship_oktyabrskaya_revolutsiya,Октябрьская Революция,Oktyabrskaya Revolutsiya,ussr,6.7,0,5,Большой флот,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/ussr_battleship_oktyabrskaya_revolutsiya.png,,1,1,
 ussr_g5_mtb,Г-5,G-5,ussr,1.0,0,1,Малый флот,vehicle,,standard,https://static.encyclopedia.warthunder.com/slots/ussr_g5_mtb.png,,0,0,
 ussr_d3,Д-3,D-3,ussr,1.0,0,1,Малый флот,vehicle,,standard,https://static.encyclopedia.warthunder.com/slots/ussr_d3.png,,0,1,
 ussr_pr_103_sm4,СМ-4,SM-4,ussr,1.3,700,1,Малый флот,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/ussr_pr_103_sm4.png,ussr_d3,0,2,
@@ -2114,8 +2116,7 @@ jp_m44,▅M44,▅M44,japan,3.7,76000,3,Наземная техника,vehicle,2
 jp_m36b2_jgsdf,▅M36,▅M36,japan,5.7,155000,4,Наземная техника,vehicle,46000,standard,https://static.encyclopedia.warthunder.com/slots/jp_m36b2_jgsdf.png,jp_m44,2,0,
 jp_type_75,Type 75 SPH,Type 75 SPH,japan,6.3,200000,4,Наземная техника,vehicle,63000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_75.png,jp_m36b2_jgsdf,2,1,
 jp_type_99,Type 99,Type 99,japan,7.3,240000,5,Наземная техника,vehicle,82000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_99.png,jp_type_75,2,0,
-jp_type_5_ho_ri_production,Ho-Ri Production,Ho-Ri Production,japan,7.3,270000,5,Наземная техника,vehicle,95000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_production.png,jp_type_99,2,1,
-jp_type_16_mcv_prot,Type 16 (P),Type 16 (P),japan,9.3,520000,6,Наземная техника,vehicle,190000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_16_mcv_prot.png,jp_type_5_ho_ri_production,2,0,
+jp_type_16_mcv_prot,Type 16 (P),Type 16 (P),japan,9.3,520000,6,Наземная техника,vehicle,190000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_16_mcv_prot.png,jp_type_99,2,0,
 jp_type_16,Type 16,Type 16,japan,9.7,710000,7,Наземная техника,vehicle,260000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_16.png,jp_type_16_mcv_prot,2,0,
 jp_type_94,Type 94,Type 94,japan,1.3,700,1,Наземная техника,vehicle,2900,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_94.png,,3,0,
 jp_type_98_ta_se,Ta-Se,Ta-Se,japan,1.7,2100,1,Наземная техника,vehicle,4000,standard,https://static.encyclopedia.warthunder.com/slots/jp_type_98_ta_se.png,jp_type_94,3,1,
@@ -2151,6 +2152,7 @@ jp_type_90b_camo,"Type 90 (B) ""Fuji""","Type 90 (B) ""Fuji""",japan,11.7,0,7,Н
 jp_type_90b_sm,◍Type 90 (B),◍Type 90 (B),japan,11.7,0,7,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/jp_type_90b_sm.png,,0,2,
 jp_type_3_ka_chi,Ka-Chi,Ka-Chi,japan,2.0,0,1,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/jp_type_3_ka_chi.png,,1,0,
 jp_type_97_kai_td,Chi-Ha Kai TD,Chi-Ha Kai TD,japan,2.3,0,2,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/jp_type_97_kai_td.png,,1,0,
+jp_type_5_ho_ri_production,Ho-Ri Production,Ho-Ri Production,japan,7.3,0,5,Наземная техника,vehicle,,premium,https://static.encyclopedia.warthunder.com/slots/jp_type_5_ho_ri_production.png,,1,0,
 uh_1b_japan,▅UH-1B,▅UH-1B,japan,7.7,390000,5,Вертолёты,vehicle,,standard,https://static.encyclopedia.warthunder.com/slots/uh_1b_japan.png,,0,0,
 ah_1s_early,▅AH-1E,▅AH-1E,japan,9.3,980000,6,Вертолёты,vehicle,360000,standard,https://static.encyclopedia.warthunder.com/slots/ah_1s_early.png,uh_1b_japan,0,0,
 ah_1s_late,AH-1S,AH-1S,japan,9.7,1000000,6,Вертолёты,vehicle,380000,standard,https://static.encyclopedia.warthunder.com/slots/ah_1s_late.png,ah_1s_early,0,1,

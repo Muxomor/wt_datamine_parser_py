@@ -1350,8 +1350,7 @@ jp_m44,jp_type_5_na_to
 jp_m36b2_jgsdf,jp_m44
 jp_type_75,jp_m36b2_jgsdf
 jp_type_99,jp_type_75
-jp_type_5_ho_ri_production,jp_type_99
-jp_type_16_mcv_prot,jp_type_5_ho_ri_production
+jp_type_16_mcv_prot,jp_type_99
 jp_type_16,jp_type_16_mcv_prot
 jp_type_98_ta_se,jp_type_94
 jp_type_95_so_ki,jp_halftrack_m16

@@ -332,6 +332,7 @@ f-5c,0,,10.7
 av_8b_na,0,,11.3
 f-4s,0,,12
 f_20a,0,,12.3
+f_16xl,0,,13
 fa_18c_early,0,,12.7
 p-26a_34,0,,1.0
 p-36a_rasmussen,0,,1.3
@@ -1360,6 +1361,7 @@ ussr_cruiser_omaha_class_murmansk,0,,5
 ussr_destroyer_pr41_neustrashimy,0,,5.3
 ussr_cruiser_voroshilov,0,,5.7
 ussr_cruiser_maxim_gorky,0,,5.7
+ussr_battleship_oktyabrskaya_revolutsiya,0,,6.7
 ussr_g5_mtb,0,,1.0
 ussr_d3,0,,1.0
 ussr_pr_103_sm4,700,2900,1.3
@@ -1864,7 +1866,6 @@ jp_m44,76000,26000,3.7
 jp_m36b2_jgsdf,155000,46000,5.7
 jp_type_75,200000,63000,6.3
 jp_type_99,240000,82000,7.3
-jp_type_5_ho_ri_production,270000,95000,7.3
 jp_type_16_mcv_prot,520000,190000,9.3
 jp_type_16,710000,260000,9.7
 jp_type_94,700,2900,1.3
@@ -1901,6 +1902,7 @@ jp_type_90b_camo,0,,11.7
 jp_type_90b_sm,0,,11.7
 jp_type_3_ka_chi,0,,2
 jp_type_97_kai_td,0,,2.3
+jp_type_5_ho_ri_production,0,,7.3
 uh_1b_japan,390000,,7.7
 ah_1s_early,980000,360000,9.3
 ah_1s_late,1000000,380000,9.7

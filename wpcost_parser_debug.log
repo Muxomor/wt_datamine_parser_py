@@ -6,9 +6,9 @@
 Данные wpcost успешно загружены с попытки 2
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3586
-  Премиумных юнитов: 986
-  Обычных юнитов: 2600
+  Всего строк в CSV: 3588
+  Премиумных юнитов: 989
+  Обычных юнитов: 2599
 Используем предзагруженные данные wpcost.blkx
 Начинаем обработку данных wpcost...
 Нормализован ID: 'uk_challenger_II_yt_cup_2019' -> 'uk_challenger_ii_yt_cup_2019'
@@ -121,10 +121,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3337
-  Нормализованных ID: 3337
+  Исходных ID: 3347
+  Нормализованных ID: 3347
   Конфликтов: 0
-В wpcost найдено 3337 юнитов после нормализации
+В wpcost найдено 3347 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -1047,10 +1047,14 @@
   Премиумный юнит f-4s: silver=0, exp=None (обнулено)
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан f-4s (премиум): silver=0, exp=None, br=12
-  Обрабатываем премиумный юнит: f_20a (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: f_20a (status=premium, have_prem_flag=False)
   Премиумный юнит f_20a: silver=0, exp=None (обнулено)
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан f_20a (премиум): silver=0, exp=None, br=12.3
+  Обрабатываем премиумный юнит: f_16xl (status=premium, have_prem_flag=True)
+  Премиумный юнит f_16xl: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=36, raw=13.000, округлено=13
+  Обработан f_16xl (премиум): silver=0, exp=None, br=13
   Обрабатываем премиумный юнит: fa_18c_early (status=premium, have_prem_flag=True)
   Премиумный юнит fa_18c_early: silver=0, exp=None (обнулено)
     БР расчет: economicRank=35, raw=12.667, округлено=12.7
@@ -4050,6 +4054,10 @@
   Премиумный юнит ussr_cruiser_maxim_gorky: silver=0, exp=None (обнулено)
     БР расчет: economicRank=14, raw=5.667, округлено=5.7
   Обработан ussr_cruiser_maxim_gorky (премиум): silver=0, exp=None, br=5.7
+  Обрабатываем премиумный юнит: ussr_battleship_oktyabrskaya_revolutsiya (status=premium, have_prem_flag=True)
+  Премиумный юнит ussr_battleship_oktyabrskaya_revolutsiya: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=17, raw=6.667, округлено=6.7
+  Обработан ussr_battleship_oktyabrskaya_revolutsiya (премиум): silver=0, exp=None, br=6.7
     reqExp отсутствует или некорректно для ussr_g5_mtb, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан ussr_g5_mtb: silver=0, exp=None, br=1.0
@@ -5424,8 +5432,6 @@
   Обработан jp_type_75: silver=200000, exp=63000, br=6.3
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
   Обработан jp_type_99: silver=240000, exp=82000, br=7.3
-    БР расчет: economicRank=19, raw=7.333, округлено=7.3
-  Обработан jp_type_5_ho_ri_production: silver=270000, exp=95000, br=7.3
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан jp_type_16_mcv_prot: silver=520000, exp=190000, br=9.3
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
@@ -5492,7 +5498,7 @@
   Премиумный юнит jp_type_61_mod: silver=0, exp=None (обнулено)
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан jp_type_61_mod (премиум): silver=0, exp=None, br=6.7
-  Обрабатываем премиумный юнит: jp_type_5_ho_ri_prototype (status=premium, have_prem_flag=False)
+  Обрабатываем премиумный юнит: jp_type_5_ho_ri_prototype (status=premium, have_prem_flag=True)
   Премиумный юнит jp_type_5_ho_ri_prototype: silver=0, exp=None (обнулено)
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан jp_type_5_ho_ri_prototype (премиум): silver=0, exp=None, br=6.7
@@ -5532,6 +5538,10 @@
   Премиумный юнит jp_type_97_kai_td: silver=0, exp=None (обнулено)
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан jp_type_97_kai_td (премиум): silver=0, exp=None, br=2.3
+  Обрабатываем премиумный юнит: jp_type_5_ho_ri_production (status=premium, have_prem_flag=True)
+  Премиумный юнит jp_type_5_ho_ri_production: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=19, raw=7.333, округлено=7.3
+  Обработан jp_type_5_ho_ri_production (премиум): silver=0, exp=None, br=7.3
     reqExp отсутствует или некорректно для uh_1b_japan, установлено None
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
   Обработан uh_1b_japan: silver=390000, exp=None, br=7.7
@@ -5871,7 +5881,7 @@
   Премиумный юнит f-5e_fcu_thailand: silver=0, exp=None (обнулено)
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан f-5e_fcu_thailand (премиум): silver=0, exp=None, br=11.3
-  Обрабатываем премиумный юнит: hawk_209_indonesia (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: hawk_209_indonesia (status=premium, have_prem_flag=False)
   Премиумный юнит hawk_209_indonesia: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан hawk_209_indonesia (премиум): silver=0, exp=None, br=10.7
@@ -6915,7 +6925,7 @@
   Премиумный юнит it_m26_ariete: silver=0, exp=None (обнулено)
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан it_m26_ariete (премиум): silver=0, exp=None, br=6.7
-  Обрабатываем премиумный юнит: it_pzh_2000_hu (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: it_pzh_2000_hu (status=premium, have_prem_flag=False)
   Премиумный юнит it_pzh_2000_hu: silver=0, exp=None (обнулено)
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
   Обработан it_pzh_2000_hu (премиум): silver=0, exp=None, br=7.7
@@ -8945,13 +8955,13 @@
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13.3
 Статистика обработки wpcost:
-  Найдено и обработано: 3193
-  Из них премиумных (с обнуленными silver/exp): 979
+  Найдено и обработано: 3195
+  Из них премиумных (с обнуленными silver/exp): 982
   Не найдено в wpcost (пропущено): 393
-  Всего ID из shop.csv: 3586
-Данные wpcost (3193 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3588
+Данные wpcost (3195 записей) сохранены в wpcost.csv
 Статистика данных:
-  Записей с опытом (exp): 2132
+  Записей с опытом (exp): 2131
   Записей с fallback БР (1.0): 157
-  Всего записей: 3193
+  Всего записей: 3195
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv
