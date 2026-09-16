@@ -41,6 +41,7 @@ us_m60_120s,7,usa,Наземная техника,vehicle,standard,1,0,us_m60a3_
 us_m1a1_hc_abrams,7,usa,Наземная техника,vehicle,standard,1,1,us_m60_120s,,False
 us_lvt_a_1,1,usa,Наземная техника,vehicle,standard,2,0,,,False
 us_m22_locust,1,usa,Наземная техника,vehicle,standard,2,1,us_lvt_a_1,,False
+us_m7,2,usa,Наземная техника,vehicle,standard,2,0,us_m22_locust,,False
 us_m6_group,3,usa,Наземная техника,folder,standard,2,0,,,False
 us_m6a1,3,usa,Наземная техника,vehicle,standard,2,0,us_m6_group,0,False
 us_t1e1,3,usa,Наземная техника,vehicle,standard,2,0,us_m6a1,1,False
@@ -129,7 +130,6 @@ us_m46_patton_73_armor_bat,4,usa,Наземная техника,vehicle,premium
 us_m728,5,usa,Наземная техника,vehicle,premium,0,0,,,False
 us_t54e2,5,usa,Наземная техника,vehicle,premium,0,1,,,False
 us_t54e1,5,usa,Наземная техника,vehicle,premium,0,2,,,False
-us_t58,5,usa,Наземная техника,vehicle,premium,0,3,,,True
 us_m901_itv,6,usa,Наземная техника,vehicle,premium,0,0,,,True
 us_m60a1_rise_mod,6,usa,Наземная техника,vehicle,premium,0,1,,,True
 us_xm1_chrysler,6,usa,Наземная техника,vehicle,premium,0,2,,,True
@@ -158,6 +158,7 @@ us_m6a2e1,4,usa,Наземная техника,vehicle,premium,1,3,,,True
 us_t29,4,usa,Наземная техника,vehicle,premium,1,4,,,True
 us_t114,5,usa,Наземная техника,vehicle,premium,1,0,,,False
 us_magach_3,5,usa,Наземная техника,vehicle,premium,1,1,,,True
+us_t58,5,usa,Наземная техника,vehicle,premium,1,2,,,True
 us_efv_p1,6,usa,Наземная техника,vehicle,premium,1,0,,,True
 us_merkava_mk_1,6,usa,Наземная техника,vehicle,premium,1,1,,,True
 us_merkava_mk_2b_late,6,usa,Наземная техника,vehicle,premium,1,2,,,True
@@ -207,10 +208,11 @@ p-38l,3,usa,Авиация,vehicle,standard,0,2,p-38j,1,False
 f-82e,4,usa,Авиация,vehicle,standard,0,0,p-38_late_group,,False
 f-80a,5,usa,Авиация,vehicle,standard,0,0,f-82e,,False
 f-80,5,usa,Авиация,vehicle,standard,0,1,f-80a,,False
-f_101c,6,usa,Авиация,vehicle,standard,0,0,f-80,,False
-f-104_group,6,usa,Авиация,folder,standard,0,1,f_101c,,False
-f-104a,6,usa,Авиация,vehicle,standard,0,1,f-104_group,0,False
-f-104c,6,usa,Авиация,vehicle,standard,0,1,f-104a,1,False
+f_102a_late,6,usa,Авиация,vehicle,standard,0,0,f-80,,False
+f_101c,6,usa,Авиация,vehicle,standard,0,1,f_102a_late,,False
+f-104_group,6,usa,Авиация,folder,standard,0,2,f_101c,,False
+f-104a,6,usa,Авиация,vehicle,standard,0,2,f-104_group,0,False
+f-104c,6,usa,Авиация,vehicle,standard,0,2,f-104a,1,False
 f-5e,7,usa,Авиация,vehicle,standard,0,0,f-104_group,,False
 f_16_group,8,usa,Авиация,folder,standard,0,0,f-5e,,False
 f_16a_block_10,8,usa,Авиация,vehicle,standard,0,0,f_16_group,0,False
@@ -284,6 +286,7 @@ fa_18c_late,8,usa,Авиация,vehicle,standard,2,0,fa_18a,1,False
 f_14_group,8,usa,Авиация,folder,standard,2,1,f_18_group,,False
 f_14a_early,8,usa,Авиация,vehicle,standard,2,1,f_14_group,0,False
 f_14b,8,usa,Авиация,vehicle,standard,2,1,f_14a_early,1,False
+f_14d_vf_11,8,usa,Авиация,vehicle,standard,2,1,f_14b,2,False
 fa_18e_block_2,9,usa,Авиация,vehicle,standard,2,0,f_14_group,,False
 os2u_group,1,usa,Авиация,folder,standard,3,0,,,False
 os2u_1,1,usa,Авиация,vehicle,standard,3,0,,0,False
@@ -383,8 +386,8 @@ f-5c,7,usa,Авиация,vehicle,premium,0,0,,,True
 av_8b_na,7,usa,Авиация,vehicle,premium,0,1,,,False
 f-4s,7,usa,Авиация,vehicle,premium,0,2,,,True
 f_20a,8,usa,Авиация,vehicle,premium,0,0,,,False
-f_16xl,8,usa,Авиация,vehicle,premium,0,1,,,True
-fa_18c_early,8,usa,Авиация,vehicle,premium,0,2,,,True
+fa_18c_early,8,usa,Авиация,vehicle,premium,0,1,,,True
+f_14d,8,usa,Авиация,vehicle,premium,0,2,,,True
 p-26a_34,1,usa,Авиация,vehicle,premium,1,0,,,True
 p-36a_rasmussen,1,usa,Авиация,vehicle,premium,1,1,,,True
 b_10b,1,usa,Авиация,vehicle,premium,1,2,,,False
@@ -418,11 +421,12 @@ f_106a_1972,6,usa,Авиация,vehicle,premium,1,4,,,True
 f-5a,7,usa,Авиация,vehicle,premium,1,0,,,True
 a_6e_tram,7,usa,Авиация,vehicle,premium,1,1,,,False
 a_7k,7,usa,Авиация,vehicle,premium,1,2,,,True
-f_14a_iriaf,8,usa,Авиация,vehicle,premium,1,0,,,True
-f_14d,8,usa,Авиация,vehicle,premium,1,1,,,True
+f_16xl,8,usa,Авиация,vehicle,premium,1,0,,,True
+f_14a_iriaf,8,usa,Авиация,vehicle,premium,1,1,,,True
 us_destroyer_clemson_litchfield,1,usa,Большой флот,vehicle,standard,0,0,,,False
 us_destroyer_farragut_1942,1,usa,Большой флот,vehicle,standard,0,1,us_destroyer_clemson_litchfield,,False
-us_destroyer_fletcher,2,usa,Большой флот,vehicle,standard,0,0,us_destroyer_farragut_1942,,False
+us_destroyer_mahan_class,2,usa,Большой флот,vehicle,standard,0,0,us_destroyer_farragut_1942,,False
+us_destroyer_fletcher,2,usa,Большой флот,vehicle,standard,0,1,us_destroyer_mahan_class,,False
 us_destroyer_porter_1941,3,usa,Большой флот,vehicle,standard,0,0,us_destroyer_fletcher,,False
 us_destroyer_somers,3,usa,Большой флот,vehicle,standard,0,1,us_destroyer_porter_1941,,False
 us_destroyer_cf_adams_class_cf_adams,4,usa,Большой флот,vehicle,standard,0,0,us_destroyer_somers,,False
@@ -566,6 +570,7 @@ germ_kpz_70,6,germany,Наземная техника,vehicle,standard,1,1,germ_
 germ_mkpz_super_m48,6,germany,Наземная техника,vehicle,standard,1,1,germ_kpz_70,1,False
 germ_kpz_t72m1,6,germany,Наземная техника,vehicle,standard,1,2,germ_kpz_super_group,,False
 germ_leopard_2k,7,germany,Наземная техника,vehicle,standard,1,0,germ_kpz_t72m1,,False
+germ_embt,8,germany,Наземная техника,vehicle,standard,1,0,germ_leopard_2k,,False
 germ_a7v,1,germany,Наземная техника,vehicle,standard,2,0,,,True
 germ_pzkpfw_iv_ausf_c,1,germany,Наземная техника,vehicle,standard,2,1,,,False
 germ_pzkpfw_ii_early_group,1,germany,Наземная техника,folder,standard,2,2,germ_pzkpfw_iv_ausf_c,,False
@@ -634,11 +639,11 @@ germ_pzkpfw_38t_marder_iii_ausf_h,2,germany,Наземная техника,vehi
 germ_stuh_iii_ausf_g,2,germany,Наземная техника,vehicle,standard,4,0,germ_pzkpfw_38t_marder_iii_ausf_h,1,False
 germ_stug_iii_ausf_f,2,germany,Наземная техника,vehicle,standard,4,0,germ_stuh_iii_ausf_g,2,False
 germ_hummel,2,germany,Наземная техника,vehicle,standard,4,1,germ_marder_stuh_group,,False
-germ_stug_iii_ausf_g,2,germany,Наземная техника,vehicle,standard,4,2,germ_hummel,,False
-germ_m44_55_group,3,germany,Наземная техника,folder,standard,4,0,germ_stug_iii_ausf_g,,False
-germ_m44,3,germany,Наземная техника,vehicle,standard,4,0,germ_m44_55_group,0,False
-germ_m55,3,germany,Наземная техника,vehicle,standard,4,0,germ_m44,1,False
-germ_jagdpanzer_group,3,germany,Наземная техника,folder,standard,4,1,germ_m44_55_group,,False
+germ_m44_55_group,2,germany,Наземная техника,folder,standard,4,2,germ_hummel,,False
+germ_m44,2,germany,Наземная техника,vehicle,standard,4,2,germ_m44_55_group,0,False
+germ_m55,2,germany,Наземная техника,vehicle,standard,4,2,germ_m44,1,False
+germ_stug_iii_ausf_g,3,germany,Наземная техника,vehicle,standard,4,0,germ_m44_55_group,,False
+germ_jagdpanzer_group,3,germany,Наземная техника,folder,standard,4,1,germ_stug_iii_ausf_g,,False
 germ_jgdpz_iv_l48,3,germany,Наземная техника,vehicle,standard,4,1,germ_jagdpanzer_group,0,False
 germ_jgdpz_38t,3,germany,Наземная техника,vehicle,standard,4,1,germ_jgdpz_iv_l48,1,False
 germ_pz_iv_l70,3,germany,Наземная техника,vehicle,standard,4,2,germ_jagdpanzer_group,,False
@@ -721,13 +726,14 @@ germ_leopard_2_pt14,7,germany,Наземная техника,vehicle,premium,1,
 germ_leopard_2a4_pzbtl_123,7,germany,Наземная техника,vehicle,premium,1,2,,,True
 germ_schutzenpanzer_puma_vjtf_mod,7,germany,Наземная техника,vehicle,premium,1,3,,,True
 sa_313b,5,germany,Вертолёты,vehicle,standard,1,0,,,False
-uh_1d,5,germany,Вертолёты,vehicle,standard,0,1,sa_313b,,False
-bo_105pah1,6,germany,Вертолёты,vehicle,standard,0,0,uh_1d,,False
-bo_105pah1_a1,6,germany,Вертолёты,vehicle,standard,0,1,bo_105pah1,,False
-tiger_uht,7,germany,Вертолёты,vehicle,standard,0,0,bo_105pah1_a1,,False
-mi_8tb,5,germany,Вертолёты,vehicle,standard,1,1,sa_313b,,False
-mi_24d_german,6,germany,Вертолёты,vehicle,standard,1,0,mi_8tb,,False
-mi_24p_german,6,germany,Вертолёты,vehicle,standard,1,1,mi_24d_german,,False
+uh_1d,5,germany,Вертолёты,vehicle,standard,1,1,sa_313b,,False
+bo_105pah1,6,germany,Вертолёты,vehicle,standard,1,0,uh_1d,,False
+bo_105pah1_a1,6,germany,Вертолёты,vehicle,standard,1,1,bo_105pah1,,False
+tiger_uht,7,germany,Вертолёты,vehicle,standard,1,0,bo_105pah1_a1,,False
+h145m,7,germany,Вертолёты,vehicle,standard,0,0,bo_105pah1_a1,,False
+mi_8tb,5,germany,Вертолёты,vehicle,standard,0,1,sa_313b,,False
+mi_24d_german,6,germany,Вертолёты,vehicle,standard,0,0,mi_8tb,,False
+mi_24p_german,6,germany,Вертолёты,vehicle,standard,0,1,mi_24d_german,,False
 bo_105cb2,5,germany,Вертолёты,vehicle,premium,0,0,,,False
 mi_24p_german_hfs80,6,germany,Вертолёты,vehicle,premium,0,0,,,False
 tiger_had_spain,7,germany,Вертолёты,vehicle,premium,0,0,,,True
@@ -950,7 +956,8 @@ ju-388j,4,germany,Авиация,vehicle,premium,1,2,,,True
 fw-190c,4,germany,Авиация,vehicle,premium,1,3,,,True
 fw-190d-13,4,germany,Авиация,vehicle,premium,1,4,,,False
 he-162a-1,5,germany,Авиация,vehicle,premium,1,0,,,True
-me-262a-2a,5,germany,Авиация,vehicle,premium,1,1,,,True
+arado_234b_2_mt,5,germany,Авиация,vehicle,premium,1,1,,,True
+me-262a-2a,5,germany,Авиация,vehicle,premium,1,2,,,True
 alpha_jet_a_jabog41,6,germany,Авиация,vehicle,premium,1,0,,,True
 ffa_p16,6,germany,Авиация,vehicle,premium,1,1,,,False
 f-4f,7,germany,Авиация,vehicle,premium,1,0,,,True
@@ -989,8 +996,8 @@ germ_battlecruiser_derfflinger,5,germany,Большой флот,vehicle,standar
 germ_battlecruiser_ersatz_yorck,6,germany,Большой флот,vehicle,standard,1,0,germ_battlecruiser_derfflinger,,False
 germ_battleship_scharnhorst,6,germany,Большой флот,vehicle,standard,1,1,germ_battlecruiser_ersatz_yorck,,False
 germ_destroyer_class1924_iltis,1,germany,Большой флот,vehicle,premium,0,0,,,False
-germ_destroyer_fletcher_zerstorer4,2,germany,Большой флот,vehicle,premium,0,0,,,False
-germ_destroyer_class1924_jaguar1941,2,germany,Большой флот,vehicle,premium,0,1,,,True
+germ_destroyer_class1924_jaguar1941,2,germany,Большой флот,vehicle,premium,0,0,,,True
+germ_destroyer_fletcher_zerstorer4,2,germany,Большой флот,vehicle,premium,0,1,,,False
 germ_destroyer_class1936c_z47,3,germany,Большой флот,vehicle,premium,0,0,,,False
 germ_destroyer_class1936_z20_karlgalster,3,germany,Большой флот,vehicle,premium,0,1,,,False
 germ_cruiser_karlsruhe,4,germany,Большой флот,vehicle,premium,0,0,,,False
@@ -1033,6 +1040,7 @@ germ_type152_hugin,5,germany,Малый флот,vehicle,standard,2,1,germ_pr133
 germ_type153_pfeil,5,germany,Малый флот,vehicle,standard,2,2,germ_type152_hugin,,False
 germ_ls4_class,1,germany,Малый флот,vehicle,premium,0,0,,,False
 germ_km5,1,germany,Малый флот,vehicle,premium,0,1,,,False
+germ_rboot_r310,2,germany,Малый флот,vehicle,premium,0,0,,,False
 germ_s_100_s204_lang,3,germany,Малый флот,vehicle,premium,0,0,,,True
 germ_vs8_hydrofoil,3,germany,Малый флот,vehicle,premium,0,1,,,False
 germ_escort_typem1943,4,germany,Малый флот,vehicle,premium,0,0,,,False
@@ -1146,13 +1154,15 @@ ussr_su_object_group,5,ussr,Наземная техника,folder,standard,3,0,
 ussr_su_122_54,5,ussr,Наземная техника,vehicle,standard,3,0,ussr_su_object_group,0,False
 ussr_object_268,5,ussr,Наземная техника,vehicle,standard,3,0,ussr_su_122_54,1,False
 ussr_2s19_m1,5,ussr,Наземная техника,vehicle,standard,3,1,ussr_su_object_group,,False
-ussr_it_9p149_group,6,ussr,Наземная техника,folder,standard,3,0,ussr_2s19_m1,,False
+ussr_object_416,5,ussr,Наземная техника,vehicle,standard,3,2,ussr_2s19_m1,,False
+ussr_it_9p149_group,6,ussr,Наземная техника,folder,standard,3,0,ussr_object_416,,False
 ussr_it_1,6,ussr,Наземная техника,vehicle,standard,3,0,ussr_it_9p149_group,0,False
 ussr_9p149,6,ussr,Наземная техника,vehicle,standard,3,0,ussr_it_1,1,False
 ussr_btr_82at,6,ussr,Наземная техника,vehicle,standard,3,1,ussr_it_9p149_group,,False
-ussr_object_775,6,ussr,Наземная техника,vehicle,standard,3,2,ussr_btr_82at,,False
-ussr_9p157,7,ussr,Наземная техника,vehicle,standard,3,0,ussr_object_775,,False
-ussr_bmpt,7,ussr,Наземная техника,vehicle,standard,3,1,ussr_9p157,,False
+ussr_775_157_group,6,ussr,Наземная техника,folder,standard,3,2,ussr_btr_82at,,False
+ussr_object_775,6,ussr,Наземная техника,vehicle,standard,3,2,ussr_775_157_group,0,False
+ussr_9p157,6,ussr,Наземная техника,vehicle,standard,3,2,ussr_object_775,1,False
+ussr_bmpt,7,ussr,Наземная техника,vehicle,standard,3,0,ussr_775_157_group,,False
 ussr_gaz_4m,1,ussr,Наземная техника,vehicle,standard,4,0,,,False
 ussr_gaz_dshk,1,ussr,Наземная техника,vehicle,standard,4,1,ussr_gaz_4m,,False
 ussr_gaz_mm_72k,2,ussr,Наземная техника,vehicle,standard,4,0,,,False
@@ -1204,6 +1214,10 @@ ussr_t_34_85e,4,ussr,Наземная техника,vehicle,premium,0,1,,,False
 ussr_su_122p,4,ussr,Наземная техника,vehicle,premium,0,2,,,False
 ussr_t_44_122,4,ussr,Наземная техника,vehicle,premium,0,3,,,False
 ussr_t_34_100,4,ussr,Наземная техника,vehicle,premium,0,4,,,False
+ussr_kit_4rank_group,4,ussr,Наземная техника,folder,premium,0,5,,,False
+ussr_t_44_kit_4rank,4,ussr,Наземная техника,vehicle,premium,0,5,,0,True
+ussr_is_2m_kit_4rank,4,ussr,Наземная техника,vehicle,premium,0,5,,1,True
+ussr_m53_59_kit_4rank,4,ussr,Наземная техника,vehicle,premium,0,5,,2,True
 ussr_is_6,5,ussr,Наземная техника,vehicle,premium,0,0,,,True
 ussr_object_120,5,ussr,Наземная техника,vehicle,premium,0,1,,,True
 ussr_to_55,5,ussr,Наземная техника,vehicle,premium,0,2,,,False
@@ -1326,6 +1340,7 @@ mig_23mld,7,ussr,Авиация,vehicle,standard,1,1,mig_23m,1,False
 mig_29_9_12,8,ussr,Авиация,vehicle,standard,1,0,mig-23m_group,,False
 mig_29_9_13,8,ussr,Авиация,vehicle,standard,1,1,mig_29_9_12,,False
 mig_29smt_9_19,8,ussr,Авиация,vehicle,standard,1,2,mig_29_9_13,,False
+mig_35,9,ussr,Авиация,vehicle,standard,1,0,mig_29smt_9_19,,False
 i-15_group,1,ussr,Авиация,folder,standard,2,0,,,False
 i-15_1934,1,ussr,Авиация,vehicle,standard,2,0,i-15_group,0,False
 i-15_1935,1,ussr,Авиация,vehicle,standard,2,0,i-15_1934,1,False
@@ -1563,7 +1578,8 @@ ussr_od_200,1,ussr,Малый флот,vehicle,standard,1,1,ussr_mo_4,,False
 ussr_mpk_122a,2,ussr,Малый флот,vehicle,standard,1,0,ussr_od_200,,False
 ussr_1124_art,2,ussr,Малый флот,vehicle,standard,1,1,ussr_mpk_122a,,False
 ussr_1124_ack,3,ussr,Малый флот,vehicle,standard,1,0,ussr_1124_art,,False
-ussr_skr_groza_1943,4,ussr,Малый флот,vehicle,standard,1,0,ussr_1124_ack,,False
+ussr_fugas_t1_strela,3,ussr,Малый флот,vehicle,standard,1,1,ussr_1124_ack,,False
+ussr_skr_groza_1943,4,ussr,Малый флот,vehicle,standard,1,0,ussr_fugas_t1_strela,,False
 ussr_mpk_201m,4,ussr,Малый флот,vehicle,standard,1,1,ussr_skr_groza_1943,,False
 ussr_mpk_204,4,ussr,Малый флот,vehicle,standard,1,2,ussr_mpk_201m,,False
 ussr_skr_pr50_jenot,5,ussr,Малый флот,vehicle,standard,1,0,ussr_mpk_204,,False
@@ -1600,13 +1616,13 @@ uk_crusader_mk_2,2,britain,Наземная техника,vehicle,standard,0,0,
 uk_crusader_mk_3,2,britain,Наземная техника,vehicle,standard,0,0,uk_crusader_mk_2,1,False
 uk_cruiser_ram_1,2,britain,Наземная техника,vehicle,standard,0,1,uk_crusader_group,,False
 uk_cromwell_sherman_group,2,britain,Наземная техника,folder,standard,0,2,uk_cruiser_ram_1,,False
-uk_a27m_cromwell_5,2,britain,Наземная техника,vehicle,standard,0,2,uk_cromwell_sherman_group,0,False
-uk_a27m_cromwell_1,2,britain,Наземная техника,vehicle,standard,0,2,uk_a27m_cromwell_5,1,False
-uk_sherman_ii,2,britain,Наземная техника,vehicle,standard,0,2,uk_a27m_cromwell_1,2,False
-uk_sherman_vc_firefly,3,britain,Наземная техника,vehicle,standard,0,0,uk_cromwell_sherman_group,,False
-uk_challenger_comet_group,3,britain,Наземная техника,folder,standard,0,1,uk_sherman_vc_firefly,,False
-uk_a30_challenger,3,britain,Наземная техника,vehicle,standard,0,1,uk_challenger_comet_group,0,False
-uk_a_34_comet,3,britain,Наземная техника,vehicle,standard,0,1,uk_a30_challenger,1,False
+uk_a27m_cromwell_1,2,britain,Наземная техника,vehicle,standard,0,2,uk_cromwell_sherman_group,0,False
+uk_sherman_ii,2,britain,Наземная техника,vehicle,standard,0,2,uk_a27m_cromwell_1,1,False
+uk_a27m_cromwell_5,3,britain,Наземная техника,vehicle,standard,0,0,uk_cromwell_sherman_group,,False
+uk_sherman_vc_firefly,3,britain,Наземная техника,vehicle,standard,0,1,uk_a27m_cromwell_5,,False
+uk_challenger_comet_group,3,britain,Наземная техника,folder,standard,0,2,uk_sherman_vc_firefly,,False
+uk_a30_challenger,3,britain,Наземная техника,vehicle,standard,0,2,uk_challenger_comet_group,0,False
+uk_a_34_comet,3,britain,Наземная техника,vehicle,standard,0,2,uk_a30_challenger,1,False
 uk_centurion_mk_1,4,britain,Наземная техника,vehicle,standard,0,0,uk_challenger_comet_group,,False
 uk_fv4004_conway,4,britain,Наземная техника,vehicle,standard,0,1,uk_centurion_mk_1,,False
 uk_centurion_mk_3,4,britain,Наземная техника,vehicle,standard,0,2,uk_fv4004_conway,,False
@@ -1652,7 +1668,8 @@ uk_olifant_mk_1a,6,britain,Наземная техника,vehicle,standard,1,0,
 uk_olifant_mk_2,6,britain,Наземная техника,vehicle,standard,1,1,uk_vickers_olifant_group,,False
 uk_ttd,7,britain,Наземная техника,vehicle,standard,1,0,uk_olifant_mk_2,,False
 uk_vickers_mk7,7,britain,Наземная техника,vehicle,standard,1,1,uk_ttd,,False
-uk_m1a2_sep3_abrams,8,britain,Наземная техника,vehicle,standard,1,0,uk_vickers_mk7,,False
+uk_arjun_mk1,7,britain,Наземная техника,vehicle,standard,1,2,uk_vickers_mk7,,False
+uk_m1a2_sep3_abrams,8,britain,Наземная техника,vehicle,standard,1,0,uk_arjun_mk1,,False
 uk_a17_mk_1_tetrarch,1,britain,Наземная техника,vehicle,standard,2,0,,,False
 uk_daimler_mk_2,1,britain,Наземная техника,vehicle,standard,2,1,uk_a17_mk_1_tetrarch,,False
 uk_sp_17_pdr_valentine,2,britain,Наземная техника,vehicle,standard,2,0,,,False
@@ -1720,16 +1737,16 @@ uk_a_13_mk1_3rd_rtr,1,britain,Наземная техника,vehicle,premium,0,
 uk_a1e1_independent,1,britain,Наземная техника,vehicle,premium,0,1,,,False
 uk_crusader_mk_2_the_saint,2,britain,Наземная техника,vehicle,premium,0,0,,,False
 uk_armored_car_aec_mk_2,2,britain,Наземная техника,vehicle,premium,0,1,,,True
-uk_a27m_cromwell_5_rp3,2,britain,Наземная техника,vehicle,premium,0,2,,,False
-uk_m4a5_ram_2,2,britain,Наземная техника,vehicle,premium,0,3,,,False
-uk_17_pdr_m10_achilles_norfolk_yeomanry,3,britain,Наземная техника,vehicle,premium,0,0,,,False
-uk_kit_3rank_group,3,britain,Наземная техника,folder,premium,0,1,,,False
-uk_sherman_vc_firefly_kit_3rank,3,britain,Наземная техника,vehicle,premium,0,1,,0,True
-uk_a30_sp_avenger_kit_3rank,3,britain,Наземная техника,vehicle,premium,0,1,,1,True
-uk_crusader_aa_mk_2_kit_3rank,3,britain,Наземная техника,vehicle,premium,0,1,,2,True
-uk_sherman_ic_firefly,3,britain,Наземная техника,vehicle,premium,0,2,,,False
-uk_ac4_thunderbolt,3,britain,Наземная техника,vehicle,premium,0,3,,,False
-uk_ram_90mm_aa,3,britain,Наземная техника,vehicle,premium,0,4,,,True
+uk_m4a5_ram_2,2,britain,Наземная техника,vehicle,premium,0,2,,,False
+uk_a27m_cromwell_5_rp3,3,britain,Наземная техника,vehicle,premium,0,0,,,False
+uk_17_pdr_m10_achilles_norfolk_yeomanry,3,britain,Наземная техника,vehicle,premium,0,1,,,False
+uk_kit_3rank_group,3,britain,Наземная техника,folder,premium,0,2,,,False
+uk_sherman_vc_firefly_kit_3rank,3,britain,Наземная техника,vehicle,premium,0,2,,0,True
+uk_a30_sp_avenger_kit_3rank,3,britain,Наземная техника,vehicle,premium,0,2,,1,True
+uk_crusader_aa_mk_2_kit_3rank,3,britain,Наземная техника,vehicle,premium,0,2,,2,True
+uk_sherman_ic_firefly,3,britain,Наземная техника,vehicle,premium,0,3,,,False
+uk_ac4_thunderbolt,3,britain,Наземная техника,vehicle,premium,0,4,,,False
+uk_ram_90mm_aa,3,britain,Наземная техника,vehicle,premium,0,5,,,True
 uk_vickers_gbt_155,4,britain,Наземная техника,vehicle,premium,0,0,,,True
 uk_centurion_mk_3_ss11,4,britain,Наземная техника,vehicle,premium,0,1,,,True
 uk_centurion_action_x,4,britain,Наземная техника,vehicle,premium,0,2,,,False
@@ -1765,6 +1782,7 @@ wessex_mk5,5,britain,Вертолёты,vehicle,standard,0,2,wasp_has_mk1,,False
 lynx_ah_mk1,6,britain,Вертолёты,vehicle,standard,0,0,wessex_mk5,,False
 ah_mk1,7,britain,Вертолёты,vehicle,standard,0,0,lynx_ah_mk1,,False
 ah_64e_britain,7,britain,Вертолёты,vehicle,standard,0,1,ah_mk1,,False
+aw_159,7,britain,Вертолёты,vehicle,standard,1,0,ah_mk1,,False
 super_hind_mk3,6,britain,Вертолёты,vehicle,premium,0,0,,,True
 g_lynx,6,britain,Вертолёты,vehicle,premium,0,1,,,False
 ah_2_rooivalk,6,britain,Вертолёты,vehicle,premium,0,2,,,False
@@ -1839,7 +1857,8 @@ sea_hawk_group,5,britain,Авиация,folder,standard,2,1,attaker_fb1,,False
 sea_hawk_fga6,5,britain,Авиация,vehicle,standard,2,1,sea_hawk_group,0,False
 sea_venom_faw20,5,britain,Авиация,vehicle,standard,2,1,sea_hawk_fga6,1,False
 scimitar_f1,6,britain,Авиация,vehicle,standard,2,0,sea_hawk_group,,False
-harrier_frs1_early,7,britain,Авиация,vehicle,standard,2,0,scimitar_f1,,False
+ca_27_mk32_raaf,6,britain,Авиация,vehicle,standard,2,1,scimitar_f1,,False
+harrier_frs1_early,7,britain,Авиация,vehicle,standard,2,0,ca_27_mk32_raaf,,False
 f-4k,7,britain,Авиация,vehicle,standard,2,1,harrier_frs1_early,,False
 fa_18a_raaf_group,8,britain,Авиация,folder,standard,2,0,f-4k,,False
 fa_18a_raaf,8,britain,Авиация,vehicle,standard,2,0,fa_18a_raaf_group,0,False
@@ -1866,8 +1885,9 @@ brigand_b1,3,britain,Авиация,vehicle,standard,3,1,brigand_group,0,False
 whirlwind_mk1,3,britain,Авиация,vehicle,standard,3,1,brigand_b1,1,False
 welkin_fmk1,4,britain,Авиация,vehicle,standard,3,0,brigand_group,,False
 hornet_mk3,4,britain,Авиация,vehicle,standard,3,1,welkin_fmk1,,False
-swift_f1,5,britain,Авиация,vehicle,standard,3,0,hornet_mk3,,False
-swift_f7,5,britain,Авиация,vehicle,standard,3,1,swift_f1,,False
+hawk_t1a_early,5,britain,Авиация,vehicle,standard,3,0,hornet_mk3,,False
+swift_f1,5,britain,Авиация,vehicle,standard,3,1,hawk_t1a_early,,False
+swift_f7,5,britain,Авиация,vehicle,standard,3,2,swift_f1,,False
 jaguar_gr1,6,britain,Авиация,vehicle,standard,3,0,swift_f7,,False
 harrier_gr3,6,britain,Авиация,vehicle,standard,3,1,jaguar_gr1,,False
 jaguar_gr1a,7,britain,Авиация,vehicle,standard,3,0,harrier_gr3,,False
@@ -1956,7 +1976,8 @@ wyvern_s4,4,britain,Авиация,vehicle,premium,1,0,,,True
 spitfire_mk14c,4,britain,Авиация,vehicle,premium,1,1,,,False
 spitfire_fr_mk14e,4,britain,Авиация,vehicle,premium,1,2,,,False
 attaker_fb2,5,britain,Авиация,vehicle,premium,1,0,,,False
-marut_mk1,5,britain,Авиация,vehicle,premium,1,1,,,True
+hawk_t1a,5,britain,Авиация,vehicle,premium,1,1,,,True
+marut_mk1,5,britain,Авиация,vehicle,premium,1,2,,,True
 buccaneer_s1,6,britain,Авиация,vehicle,premium,1,0,,,True
 hunter_f9_rhodesia,6,britain,Авиация,vehicle,premium,1,1,,,False
 jaguar_is,7,britain,Авиация,vehicle,premium,1,0,,,True
@@ -1990,6 +2011,7 @@ uk_battleship_colossus,5,britain,Большой флот,vehicle,standard,1,0,uk
 uk_battleship_centurion,5,britain,Большой флот,vehicle,standard,1,1,uk_battleship_colossus,,False
 uk_battleship_rodney,6,britain,Большой флот,vehicle,standard,1,0,uk_battleship_centurion,,False
 uk_battleship_prince_of_wales,6,britain,Большой флот,vehicle,standard,1,1,uk_battleship_rodney,,False
+uk_battleship_lion_class,7,britain,Большой флот,vehicle,standard,1,0,uk_battleship_prince_of_wales,,False
 uk_destroyer_clemson_churchill,1,britain,Большой флот,vehicle,standard,2,0,,,False
 uk_egret_class,2,britain,Большой флот,vehicle,standard,2,0,,,False
 uk_minelayer_abdiel_class_abdiel,2,britain,Большой флот,vehicle,standard,2,1,uk_egret_class,,False
@@ -2118,6 +2140,7 @@ jp_type_75,4,japan,Наземная техника,vehicle,standard,2,1,jp_m36b2
 jp_type_99,5,japan,Наземная техника,vehicle,standard,2,0,jp_type_75,,False
 jp_type_16_mcv_prot,6,japan,Наземная техника,vehicle,standard,2,0,jp_type_99,,False
 jp_type_16,7,japan,Наземная техника,vehicle,standard,2,0,jp_type_16_mcv_prot,,False
+jp_harimau,7,japan,Наземная техника,vehicle,standard,2,1,jp_type_16,,False
 jp_type_94,1,japan,Наземная техника,vehicle,standard,3,0,,,False
 jp_type_98_ta_se,1,japan,Наземная техника,vehicle,standard,3,1,jp_type_94,,False
 jp_halftrack_m16,2,japan,Наземная техника,vehicle,standard,3,0,,,False
@@ -2144,7 +2167,7 @@ jp_pzkpfw_vi_ausf_e_tiger,4,japan,Наземная техника,vehicle,premiu
 jp_type_61_mod,4,japan,Наземная техника,vehicle,premium,0,1,,,True
 jp_type_5_ho_ri_prototype,4,japan,Наземная техника,vehicle,premium,0,2,,,True
 jp_type_75_mlrs,5,japan,Наземная техника,vehicle,premium,0,0,,,False
-jp_type_74_red_star,5,japan,Наземная техника,vehicle,premium,0,1,,,True
+jp_type_74_red_star,5,japan,Наземная техника,vehicle,premium,0,1,,,False
 jp_type_74_mod_g_kai,6,japan,Наземная техника,vehicle,premium,0,0,,,False
 jp_type_16_mod,6,japan,Наземная техника,vehicle,premium,0,1,,,True
 jp_icv_prototype,7,japan,Наземная техника,vehicle,premium,0,0,,,True
@@ -2263,10 +2286,7 @@ d4y2,2,japan,Авиация,vehicle,standard,3,1,d4y1,1,False
 d4y3,2,japan,Авиация,vehicle,standard,3,2,d4y_group,,False
 p1y1_mod11,3,japan,Авиация,vehicle,standard,3,0,d4y3,,False
 b7a2,3,japan,Авиация,vehicle,standard,3,1,p1y1_mod11,,False
-r2y2_group,5,japan,Авиация,folder,standard,3,0,b7a2,,False
-r2y2_v1,5,japan,Авиация,vehicle,standard,3,0,r2y2_group,0,True
-r2y2_v2,5,japan,Авиация,vehicle,standard,3,0,r2y2_v1,1,True
-r2y2_kai,5,japan,Авиация,vehicle,standard,3,0,r2y2_v2,2,True
+ki_93_1_ko,3,japan,Авиация,vehicle,standard,3,2,b7a2,,False
 ki_32,1,japan,Авиация,vehicle,standard,4,0,,,False
 ki_21_1ko,1,japan,Авиация,vehicle,standard,4,1,ki_32,,False
 h6k4,1,japan,Авиация,vehicle,standard,4,2,ki_21_1ko,,False
@@ -2283,7 +2303,9 @@ ki_67_group,3,japan,Авиация,folder,standard,4,2,g5n1,,False
 ki_67_1_ko,3,japan,Авиация,vehicle,standard,4,2,ki_67_group,0,False
 ki_67_1_otsu,3,japan,Авиация,vehicle,standard,4,2,ki_67_1_ko,1,False
 g8n1,4,japan,Авиация,vehicle,standard,4,0,ki_67_group,,False
-mig_29n,8,japan,Авиация,vehicle,standard,4,0,g8n1,,False
+ca_27_mk32_malaysia,6,japan,Авиация,vehicle,standard,4,0,g8n1,,False
+a_4ptm_malaysia,6,japan,Авиация,vehicle,standard,4,1,ca_27_mk32_malaysia,,False
+mig_29n,8,japan,Авиация,vehicle,standard,4,0,a_4ptm_malaysia,,False
 fa_18d_late_malaysia,8,japan,Авиация,vehicle,standard,4,1,mig_29n,,False
 su_30mkm,9,japan,Авиация,vehicle,standard,4,0,fa_18d_late_malaysia,,False
 a5m4_hagiri,1,japan,Авиация,vehicle,premium,0,0,,,False
@@ -2317,11 +2339,16 @@ bf-109e-3_japan,2,japan,Авиация,vehicle,premium,1,2,,,False
 f4u-1a_japan,2,japan,Авиация,vehicle,premium,1,3,,,False
 p-51c-11-nt_japan,3,japan,Авиация,vehicle,premium,1,0,,,False
 b7a2_homare_23,3,japan,Авиация,vehicle,premium,1,1,,,True
+b_26b_indonesia_kalong,3,japan,Авиация,vehicle,premium,1,2,,,False
 a6m6c,4,japan,Авиация,vehicle,premium,1,0,,,True
 fw-190a-5_japan,4,japan,Авиация,vehicle,premium,1,1,,,False
 ki_94_2,4,japan,Авиация,vehicle,premium,1,2,,,True
 ki_87,4,japan,Авиация,vehicle,premium,1,3,,,False
 j6k1,4,japan,Авиация,vehicle,premium,1,4,,,True
+r2y2_group,5,japan,Авиация,folder,premium,1,0,,,False
+r2y2_v1,5,japan,Авиация,vehicle,premium,1,0,,0,True
+r2y2_v2,5,japan,Авиация,vehicle,premium,1,0,,1,True
+r2y2_kai,5,japan,Авиация,vehicle,premium,1,0,,2,True
 f-4ej_adtw,7,japan,Авиация,vehicle,premium,1,0,,,False
 jp_destroyer_momi,1,japan,Большой флот,vehicle,standard,0,0,,,False
 jp_destroyer_matsu,1,japan,Большой флот,vehicle,standard,0,1,jp_destroyer_momi,,False
@@ -2406,7 +2433,8 @@ jp_destroyer_ayanami,5,japan,Малый флот,vehicle,standard,1,1,jp_destroy
 jp_t14_class_mod01,1,japan,Малый флот,vehicle,premium,0,0,,,False
 jp_kusen_tei_13_1942,2,japan,Малый флот,vehicle,premium,0,0,,,True
 jp_karotei_type4,2,japan,Малый флот,vehicle,premium,0,1,,,False
-jp_t51a,3,japan,Малый флот,vehicle,premium,0,0,,,True
+jp_type9_pt809,3,japan,Малый флот,vehicle,premium,0,0,,,False
+jp_t51a,3,japan,Малый флот,vehicle,premium,0,1,,,True
 jp_escort_akebono_class,4,japan,Малый флот,vehicle,premium,0,0,,,False
 jp_pg02,4,japan,Малый флот,vehicle,premium,0,1,,,False
 jp_escort_hiburi_class_shisaka,5,japan,Малый флот,vehicle,premium,0,0,,,True
@@ -2471,11 +2499,12 @@ cn_wz_305,5,china,Наземная техника,vehicle,standard,2,1,cn_pgz_88
 cn_pgz_09,6,china,Наземная техника,vehicle,standard,2,0,cn_wz_305,,False
 cn_pgz_04a,6,china,Наземная техника,vehicle,standard,2,1,cn_pgz_09,,False
 cn_antelope_tc_1l_ads,7,china,Наземная техника,vehicle,standard,2,0,cn_pgz_04a,,False
-cn_tor_hq_group,8,china,Наземная техника,folder,standard,2,0,cn_antelope_tc_1l_ads,,False
-cn_tor_m1,8,china,Наземная техника,vehicle,standard,2,0,cn_tor_hq_group,0,False
-cn_hq_17,8,china,Наземная техника,vehicle,standard,2,0,cn_tor_m1,1,False
-cn_pgz_625_fb10,8,china,Наземная техника,vehicle,standard,2,1,cn_tor_hq_group,,False
-cn_hq_11,8,china,Наземная техника,vehicle,standard,2,2,cn_pgz_625_fb10,,False
+cn_tor_hq_group,7,china,Наземная техника,folder,standard,2,1,cn_antelope_tc_1l_ads,,False
+cn_tor_m1,7,china,Наземная техника,vehicle,standard,2,1,cn_tor_hq_group,0,False
+cn_hq_17,7,china,Наземная техника,vehicle,standard,2,1,cn_tor_m1,1,False
+cn_pgz_625_fb10,8,china,Наземная техника,vehicle,standard,2,0,cn_tor_hq_group,,False
+cn_fk_2000,8,china,Наземная техника,vehicle,standard,2,1,cn_pgz_625_fb10,,False
+cn_hq_11,8,china,Наземная техника,vehicle,standard,2,2,cn_fk_2000,,False
 cn_m8_scott,1,china,Наземная техника,vehicle,standard,3,0,,,False
 cn_su_76m_1943,1,china,Наземная техника,vehicle,standard,3,1,cn_m8_scott,,False
 cn_lvt_4_zis_2,2,china,Наземная техника,vehicle,standard,3,0,,,False
@@ -2517,7 +2546,8 @@ cn_ztz_96b,7,china,Наземная техника,vehicle,premium,0,3,,,True
 cn_oplot_t,8,china,Наземная техника,vehicle,premium,0,0,,,True
 cn_bt_5,1,china,Наземная техника,vehicle,premium,1,0,,,True
 cn_type_95_ha_go,1,china,Наземная техника,vehicle,premium,1,1,,,True
-cn_wz_141,4,china,Наземная техника,vehicle,premium,1,0,,,True
+cn_plz_45,4,china,Наземная техника,vehicle,premium,1,0,,,True
+cn_wz_141,4,china,Наземная техника,vehicle,premium,1,1,,,True
 cn_plz_83_130,5,china,Наземная техника,vehicle,premium,1,0,,,True
 cn_t_62,6,china,Наземная техника,vehicle,premium,1,0,,,False
 cn_t_80ud_478be,7,china,Наземная техника,vehicle,premium,1,0,,,True
@@ -2602,6 +2632,7 @@ q_5l,7,china,Авиация,vehicle,standard,2,0,q_5a,,False
 jh_7,7,china,Авиация,vehicle,standard,2,1,q_5l,,False
 jh_7a,8,china,Авиация,vehicle,standard,2,0,jh_7,,False
 jh_7a2,8,china,Авиация,vehicle,standard,2,1,jh_7a,,False
+j_16,9,china,Авиация,vehicle,standard,2,0,jh_7a2,,False
 martin_139wc,1,china,Авиация,vehicle,standard,3,0,,,False
 db_3_china_group,2,china,Авиация,folder,standard,3,0,,,False
 db_3a_china,2,china,Авиация,vehicle,standard,3,0,db_3_china_group,0,False
@@ -2644,8 +2675,7 @@ it_as_42_47,1,italy,Наземная техника,vehicle,standard,0,2,it_m11_
 it_ab_43,2,italy,Наземная техника,vehicle,standard,0,0,,,False
 it_m3a3_stuart,2,italy,Наземная техника,vehicle,standard,0,1,it_ab_43,,False
 it_m24_chaffee,3,italy,Наземная техника,vehicle,standard,0,0,it_m3a3_stuart,,False
-it_m44,3,italy,Наземная техника,vehicle,standard,0,1,it_m24_chaffee,,False
-it_semovente_breda_501,3,italy,Наземная техника,vehicle,standard,0,2,it_m44,,False
+it_semovente_breda_501,3,italy,Наземная техника,vehicle,standard,0,1,it_m24_chaffee,,False
 it_m18_hellcat,4,italy,Наземная техника,vehicle,standard,0,0,it_semovente_breda_501,,False
 it_fiat_group,4,italy,Наземная техника,folder,standard,0,1,it_m18_hellcat,,False
 it_fiat_6616_cockerill,4,italy,Наземная техника,vehicle,standard,0,1,it_fiat_group,0,False
@@ -2706,15 +2736,18 @@ it_semovente_m42_75_34,2,italy,Наземная техника,vehicle,standard,
 it_semovente_m43_105_75_group,2,italy,Наземная техника,folder,standard,3,1,it_semovente_m41_group,,False
 it_semovente_m43_105,2,italy,Наземная техника,vehicle,standard,3,1,it_semovente_m43_105_75_group,0,False
 it_semovente_m43_75_34,2,italy,Наземная техника,vehicle,standard,3,1,it_semovente_m43_105,1,False
-it_m55,3,italy,Наземная техника,vehicle,standard,3,0,it_semovente_m43_105_75_group,,False
-it_semovente_stug_group,3,italy,Наземная техника,folder,standard,3,1,it_m55,,False
+it_m44_55_group,3,italy,Наземная техника,folder,standard,3,0,it_semovente_m43_105_75_group,,False
+it_m44,3,italy,Наземная техника,vehicle,standard,3,0,it_m44_55_group,0,False
+it_m55,3,italy,Наземная техника,vehicle,standard,3,0,it_m44,1,False
+it_semovente_stug_group,3,italy,Наземная техника,folder,standard,3,1,it_m44_55_group,,False
 it_semovente_m41m_90,3,italy,Наземная техника,vehicle,standard,3,1,it_semovente_stug_group,0,False
 it_stug_iii_ausf_g,3,italy,Наземная техника,vehicle,standard,3,1,it_semovente_m41m_90,1,False
 it_semovente_m43_75_46,3,italy,Наземная техника,vehicle,standard,3,2,it_semovente_stug_group,,False
 it_m36b1,4,italy,Наземная техника,vehicle,standard,3,0,it_semovente_m43_75_46,,False
 it_m109g,4,italy,Наземная техника,vehicle,standard,3,1,it_m36b1,,False
 it_palmaria,4,italy,Наземная техника,vehicle,standard,3,2,it_m109g,,False
-it_m113a1_tow,6,italy,Наземная техника,vehicle,standard,3,0,it_palmaria,,False
+it_pzh_2000,5,italy,Наземная техника,vehicle,standard,3,0,it_palmaria,,False
+it_m113a1_tow,6,italy,Наземная техника,vehicle,standard,3,0,it_pzh_2000,,False
 it_vbc_pt2,6,italy,Наземная техника,vehicle,standard,3,1,it_m113a1_tow,,False
 it_dardo_group,7,italy,Наземная техника,folder,standard,3,0,it_vbc_pt2,,False
 it_dardo_vcc,7,italy,Наземная техника,vehicle,standard,3,0,it_dardo_group,0,False
@@ -2929,6 +2962,7 @@ it_destroyer_leone_class_tigre,3,italy,Большой флот,vehicle,premium,0
 it_destroyer_soldati_serie1_geniere,3,italy,Большой флот,vehicle,premium,0,1,,,False
 it_cruiser_zara_class_pola,4,italy,Большой флот,vehicle,premium,0,0,,,False
 it_battleship_leonardo_da_vinci,5,italy,Большой флот,vehicle,premium,0,0,,,False
+it_battleship_giulio_cesare,6,italy,Большой флот,vehicle,premium,0,0,,,True
 it_destroyer_saetta,1,italy,Большой флот,vehicle,premium,1,0,,,False
 it_destroyer_soldati_serie1,3,italy,Большой флот,vehicle,premium,1,0,,,True
 it_cruiser_cadorna_class_cadorna,3,italy,Большой флот,vehicle,premium,1,1,,,True
@@ -3024,6 +3058,7 @@ fr_amx_40,7,france,Наземная техника,vehicle,standard,2,0,fr_amx_3
 fr_leopard_2a4nl,7,france,Наземная техника,vehicle,standard,2,1,fr_amx_40,,False
 fr_leopard_2a5nl,8,france,Наземная техника,vehicle,standard,2,0,fr_leopard_2a4nl,,False
 fr_leopard_2a6nl,8,france,Наземная техника,vehicle,standard,2,1,fr_leopard_2a5nl,,False
+fr_embt,8,france,Наземная техника,vehicle,standard,2,2,fr_leopard_2a6nl,,False
 fr_citroen_kegresse_p4t,1,france,Наземная техника,vehicle,standard,3,0,,,False
 fr_cckw_353_bofors,2,france,Наземная техника,vehicle,standard,3,0,,,False
 fr_amx_vtt_dca,2,france,Наземная техника,vehicle,standard,3,1,fr_cckw_353_bofors,,False
@@ -3057,6 +3092,7 @@ fr_char_2c_bis,1,france,Наземная техника,vehicle,premium,0,1,,,Fa
 fr_b1_ter,2,france,Наземная техника,vehicle,premium,0,0,,,False
 fr_amx_13_chaffee,2,france,Наземная техника,vehicle,premium,0,1,,,False
 fr_m4a1_sherman_fl_10,3,france,Наземная техника,vehicle,premium,0,0,,,False
+fr_arl_44_mod,3,france,Наземная техника,vehicle,premium,0,1,,,False
 fr_pzkpfw_v_panther_dauphine,4,france,Наземная техника,vehicle,premium,0,0,,,False
 fr_amx_13_75_ss11,4,france,Наземная техника,vehicle,premium,0,1,,,False
 fr_somua_sm,5,france,Наземная техника,vehicle,premium,0,0,,,True
@@ -3147,7 +3183,8 @@ sb2c_5_france,3,france,Авиация,vehicle,standard,2,0,mb_175t,,False
 douglas_ad_4_france,4,france,Авиация,vehicle,standard,2,0,sb2c_5_france,,False
 f4u-7,4,france,Авиация,vehicle,standard,2,1,douglas_ad_4_france,,False
 f-84g_france,5,france,Авиация,vehicle,standard,2,0,f4u-7,,False
-f-84f_france,6,france,Авиация,vehicle,standard,2,0,f-84g_france,,False
+se_203,5,france,Авиация,vehicle,standard,2,1,f-84g_france,,False
+f-84f_france,6,france,Авиация,vehicle,standard,2,0,se_203,,False
 f-100d_france,6,france,Авиация,vehicle,standard,2,1,f-84f_france,,False
 mirage_5f,7,france,Авиация,vehicle,standard,2,0,f-100d_france,,False
 mirage_f1ct,7,france,Авиация,vehicle,standard,2,1,mirage_5f,,False
@@ -3238,7 +3275,8 @@ fr_cruiser_dugauy_class_primaguet,3,france,Большой флот,vehicle,stand
 fr_cruiser_emile_bertin,4,france,Большой флот,vehicle,standard,1,0,fr_cruiser_dugauy_class_primaguet,,False
 fr_cruiser_la_galissoniere_class_la_galissoniere,4,france,Большой флот,vehicle,standard,1,1,fr_cruiser_emile_bertin,,False
 fr_cruiser_la_galissoniere_class_gloire,4,france,Большой флот,vehicle,standard,1,2,fr_cruiser_la_galissoniere_class_la_galissoniere,,False
-fr_battleship_bretagne_class_bretagne,5,france,Большой флот,vehicle,standard,1,0,fr_cruiser_la_galissoniere_class_gloire,,False
+fr_cruiser_algerie_class,5,france,Большой флот,vehicle,standard,1,0,fr_cruiser_la_galissoniere_class_gloire,,False
+fr_battleship_bretagne_class_bretagne,5,france,Большой флот,vehicle,standard,1,1,fr_cruiser_algerie_class,,False
 fr_battleship_richelieu_class_clemenceau,7,france,Большой флот,vehicle,standard,1,0,fr_battleship_bretagne_class_bretagne,,False
 fr_destroyer_jaguar_class_panthere,1,france,Большой флот,vehicle,premium,0,0,,,False
 fr_destroyer_bourrasque_class_tornade,1,france,Большой флот,vehicle,premium,0,1,,,False
@@ -3261,7 +3299,8 @@ fr_arras_class_arras,3,france,Малый флот,vehicle,standard,0,1,fr_adroit
 fr_vlt1,4,france,Малый флот,vehicle,standard,0,0,fr_arras_class_arras,,False
 fr_p730_combattante,5,france,Малый флот,vehicle,standard,0,0,fr_vlt1,,False
 fr_vtb13,1,france,Малый флот,vehicle,standard,1,0,,,False
-fr_mtb96_vosper,2,france,Малый флот,vehicle,standard,1,0,fr_vtb13,,False
+fr_lcm_monitor,1,france,Малый флот,vehicle,standard,1,1,fr_vtb13,,False
+fr_mtb96_vosper,2,france,Малый флот,vehicle,standard,1,0,fr_lcm_monitor,,False
 fr_flower_class_aconit,2,france,Малый флот,vehicle,standard,1,1,fr_mtb96_vosper,,False
 fr_lcg_m_l9059,3,france,Малый флот,vehicle,standard,1,0,fr_flower_class_aconit,,False
 fr_marne_class_marne,3,france,Малый флот,vehicle,standard,1,1,fr_lcg_m_l9059,,False
@@ -3400,8 +3439,10 @@ saab_j21ra,5,sweden,Авиация,vehicle,standard,0,0,saab_j21a_group,,False
 saab_j29a,5,sweden,Авиация,vehicle,standard,0,1,saab_j21ra,,False
 saab_j29f,6,sweden,Авиация,vehicle,standard,0,0,saab_j29a,,False
 saab_j32b,6,sweden,Авиация,vehicle,standard,0,1,saab_j29f,,False
-saab_j35d,7,sweden,Авиация,vehicle,standard,0,0,saab_j32b,,False
-saab_ja37,7,sweden,Авиация,vehicle,standard,0,1,saab_j35d,,False
+saab_j35_group,7,sweden,Авиация,folder,standard,0,0,saab_j32b,,False
+saab_j35d,7,sweden,Авиация,vehicle,standard,0,0,saab_j35_group,0,False
+saab_j35j,7,sweden,Авиация,vehicle,standard,0,0,saab_j35d,1,False
+saab_ja37,7,sweden,Авиация,vehicle,standard,0,1,saab_j35_group,,False
 saab_ja37d_group,8,sweden,Авиация,folder,standard,0,0,saab_ja37,,False
 saab_ja37d,8,sweden,Авиация,vehicle,standard,0,0,saab_ja37d_group,0,False
 saab_ja37di,8,sweden,Авиация,vehicle,standard,0,0,saab_ja37d,1,False
@@ -3462,13 +3503,13 @@ saab_a32a_red_adam,6,sweden,Авиация,vehicle,premium,0,0,,,False
 saab_j35a,6,sweden,Авиация,vehicle,premium,0,1,,,False
 saab_j35xs,7,sweden,Авиация,vehicle,premium,0,0,,,False
 saab_f35_wdns,7,sweden,Авиация,vehicle,premium,0,1,,,True
-f-5ag_norway,7,sweden,Авиация,vehicle,premium,0,2,,,True
 saab_ja37di_f21,8,sweden,Авиация,vehicle,premium,0,0,,,True
 saab_jas39d,8,sweden,Авиация,vehicle,premium,0,1,,,True
 j9_early,2,sweden,Авиация,vehicle,premium,1,0,,,True
 vl_myrsky_2_late,2,sweden,Авиация,vehicle,premium,1,1,,,True
 mosquito_j30_sweden,3,sweden,Авиация,vehicle,premium,1,0,,,True
 saab_ajs37_early,7,sweden,Авиация,vehicle,premium,1,0,,,True
+f-5ag_norway,7,sweden,Авиация,vehicle,premium,1,1,,,True
 il_m_51,4,israel,Наземная техника,vehicle,standard,0,0,,,False
 il_magach_1_2_group,4,israel,Наземная техника,folder,standard,0,1,il_m_51,,False
 il_m48a1_patton_iii,4,israel,Наземная техника,vehicle,standard,0,1,il_magach_1_2_group,0,False
@@ -3490,6 +3531,7 @@ il_magach_batash_7_group,6,israel,Наземная техника,folder,standar
 il_magach_6b_gal_batash,6,israel,Наземная техника,vehicle,standard,0,2,il_magach_batash_7_group,0,False
 il_magach_7c,6,israel,Наземная техника,vehicle,standard,0,2,il_magach_6b_gal_batash,1,False
 il_sabra_mk1,7,israel,Наземная техника,vehicle,standard,0,0,il_magach_batash_7_group,,False
+il_leopard_2a6_hel,8,israel,Наземная техника,vehicle,standard,0,0,il_sabra_mk1,,False
 il_amx_13_75,4,israel,Наземная техника,vehicle,standard,1,0,,,False
 il_aml_90,4,israel,Наземная техника,vehicle,standard,1,1,il_amx_13_75,,False
 il_centurion_mk_5_shot,4,israel,Наземная техника,vehicle,standard,1,2,il_aml_90,,False
@@ -3516,8 +3558,10 @@ il_zsu_57_2,4,israel,Наземная техника,vehicle,standard,2,1,il_tcm
 il_m163_vulcan,4,israel,Наземная техника,vehicle,standard,2,2,il_zsu_57_2,,False
 il_zsu_23_4,5,israel,Наземная техника,vehicle,standard,2,0,il_m163_vulcan,,False
 il_machbet,6,israel,Наземная техника,vehicle,standard,2,0,il_zsu_23_4,,False
-il_mim_72_chaparral,7,israel,Наземная техника,vehicle,standard,2,0,il_machbet,,False
-il_spyder_aio,8,israel,Наземная техника,vehicle,standard,2,0,il_mim_72_chaparral,,False
+il_mim_72_chaparral,6,israel,Наземная техника,vehicle,standard,2,1,il_machbet,,False
+il_9a33bm3,7,israel,Наземная техника,vehicle,standard,2,0,il_mim_72_chaparral,,False
+il_tor_m1,7,israel,Наземная техника,vehicle,standard,2,1,il_9a33bm3,,False
+il_spyder_aio,8,israel,Наземная техника,vehicle,standard,2,0,il_tor_m1,,False
 il_m109,4,israel,Наземная техника,vehicle,standard,3,0,,,False
 il_rochev_tager_group,4,israel,Наземная техника,folder,standard,3,1,il_m109,,False
 il_m109a1,4,israel,Наземная техника,vehicle,standard,3,1,il_rochev_tager_group,0,False
@@ -3525,9 +3569,10 @@ il_ss_11_halftrack,4,israel,Наземная техника,vehicle,standard,3,1
 il_m113_hvms,5,israel,Наземная техника,vehicle,standard,3,0,il_rochev_tager_group,,False
 il_m113a1_tow,6,israel,Наземная техника,vehicle,standard,3,0,il_m113_hvms,,False
 il_hunter_afv,7,israel,Наземная техника,vehicle,standard,3,0,il_m113a1_tow,,False
-il_namer_rcws_30,7,israel,Наземная техника,vehicle,standard,3,1,il_hunter_afv,,False
-il_eitan,7,israel,Наземная техника,vehicle,standard,3,2,il_namer_rcws_30,,False
-il_namer_tsrikhon,8,israel,Наземная техника,vehicle,standard,3,0,il_eitan,,False
+il_eitan,7,israel,Наземная техника,vehicle,standard,3,1,il_hunter_afv,,False
+il_namer_group,7,israel,Наземная техника,folder,standard,3,2,il_eitan,,False
+il_namer_rcws_30,7,israel,Наземная техника,vehicle,standard,3,2,il_namer_group,0,False
+il_namer_tsrikhon,7,israel,Наземная техника,vehicle,standard,3,2,il_namer_rcws_30,1,False
 il_m_51_w,4,israel,Наземная техника,vehicle,premium,0,0,,,False
 il_sholef,4,israel,Наземная техника,vehicle,premium,0,1,,,True
 il_magach_3,5,israel,Наземная техника,vehicle,premium,0,0,,,False
@@ -3576,14 +3621,24 @@ f_16d_iaf_group,8,israel,Авиация,folder,standard,2,0,nesher,,False
 f_16d_block_40_barak_2,8,israel,Авиация,vehicle,standard,2,0,f_16d_iaf_group,0,False
 f_16i_sufa,8,israel,Авиация,vehicle,standard,2,0,f_16d_block_40_barak_2,1,False
 f_15i_raam,8,israel,Авиация,vehicle,standard,2,1,f_16d_iaf_group,,False
+sb2c_5_greece,4,israel,Авиация,vehicle,standard,3,0,,,False
+f-84g_greece,5,israel,Авиация,vehicle,standard,3,0,sb2c_5_greece,,False
+f_102a_greece,6,israel,Авиация,vehicle,standard,3,0,f-84g_greece,,False
+f_86em_greece,6,israel,Авиация,vehicle,standard,3,1,f_102a_greece,,False
+a_7h_greece,7,israel,Авиация,vehicle,standard,3,0,f_86em_greece,,False
+mirage_f1cg_greece,7,israel,Авиация,vehicle,standard,3,1,a_7h_greece,,False
+f_4e_aup_greece,8,israel,Авиация,vehicle,standard,3,0,mirage_f1cg_greece,,False
+mirage_2000_5eg_mk2_greece,8,israel,Авиация,vehicle,standard,3,1,f_4e_aup_greece,,False
+rafale_eg_greece,9,israel,Авиация,vehicle,standard,3,0,mirage_2000_5eg_mk2_greece,,False
 spitfire_lf_mk9e_weisman,4,israel,Авиация,vehicle,premium,0,0,,,False
 spitfire_lf_mk9c_cw_greece,4,israel,Авиация,vehicle,premium,0,1,,,True
 md_450b_ouragan_iaf_29,5,israel,Авиация,vehicle,premium,0,0,,,False
 meteor_frmk9_iaf,5,israel,Авиация,vehicle,premium,0,1,,,True
 f-84f_israel_iaf,6,israel,Авиация,vehicle,premium,0,0,,,False
 a_4e_late_iaf,6,israel,Авиация,vehicle,premium,0,1,,,False
-kfir_canard,7,israel,Авиация,vehicle,premium,0,0,,,False
-kfir_c2,7,israel,Авиация,vehicle,premium,0,1,,,True
-mig_21_2000_iaf,7,israel,Авиация,vehicle,premium,0,2,,,True
+a_7e_greece,7,israel,Авиация,vehicle,premium,0,0,,,True
+kfir_canard,7,israel,Авиация,vehicle,premium,0,1,,,False
 f_16a_block_10_netz_mod,8,israel,Авиация,vehicle,premium,0,0,,,True
 kfir_c10_colombia,8,israel,Авиация,vehicle,premium,0,1,,,True
+kfir_c2,7,israel,Авиация,vehicle,standard,5,0,,,True
+mig_21_2000_iaf,7,israel,Авиация,vehicle,standard,5,1,,,True

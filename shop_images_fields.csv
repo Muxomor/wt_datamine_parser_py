@@ -101,7 +101,7 @@ fw-190a-4_group,fw-190a-5_group
 fw-190a-5_group,fw-190a-5_group
 fw-190d_group,fw-190d_group
 ta-152_group,ta-152_group
-mig_21_germany_group,mig-21_mf
+mig_21_germany_group,mig_21_germany_group
 do_217j_group,do_217j_group
 do_217n_group,do_217n_group
 bf_110cf_group,bf_110cf_group
@@ -146,11 +146,13 @@ ussr_su_isu_122_group,ussr_su_isu_122_group
 ussr_2s_group,ussr_2s_group
 ussr_su_object_group,ussr_su_object_group
 ussr_it_9p149_group,ussr_it_9p149_group
+ussr_775_157_group,ussr_775_157_group
 ussr_btr_zis_group,ussr_btr_152a
 ussr_zis_group,ussr_zis_group
 ussr_9a33_35_group,ussr_9a33_35_group
 ussr_buk_m3_fcs,germ_iris_slm_group
 ussr_kit_3rank_group,ussr_kit_3rank_group
+ussr_kit_4rank_group,ussr_kit_4rank_group
 yak-1_group,yak-1_group
 yak-9_group,yak-9_group
 yak-9tk_group,yak-9tk_group
@@ -275,10 +277,10 @@ j2m_group,j2m_group
 f_5_f_16_thailand_group,f_5_f_16_thailand_group
 b6n_group,b6n_group
 d4y_group,d4y_group
-r2y2_group,r2y2_group
 ki_49_1_group,ki_49_1_group
 ki_49_2_group,ki_49_2_group
 ki_67_group,ki_67_group
+r2y2_group,r2y2_group
 jp_cruiser_furutaka_aoba_group,jp_cruiser_furutaka_aoba_group
 cn_m3_m5_stuart_group,cn_m3_m5_stuart_group
 cn_76_211_group,cn_76_211_group
@@ -316,6 +318,7 @@ it_9a33_35_group,it_9a33_35_group
 it_samp_t_fcs,germ_iris_slm_group
 it_semovente_m41_group,it_semovente_m41_group
 it_semovente_m43_105_75_group,it_semovente_m43_group
+it_m44_55_group,it_m44_55_group
 it_semovente_stug_group,it_semovente_stug_group
 it_dardo_group,it_dardo_group
 re_2000_group,re_2000_group
@@ -378,6 +381,7 @@ sw_t_34_pz_4_group,sw_t_34_pz_4_group
 sw_pt_76_comet_group,sw_pt_76_comet_group
 gladiator_j8a_group,gladiator_j8a
 saab_j21a_group,saab_j21a_group
+saab_j35_group,saab_j35_group
 saab_ja37d_group,saab_ja37d_group
 saab_jas39_group,saab_jas39_group
 saab_b17a_group,saab_b17a_group
@@ -397,6 +401,7 @@ il_merkava_1_2_group,il_merkava_1_2_group
 il_merkava_3_group,il_merkava_3_group
 il_merkava_4_group,il_merkava_4_group
 il_rochev_tager_group,il_rochev_tager_group
+il_namer_group,il_namer_group
 md_460_iaf_group,md_460_iaf_group
 a_4_iaf_group,a_4_iaf_group
 f_4e_f_15_iaf_group,f_4e_f_15_iaf_group

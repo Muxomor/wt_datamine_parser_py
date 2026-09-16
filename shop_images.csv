@@ -41,6 +41,7 @@ us_m60_120s,https://static.encyclopedia.warthunder.com/slots/us_m60_120s.png
 us_m1a1_hc_abrams,https://static.encyclopedia.warthunder.com/slots/us_m1a1_hc_abrams.png
 us_lvt_a_1,https://static.encyclopedia.warthunder.com/slots/us_lvt_a_1.png
 us_m22_locust,https://static.encyclopedia.warthunder.com/slots/us_m22_locust.png
+us_m7,https://static.encyclopedia.warthunder.com/slots/us_m7.png
 us_m6_group,https://static.encyclopedia.warthunder.com/slots/us_m6_group.png
 us_m6a1,https://static.encyclopedia.warthunder.com/slots/us_m6a1.png
 us_t1e1,https://static.encyclopedia.warthunder.com/slots/us_t1e1.png
@@ -129,7 +130,6 @@ us_m46_patton_73_armor_bat,https://static.encyclopedia.warthunder.com/slots/us_m
 us_m728,https://static.encyclopedia.warthunder.com/slots/us_m728.png
 us_t54e2,https://static.encyclopedia.warthunder.com/slots/us_t54e2.png
 us_t54e1,https://static.encyclopedia.warthunder.com/slots/us_t54e1.png
-us_t58,https://static.encyclopedia.warthunder.com/slots/us_t58.png
 us_m901_itv,https://static.encyclopedia.warthunder.com/slots/us_m901_itv.png
 us_m60a1_rise_mod,https://static.encyclopedia.warthunder.com/slots/us_m60a1_rise_mod.png
 us_xm1_chrysler,https://static.encyclopedia.warthunder.com/slots/us_xm1_chrysler.png
@@ -158,6 +158,7 @@ us_m6a2e1,https://static.encyclopedia.warthunder.com/slots/us_m6a2e1.png
 us_t29,https://static.encyclopedia.warthunder.com/slots/us_t29.png
 us_t114,https://static.encyclopedia.warthunder.com/slots/us_t114.png
 us_magach_3,https://static.encyclopedia.warthunder.com/slots/us_magach_3.png
+us_t58,https://static.encyclopedia.warthunder.com/slots/us_t58.png
 us_efv_p1,https://static.encyclopedia.warthunder.com/slots/us_efv_p1.png
 us_merkava_mk_1,https://static.encyclopedia.warthunder.com/slots/us_merkava_mk_1.png
 us_merkava_mk_2b_late,https://static.encyclopedia.warthunder.com/slots/us_merkava_mk_2b_late.png
@@ -207,6 +208,7 @@ p-38l,https://static.encyclopedia.warthunder.com/slots/p-38l.png
 f-82e,https://static.encyclopedia.warthunder.com/slots/f-82e.png
 f-80a,https://static.encyclopedia.warthunder.com/slots/f-80a.png
 f-80,https://static.encyclopedia.warthunder.com/slots/f-80.png
+f_102a_late,https://static.encyclopedia.warthunder.com/slots/f_102a_late.png
 f_101c,https://static.encyclopedia.warthunder.com/slots/f_101c.png
 f-104_group,https://static.encyclopedia.warthunder.com/slots/f-104_group.png
 f-104a,https://static.encyclopedia.warthunder.com/slots/f-104a.png
@@ -284,6 +286,7 @@ fa_18c_late,https://static.encyclopedia.warthunder.com/slots/fa_18c_late.png
 f_14_group,https://static.encyclopedia.warthunder.com/slots/f_14_group.png
 f_14a_early,https://static.encyclopedia.warthunder.com/slots/f_14a_early.png
 f_14b,https://static.encyclopedia.warthunder.com/slots/f_14b.png
+f_14d_vf_11,https://static.encyclopedia.warthunder.com/slots/f_14d_vf_11.png
 fa_18e_block_2,https://static.encyclopedia.warthunder.com/slots/fa_18e_block_2.png
 os2u_group,https://static.encyclopedia.warthunder.com/slots/os2u_group.png
 os2u_1,https://static.encyclopedia.warthunder.com/slots/os2u_1.png
@@ -383,8 +386,8 @@ f-5c,https://static.encyclopedia.warthunder.com/slots/f-5c.png
 av_8b_na,https://static.encyclopedia.warthunder.com/slots/av_8b_na.png
 f-4s,https://static.encyclopedia.warthunder.com/slots/f-4s.png
 f_20a,https://static.encyclopedia.warthunder.com/slots/f_20a.png
-f_16xl,https://static.encyclopedia.warthunder.com/slots/f_16xl.png
 fa_18c_early,https://static.encyclopedia.warthunder.com/slots/fa_18c_early.png
+f_14d,https://static.encyclopedia.warthunder.com/slots/f_14d.png
 p-26a_34,https://static.encyclopedia.warthunder.com/slots/p-26a_34.png
 p-36a_rasmussen,https://static.encyclopedia.warthunder.com/slots/p-36a_rasmussen.png
 b_10b,https://static.encyclopedia.warthunder.com/slots/b_10b.png
@@ -418,10 +421,11 @@ f_106a_1972,https://static.encyclopedia.warthunder.com/slots/f_106a_1972.png
 f-5a,https://static.encyclopedia.warthunder.com/slots/f-5a.png
 a_6e_tram,https://static.encyclopedia.warthunder.com/slots/a_6e_tram.png
 a_7k,https://static.encyclopedia.warthunder.com/slots/a_7k.png
+f_16xl,https://static.encyclopedia.warthunder.com/slots/f_16xl.png
 f_14a_iriaf,https://static.encyclopedia.warthunder.com/slots/f_14a_iriaf.png
-f_14d,https://static.encyclopedia.warthunder.com/slots/f_14d.png
 us_destroyer_clemson_litchfield,https://static.encyclopedia.warthunder.com/slots/us_destroyer_clemson_litchfield.png
 us_destroyer_farragut_1942,https://static.encyclopedia.warthunder.com/slots/us_destroyer_farragut_1942.png
+us_destroyer_mahan_class,https://static.encyclopedia.warthunder.com/slots/us_destroyer_mahan_class.png
 us_destroyer_fletcher,https://static.encyclopedia.warthunder.com/slots/us_destroyer_fletcher.png
 us_destroyer_porter_1941,https://static.encyclopedia.warthunder.com/slots/us_destroyer_porter_1941.png
 us_destroyer_somers,https://static.encyclopedia.warthunder.com/slots/us_destroyer_somers.png
@@ -566,6 +570,7 @@ germ_kpz_70,https://static.encyclopedia.warthunder.com/slots/germ_kpz_70.png
 germ_mkpz_super_m48,https://static.encyclopedia.warthunder.com/slots/germ_mkpz_super_m48.png
 germ_kpz_t72m1,https://static.encyclopedia.warthunder.com/slots/germ_kpz_t72m1.png
 germ_leopard_2k,https://static.encyclopedia.warthunder.com/slots/germ_leopard_2k.png
+germ_embt,https://static.encyclopedia.warthunder.com/slots/germ_embt.png
 germ_a7v,https://static.encyclopedia.warthunder.com/slots/germ_a7v.png
 germ_pzkpfw_iv_ausf_c,https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_iv_ausf_c.png
 germ_pzkpfw_ii_early_group,https://static.encyclopedia.warthunder.com/slots/germ_pzkpfw_ii_early_group.png
@@ -634,10 +639,10 @@ germ_pzkpfw_38t_marder_iii_ausf_h,https://static.encyclopedia.warthunder.com/slo
 germ_stuh_iii_ausf_g,https://static.encyclopedia.warthunder.com/slots/germ_stuh_iii_ausf_g.png
 germ_stug_iii_ausf_f,https://static.encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_f.png
 germ_hummel,https://static.encyclopedia.warthunder.com/slots/germ_hummel.png
-germ_stug_iii_ausf_g,https://static.encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_g.png
 germ_m44_55_group,https://static.encyclopedia.warthunder.com/slots/germ_m44_55_group.png
 germ_m44,https://static.encyclopedia.warthunder.com/slots/germ_m44.png
 germ_m55,https://static.encyclopedia.warthunder.com/slots/germ_m55.png
+germ_stug_iii_ausf_g,https://static.encyclopedia.warthunder.com/slots/germ_stug_iii_ausf_g.png
 germ_jagdpanzer_group,https://static.encyclopedia.warthunder.com/slots/germ_jagdpanzer_group.png
 germ_jgdpz_iv_l48,https://static.encyclopedia.warthunder.com/slots/germ_jgdpz_iv_l48.png
 germ_jgdpz_38t,https://static.encyclopedia.warthunder.com/slots/germ_jgdpz_38t.png
@@ -725,6 +730,7 @@ uh_1d,https://static.encyclopedia.warthunder.com/slots/uh_1d.png
 bo_105pah1,https://static.encyclopedia.warthunder.com/slots/bo_105pah1.png
 bo_105pah1_a1,https://static.encyclopedia.warthunder.com/slots/bo_105pah1_a1.png
 tiger_uht,https://static.encyclopedia.warthunder.com/slots/tiger_uht.png
+h145m,https://static.encyclopedia.warthunder.com/slots/h145m.png
 mi_8tb,https://static.encyclopedia.warthunder.com/slots/mi_8tb.png
 mi_24d_german,https://static.encyclopedia.warthunder.com/slots/mi_24d_german.png
 mi_24p_german,https://static.encyclopedia.warthunder.com/slots/mi_24p_german.png
@@ -950,6 +956,7 @@ ju-388j,https://static.encyclopedia.warthunder.com/slots/ju-388j.png
 fw-190c,https://static.encyclopedia.warthunder.com/slots/fw-190c.png
 fw-190d-13,https://static.encyclopedia.warthunder.com/slots/fw-190d-13.png
 he-162a-1,https://static.encyclopedia.warthunder.com/slots/he-162a-1.png
+arado_234b_2_mt,https://static.encyclopedia.warthunder.com/slots/arado_234b_2_mt.png
 me-262a-2a,https://static.encyclopedia.warthunder.com/slots/me-262a-2a.png
 alpha_jet_a_jabog41,https://static.encyclopedia.warthunder.com/slots/alpha_jet_a_jabog41.png
 ffa_p16,https://static.encyclopedia.warthunder.com/slots/ffa_p16.png
@@ -989,8 +996,8 @@ germ_battlecruiser_derfflinger,https://static.encyclopedia.warthunder.com/slots/
 germ_battlecruiser_ersatz_yorck,https://static.encyclopedia.warthunder.com/slots/germ_battlecruiser_ersatz_yorck.png
 germ_battleship_scharnhorst,https://static.encyclopedia.warthunder.com/slots/germ_battleship_scharnhorst.png
 germ_destroyer_class1924_iltis,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1924_iltis.png
-germ_destroyer_fletcher_zerstorer4,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_fletcher_zerstorer4.png
 germ_destroyer_class1924_jaguar1941,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1924_jaguar1941.png
+germ_destroyer_fletcher_zerstorer4,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_fletcher_zerstorer4.png
 germ_destroyer_class1936c_z47,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936c_z47.png
 germ_destroyer_class1936_z20_karlgalster,https://static.encyclopedia.warthunder.com/slots/germ_destroyer_class1936_z20_karlgalster.png
 germ_cruiser_karlsruhe,https://static.encyclopedia.warthunder.com/slots/germ_cruiser_karlsruhe.png
@@ -1033,6 +1040,7 @@ germ_type152_hugin,https://static.encyclopedia.warthunder.com/slots/germ_type152
 germ_type153_pfeil,https://static.encyclopedia.warthunder.com/slots/germ_type153_pfeil.png
 germ_ls4_class,https://static.encyclopedia.warthunder.com/slots/germ_ls4_class.png
 germ_km5,https://static.encyclopedia.warthunder.com/slots/germ_km5.png
+germ_rboot_r310,https://static.encyclopedia.warthunder.com/slots/germ_rboot_r310.png
 germ_s_100_s204_lang,https://static.encyclopedia.warthunder.com/slots/germ_s_100_s204_lang.png
 germ_vs8_hydrofoil,https://static.encyclopedia.warthunder.com/slots/germ_vs8_hydrofoil.png
 germ_escort_typem1943,https://static.encyclopedia.warthunder.com/slots/germ_escort_typem1943.png
@@ -1146,10 +1154,12 @@ ussr_su_object_group,https://static.encyclopedia.warthunder.com/slots/ussr_su_ob
 ussr_su_122_54,https://static.encyclopedia.warthunder.com/slots/ussr_su_122_54.png
 ussr_object_268,https://static.encyclopedia.warthunder.com/slots/ussr_object_268.png
 ussr_2s19_m1,https://static.encyclopedia.warthunder.com/slots/ussr_2s19_m1.png
+ussr_object_416,https://static.encyclopedia.warthunder.com/slots/ussr_object_416.png
 ussr_it_9p149_group,https://static.encyclopedia.warthunder.com/slots/ussr_it_9p149_group.png
 ussr_it_1,https://static.encyclopedia.warthunder.com/slots/ussr_it_1.png
 ussr_9p149,https://static.encyclopedia.warthunder.com/slots/ussr_9p149.png
 ussr_btr_82at,https://static.encyclopedia.warthunder.com/slots/ussr_btr_82at.png
+ussr_775_157_group,https://static.encyclopedia.warthunder.com/slots/ussr_775_157_group.png
 ussr_object_775,https://static.encyclopedia.warthunder.com/slots/ussr_object_775.png
 ussr_9p157,https://static.encyclopedia.warthunder.com/slots/ussr_9p157.png
 ussr_bmpt,https://static.encyclopedia.warthunder.com/slots/ussr_bmpt.png
@@ -1204,6 +1214,10 @@ ussr_t_34_85e,https://static.encyclopedia.warthunder.com/slots/ussr_t_34_85e.png
 ussr_su_122p,https://static.encyclopedia.warthunder.com/slots/ussr_su_122p.png
 ussr_t_44_122,https://static.encyclopedia.warthunder.com/slots/ussr_t_44_122.png
 ussr_t_34_100,https://static.encyclopedia.warthunder.com/slots/ussr_t_34_100.png
+ussr_kit_4rank_group,https://static.encyclopedia.warthunder.com/slots/ussr_kit_4rank_group.png
+ussr_t_44_kit_4rank,https://static.encyclopedia.warthunder.com/slots/ussr_t_44_kit_4rank.png
+ussr_is_2m_kit_4rank,https://static.encyclopedia.warthunder.com/slots/ussr_is_2m_kit_4rank.png
+ussr_m53_59_kit_4rank,https://static.encyclopedia.warthunder.com/slots/ussr_m53_59_kit_4rank.png
 ussr_is_6,https://static.encyclopedia.warthunder.com/slots/ussr_is_6.png
 ussr_object_120,https://static.encyclopedia.warthunder.com/slots/ussr_object_120.png
 ussr_to_55,https://static.encyclopedia.warthunder.com/slots/ussr_to_55.png
@@ -1326,6 +1340,7 @@ mig_23mld,https://static.encyclopedia.warthunder.com/slots/mig_23mld.png
 mig_29_9_12,https://static.encyclopedia.warthunder.com/slots/mig_29_9_12.png
 mig_29_9_13,https://static.encyclopedia.warthunder.com/slots/mig_29_9_13.png
 mig_29smt_9_19,https://static.encyclopedia.warthunder.com/slots/mig_29smt_9_19.png
+mig_35,https://static.encyclopedia.warthunder.com/slots/mig_35.png
 i-15_group,https://static.encyclopedia.warthunder.com/slots/i-15_group.png
 i-15_1934,https://static.encyclopedia.warthunder.com/slots/i-15_1934.png
 i-15_1935,https://static.encyclopedia.warthunder.com/slots/i-15_1935.png
@@ -1563,6 +1578,7 @@ ussr_od_200,https://static.encyclopedia.warthunder.com/slots/ussr_od_200.png
 ussr_mpk_122a,https://static.encyclopedia.warthunder.com/slots/ussr_mpk_122a.png
 ussr_1124_art,https://static.encyclopedia.warthunder.com/slots/ussr_1124_art.png
 ussr_1124_ack,https://static.encyclopedia.warthunder.com/slots/ussr_1124_ack.png
+ussr_fugas_t1_strela,https://static.encyclopedia.warthunder.com/slots/ussr_fugas_t1_strela.png
 ussr_skr_groza_1943,https://static.encyclopedia.warthunder.com/slots/ussr_skr_groza_1943.png
 ussr_mpk_201m,https://static.encyclopedia.warthunder.com/slots/ussr_mpk_201m.png
 ussr_mpk_204,https://static.encyclopedia.warthunder.com/slots/ussr_mpk_204.png
@@ -1600,9 +1616,9 @@ uk_crusader_mk_2,https://static.encyclopedia.warthunder.com/slots/uk_crusader_mk
 uk_crusader_mk_3,https://static.encyclopedia.warthunder.com/slots/uk_crusader_mk_3.png
 uk_cruiser_ram_1,https://static.encyclopedia.warthunder.com/slots/uk_cruiser_ram_1.png
 uk_cromwell_sherman_group,https://static.encyclopedia.warthunder.com/slots/uk_cromwell_sherman_group.png
-uk_a27m_cromwell_5,https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_5.png
 uk_a27m_cromwell_1,https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_1.png
 uk_sherman_ii,https://static.encyclopedia.warthunder.com/slots/uk_sherman_ii.png
+uk_a27m_cromwell_5,https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_5.png
 uk_sherman_vc_firefly,https://static.encyclopedia.warthunder.com/slots/uk_sherman_vc_firefly.png
 uk_challenger_comet_group,https://static.encyclopedia.warthunder.com/slots/uk_challenger_comet_group.png
 uk_a30_challenger,https://static.encyclopedia.warthunder.com/slots/uk_a30_challenger.png
@@ -1652,6 +1668,7 @@ uk_olifant_mk_1a,https://static.encyclopedia.warthunder.com/slots/uk_olifant_mk_
 uk_olifant_mk_2,https://static.encyclopedia.warthunder.com/slots/uk_olifant_mk_2.png
 uk_ttd,https://static.encyclopedia.warthunder.com/slots/uk_ttd.png
 uk_vickers_mk7,https://static.encyclopedia.warthunder.com/slots/uk_vickers_mk7.png
+uk_arjun_mk1,https://static.encyclopedia.warthunder.com/slots/uk_arjun_mk1.png
 uk_m1a2_sep3_abrams,https://static.encyclopedia.warthunder.com/slots/uk_m1a2_sep3_abrams.png
 uk_a17_mk_1_tetrarch,https://static.encyclopedia.warthunder.com/slots/uk_a17_mk_1_tetrarch.png
 uk_daimler_mk_2,https://static.encyclopedia.warthunder.com/slots/uk_daimler_mk_2.png
@@ -1720,8 +1737,8 @@ uk_a_13_mk1_3rd_rtr,https://static.encyclopedia.warthunder.com/slots/uk_a_13_mk1
 uk_a1e1_independent,https://static.encyclopedia.warthunder.com/slots/uk_a1e1_independent.png
 uk_crusader_mk_2_the_saint,https://static.encyclopedia.warthunder.com/slots/uk_crusader_mk_2_the_saint.png
 uk_armored_car_aec_mk_2,https://static.encyclopedia.warthunder.com/slots/uk_armored_car_aec_mk_2.png
-uk_a27m_cromwell_5_rp3,https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_5_rp3.png
 uk_m4a5_ram_2,https://static.encyclopedia.warthunder.com/slots/uk_m4a5_ram_2.png
+uk_a27m_cromwell_5_rp3,https://static.encyclopedia.warthunder.com/slots/uk_a27m_cromwell_5_rp3.png
 uk_17_pdr_m10_achilles_norfolk_yeomanry,https://static.encyclopedia.warthunder.com/slots/uk_17_pdr_m10_achilles_norfolk_yeomanry.png
 uk_kit_3rank_group,https://static.encyclopedia.warthunder.com/slots/uk_kit_3rank_group.png
 uk_sherman_vc_firefly_kit_3rank,https://static.encyclopedia.warthunder.com/slots/uk_sherman_vc_firefly_kit_3rank.png
@@ -1765,6 +1782,7 @@ wessex_mk5,https://static.encyclopedia.warthunder.com/slots/wessex_mk5.png
 lynx_ah_mk1,https://static.encyclopedia.warthunder.com/slots/lynx_ah_mk1.png
 ah_mk1,https://static.encyclopedia.warthunder.com/slots/ah_mk1.png
 ah_64e_britain,https://static.encyclopedia.warthunder.com/slots/ah_64e_britain.png
+aw_159,https://static.encyclopedia.warthunder.com/slots/aw_159.png
 super_hind_mk3,https://static.encyclopedia.warthunder.com/slots/super_hind_mk3.png
 g_lynx,https://static.encyclopedia.warthunder.com/slots/g_lynx.png
 ah_2_rooivalk,https://static.encyclopedia.warthunder.com/slots/ah_2_rooivalk.png
@@ -1839,6 +1857,7 @@ sea_hawk_group,https://static.encyclopedia.warthunder.com/slots/sea_hawk_group.p
 sea_hawk_fga6,https://static.encyclopedia.warthunder.com/slots/sea_hawk_fga6.png
 sea_venom_faw20,https://static.encyclopedia.warthunder.com/slots/sea_venom_faw20.png
 scimitar_f1,https://static.encyclopedia.warthunder.com/slots/scimitar_f1.png
+ca_27_mk32_raaf,https://static.encyclopedia.warthunder.com/slots/ca_27_mk32_raaf.png
 harrier_frs1_early,https://static.encyclopedia.warthunder.com/slots/harrier_frs1_early.png
 f-4k,https://static.encyclopedia.warthunder.com/slots/f-4k.png
 fa_18a_raaf_group,https://static.encyclopedia.warthunder.com/slots/fa_18a_raaf_group.png
@@ -1866,6 +1885,7 @@ brigand_b1,https://static.encyclopedia.warthunder.com/slots/brigand_b1.png
 whirlwind_mk1,https://static.encyclopedia.warthunder.com/slots/whirlwind_mk1.png
 welkin_fmk1,https://static.encyclopedia.warthunder.com/slots/welkin_fmk1.png
 hornet_mk3,https://static.encyclopedia.warthunder.com/slots/hornet_mk3.png
+hawk_t1a_early,https://static.encyclopedia.warthunder.com/slots/hawk_t1a_early.png
 swift_f1,https://static.encyclopedia.warthunder.com/slots/swift_f1.png
 swift_f7,https://static.encyclopedia.warthunder.com/slots/swift_f7.png
 jaguar_gr1,https://static.encyclopedia.warthunder.com/slots/jaguar_gr1.png
@@ -1956,6 +1976,7 @@ wyvern_s4,https://static.encyclopedia.warthunder.com/slots/wyvern_s4.png
 spitfire_mk14c,https://static.encyclopedia.warthunder.com/slots/spitfire_mk14c.png
 spitfire_fr_mk14e,https://static.encyclopedia.warthunder.com/slots/spitfire_fr_mk14e.png
 attaker_fb2,https://static.encyclopedia.warthunder.com/slots/attaker_fb2.png
+hawk_t1a,https://static.encyclopedia.warthunder.com/slots/hawk_t1a.png
 marut_mk1,https://static.encyclopedia.warthunder.com/slots/marut_mk1.png
 buccaneer_s1,https://static.encyclopedia.warthunder.com/slots/buccaneer_s1.png
 hunter_f9_rhodesia,https://static.encyclopedia.warthunder.com/slots/hunter_f9_rhodesia.png
@@ -1990,6 +2011,7 @@ uk_battleship_colossus,https://static.encyclopedia.warthunder.com/slots/uk_battl
 uk_battleship_centurion,https://static.encyclopedia.warthunder.com/slots/uk_battleship_centurion.png
 uk_battleship_rodney,https://static.encyclopedia.warthunder.com/slots/uk_battleship_rodney.png
 uk_battleship_prince_of_wales,https://static.encyclopedia.warthunder.com/slots/uk_battleship_prince_of_wales.png
+uk_battleship_lion_class,https://static.encyclopedia.warthunder.com/slots/uk_battleship_lion_class.png
 uk_destroyer_clemson_churchill,https://static.encyclopedia.warthunder.com/slots/uk_destroyer_clemson_churchill.png
 uk_egret_class,https://static.encyclopedia.warthunder.com/slots/uk_egret_class.png
 uk_minelayer_abdiel_class_abdiel,https://static.encyclopedia.warthunder.com/slots/uk_minelayer_abdiel_class_abdiel.png
@@ -2118,6 +2140,7 @@ jp_type_75,https://static.encyclopedia.warthunder.com/slots/jp_type_75.png
 jp_type_99,https://static.encyclopedia.warthunder.com/slots/jp_type_99.png
 jp_type_16_mcv_prot,https://static.encyclopedia.warthunder.com/slots/jp_type_16_mcv_prot.png
 jp_type_16,https://static.encyclopedia.warthunder.com/slots/jp_type_16.png
+jp_harimau,https://static.encyclopedia.warthunder.com/slots/jp_harimau.png
 jp_type_94,https://static.encyclopedia.warthunder.com/slots/jp_type_94.png
 jp_type_98_ta_se,https://static.encyclopedia.warthunder.com/slots/jp_type_98_ta_se.png
 jp_halftrack_m16,https://static.encyclopedia.warthunder.com/slots/jp_halftrack_m16.png
@@ -2263,10 +2286,7 @@ d4y2,https://static.encyclopedia.warthunder.com/slots/d4y2.png
 d4y3,https://static.encyclopedia.warthunder.com/slots/d4y3.png
 p1y1_mod11,https://static.encyclopedia.warthunder.com/slots/p1y1_mod11.png
 b7a2,https://static.encyclopedia.warthunder.com/slots/b7a2.png
-r2y2_group,https://static.encyclopedia.warthunder.com/slots/r2y2_group.png
-r2y2_v1,https://static.encyclopedia.warthunder.com/slots/r2y2_v1.png
-r2y2_v2,https://static.encyclopedia.warthunder.com/slots/r2y2_v2.png
-r2y2_kai,https://static.encyclopedia.warthunder.com/slots/r2y2_kai.png
+ki_93_1_ko,https://static.encyclopedia.warthunder.com/slots/ki_93_1_ko.png
 ki_32,https://static.encyclopedia.warthunder.com/slots/ki_32.png
 ki_21_1ko,https://static.encyclopedia.warthunder.com/slots/ki_21_1ko.png
 h6k4,https://static.encyclopedia.warthunder.com/slots/h6k4.png
@@ -2283,6 +2303,8 @@ ki_67_group,https://static.encyclopedia.warthunder.com/slots/ki_67_group.png
 ki_67_1_ko,https://static.encyclopedia.warthunder.com/slots/ki_67_1_ko.png
 ki_67_1_otsu,https://static.encyclopedia.warthunder.com/slots/ki_67_1_otsu.png
 g8n1,https://static.encyclopedia.warthunder.com/slots/g8n1.png
+ca_27_mk32_malaysia,https://static.encyclopedia.warthunder.com/slots/ca_27_mk32_malaysia.png
+a_4ptm_malaysia,https://static.encyclopedia.warthunder.com/slots/a_4ptm_malaysia.png
 mig_29n,https://static.encyclopedia.warthunder.com/slots/mig_29n.png
 fa_18d_late_malaysia,https://static.encyclopedia.warthunder.com/slots/fa_18d_late_malaysia.png
 su_30mkm,https://static.encyclopedia.warthunder.com/slots/su_30mkm.png
@@ -2317,11 +2339,16 @@ bf-109e-3_japan,https://static.encyclopedia.warthunder.com/slots/bf-109e-3_japan
 f4u-1a_japan,https://static.encyclopedia.warthunder.com/slots/f4u-1a_japan.png
 p-51c-11-nt_japan,https://static.encyclopedia.warthunder.com/slots/p-51c-11-nt_japan.png
 b7a2_homare_23,https://static.encyclopedia.warthunder.com/slots/b7a2_homare_23.png
+b_26b_indonesia_kalong,https://static.encyclopedia.warthunder.com/slots/b_26b_indonesia_kalong.png
 a6m6c,https://static.encyclopedia.warthunder.com/slots/a6m6c.png
 fw-190a-5_japan,https://static.encyclopedia.warthunder.com/slots/fw-190a-5_japan.png
 ki_94_2,https://static.encyclopedia.warthunder.com/slots/ki_94_2.png
 ki_87,https://static.encyclopedia.warthunder.com/slots/ki_87.png
 j6k1,https://static.encyclopedia.warthunder.com/slots/j6k1.png
+r2y2_group,https://static.encyclopedia.warthunder.com/slots/r2y2_group.png
+r2y2_v1,https://static.encyclopedia.warthunder.com/slots/r2y2_v1.png
+r2y2_v2,https://static.encyclopedia.warthunder.com/slots/r2y2_v2.png
+r2y2_kai,https://static.encyclopedia.warthunder.com/slots/r2y2_kai.png
 f-4ej_adtw,https://static.encyclopedia.warthunder.com/slots/f-4ej_adtw.png
 jp_destroyer_momi,https://static.encyclopedia.warthunder.com/slots/jp_destroyer_momi.png
 jp_destroyer_matsu,https://static.encyclopedia.warthunder.com/slots/jp_destroyer_matsu.png
@@ -2406,6 +2433,7 @@ jp_destroyer_ayanami,https://static.encyclopedia.warthunder.com/slots/jp_destroy
 jp_t14_class_mod01,https://static.encyclopedia.warthunder.com/slots/jp_t14_class_mod01.png
 jp_kusen_tei_13_1942,https://static.encyclopedia.warthunder.com/slots/jp_kusen_tei_13_1942.png
 jp_karotei_type4,https://static.encyclopedia.warthunder.com/slots/jp_karotei_type4.png
+jp_type9_pt809,https://static.encyclopedia.warthunder.com/slots/jp_type9_pt809.png
 jp_t51a,https://static.encyclopedia.warthunder.com/slots/jp_t51a.png
 jp_escort_akebono_class,https://static.encyclopedia.warthunder.com/slots/jp_escort_akebono_class.png
 jp_pg02,https://static.encyclopedia.warthunder.com/slots/jp_pg02.png
@@ -2475,6 +2503,7 @@ cn_tor_hq_group,https://static.encyclopedia.warthunder.com/slots/cn_tor_hq_group
 cn_tor_m1,https://static.encyclopedia.warthunder.com/slots/cn_tor_m1.png
 cn_hq_17,https://static.encyclopedia.warthunder.com/slots/cn_hq_17.png
 cn_pgz_625_fb10,https://static.encyclopedia.warthunder.com/slots/cn_pgz_625_fb10.png
+cn_fk_2000,https://static.encyclopedia.warthunder.com/slots/cn_fk_2000.png
 cn_hq_11,https://static.encyclopedia.warthunder.com/slots/cn_hq_11.png
 cn_m8_scott,https://static.encyclopedia.warthunder.com/slots/cn_m8_scott.png
 cn_su_76m_1943,https://static.encyclopedia.warthunder.com/slots/cn_su_76m_1943.png
@@ -2517,6 +2546,7 @@ cn_ztz_96b,https://static.encyclopedia.warthunder.com/slots/cn_ztz_96b.png
 cn_oplot_t,https://static.encyclopedia.warthunder.com/slots/cn_oplot_t.png
 cn_bt_5,https://static.encyclopedia.warthunder.com/slots/cn_bt_5.png
 cn_type_95_ha_go,https://static.encyclopedia.warthunder.com/slots/cn_type_95_ha_go.png
+cn_plz_45,https://static.encyclopedia.warthunder.com/slots/cn_plz_45.png
 cn_wz_141,https://static.encyclopedia.warthunder.com/slots/cn_wz_141.png
 cn_plz_83_130,https://static.encyclopedia.warthunder.com/slots/cn_plz_83_130.png
 cn_t_62,https://static.encyclopedia.warthunder.com/slots/cn_t_62.png
@@ -2602,6 +2632,7 @@ q_5l,https://static.encyclopedia.warthunder.com/slots/q_5l.png
 jh_7,https://static.encyclopedia.warthunder.com/slots/jh_7.png
 jh_7a,https://static.encyclopedia.warthunder.com/slots/jh_7a.png
 jh_7a2,https://static.encyclopedia.warthunder.com/slots/jh_7a2.png
+j_16,https://static.encyclopedia.warthunder.com/slots/j_16.png
 martin_139wc,https://static.encyclopedia.warthunder.com/slots/martin_139wc.png
 db_3_china_group,https://static.encyclopedia.warthunder.com/slots/db_3_china_group.png
 db_3a_china,https://static.encyclopedia.warthunder.com/slots/db_3a_china.png
@@ -2644,7 +2675,6 @@ it_as_42_47,https://static.encyclopedia.warthunder.com/slots/it_as_42_47.png
 it_ab_43,https://static.encyclopedia.warthunder.com/slots/it_ab_43.png
 it_m3a3_stuart,https://static.encyclopedia.warthunder.com/slots/it_m3a3_stuart.png
 it_m24_chaffee,https://static.encyclopedia.warthunder.com/slots/it_m24_chaffee.png
-it_m44,https://static.encyclopedia.warthunder.com/slots/it_m44.png
 it_semovente_breda_501,https://static.encyclopedia.warthunder.com/slots/it_semovente_breda_501.png
 it_m18_hellcat,https://static.encyclopedia.warthunder.com/slots/it_m18_hellcat.png
 it_fiat_group,https://static.encyclopedia.warthunder.com/slots/it_fiat_group.png
@@ -2706,6 +2736,8 @@ it_semovente_m42_75_34,https://static.encyclopedia.warthunder.com/slots/it_semov
 it_semovente_m43_105_75_group,https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_group.png
 it_semovente_m43_105,https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_105.png
 it_semovente_m43_75_34,https://static.encyclopedia.warthunder.com/slots/it_semovente_m43_75_34.png
+it_m44_55_group,https://static.encyclopedia.warthunder.com/slots/it_m44_55_group.png
+it_m44,https://static.encyclopedia.warthunder.com/slots/it_m44.png
 it_m55,https://static.encyclopedia.warthunder.com/slots/it_m55.png
 it_semovente_stug_group,https://static.encyclopedia.warthunder.com/slots/it_semovente_stug_group.png
 it_semovente_m41m_90,https://static.encyclopedia.warthunder.com/slots/it_semovente_m41m_90.png
@@ -2714,6 +2746,7 @@ it_semovente_m43_75_46,https://static.encyclopedia.warthunder.com/slots/it_semov
 it_m36b1,https://static.encyclopedia.warthunder.com/slots/it_m36b1.png
 it_m109g,https://static.encyclopedia.warthunder.com/slots/it_m109g.png
 it_palmaria,https://static.encyclopedia.warthunder.com/slots/it_palmaria.png
+it_pzh_2000,https://static.encyclopedia.warthunder.com/slots/it_pzh_2000.png
 it_m113a1_tow,https://static.encyclopedia.warthunder.com/slots/it_m113a1_tow.png
 it_vbc_pt2,https://static.encyclopedia.warthunder.com/slots/it_vbc_pt2.png
 it_dardo_group,https://static.encyclopedia.warthunder.com/slots/it_dardo_group.png
@@ -2929,6 +2962,7 @@ it_destroyer_leone_class_tigre,https://static.encyclopedia.warthunder.com/slots/
 it_destroyer_soldati_serie1_geniere,https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1_geniere.png
 it_cruiser_zara_class_pola,https://static.encyclopedia.warthunder.com/slots/it_cruiser_zara_class_pola.png
 it_battleship_leonardo_da_vinci,https://static.encyclopedia.warthunder.com/slots/it_battleship_leonardo_da_vinci.png
+it_battleship_giulio_cesare,https://static.encyclopedia.warthunder.com/slots/it_battleship_giulio_cesare.png
 it_destroyer_saetta,https://static.encyclopedia.warthunder.com/slots/it_destroyer_saetta.png
 it_destroyer_soldati_serie1,https://static.encyclopedia.warthunder.com/slots/it_destroyer_soldati_serie1.png
 it_cruiser_cadorna_class_cadorna,https://static.encyclopedia.warthunder.com/slots/it_cruiser_cadorna_class_cadorna.png
@@ -3024,6 +3058,7 @@ fr_amx_40,https://static.encyclopedia.warthunder.com/slots/fr_amx_40.png
 fr_leopard_2a4nl,https://static.encyclopedia.warthunder.com/slots/fr_leopard_2a4nl.png
 fr_leopard_2a5nl,https://static.encyclopedia.warthunder.com/slots/fr_leopard_2a5nl.png
 fr_leopard_2a6nl,https://static.encyclopedia.warthunder.com/slots/fr_leopard_2a6nl.png
+fr_embt,https://static.encyclopedia.warthunder.com/slots/fr_embt.png
 fr_citroen_kegresse_p4t,https://static.encyclopedia.warthunder.com/slots/fr_citroen_kegresse_p4t.png
 fr_cckw_353_bofors,https://static.encyclopedia.warthunder.com/slots/fr_cckw_353_bofors.png
 fr_amx_vtt_dca,https://static.encyclopedia.warthunder.com/slots/fr_amx_vtt_dca.png
@@ -3057,6 +3092,7 @@ fr_char_2c_bis,https://static.encyclopedia.warthunder.com/slots/fr_char_2c_bis.p
 fr_b1_ter,https://static.encyclopedia.warthunder.com/slots/fr_b1_ter.png
 fr_amx_13_chaffee,https://static.encyclopedia.warthunder.com/slots/fr_amx_13_chaffee.png
 fr_m4a1_sherman_fl_10,https://static.encyclopedia.warthunder.com/slots/fr_m4a1_sherman_fl_10.png
+fr_arl_44_mod,https://static.encyclopedia.warthunder.com/slots/fr_arl_44_mod.png
 fr_pzkpfw_v_panther_dauphine,https://static.encyclopedia.warthunder.com/slots/fr_pzkpfw_v_panther_dauphine.png
 fr_amx_13_75_ss11,https://static.encyclopedia.warthunder.com/slots/fr_amx_13_75_ss11.png
 fr_somua_sm,https://static.encyclopedia.warthunder.com/slots/fr_somua_sm.png
@@ -3147,6 +3183,7 @@ sb2c_5_france,https://static.encyclopedia.warthunder.com/slots/sb2c_5_france.png
 douglas_ad_4_france,https://static.encyclopedia.warthunder.com/slots/douglas_ad_4_france.png
 f4u-7,https://static.encyclopedia.warthunder.com/slots/f4u-7.png
 f-84g_france,https://static.encyclopedia.warthunder.com/slots/f-84g_france.png
+se_203,https://static.encyclopedia.warthunder.com/slots/se_203.png
 f-84f_france,https://static.encyclopedia.warthunder.com/slots/f-84f_france.png
 f-100d_france,https://static.encyclopedia.warthunder.com/slots/f-100d_france.png
 mirage_5f,https://static.encyclopedia.warthunder.com/slots/mirage_5f.png
@@ -3238,6 +3275,7 @@ fr_cruiser_dugauy_class_primaguet,https://static.encyclopedia.warthunder.com/slo
 fr_cruiser_emile_bertin,https://static.encyclopedia.warthunder.com/slots/fr_cruiser_emile_bertin.png
 fr_cruiser_la_galissoniere_class_la_galissoniere,https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_la_galissoniere.png
 fr_cruiser_la_galissoniere_class_gloire,https://static.encyclopedia.warthunder.com/slots/fr_cruiser_la_galissoniere_class_gloire.png
+fr_cruiser_algerie_class,https://static.encyclopedia.warthunder.com/slots/fr_cruiser_algerie_class.png
 fr_battleship_bretagne_class_bretagne,https://static.encyclopedia.warthunder.com/slots/fr_battleship_bretagne_class_bretagne.png
 fr_battleship_richelieu_class_clemenceau,https://static.encyclopedia.warthunder.com/slots/fr_battleship_richelieu_class_clemenceau.png
 fr_destroyer_jaguar_class_panthere,https://static.encyclopedia.warthunder.com/slots/fr_destroyer_jaguar_class_panthere.png
@@ -3261,6 +3299,7 @@ fr_arras_class_arras,https://static.encyclopedia.warthunder.com/slots/fr_arras_c
 fr_vlt1,https://static.encyclopedia.warthunder.com/slots/fr_vlt1.png
 fr_p730_combattante,https://static.encyclopedia.warthunder.com/slots/fr_p730_combattante.png
 fr_vtb13,https://static.encyclopedia.warthunder.com/slots/fr_vtb13.png
+fr_lcm_monitor,https://static.encyclopedia.warthunder.com/slots/fr_lcm_monitor.png
 fr_mtb96_vosper,https://static.encyclopedia.warthunder.com/slots/fr_mtb96_vosper.png
 fr_flower_class_aconit,https://static.encyclopedia.warthunder.com/slots/fr_flower_class_aconit.png
 fr_lcg_m_l9059,https://static.encyclopedia.warthunder.com/slots/fr_lcg_m_l9059.png
@@ -3400,7 +3439,9 @@ saab_j21ra,https://static.encyclopedia.warthunder.com/slots/saab_j21ra.png
 saab_j29a,https://static.encyclopedia.warthunder.com/slots/saab_j29a.png
 saab_j29f,https://static.encyclopedia.warthunder.com/slots/saab_j29f.png
 saab_j32b,https://static.encyclopedia.warthunder.com/slots/saab_j32b.png
+saab_j35_group,https://static.encyclopedia.warthunder.com/slots/saab_j35_group.png
 saab_j35d,https://static.encyclopedia.warthunder.com/slots/saab_j35d.png
+saab_j35j,https://static.encyclopedia.warthunder.com/slots/saab_j35j.png
 saab_ja37,https://static.encyclopedia.warthunder.com/slots/saab_ja37.png
 saab_ja37d_group,https://static.encyclopedia.warthunder.com/slots/saab_ja37d_group.png
 saab_ja37d,https://static.encyclopedia.warthunder.com/slots/saab_ja37d.png
@@ -3462,13 +3503,13 @@ saab_a32a_red_adam,https://static.encyclopedia.warthunder.com/slots/saab_a32a_re
 saab_j35a,https://static.encyclopedia.warthunder.com/slots/saab_j35a.png
 saab_j35xs,https://static.encyclopedia.warthunder.com/slots/saab_j35xs.png
 saab_f35_wdns,https://static.encyclopedia.warthunder.com/slots/saab_f35_wdns.png
-f-5ag_norway,https://static.encyclopedia.warthunder.com/slots/f-5ag_norway.png
 saab_ja37di_f21,https://static.encyclopedia.warthunder.com/slots/saab_ja37di_f21.png
 saab_jas39d,https://static.encyclopedia.warthunder.com/slots/saab_jas39d.png
 j9_early,https://static.encyclopedia.warthunder.com/slots/j9_early.png
 vl_myrsky_2_late,https://static.encyclopedia.warthunder.com/slots/vl_myrsky_2_late.png
 mosquito_j30_sweden,https://static.encyclopedia.warthunder.com/slots/mosquito_j30_sweden.png
 saab_ajs37_early,https://static.encyclopedia.warthunder.com/slots/saab_ajs37_early.png
+f-5ag_norway,https://static.encyclopedia.warthunder.com/slots/f-5ag_norway.png
 il_m_51,https://static.encyclopedia.warthunder.com/slots/il_m_51.png
 il_magach_1_2_group,https://static.encyclopedia.warthunder.com/slots/il_magach_1_2_group.png
 il_m48a1_patton_iii,https://static.encyclopedia.warthunder.com/slots/il_m48a1_patton_iii.png
@@ -3490,6 +3531,7 @@ il_magach_batash_7_group,https://static.encyclopedia.warthunder.com/slots/il_mag
 il_magach_6b_gal_batash,https://static.encyclopedia.warthunder.com/slots/il_magach_6b_gal_batash.png
 il_magach_7c,https://static.encyclopedia.warthunder.com/slots/il_magach_7c.png
 il_sabra_mk1,https://static.encyclopedia.warthunder.com/slots/il_sabra_mk1.png
+il_leopard_2a6_hel,https://static.encyclopedia.warthunder.com/slots/il_leopard_2a6_hel.png
 il_amx_13_75,https://static.encyclopedia.warthunder.com/slots/il_amx_13_75.png
 il_aml_90,https://static.encyclopedia.warthunder.com/slots/il_aml_90.png
 il_centurion_mk_5_shot,https://static.encyclopedia.warthunder.com/slots/il_centurion_mk_5_shot.png
@@ -3517,6 +3559,8 @@ il_m163_vulcan,https://static.encyclopedia.warthunder.com/slots/il_m163_vulcan.p
 il_zsu_23_4,https://static.encyclopedia.warthunder.com/slots/il_zsu_23_4.png
 il_machbet,https://static.encyclopedia.warthunder.com/slots/il_machbet.png
 il_mim_72_chaparral,https://static.encyclopedia.warthunder.com/slots/il_mim_72_chaparral.png
+il_9a33bm3,https://static.encyclopedia.warthunder.com/slots/il_9a33bm3.png
+il_tor_m1,https://static.encyclopedia.warthunder.com/slots/il_tor_m1.png
 il_spyder_aio,https://static.encyclopedia.warthunder.com/slots/il_spyder_aio.png
 il_m109,https://static.encyclopedia.warthunder.com/slots/il_m109.png
 il_rochev_tager_group,https://static.encyclopedia.warthunder.com/slots/il_rochev_tager_group.png
@@ -3525,8 +3569,9 @@ il_ss_11_halftrack,https://static.encyclopedia.warthunder.com/slots/il_ss_11_hal
 il_m113_hvms,https://static.encyclopedia.warthunder.com/slots/il_m113_hvms.png
 il_m113a1_tow,https://static.encyclopedia.warthunder.com/slots/il_m113a1_tow.png
 il_hunter_afv,https://static.encyclopedia.warthunder.com/slots/il_hunter_afv.png
-il_namer_rcws_30,https://static.encyclopedia.warthunder.com/slots/il_namer_rcws_30.png
 il_eitan,https://static.encyclopedia.warthunder.com/slots/il_eitan.png
+il_namer_group,https://static.encyclopedia.warthunder.com/slots/il_namer_group.png
+il_namer_rcws_30,https://static.encyclopedia.warthunder.com/slots/il_namer_rcws_30.png
 il_namer_tsrikhon,https://static.encyclopedia.warthunder.com/slots/il_namer_tsrikhon.png
 il_m_51_w,https://static.encyclopedia.warthunder.com/slots/il_m_51_w.png
 il_sholef,https://static.encyclopedia.warthunder.com/slots/il_sholef.png
@@ -3576,14 +3621,24 @@ f_16d_iaf_group,https://static.encyclopedia.warthunder.com/slots/f_16d_iaf_group
 f_16d_block_40_barak_2,https://static.encyclopedia.warthunder.com/slots/f_16d_block_40_barak_2.png
 f_16i_sufa,https://static.encyclopedia.warthunder.com/slots/f_16i_sufa.png
 f_15i_raam,https://static.encyclopedia.warthunder.com/slots/f_15i_raam.png
+sb2c_5_greece,https://static.encyclopedia.warthunder.com/slots/sb2c_5_greece.png
+f-84g_greece,https://static.encyclopedia.warthunder.com/slots/f-84g_greece.png
+f_102a_greece,https://static.encyclopedia.warthunder.com/slots/f_102a_greece.png
+f_86em_greece,https://static.encyclopedia.warthunder.com/slots/f_86em_greece.png
+a_7h_greece,https://static.encyclopedia.warthunder.com/slots/a_7h_greece.png
+mirage_f1cg_greece,https://static.encyclopedia.warthunder.com/slots/mirage_f1cg_greece.png
+f_4e_aup_greece,https://static.encyclopedia.warthunder.com/slots/f_4e_aup_greece.png
+mirage_2000_5eg_mk2_greece,https://static.encyclopedia.warthunder.com/slots/mirage_2000_5eg_mk2_greece.png
+rafale_eg_greece,https://static.encyclopedia.warthunder.com/slots/rafale_eg_greece.png
 spitfire_lf_mk9e_weisman,https://static.encyclopedia.warthunder.com/slots/spitfire_lf_mk9e_weisman.png
 spitfire_lf_mk9c_cw_greece,https://static.encyclopedia.warthunder.com/slots/spitfire_lf_mk9c_cw_greece.png
 md_450b_ouragan_iaf_29,https://static.encyclopedia.warthunder.com/slots/md_450b_ouragan_iaf_29.png
 meteor_frmk9_iaf,https://static.encyclopedia.warthunder.com/slots/meteor_frmk9_iaf.png
 f-84f_israel_iaf,https://static.encyclopedia.warthunder.com/slots/f-84f_israel_iaf.png
 a_4e_late_iaf,https://static.encyclopedia.warthunder.com/slots/a_4e_late_iaf.png
+a_7e_greece,https://static.encyclopedia.warthunder.com/slots/a_7e_greece.png
 kfir_canard,https://static.encyclopedia.warthunder.com/slots/kfir_canard.png
-kfir_c2,https://static.encyclopedia.warthunder.com/slots/kfir_c2.png
-mig_21_2000_iaf,https://static.encyclopedia.warthunder.com/slots/mig_21_2000_iaf.png
 f_16a_block_10_netz_mod,https://static.encyclopedia.warthunder.com/slots/f_16a_block_10_netz_mod.png
 kfir_c10_colombia,https://static.encyclopedia.warthunder.com/slots/kfir_c10_colombia.png
+kfir_c2,https://static.encyclopedia.warthunder.com/slots/kfir_c2.png
+mig_21_2000_iaf,https://static.encyclopedia.warthunder.com/slots/mig_21_2000_iaf.png
