@@ -9075,11 +9075,11 @@
   Премиумный юнит kfir_c10_colombia: silver=0, exp=None (обнулено)
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан kfir_c10_colombia (премиум): silver=0, exp=None, br=13.3
-  Обрабатываем премиумный юнит: kfir_c2 (status=standard, have_prem_flag=True)
+  Обрабатываем премиумный юнит: kfir_c2 (status=premium, have_prem_flag=True)
   Премиумный юнит kfir_c2: silver=0, exp=None (обнулено)
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан kfir_c2 (премиум): silver=0, exp=None, br=11.7
-  Обрабатываем премиумный юнит: mig_21_2000_iaf (status=standard, have_prem_flag=True)
+  Обрабатываем премиумный юнит: mig_21_2000_iaf (status=premium, have_prem_flag=True)
   Премиумный юнит mig_21_2000_iaf: silver=0, exp=None (обнулено)
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан mig_21_2000_iaf (премиум): silver=0, exp=None, br=11.7

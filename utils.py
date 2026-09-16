@@ -164,6 +164,21 @@ class Constants:
         'hideByPlatform'
     ]
     
+    # Дополнительные признаки премиумной техники в wpcost.blkx
+    # (помимо costGold > 0 / freeRepairs > 0).
+    # researchType обрабатывается отдельно (значение clanVehicle).
+    WPCOST_PREMIUM_INDICATORS = [
+        'gift',
+        'event',
+        'openCostGold',
+        'minOpenCostGold',
+        'clanGoldPurchaseTrophyGift',
+        'isFirstBattleAward',
+        'purchaseTrophyGiftOnce',
+        'showOnlyWhenResearch',
+        'purchaseTrophyGift'
+    ]
+    
     # Аномальные окончания для удаления
     ANOMALOUS_SUFFIXES = ['_race', '_football', '_yt_cup_2019', '_event', '_naval', '_killstreak']
     

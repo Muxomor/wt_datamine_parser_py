@@ -3640,5 +3640,5 @@ a_7e_greece,7,israel,Авиация,vehicle,premium,0,0,,,True
 kfir_canard,7,israel,Авиация,vehicle,premium,0,1,,,False
 f_16a_block_10_netz_mod,8,israel,Авиация,vehicle,premium,0,0,,,True
 kfir_c10_colombia,8,israel,Авиация,vehicle,premium,0,1,,,True
-kfir_c2,7,israel,Авиация,vehicle,standard,5,0,,,True
-mig_21_2000_iaf,7,israel,Авиация,vehicle,standard,5,1,,,True
+kfir_c2,7,israel,Авиация,vehicle,premium,1,0,,,True
+mig_21_2000_iaf,7,israel,Авиация,vehicle,premium,1,1,,,True

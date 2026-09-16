@@ -244,13 +244,25 @@ class ShopParser:
         
         self.logger.log(f"Извлечено полей image: {len(self.image_fields)}")
 
+    def _has_wpcost_premium_marker(self, unit_data: Dict[str, Any]) -> bool:
+        """Проверяет дополнительные маркеры премиума в сырых данных wpcost.blkx.
+
+        Клановые машины помечены `researchType: clanVehicle`. Остальные маркеры
+        (gift/event/openCostGold/...) перечислены в Constants.WPCOST_PREMIUM_INDICATORS.
+        Медийные/будущие статусы (showOnlyWhenBought, futureReqAir и т.п.) не учитываются.
+        """
+        if unit_data.get('researchType') == 'clanVehicle':
+            return True
+        return any(indicator in unit_data for indicator in Constants.WPCOST_PREMIUM_INDICATORS)
+
     def load_wpcost_column_data(self, wpcost_raw: Dict[str, Any]):
         """Строит словарь premium/standard из сырых данных wpcost.blkx для определения колонок.
 
         Критерии:
-        - costGold > 0 или freeRepairs > 0 → confirmed premium (продаётся за GE / есть premium-привилегии)
-        - value > 0 → confirmed standard (есть серебряная стоимость = исследуемый юнит)
-        - value == 0 без costGold/freeRepairs → неоднозначно, не сохраняем (fallback на shop.blkx флаги)
+        - costGold > 0, freeRepairs > 0 или premium-маркер (gift/event/clan/openCostGold/...)
+          → confirmed premium
+        - value > 0 без premium-маркеров → confirmed standard (есть серебряная стоимость = исследуемый юнит)
+        - иначе → неоднозначно, не сохраняем (fallback на shop.blkx флаги)
         """
         confirmed_premium = 0
         confirmed_standard = 0
@@ -264,7 +276,7 @@ class ShopParser:
             free_repairs = unit_data.get('freeRepairs') or 0
             value = unit_data.get('value') or 0
 
-            if cost_gold > 0 or free_repairs > 0:
+            if cost_gold > 0 or free_repairs > 0 or self._has_wpcost_premium_marker(unit_data):
                 self.wpcost_column_data[nid] = True
                 confirmed_premium += 1
             elif value > 0:
