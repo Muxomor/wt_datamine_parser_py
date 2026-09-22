@@ -1320,7 +1320,7 @@
   Премиумный юнит us_cruiser_baltimore_class: silver=0, exp=None (обнулено)
     БР расчет: economicRank=16, raw=6.333, округлено=6.3
   Обработан us_cruiser_baltimore_class (премиум): silver=0, exp=None, br=6.3
-  Обрабатываем премиумный юнит: us_battleship_arkansas (status=premium, have_prem_flag=True)
+  Обрабатываем премиумный юнит: us_battleship_arkansas (status=premium, have_prem_flag=False)
   Премиумный юнит us_battleship_arkansas: silver=0, exp=None (обнулено)
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан us_battleship_arkansas (премиум): silver=0, exp=None, br=6.7

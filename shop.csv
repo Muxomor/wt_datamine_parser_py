@@ -472,7 +472,7 @@ us_destroyer_porter_1942,3,usa,Большой флот,vehicle,premium,0,2,,,Fal
 us_destroyer_fletcher_bennion,3,usa,Большой флот,vehicle,premium,0,3,,,True
 us_cruiser_brooklyn_class_helena,4,usa,Большой флот,vehicle,premium,0,0,,,False
 us_cruiser_baltimore_class,5,usa,Большой флот,vehicle,premium,0,0,,,True
-us_battleship_arkansas,5,usa,Большой флот,vehicle,premium,0,1,,,True
+us_battleship_arkansas,5,usa,Большой флот,vehicle,premium,0,1,,,False
 us_battleship_mississippi,6,usa,Большой флот,vehicle,premium,0,0,,,True
 us_battleship_colorado_class_maryland,6,usa,Большой флот,vehicle,premium,0,1,,,True
 us_destroyer_somers_davis,3,usa,Большой флот,vehicle,premium,1,0,,,True
