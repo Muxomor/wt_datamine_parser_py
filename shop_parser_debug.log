@@ -1,4 +1,4 @@
-Данные wpcost для колонок загружены: 994 premium, 2337 standard, 71 неоднозначных (fallback на shop флаги)
+Данные wpcost для колонок загружены: 995 premium, 2351 standard, 71 неоднозначных (fallback на shop флаги)
 Запуск парсера shop.blkx...
 Порог для определения премиумных колонок: 20.0%
 Обработка slave-юнитов: отключена
@@ -11,6 +11,7 @@
     УДАЛЕН: us_m551_football (аномальное окончание/начало)
     УДАЛЕН: us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
     УДАЛЕН: us_m18_hellcat_black_cat_race (аномальное окончание/начало)
+    УДАЛЕН: h_34_killstreak (аномальное окончание/начало)
     УДАЛЕН: ah_1f_event (аномальное окончание/начало)
     УДАЛЕН: ah_64a_killstreak (аномальное окончание/начало)
     УДАЛЕН: os2u_1_naval (аномальное окончание/начало)
@@ -32,6 +33,7 @@
     УДАЛЕН: ussr_m551_football (аномальное окончание/начало)
     УДАЛЕН: ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
     УДАЛЕН: ussr_t_80u_race (аномальное окончание/начало)
+    УДАЛЕН: mi_4av_killstreak (аномальное окончание/начало)
     УДАЛЕН: mi_35m_killstreak (аномальное окончание/начало)
     УДАЛЕН: mi_28n_killstreak (аномальное окончание/начало)
     УДАЛЕН: mig-21_bis_event (аномальное окончание/начало)
@@ -54,11 +56,12 @@
     УДАЛЕН: md_460_yt_cup_2019 (аномальное окончание/начало)
   Очистка страны: sweden
   Очистка страны: israel
-Очистка завершена. Удалено элементов: 35
+Очистка завершена. Удалено элементов: 37
 Подробный список удаленных элементов:
   - usa/Наземная техника/column_5/us_m551_football (аномальное окончание/начало)
   - usa/Наземная техника/column_5/us_m1a1_abrams_yt_cup_2019 (аномальное окончание/начало)
   - usa/Наземная техника/column_6/us_m18_hellcat_black_cat_race (аномальное окончание/начало)
+  - usa/Вертолёты/column_3/h_34_killstreak (аномальное окончание/начало)
   - usa/Вертолёты/column_3/ah_1f_event (аномальное окончание/начало)
   - usa/Вертолёты/column_3/ah_64a_killstreak (аномальное окончание/начало)
   - usa/Авиация/column_5/os2u_1_naval (аномальное окончание/начало)
@@ -77,6 +80,7 @@
   - ussr/Наземная техника/column_6/ussr_m551_football (аномальное окончание/начало)
   - ussr/Наземная техника/column_6/ussr_t_80u_yt_cup_2019 (аномальное окончание/начало)
   - ussr/Наземная техника/column_6/ussr_t_80u_race (аномальное окончание/начало)
+  - ussr/Вертолёты/column_3/mi_4av_killstreak (аномальное окончание/начало)
   - ussr/Вертолёты/column_3/mi_35m_killstreak (аномальное окончание/начало)
   - ussr/Вертолёты/column_3/mi_28n_killstreak (аномальное окончание/начало)
   - ussr/Авиация/column_5/mig-21_bis_event (аномальное окончание/начало)
@@ -2223,7 +2227,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'sw_nasams_launcher', 'germ_iris_slm_launcher', 'it_samp_t_launcher', 'ussr_buk_m3_launcher', 'jp_type_81_tansam_launcher', 'fr_samp_t_launcher', 'us_sl_amraam_launcher', 'uk_sky_sabre_launcher'}
+Slave-юниты: {'jp_type_81_tansam_launcher', 'sw_nasams_launcher', 'uk_sky_sabre_launcher', 'it_samp_t_launcher', 'us_nasams_launcher', 'ussr_buk_m3_launcher', 'germ_iris_slm_launcher', 'jp_type_03_chusam_launcher', 'us_sl_amraam_launcher', 'fr_samp_t_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -11617,7 +11621,7 @@ Slave-юниты: {'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'sw_nasam
       ОТЛАДКА: Техника sw_t_80u, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника sw_t_80u с предшественником '', статус: premium
     Столбец 5: обработано 14 элементов
-      ОТЛАДКА: Премиум техники в колонке: 7/7 = 1.00, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 8/8 = 1.00, порог: 0.2
     Столбец 6 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника sw_strv_m39_td, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника sw_strv_m39_td с предшественником '', статус: premium
@@ -11631,10 +11635,12 @@ Slave-юниты: {'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'sw_nasam
       ОТЛАДКА: Добавлена техника sw_k9_vidar с предшественником '', статус: premium
       ОТЛАДКА: Техника sw_bmp_2md, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника sw_bmp_2md с предшественником '', статус: premium
+      ОТЛАДКА: Техника sw_patria_bmp_3, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника sw_patria_bmp_3 с предшественником '', статус: premium
       ОТЛАДКА: Техника sw_patria_amv_ctcv_105, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника sw_patria_amv_ctcv_105 с предшественником '', статус: premium
       ПРОПУСК: sw_nasams_launcher является slave-юнитом
-    Столбец 6: обработано 7 элементов
+    Столбец 6: обработано 8 элементов
   Обработка типа: Вертолёты, столбцов: 2
     Столбец 0: вертолёты — premium по rankPosXY.x
       ОТЛАДКА: Техника hkp3c, predecessor='', rankPosXY=[3, 1], premium=False
@@ -11891,7 +11897,7 @@ Slave-юниты: {'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'sw_nasam
       ОТЛАДКА: Техника f-5ag_norway, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника f-5ag_norway с предшественником '', статус: premium
     Столбец 5: обработано 5 элементов
-Обработано 196 элементов для sweden
+Обработано 197 элементов для sweden
 Обработка страны: israel
   Обработка типа: Наземная техника, столбцов: 5
         ОТЛАДКА: get_group_items добавлен il_m48a1_patton_III с order=0
@@ -19601,9 +19607,11 @@ Slave-юниты: {'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'sw_nasam
     Ранг 5: 1 элементов, начинаем с row_index=0
         Отдельный элемент: sw_k9_vidar
       sw_k9_vidar: [1, 0] (элемент)
-    Ранг 6: 1 элементов, начинаем с row_index=0
+    Ранг 6: 2 элементов, начинаем с row_index=0
         Отдельный элемент: sw_bmp_2md
+        Отдельный элемент: sw_patria_bmp_3
       sw_bmp_2md: [1, 0] (элемент)
+      sw_patria_bmp_3: [1, 1] (элемент)
     Ранг 7: 1 элементов, начинаем с row_index=0
         Отдельный элемент: sw_patria_amv_ctcv_105
       sw_patria_amv_ctcv_105: [1, 0] (элемент)
@@ -20073,12 +20081,12 @@ Slave-юниты: {'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'sw_nasam
         Отдельный элемент: mig_21_2000_iaf
       kfir_c2: [1, 0] (элемент)
       mig_21_2000_iaf: [1, 1] (элемент)
-Координаты назначены для 3643 элементов
+Координаты назначены для 3644 элементов
   normalize_folder_predecessors: ah_64e_netherlands -> tiger_group (было tiger_had_france, элемент внутри folder)
-Данные (3643 записей) сохранены в shop.csv
+Данные (3644 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2659, Премиумной: 984
+Статистика: Стандартной техники: 2659, Премиумной: 985
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (408 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3643 элементов.
+Парсинг завершен успешно! Обработано 3644 элементов.

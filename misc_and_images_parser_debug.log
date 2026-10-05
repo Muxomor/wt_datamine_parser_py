@@ -298,7 +298,7 @@
 Данные о флагах стран (10 записей) сохранены в country_flags.csv
 Обработка флагов стран завершена успешно!
 Сбор изображений техники...
-Загружено 3643 ID из shop.csv
+Загружено 3644 ID из shop.csv
 Загрузка списка изображений из GitHub...
 Отправляем запрос к GitHub Tree API: https://api.github.com/repos/gszabi99/War-Thunder-Datamine/git/trees/master?recursive=1
 Получен ответ от GitHub Tree API. Status: 500, Size: 0 bytes
@@ -306,10 +306,10 @@
 Ошибка при обработке изображений техники: Ошибка при получении списка файлов из GitHub: 500 Server Error: Internal Server Error for url: https://api.github.com/repos/gszabi99/War-Thunder-Datamine/git/trees/master?recursive=1
 Продолжаем с обработкой версии...
 Загрузка данных версии из: https://raw.githubusercontent.com/gszabi99/War-Thunder-Datamine/refs/heads/master/version
-Данные версии успешно загружены: 2.59.0.25
+Данные версии успешно загружены: 2.59.0.46
 Обработка данных версии...
-Версия валидна: 2.59.0.25
-Данные версии сохранены в version.csv: 2.59.0.25
+Версия валидна: 2.59.0.46
+Данные версии сохранены в version.csv: 2.59.0.46
 Обработка версии завершена успешно!
 Парсинг misc данных завершен!
 Созданные файлы: rank_requirements.csv, country_flags.csv, shop_images.csv, version.csv

@@ -2662,7 +2662,7 @@ mig-17_f5,6,china,Авиация,vehicle,premium,0,0,,,False
 f_6c_pakistan,6,china,Авиация,vehicle,premium,0,1,,,True
 a_5c,7,china,Авиация,vehicle,premium,0,0,,,False
 j_7d,7,china,Авиация,vehicle,premium,0,1,,,False
-jh_7a_prototype,8,china,Авиация,vehicle,premium,0,0,,,True
+jh_7a_prototype,8,china,Авиация,vehicle,premium,0,0,,,False
 jf_17,8,china,Авиация,vehicle,premium,0,1,,,True
 p-51c-11-nt_china,3,china,Авиация,vehicle,premium,1,0,,,True
 a6m5_zero_china,3,china,Авиация,vehicle,premium,1,1,,,True
@@ -3418,6 +3418,7 @@ sw_t_50_fin,2,sweden,Наземная техника,vehicle,premium,1,0,,,False
 sw_kv_1_1942_fin,3,sweden,Наземная техника,vehicle,premium,1,0,,,False
 sw_k9_vidar,5,sweden,Наземная техника,vehicle,premium,1,0,,,True
 sw_bmp_2md,6,sweden,Наземная техника,vehicle,premium,1,0,,,True
+sw_patria_bmp_3,6,sweden,Наземная техника,vehicle,premium,1,1,,,True
 sw_patria_amv_ctcv_105,7,sweden,Наземная техника,vehicle,premium,1,0,,,True
 hkp3c,5,sweden,Вертолёты,vehicle,standard,0,0,,,False
 hkp2,5,sweden,Вертолёты,vehicle,standard,0,1,hkp3c,,False

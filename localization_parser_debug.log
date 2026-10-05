@@ -20347,6 +20347,14 @@
     сохранено/обновлено: mi_4av_1 -> RU: Ми-4АВ, EN: Mi-4AV (источник: mi_4av_1)
     числовой суффикс: mi_4av_2 -> ключ: mi_4av_2 (приоритет: 10)
     сохранено/обновлено: mi_4av_2 -> RU: Ми-4АВ, EN: Mi-4AV (источник: mi_4av_2)
+    _shop запись: mi_4av_killstreak_shop -> ключ: mi_4av_killstreak (приоритет: 1)
+    сохранено/обновлено: mi_4av_killstreak -> RU: Ми-4АВ, EN: Mi-4AV (источник: mi_4av_killstreak_shop)
+    числовой суффикс: mi_4av_killstreak_0 -> ключ: mi_4av_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: mi_4av_killstreak_0 -> RU: Ми-4АВ, EN: Mi-4AV (источник: mi_4av_killstreak_0)
+    числовой суффикс: mi_4av_killstreak_1 -> ключ: mi_4av_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: mi_4av_killstreak_1 -> RU: Ми-4АВ, EN: Mi-4AV (источник: mi_4av_killstreak_1)
+    числовой суффикс: mi_4av_killstreak_2 -> ключ: mi_4av_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: mi_4av_killstreak_2 -> RU: Ми-4АВ, EN: Mi-4AV (источник: mi_4av_killstreak_2)
     _shop запись: mi_24d_hungary_shop -> ключ: mi_24d_hungary (приоритет: 1)
     сохранено/обновлено: mi_24d_hungary -> RU: ◔Mi-24D, EN: ◔Mi-24D (источник: mi_24d_hungary_shop)
     числовой суффикс: mi_24d_hungary_0 -> ключ: mi_24d_hungary_0 (приоритет: 10)
@@ -21099,6 +21107,14 @@
     сохранено/обновлено: h_34_1 -> RU: H-34, EN: H-34 (источник: h_34_1)
     числовой суффикс: h_34_2 -> ключ: h_34_2 (приоритет: 10)
     сохранено/обновлено: h_34_2 -> RU: H-34, EN: H-34 (источник: h_34_2)
+    _shop запись: h_34_killstreak_shop -> ключ: h_34_killstreak (приоритет: 1)
+    сохранено/обновлено: h_34_killstreak -> RU: H-34, EN: H-34 (источник: h_34_killstreak_shop)
+    числовой суффикс: h_34_killstreak_0 -> ключ: h_34_killstreak_0 (приоритет: 10)
+    сохранено/обновлено: h_34_killstreak_0 -> RU: H-34, EN: H-34 (источник: h_34_killstreak_0)
+    числовой суффикс: h_34_killstreak_1 -> ключ: h_34_killstreak_1 (приоритет: 10)
+    сохранено/обновлено: h_34_killstreak_1 -> RU: H-34, EN: H-34 (источник: h_34_killstreak_1)
+    числовой суффикс: h_34_killstreak_2 -> ключ: h_34_killstreak_2 (приоритет: 10)
+    сохранено/обновлено: h_34_killstreak_2 -> RU: H-34, EN: H-34 (источник: h_34_killstreak_2)
     _shop запись: b_48_firecrest_shop -> ключ: b_48_firecrest (приоритет: 1)
     сохранено/обновлено: b_48_firecrest -> RU: Firecrest, EN: Firecrest (источник: b_48_firecrest_shop)
     числовой суффикс: b_48_firecrest_0 -> ключ: b_48_firecrest_0 (приоритет: 10)
@@ -25813,6 +25829,14 @@
     сохранено/обновлено: sw_patria_amv_ctcv_105_1 -> RU: CT-CV 105HP, EN: CT-CV 105HP (источник: sw_patria_amv_ctcv_105_1)
     числовой суффикс: sw_patria_amv_ctcv_105_2 -> ключ: sw_patria_amv_ctcv_105_2 (приоритет: 10)
     сохранено/обновлено: sw_patria_amv_ctcv_105_2 -> RU: Лёгкий танк, EN: Light tank (источник: sw_patria_amv_ctcv_105_2)
+    _shop запись: sw_patria_bmp_3_shop -> ключ: sw_patria_bmp_3 (приоритет: 1)
+    сохранено/обновлено: sw_patria_bmp_3 -> RU: AMV (BMP-3), EN: AMV (BMP-3) (источник: sw_patria_bmp_3_shop)
+    числовой суффикс: sw_patria_bmp_3_0 -> ключ: sw_patria_bmp_3_0 (приоритет: 10)
+    сохранено/обновлено: sw_patria_bmp_3_0 -> RU: Patria AMV (BMP-3), EN: Patria AMV (BMP-3) (источник: sw_patria_bmp_3_0)
+    числовой суффикс: sw_patria_bmp_3_1 -> ключ: sw_patria_bmp_3_1 (приоритет: 10)
+    сохранено/обновлено: sw_patria_bmp_3_1 -> RU: AMV (BMP-3), EN: AMV (BMP-3) (источник: sw_patria_bmp_3_1)
+    числовой суффикс: sw_patria_bmp_3_2 -> ключ: sw_patria_bmp_3_2 (приоритет: 10)
+    сохранено/обновлено: sw_patria_bmp_3_2 -> RU: Лёгкий танк, EN: Light tank (источник: sw_patria_bmp_3_2)
     _shop запись: sw_cv_90105_tml_shop -> ключ: sw_cv_90105_tml (приоритет: 1)
     сохранено/обновлено: sw_cv_90105_tml -> RU: CV 90105, EN: CV 90105 (источник: sw_cv_90105_tml_shop)
     числовой суффикс: sw_cv_90105_tml_0 -> ключ: sw_cv_90105_tml_0 (приоритет: 10)
@@ -31737,10 +31761,10 @@
     сохранено/обновлено: uk_arjun_mk1_1 -> RU: Arjun Mk 1, EN: Arjun Mk 1 (источник: uk_arjun_mk1_1)
     числовой суффикс: uk_arjun_mk1_2 -> ключ: uk_arjun_mk1_2 (приоритет: 10)
     сохранено/обновлено: uk_arjun_mk1_2 -> RU: ОБТ, EN: MBT (источник: uk_arjun_mk1_2)
-Обработано строк: 15906
-Найдено записей для локализации: 15860
-Всего ключей в словаре: 15860
-Загружено 3643 ID из shop.csv
+Обработано строк: 15918
+Найдено записей для локализации: 15872
+Всего ключей в словаре: 15872
+Загружено 3644 ID из shop.csv
 Создание маппинга локализации...
     Поиск локализации для: us_m2a4
     Прямой поиск: us_m2a4 -> RU: M2A4, EN: M2A4
@@ -41999,6 +42023,9 @@
     Поиск локализации для: sw_bmp_2md
     Прямой поиск: sw_bmp_2md -> RU: BMP-2MD, EN: BMP-2MD
   Найдено: sw_bmp_2md -> RU: BMP-2MD, EN: BMP-2MD
+    Поиск локализации для: sw_patria_bmp_3
+    Прямой поиск: sw_patria_bmp_3 -> RU: AMV (BMP-3), EN: AMV (BMP-3)
+  Найдено: sw_patria_bmp_3 -> RU: AMV (BMP-3), EN: AMV (BMP-3)
     Поиск локализации для: sw_patria_amv_ctcv_105
     Прямой поиск: sw_patria_amv_ctcv_105 -> RU: CT-CV 105HP, EN: CT-CV 105HP
   Найдено: sw_patria_amv_ctcv_105 -> RU: CT-CV 105HP, EN: CT-CV 105HP
@@ -42672,12 +42699,12 @@
     Прямой поиск: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
   Найдено: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
 Статистика локализации:
-  Найдено локализаций: 3643
+  Найдено локализаций: 3644
   Использован fallback: 0
-  Всего обработано: 3643
-Данные локализации (3643 записей) сохранены в localization.csv
+  Всего обработано: 3644
+Данные локализации (3644 записей) сохранены в localization.csv
 Статистика сохранения:
-  Русских локализаций: 3643
-  Английских локализаций: 3643
-  Всего записей: 3643
+  Русских локализаций: 3644
+  Английских локализаций: 3644
+  Всего записей: 3644
 Парсинг локализации завершен успешно! Создан файл localization.csv
