@@ -682,6 +682,7 @@ germ_sturmmorser_sturmtiger,38 cm Sturmmörser,38 cm Sturmmörser
 germ_panzerbefelhswagen_jagdpanther,Bfw. Jagdpanther G1,Bfw. Jagdpanther G1
 germ_panzerjager_tiger_p_elefant,Elefant,Elefant
 germ_panther_ii,Panther II,Panther II
+germ_panzerjager_panther_g2,Jagdpanther G2,Jagdpanther G2
 germ_mkpz_m47,mKPz M47 G,mKPz M47 G
 germ_marder_clovis,CLOVIS,CLOVIS
 germ_erprobungstrager_3_achs_turm,Turm III,Turm III
@@ -903,6 +904,7 @@ mc200_serie3,▀C. 200 серия 3,▀C. 200 serie 3
 mc200_serie7,▀C. 200 серия 7,▀C. 200 serie 7
 mc-202,▀C. 202,▀C. 202
 he_112b_1,He 112 B-1/U2,He 112 B-1/U2
+bf-109e-3_tl,Bf 109 E-3 (TL),Bf 109 E-3 (TL)
 il_2_1942_luftwaffe,▀IL-2 (1942),▀IL-2 (1942)
 bf_109t_2,Bf 109 T-2,Bf 109 T-2
 yak-1b_luftwaffe,▀Yak-1B,▀Yak-1B
@@ -1046,6 +1048,7 @@ germ_vs8_hydrofoil,VS-8,VS-8
 germ_escort_typem1943,M-802,M-802
 germ_skr_pr50_karl_marx,Karl Marx,Karl Marx
 germ_type143_bussard,Bussard,Bussard
+germ_s_700_s_706,S-706,S-706
 germ_s_700_s_701,S-701,S-701
 germ_frigate_koln_lubeck,Lübeck,Lübeck
 ussr_bt_5,БТ-5,BT-5
@@ -1234,6 +1237,7 @@ ussr_t_26e,Т-26Э,T-26E
 ussr_rbt_5,РБТ-5,RBT-5
 ussr_ba_11,БА-11,BA-11
 ussr_bm_8_24,БМ-8-24,BM-8-24
+ussr_bt_7_m_816,БТ-7М TD,BT-7M TD
 ussr_su_76m_5st_kav_corps,СУ-76М (5гв.Кав.Корп),SU-76M (5th Gv.Kav.Corps)
 ussr_su_76d,СУ-76Д,SU-76D
 ussr_m3c,▂М-3 Средний,▂M3 Medium

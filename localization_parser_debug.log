@@ -5347,6 +5347,14 @@
     сохранено/обновлено: germ_panzerbefelhswagen_jagdpanther_1 -> RU: Bfw. Jagdpanther G1, EN: Bfw. Jagdpanther G1 (источник: germ_panzerbefelhswagen_jagdpanther_1)
     числовой суффикс: germ_panzerbefelhswagen_jagdpanther_2 -> ключ: germ_panzerbefelhswagen_jagdpanther_2 (приоритет: 10)
     сохранено/обновлено: germ_panzerbefelhswagen_jagdpanther_2 -> RU: САУ, EN: SPG (источник: germ_panzerbefelhswagen_jagdpanther_2)
+    _shop запись: germ_panzerjager_panther_g2_shop -> ключ: germ_panzerjager_panther_g2 (приоритет: 1)
+    сохранено/обновлено: germ_panzerjager_panther_g2 -> RU: Jagdpanther G2, EN: Jagdpanther G2 (источник: germ_panzerjager_panther_g2_shop)
+    числовой суффикс: germ_panzerjager_panther_g2_0 -> ключ: germ_panzerjager_panther_g2_0 (приоритет: 10)
+    сохранено/обновлено: germ_panzerjager_panther_g2_0 -> RU: Jagdpanther, Panzerjaeger Panther (8.8cm) Ausf.G2, EN: Jagdpanther, Panzerjaeger Panther (8.8cm) Ausf.G2 (источник: germ_panzerjager_panther_g2_0)
+    числовой суффикс: germ_panzerjager_panther_g2_1 -> ключ: germ_panzerjager_panther_g2_1 (приоритет: 10)
+    сохранено/обновлено: germ_panzerjager_panther_g2_1 -> RU: Jagdpanther G2, EN: Jagdpanther G2 (источник: germ_panzerjager_panther_g2_1)
+    числовой суффикс: germ_panzerjager_panther_g2_2 -> ключ: germ_panzerjager_panther_g2_2 (приоритет: 10)
+    сохранено/обновлено: germ_panzerjager_panther_g2_2 -> RU: САУ, EN: SPG (источник: germ_panzerjager_panther_g2_2)
     _shop запись: germ_panzerjager_panther_shop -> ключ: germ_panzerjager_panther (приоритет: 1)
     сохранено/обновлено: germ_panzerjager_panther -> RU: Jagdpanther G1, EN: Jagdpanther G1 (источник: germ_panzerjager_panther_shop)
     числовой суффикс: germ_panzerjager_panther_0 -> ключ: germ_panzerjager_panther_0 (приоритет: 10)
@@ -7843,6 +7851,14 @@
     сохранено/обновлено: bf-109e-3_japan_1 -> RU: ▅Bf 109 E, EN: ▅Bf 109 E (источник: bf-109e-3_japan_1)
     числовой суффикс: bf-109e-3_japan_2 -> ключ: bf-109e-3_japan_2 (приоритет: 10)
     сохранено/обновлено: bf-109e-3_japan_2 -> RU: ▅Bf 109, EN: ▅Bf 109 (источник: bf-109e-3_japan_2)
+    _shop запись: bf-109e-3_tl_shop -> ключ: bf-109e-3_tl (приоритет: 1)
+    сохранено/обновлено: bf-109e-3_tl -> RU: Bf 109 E-3 (TL), EN: Bf 109 E-3 (TL) (источник: bf-109e-3_tl_shop)
+    числовой суффикс: bf-109e-3_tl_0 -> ключ: bf-109e-3_tl_0 (приоритет: 10)
+    сохранено/обновлено: bf-109e-3_tl_0 -> RU: Bf 109 E-3 (TL), EN: Bf 109 E-3 (TL) (источник: bf-109e-3_tl_0)
+    числовой суффикс: bf-109e-3_tl_1 -> ключ: bf-109e-3_tl_1 (приоритет: 10)
+    сохранено/обновлено: bf-109e-3_tl_1 -> RU: Bf 109 E (TL), EN: Bf 109 E (TL) (источник: bf-109e-3_tl_1)
+    числовой суффикс: bf-109e-3_tl_2 -> ключ: bf-109e-3_tl_2 (приоритет: 10)
+    сохранено/обновлено: bf-109e-3_tl_2 -> RU: Bf 109, EN: Bf 109 (источник: bf-109e-3_tl_2)
     _shop запись: bf-109f-1_shop -> ключ: bf-109f-1 (приоритет: 1)
     сохранено/обновлено: bf-109f-1 -> RU: Bf 109 F-1, EN: Bf 109 F-1 (источник: bf-109f-1_shop)
     числовой суффикс: bf-109f-1_0 -> ключ: bf-109f-1_0 (приоритет: 10)
@@ -21499,6 +21515,14 @@
     сохранено/обновлено: ussr_bt_7_m_1 -> RU: БТ-7М, EN: BT-7M (источник: ussr_bt_7_m_1)
     числовой суффикс: ussr_bt_7_m_2 -> ключ: ussr_bt_7_m_2 (приоритет: 10)
     сохранено/обновлено: ussr_bt_7_m_2 -> RU: Лёгкий танк, EN: Light tank (источник: ussr_bt_7_m_2)
+    _shop запись: ussr_bt_7_m_816_shop -> ключ: ussr_bt_7_m_816 (приоритет: 1)
+    сохранено/обновлено: ussr_bt_7_m_816 -> RU: БТ-7М TD, EN: BT-7M TD (источник: ussr_bt_7_m_816_shop)
+    числовой суффикс: ussr_bt_7_m_816_0 -> ключ: ussr_bt_7_m_816_0 (приоритет: 10)
+    сохранено/обновлено: ussr_bt_7_m_816_0 -> RU: БТ-7М TD, EN: BT-7M TD (источник: ussr_bt_7_m_816_0)
+    числовой суффикс: ussr_bt_7_m_816_1 -> ключ: ussr_bt_7_m_816_1 (приоритет: 10)
+    сохранено/обновлено: ussr_bt_7_m_816_1 -> RU: БТ-7М TD, EN: BT-7M TD (источник: ussr_bt_7_m_816_1)
+    числовой суффикс: ussr_bt_7_m_816_2 -> ключ: ussr_bt_7_m_816_2 (приоритет: 10)
+    сохранено/обновлено: ussr_bt_7_m_816_2 -> RU: Лёгкий танк, EN: Light tank (источник: ussr_bt_7_m_816_2)
     _shop запись: ussr_bt_7a_f32_shop -> ключ: ussr_bt_7a_f32 (приоритет: 1)
     сохранено/обновлено: ussr_bt_7a_f32 -> RU: БТ-7А (Ф-32), EN: BT-7A (F-32) (источник: ussr_bt_7a_f32_shop)
     числовой суффикс: ussr_bt_7a_f32_0 -> ключ: ussr_bt_7a_f32_0 (приоритет: 10)
@@ -31543,6 +31567,14 @@
     сохранено/обновлено: fr_cruiser_algerie_class_1 -> RU: Algerie, EN: Algerie (источник: fr_cruiser_algerie_class_1)
     числовой суффикс: fr_cruiser_algerie_class_2 -> ключ: fr_cruiser_algerie_class_2 (приоритет: 10)
     сохранено/обновлено: fr_cruiser_algerie_class_2 -> RU: Тяжёлый крейсер, EN: Heavy cruiser (источник: fr_cruiser_algerie_class_2)
+    _shop запись: germ_s_700_s_706_shop -> ключ: germ_s_700_s_706 (приоритет: 1)
+    сохранено/обновлено: germ_s_700_s_706 -> RU: S-706, EN: S-706 (источник: germ_s_700_s_706_shop)
+    числовой суффикс: germ_s_700_s_706_0 -> ключ: germ_s_700_s_706_0 (приоритет: 10)
+    сохранено/обновлено: germ_s_700_s_706_0 -> RU: Тип S-700, S-706, EN: S-700-class, S-706 (источник: germ_s_700_s_706_0)
+    числовой суффикс: germ_s_700_s_706_1 -> ключ: germ_s_700_s_706_1 (приоритет: 10)
+    сохранено/обновлено: germ_s_700_s_706_1 -> RU: S-706, EN: S-706 (источник: germ_s_700_s_706_1)
+    числовой суффикс: germ_s_700_s_706_2 -> ключ: germ_s_700_s_706_2 (приоритет: 10)
+    сохранено/обновлено: germ_s_700_s_706_2 -> RU: Торпедный катер, EN: Motor torpedo boat (источник: germ_s_700_s_706_2)
     _shop запись: cn_cm_34_shop -> ключ: cn_cm_34 (приоритет: 1)
     сохранено/обновлено: cn_cm_34 -> RU: CM34, EN: CM34 (источник: cn_cm_34_shop)
     числовой суффикс: cn_cm_34_0 -> ключ: cn_cm_34_0 (приоритет: 10)
@@ -31761,10 +31793,10 @@
     сохранено/обновлено: uk_arjun_mk1_1 -> RU: Arjun Mk 1, EN: Arjun Mk 1 (источник: uk_arjun_mk1_1)
     числовой суффикс: uk_arjun_mk1_2 -> ключ: uk_arjun_mk1_2 (приоритет: 10)
     сохранено/обновлено: uk_arjun_mk1_2 -> RU: ОБТ, EN: MBT (источник: uk_arjun_mk1_2)
-Обработано строк: 15918
-Найдено записей для локализации: 15872
-Всего ключей в словаре: 15872
-Загружено 3644 ID из shop.csv
+Обработано строк: 15934
+Найдено записей для локализации: 15888
+Всего ключей в словаре: 15888
+Загружено 3648 ID из shop.csv
 Создание маппинга локализации...
     Поиск локализации для: us_m2a4
     Прямой поиск: us_m2a4 -> RU: M2A4, EN: M2A4
@@ -33815,6 +33847,9 @@
     Поиск локализации для: germ_panther_ii
     Прямой поиск: germ_panther_ii -> RU: Panther II, EN: Panther II
   Найдено: germ_panther_ii -> RU: Panther II, EN: Panther II
+    Поиск локализации для: germ_panzerjager_panther_g2
+    Прямой поиск: germ_panzerjager_panther_g2 -> RU: Jagdpanther G2, EN: Jagdpanther G2
+  Найдено: germ_panzerjager_panther_g2 -> RU: Jagdpanther G2, EN: Jagdpanther G2
     Поиск локализации для: germ_mkpz_m47
     Прямой поиск: germ_mkpz_m47 -> RU: mKPz M47 G, EN: mKPz M47 G
   Найдено: germ_mkpz_m47 -> RU: mKPz M47 G, EN: mKPz M47 G
@@ -34478,6 +34513,9 @@
     Поиск локализации для: he_112b_1
     Прямой поиск: he_112b_1 -> RU: He 112 B-1/U2, EN: He 112 B-1/U2
   Найдено: he_112b_1 -> RU: He 112 B-1/U2, EN: He 112 B-1/U2
+    Поиск локализации для: bf-109e-3_tl
+    Прямой поиск: bf-109e-3_tl -> RU: Bf 109 E-3 (TL), EN: Bf 109 E-3 (TL)
+  Найдено: bf-109e-3_tl -> RU: Bf 109 E-3 (TL), EN: Bf 109 E-3 (TL)
     Поиск локализации для: il_2_1942_luftwaffe
     Прямой поиск: il_2_1942_luftwaffe -> RU: ▀IL-2 (1942), EN: ▀IL-2 (1942)
   Найдено: il_2_1942_luftwaffe -> RU: ▀IL-2 (1942), EN: ▀IL-2 (1942)
@@ -34907,6 +34945,9 @@
     Поиск локализации для: germ_type143_bussard
     Прямой поиск: germ_type143_bussard -> RU: Bussard, EN: Bussard
   Найдено: germ_type143_bussard -> RU: Bussard, EN: Bussard
+    Поиск локализации для: germ_s_700_s_706
+    Прямой поиск: germ_s_700_s_706 -> RU: S-706, EN: S-706
+  Найдено: germ_s_700_s_706 -> RU: S-706, EN: S-706
     Поиск локализации для: germ_s_700_s_701
     Прямой поиск: germ_s_700_s_701 -> RU: S-701, EN: S-701
   Найдено: germ_s_700_s_701 -> RU: S-701, EN: S-701
@@ -35471,6 +35512,9 @@
     Поиск локализации для: ussr_bm_8_24
     Прямой поиск: ussr_bm_8_24 -> RU: БМ-8-24, EN: BM-8-24
   Найдено: ussr_bm_8_24 -> RU: БМ-8-24, EN: BM-8-24
+    Поиск локализации для: ussr_bt_7_m_816
+    Прямой поиск: ussr_bt_7_m_816 -> RU: БТ-7М TD, EN: BT-7M TD
+  Найдено: ussr_bt_7_m_816 -> RU: БТ-7М TD, EN: BT-7M TD
     Поиск локализации для: ussr_su_76m_5st_kav_corps
     Прямой поиск: ussr_su_76m_5st_kav_corps -> RU: СУ-76М (5гв.Кав.Корп), EN: SU-76M (5th Gv.Kav.Corps)
   Найдено: ussr_su_76m_5st_kav_corps -> RU: СУ-76М (5гв.Кав.Корп), EN: SU-76M (5th Gv.Kav.Corps)
@@ -42699,12 +42743,12 @@
     Прямой поиск: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
   Найдено: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
 Статистика локализации:
-  Найдено локализаций: 3644
+  Найдено локализаций: 3648
   Использован fallback: 0
-  Всего обработано: 3644
-Данные локализации (3644 записей) сохранены в localization.csv
+  Всего обработано: 3648
+Данные локализации (3648 записей) сохранены в localization.csv
 Статистика сохранения:
-  Русских локализаций: 3644
-  Английских локализаций: 3644
-  Всего записей: 3644
+  Русских локализаций: 3648
+  Английских локализаций: 3648
+  Всего записей: 3648
 Парсинг локализации завершен успешно! Создан файл localization.csv

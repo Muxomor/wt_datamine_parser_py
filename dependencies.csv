@@ -37,6 +37,7 @@ us_m60_120s,us_m60a3_tts
 us_m1a1_hc_abrams,us_m60_120s
 us_m22_locust,us_lvt_a_1
 us_m7,us_m22_locust
+us_m6_group,us_m7
 us_m6a1,us_m6_group
 us_t1e1,us_m6a1
 us_m4a3e2_sherman_jumbo,us_m6_group

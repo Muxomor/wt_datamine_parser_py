@@ -598,6 +598,7 @@ germ_sturmmorser_sturmtiger,0,,5.7
 germ_panzerbefelhswagen_jagdpanther,0,,6.3
 germ_panzerjager_tiger_p_elefant,0,,6.7
 germ_panther_ii,0,,7
+germ_panzerjager_panther_g2,0,,6.3
 germ_mkpz_m47,0,,7.3
 germ_marder_clovis,0,,8
 germ_erprobungstrager_3_achs_turm,0,,8.7
@@ -782,6 +783,7 @@ mc200_serie3,0,,2.3
 mc200_serie7,0,,2.3
 mc-202,0,,3
 he_112b_1,0,,2
+bf-109e-3_tl,0,,2.3
 il_2_1942_luftwaffe,0,,3
 bf_109t_2,0,,3
 yak-1b_luftwaffe,0,,3
@@ -922,6 +924,7 @@ germ_vs8_hydrofoil,0,,2.3
 germ_escort_typem1943,0,,4.3
 germ_skr_pr50_karl_marx,0,,4
 germ_type143_bussard,0,,3.7
+germ_s_700_s_706,0,,2.7
 germ_s_700_s_701,0,,2.7
 germ_frigate_koln_lubeck,0,,4.7
 ussr_bt_5,0,,1.0
@@ -1084,6 +1087,7 @@ ussr_t_26e,0,,1.3
 ussr_rbt_5,0,,1.3
 ussr_ba_11,0,,1.3
 ussr_bm_8_24,0,,1.3
+ussr_bt_7_m_816,0,,2
 ussr_su_76m_5st_kav_corps,0,,2
 ussr_su_76d,0,,2.3
 ussr_m3c,0,,2.7

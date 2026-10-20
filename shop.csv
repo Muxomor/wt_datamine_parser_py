@@ -42,7 +42,7 @@ us_m1a1_hc_abrams,7,usa,Наземная техника,vehicle,standard,1,1,us_
 us_lvt_a_1,1,usa,Наземная техника,vehicle,standard,2,0,,,False
 us_m22_locust,1,usa,Наземная техника,vehicle,standard,2,1,us_lvt_a_1,,False
 us_m7,2,usa,Наземная техника,vehicle,standard,2,0,us_m22_locust,,False
-us_m6_group,3,usa,Наземная техника,folder,standard,2,0,,,False
+us_m6_group,3,usa,Наземная техника,folder,standard,2,0,us_m7,,False
 us_m6a1,3,usa,Наземная техника,vehicle,standard,2,0,us_m6_group,0,False
 us_t1e1,3,usa,Наземная техника,vehicle,standard,2,0,us_m6a1,1,False
 us_m4a3e2_sherman_jumbo,3,usa,Наземная техника,vehicle,standard,2,1,us_m6_group,,False
@@ -682,6 +682,7 @@ germ_sturmmorser_sturmtiger,4,germany,Наземная техника,vehicle,pr
 germ_panzerbefelhswagen_jagdpanther,4,germany,Наземная техника,vehicle,premium,0,2,,,False
 germ_panzerjager_tiger_p_elefant,4,germany,Наземная техника,vehicle,premium,0,3,,,True
 germ_panther_ii,4,germany,Наземная техника,vehicle,premium,0,4,,,True
+germ_panzerjager_panther_g2,4,germany,Наземная техника,vehicle,premium,0,5,,,True
 germ_mkpz_m47,5,germany,Наземная техника,vehicle,premium,0,0,,,False
 germ_marder_clovis,5,germany,Наземная техника,vehicle,premium,0,1,,,True
 germ_erprobungstrager_3_achs_turm,5,germany,Наземная техника,vehicle,premium,0,2,,,True
@@ -903,10 +904,11 @@ mc200_serie3,1,germany,Авиация,vehicle,premium,0,4,,0,True
 mc200_serie7,1,germany,Авиация,vehicle,premium,0,4,,1,True
 mc-202,1,germany,Авиация,vehicle,premium,0,4,,2,True
 he_112b_1,2,germany,Авиация,vehicle,premium,0,0,,,True
-il_2_1942_luftwaffe,2,germany,Авиация,vehicle,premium,0,1,,,False
-bf_109t_2,2,germany,Авиация,vehicle,premium,0,2,,,False
-yak-1b_luftwaffe,2,germany,Авиация,vehicle,premium,0,3,,,False
-bv-238,2,germany,Авиация,vehicle,premium,0,4,,,False
+bf-109e-3_tl,2,germany,Авиация,vehicle,premium,0,1,,,True
+il_2_1942_luftwaffe,2,germany,Авиация,vehicle,premium,0,2,,,False
+bf_109t_2,2,germany,Авиация,vehicle,premium,0,3,,,False
+yak-1b_luftwaffe,2,germany,Авиация,vehicle,premium,0,4,,,False
+bv-238,2,germany,Авиация,vehicle,premium,0,5,,,False
 p-47d_16_re_germany,3,germany,Авиация,vehicle,premium,0,0,,,False
 ta_154a_1,3,germany,Авиация,vehicle,premium,0,1,,,False
 fw_190a_5_u14,3,germany,Авиация,vehicle,premium,0,2,,,False
@@ -1046,7 +1048,8 @@ germ_vs8_hydrofoil,3,germany,Малый флот,vehicle,premium,0,1,,,False
 germ_escort_typem1943,4,germany,Малый флот,vehicle,premium,0,0,,,False
 germ_skr_pr50_karl_marx,4,germany,Малый флот,vehicle,premium,0,1,,,True
 germ_type143_bussard,5,germany,Малый флот,vehicle,premium,0,0,,,True
-germ_s_700_s_701,3,germany,Малый флот,vehicle,premium,1,0,,,True
+germ_s_700_s_706,3,germany,Малый флот,vehicle,premium,1,0,,,True
+germ_s_700_s_701,3,germany,Малый флот,vehicle,premium,1,1,,,True
 germ_frigate_koln_lubeck,4,germany,Малый флот,vehicle,premium,1,0,,,True
 ussr_bt_5,1,ussr,Наземная техника,vehicle,standard,0,0,,,False
 ussr_bt_7_1937,1,ussr,Наземная техника,vehicle,standard,0,1,ussr_bt_5,,False
@@ -1234,6 +1237,7 @@ ussr_t_26e,1,ussr,Наземная техника,vehicle,premium,1,0,,,True
 ussr_rbt_5,1,ussr,Наземная техника,vehicle,premium,1,1,,,True
 ussr_ba_11,1,ussr,Наземная техника,vehicle,premium,1,2,,,True
 ussr_bm_8_24,1,ussr,Наземная техника,vehicle,premium,1,3,,,False
+ussr_bt_7_m_816,1,ussr,Наземная техника,vehicle,premium,1,4,,,True
 ussr_su_76m_5st_kav_corps,2,ussr,Наземная техника,vehicle,premium,1,0,,,True
 ussr_su_76d,2,ussr,Наземная техника,vehicle,premium,1,1,,,True
 ussr_m3c,2,ussr,Наземная техника,vehicle,premium,1,2,,,True

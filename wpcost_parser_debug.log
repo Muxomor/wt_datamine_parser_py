@@ -6,8 +6,8 @@
 Данные wpcost успешно загружены с попытки 2
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3644
-  Премиумных юнитов: 1004
+  Всего строк в CSV: 3648
+  Премиумных юнитов: 1008
   Обычных юнитов: 2640
 Используем предзагруженные данные wpcost.blkx
 Начинаем обработку данных wpcost...
@@ -121,10 +121,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3416
-  Нормализованных ID: 3416
+  Исходных ID: 3420
+  Нормализованных ID: 3420
   Конфликтов: 0
-В wpcost найдено 3416 юнитов после нормализации
+В wpcost найдено 3420 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -1801,6 +1801,10 @@
   Премиумный юнит germ_panther_ii: silver=0, exp=None (обнулено)
     БР расчет: economicRank=18, raw=7.000, округлено=7
   Обработан germ_panther_ii (премиум): silver=0, exp=None, br=7
+  Обрабатываем премиумный юнит: germ_panzerjager_panther_g2 (status=premium, have_prem_flag=True)
+  Премиумный юнит germ_panzerjager_panther_g2: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=16, raw=6.333, округлено=6.3
+  Обработан germ_panzerjager_panther_g2 (премиум): silver=0, exp=None, br=6.3
   Обрабатываем премиумный юнит: germ_mkpz_m47 (status=premium, have_prem_flag=False)
   Премиумный юнит germ_mkpz_m47: silver=0, exp=None (обнулено)
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
@@ -2322,6 +2326,10 @@
   Премиумный юнит he_112b_1: silver=0, exp=None (обнулено)
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан he_112b_1 (премиум): silver=0, exp=None, br=2
+  Обрабатываем премиумный юнит: bf-109e-3_tl (status=premium, have_prem_flag=True)
+  Премиумный юнит bf-109e-3_tl: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=4, raw=2.333, округлено=2.3
+  Обработан bf-109e-3_tl (премиум): silver=0, exp=None, br=2.3
   Обрабатываем премиумный юнит: il_2_1942_luftwaffe (status=premium, have_prem_flag=False)
   Премиумный юнит il_2_1942_luftwaffe: silver=0, exp=None (обнулено)
     БР расчет: economicRank=6, raw=3.000, округлено=3
@@ -2770,6 +2778,10 @@
   Премиумный юнит germ_type143_bussard: silver=0, exp=None (обнулено)
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан germ_type143_bussard (премиум): silver=0, exp=None, br=3.7
+  Обрабатываем премиумный юнит: germ_s_700_s_706 (status=premium, have_prem_flag=True)
+  Премиумный юнит germ_s_700_s_706: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=5, raw=2.667, округлено=2.7
+  Обработан germ_s_700_s_706 (премиум): silver=0, exp=None, br=2.7
   Обрабатываем премиумный юнит: germ_s_700_s_701 (status=premium, have_prem_flag=True)
   Премиумный юнит germ_s_700_s_701: silver=0, exp=None (обнулено)
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
@@ -3218,6 +3230,10 @@
   Премиумный юнит ussr_bm_8_24: silver=0, exp=None (обнулено)
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ussr_bm_8_24 (премиум): silver=0, exp=None, br=1.3
+  Обрабатываем премиумный юнит: ussr_bt_7_m_816 (status=premium, have_prem_flag=True)
+  Премиумный юнит ussr_bt_7_m_816: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=3, raw=2.000, округлено=2
+  Обработан ussr_bt_7_m_816 (премиум): silver=0, exp=None, br=2
   Обрабатываем премиумный юнит: ussr_su_76m_5st_kav_corps (status=premium, have_prem_flag=True)
   Премиумный юнит ussr_su_76m_5st_kav_corps: silver=0, exp=None (обнулено)
     БР расчет: economicRank=3, raw=2.000, округлено=2
@@ -9088,13 +9104,13 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан mig_21_2000_iaf (премиум): silver=0, exp=None, br=11.7
 Статистика обработки wpcost:
-  Найдено и обработано: 3246
-  Из них премиумных (с обнуленными silver/exp): 995
+  Найдено и обработано: 3250
+  Из них премиумных (с обнуленными silver/exp): 999
   Не найдено в wpcost (пропущено): 398
-  Всего ID из shop.csv: 3644
-Данные wpcost (3246 записей) сохранены в wpcost.csv
+  Всего ID из shop.csv: 3648
+Данные wpcost (3250 записей) сохранены в wpcost.csv
 Статистика данных:
   Записей с опытом (exp): 2169
   Записей с fallback БР (1.0): 157
-  Всего записей: 3246
+  Всего записей: 3250
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv
