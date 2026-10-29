@@ -1,4 +1,4 @@
-Данные wpcost для колонок загружены: 999 premium, 2351 standard, 71 неоднозначных (fallback на shop флаги)
+Данные wpcost для колонок загружены: 1001 premium, 2365 standard, 71 неоднозначных (fallback на shop флаги)
 Запуск парсера shop.blkx...
 Порог для определения премиумных колонок: 20.0%
 Обработка slave-юнитов: отключена
@@ -2227,7 +2227,7 @@
         ОТЛАДКА: get_group_items добавлен f_16d_block_40_barak_2 с order=0
         ОТЛАДКА: get_group_items добавлен f_16i_sufa с order=1
 Найдено master-slave пар: 10
-Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_nasams_launcher', 'sw_nasams_launcher', 'germ_iris_slm_launcher', 'jp_type_81_tansam_launcher', 'ussr_buk_m3_launcher', 'uk_sky_sabre_launcher', 'fr_samp_t_launcher', 'us_sl_amraam_launcher'}
+Slave-юниты: {'fr_samp_t_launcher', 'us_sl_amraam_launcher', 'uk_sky_sabre_launcher', 'us_nasams_launcher', 'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'sw_nasams_launcher', 'jp_type_81_tansam_launcher', 'germ_iris_slm_launcher', 'ussr_buk_m3_launcher'}
   us_sl_amraam_fcs -> us_sl_amraam_launcher
   us_nasams_fcs -> us_nasams_launcher
   germ_iris_slm_fcs -> germ_iris_slm_launcher
@@ -4782,7 +4782,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_nasam
         ОТЛАДКА: get_group_items добавлен mc200_serie3 с order=0
         ОТЛАДКА: get_group_items добавлен mc200_serie7 с order=1
         ОТЛАДКА: get_group_items добавлен mc-202 с order=2
-      ОТЛАДКА: Премиум техники в колонке: 34/36 = 0.94, порог: 0.2
+      ОТЛАДКА: Премиум техники в колонке: 36/38 = 0.95, порог: 0.2
     Столбец 5 определен как ПРЕМИУМНЫЙ (порог: 20.0%)
       ОТЛАДКА: Техника bf-109a_1, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника bf-109a_1 с предшественником '', статус: premium
@@ -4820,6 +4820,10 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_nasam
       ОТЛАДКА: Добавлена техника bv-238 с предшественником '', статус: premium
       ОТЛАДКА: Техника p-47d_16_re_germany, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника p-47d_16_re_germany с предшественником '', статус: premium
+      ОТЛАДКА: Техника fw_190a_8_mistel, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника fw_190a_8_mistel с предшественником '', статус: premium
+      ОТЛАДКА: Техника ju_88g_1_mistel, predecessor='', rankPosXY=None, premium=True
+      ОТЛАДКА: Добавлена техника ju_88g_1_mistel с предшественником '', статус: premium
       ОТЛАДКА: Техника ta_154a_1, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника ta_154a_1 с предшественником '', статус: premium
       ОТЛАДКА: Техника fw_190a_5_u14, predecessor='', rankPosXY=None, premium=True
@@ -4856,7 +4860,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_nasam
       ОТЛАДКА: Добавлена техника tornado_ids_de_mfg с предшественником '', статус: premium
       ОТЛАДКА: Техника fa_18c_switzerland, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника fa_18c_switzerland с предшественником '', статус: premium
-    Столбец 5: обработано 36 элементов
+    Столбец 5: обработано 38 элементов
         ОТЛАДКА: get_group_items добавлен sm_79_1936 с order=0
         ОТЛАДКА: get_group_items добавлен sm_79_1939 с order=1
         ОТЛАДКА: get_group_items добавлен sm_79_1941 с order=2
@@ -5152,7 +5156,7 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_nasam
       ОТЛАДКА: Техника germ_frigate_koln_lubeck, predecessor='', rankPosXY=None, premium=True
       ОТЛАДКА: Добавлена техника germ_frigate_koln_lubeck с предшественником '', статус: premium
     Столбец 4: обработано 3 элементов
-Обработано 535 элементов для germany
+Обработано 537 элементов для germany
 Обработка страны: ussr
   Обработка типа: Наземная техника, столбцов: 7
         ОТЛАДКА: get_group_items добавлен ussr_t_34_1941_l_11 с order=0
@@ -14218,15 +14222,19 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_nasam
       bf_109t_2: [0, 3] (элемент)
       yak-1b_luftwaffe: [0, 4] (элемент)
       bv-238: [0, 5] (элемент)
-    Ранг 3: 4 элементов, начинаем с row_index=0
+    Ранг 3: 6 элементов, начинаем с row_index=0
         Отдельный элемент: p-47d_16_re_germany
+        Отдельный элемент: fw_190a_8_mistel
+        Отдельный элемент: ju_88g_1_mistel
         Отдельный элемент: ta_154a_1
         Отдельный элемент: fw_190a_5_u14
         Отдельный элемент: bf-109g-2_romania
       p-47d_16_re_germany: [0, 0] (элемент)
-      ta_154a_1: [0, 1] (элемент)
-      fw_190a_5_u14: [0, 2] (элемент)
-      bf-109g-2_romania: [0, 3] (элемент)
+      fw_190a_8_mistel: [0, 1] (элемент)
+      ju_88g_1_mistel: [0, 2] (элемент)
+      ta_154a_1: [0, 3] (элемент)
+      fw_190a_5_u14: [0, 4] (элемент)
+      bf-109g-2_romania: [0, 5] (элемент)
     Ранг 4: 5 элементов, начинаем с row_index=0
         Отдельный элемент: he_219a_7
         Отдельный элемент: do_335b_2
@@ -20097,12 +20105,12 @@ Slave-юниты: {'jp_type_03_chusam_launcher', 'it_samp_t_launcher', 'us_nasam
         Отдельный элемент: mig_21_2000_iaf
       kfir_c2: [1, 0] (элемент)
       mig_21_2000_iaf: [1, 1] (элемент)
-Координаты назначены для 3648 элементов
+Координаты назначены для 3650 элементов
   normalize_folder_predecessors: ah_64e_netherlands -> tiger_group (было tiger_had_france, элемент внутри folder)
-Данные (3648 записей) сохранены в shop.csv
+Данные (3650 записей) сохранены в shop.csv
 Все ID приведены к нижнему регистру для совместимости
-Статистика: Стандартной техники: 2659, Премиумной: 989
+Статистика: Стандартной техники: 2659, Премиумной: 991
 Обработано master-slave пар: 10
 Slave-юниты пропущены: 10
 Поля image (408 записей) сохранены в shop_images_fields.csv
-Парсинг завершен успешно! Обработано 3648 элементов.
+Парсинг завершен успешно! Обработано 3650 элементов.

@@ -910,9 +910,11 @@ bf_109t_2,2,germany,Авиация,vehicle,premium,0,3,,,False
 yak-1b_luftwaffe,2,germany,Авиация,vehicle,premium,0,4,,,False
 bv-238,2,germany,Авиация,vehicle,premium,0,5,,,False
 p-47d_16_re_germany,3,germany,Авиация,vehicle,premium,0,0,,,False
-ta_154a_1,3,germany,Авиация,vehicle,premium,0,1,,,False
-fw_190a_5_u14,3,germany,Авиация,vehicle,premium,0,2,,,False
-bf-109g-2_romania,3,germany,Авиация,vehicle,premium,0,3,,,True
+fw_190a_8_mistel,3,germany,Авиация,vehicle,premium,0,1,,,True
+ju_88g_1_mistel,3,germany,Авиация,vehicle,premium,0,2,,,True
+ta_154a_1,3,germany,Авиация,vehicle,premium,0,3,,,False
+fw_190a_5_u14,3,germany,Авиация,vehicle,premium,0,4,,,False
+bf-109g-2_romania,3,germany,Авиация,vehicle,premium,0,5,,,True
 he_219a_7,4,germany,Авиация,vehicle,premium,0,0,,,False
 do_335b_2,4,germany,Авиация,vehicle,premium,0,1,,,False
 tempest_mkv_luftwaffe,4,germany,Авиация,vehicle,premium,0,2,,,False

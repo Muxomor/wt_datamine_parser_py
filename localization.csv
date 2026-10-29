@@ -904,12 +904,14 @@ mc200_serie3,▀C. 200 серия 3,▀C. 200 serie 3
 mc200_serie7,▀C. 200 серия 7,▀C. 200 serie 7
 mc-202,▀C. 202,▀C. 202
 he_112b_1,He 112 B-1/U2,He 112 B-1/U2
-bf-109e-3_tl,Bf 109 E-3 (TL),Bf 109 E-3 (TL)
+bf-109e-3_tl,◆Bf 109 E-3,◆Bf 109 E-3
 il_2_1942_luftwaffe,▀IL-2 (1942),▀IL-2 (1942)
 bf_109t_2,Bf 109 T-2,Bf 109 T-2
 yak-1b_luftwaffe,▀Yak-1B,▀Yak-1B
 bv-238,BV 238,BV 238
 p-47d_16_re_germany,▀P-47D-16-RE,▀P-47D-16-RE
+fw_190a_8_mistel,Mistel 2,Mistel 2
+ju_88g_1_mistel,Mistel 2,Mistel 2
 ta_154a_1,Ta 154 A-1,Ta 154 A-1
 fw_190a_5_u14,Fw 190 A-5/U14,Fw 190 A-5/U14
 bf-109g-2_romania,Bf 109 G-2,Bf 109 G-2
@@ -1237,7 +1239,7 @@ ussr_t_26e,Т-26Э,T-26E
 ussr_rbt_5,РБТ-5,RBT-5
 ussr_ba_11,БА-11,BA-11
 ussr_bm_8_24,БМ-8-24,BM-8-24
-ussr_bt_7_m_816,БТ-7М TD,BT-7M TD
+ussr_bt_7_m_816,◆БТ-7М,◆BT-7M
 ussr_su_76m_5st_kav_corps,СУ-76М (5гв.Кав.Корп),SU-76M (5th Gv.Kav.Corps)
 ussr_su_76d,СУ-76Д,SU-76D
 ussr_m3c,▂М-3 Средний,▂M3 Medium
