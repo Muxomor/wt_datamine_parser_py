@@ -1662,7 +1662,7 @@ brigand_b1,105000,33000,4
 whirlwind_mk1,135000,20000,3.7
 welkin_fmk1,155000,46000,4.7
 hornet_mk3,185000,54000,6
-hawk_t1a_early,270000,95000,7.7
+hawk_t1a_early,270000,95000,7.3
 swift_f1,300000,105000,8.3
 swift_f7,340000,120000,8.7
 jaguar_gr1,480000,170000,9.7
@@ -1743,7 +1743,7 @@ wyvern_s4,0,,5.3
 spitfire_mk14c,0,,5.7
 spitfire_fr_mk14e,0,,5.7
 attaker_fb2,0,,7
-hawk_t1a,0,,7.7
+hawk_t1a,0,,7.3
 marut_mk1,0,,8.7
 buccaneer_s1,0,,8.3
 hunter_f9_rhodesia,0,,9.3

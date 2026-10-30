@@ -4858,8 +4858,8 @@
   Обработан welkin_fmk1: silver=155000, exp=46000, br=4.7
     БР расчет: economicRank=15, raw=6.000, округлено=6
   Обработан hornet_mk3: silver=185000, exp=54000, br=6
-    БР расчет: economicRank=20, raw=7.667, округлено=7.7
-  Обработан hawk_t1a_early: silver=270000, exp=95000, br=7.7
+    БР расчет: economicRank=19, raw=7.333, округлено=7.3
+  Обработан hawk_t1a_early: silver=270000, exp=95000, br=7.3
     БР расчет: economicRank=22, raw=8.333, округлено=8.3
   Обработан swift_f1: silver=300000, exp=105000, br=8.3
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
@@ -5128,8 +5128,8 @@
   Обработан attaker_fb2 (премиум): silver=0, exp=None, br=7
   Обрабатываем премиумный юнит: hawk_t1a (status=premium, have_prem_flag=True)
   Премиумный юнит hawk_t1a: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=20, raw=7.667, округлено=7.7
-  Обработан hawk_t1a (премиум): silver=0, exp=None, br=7.7
+    БР расчет: economicRank=19, raw=7.333, округлено=7.3
+  Обработан hawk_t1a (премиум): silver=0, exp=None, br=7.3
   Обрабатываем премиумный юнит: marut_mk1 (status=premium, have_prem_flag=True)
   Премиумный юнит marut_mk1: silver=0, exp=None (обнулено)
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
