@@ -1,7 +1,7 @@
 import json
 import csv
 import requests
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any, Optional, Tuple
 
 from utils import Config, Logger
 
@@ -146,26 +146,77 @@ class WpcostParser:
         except Exception as e:
             raise RuntimeError(f"Ошибка чтения файла {shop_csv_path}: {e}")
     
-    def calculate_br(self, economic_rank: int) -> float:
+    def get_max_add_mrank(self, unit_data: Dict[str, Any]) -> Tuple[int, List[str]]:
         """
-        Вычисляет БР (Battle Rating) из economicRankHistorical
-        
+        Возвращает максимальную прибавку к economicRank от модификаций (addMrank).
+
+        Начиная с версии 2.60/2.61 в wpcost.blkx появилось поле addMrank у
+        модификаций с вооружением. Игрок может выбрать конфигурацию с более
+        высоким БР, поэтому для верхней оценки БР берём максимальный addMrank
+        среди всех модификаций юнита.
+
+        Args:
+            unit_data: Данные юнита из wpcost.blkx
+
+        Returns:
+            Кортеж (максимальный addMrank, список ID модификаций с этим значением)
+        """
+        max_add_mrank = 0
+        max_mods: List[str] = []
+
+        modifications = unit_data.get('modifications') or {}
+        if not isinstance(modifications, dict):
+            return 0, max_mods
+
+        for mod_id, mod_data in modifications.items():
+            if not isinstance(mod_data, dict):
+                continue
+
+            add_mrank = mod_data.get('addMrank')
+            if (isinstance(add_mrank, bool)
+                    or not isinstance(add_mrank, (int, float))
+                    or add_mrank <= 0):
+                continue
+
+            add_mrank = int(add_mrank)
+            if add_mrank > max_add_mrank:
+                max_add_mrank = add_mrank
+                max_mods = [mod_id]
+            elif add_mrank == max_add_mrank:
+                max_mods.append(mod_id)
+
+        return max_add_mrank, max_mods
+
+    def calculate_br(self, economic_rank: int, add_mrank: int = 0) -> float:
+        """
+        Вычисляет БР (Battle Rating) из economicRankHistorical с учётом addMrank.
+
+        С версии 2.60/2.61 итоговый mrank = economicRank + addMrank выбранной
+        модификации (см. getEffectiveMrank в клиенте игры).
+
         Args:
             economic_rank: Значение economicRankHistorical
-            
+            add_mrank: Прибавка от модификаций (addMrank), по умолчанию 0
+
         Returns:
             Округленное значение БР или 1.0 если входное значение некорректно
         """
         if economic_rank is None or economic_rank <= 0:
             self.logger.log(f"    БР расчет: economicRank некорректен ({economic_rank}), используем fallback 1.0", 'debug')
             return 1.0
-            
-        # Формула: БР = (economicRankHistorical / 3) + 1
-        br_raw = (economic_rank / 3) + 1
-        
+
+        if (isinstance(add_mrank, bool)
+                or not isinstance(add_mrank, (int, float))
+                or add_mrank <= 0):
+            add_mrank = 0
+
+        effective_rank = int(economic_rank) + int(add_mrank)
+
+        # Формула: БР = (effectiveRank / 3) + 1
+        br_raw = (effective_rank / 3) + 1
+
         # Округляем до ближайшего значения: X.0, X.3, X.7
         integer_part = int(br_raw)
-        decimal_part = br_raw - integer_part
         
         # Определяем возможные значения для округления
         possible_values = [
@@ -178,7 +229,11 @@ class WpcostParser:
         # Находим ближайшее значение
         closest_value = min(possible_values, key=lambda x: abs(x - br_raw))
         
-        self.logger.log(f"    БР расчет: economicRank={economic_rank}, raw={br_raw:.3f}, округлено={closest_value}", 'debug')
+        self.logger.log(
+            f"    БР расчет: economicRank={economic_rank}, addMrank={add_mrank}, "
+            f"effectiveRank={effective_rank}, raw={br_raw:.3f}, округлено={closest_value}",
+            'debug'
+        )
         
         return closest_value
     
@@ -224,11 +279,19 @@ class WpcostParser:
         
         # BR рассчитываем в любом случае (и для премиумных, и для обычных)
         economic_rank = unit_data.get('economicRankHistorical')
+        add_mrank, add_mrank_mods = self.get_max_add_mrank(unit_data)
+
         if economic_rank is None or not isinstance(economic_rank, (int, float)):
             br = 1.0  # Fallback значение
             self.logger.log(f"    economicRankHistorical отсутствует или некорректно для {unit_id}, BR установлен 1.0", 'debug')
         else:
-            br = self.calculate_br(int(economic_rank))
+            br = self.calculate_br(int(economic_rank), add_mrank)
+            if add_mrank > 0:
+                self.logger.log(
+                    f"    Модификации с addMrank для {unit_id}: "
+                    f"{', '.join(add_mrank_mods)} (+{add_mrank} к economicRank)",
+                    'debug'
+                )
         
         result = {
             'id': unit_id,  # Используем оригинальный ID для сохранения
