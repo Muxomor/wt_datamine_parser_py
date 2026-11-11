@@ -1913,6 +1913,14 @@
     сохранено/обновлено: us_m3a1_stuart_1 -> RU: M3A1, EN: M3A1 (источник: us_m3a1_stuart_1)
     числовой суффикс: us_m3a1_stuart_2 -> ключ: us_m3a1_stuart_2 (приоритет: 10)
     сохранено/обновлено: us_m3a1_stuart_2 -> RU: Лёгкий танк, EN: Light tank (источник: us_m3a1_stuart_2)
+    _shop запись: us_m3a1_stuart_nvidia_shop -> ключ: us_m3a1_stuart_nvidia (приоритет: 1)
+    сохранено/обновлено: us_m3a1_stuart_nvidia -> RU: M3A1 TD, EN: M3A1 TD (источник: us_m3a1_stuart_nvidia_shop)
+    числовой суффикс: us_m3a1_stuart_nvidia_0 -> ключ: us_m3a1_stuart_nvidia_0 (приоритет: 10)
+    сохранено/обновлено: us_m3a1_stuart_nvidia_0 -> RU: Light Tank M3A1 TD Stuart, EN: Light Tank M3A1 TD Stuart (источник: us_m3a1_stuart_nvidia_0)
+    числовой суффикс: us_m3a1_stuart_nvidia_1 -> ключ: us_m3a1_stuart_nvidia_1 (приоритет: 10)
+    сохранено/обновлено: us_m3a1_stuart_nvidia_1 -> RU: M3A1 TD, EN: M3A1 TD (источник: us_m3a1_stuart_nvidia_1)
+    числовой суффикс: us_m3a1_stuart_nvidia_2 -> ключ: us_m3a1_stuart_nvidia_2 (приоритет: 10)
+    сохранено/обновлено: us_m3a1_stuart_nvidia_2 -> RU: Лёгкий танк, EN: Light tank (источник: us_m3a1_stuart_nvidia_2)
     _shop запись: us_m3a1_stuart_usmc_shop -> ключ: us_m3a1_stuart_usmc (приоритет: 1)
     сохранено/обновлено: us_m3a1_stuart_usmc -> RU: M3A1 (USMC), EN: M3A1 (USMC) (источник: us_m3a1_stuart_usmc_shop)
     числовой суффикс: us_m3a1_stuart_usmc_0 -> ключ: us_m3a1_stuart_usmc_0 (приоритет: 10)
@@ -3025,6 +3033,14 @@
     сохранено/обновлено: us_stingray_1 -> RU: Stingray, EN: Stingray (источник: us_stingray_1)
     числовой суффикс: us_stingray_2 -> ключ: us_stingray_2 (приоритет: 10)
     сохранено/обновлено: us_stingray_2 -> RU: Лёгкий танк, EN: Light tank (источник: us_stingray_2)
+    _shop запись: us_stingray_2_shop -> ключ: us_stingray_2 (приоритет: 1)
+    сохранено/обновлено: us_stingray_2 -> RU: Stingray II, EN: Stingray II (источник: us_stingray_2_shop)
+    числовой суффикс: us_stingray_2_0 -> ключ: us_stingray_2_0 (приоритет: 10)
+    сохранено/обновлено: us_stingray_2_0 -> RU: Stingray II, EN: Stingray II (источник: us_stingray_2_0)
+    числовой суффикс: us_stingray_2_1 -> ключ: us_stingray_2_1 (приоритет: 10)
+    сохранено/обновлено: us_stingray_2_1 -> RU: Stingray II, EN: Stingray II (источник: us_stingray_2_1)
+    числовой суффикс: us_stingray_2_2 -> ключ: us_stingray_2_2 (приоритет: 10)
+    сохранено/обновлено: us_stingray_2_2 -> RU: Лёгкий танк, EN: Light tank (источник: us_stingray_2_2)
     _shop запись: jp_stingray_shop -> ключ: jp_stingray (приоритет: 1)
     сохранено/обновлено: jp_stingray -> RU: ▄Stingray, EN: ▄Stingray (источник: jp_stingray_shop)
     числовой суффикс: jp_stingray_0 -> ключ: jp_stingray_0 (приоритет: 10)
@@ -5571,6 +5587,14 @@
     сохранено/обновлено: uk_olifant_mk_1a_1 -> RU: Olifant Mk.1A, EN: Olifant Mk.1A (источник: uk_olifant_mk_1a_1)
     числовой суффикс: uk_olifant_mk_1a_2 -> ключ: uk_olifant_mk_1a_2 (приоритет: 10)
     сохранено/обновлено: uk_olifant_mk_1a_2 -> RU: ОБТ, EN: MBT (источник: uk_olifant_mk_1a_2)
+    _shop запись: uk_olifant_optimering_shop -> ключ: uk_olifant_optimering (приоритет: 1)
+    сохранено/обновлено: uk_olifant_optimering -> RU: Optimering, EN: Optimering (источник: uk_olifant_optimering_shop)
+    числовой суффикс: uk_olifant_optimering_0 -> ключ: uk_olifant_optimering_0 (приоритет: 10)
+    сохранено/обновлено: uk_olifant_optimering_0 -> RU: Olifant Mk.1B Optimering, EN: Olifant Mk.1B Optimering (источник: uk_olifant_optimering_0)
+    числовой суффикс: uk_olifant_optimering_1 -> ключ: uk_olifant_optimering_1 (приоритет: 10)
+    сохранено/обновлено: uk_olifant_optimering_1 -> RU: Optimering, EN: Optimering (источник: uk_olifant_optimering_1)
+    числовой суффикс: uk_olifant_optimering_2 -> ключ: uk_olifant_optimering_2 (приоритет: 10)
+    сохранено/обновлено: uk_olifant_optimering_2 -> RU: ОБТ, EN: MBT (источник: uk_olifant_optimering_2)
     _shop запись: uk_ratel_90_shop -> ключ: uk_ratel_90 (приоритет: 1)
     сохранено/обновлено: uk_ratel_90 -> RU: Ratel 90, EN: Ratel 90 (источник: uk_ratel_90_shop)
     числовой суффикс: uk_ratel_90_0 -> ключ: uk_ratel_90_0 (приоритет: 10)
@@ -6467,6 +6491,14 @@
     сохранено/обновлено: fr_vab_santal_1 -> RU: SANTAL, EN: SANTAL (источник: fr_vab_santal_1)
     числовой суффикс: fr_vab_santal_2 -> ключ: fr_vab_santal_2 (приоритет: 10)
     сохранено/обновлено: fr_vab_santal_2 -> RU: ЗРК, EN: SAM (источник: fr_vab_santal_2)
+    _shop запись: fr_prtl_shop -> ключ: fr_prtl (приоритет: 1)
+    сохранено/обновлено: fr_prtl -> RU: Cheetah PRTL, EN: Cheetah PRTL (источник: fr_prtl_shop)
+    числовой суффикс: fr_prtl_0 -> ключ: fr_prtl_0 (приоритет: 10)
+    сохранено/обновлено: fr_prtl_0 -> RU: Cheetah PRTL, EN: Cheetah PRTL (источник: fr_prtl_0)
+    числовой суффикс: fr_prtl_1 -> ключ: fr_prtl_1 (приоритет: 10)
+    сохранено/обновлено: fr_prtl_1 -> RU: Cheetah PRTL, EN: Cheetah PRTL (источник: fr_prtl_1)
+    числовой суффикс: fr_prtl_2 -> ключ: fr_prtl_2 (приоритет: 10)
+    сохранено/обновлено: fr_prtl_2 -> RU: ЗСУ, EN: SPAA (источник: fr_prtl_2)
     _shop запись: fr_vcac_mephisto_shop -> ключ: fr_vcac_mephisto (приоритет: 1)
     сохранено/обновлено: fr_vcac_mephisto -> RU: MEPHISTO, EN: MEPHISTO (источник: fr_vcac_mephisto_shop)
     числовой суффикс: fr_vcac_mephisto_0 -> ключ: fr_vcac_mephisto_0 (приоритет: 10)
@@ -9697,6 +9729,14 @@
     сохранено/обновлено: f2a-1_1 -> RU: F2A, EN: F2A (источник: f2a-1_1)
     числовой суффикс: f2a-1_2 -> ключ: f2a-1_2 (приоритет: 10)
     сохранено/обновлено: f2a-1_2 -> RU: F2A, EN: F2A (источник: f2a-1_2)
+    _shop запись: f2a-1_nvidia_shop -> ключ: f2a-1_nvidia (приоритет: 1)
+    сохранено/обновлено: f2a-1_nvidia -> RU: F2A-1 TD, EN: F2A-1 TD (источник: f2a-1_nvidia_shop)
+    числовой суффикс: f2a-1_nvidia_0 -> ключ: f2a-1_nvidia_0 (приоритет: 10)
+    сохранено/обновлено: f2a-1_nvidia_0 -> RU: F2A-1 Buffalo TD, EN: F2A-1 Buffalo TD (источник: f2a-1_nvidia_0)
+    числовой суффикс: f2a-1_nvidia_1 -> ключ: f2a-1_nvidia_1 (приоритет: 10)
+    сохранено/обновлено: f2a-1_nvidia_1 -> RU: F2A TD, EN: F2A TD (источник: f2a-1_nvidia_1)
+    числовой суффикс: f2a-1_nvidia_2 -> ключ: f2a-1_nvidia_2 (приоритет: 10)
+    сохранено/обновлено: f2a-1_nvidia_2 -> RU: F2A, EN: F2A (источник: f2a-1_nvidia_2)
     _shop запись: o3u_1_shop -> ключ: o3u_1 (приоритет: 1)
     сохранено/обновлено: o3u_1 -> RU: O3U-1, EN: O3U-1 (источник: o3u_1_shop)
     числовой суффикс: o3u_1_0 -> ключ: o3u_1_0 (приоритет: 10)
@@ -10144,9 +10184,9 @@
     числовой суффикс: tu-2_2 -> ключ: tu-2_2 (приоритет: 10)
     сохранено/обновлено: tu-2_2 -> RU: Ту-2, EN: Tu-2 (источник: tu-2_2)
     _shop запись: tu-2_early_shop -> ключ: tu-2_early (приоритет: 1)
-    сохранено/обновлено: tu-2_early -> RU: Ту-2 (5), EN: Tu-2 (5) (источник: tu-2_early_shop)
+    сохранено/обновлено: tu-2_early -> RU: Ту-2 (6), EN: Tu-2 (6) (источник: tu-2_early_shop)
     числовой суффикс: tu-2_early_0 -> ключ: tu-2_early_0 (приоритет: 10)
-    сохранено/обновлено: tu-2_early_0 -> RU: Ту-2 (5 серии) завода №166, EN: Tu-2 (5 series) factory No.166 (источник: tu-2_early_0)
+    сохранено/обновлено: tu-2_early_0 -> RU: Ту-2 (6 серии) завода №166, EN: Tu-2 (6 series) factory No.166 (источник: tu-2_early_0)
     числовой суффикс: tu-2_early_1 -> ключ: tu-2_early_1 (приоритет: 10)
     сохранено/обновлено: tu-2_early_1 -> RU: Ту-2, EN: Tu-2 (источник: tu-2_early_1)
     числовой суффикс: tu-2_early_2 -> ключ: tu-2_early_2 (приоритет: 10)
@@ -10191,6 +10231,14 @@
     сохранено/обновлено: a-26c-45-dt_1 -> RU: A-26C, EN: A-26C (источник: a-26c-45-dt_1)
     числовой суффикс: a-26c-45-dt_2 -> ключ: a-26c-45-dt_2 (приоритет: 10)
     сохранено/обновлено: a-26c-45-dt_2 -> RU: A-26, EN: A-26 (источник: a-26c-45-dt_2)
+    _shop запись: b_33_indonesia_shop -> ключ: b_33_indonesia (приоритет: 1)
+    сохранено/обновлено: b_33_indonesia -> RU: ◥B-33, EN: ◥B-33 (источник: b_33_indonesia_shop)
+    числовой суффикс: b_33_indonesia_0 -> ключ: b_33_indonesia_0 (приоритет: 10)
+    сохранено/обновлено: b_33_indonesia_0 -> RU: ◥B-33, EN: ◥B-33 (источник: b_33_indonesia_0)
+    числовой суффикс: b_33_indonesia_1 -> ключ: b_33_indonesia_1 (приоритет: 10)
+    сохранено/обновлено: b_33_indonesia_1 -> RU: ◥B-33, EN: ◥B-33 (источник: b_33_indonesia_1)
+    числовой суффикс: b_33_indonesia_2 -> ключ: b_33_indonesia_2 (приоритет: 10)
+    сохранено/обновлено: b_33_indonesia_2 -> RU: ◥B-33, EN: ◥B-33 (источник: b_33_indonesia_2)
     _shop запись: b_26b_indonesia_kalong_shop -> ключ: b_26b_indonesia_kalong (приоритет: 1)
     сохранено/обновлено: b_26b_indonesia_kalong -> RU: ◥B-26B, EN: ◥B-26B (источник: b_26b_indonesia_kalong_shop)
     числовой суффикс: b_26b_indonesia_kalong_0 -> ключ: b_26b_indonesia_kalong_0 (приоритет: 10)
@@ -10421,6 +10469,14 @@
     сохранено/обновлено: su-7bmk_1 -> RU: Su-7BMK, EN: Su-7BMK (источник: su-7bmk_1)
     числовой суффикс: su-7bmk_2 -> ключ: su-7bmk_2 (приоритет: 10)
     сохранено/обновлено: su-7bmk_2 -> RU: Su-7, EN: Su-7 (источник: su-7bmk_2)
+    _shop запись: su_15tm_shop -> ключ: su_15tm (приоритет: 1)
+    сохранено/обновлено: su_15tm -> RU: Су-15ТМ, EN: Su-15TM (источник: su_15tm_shop)
+    числовой суффикс: su_15tm_0 -> ключ: su_15tm_0 (приоритет: 10)
+    сохранено/обновлено: su_15tm_0 -> RU: Су-15ТМ, EN: Su-15TM (источник: su_15tm_0)
+    числовой суффикс: su_15tm_1 -> ключ: su_15tm_1 (приоритет: 10)
+    сохранено/обновлено: su_15tm_1 -> RU: Су-15ТМ, EN: Su-15TM (источник: su_15tm_1)
+    числовой суффикс: su_15tm_2 -> ключ: su_15tm_2 (приоритет: 10)
+    сохранено/обновлено: su_15tm_2 -> RU: Су-15, EN: Su-15 (источник: su_15tm_2)
     _shop запись: su_17m2_shop -> ключ: su_17m2 (приоритет: 1)
     сохранено/обновлено: su_17m2 -> RU: Су-17М2, EN: Su-17M2 (источник: su_17m2_shop)
     числовой суффикс: su_17m2_0 -> ключ: su_17m2_0 (приоритет: 10)
@@ -10679,6 +10735,14 @@
     сохранено/обновлено: saab_ja37di_f21_1 -> RU: JA37DI, EN: JA37DI (источник: saab_ja37di_f21_1)
     числовой суффикс: saab_ja37di_f21_2 -> ключ: saab_ja37di_f21_2 (приоритет: 10)
     сохранено/обновлено: saab_ja37di_f21_2 -> RU: JA37, EN: JA37 (источник: saab_ja37di_f21_2)
+    _shop запись: saab_jas39_pre_serie_shop -> ключ: saab_jas39_pre_serie (приоритет: 1)
+    сохранено/обновлено: saab_jas39_pre_serie -> RU: JAS39-5, EN: JAS39-5 (источник: saab_jas39_pre_serie_shop)
+    числовой суффикс: saab_jas39_pre_serie_0 -> ключ: saab_jas39_pre_serie_0 (приоритет: 10)
+    сохранено/обновлено: saab_jas39_pre_serie_0 -> RU: JAS39 (39-5 pre-serie), EN: JAS39 (39-5 pre-serie) (источник: saab_jas39_pre_serie_0)
+    числовой суффикс: saab_jas39_pre_serie_1 -> ключ: saab_jas39_pre_serie_1 (приоритет: 10)
+    сохранено/обновлено: saab_jas39_pre_serie_1 -> RU: JAS39, EN: JAS39 (источник: saab_jas39_pre_serie_1)
+    числовой суффикс: saab_jas39_pre_serie_2 -> ключ: saab_jas39_pre_serie_2 (приоритет: 10)
+    сохранено/обновлено: saab_jas39_pre_serie_2 -> RU: JAS39, EN: JAS39 (источник: saab_jas39_pre_serie_2)
     _shop запись: saab_jas39a_shop -> ключ: saab_jas39a (приоритет: 1)
     сохранено/обновлено: saab_jas39a -> RU: JAS39A, EN: JAS39A (источник: saab_jas39a_shop)
     числовой суффикс: saab_jas39a_0 -> ключ: saab_jas39a_0 (приоритет: 10)
@@ -12361,6 +12425,14 @@
     сохранено/обновлено: q_5a_1 -> RU: Q-5A, EN: Q-5A (источник: q_5a_1)
     числовой суффикс: q_5a_2 -> ключ: q_5a_2 (приоритет: 10)
     сохранено/обновлено: q_5a_2 -> RU: Q-5, EN: Q-5 (источник: q_5a_2)
+    _shop запись: q_5d_shop -> ключ: q_5d (приоритет: 1)
+    сохранено/обновлено: q_5d -> RU: Q-5D, EN: Q-5D (источник: q_5d_shop)
+    числовой суффикс: q_5d_0 -> ключ: q_5d_0 (приоритет: 10)
+    сохранено/обновлено: q_5d_0 -> RU: Q-5D, EN: Q-5D (источник: q_5d_0)
+    числовой суффикс: q_5d_1 -> ключ: q_5d_1 (приоритет: 10)
+    сохранено/обновлено: q_5d_1 -> RU: Q-5D, EN: Q-5D (источник: q_5d_1)
+    числовой суффикс: q_5d_2 -> ключ: q_5d_2 (приоритет: 10)
+    сохранено/обновлено: q_5d_2 -> RU: Q-5, EN: Q-5 (источник: q_5d_2)
     _shop запись: q_5l_shop -> ключ: q_5l (приоритет: 1)
     сохранено/обновлено: q_5l -> RU: Q-5L, EN: Q-5L (источник: q_5l_shop)
     числовой суффикс: q_5l_0 -> ключ: q_5l_0 (приоритет: 10)
@@ -14461,6 +14533,14 @@
     сохранено/обновлено: firefly_mk1_1 -> RU: Firefly F, EN: Firefly F (источник: firefly_mk1_1)
     числовой суффикс: firefly_mk1_2 -> ключ: firefly_mk1_2 (приоритет: 10)
     сохранено/обновлено: firefly_mk1_2 -> RU: Firefly, EN: Firefly (источник: firefly_mk1_2)
+    _shop запись: firefly_mk1_thailand_shop -> ключ: firefly_mk1_thailand (приоритет: 1)
+    сохранено/обновлено: firefly_mk1_thailand -> RU: ▄Firefly F.Mk.I, EN: ▄Firefly F Mk I (источник: firefly_mk1_thailand_shop)
+    числовой суффикс: firefly_mk1_thailand_0 -> ключ: firefly_mk1_thailand_0 (приоритет: 10)
+    сохранено/обновлено: firefly_mk1_thailand_0 -> RU: ▄Firefly F.Mk.I, EN: ▄Firefly F Mk I (источник: firefly_mk1_thailand_0)
+    числовой суффикс: firefly_mk1_thailand_1 -> ключ: firefly_mk1_thailand_1 (приоритет: 10)
+    сохранено/обновлено: firefly_mk1_thailand_1 -> RU: ▄Firefly F, EN: ▄Firefly F (источник: firefly_mk1_thailand_1)
+    числовой суффикс: firefly_mk1_thailand_2 -> ключ: firefly_mk1_thailand_2 (приоритет: 10)
+    сохранено/обновлено: firefly_mk1_thailand_2 -> RU: ▄Firefly, EN: ▄Firefly (источник: firefly_mk1_thailand_2)
     _shop запись: firefly_mk4_netherlands_shop -> ключ: firefly_mk4_netherlands (приоритет: 1)
     сохранено/обновлено: firefly_mk4_netherlands -> RU: ◘Firefly F.Mk.IV, EN: ◘Firefly F.Mk.IV (источник: firefly_mk4_netherlands_shop)
     числовой суффикс: firefly_mk4_netherlands_0 -> ключ: firefly_mk4_netherlands_0 (приоритет: 10)
@@ -14469,6 +14549,14 @@
     сохранено/обновлено: firefly_mk4_netherlands_1 -> RU: ◘Firefly F.Mk.IV, EN: ◘Firefly F.Mk.IV (источник: firefly_mk4_netherlands_1)
     числовой суффикс: firefly_mk4_netherlands_2 -> ключ: firefly_mk4_netherlands_2 (приоритет: 10)
     сохранено/обновлено: firefly_mk4_netherlands_2 -> RU: ◘Firefly, EN: ◘Firefly (источник: firefly_mk4_netherlands_2)
+    _shop запись: fulmar_mk2_shop -> ключ: fulmar_mk2 (приоритет: 1)
+    сохранено/обновлено: fulmar_mk2 -> RU: Fulmar Mk.II, EN: Fulmar Mk.II (источник: fulmar_mk2_shop)
+    числовой суффикс: fulmar_mk2_0 -> ключ: fulmar_mk2_0 (приоритет: 10)
+    сохранено/обновлено: fulmar_mk2_0 -> RU: Fulmar Mk.II, EN: Fulmar Mk.II (источник: fulmar_mk2_0)
+    числовой суффикс: fulmar_mk2_1 -> ключ: fulmar_mk2_1 (приоритет: 10)
+    сохранено/обновлено: fulmar_mk2_1 -> RU: Fulmar II, EN: Fulmar II (источник: fulmar_mk2_1)
+    числовой суффикс: fulmar_mk2_2 -> ключ: fulmar_mk2_2 (приоритет: 10)
+    сохранено/обновлено: fulmar_mk2_2 -> RU: Fulmar, EN: Fulmar (источник: fulmar_mk2_2)
     _shop запись: seafire_fr47_shop -> ключ: seafire_fr47 (приоритет: 1)
     сохранено/обновлено: seafire_fr47 -> RU: Seafire FR.47, EN: Seafire FR 47 (источник: seafire_fr47_shop)
     числовой суффикс: seafire_fr47_0 -> ключ: seafire_fr47_0 (приоритет: 10)
@@ -16665,6 +16753,14 @@
     сохранено/обновлено: ussr_btr_82at_1 -> RU: БТР-82АТ, EN: BTR-82AT (источник: ussr_btr_82at_1)
     числовой суффикс: ussr_btr_82at_2 -> ключ: ussr_btr_82at_2 (приоритет: 10)
     сохранено/обновлено: ussr_btr_82at_2 -> RU: Лёгкий танк, EN: Light tank (источник: ussr_btr_82at_2)
+    _shop запись: ussr_btr_90_2004_shop -> ключ: ussr_btr_90_2004 (приоритет: 1)
+    сохранено/обновлено: ussr_btr_90_2004 -> RU: БТР-90, EN: BTR-90 (источник: ussr_btr_90_2004_shop)
+    числовой суффикс: ussr_btr_90_2004_0 -> ключ: ussr_btr_90_2004_0 (приоритет: 10)
+    сохранено/обновлено: ussr_btr_90_2004_0 -> RU: БТР-90, EN: BTR-90 (источник: ussr_btr_90_2004_0)
+    числовой суффикс: ussr_btr_90_2004_1 -> ключ: ussr_btr_90_2004_1 (приоритет: 10)
+    сохранено/обновлено: ussr_btr_90_2004_1 -> RU: БТР-90, EN: BTR-90 (источник: ussr_btr_90_2004_1)
+    числовой суффикс: ussr_btr_90_2004_2 -> ключ: ussr_btr_90_2004_2 (приоритет: 10)
+    сохранено/обновлено: ussr_btr_90_2004_2 -> RU: Лёгкий танк, EN: Light tank (источник: ussr_btr_90_2004_2)
     _shop запись: ussr_btr_zd_shop -> ключ: ussr_btr_zd (приоритет: 1)
     сохранено/обновлено: ussr_btr_zd -> RU: БТР-ЗД, EN: BTR-ZD (источник: ussr_btr_zd_shop)
     числовой суффикс: ussr_btr_zd_0 -> ключ: ussr_btr_zd_0 (приоритет: 10)
@@ -18571,6 +18667,22 @@
     сохранено/обновлено: germ_leopard_2a7v_1 -> RU: Leopard 2A7V, EN: Leopard 2A7V (источник: germ_leopard_2a7v_1)
     числовой суффикс: germ_leopard_2a7v_2 -> ключ: germ_leopard_2a7v_2 (приоритет: 10)
     сохранено/обновлено: germ_leopard_2a7v_2 -> RU: ОБТ, EN: MBT (источник: germ_leopard_2a7v_2)
+    _shop запись: germ_leopard_2a8_shop -> ключ: germ_leopard_2a8 (приоритет: 1)
+    сохранено/обновлено: germ_leopard_2a8 -> RU: Leopard 2A8, EN: Leopard 2A8 (источник: germ_leopard_2a8_shop)
+    числовой суффикс: germ_leopard_2a8_0 -> ключ: germ_leopard_2a8_0 (приоритет: 10)
+    сохранено/обновлено: germ_leopard_2a8_0 -> RU: Leopard 2A8, EN: Leopard 2A8 (источник: germ_leopard_2a8_0)
+    числовой суффикс: germ_leopard_2a8_1 -> ключ: germ_leopard_2a8_1 (приоритет: 10)
+    сохранено/обновлено: germ_leopard_2a8_1 -> RU: Leopard 2A8, EN: Leopard 2A8 (источник: germ_leopard_2a8_1)
+    числовой суффикс: germ_leopard_2a8_2 -> ключ: germ_leopard_2a8_2 (приоритет: 10)
+    сохранено/обновлено: germ_leopard_2a8_2 -> RU: ОБТ, EN: MBT (источник: germ_leopard_2a8_2)
+    _shop запись: sw_leopard_2a8no_shop -> ключ: sw_leopard_2a8no (приоритет: 1)
+    сохранено/обновлено: sw_leopard_2a8no -> RU: Leopard 2A8NO, EN: Leopard 2A8NO (источник: sw_leopard_2a8no_shop)
+    числовой суффикс: sw_leopard_2a8no_0 -> ключ: sw_leopard_2a8no_0 (приоритет: 10)
+    сохранено/обновлено: sw_leopard_2a8no_0 -> RU: Leopard 2A8NO, EN: Leopard 2A8NO (источник: sw_leopard_2a8no_0)
+    числовой суффикс: sw_leopard_2a8no_1 -> ключ: sw_leopard_2a8no_1 (приоритет: 10)
+    сохранено/обновлено: sw_leopard_2a8no_1 -> RU: Leopard 2A8NO, EN: Leopard 2A8NO (источник: sw_leopard_2a8no_1)
+    числовой суффикс: sw_leopard_2a8no_2 -> ключ: sw_leopard_2a8no_2 (приоритет: 10)
+    сохранено/обновлено: sw_leopard_2a8no_2 -> RU: ОБТ, EN: MBT (источник: sw_leopard_2a8no_2)
     _shop запись: germ_leopard_2a5_pso_shop -> ключ: germ_leopard_2a5_pso (приоритет: 1)
     сохранено/обновлено: germ_leopard_2a5_pso -> RU: Leopard 2 PSO, EN: Leopard 2 PSO (источник: germ_leopard_2a5_pso_shop)
     числовой суффикс: germ_leopard_2a5_pso_0 -> ключ: germ_leopard_2a5_pso_0 (приоритет: 10)
@@ -19955,6 +20067,14 @@
     сохранено/обновлено: it_toldi_ii_a_1 -> RU: Toldi IIA, EN: Toldi IIA (источник: it_toldi_ii_a_1)
     числовой суффикс: it_toldi_ii_a_2 -> ключ: it_toldi_ii_a_2 (приоритет: 10)
     сохранено/обновлено: it_toldi_ii_a_2 -> RU: Лёгкий танк, EN: Light tank (источник: it_toldi_ii_a_2)
+    _shop запись: it_v_4_straussler_shop -> ключ: it_v_4_straussler (приоритет: 1)
+    сохранено/обновлено: it_v_4_straussler -> RU: V-4/40, EN: V-4/40 (источник: it_v_4_straussler_shop)
+    числовой суффикс: it_v_4_straussler_0 -> ключ: it_v_4_straussler_0 (приоритет: 10)
+    сохранено/обновлено: it_v_4_straussler_0 -> RU: Straussler V-4/40, EN: Straussler V-4/40 (источник: it_v_4_straussler_0)
+    числовой суффикс: it_v_4_straussler_1 -> ключ: it_v_4_straussler_1 (приоритет: 10)
+    сохранено/обновлено: it_v_4_straussler_1 -> RU: V-4/40, EN: V-4/40 (источник: it_v_4_straussler_1)
+    числовой суффикс: it_v_4_straussler_2 -> ключ: it_v_4_straussler_2 (приоритет: 10)
+    сохранено/обновлено: it_v_4_straussler_2 -> RU: Лёгкий танк, EN: Light tank (источник: it_v_4_straussler_2)
     _shop запись: it_m14_41_47_40_shop -> ключ: it_m14_41_47_40 (приоритет: 1)
     сохранено/обновлено: it_m14_41_47_40 -> RU: M14/41 (47/40), EN: M14/41 (47/40) (источник: it_m14_41_47_40_shop)
     числовой суффикс: it_m14_41_47_40_0 -> ключ: it_m14_41_47_40_0 (приоритет: 10)
@@ -20067,6 +20187,14 @@
     сохранено/обновлено: it_lancia3ro_100_1 -> RU: Lancia 3Ro (100/17), EN: Lancia 3Ro (100/17) (источник: it_lancia3ro_100_1)
     числовой суффикс: it_lancia3ro_100_2 -> ключ: it_lancia3ro_100_2 (приоритет: 10)
     сохранено/обновлено: it_lancia3ro_100_2 -> RU: САУ, EN: SPG (источник: it_lancia3ro_100_2)
+    _shop запись: it_lancia_flak38_shop -> ключ: it_lancia_flak38 (приоритет: 1)
+    сохранено/обновлено: it_lancia_flak38 -> RU: Lancia 3Ro (Flak.), EN: Lancia 3Ro (Flak.) (источник: it_lancia_flak38_shop)
+    числовой суффикс: it_lancia_flak38_0 -> ключ: it_lancia_flak38_0 (приоритет: 10)
+    сохранено/обновлено: it_lancia_flak38_0 -> RU: Lancia 3Ro (Flak.), EN: Lancia 3Ro (Flak.) (источник: it_lancia_flak38_0)
+    числовой суффикс: it_lancia_flak38_1 -> ключ: it_lancia_flak38_1 (приоритет: 10)
+    сохранено/обновлено: it_lancia_flak38_1 -> RU: Lancia 3Ro (Flak.), EN: Lancia 3Ro (Flak.) (источник: it_lancia_flak38_1)
+    числовой суффикс: it_lancia_flak38_2 -> ключ: it_lancia_flak38_2 (приоритет: 10)
+    сохранено/обновлено: it_lancia_flak38_2 -> RU: ЗСУ, EN: SPAA (источник: it_lancia_flak38_2)
     _shop запись: it_ab_41_shop -> ключ: it_ab_41 (приоритет: 1)
     сохранено/обновлено: it_ab_41 -> RU: AB 41, EN: AB 41 (источник: it_ab_41_shop)
     числовой суффикс: it_ab_41_0 -> ключ: it_ab_41_0 (приоритет: 10)
@@ -21523,6 +21651,14 @@
     сохранено/обновлено: jp_harimau_1 -> RU: Harimau, EN: Harimau (источник: jp_harimau_1)
     числовой суффикс: jp_harimau_2 -> ключ: jp_harimau_2 (приоритет: 10)
     сохранено/обновлено: jp_harimau_2 -> RU: Лёгкий танк, EN: Light tank (источник: jp_harimau_2)
+    _shop запись: jp_bmp_3f_shop -> ключ: jp_bmp_3f (приоритет: 1)
+    сохранено/обновлено: jp_bmp_3f -> RU: BMP-3F, EN: BMP-3F (источник: jp_bmp_3f_shop)
+    числовой суффикс: jp_bmp_3f_0 -> ключ: jp_bmp_3f_0 (приоритет: 10)
+    сохранено/обновлено: jp_bmp_3f_0 -> RU: BMP-3F, EN: BMP-3F (источник: jp_bmp_3f_0)
+    числовой суффикс: jp_bmp_3f_1 -> ключ: jp_bmp_3f_1 (приоритет: 10)
+    сохранено/обновлено: jp_bmp_3f_1 -> RU: BMP-3F, EN: BMP-3F (источник: jp_bmp_3f_1)
+    числовой суффикс: jp_bmp_3f_2 -> ключ: jp_bmp_3f_2 (приоритет: 10)
+    сохранено/обновлено: jp_bmp_3f_2 -> RU: Лёгкий танк, EN: Light tank (источник: jp_bmp_3f_2)
     _shop запись: ussr_bt_7_m_shop -> ключ: ussr_bt_7_m (приоритет: 1)
     сохранено/обновлено: ussr_bt_7_m -> RU: БТ-7М, EN: BT-7M (источник: ussr_bt_7_m_shop)
     числовой суффикс: ussr_bt_7_m_0 -> ключ: ussr_bt_7_m_0 (приоритет: 10)
@@ -22285,6 +22421,14 @@
     сохранено/обновлено: f_15e_1 -> RU: F-15E, EN: F-15E (источник: f_15e_1)
     числовой суффикс: f_15e_2 -> ключ: f_15e_2 (приоритет: 10)
     сохранено/обновлено: f_15e_2 -> RU: F-15, EN: F-15 (источник: f_15e_2)
+    _shop запись: f_15ex_shop -> ключ: f_15ex (приоритет: 1)
+    сохранено/обновлено: f_15ex -> RU: F-15EX, EN: F-15EX (источник: f_15ex_shop)
+    числовой суффикс: f_15ex_0 -> ключ: f_15ex_0 (приоритет: 10)
+    сохранено/обновлено: f_15ex_0 -> RU: F-15EX Eagle II, EN: F-15EX Eagle II (источник: f_15ex_0)
+    числовой суффикс: f_15ex_1 -> ключ: f_15ex_1 (приоритет: 10)
+    сохранено/обновлено: f_15ex_1 -> RU: F-15EX, EN: F-15EX (источник: f_15ex_1)
+    числовой суффикс: f_15ex_2 -> ключ: f_15ex_2 (приоритет: 10)
+    сохранено/обновлено: f_15ex_2 -> RU: F-15, EN: F-15 (источник: f_15ex_2)
     _shop запись: f_15i_raam_shop -> ключ: f_15i_raam (приоритет: 1)
     сохранено/обновлено: f_15i_raam -> RU: F-15I Ra’am, EN: F-15I Ra’am (источник: f_15i_raam_shop)
     числовой суффикс: f_15i_raam_0 -> ключ: f_15i_raam_0 (приоритет: 10)
@@ -22293,6 +22437,14 @@
     сохранено/обновлено: f_15i_raam_1 -> RU: F-15I, EN: F-15I (источник: f_15i_raam_1)
     числовой суффикс: f_15i_raam_2 -> ключ: f_15i_raam_2 (приоритет: 10)
     сохранено/обновлено: f_15i_raam_2 -> RU: F-15, EN: F-15 (источник: f_15i_raam_2)
+    _shop запись: f_15ia_shop -> ключ: f_15ia (приоритет: 1)
+    сохранено/обновлено: f_15ia -> RU: F-15IA Ra’am II, EN: F-15IA Ra’am II (источник: f_15ia_shop)
+    числовой суффикс: f_15ia_0 -> ключ: f_15ia_0 (приоритет: 10)
+    сохранено/обновлено: f_15ia_0 -> RU: F-15IA Ra’am II, EN: F-15IA Ra’am II (источник: f_15ia_0)
+    числовой суффикс: f_15ia_1 -> ключ: f_15ia_1 (приоритет: 10)
+    сохранено/обновлено: f_15ia_1 -> RU: F-15IA, EN: F-15IA (источник: f_15ia_1)
+    числовой суффикс: f_15ia_2 -> ключ: f_15ia_2 (приоритет: 10)
+    сохранено/обновлено: f_15ia_2 -> RU: F-15, EN: F-15 (источник: f_15ia_2)
     _shop запись: fa_18a_shop -> ключ: fa_18a (приоритет: 1)
     сохранено/обновлено: fa_18a -> RU: F/A-18A, EN: F/A-18A (источник: fa_18a_shop)
     числовой суффикс: fa_18a_0 -> ключ: fa_18a_0 (приоритет: 10)
@@ -22349,6 +22501,14 @@
     сохранено/обновлено: fa_18c_late_1 -> RU: F/A-18C Late, EN: F/A-18C Late (источник: fa_18c_late_1)
     числовой суффикс: fa_18c_late_2 -> ключ: fa_18c_late_2 (приоритет: 10)
     сохранено/обновлено: fa_18c_late_2 -> RU: F/A-18C, EN: F/A-18C (источник: fa_18c_late_2)
+    _shop запись: fa_18d_late_shop -> ключ: fa_18d_late (приоритет: 1)
+    сохранено/обновлено: fa_18d_late -> RU: F/A-18D, EN: F/A-18D (источник: fa_18d_late_shop)
+    числовой суффикс: fa_18d_late_0 -> ключ: fa_18d_late_0 (приоритет: 10)
+    сохранено/обновлено: fa_18d_late_0 -> RU: F/A-18D Hornet, EN: F/A-18D Hornet (источник: fa_18d_late_0)
+    числовой суффикс: fa_18d_late_1 -> ключ: fa_18d_late_1 (приоритет: 10)
+    сохранено/обновлено: fa_18d_late_1 -> RU: F/A-18D, EN: F/A-18D (источник: fa_18d_late_1)
+    числовой суффикс: fa_18d_late_2 -> ключ: fa_18d_late_2 (приоритет: 10)
+    сохранено/обновлено: fa_18d_late_2 -> RU: F/A-18D, EN: F/A-18D (источник: fa_18d_late_2)
     _shop запись: fa_18d_late_malaysia_shop -> ключ: fa_18d_late_malaysia (приоритет: 1)
     сохранено/обновлено: fa_18d_late_malaysia -> RU: ▄F/A-18D Late, EN: ▄F/A-18D Late (источник: fa_18d_late_malaysia_shop)
     числовой суффикс: fa_18d_late_malaysia_0 -> ключ: fa_18d_late_malaysia_0 (приоритет: 10)
@@ -23317,6 +23477,14 @@
     сохранено/обновлено: a_129_d_1 -> RU: AH-129D, EN: AH-129D (источник: a_129_d_1)
     числовой суффикс: a_129_d_2 -> ключ: a_129_d_2 (приоритет: 10)
     сохранено/обновлено: a_129_d_2 -> RU: AH-129, EN: AH-129 (источник: a_129_d_2)
+    _shop запись: aw_249_pre_serie_shop -> ключ: aw_249_pre_serie (приоритет: 1)
+    сохранено/обновлено: aw_249_pre_serie -> RU: AW249 Fenice, EN: AW249 Fenice (источник: aw_249_pre_serie_shop)
+    числовой суффикс: aw_249_pre_serie_0 -> ключ: aw_249_pre_serie_0 (приоритет: 10)
+    сохранено/обновлено: aw_249_pre_serie_0 -> RU: AW249 Fenice (pre-series), EN: AW249 Fenice (pre-series) (источник: aw_249_pre_serie_0)
+    числовой суффикс: aw_249_pre_serie_1 -> ключ: aw_249_pre_serie_1 (приоритет: 10)
+    сохранено/обновлено: aw_249_pre_serie_1 -> RU: AW249 Fenice, EN: AW249 Fenice (источник: aw_249_pre_serie_1)
+    числовой суффикс: aw_249_pre_serie_2 -> ключ: aw_249_pre_serie_2 (приоритет: 10)
+    сохранено/обновлено: aw_249_pre_serie_2 -> RU: AW249, EN: AW249 (источник: aw_249_pre_serie_2)
     _shop запись: t_129_atak_shop -> ключ: t_129_atak (приоритет: 1)
     сохранено/обновлено: t_129_atak -> RU: T129, EN: T129 (источник: t_129_atak_shop)
     числовой суффикс: t_129_atak_0 -> ключ: t_129_atak_0 (приоритет: 10)
@@ -24419,6 +24587,14 @@
     сохранено/обновлено: cn_zbd_04a_1 -> RU: ZBD04A, EN: ZBD04A (источник: cn_zbd_04a_1)
     числовой суффикс: cn_zbd_04a_2 -> ключ: cn_zbd_04a_2 (приоритет: 10)
     сохранено/обновлено: cn_zbd_04a_2 -> RU: Лёгкий танк, EN: Light tank (источник: cn_zbd_04a_2)
+    _shop запись: cn_zbd_04_shop -> ключ: cn_zbd_04 (приоритет: 1)
+    сохранено/обновлено: cn_zbd_04 -> RU: ZBD04, EN: ZBD04 (источник: cn_zbd_04_shop)
+    числовой суффикс: cn_zbd_04_0 -> ключ: cn_zbd_04_0 (приоритет: 10)
+    сохранено/обновлено: cn_zbd_04_0 -> RU: ZhuangJia BuBing LÜDai 04, EN: ZhuangJia BuBing LÜDai 04 (источник: cn_zbd_04_0)
+    числовой суффикс: cn_zbd_04_1 -> ключ: cn_zbd_04_1 (приоритет: 10)
+    сохранено/обновлено: cn_zbd_04_1 -> RU: ZBD04, EN: ZBD04 (источник: cn_zbd_04_1)
+    числовой суффикс: cn_zbd_04_2 -> ключ: cn_zbd_04_2 (приоритет: 10)
+    сохранено/обновлено: cn_zbd_04_2 -> RU: Лёгкий танк, EN: Light tank (источник: cn_zbd_04_2)
     _shop запись: cn_ztz_59a_shop -> ключ: cn_ztz_59a (приоритет: 1)
     сохранено/обновлено: cn_ztz_59a -> RU: ZTZ59A, EN: ZTZ59A (источник: cn_ztz_59a_shop)
     числовой суффикс: cn_ztz_59a_0 -> ключ: cn_ztz_59a_0 (приоритет: 10)
@@ -25350,11 +25526,11 @@
     числовой суффикс: us_m8_greyhound_2 -> ключ: us_m8_greyhound_2 (приоритет: 10)
     сохранено/обновлено: us_m8_greyhound_2 -> RU: Лёгкий танк, EN: Light tank (источник: us_m8_greyhound_2)
     _shop запись: germ_m44_shop -> ключ: germ_m44 (приоритет: 1)
-    сохранено/обновлено: germ_m44 -> RU: M44, EN: M44 (источник: germ_m44_shop)
+    сохранено/обновлено: germ_m44 -> RU: ◄M44, EN: ◄M44 (источник: germ_m44_shop)
     числовой суффикс: germ_m44_0 -> ключ: germ_m44_0 (приоритет: 10)
-    сохранено/обновлено: germ_m44_0 -> RU: Panzerhaubitze M44, EN: Panzerhaubitze M44 (источник: germ_m44_0)
+    сохранено/обновлено: germ_m44_0 -> RU: ◄Panzerhaubitze M44, EN: ◄Panzerhaubitze M44 (источник: germ_m44_0)
     числовой суффикс: germ_m44_1 -> ключ: germ_m44_1 (приоритет: 10)
-    сохранено/обновлено: germ_m44_1 -> RU: M44, EN: M44 (источник: germ_m44_1)
+    сохранено/обновлено: germ_m44_1 -> RU: ◄M44, EN: ◄M44 (источник: germ_m44_1)
     числовой суффикс: germ_m44_2 -> ключ: germ_m44_2 (приоритет: 10)
     сохранено/обновлено: germ_m44_2 -> RU: САУ, EN: SPG (источник: germ_m44_2)
     _shop запись: germ_m109g_shop -> ключ: germ_m109g (приоритет: 1)
@@ -25541,6 +25717,14 @@
     сохранено/обновлено: sw_pbil_m40_1 -> RU: Pbil m/40, EN: Pbil m/40 (источник: sw_pbil_m40_1)
     числовой суффикс: sw_pbil_m40_2 -> ключ: sw_pbil_m40_2 (приоритет: 10)
     сохранено/обновлено: sw_pbil_m40_2 -> RU: Лёгкий танк, EN: Light tank (источник: sw_pbil_m40_2)
+    _shop запись: sw_pv_m39_shop -> ключ: sw_pv_m39 (приоритет: 1)
+    сохранено/обновлено: sw_pv_m39 -> RU: Pbil m/39, EN: Pbil m/39 (источник: sw_pv_m39_shop)
+    числовой суффикс: sw_pv_m39_0 -> ключ: sw_pv_m39_0 (приоритет: 10)
+    сохранено/обновлено: sw_pv_m39_0 -> RU: Pansarbil m/39, EN: Pansarbil m/39 (источник: sw_pv_m39_0)
+    числовой суффикс: sw_pv_m39_1 -> ключ: sw_pv_m39_1 (приоритет: 10)
+    сохранено/обновлено: sw_pv_m39_1 -> RU: Pbil m/39, EN: Pbil m/39 (источник: sw_pv_m39_1)
+    числовой суффикс: sw_pv_m39_2 -> ключ: sw_pv_m39_2 (приоритет: 10)
+    сохранено/обновлено: sw_pv_m39_2 -> RU: Лёгкий танк, EN: Light tank (источник: sw_pv_m39_2)
     _shop запись: sw_k9_vidar_shop -> ключ: sw_k9_vidar (приоритет: 1)
     сохранено/обновлено: sw_k9_vidar -> RU: VIDAR, EN: VIDAR (источник: sw_k9_vidar_shop)
     числовой суффикс: sw_k9_vidar_0 -> ключ: sw_k9_vidar_0 (приоритет: 10)
@@ -28253,6 +28437,38 @@
     сохранено/обновлено: us_aircraftcarrier_forrestal_ai_1 -> RU: USS Forrestal, EN: USS Forrestal (источник: us_aircraftcarrier_forrestal_ai_1)
     числовой суффикс: us_aircraftcarrier_forrestal_ai_2 -> ключ: us_aircraftcarrier_forrestal_ai_2 (приоритет: 10)
     сохранено/обновлено: us_aircraftcarrier_forrestal_ai_2 -> RU: Авианосец, EN: Carrier (источник: us_aircraftcarrier_forrestal_ai_2)
+    _shop запись: us_aircraftcarrier_nimitz_shop -> ключ: us_aircraftcarrier_nimitz (приоритет: 1)
+    сохранено/обновлено: us_aircraftcarrier_nimitz -> RU: USS Nimitz, EN: USS Nimitz (источник: us_aircraftcarrier_nimitz_shop)
+    числовой суффикс: us_aircraftcarrier_nimitz_0 -> ключ: us_aircraftcarrier_nimitz_0 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_nimitz_0 -> RU: USS Nimitz, CVN-68, EN: USS Nimitz, CVN-68 (источник: us_aircraftcarrier_nimitz_0)
+    числовой суффикс: us_aircraftcarrier_nimitz_1 -> ключ: us_aircraftcarrier_nimitz_1 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_nimitz_1 -> RU: USS Nimitz, EN: USS Nimitz (источник: us_aircraftcarrier_nimitz_1)
+    числовой суффикс: us_aircraftcarrier_nimitz_2 -> ключ: us_aircraftcarrier_nimitz_2 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_nimitz_2 -> RU: Авианосец, EN: Carrier (источник: us_aircraftcarrier_nimitz_2)
+    _shop запись: us_aircraftcarrier_nimitz_ai_shop -> ключ: us_aircraftcarrier_nimitz_ai (приоритет: 1)
+    сохранено/обновлено: us_aircraftcarrier_nimitz_ai -> RU: USS Nimitz, EN: USS Nimitz (источник: us_aircraftcarrier_nimitz_ai_shop)
+    числовой суффикс: us_aircraftcarrier_nimitz_ai_0 -> ключ: us_aircraftcarrier_nimitz_ai_0 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_nimitz_ai_0 -> RU: USS Nimitz, CVN-68, EN: USS Nimitz, CVN-68 (источник: us_aircraftcarrier_nimitz_ai_0)
+    числовой суффикс: us_aircraftcarrier_nimitz_ai_1 -> ключ: us_aircraftcarrier_nimitz_ai_1 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_nimitz_ai_1 -> RU: USS Nimitz, EN: USS Nimitz (источник: us_aircraftcarrier_nimitz_ai_1)
+    числовой суффикс: us_aircraftcarrier_nimitz_ai_2 -> ключ: us_aircraftcarrier_nimitz_ai_2 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_nimitz_ai_2 -> RU: Авианосец, EN: Carrier (источник: us_aircraftcarrier_nimitz_ai_2)
+    _shop запись: us_destroyer_halsey_shop -> ключ: us_destroyer_halsey (приоритет: 1)
+    сохранено/обновлено: us_destroyer_halsey -> RU: USS Halsey, EN: USS Halsey (источник: us_destroyer_halsey_shop)
+    числовой суффикс: us_destroyer_halsey_0 -> ключ: us_destroyer_halsey_0 (приоритет: 10)
+    сохранено/обновлено: us_destroyer_halsey_0 -> RU: USS Halsey, DDG-97, EN: USS Halsey, DDG-97 (источник: us_destroyer_halsey_0)
+    числовой суффикс: us_destroyer_halsey_1 -> ключ: us_destroyer_halsey_1 (приоритет: 10)
+    сохранено/обновлено: us_destroyer_halsey_1 -> RU: USS Halsey, EN: USS Halsey (источник: us_destroyer_halsey_1)
+    числовой суффикс: us_destroyer_halsey_2 -> ключ: us_destroyer_halsey_2 (приоритет: 10)
+    сохранено/обновлено: us_destroyer_halsey_2 -> RU: Эсминец УРО, EN: Missile destroyer (источник: us_destroyer_halsey_2)
+    _shop запись: us_frigate_oliver_hazard_perry_shop -> ключ: us_frigate_oliver_hazard_perry (приоритет: 1)
+    сохранено/обновлено: us_frigate_oliver_hazard_perry -> RU: USS Oliver Hazard Perry, EN: USS Oliver Hazard Perry (источник: us_frigate_oliver_hazard_perry_shop)
+    числовой суффикс: us_frigate_oliver_hazard_perry_0 -> ключ: us_frigate_oliver_hazard_perry_0 (приоритет: 10)
+    сохранено/обновлено: us_frigate_oliver_hazard_perry_0 -> RU: USS Oliver Hazard Perry, FFG-7, EN: USS Oliver Hazard Perry, FFG-7 (источник: us_frigate_oliver_hazard_perry_0)
+    числовой суффикс: us_frigate_oliver_hazard_perry_1 -> ключ: us_frigate_oliver_hazard_perry_1 (приоритет: 10)
+    сохранено/обновлено: us_frigate_oliver_hazard_perry_1 -> RU: USS Oliver Hazard Perry, EN: USS Oliver Hazard Perry (источник: us_frigate_oliver_hazard_perry_1)
+    числовой суффикс: us_frigate_oliver_hazard_perry_2 -> ключ: us_frigate_oliver_hazard_perry_2 (приоритет: 10)
+    сохранено/обновлено: us_frigate_oliver_hazard_perry_2 -> RU: Фрегат УРО, EN: Missile frigate (источник: us_frigate_oliver_hazard_perry_2)
     _shop запись: uk_aircraftcarrier_ark_royal_shop -> ключ: uk_aircraftcarrier_ark_royal (приоритет: 1)
     сохранено/обновлено: uk_aircraftcarrier_ark_royal -> RU: HMS Ark Royal, EN: HMS Ark Royal (источник: uk_aircraftcarrier_ark_royal_shop)
     числовой суффикс: uk_aircraftcarrier_ark_royal_0 -> ключ: uk_aircraftcarrier_ark_royal_0 (приоритет: 10)
@@ -28269,6 +28485,54 @@
     сохранено/обновлено: uk_aircraftcarrier_ark_royal_ai_1 -> RU: HMS Ark Royal, EN: HMS Ark Royal (источник: uk_aircraftcarrier_ark_royal_ai_1)
     числовой суффикс: uk_aircraftcarrier_ark_royal_ai_2 -> ключ: uk_aircraftcarrier_ark_royal_ai_2 (приоритет: 10)
     сохранено/обновлено: uk_aircraftcarrier_ark_royal_ai_2 -> RU: Авианосец, EN: Carrier (источник: uk_aircraftcarrier_ark_royal_ai_2)
+    _shop запись: us_aircraftcarrier_gerald_ford_shop -> ключ: us_aircraftcarrier_gerald_ford (приоритет: 1)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford -> RU: USS Gerald Ford, EN: USS Gerald Ford (источник: us_aircraftcarrier_gerald_ford_shop)
+    числовой суффикс: us_aircraftcarrier_gerald_ford_0 -> ключ: us_aircraftcarrier_gerald_ford_0 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford_0 -> RU: USS Gerald Ford, CVN-78, EN: USS Gerald Ford, CVN-78 (источник: us_aircraftcarrier_gerald_ford_0)
+    числовой суффикс: us_aircraftcarrier_gerald_ford_1 -> ключ: us_aircraftcarrier_gerald_ford_1 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford_1 -> RU: USS Gerald Ford, EN: USS Gerald Ford (источник: us_aircraftcarrier_gerald_ford_1)
+    числовой суффикс: us_aircraftcarrier_gerald_ford_2 -> ключ: us_aircraftcarrier_gerald_ford_2 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford_2 -> RU: Авианосец, EN: Carrier (источник: us_aircraftcarrier_gerald_ford_2)
+    _shop запись: us_aircraftcarrier_gerald_ford_ai_shop -> ключ: us_aircraftcarrier_gerald_ford_ai (приоритет: 1)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford_ai -> RU: USS Gerald Ford, EN: USS Gerald Ford (источник: us_aircraftcarrier_gerald_ford_ai_shop)
+    числовой суффикс: us_aircraftcarrier_gerald_ford_ai_0 -> ключ: us_aircraftcarrier_gerald_ford_ai_0 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford_ai_0 -> RU: USS Gerald Ford, CVN-78, EN: USS Gerald Ford, CVN-78 (источник: us_aircraftcarrier_gerald_ford_ai_0)
+    числовой суффикс: us_aircraftcarrier_gerald_ford_ai_1 -> ключ: us_aircraftcarrier_gerald_ford_ai_1 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford_ai_1 -> RU: USS Gerald Ford, EN: USS Gerald Ford (источник: us_aircraftcarrier_gerald_ford_ai_1)
+    числовой суффикс: us_aircraftcarrier_gerald_ford_ai_2 -> ключ: us_aircraftcarrier_gerald_ford_ai_2 (приоритет: 10)
+    сохранено/обновлено: us_aircraftcarrier_gerald_ford_ai_2 -> RU: Авианосец, EN: Carrier (источник: us_aircraftcarrier_gerald_ford_ai_2)
+    _shop запись: cn_aircraftcarrier_fujian_shop -> ключ: cn_aircraftcarrier_fujian (приоритет: 1)
+    сохранено/обновлено: cn_aircraftcarrier_fujian -> RU: Fujian, EN: Fujian (источник: cn_aircraftcarrier_fujian_shop)
+    числовой суффикс: cn_aircraftcarrier_fujian_0 -> ключ: cn_aircraftcarrier_fujian_0 (приоритет: 10)
+    сохранено/обновлено: cn_aircraftcarrier_fujian_0 -> RU: Fujian,, EN: Fujian (источник: cn_aircraftcarrier_fujian_0)
+    числовой суффикс: cn_aircraftcarrier_fujian_1 -> ключ: cn_aircraftcarrier_fujian_1 (приоритет: 10)
+    сохранено/обновлено: cn_aircraftcarrier_fujian_1 -> RU: Fujian, EN: Fujian (источник: cn_aircraftcarrier_fujian_1)
+    числовой суффикс: cn_aircraftcarrier_fujian_2 -> ключ: cn_aircraftcarrier_fujian_2 (приоритет: 10)
+    сохранено/обновлено: cn_aircraftcarrier_fujian_2 -> RU: Авианосец, EN: Carrier (источник: cn_aircraftcarrier_fujian_2)
+    _shop запись: cn_aircraftcarrier_fujian_ai_shop -> ключ: cn_aircraftcarrier_fujian_ai (приоритет: 1)
+    сохранено/обновлено: cn_aircraftcarrier_fujian_ai -> RU: Fujian, EN: Fujian (источник: cn_aircraftcarrier_fujian_ai_shop)
+    числовой суффикс: cn_aircraftcarrier_fujian_ai_0 -> ключ: cn_aircraftcarrier_fujian_ai_0 (приоритет: 10)
+    сохранено/обновлено: cn_aircraftcarrier_fujian_ai_0 -> RU: Fujian,, EN: Fujian (источник: cn_aircraftcarrier_fujian_ai_0)
+    числовой суффикс: cn_aircraftcarrier_fujian_ai_1 -> ключ: cn_aircraftcarrier_fujian_ai_1 (приоритет: 10)
+    сохранено/обновлено: cn_aircraftcarrier_fujian_ai_1 -> RU: Fujian, EN: Fujian (источник: cn_aircraftcarrier_fujian_ai_1)
+    числовой суффикс: cn_aircraftcarrier_fujian_ai_2 -> ключ: cn_aircraftcarrier_fujian_ai_2 (приоритет: 10)
+    сохранено/обновлено: cn_aircraftcarrier_fujian_ai_2 -> RU: Авианосец, EN: Carrier (источник: cn_aircraftcarrier_fujian_ai_2)
+    _shop запись: cn_destroyer_type052d_shop -> ключ: cn_destroyer_type052d (приоритет: 1)
+    сохранено/обновлено: cn_destroyer_type052d -> RU: Type 052D, EN: Type 052D (источник: cn_destroyer_type052d_shop)
+    числовой суффикс: cn_destroyer_type052d_0 -> ключ: cn_destroyer_type052d_0 (приоритет: 10)
+    сохранено/обновлено: cn_destroyer_type052d_0 -> RU: Type 052D, EN: Type 052D (источник: cn_destroyer_type052d_0)
+    числовой суффикс: cn_destroyer_type052d_1 -> ключ: cn_destroyer_type052d_1 (приоритет: 10)
+    сохранено/обновлено: cn_destroyer_type052d_1 -> RU: Type 052D, EN: Type 052D (источник: cn_destroyer_type052d_1)
+    числовой суффикс: cn_destroyer_type052d_2 -> ключ: cn_destroyer_type052d_2 (приоритет: 10)
+    сохранено/обновлено: cn_destroyer_type052d_2 -> RU: Эсминец УРО, EN: Missile destroyer (источник: cn_destroyer_type052d_2)
+    _shop запись: cn_frigate_type054a_shop -> ключ: cn_frigate_type054a (приоритет: 1)
+    сохранено/обновлено: cn_frigate_type054a -> RU: Type 054A, EN: Type 054A (источник: cn_frigate_type054a_shop)
+    числовой суффикс: cn_frigate_type054a_0 -> ключ: cn_frigate_type054a_0 (приоритет: 10)
+    сохранено/обновлено: cn_frigate_type054a_0 -> RU: Type 054A, EN: Type 054A (источник: cn_frigate_type054a_0)
+    числовой суффикс: cn_frigate_type054a_1 -> ключ: cn_frigate_type054a_1 (приоритет: 10)
+    сохранено/обновлено: cn_frigate_type054a_1 -> RU: Type 054A, EN: Type 054A (источник: cn_frigate_type054a_1)
+    числовой суффикс: cn_frigate_type054a_2 -> ключ: cn_frigate_type054a_2 (приоритет: 10)
+    сохранено/обновлено: cn_frigate_type054a_2 -> RU: Фрегат УРО, EN: Missile frigate (источник: cn_frigate_type054a_2)
     _shop запись: us_cruiser_new_orleans_class_shop -> ключ: us_cruiser_new_orleans_class (приоритет: 1)
     сохранено/обновлено: us_cruiser_new_orleans_class -> RU: USS New Orleans, EN: USS New Orleans (источник: us_cruiser_new_orleans_class_shop)
     числовой суффикс: us_cruiser_new_orleans_class_0 -> ключ: us_cruiser_new_orleans_class_0 (приоритет: 10)
@@ -31591,6 +31855,94 @@
     сохранено/обновлено: germ_s_700_s_706_1 -> RU: S-706, EN: S-706 (источник: germ_s_700_s_706_1)
     числовой суффикс: germ_s_700_s_706_2 -> ключ: germ_s_700_s_706_2 (приоритет: 10)
     сохранено/обновлено: germ_s_700_s_706_2 -> RU: Торпедный катер, EN: Motor torpedo boat (источник: germ_s_700_s_706_2)
+    _shop запись: ussr_destroyer_vifor_class_lyogkiy_shop -> ключ: ussr_destroyer_vifor_class_lyogkiy (приоритет: 1)
+    сохранено/обновлено: ussr_destroyer_vifor_class_lyogkiy -> RU: Лёгкий, EN: Lyogkiy (источник: ussr_destroyer_vifor_class_lyogkiy_shop)
+    числовой суффикс: ussr_destroyer_vifor_class_lyogkiy_0 -> ключ: ussr_destroyer_vifor_class_lyogkiy_0 (приоритет: 10)
+    сохранено/обновлено: ussr_destroyer_vifor_class_lyogkiy_0 -> RU: Тип Vifor, Лёгкий, 1944, EN: Vifor-class, Lyogkiy, 1944 (источник: ussr_destroyer_vifor_class_lyogkiy_0)
+    числовой суффикс: ussr_destroyer_vifor_class_lyogkiy_1 -> ключ: ussr_destroyer_vifor_class_lyogkiy_1 (приоритет: 10)
+    сохранено/обновлено: ussr_destroyer_vifor_class_lyogkiy_1 -> RU: Лёгкий, EN: Lyogkiy (источник: ussr_destroyer_vifor_class_lyogkiy_1)
+    числовой суффикс: ussr_destroyer_vifor_class_lyogkiy_2 -> ключ: ussr_destroyer_vifor_class_lyogkiy_2 (приоритет: 10)
+    сохранено/обновлено: ussr_destroyer_vifor_class_lyogkiy_2 -> RU: Эсминец, EN: Destroyer (источник: ussr_destroyer_vifor_class_lyogkiy_2)
+    _shop запись: uk_battleship_duke_of_york_shop -> ключ: uk_battleship_duke_of_york (приоритет: 1)
+    сохранено/обновлено: uk_battleship_duke_of_york -> RU: HMS Duke of York, EN: HMS Duke of York (источник: uk_battleship_duke_of_york_shop)
+    числовой суффикс: uk_battleship_duke_of_york_0 -> ключ: uk_battleship_duke_of_york_0 (приоритет: 10)
+    сохранено/обновлено: uk_battleship_duke_of_york_0 -> RU: Тип King George V, HMS Duke of York (17), 1943, EN: King George V-class, HMS Duke of York (17), 1943 (источник: uk_battleship_duke_of_york_0)
+    числовой суффикс: uk_battleship_duke_of_york_1 -> ключ: uk_battleship_duke_of_york_1 (приоритет: 10)
+    сохранено/обновлено: uk_battleship_duke_of_york_1 -> RU: HMS Duke of York, EN: HMS Duke of York (источник: uk_battleship_duke_of_york_1)
+    числовой суффикс: uk_battleship_duke_of_york_2 -> ключ: uk_battleship_duke_of_york_2 (приоритет: 10)
+    сохранено/обновлено: uk_battleship_duke_of_york_2 -> RU: Линейный корабль, EN: Battleship (источник: uk_battleship_duke_of_york_2)
+    _shop запись: germ_battleship_pr_h39_shop -> ключ: germ_battleship_pr_h39 (приоритет: 1)
+    сохранено/обновлено: germ_battleship_pr_h39 -> RU: H-39, EN: H-39 (источник: germ_battleship_pr_h39_shop)
+    числовой суффикс: germ_battleship_pr_h39_0 -> ключ: germ_battleship_pr_h39_0 (приоритет: 10)
+    сохранено/обновлено: germ_battleship_pr_h39_0 -> RU: Тип H-39, H-39, проект, EN: H-39-class, H-39, project (источник: germ_battleship_pr_h39_0)
+    числовой суффикс: germ_battleship_pr_h39_1 -> ключ: germ_battleship_pr_h39_1 (приоритет: 10)
+    сохранено/обновлено: germ_battleship_pr_h39_1 -> RU: H-39, EN: H-39 (источник: germ_battleship_pr_h39_1)
+    числовой суффикс: germ_battleship_pr_h39_2 -> ключ: germ_battleship_pr_h39_2 (приоритет: 10)
+    сохранено/обновлено: germ_battleship_pr_h39_2 -> RU: Линейный корабль, EN: Battleship (источник: germ_battleship_pr_h39_2)
+    _shop запись: us_erie_class_shop -> ключ: us_erie_class (приоритет: 1)
+    сохранено/обновлено: us_erie_class -> RU: Erie, EN: Erie (источник: us_erie_class_shop)
+    числовой суффикс: us_erie_class_0 -> ключ: us_erie_class_0 (приоритет: 10)
+    сохранено/обновлено: us_erie_class_0 -> RU: Тип Erie, Erie (PG-50), 1942, EN: Erie-class, Erie (PG-50), 1942 (источник: us_erie_class_0)
+    числовой суффикс: us_erie_class_1 -> ключ: us_erie_class_1 (приоритет: 10)
+    сохранено/обновлено: us_erie_class_1 -> RU: Erie, EN: Erie (источник: us_erie_class_1)
+    числовой суффикс: us_erie_class_2 -> ключ: us_erie_class_2 (приоритет: 10)
+    сохранено/обновлено: us_erie_class_2 -> RU: Канлодка, EN: Gunboat (источник: us_erie_class_2)
+    _shop запись: ussr_battleship_imperator_nikolai_pervyi_shop -> ключ: ussr_battleship_imperator_nikolai_pervyi (приоритет: 1)
+    сохранено/обновлено: ussr_battleship_imperator_nikolai_pervyi -> RU: Николай Первый, EN: Nikolay Perviy (источник: ussr_battleship_imperator_nikolai_pervyi_shop)
+    числовой суффикс: ussr_battleship_imperator_nikolai_pervyi_0 -> ключ: ussr_battleship_imperator_nikolai_pervyi_0 (приоритет: 10)
+    сохранено/обновлено: ussr_battleship_imperator_nikolai_pervyi_0 -> RU: Тип Николай Первый, Николай Первый, проект, EN: Nikolay Perviy-class, Nikolay Perviy, project (источник: ussr_battleship_imperator_nikolai_pervyi_0)
+    числовой суффикс: ussr_battleship_imperator_nikolai_pervyi_1 -> ключ: ussr_battleship_imperator_nikolai_pervyi_1 (приоритет: 10)
+    сохранено/обновлено: ussr_battleship_imperator_nikolai_pervyi_1 -> RU: Николай Первый, EN: Nikolay Perviy (источник: ussr_battleship_imperator_nikolai_pervyi_1)
+    числовой суффикс: ussr_battleship_imperator_nikolai_pervyi_2 -> ключ: ussr_battleship_imperator_nikolai_pervyi_2 (приоритет: 10)
+    сохранено/обновлено: ussr_battleship_imperator_nikolai_pervyi_2 -> RU: Линейный корабль, EN: Battleship (источник: ussr_battleship_imperator_nikolai_pervyi_2)
+    _shop запись: it_destroyer_audace_shop -> ключ: it_destroyer_audace (приоритет: 1)
+    сохранено/обновлено: it_destroyer_audace -> RU: Audace, EN: Audace (источник: it_destroyer_audace_shop)
+    числовой суффикс: it_destroyer_audace_0 -> ключ: it_destroyer_audace_0 (приоритет: 10)
+    сохранено/обновлено: it_destroyer_audace_0 -> RU: Тип Audace, Audace D551, 1973, EN: Audace-class, Audace D551, 1973 (источник: it_destroyer_audace_0)
+    числовой суффикс: it_destroyer_audace_1 -> ключ: it_destroyer_audace_1 (приоритет: 10)
+    сохранено/обновлено: it_destroyer_audace_1 -> RU: Audace, EN: Audace (источник: it_destroyer_audace_1)
+    числовой суффикс: it_destroyer_audace_2 -> ключ: it_destroyer_audace_2 (приоритет: 10)
+    сохранено/обновлено: it_destroyer_audace_2 -> RU: Эсминец, EN: Destroyer (источник: it_destroyer_audace_2)
+    _shop запись: fr_vc1_shop -> ключ: fr_vc1 (приоритет: 1)
+    сохранено/обновлено: fr_vc1 -> RU: VC-1, EN: VC-1 (источник: fr_vc1_shop)
+    числовой суффикс: fr_vc1_0 -> ключ: fr_vc1_0 (приоритет: 10)
+    сохранено/обновлено: fr_vc1_0 -> RU: VC-1, EN: VC-1 (источник: fr_vc1_0)
+    числовой суффикс: fr_vc1_1 -> ключ: fr_vc1_1 (приоритет: 10)
+    сохранено/обновлено: fr_vc1_1 -> RU: VC-1, EN: VC-1 (источник: fr_vc1_1)
+    числовой суффикс: fr_vc1_2 -> ключ: fr_vc1_2 (приоритет: 10)
+    сохранено/обновлено: fr_vc1_2 -> RU: Артиллерийский катер, EN: MGB (источник: fr_vc1_2)
+    _shop запись: fr_destroyer_le_hardi_class_le_hardi_shop -> ключ: fr_destroyer_le_hardi_class_le_hardi (приоритет: 1)
+    сохранено/обновлено: fr_destroyer_le_hardi_class_le_hardi -> RU: Le Hardi, EN: Le Hardi (источник: fr_destroyer_le_hardi_class_le_hardi_shop)
+    числовой суффикс: fr_destroyer_le_hardi_class_le_hardi_0 -> ключ: fr_destroyer_le_hardi_class_le_hardi_0 (приоритет: 10)
+    сохранено/обновлено: fr_destroyer_le_hardi_class_le_hardi_0 -> RU: Тип Le Hardi, Le Hardi, 1941, EN: Le Hardi-class, Le Hardi, 1941 (источник: fr_destroyer_le_hardi_class_le_hardi_0)
+    числовой суффикс: fr_destroyer_le_hardi_class_le_hardi_1 -> ключ: fr_destroyer_le_hardi_class_le_hardi_1 (приоритет: 10)
+    сохранено/обновлено: fr_destroyer_le_hardi_class_le_hardi_1 -> RU: Le Hardi, EN: Le Hardi (источник: fr_destroyer_le_hardi_class_le_hardi_1)
+    числовой суффикс: fr_destroyer_le_hardi_class_le_hardi_2 -> ключ: fr_destroyer_le_hardi_class_le_hardi_2 (приоритет: 10)
+    сохранено/обновлено: fr_destroyer_le_hardi_class_le_hardi_2 -> RU: Эсминец, EN: Destroyer (источник: fr_destroyer_le_hardi_class_le_hardi_2)
+    _shop запись: fr_l990_monitor_shop -> ключ: fr_l990_monitor (приоритет: 1)
+    сохранено/обновлено: fr_l990_monitor -> RU: L-990, EN: L-990 (источник: fr_l990_monitor_shop)
+    числовой суффикс: fr_l990_monitor_0 -> ключ: fr_l990_monitor_0 (приоритет: 10)
+    сохранено/обновлено: fr_l990_monitor_0 -> RU: Тип Chaland, L-990, EN: Chaland-class, L-990 (источник: fr_l990_monitor_0)
+    числовой суффикс: fr_l990_monitor_1 -> ключ: fr_l990_monitor_1 (приоритет: 10)
+    сохранено/обновлено: fr_l990_monitor_1 -> RU: L-990, EN: L-990 (источник: fr_l990_monitor_1)
+    числовой суффикс: fr_l990_monitor_2 -> ключ: fr_l990_monitor_2 (приоритет: 10)
+    сохранено/обновлено: fr_l990_monitor_2 -> RU: Артиллерийский катер, EN: Motor gun boat (источник: fr_l990_monitor_2)
+    _shop запись: jp_cruiser_takao_shop -> ключ: jp_cruiser_takao (приоритет: 1)
+    сохранено/обновлено: jp_cruiser_takao -> RU: IJN Takao, EN: IJN Takao (источник: jp_cruiser_takao_shop)
+    числовой суффикс: jp_cruiser_takao_0 -> ключ: jp_cruiser_takao_0 (приоритет: 10)
+    сохранено/обновлено: jp_cruiser_takao_0 -> RU: Тип Takao, IJN Takao, 1944, EN: Takao-class, IJN Takao, 1944 (источник: jp_cruiser_takao_0)
+    числовой суффикс: jp_cruiser_takao_1 -> ключ: jp_cruiser_takao_1 (приоритет: 10)
+    сохранено/обновлено: jp_cruiser_takao_1 -> RU: IJN Takao, EN: IJN Takao (источник: jp_cruiser_takao_1)
+    числовой суффикс: jp_cruiser_takao_2 -> ключ: jp_cruiser_takao_2 (приоритет: 10)
+    сохранено/обновлено: jp_cruiser_takao_2 -> RU: Лёгкий крейсер, EN: Light cruiser (источник: jp_cruiser_takao_2)
+    _shop запись: uk_cruiser_danae_class_shop -> ключ: uk_cruiser_danae_class (приоритет: 1)
+    сохранено/обновлено: uk_cruiser_danae_class -> RU: HMS Danae, EN: HMS Danae (источник: uk_cruiser_danae_class_shop)
+    числовой суффикс: uk_cruiser_danae_class_0 -> ключ: uk_cruiser_danae_class_0 (приоритет: 10)
+    сохранено/обновлено: uk_cruiser_danae_class_0 -> RU: Тип Danae, HMS Danae (D44), 1944, EN: Danae-class, HMS Danae (D44), 1944 (источник: uk_cruiser_danae_class_0)
+    числовой суффикс: uk_cruiser_danae_class_1 -> ключ: uk_cruiser_danae_class_1 (приоритет: 10)
+    сохранено/обновлено: uk_cruiser_danae_class_1 -> RU: Danae, EN: Danae (источник: uk_cruiser_danae_class_1)
+    числовой суффикс: uk_cruiser_danae_class_2 -> ключ: uk_cruiser_danae_class_2 (приоритет: 10)
+    сохранено/обновлено: uk_cruiser_danae_class_2 -> RU: Лёгкий крейсер, EN: Light cruiser (источник: uk_cruiser_danae_class_2)
     _shop запись: cn_cm_34_shop -> ключ: cn_cm_34 (приоритет: 1)
     сохранено/обновлено: cn_cm_34 -> RU: CM34, EN: CM34 (источник: cn_cm_34_shop)
     числовой суффикс: cn_cm_34_0 -> ключ: cn_cm_34_0 (приоритет: 10)
@@ -31697,6 +32049,12 @@
     сохранено/обновлено: us_ai_mlrs_m270_1 -> RU: РСЗО M270, EN: M270 MLRS (источник: us_ai_mlrs_m270_1)
     числовой суффикс: us_ai_mlrs_m270_2 -> ключ: us_ai_mlrs_m270_2 (приоритет: 10)
     сохранено/обновлено: us_ai_mlrs_m270_2 -> RU: РСЗО, EN: MLRS (источник: us_ai_mlrs_m270_2)
+    числовой суффикс: us_ai_mlrs_atacms_m270_0 -> ключ: us_ai_mlrs_atacms_m270_0 (приоритет: 10)
+    сохранено/обновлено: us_ai_mlrs_atacms_m270_0 -> RU: ОТРК MGM-140 ATACMS, EN: TBM MGM-140 ATACMS (источник: us_ai_mlrs_atacms_m270_0)
+    числовой суффикс: us_ai_mlrs_atacms_m270_1 -> ключ: us_ai_mlrs_atacms_m270_1 (приоритет: 10)
+    сохранено/обновлено: us_ai_mlrs_atacms_m270_1 -> RU: ОТРК ATACMS, EN: TBM ATACMS (источник: us_ai_mlrs_atacms_m270_1)
+    числовой суффикс: us_ai_mlrs_atacms_m270_2 -> ключ: us_ai_mlrs_atacms_m270_2 (приоритет: 10)
+    сохранено/обновлено: us_ai_mlrs_atacms_m270_2 -> RU: ОТРК, EN: TBM (источник: us_ai_mlrs_atacms_m270_2)
     числовой суффикс: ussr_ai_mlrs_9a52_2_smerch_0 -> ключ: ussr_ai_mlrs_9a52_2_smerch_0 (приоритет: 10)
     сохранено/обновлено: ussr_ai_mlrs_9a52_2_smerch_0 -> RU: РСЗО 9А52-2 "Смерч", EN: 9A52-2 "Smerch" MLRS (источник: ussr_ai_mlrs_9a52_2_smerch_0)
     числовой суффикс: ussr_ai_mlrs_9a52_2_smerch_1 -> ключ: ussr_ai_mlrs_9a52_2_smerch_1 (приоритет: 10)
@@ -31709,6 +32067,18 @@
     сохранено/обновлено: ussr_ai_tbm_9k79_tochka_1 -> RU: ОТРК "Точка", EN: "Tochka" TBM (источник: ussr_ai_tbm_9k79_tochka_1)
     числовой суффикс: ussr_ai_tbm_9k79_tochka_2 -> ключ: ussr_ai_tbm_9k79_tochka_2 (приоритет: 10)
     сохранено/обновлено: ussr_ai_tbm_9k79_tochka_2 -> RU: ОТРК, EN: TBM (источник: ussr_ai_tbm_9k79_tochka_2)
+    числовой суффикс: ussr_ai_tbm_9k720_m_iskander_0 -> ключ: ussr_ai_tbm_9k720_m_iskander_0 (приоритет: 10)
+    сохранено/обновлено: ussr_ai_tbm_9k720_m_iskander_0 -> RU: ОТРК 9К720 "Искандер-М", EN: 9K720 "Iskander-M" tactical ballistic missile (источник: ussr_ai_tbm_9k720_m_iskander_0)
+    числовой суффикс: ussr_ai_tbm_9k720_m_iskander_1 -> ключ: ussr_ai_tbm_9k720_m_iskander_1 (приоритет: 10)
+    сохранено/обновлено: ussr_ai_tbm_9k720_m_iskander_1 -> RU: ОТРК "Искандер-М", EN: "Iskander-M" TBM (источник: ussr_ai_tbm_9k720_m_iskander_1)
+    числовой суффикс: ussr_ai_tbm_9k720_m_iskander_2 -> ключ: ussr_ai_tbm_9k720_m_iskander_2 (приоритет: 10)
+    сохранено/обновлено: ussr_ai_tbm_9k720_m_iskander_2 -> RU: ОТРК, EN: TBM (источник: ussr_ai_tbm_9k720_m_iskander_2)
+    числовой суффикс: ussr_ai_tbm_9k720_k_iskander_0 -> ключ: ussr_ai_tbm_9k720_k_iskander_0 (приоритет: 10)
+    сохранено/обновлено: ussr_ai_tbm_9k720_k_iskander_0 -> RU: КРНБ 9К720 "Искандер-К", EN: 9K720 "Iskander-K" ground-launched cruise missile (источник: ussr_ai_tbm_9k720_k_iskander_0)
+    числовой суффикс: ussr_ai_tbm_9k720_k_iskander_1 -> ключ: ussr_ai_tbm_9k720_k_iskander_1 (приоритет: 10)
+    сохранено/обновлено: ussr_ai_tbm_9k720_k_iskander_1 -> RU: КРНБ "Искандер-К", EN: "Iskander-K" GLCM (источник: ussr_ai_tbm_9k720_k_iskander_1)
+    числовой суффикс: ussr_ai_tbm_9k720_k_iskander_2 -> ключ: ussr_ai_tbm_9k720_k_iskander_2 (приоритет: 10)
+    сохранено/обновлено: ussr_ai_tbm_9k720_k_iskander_2 -> RU: КРНБ, EN: GLCM (источник: ussr_ai_tbm_9k720_k_iskander_2)
     числовой суффикс: us_ai_tbm_m752_lance_0 -> ключ: us_ai_tbm_m752_lance_0 (приоритет: 10)
     сохранено/обновлено: us_ai_tbm_m752_lance_0 -> RU: ОТРК MGM-52 "Lance", EN: MGM-52 "Lance" tactical ballistic missile (источник: us_ai_tbm_m752_lance_0)
     числовой суффикс: us_ai_tbm_m752_lance_1 -> ключ: us_ai_tbm_m752_lance_1 (приоритет: 10)
@@ -31809,10 +32179,10 @@
     сохранено/обновлено: uk_arjun_mk1_1 -> RU: Arjun Mk 1, EN: Arjun Mk 1 (источник: uk_arjun_mk1_1)
     числовой суффикс: uk_arjun_mk1_2 -> ключ: uk_arjun_mk1_2 (приоритет: 10)
     сохранено/обновлено: uk_arjun_mk1_2 -> RU: ОБТ, EN: MBT (источник: uk_arjun_mk1_2)
-Обработано строк: 15942
-Найдено записей для локализации: 15896
-Всего ключей в словаре: 15896
-Загружено 3650 ID из shop.csv
+Обработано строк: 16127
+Найдено записей для локализации: 16080
+Всего ключей в словаре: 16080
+Загружено 3685 ID из shop.csv
 Создание маппинга локализации...
     Поиск локализации для: us_m2a4
     Прямой поиск: us_m2a4 -> RU: M2A4, EN: M2A4
@@ -32219,6 +32589,9 @@
     Поиск локализации для: us_xm1_gm
     Прямой поиск: us_xm1_gm -> RU: XM1 (GM), EN: XM1 (GM)
   Найдено: us_xm1_gm -> RU: XM1 (GM), EN: XM1 (GM)
+    Поиск локализации для: us_stingray_2
+    Прямой поиск: us_stingray_2 -> RU: Stingray II, EN: Stingray II
+  Найдено: us_stingray_2 -> RU: Stingray II, EN: Stingray II
     Поиск локализации для: us_m1128_wolfpack
     Прямой поиск: us_m1128_wolfpack -> RU: M1128 Wolfpack, EN: M1128 Wolfpack
   Найдено: us_m1128_wolfpack -> RU: M1128 Wolfpack, EN: M1128 Wolfpack
@@ -32873,6 +33246,9 @@
     Поиск локализации для: f_15e
     Прямой поиск: f_15e -> RU: F-15E, EN: F-15E
   Найдено: f_15e -> RU: F-15E, EN: F-15E
+    Поиск локализации для: f_15ex
+    Прямой поиск: f_15ex -> RU: F-15EX, EN: F-15EX
+  Найдено: f_15ex -> RU: F-15EX, EN: F-15EX
     Поиск локализации для: f3f-2_galer
     Прямой поиск: f3f-2_galer -> RU: F3F-2 Гэлера, EN: Galer's F3F-2
   Найдено: f3f-2_galer -> RU: F3F-2 Гэлера, EN: Galer's F3F-2
@@ -33086,6 +33462,9 @@
     Поиск локализации для: f_14a_iriaf
     Прямой поиск: f_14a_iriaf -> RU: ▄F-14A IRIAF, EN: ▄F-14A IRIAF
   Найдено: f_14a_iriaf -> RU: ▄F-14A IRIAF, EN: ▄F-14A IRIAF
+    Поиск локализации для: fa_18d_late
+    Прямой поиск: fa_18d_late -> RU: F/A-18D, EN: F/A-18D
+  Найдено: fa_18d_late -> RU: F/A-18D, EN: F/A-18D
     Поиск локализации для: us_destroyer_clemson_litchfield
     Прямой поиск: us_destroyer_clemson_litchfield -> RU: USS Litchfield, EN: USS Litchfield
   Найдено: us_destroyer_clemson_litchfield -> RU: USS Litchfield, EN: USS Litchfield
@@ -33176,6 +33555,9 @@
     Поиск локализации для: us_battleship_iowa_class_iowa
     Прямой поиск: us_battleship_iowa_class_iowa -> RU: USS Iowa, EN: USS Iowa
   Найдено: us_battleship_iowa_class_iowa -> RU: USS Iowa, EN: USS Iowa
+    Поиск локализации для: us_erie_class
+    Прямой поиск: us_erie_class -> RU: Erie, EN: Erie
+  Найдено: us_erie_class -> RU: Erie, EN: Erie
     Поиск локализации для: us_destroyer_sumner
     Прямой поиск: us_destroyer_sumner -> RU: USS Sumner, EN: USS Sumner
   Найдено: us_destroyer_sumner -> RU: USS Sumner, EN: USS Sumner
@@ -33527,6 +33909,9 @@
     Поиск локализации для: germ_leopard_2k
     Прямой поиск: germ_leopard_2k -> RU: Leopard 2K, EN: Leopard 2K
   Найдено: germ_leopard_2k -> RU: Leopard 2K, EN: Leopard 2K
+    Поиск локализации для: germ_leopard_2a5_pso
+    Прямой поиск: germ_leopard_2a5_pso -> RU: Leopard 2 PSO, EN: Leopard 2 PSO
+  Найдено: germ_leopard_2a5_pso -> RU: Leopard 2 PSO, EN: Leopard 2 PSO
     Поиск локализации для: germ_embt
     Прямой поиск: germ_embt -> RU: ◄EMBT, EN: ◄EMBT
   Найдено: germ_embt -> RU: ◄EMBT, EN: ◄EMBT
@@ -33614,12 +33999,12 @@
     Поиск локализации для: germ_leopard_2a6
     Прямой поиск: germ_leopard_2a6 -> RU: Leopard 2A6, EN: Leopard 2A6
   Найдено: germ_leopard_2a6 -> RU: Leopard 2A6, EN: Leopard 2A6
-    Поиск локализации для: germ_leopard_2a5_pso
-    Прямой поиск: germ_leopard_2a5_pso -> RU: Leopard 2 PSO, EN: Leopard 2 PSO
-  Найдено: germ_leopard_2a5_pso -> RU: Leopard 2 PSO, EN: Leopard 2 PSO
     Поиск локализации для: germ_leopard_2a7v
     Прямой поиск: germ_leopard_2a7v -> RU: Leopard 2A7V, EN: Leopard 2A7V
   Найдено: germ_leopard_2a7v -> RU: Leopard 2A7V, EN: Leopard 2A7V
+    Поиск локализации для: germ_leopard_2a8
+    Прямой поиск: germ_leopard_2a8 -> RU: Leopard 2A8, EN: Leopard 2A8
+  Найдено: germ_leopard_2a8 -> RU: Leopard 2A8, EN: Leopard 2A8
     Поиск локализации для: germ_flakpanzer_1_group
     Прямой поиск: germ_flakpanzer_1_group -> RU: FlakPz I/38(t), EN: FlakPz I/38(t)
   Найдено: germ_flakpanzer_1_group -> RU: FlakPz I/38(t), EN: FlakPz I/38(t)
@@ -33738,8 +34123,8 @@
     Прямой поиск: germ_m44_55_group -> RU: M44/55, EN: M44/55
   Найдено: germ_m44_55_group -> RU: M44/55, EN: M44/55
     Поиск локализации для: germ_m44
-    Прямой поиск: germ_m44 -> RU: M44, EN: M44
-  Найдено: germ_m44 -> RU: M44, EN: M44
+    Прямой поиск: germ_m44 -> RU: ◄M44, EN: ◄M44
+  Найдено: germ_m44 -> RU: ◄M44, EN: ◄M44
     Поиск локализации для: germ_m55
     Прямой поиск: germ_m55 -> RU: ◄M55, EN: ◄M55
   Найдено: germ_m55 -> RU: ◄M55, EN: ◄M55
@@ -34775,6 +35160,9 @@
     Поиск локализации для: germ_battleship_bismarck
     Прямой поиск: germ_battleship_bismarck -> RU: Bismarck, EN: Bismarck
   Найдено: germ_battleship_bismarck -> RU: Bismarck, EN: Bismarck
+    Поиск локализации для: germ_battleship_pr_h39
+    Прямой поиск: germ_battleship_pr_h39 -> RU: H-39, EN: H-39
+  Найдено: germ_battleship_pr_h39 -> RU: H-39, EN: H-39
     Поиск локализации для: germ_kanonenboot_k4_lorelei
     Прямой поиск: germ_kanonenboot_k4_lorelei -> RU: Lorelei, EN: Lorelei
   Найдено: germ_kanonenboot_k4_lorelei -> RU: Lorelei, EN: Lorelei
@@ -34847,6 +35235,9 @@
     Поиск локализации для: germ_battleship_baden
     Прямой поиск: germ_battleship_baden -> RU: SMS Baden, EN: SMS Baden
   Найдено: germ_battleship_baden -> RU: SMS Baden, EN: SMS Baden
+    Поиск локализации для: germ_sub_type_7
+    Прямой поиск: germ_sub_type_7 -> RU: Тип VII, EN: Type VII
+  Найдено: germ_sub_type_7 -> RU: Тип VII, EN: Type VII
     Поиск локализации для: germ_destroyer_class1939_t31
     Прямой поиск: germ_destroyer_class1939_t31 -> RU: T31, EN: T31
   Найдено: germ_destroyer_class1939_t31 -> RU: T31, EN: T31
@@ -35318,6 +35709,9 @@
     Поиск локализации для: ussr_9p157
     Прямой поиск: ussr_9p157 -> RU: Хризантема-С, EN: Khrizantema-S
   Найдено: ussr_9p157 -> RU: Хризантема-С, EN: Khrizantema-S
+    Поиск локализации для: ussr_btr_90_2004
+    Прямой поиск: ussr_btr_90_2004 -> RU: БТР-90, EN: BTR-90
+  Найдено: ussr_btr_90_2004 -> RU: БТР-90, EN: BTR-90
     Поиск локализации для: ussr_bmpt
     Прямой поиск: ussr_bmpt -> RU: БМПТ, EN: BMPT
   Найдено: ussr_bmpt -> RU: БМПТ, EN: BMPT
@@ -35939,6 +36333,9 @@
     Поиск локализации для: su-7bkl
     Прямой поиск: su-7bkl -> RU: Су-7БКЛ, EN: Su-7BKL
   Найдено: su-7bkl -> RU: Су-7БКЛ, EN: Su-7BKL
+    Поиск локализации для: su_15tm
+    Прямой поиск: su_15tm -> RU: Су-15ТМ, EN: Su-15TM
+  Найдено: su_15tm -> RU: Су-15ТМ, EN: Su-15TM
     Поиск локализации для: su_17m2
     Прямой поиск: su_17m2 -> RU: Су-17М2, EN: Su-17M2
   Найдено: su_17m2 -> RU: Су-17М2, EN: Su-17M2
@@ -36339,8 +36736,8 @@
     Прямой поиск: itp_m1 -> RU: ИТП (М-1), EN: ITP (M-1)
   Найдено: itp_m1 -> RU: ИТП (М-1), EN: ITP (M-1)
     Поиск локализации для: tu-2_early
-    Прямой поиск: tu-2_early -> RU: Ту-2 (5), EN: Tu-2 (5)
-  Найдено: tu-2_early -> RU: Ту-2 (5), EN: Tu-2 (5)
+    Прямой поиск: tu-2_early -> RU: Ту-2 (6), EN: Tu-2 (6)
+  Найдено: tu-2_early -> RU: Ту-2 (6), EN: Tu-2 (6)
     Поиск локализации для: p-63c-5_ussr
     Прямой поиск: p-63c-5_ussr -> RU: ▂P-63C-5, EN: ▂P-63C-5
   Найдено: p-63c-5_ussr -> RU: ▂P-63C-5, EN: ▂P-63C-5
@@ -36464,6 +36861,9 @@
     Поиск локализации для: ussr_battleship_imperatritsa_mariya
     Прямой поиск: ussr_battleship_imperatritsa_mariya -> RU: Императрица Мария, EN: Imperatritsa Mariya
   Найдено: ussr_battleship_imperatritsa_mariya -> RU: Императрица Мария, EN: Imperatritsa Mariya
+    Поиск локализации для: ussr_battleship_imperator_nikolai_pervyi
+    Прямой поиск: ussr_battleship_imperator_nikolai_pervyi -> RU: Николай Первый, EN: Nikolay Perviy
+  Найдено: ussr_battleship_imperator_nikolai_pervyi -> RU: Николай Первый, EN: Nikolay Perviy
     Поиск локализации для: ussr_battlecruiser_izmail
     Прямой поиск: ussr_battlecruiser_izmail -> RU: Измаил, EN: Izmail
   Найдено: ussr_battlecruiser_izmail -> RU: Измаил, EN: Izmail
@@ -36476,6 +36876,9 @@
     Поиск локализации для: ussr_destroyer_kerch
     Прямой поиск: ussr_destroyer_kerch -> RU: Керчь, EN: Kerch
   Найдено: ussr_destroyer_kerch -> RU: Керчь, EN: Kerch
+    Поиск локализации для: ussr_destroyer_vifor_class_lyogkiy
+    Прямой поиск: ussr_destroyer_vifor_class_lyogkiy -> RU: Лёгкий, EN: Lyogkiy
+  Найдено: ussr_destroyer_vifor_class_lyogkiy -> RU: Лёгкий, EN: Lyogkiy
     Поиск локализации для: ussr_destroyer_7_ryany
     Прямой поиск: ussr_destroyer_7_ryany -> RU: Рьяный, EN: Ryany
   Найдено: ussr_destroyer_7_ryany -> RU: Рьяный, EN: Ryany
@@ -37100,6 +37503,9 @@
     Поиск локализации для: uk_rooikat_105_td
     Прямой поиск: uk_rooikat_105_td -> RU: Rooikat 105, EN: Rooikat 105
   Найдено: uk_rooikat_105_td -> RU: Rooikat 105, EN: Rooikat 105
+    Поиск локализации для: uk_olifant_optimering
+    Прямой поиск: uk_olifant_optimering -> RU: Optimering, EN: Optimering
+  Найдено: uk_olifant_optimering -> RU: Optimering, EN: Optimering
     Поиск локализации для: uk_challenger_1_mk_3_gulf
     Прямой поиск: uk_challenger_1_mk_3_gulf -> RU: Challenger DS, EN: Challenger DS
   Найдено: uk_challenger_1_mk_3_gulf -> RU: Challenger DS, EN: Challenger DS
@@ -37442,6 +37848,9 @@
     Поиск локализации для: beaufort_mkviii
     Прямой поиск: beaufort_mkviii -> RU: Beaufort Mk.VIII, EN: Beaufort Mk VIII
   Найдено: beaufort_mkviii -> RU: Beaufort Mk.VIII, EN: Beaufort Mk VIII
+    Поиск локализации для: fulmar_mk2
+    Прямой поиск: fulmar_mk2 -> RU: Fulmar Mk.II, EN: Fulmar Mk.II
+  Найдено: fulmar_mk2 -> RU: Fulmar Mk.II, EN: Fulmar Mk.II
     Поиск локализации для: hurricane_mk4
     Прямой поиск: hurricane_mk4 -> RU: Hurricane Mk.IV, EN: Hurricane Mk IV
   Найдено: hurricane_mk4 -> RU: Hurricane Mk.IV, EN: Hurricane Mk IV
@@ -37880,6 +38289,9 @@
     Поиск локализации для: uk_minelayer_abdiel_class_abdiel
     Прямой поиск: uk_minelayer_abdiel_class_abdiel -> RU: HMS Abdiel, EN: HMS Abdiel
   Найдено: uk_minelayer_abdiel_class_abdiel -> RU: HMS Abdiel, EN: HMS Abdiel
+    Поиск локализации для: uk_cruiser_danae_class
+    Прямой поиск: uk_cruiser_danae_class -> RU: HMS Danae, EN: HMS Danae
+  Найдено: uk_cruiser_danae_class -> RU: HMS Danae, EN: HMS Danae
     Поиск локализации для: uk_cruiser_enterprise_d52
     Прямой поиск: uk_cruiser_enterprise_d52 -> RU: HMS Enterprise, EN: HMS Enterprise
   Найдено: uk_cruiser_enterprise_d52 -> RU: HMS Enterprise, EN: HMS Enterprise
@@ -37961,6 +38373,9 @@
     Поиск локализации для: uk_cruiser_tiger
     Прямой поиск: uk_cruiser_tiger -> RU: HMS Tiger, EN: HMS Tiger
   Найдено: uk_cruiser_tiger -> RU: HMS Tiger, EN: HMS Tiger
+    Поиск локализации для: uk_battleship_duke_of_york
+    Прямой поиск: uk_battleship_duke_of_york -> RU: HMS Duke of York, EN: HMS Duke of York
+  Найдено: uk_battleship_duke_of_york -> RU: HMS Duke of York, EN: HMS Duke of York
     Поиск локализации для: uk_mtb_1series
     Прямой поиск: uk_mtb_1series -> RU: MTB-1(1), EN: MTB-1(1)
   Найдено: uk_mtb_1series -> RU: MTB-1(1), EN: MTB-1(1)
@@ -38117,6 +38532,9 @@
     Поиск локализации для: jp_type_89
     Прямой поиск: jp_type_89 -> RU: Type 89, EN: Type 89
   Найдено: jp_type_89 -> RU: Type 89, EN: Type 89
+    Поиск локализации для: jp_bmp_3f
+    Прямой поиск: jp_bmp_3f -> RU: BMP-3F, EN: BMP-3F
+  Найдено: jp_bmp_3f -> RU: BMP-3F, EN: BMP-3F
     Поиск локализации для: jp_icv_ifv_prototype
     Прямой поиск: jp_icv_ifv_prototype -> RU: Type 24 ICV (P), EN: Type 24 ICV (P)
   Найдено: jp_icv_ifv_prototype -> RU: Type 24 ICV (P), EN: Type 24 ICV (P)
@@ -38687,6 +39105,9 @@
     Поиск локализации для: d4y3
     Прямой поиск: d4y3 -> RU: D4Y3 Ko, EN: D4Y3 Ko
   Найдено: d4y3 -> RU: D4Y3 Ko, EN: D4Y3 Ko
+    Поиск локализации для: firefly_mk1_thailand
+    Прямой поиск: firefly_mk1_thailand -> RU: ▄Firefly F.Mk.I, EN: ▄Firefly F Mk I
+  Найдено: firefly_mk1_thailand -> RU: ▄Firefly F.Mk.I, EN: ▄Firefly F Mk I
     Поиск локализации для: p1y1_mod11
     Прямой поиск: p1y1_mod11 -> RU: P1Y1 mod. 11, EN: P1Y1 mod. 11
   Найдено: p1y1_mod11 -> RU: P1Y1 mod. 11, EN: P1Y1 mod. 11
@@ -38696,6 +39117,9 @@
     Поиск локализации для: ki_93_1_ko
     Прямой поиск: ki_93_1_ko -> RU: Ki-93-I Ko, EN: Ki-93-I Ko
   Найдено: ki_93_1_ko -> RU: Ki-93-I Ko, EN: Ki-93-I Ko
+    Поиск локализации для: b_33_indonesia
+    Прямой поиск: b_33_indonesia -> RU: ◥B-33, EN: ◥B-33
+  Найдено: b_33_indonesia -> RU: ◥B-33, EN: ◥B-33
     Поиск локализации для: ki_32
     Прямой поиск: ki_32 -> RU: Ki-32, EN: Ki-32
   Найдено: ki_32 -> RU: Ki-32, EN: Ki-32
@@ -38918,6 +39342,9 @@
     Поиск локализации для: jp_cruiser_haguro
     Прямой поиск: jp_cruiser_haguro -> RU: IJN Haguro, EN: IJN Haguro
   Найдено: jp_cruiser_haguro -> RU: IJN Haguro, EN: IJN Haguro
+    Поиск локализации для: jp_cruiser_takao
+    Прямой поиск: jp_cruiser_takao -> RU: IJN Takao, EN: IJN Takao
+  Найдено: jp_cruiser_takao -> RU: IJN Takao, EN: IJN Takao
     Поиск локализации для: jp_cruiser_tone
     Прямой поиск: jp_cruiser_tone -> RU: IJN Tone, EN: IJN Tone
   Найдено: jp_cruiser_tone -> RU: IJN Tone, EN: IJN Tone
@@ -39407,9 +39834,15 @@
     Поиск локализации для: cn_hj_9
     Прямой поиск: cn_hj_9 -> RU: AFT09, EN: AFT09
   Найдено: cn_hj_9 -> RU: AFT09, EN: AFT09
+    Поиск локализации для: cn_cm_zbd_group
+    Fallback: cn_cm_zbd_group -> RU: cn_cm_zbd_group, EN: cn_cm_zbd_group
+  Не найдено: cn_cm_zbd_group -> RU: cn_cm_zbd_group (fallback), EN: cn_cm_zbd_group (fallback)
     Поиск локализации для: cn_cm_34
     Прямой поиск: cn_cm_34 -> RU: CM34, EN: CM34
   Найдено: cn_cm_34 -> RU: CM34, EN: CM34
+    Поиск локализации для: cn_zbd_04
+    Прямой поиск: cn_zbd_04 -> RU: ZBD04, EN: ZBD04
+  Найдено: cn_zbd_04 -> RU: ZBD04, EN: ZBD04
     Поиск локализации для: cn_ztl_11
     Прямой поиск: cn_ztl_11 -> RU: ZLT11, EN: ZLT11
   Найдено: cn_ztl_11 -> RU: ZLT11, EN: ZLT11
@@ -39839,6 +40272,9 @@
     Поиск локализации для: f_100f_china
     Прямой поиск: f_100f_china -> RU: ␗F-100F, EN: ␗F-100F
   Найдено: f_100f_china -> RU: ␗F-100F, EN: ␗F-100F
+    Поиск локализации для: q_5d
+    Прямой поиск: q_5d -> RU: Q-5D, EN: Q-5D
+  Найдено: q_5d -> RU: Q-5D, EN: Q-5D
     Поиск локализации для: su_30mkk
     Прямой поиск: su_30mkk -> RU: ␗Su-30MKK, EN: ␗Su-30MKK
   Найдено: su_30mkk -> RU: ␗Su-30MKK, EN: ␗Su-30MKK
@@ -39977,6 +40413,9 @@
     Поиск локализации для: it_fiat_cm52
     Прямой поиск: it_fiat_cm52 -> RU: CM52, EN: CM52
   Найдено: it_fiat_cm52 -> RU: CM52, EN: CM52
+    Поиск локализации для: it_lancia_flak38
+    Прямой поиск: it_lancia_flak38 -> RU: Lancia 3Ro (Flak.), EN: Lancia 3Ro (Flak.)
+  Найдено: it_lancia_flak38 -> RU: Lancia 3Ro (Flak.), EN: Lancia 3Ro (Flak.)
     Поиск локализации для: it_m15_42_contraereo
     Прямой поиск: it_m15_42_contraereo -> RU: M42 Contraereo, EN: M42 Contraereo
   Найдено: it_m15_42_contraereo -> RU: M42 Contraereo, EN: M42 Contraereo
@@ -40097,6 +40536,9 @@
     Поиск локализации для: it_39m_csaba
     Прямой поиск: it_39m_csaba -> RU: Csaba, EN: Csaba
   Найдено: it_39m_csaba -> RU: Csaba, EN: Csaba
+    Поиск локализации для: it_v_4_straussler
+    Прямой поиск: it_v_4_straussler -> RU: V-4/40, EN: V-4/40
+  Найдено: it_v_4_straussler -> RU: V-4/40, EN: V-4/40
     Поиск локализации для: it_40m_turan_1
     Прямой поиск: it_40m_turan_1 -> RU: Turan I, EN: Turan I
   Найдено: it_40m_turan_1 -> RU: Turan I, EN: Turan I
@@ -40217,6 +40659,9 @@
     Поиск локализации для: a_129_d
     Прямой поиск: a_129_d -> RU: AH-129D, EN: AH-129D
   Найдено: a_129_d -> RU: AH-129D, EN: AH-129D
+    Поиск локализации для: aw_249_pre_serie
+    Прямой поиск: aw_249_pre_serie -> RU: AW249 Fenice, EN: AW249 Fenice
+  Найдено: aw_249_pre_serie -> RU: AW249 Fenice, EN: AW249 Fenice
     Поиск локализации для: t_129_atak
     Прямой поиск: t_129_atak -> RU: T129, EN: T129
   Найдено: t_129_atak -> RU: T129, EN: T129
@@ -40703,6 +41148,9 @@
     Поиск локализации для: it_battleship_littorio_class_littorio
     Прямой поиск: it_battleship_littorio_class_littorio -> RU: RN Italia, EN: RN Italia
   Найдено: it_battleship_littorio_class_littorio -> RU: RN Italia, EN: RN Italia
+    Поиск локализации для: it_destroyer_audace
+    Прямой поиск: it_destroyer_audace -> RU: Audace, EN: Audace
+  Найдено: it_destroyer_audace -> RU: Audace, EN: Audace
     Поиск локализации для: it_destroyer_aquilone
     Прямой поиск: it_destroyer_aquilone -> RU: RN Aquilone, EN: RN Aquilone
   Найдено: it_destroyer_aquilone -> RU: RN Aquilone, EN: RN Aquilone
@@ -41030,9 +41478,15 @@
     Поиск локализации для: fr_amx_10p
     Прямой поиск: fr_amx_10p -> RU: AMX-10P, EN: AMX-10P
   Найдено: fr_amx_10p -> RU: AMX-10P, EN: AMX-10P
+    Поиск локализации для: fr_dca_prtl_group
+    Fallback: fr_dca_prtl_group -> RU: fr_dca_prtl_group, EN: fr_dca_prtl_group
+  Не найдено: fr_dca_prtl_group -> RU: fr_dca_prtl_group (fallback), EN: fr_dca_prtl_group (fallback)
     Поиск локализации для: fr_amx_30_dca
     Прямой поиск: fr_amx_30_dca -> RU: AMX-30 S DCA, EN: AMX-30 S DCA
   Найдено: fr_amx_30_dca -> RU: AMX-30 S DCA, EN: AMX-30 S DCA
+    Поиск локализации для: fr_prtl
+    Прямой поиск: fr_prtl -> RU: Cheetah PRTL, EN: Cheetah PRTL
+  Найдено: fr_prtl -> RU: Cheetah PRTL, EN: Cheetah PRTL
     Поиск локализации для: fr_vab_santal
     Прямой поиск: fr_vab_santal -> RU: SANTAL, EN: SANTAL
   Найдено: fr_vab_santal -> RU: SANTAL, EN: SANTAL
@@ -41609,6 +42063,9 @@
     Поиск локализации для: fr_destroyer_mogador_class_mogador
     Прямой поиск: fr_destroyer_mogador_class_mogador -> RU: Mogador, EN: Mogador
   Найдено: fr_destroyer_mogador_class_mogador -> RU: Mogador, EN: Mogador
+    Поиск локализации для: fr_destroyer_le_hardi_class_le_hardi
+    Прямой поиск: fr_destroyer_le_hardi_class_le_hardi -> RU: Le Hardi, EN: Le Hardi
+  Найдено: fr_destroyer_le_hardi_class_le_hardi -> RU: Le Hardi, EN: Le Hardi
     Поиск локализации для: fr_cruiser_suffren_class_colbert
     Прямой поиск: fr_cruiser_suffren_class_colbert -> RU: Colbert, EN: Colbert
   Найдено: fr_cruiser_suffren_class_colbert -> RU: Colbert, EN: Colbert
@@ -41717,6 +42174,9 @@
     Поиск локализации для: fr_type40k_vedette
     Прямой поиск: fr_type40k_vedette -> RU: VTB-19, EN: VTB-19
   Найдено: fr_type40k_vedette -> RU: VTB-19, EN: VTB-19
+    Поиск локализации для: fr_vc1
+    Прямой поиск: fr_vc1 -> RU: VC-1, EN: VC-1
+  Найдено: fr_vc1 -> RU: VC-1, EN: VC-1
     Поиск локализации для: fr_adroit_class
     Прямой поиск: fr_adroit_class -> RU: L'Intrépide, EN: L'Intrépide
   Найдено: fr_adroit_class -> RU: L'Intrépide, EN: L'Intrépide
@@ -41762,6 +42222,9 @@
     Поиск локализации для: fr_vtb9
     Прямой поиск: fr_vtb9 -> RU: VTB-9, EN: VTB-9
   Найдено: fr_vtb9 -> RU: VTB-9, EN: VTB-9
+    Поиск локализации для: fr_l990_monitor
+    Прямой поиск: fr_l990_monitor -> RU: L-990, EN: L-990
+  Найдено: fr_l990_monitor -> RU: L-990, EN: L-990
     Поиск локализации для: fr_arras_class_amiens
     Прямой поиск: fr_arras_class_amiens -> RU: Amiens, EN: Amiens
   Найдено: fr_arras_class_amiens -> RU: Amiens, EN: Amiens
@@ -41885,6 +42348,9 @@
     Поиск локализации для: sw_strv_122b_plus
     Прямой поиск: sw_strv_122b_plus -> RU: Strv 122B+, EN: Strv 122B+
   Найдено: sw_strv_122b_plus -> RU: Strv 122B+, EN: Strv 122B+
+    Поиск локализации для: sw_leopard_2a8no
+    Прямой поиск: sw_leopard_2a8no -> RU: Leopard 2A8NO, EN: Leopard 2A8NO
+  Найдено: sw_leopard_2a8no -> RU: Leopard 2A8NO, EN: Leopard 2A8NO
     Поиск локализации для: sw_pvlvv_fm42
     Прямой поиск: sw_pvlvv_fm42 -> RU: Pvlvv fm/42, EN: Pvlvv fm/42
   Найдено: sw_pvlvv_fm42 -> RU: Pvlvv fm/42, EN: Pvlvv fm/42
@@ -42077,6 +42543,9 @@
     Поиск локализации для: sw_pbil_m40
     Прямой поиск: sw_pbil_m40 -> RU: Pbil m/40, EN: Pbil m/40
   Найдено: sw_pbil_m40 -> RU: Pbil m/40, EN: Pbil m/40
+    Поиск локализации для: sw_pv_m39
+    Прямой поиск: sw_pv_m39 -> RU: Pbil m/39, EN: Pbil m/39
+  Найдено: sw_pv_m39 -> RU: Pbil m/39, EN: Pbil m/39
     Поиск локализации для: sw_t_50_fin
     Прямой поиск: sw_t_50_fin -> RU: ▄T-50, EN: ▄T-50
   Найдено: sw_t_50_fin -> RU: ▄T-50, EN: ▄T-50
@@ -42350,6 +42819,9 @@
     Поиск локализации для: saab_ja37di_f21
     Прямой поиск: saab_ja37di_f21 -> RU: JA37DI F21, EN: JA37DI F21
   Найдено: saab_ja37di_f21 -> RU: JA37DI F21, EN: JA37DI F21
+    Поиск локализации для: saab_jas39_pre_serie
+    Прямой поиск: saab_jas39_pre_serie -> RU: JAS39-5, EN: JAS39-5
+  Найдено: saab_jas39_pre_serie -> RU: JAS39-5, EN: JAS39-5
     Поиск локализации для: saab_jas39d
     Прямой поиск: saab_jas39d -> RU: JAS39D, EN: JAS39D
   Найдено: saab_jas39d -> RU: JAS39D, EN: JAS39D
@@ -42701,6 +43173,9 @@
     Поиск локализации для: f_15i_raam
     Прямой поиск: f_15i_raam -> RU: F-15I Ra’am, EN: F-15I Ra’am
   Найдено: f_15i_raam -> RU: F-15I Ra’am, EN: F-15I Ra’am
+    Поиск локализации для: f_15ia
+    Прямой поиск: f_15ia -> RU: F-15IA Ra’am II, EN: F-15IA Ra’am II
+  Найдено: f_15ia -> RU: F-15IA Ra’am II, EN: F-15IA Ra’am II
     Поиск локализации для: sb2c_5_greece
     Прямой поиск: sb2c_5_greece -> RU: ▄SB2C-5, EN: ▄SB2C-5
   Найдено: sb2c_5_greece -> RU: ▄SB2C-5, EN: ▄SB2C-5
@@ -42765,12 +43240,12 @@
     Прямой поиск: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
   Найдено: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
 Статистика локализации:
-  Найдено локализаций: 3650
-  Использован fallback: 0
-  Всего обработано: 3650
-Данные локализации (3650 записей) сохранены в localization.csv
+  Найдено локализаций: 3683
+  Использован fallback: 2
+  Всего обработано: 3685
+Данные локализации (3685 записей) сохранены в localization.csv
 Статистика сохранения:
-  Русских локализаций: 3650
-  Английских локализаций: 3650
-  Всего записей: 3650
+  Русских локализаций: 3683
+  Английских локализаций: 3683
+  Всего записей: 3685
 Парсинг локализации завершен успешно! Создан файл localization.csv

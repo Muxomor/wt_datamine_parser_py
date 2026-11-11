@@ -20,22 +20,58 @@ class MiscAndImagesParser:
         self.config = Config(config_path)
         self.logger = Logger('misc_and_images_parser', 'misc_and_images_parser_debug.log')
         
+    def _get_urls(self, primary_key: str, fallback_key: str) -> List[str]:
+        """Возвращает основной URL и список резервных URL из конфигурации"""
+        primary_url = self.config.get(primary_key)
+        if not primary_url:
+            raise ValueError(f"{primary_key} не найден в конфигурации")
+
+        fallback_urls = self.config.get(fallback_key, '').split(',')
+        fallback_urls = [url.strip() for url in fallback_urls if url.strip()]
+        return [primary_url] + fallback_urls
+
+    def _fetch_text(self, urls: List[str], data_name: str, timeout: int = 30,
+                    attempts: int = 2) -> str:
+        """
+        Загружает текстовые данные по первому доступному URL.
+
+        Заголовок Accept-Encoding: identity отключает gzip. Без него ответы
+        raw.githubusercontent.com в некоторых сетях обрываются с ошибкой
+        SSL RECORD_LAYER_FAILURE.
+        """
+        last_error: Optional[Exception] = None
+
+        for url in urls:
+            for attempt in range(1, attempts + 1):
+                try:
+                    self.logger.log(
+                        f"Загрузка данных {data_name} из: {url} "
+                        f"(попытка {attempt}/{attempts})"
+                    )
+                    response = requests.get(
+                        url,
+                        timeout=timeout,
+                        headers={'Accept-Encoding': 'identity'},
+                    )
+                    response.raise_for_status()
+
+                    text = response.text
+                    self.logger.log(f"Данные {data_name} успешно загружены")
+                    return text
+
+                except requests.RequestException as e:
+                    last_error = e
+                    self.logger.log(
+                        f"Ошибка загрузки данных {data_name} из {url}: {e}",
+                        'warning',
+                    )
+
+        raise RuntimeError(f"Ошибка загрузки данных {data_name}: {last_error}")
+
     def fetch_rank_data(self) -> str:
         """Загружает данные rank.blkx из удаленного источника"""
-        rank_url = self.config.get('rank_url')
-        if not rank_url:
-            raise ValueError("rank_url не найден в конфигурации")
-            
-        try:
-            self.logger.log(f"Загрузка данных rank.blkx из: {rank_url}")
-            response = requests.get(rank_url, timeout=30)
-            response.raise_for_status()
-            
-            self.logger.log("Данные rank.blkx успешно загружены")
-            return response.text
-            
-        except requests.RequestException as e:
-            raise RuntimeError(f"Ошибка загрузки данных rank.blkx: {e}")
+        urls = self._get_urls('rank_url', 'rank_fallback_urls')
+        return self._fetch_text(urls, 'rank.blkx')
     
     def process_rank_data(self, raw_data: str) -> List[Dict[str, Any]]:
         """Обрабатывает данные rank.blkx и извлекает требования по рангам"""
@@ -87,21 +123,10 @@ class MiscAndImagesParser:
     
     def fetch_version_data(self) -> str:
         """Загружает данные версии из удаленного источника"""
-        version_url = self.config.get('version_url')
-        if not version_url:
-            raise ValueError("version_url не найден в конфигурации")
-            
-        try:
-            self.logger.log(f"Загрузка данных версии из: {version_url}")
-            response = requests.get(version_url, timeout=30)
-            response.raise_for_status()
-            
-            version_data = response.text.strip()
-            self.logger.log(f"Данные версии успешно загружены: {version_data}")
-            return version_data
-            
-        except requests.RequestException as e:
-            raise RuntimeError(f"Ошибка загрузки данных версии: {e}")
+        urls = self._get_urls('version_url', 'version_fallback_urls')
+        version_data = self._fetch_text(urls, 'версии').strip()
+        self.logger.log(f"Данные версии успешно загружены: {version_data}")
+        return version_data
     
     def process_version_data(self, version_string: str) -> Dict[str, str]:
         """Обрабатывает строку версии и подготавливает для сохранения"""

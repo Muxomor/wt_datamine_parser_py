@@ -37,7 +37,13 @@ class WpcostParser:
         for attempt, url in enumerate(urls_to_try, 1):
             try:
                 self.logger.log(f"Попытка {attempt}: Загрузка данных wpcost из: {url}")
-                response = requests.get(url, timeout=45)
+                # identity отключает gzip: сжатые ответы github в некоторых сетях
+                # обрываются с ошибкой SSL RECORD_LAYER_FAILURE
+                response = requests.get(
+                    url,
+                    timeout=45,
+                    headers={'Accept-Encoding': 'identity'},
+                )
                 
                 # Проверяем статус код
                 if response.status_code == 403:

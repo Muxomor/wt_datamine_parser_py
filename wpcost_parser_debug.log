@@ -2,13 +2,13 @@
 Получен код 403 (файл слишком большой или доступ запрещен) для URL: https://cdn.jsdelivr.net/gh/gszabi99/War-Thunder-Datamine@master/char.vromfs.bin_u/config/wpcost.blkx
 Пробуем следующий URL...
 Попытка 2: Загрузка данных wpcost из: https://github.com/gszabi99/War-Thunder-Datamine/raw/master/char.vromfs.bin_u/config/wpcost.blkx
-Размер файла: 2.0 МБ
+Размер файла: 31.9 МБ
 Данные wpcost успешно загружены с попытки 2
 Запуск парсера wpcost.blkx...
 Статистика загрузки из shop.csv:
-  Всего строк в CSV: 3650
-  Премиумных юнитов: 1010
-  Обычных юнитов: 2640
+  Всего строк в CSV: 3685
+  Премиумных юнитов: 1020
+  Обычных юнитов: 2665
 Используем предзагруженные данные wpcost.blkx
 Начинаем обработку данных wpcost...
 Нормализован ID: 'uk_challenger_II_yt_cup_2019' -> 'uk_challenger_ii_yt_cup_2019'
@@ -121,10 +121,10 @@
 Нормализован ID: 'cn_m48a1_patton_III' -> 'cn_m48a1_patton_iii'
 Нормализован ID: 'cn_type_63_I' -> 'cn_type_63_i'
 Нормализация ID в wpcost:
-  Исходных ID: 3436
-  Нормализованных ID: 3436
+  Исходных ID: 3471
+  Нормализованных ID: 3471
   Конфликтов: 0
-В wpcost найдено 3436 юнитов после нормализации
+В wpcost найдено 3471 юнитов после нормализации
     reqExp отсутствует или некорректно для us_m2a4, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан us_m2a4: silver=0, exp=None, br=1.0
@@ -432,6 +432,10 @@
   Премиумный юнит us_xm1_gm: silver=0, exp=None (обнулено)
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан us_xm1_gm (премиум): silver=0, exp=None, br=9.7
+  Обрабатываем премиумный юнит: us_stingray_2 (status=premium, have_prem_flag=True)
+  Премиумный юнит us_stingray_2: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=27, raw=10.000, округлено=10
+  Обработан us_stingray_2 (премиум): silver=0, exp=None, br=10
   Обрабатываем премиумный юнит: us_m1128_wolfpack (status=premium, have_prem_flag=False)
   Премиумный юнит us_m1128_wolfpack: silver=0, exp=None (обнулено)
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
@@ -577,8 +581,8 @@
   Обработан uh_1c: silver=490000, exp=150000, br=9.3
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан ah_1f: silver=990000, exp=370000, br=10
-    БР расчет: economicRank=30, raw=11.000, округлено=11
-  Обработан ah_1w: silver=1000000, exp=380000, br=11
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан ah_1w: silver=1000000, exp=380000, br=10.3
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан ah_1z: silver=1020000, exp=400000, br=12.3
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
@@ -783,8 +787,8 @@
   Обработан f9f-5: silver=300000, exp=53000, br=8
     БР расчет: economicRank=22, raw=8.333, округлено=8.3
   Обработан f9f-8: silver=340000, exp=61000, br=8.3
-    БР расчет: economicRank=25, raw=9.333, округлено=9.3
-  Обработан f3h-2: silver=420000, exp=150000, br=9.3
+    БР расчет: economicRank=24, raw=9.000, округлено=9
+  Обработан f3h-2: silver=420000, exp=150000, br=9
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
   Обработан f8u-2: silver=530000, exp=190000, br=10.3
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
@@ -921,6 +925,8 @@
   Обработан f_111f: silver=720000, exp=260000, br=11.7
     БР расчет: economicRank=40, raw=14.333, округлено=14.3
   Обработан f_15e: silver=940000, exp=350000, br=14.3
+    БР расчет: economicRank=42, raw=15.000, округлено=15
+  Обработан f_15ex: silver=1080000, exp=400000, br=15
   Обрабатываем премиумный юнит: f3f-2_galer (status=premium, have_prem_flag=False)
   Премиумный юнит f3f-2_galer: silver=0, exp=None (обнулено)
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
@@ -1039,8 +1045,8 @@
   Обработан av_8a (премиум): silver=0, exp=None, br=9.7
   Обрабатываем премиумный юнит: a_10a_early (status=premium, have_prem_flag=True)
   Премиумный юнит a_10a_early: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=28, raw=10.333, округлено=10.3
-  Обработан a_10a_early (премиум): silver=0, exp=None, br=10.3
+    БР расчет: economicRank=24, raw=9.000, округлено=9
+  Обработан a_10a_early (премиум): silver=0, exp=None, br=9
   Обрабатываем премиумный юнит: f-5c (status=premium, have_prem_flag=True)
   Премиумный юнит f-5c: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
@@ -1205,6 +1211,10 @@
   Премиумный юнит f_14a_iriaf: silver=0, exp=None (обнулено)
     БР расчет: economicRank=38, raw=13.667, округлено=13.7
   Обработан f_14a_iriaf (премиум): silver=0, exp=None, br=13.7
+  Обрабатываем премиумный юнит: fa_18d_late (status=premium, have_prem_flag=True)
+  Премиумный юнит fa_18d_late: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=38, raw=13.667, округлено=13.7
+  Обработан fa_18d_late (премиум): silver=0, exp=None, br=13.7
     reqExp отсутствует или некорректно для us_destroyer_clemson_litchfield, установлено None
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан us_destroyer_clemson_litchfield: silver=0, exp=None, br=3.3
@@ -1265,6 +1275,8 @@
   Обработан us_battleship_south_dakota: silver=1150000, exp=400000, br=8.3
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
   Обработан us_battleship_iowa_class_iowa: silver=1190000, exp=410000, br=8.7
+    БР расчет: economicRank=10, raw=4.333, округлено=4.3
+  Обработан us_erie_class: silver=31000, exp=13000, br=4.3
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан us_destroyer_sumner: silver=38000, exp=15000, br=5
     БР расчет: economicRank=12, raw=5.000, округлено=5
@@ -1553,8 +1565,10 @@
   Обработан germ_kpz_t72m1: silver=620000, exp=220000, br=9.7
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
   Обработан germ_leopard_2k: silver=710000, exp=260000, br=10.3
+    БР расчет: economicRank=36, raw=13.000, округлено=13
+  Обработан germ_leopard_2a5_pso: silver=1080000, exp=400000, br=13
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
-  Обработан germ_embt: silver=1080000, exp=400000, br=13.3
+  Обработан germ_embt: silver=1100000, exp=410000, br=13.3
   Обрабатываем премиумный юнит: germ_a7v (status=standard, have_prem_flag=True)
   Премиумный юнит germ_a7v: silver=0, exp=None (обнулено)
     БР расчет: economicRank некорректен (0), используем fallback 1.0
@@ -1606,10 +1620,10 @@
   Обработан germ_leopard_2a5: silver=1080000, exp=400000, br=12.7
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан germ_leopard_2a6: silver=1100000, exp=200000, br=13
-    БР расчет: economicRank=36, raw=13.000, округлено=13
-  Обработан germ_leopard_2a5_pso: silver=1100000, exp=410000, br=13
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
-  Обработан germ_leopard_2a7v: silver=1120000, exp=420000, br=13.3
+  Обработан germ_leopard_2a7v: silver=1100000, exp=410000, br=13.3
+    БР расчет: economicRank=37, raw=13.333, округлено=13.3
+  Обработан germ_leopard_2a8: silver=1120000, exp=420000, br=13.3
   Не найден в wpcost: germ_flakpanzer_1_group (нормализован: germ_flakpanzer_1_group) - пропускается
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан germ_flakpanzer_i_ausf_a: silver=700, exp=2900, br=1.3
@@ -1983,8 +1997,8 @@
   Обработан bo_105pah1: silver=980000, exp=360000, br=9.7
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан bo_105pah1_a1: silver=990000, exp=370000, br=9.7
-    БР расчет: economicRank=36, raw=13.000, округлено=13
-  Обработан tiger_uht: silver=1020000, exp=400000, br=13
+    БР расчет: economicRank=29, raw=10.667, округлено=10.7
+  Обработан tiger_uht: silver=1020000, exp=400000, br=10.7
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан h145m: silver=1020000, exp=400000, br=13
     БР расчет: economicRank=21, raw=8.000, округлено=8
@@ -2610,6 +2624,8 @@
   Обработан germ_battleship_sachsen: silver=900000, exp=300000, br=7
     БР расчет: economicRank=22, raw=8.333, округлено=8.3
   Обработан germ_battleship_bismarck: silver=1150000, exp=400000, br=8.3
+    БР расчет: economicRank=23, raw=8.667, округлено=8.7
+  Обработан germ_battleship_pr_h39: silver=1190000, exp=410000, br=8.7
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан germ_kanonenboot_k4_lorelei: silver=700, exp=2900, br=3.7
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
@@ -2680,6 +2696,10 @@
   Премиумный юнит germ_battleship_baden: silver=0, exp=None (обнулено)
     БР расчет: economicRank=18, raw=7.000, округлено=7
   Обработан germ_battleship_baden (премиум): silver=0, exp=None, br=7
+  Обрабатываем премиумный юнит: germ_sub_type_7 (status=premium, have_prem_flag=True)
+  Премиумный юнит germ_sub_type_7: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=8, raw=3.667, округлено=3.7
+  Обработан germ_sub_type_7 (премиум): silver=0, exp=None, br=3.7
   Обрабатываем премиумный юнит: germ_destroyer_class1939_t31 (status=premium, have_prem_flag=False)
   Премиумный юнит germ_destroyer_class1939_t31: silver=0, exp=None (обнулено)
     БР расчет: economicRank=9, raw=4.000, округлено=4
@@ -3011,6 +3031,8 @@
   Обработан ussr_object_775: silver=520000, exp=190000, br=9.3
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан ussr_9p157: silver=620000, exp=110000, br=9.3
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан ussr_btr_90_2004: silver=710000, exp=260000, br=10.3
     БР расчет: economicRank=33, raw=12.000, округлено=12
   Обработан ussr_bmpt: silver=830000, exp=300000, br=12
     БР расчет: economicRank некорректен (0), используем fallback 1.0
@@ -3401,8 +3423,8 @@
   Обработан ka_50 (премиум): silver=0, exp=None, br=11.7
   Обрабатываем премиумный юнит: mi_35p (status=premium, have_prem_flag=True)
   Премиумный юнит mi_35p: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=33, raw=12.000, округлено=12
-  Обработан mi_35p (премиум): silver=0, exp=None, br=12
+    БР расчет: economicRank=31, raw=11.333, округлено=11.3
+  Обработан mi_35p (премиум): silver=0, exp=None, br=11.3
   Не найден в wpcost: yak-1_group (нормализован: yak-1_group) - пропускается
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан yak-1_early: silver=10000, exp=7900, br=2.3
@@ -3561,6 +3583,8 @@
   Обработан su-7b: silver=480000, exp=170000, br=9.3
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан su-7bkl: silver=530000, exp=96000, br=9.3
+    БР расчет: economicRank=26, raw=9.667, округлено=9.7
+  Обработан su_15tm: silver=530000, exp=190000, br=9.7
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан su_17m2: silver=580000, exp=210000, br=10
     БР расчет: economicRank=30, raw=11.000, округлено=11
@@ -3631,8 +3655,8 @@
   Обработан su_25: silver=530000, exp=190000, br=10.3
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
   Обработан su_25t: silver=720000, exp=260000, br=11.3
-    БР расчет: economicRank=32, raw=11.667, округлено=11.7
-  Обработан su_25sm3: silver=780000, exp=290000, br=11.7
+    БР расчет: economicRank=29, raw=10.667, округлено=10.7
+  Обработан su_25sm3: silver=780000, exp=290000, br=10.7
   Не найден в wpcost: sb_group (нормализован: sb_group) - пропускается
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан sb_2m_100: silver=700, exp=2900, br=1.0
@@ -4050,6 +4074,8 @@
   Обработан ussr_destroyer_pr56_bravy: silver=115000, exp=33000, br=5.3
     БР расчет: economicRank=17, raw=6.667, округлено=6.7
   Обработан ussr_battleship_imperatritsa_mariya: silver=340000, exp=110000, br=6.7
+    БР расчет: economicRank=17, raw=6.667, округлено=6.7
+  Обработан ussr_battleship_imperator_nikolai_pervyi: silver=440000, exp=145000, br=6.7
     БР расчет: economicRank=18, raw=7.000, округлено=7
   Обработан ussr_battlecruiser_izmail: silver=540000, exp=180000, br=7
     БР расчет: economicRank=19, raw=7.333, округлено=7.3
@@ -4060,6 +4086,10 @@
   Премиумный юнит ussr_destroyer_kerch: silver=0, exp=None (обнулено)
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан ussr_destroyer_kerch (премиум): silver=0, exp=None, br=3.3
+  Обрабатываем премиумный юнит: ussr_destroyer_vifor_class_lyogkiy (status=premium, have_prem_flag=False)
+  Премиумный юнит ussr_destroyer_vifor_class_lyogkiy: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=7, raw=3.333, округлено=3.3
+  Обработан ussr_destroyer_vifor_class_lyogkiy (премиум): silver=0, exp=None, br=3.3
   Обрабатываем премиумный юнит: ussr_destroyer_7_ryany (status=premium, have_prem_flag=False)
   Премиумный юнит ussr_destroyer_7_ryany: silver=0, exp=None (обнулено)
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
@@ -4560,6 +4590,10 @@
   Премиумный юнит uk_rooikat_105_td: silver=0, exp=None (обнулено)
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан uk_rooikat_105_td (премиум): silver=0, exp=None, br=10
+  Обрабатываем премиумный юнит: uk_olifant_optimering (status=premium, have_prem_flag=True)
+  Премиумный юнит uk_olifant_optimering: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=27, raw=10.000, округлено=10
+  Обработан uk_olifant_optimering (премиум): silver=0, exp=None, br=10
   Обрабатываем премиумный юнит: uk_challenger_1_mk_3_gulf (status=premium, have_prem_flag=True)
   Премиумный юнит uk_challenger_1_mk_3_gulf: silver=0, exp=None (обнулено)
     БР расчет: economicRank=30, raw=11.000, округлено=11
@@ -4651,22 +4685,22 @@
   Обработан wasp_has_mk1: silver=490000, exp=150000, br=9.3
     БР расчет: economicRank=24, raw=9.000, округлено=9
   Обработан wessex_mk5: silver=980000, exp=360000, br=9
-    БР расчет: economicRank=31, raw=11.333, округлено=11.3
-  Обработан lynx_ah_mk1: silver=1000000, exp=380000, br=11.3
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан lynx_ah_mk1: silver=1000000, exp=380000, br=10.3
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан ah_mk1: silver=1020000, exp=400000, br=12.3
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан ah_64e_britain: silver=1030000, exp=400000, br=13.3
-    БР расчет: economicRank=35, raw=12.667, округлено=12.7
-  Обработан aw_159: silver=1020000, exp=400000, br=12.7
+    БР расчет: economicRank=33, raw=12.000, округлено=12
+  Обработан aw_159: silver=1020000, exp=400000, br=12
   Обрабатываем премиумный юнит: super_hind_mk3 (status=premium, have_prem_flag=True)
   Премиумный юнит super_hind_mk3: silver=0, exp=None (обнулено)
     БР расчет: economicRank=29, raw=10.667, округлено=10.7
   Обработан super_hind_mk3 (премиум): silver=0, exp=None, br=10.7
   Обрабатываем премиумный юнит: g_lynx (status=premium, have_prem_flag=False)
   Премиумный юнит g_lynx: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=31, raw=11.333, округлено=11.3
-  Обработан g_lynx (премиум): silver=0, exp=None, br=11.3
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан g_lynx (премиум): silver=0, exp=None, br=10.3
   Обрабатываем премиумный юнит: ah_2_rooivalk (status=premium, have_prem_flag=False)
   Премиумный юнит ah_2_rooivalk: silver=0, exp=None (обнулено)
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
@@ -4829,6 +4863,8 @@
   Обработан blenheim_mkiv: silver=2100, exp=4000, br=1.3
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан beaufort_mkviii: silver=6300, exp=3000, br=1.7
+    БР расчет: economicRank=2, raw=1.667, округлено=1.7
+  Обработан fulmar_mk2: silver=6300, exp=5900, br=1.7
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан hurricane_mk4: silver=10000, exp=7900, br=2
   Не найден в wpcost: beaufighter_group (нормализован: beaufighter_group) - пропускается
@@ -4929,8 +4965,8 @@
   Обработан canberra_bimk6: silver=340000, exp=61000, br=8.3
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан buccaneer_s2: silver=480000, exp=170000, br=9.3
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан buccaneer_s2b: silver=580000, exp=210000, br=10.7
+    БР расчет: economicRank=26, raw=9.667, округлено=9.7
+  Обработан buccaneer_s2b: silver=580000, exp=210000, br=9.7
   Не найден в wpcost: f_111c_tornado_group (нормализован: f_111c_tornado_group) - пропускается
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан f_111c_raaf: silver=630000, exp=230000, br=11.7
@@ -5216,6 +5252,8 @@
   Обработан uk_egret_class: silver=16000, exp=9000, br=4.3
     БР расчет: economicRank=11, raw=4.667, округлено=4.7
   Обработан uk_minelayer_abdiel_class_abdiel: silver=22000, exp=11000, br=4.7
+    БР расчет: economicRank=11, raw=4.667, округлено=4.7
+  Обработан uk_cruiser_danae_class: silver=55000, exp=18000, br=4.7
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан uk_cruiser_enterprise_d52: silver=70000, exp=21000, br=5
     БР расчет: economicRank=13, raw=5.333, округлено=5.3
@@ -5301,6 +5339,10 @@
   Премиумный юнит uk_cruiser_tiger: silver=0, exp=None (обнулено)
     БР расчет: economicRank=15, raw=6.000, округлено=6
   Обработан uk_cruiser_tiger (премиум): silver=0, exp=None, br=6
+  Обрабатываем премиумный юнит: uk_battleship_duke_of_york (status=premium, have_prem_flag=True)
+  Премиумный юнит uk_battleship_duke_of_york: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=21, raw=8.000, округлено=8
+  Обработан uk_battleship_duke_of_york (премиум): silver=0, exp=None, br=8
     reqExp отсутствует или некорректно для uk_mtb_1series, установлено None
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан uk_mtb_1series: silver=0, exp=None, br=1.0
@@ -5429,6 +5471,8 @@
   Обработан jp_type_87_rcv: silver=450000, exp=160000, br=9.3
     БР расчет: economicRank=24, raw=9.000, округлено=9
   Обработан jp_type_89: silver=520000, exp=94000, br=9
+    БР расчет: economicRank=24, raw=9.000, округлено=9
+  Обработан jp_bmp_3f: silver=520000, exp=190000, br=9
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан jp_icv_ifv_prototype: silver=710000, exp=260000, br=9.7
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
@@ -5830,11 +5874,15 @@
     БР расчет: economicRank=6, raw=3.000, округлено=3
   Обработан d4y3: silver=22000, exp=11000, br=3
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
+  Обработан firefly_mk1_thailand: silver=47000, exp=18000, br=3.3
+    БР расчет: economicRank=7, raw=3.333, округлено=3.3
   Обработан p1y1_mod11: silver=76000, exp=26000, br=3.3
     БР расчет: economicRank=9, raw=4.000, округлено=4
   Обработан b7a2: silver=105000, exp=33000, br=4
     БР расчет: economicRank=10, raw=4.333, округлено=4.3
   Обработан ki_93_1_ko: silver=135000, exp=40000, br=4.3
+    БР расчет: economicRank=12, raw=5.000, округлено=5
+  Обработан b_33_indonesia: silver=200000, exp=63000, br=5
     БР расчет: economicRank=1, raw=1.333, округлено=1.3
   Обработан ki_32: silver=700, exp=2900, br=1.3
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
@@ -6062,7 +6110,9 @@
     БР расчет: economicRank=15, raw=6.000, округлено=6
   Обработан jp_cruiser_haguro: silver=230000, exp=73000, br=6
     БР расчет: economicRank=15, raw=6.000, округлено=6
-  Обработан jp_cruiser_tone: silver=280000, exp=90000, br=6
+  Обработан jp_cruiser_takao: silver=280000, exp=90000, br=6
+    БР расчет: economicRank=15, raw=6.000, округлено=6
+  Обработан jp_cruiser_tone: silver=340000, exp=110000, br=6
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
   Обработан jp_battleship_fuso: silver=900000, exp=300000, br=7.7
     БР расчет: economicRank=23, raw=8.667, округлено=8.7
@@ -6435,8 +6485,11 @@
   Обработан cn_ptl_02: silver=520000, exp=190000, br=9.3
     БР расчет: economicRank=24, raw=9.000, округлено=9
   Обработан cn_hj_9: silver=620000, exp=110000, br=9
+  Не найден в wpcost: cn_cm_zbd_group (нормализован: cn_cm_zbd_group) - пропускается
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан cn_cm_34: silver=620000, exp=220000, br=9.3
+    БР расчет: economicRank=25, raw=9.333, округлено=9.3
+  Обработан cn_zbd_04: silver=620000, exp=110000, br=9.3
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан cn_ztl_11: silver=710000, exp=260000, br=9.7
     БР расчет: economicRank=27, raw=10.000, округлено=10
@@ -6548,12 +6601,12 @@
     reqExp отсутствует или некорректно для z_11wa, установлено None
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан z_11wa: silver=390000, exp=None, br=9.7
-    БР расчет: economicRank=29, raw=10.667, округлено=10.7
-  Обработан z_9w: silver=980000, exp=360000, br=10.7
-    БР расчет: economicRank=31, raw=11.333, округлено=11.3
-  Обработан z_9wa: silver=1000000, exp=380000, br=11.3
-    БР расчет: economicRank=34, raw=12.333, округлено=12.3
-  Обработан z_19: silver=1010000, exp=390000, br=12.3
+    БР расчет: economicRank=26, raw=9.667, округлено=9.7
+  Обработан z_9w: silver=980000, exp=360000, br=9.7
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан z_9wa: silver=1000000, exp=380000, br=10.3
+    БР расчет: economicRank=30, raw=11.000, округлено=11
+  Обработан z_19: silver=1010000, exp=390000, br=11
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
   Обработан z_10: silver=1020000, exp=400000, br=12.3
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
@@ -6562,8 +6615,8 @@
   Обработан sa_342l_china: silver=490000, exp=150000, br=9.7
     БР расчет: economicRank=30, raw=11.000, округлено=11
   Обработан oh_58d_china: silver=1000000, exp=380000, br=11
-    БР расчет: economicRank=30, raw=11.000, округлено=11
-  Обработан ah_1w_china: silver=1010000, exp=390000, br=11
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан ah_1w_china: silver=1010000, exp=390000, br=10.3
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан ah_64e_china: silver=1030000, exp=400000, br=13.3
   Обрабатываем премиумный юнит: mi_35m_pakistan (status=premium, have_prem_flag=False)
@@ -6572,8 +6625,8 @@
   Обработан mi_35m_pakistan (премиум): silver=0, exp=None, br=11
   Обрабатываем премиумный юнит: z_19e (status=premium, have_prem_flag=False)
   Премиумный юнит z_19e: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=34, raw=12.333, округлено=12.3
-  Обработан z_19e (премиум): silver=0, exp=None, br=12.3
+    БР расчет: economicRank=30, raw=11.000, округлено=11
+  Обработан z_19e (премиум): silver=0, exp=None, br=11
   Обрабатываем премиумный юнит: z_10a (status=premium, have_prem_flag=True)
   Премиумный юнит z_10a: silver=0, exp=None (обнулено)
     БР расчет: economicRank=34, raw=12.333, округлено=12.3
@@ -6812,6 +6865,10 @@
   Премиумный юнит f_100f_china: silver=0, exp=None (обнулено)
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан f_100f_china (премиум): silver=0, exp=None, br=9.3
+  Обрабатываем премиумный юнит: q_5d (status=premium, have_prem_flag=True)
+  Премиумный юнит q_5d: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=27, raw=10.000, округлено=10
+  Обработан q_5d (премиум): silver=0, exp=None, br=10
   Обрабатываем премиумный юнит: su_30mkk (status=premium, have_prem_flag=True)
   Премиумный юнит su_30mkk: silver=0, exp=None (обнулено)
     БР расчет: economicRank=38, raw=13.667, округлено=13.7
@@ -6902,6 +6959,8 @@
   Обработан it_as_42_metropolitana: silver=700, exp=2900, br=1.3
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан it_fiat_cm52: silver=10000, exp=7900, br=2.3
+    БР расчет: economicRank=6, raw=3.000, округлено=3
+  Обработан it_lancia_flak38: silver=22000, exp=11000, br=3
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан it_m15_42_contraereo: silver=47000, exp=18000, br=3.7
     БР расчет: economicRank=15, raw=6.000, округлено=6
@@ -6976,6 +7035,8 @@
   Обработан it_freccia: silver=830000, exp=300000, br=11.3
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан it_39m_csaba: silver=700, exp=2900, br=1.0
+    БР расчет: economicRank=1, raw=1.333, округлено=1.3
+  Обработан it_v_4_straussler: silver=2100, exp=4000, br=1.3
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
   Обработан it_40m_turan_1: silver=10000, exp=7900, br=2.3
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
@@ -7103,10 +7164,12 @@
   Обработан a_109_eoa2: silver=1000000, exp=380000, br=9
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан mi_24v_hungary: silver=1010000, exp=390000, br=10
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан a_129_cbt: silver=1020000, exp=400000, br=10.3
     БР расчет: economicRank=31, raw=11.333, округлено=11.3
-  Обработан a_129_cbt: silver=1020000, exp=400000, br=11.3
-    БР расчет: economicRank=36, raw=13.000, округлено=13
-  Обработан a_129_d: silver=1030000, exp=400000, br=13
+  Обработан a_129_d: silver=1030000, exp=400000, br=11.3
+    БР расчет: economicRank=37, raw=13.333, округлено=13.3
+  Обработан aw_249_pre_serie: silver=1040000, exp=410000, br=13.3
   Обрабатываем премиумный юнит: t_129_atak (status=premium, have_prem_flag=False)
   Премиумный юнит t_129_atak: silver=0, exp=None (обнулено)
     БР расчет: economicRank=30, raw=11.000, округлено=11
@@ -7117,8 +7180,8 @@
   Обработан mi_24p_hungary (премиум): silver=0, exp=None, br=10
   Обрабатываем премиумный юнит: a_129_a (status=premium, have_prem_flag=False)
   Премиумный юнит a_129_a: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=30, raw=11.000, округлено=11
-  Обработан a_129_a (премиум): silver=0, exp=None, br=11
+    БР расчет: economicRank=28, raw=10.333, округлено=10.3
+  Обработан a_129_a (премиум): silver=0, exp=None, br=10.3
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан ro_44: silver=700, exp=2900, br=1.0
   Не найден в wpcost: re_2000_group (нормализован: re_2000_group) - пропускается
@@ -7471,6 +7534,8 @@
   Обработан it_battleship_caio_duilio: silver=660000, exp=220000, br=7.3
     БР расчет: economicRank=22, raw=8.333, округлено=8.3
   Обработан it_battleship_littorio_class_littorio: silver=1190000, exp=410000, br=8.3
+    БР расчет: economicRank=13, raw=5.333, округлено=5.3
+  Обработан it_destroyer_audace: silver=230000, exp=73000, br=5.3
   Обрабатываем премиумный юнит: it_destroyer_aquilone (status=premium, have_prem_flag=False)
   Премиумный юнит it_destroyer_aquilone: silver=0, exp=None (обнулено)
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
@@ -7721,8 +7786,11 @@
   Обработан fr_tpk_641_vpc: silver=105000, exp=33000, br=5.7
     БР расчет: economicRank=16, raw=6.333, округлено=6.3
   Обработан fr_amx_10p: silver=155000, exp=46000, br=6.3
+  Не найден в wpcost: fr_dca_prtl_group (нормализован: fr_dca_prtl_group) - пропускается
     БР расчет: economicRank=22, raw=8.333, округлено=8.3
-  Обработан fr_amx_30_dca: silver=380000, exp=135000, br=8.3
+  Обработан fr_amx_30_dca: silver=450000, exp=160000, br=8.3
+    БР расчет: economicRank=23, raw=8.667, округлено=8.7
+  Обработан fr_prtl: silver=520000, exp=94000, br=8.7
     БР расчет: economicRank=26, raw=9.667, округлено=9.7
   Обработан fr_vab_santal: silver=620000, exp=220000, br=9.7
     БР расчет: economicRank=28, raw=10.333, округлено=10.3
@@ -7869,10 +7937,10 @@
     БР расчет: economicRank=27, raw=10.000, округлено=10
   Обработан sa_342m: silver=1000000, exp=380000, br=10
   Не найден в wpcost: tiger_group (нормализован: tiger_group) - пропускается
-    БР расчет: economicRank=31, raw=11.333, округлено=11.3
-  Обработан tiger_had_france: silver=1020000, exp=400000, br=11.3
-    БР расчет: economicRank=36, raw=13.000, округлено=13
-  Обработан tiger_hac_france: silver=1030000, exp=200000, br=13
+    БР расчет: economicRank=29, raw=10.667, округлено=10.7
+  Обработан tiger_had_france: silver=1020000, exp=400000, br=10.7
+    БР расчет: economicRank=29, raw=10.667, округлено=10.7
+  Обработан tiger_hac_france: silver=1030000, exp=200000, br=10.7
     БР расчет: economicRank=36, raw=13.000, округлено=13
   Обработан tiger_had_block2_france: silver=1030000, exp=400000, br=13
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
@@ -8210,6 +8278,8 @@
   Обработан fr_destroyer_le_fantasque_class_le_malin: silver=38000, exp=15000, br=4.7
     БР расчет: economicRank=12, raw=5.000, округлено=5
   Обработан fr_destroyer_mogador_class_mogador: silver=70000, exp=21000, br=5
+    БР расчет: economicRank=12, raw=5.000, округлено=5
+  Обработан fr_destroyer_le_hardi_class_le_hardi: silver=87000, exp=25000, br=5
     БР расчет: economicRank=13, raw=5.333, округлено=5.3
   Обработан fr_cruiser_suffren_class_colbert: silver=150000, exp=46000, br=5.3
     БР расчет: economicRank=13, raw=5.333, округлено=5.3
@@ -8303,6 +8373,8 @@
   Обработан fr_vtb18: silver=700, exp=2900, br=1.0
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан fr_type40k_vedette: silver=10000, exp=7900, br=1.7
+    БР расчет: economicRank=2, raw=1.667, округлено=1.7
+  Обработан fr_vc1: silver=16000, exp=9200, br=1.7
     БР расчет: economicRank=5, raw=2.667, округлено=2.7
   Обработан fr_adroit_class: silver=76000, exp=26000, br=2.7
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
@@ -8337,6 +8409,10 @@
   Премиумный юнит fr_vtb9: silver=0, exp=None (обнулено)
     БР расчет: economicRank некорректен (0), используем fallback 1.0
   Обработан fr_vtb9 (премиум): silver=0, exp=None, br=1.0
+  Обрабатываем премиумный юнит: fr_l990_monitor (status=premium, have_prem_flag=False)
+  Премиумный юнит fr_l990_monitor: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=4, raw=2.333, округлено=2.3
+  Обработан fr_l990_monitor (премиум): silver=0, exp=None, br=2.3
   Обрабатываем премиумный юнит: fr_arras_class_amiens (status=premium, have_prem_flag=True)
   Премиумный юнит fr_arras_class_amiens: silver=0, exp=None (обнулено)
     БР расчет: economicRank=7, raw=3.333, округлено=3.3
@@ -8427,6 +8503,8 @@
   Обработан sw_strv_122b_plss: silver=1100000, exp=200000, br=13.3
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан sw_strv_122b_plus: silver=1100000, exp=410000, br=13.3
+    БР расчет: economicRank=37, raw=13.333, округлено=13.3
+  Обработан sw_leopard_2a8no: silver=1120000, exp=420000, br=13.3
     БР расчет: economicRank=2, raw=1.667, округлено=1.7
   Обработан sw_pvlvv_fm42: silver=2100, exp=4000, br=1.7
     БР расчет: economicRank=4, raw=2.333, округлено=2.3
@@ -8581,6 +8659,10 @@
   Премиумный юнит sw_pbil_m40: silver=0, exp=None (обнулено)
     БР расчет: economicRank=3, raw=2.000, округлено=2
   Обработан sw_pbil_m40 (премиум): silver=0, exp=None, br=2
+  Обрабатываем премиумный юнит: sw_pv_m39 (status=premium, have_prem_flag=False)
+  Премиумный юнит sw_pv_m39: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=3, raw=2.000, округлено=2
+  Обработан sw_pv_m39 (премиум): silver=0, exp=None, br=2
   Обрабатываем премиумный юнит: sw_t_50_fin (status=premium, have_prem_flag=False)
   Премиумный юнит sw_t_50_fin: silver=0, exp=None (обнулено)
     БР расчет: economicRank=6, raw=3.000, округлено=3
@@ -8792,12 +8874,16 @@
   Обработан saab_j35xs (премиум): silver=0, exp=None, br=10.3
   Обрабатываем премиумный юнит: saab_f35_wdns (status=premium, have_prem_flag=True)
   Премиумный юнит saab_f35_wdns: silver=0, exp=None (обнулено)
-    БР расчет: economicRank=28, raw=10.333, округлено=10.3
-  Обработан saab_f35_wdns (премиум): silver=0, exp=None, br=10.3
+    БР расчет: economicRank=26, raw=9.667, округлено=9.7
+  Обработан saab_f35_wdns (премиум): silver=0, exp=None, br=9.7
   Обрабатываем премиумный юнит: saab_ja37di_f21 (status=premium, have_prem_flag=True)
   Премиумный юнит saab_ja37di_f21: silver=0, exp=None (обнулено)
     БР расчет: economicRank=37, raw=13.333, округлено=13.3
   Обработан saab_ja37di_f21 (премиум): silver=0, exp=None, br=13.3
+  Обрабатываем премиумный юнит: saab_jas39_pre_serie (status=premium, have_prem_flag=True)
+  Премиумный юнит saab_jas39_pre_serie: silver=0, exp=None (обнулено)
+    БР расчет: economicRank=36, raw=13.000, округлено=13
+  Обработан saab_jas39_pre_serie (премиум): silver=0, exp=None, br=13
   Обрабатываем премиумный юнит: saab_jas39d (status=premium, have_prem_flag=True)
   Премиумный юнит saab_jas39d: silver=0, exp=None (обнулено)
     БР расчет: economicRank=38, raw=13.667, округлено=13.7
@@ -8977,8 +9063,8 @@
   Обработан ah_64d_i_saraph: silver=1020000, exp=400000, br=13
     БР расчет: economicRank=25, raw=9.333, округлено=9.3
   Обработан md_500_tow_late: silver=490000, exp=150000, br=9.3
-    БР расчет: economicRank=36, raw=13.000, округлено=13
-  Обработан ah_60_iaf: silver=1020000, exp=400000, br=13
+    БР расчет: economicRank=31, raw=11.333, округлено=11.3
+  Обработан ah_60_iaf: silver=1020000, exp=400000, br=11.3
   Обрабатываем премиумный юнит: ah_64a_peten_iaf (status=premium, have_prem_flag=False)
   Премиумный юнит ah_64a_peten_iaf: silver=0, exp=None (обнулено)
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
@@ -9045,6 +9131,8 @@
   Обработан f_16i_sufa: silver=940000, exp=175000, br=14
     БР расчет: economicRank=40, raw=14.333, округлено=14.3
   Обработан f_15i_raam: silver=940000, exp=350000, br=14.3
+    БР расчет: economicRank=42, raw=15.000, округлено=15
+  Обработан f_15ia: silver=1080000, exp=400000, br=15
     БР расчет: economicRank=8, raw=3.667, округлено=3.7
   Обработан sb2c_5_greece: silver=185000, exp=54000, br=3.7
     БР расчет: economicRank=20, raw=7.667, округлено=7.7
@@ -9112,13 +9200,13 @@
     БР расчет: economicRank=32, raw=11.667, округлено=11.7
   Обработан mig_21_2000_iaf (премиум): silver=0, exp=None, br=11.7
 Статистика обработки wpcost:
-  Найдено и обработано: 3252
-  Из них премиумных (с обнуленными silver/exp): 1001
-  Не найдено в wpcost (пропущено): 398
-  Всего ID из shop.csv: 3650
-Данные wpcost (3252 записей) сохранены в wpcost.csv
+  Найдено и обработано: 3285
+  Из них премиумных (с обнуленными silver/exp): 1011
+  Не найдено в wpcost (пропущено): 400
+  Всего ID из shop.csv: 3685
+Данные wpcost (3285 записей) сохранены в wpcost.csv
 Статистика данных:
-  Записей с опытом (exp): 2169
+  Записей с опытом (exp): 2192
   Записей с fallback БР (1.0): 157
-  Всего записей: 3252
+  Всего записей: 3285
 Парсинг wpcost завершен успешно! Создан файл wpcost.csv
