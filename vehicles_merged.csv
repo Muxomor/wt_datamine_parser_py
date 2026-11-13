@@ -2549,7 +2549,7 @@ cn_ptz_89,PTZ89,PTZ89,china,9.0,520000,6,Наземная техника,vehicle
 cn_ptl_aft_group,PTL02/AFT09,PTL02/AFT09,china,,,6,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/cn_ptl_aft_group.png,cn_cm_ptz_group,3,1,
 cn_ptl_02,PTL02,PTL02,china,9.3,520000,6,Наземная техника,vehicle,190000,standard,https://static.encyclopedia.warthunder.com/slots/cn_ptl_02.png,cn_ptl_aft_group,3,1,0
 cn_hj_9,AFT09,AFT09,china,9.0,620000,6,Наземная техника,vehicle,110000,standard,https://static.encyclopedia.warthunder.com/slots/cn_hj_9.png,cn_ptl_02,3,1,1
-cn_cm_zbd_group,cn_cm_zbd_group,cn_cm_zbd_group,china,,,6,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/cn_cm_zbd_group.png,cn_ptl_aft_group,3,2,
+cn_cm_zbd_group,CM34/ZBD04,CM34/ZBD04,china,,,6,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/cn_cm_zbd_group.png,cn_ptl_aft_group,3,2,
 cn_cm_34,CM34,CM34,china,9.3,620000,6,Наземная техника,vehicle,220000,standard,https://static.encyclopedia.warthunder.com/slots/cn_cm_34.png,cn_cm_zbd_group,3,2,0
 cn_zbd_04,ZBD04,ZBD04,china,9.3,620000,6,Наземная техника,vehicle,110000,standard,https://static.encyclopedia.warthunder.com/slots/cn_zbd_04.png,cn_cm_34,3,2,1
 cn_ztl_11,ZLT11,ZLT11,china,9.7,710000,7,Наземная техника,vehicle,260000,standard,https://static.encyclopedia.warthunder.com/slots/cn_ztl_11.png,cn_cm_zbd_group,3,0,
@@ -3097,7 +3097,7 @@ fr_amx_vtt_dca,VTT DCA,VTT DCA,france,3.0,16000,2,Наземная техник�
 fr_amx_13_dca_40,AMX-13 DCA 40,AMX-13 DCA 40,france,5.0,76000,3,Наземная техника,vehicle,26000,standard,https://static.encyclopedia.warthunder.com/slots/fr_amx_13_dca_40.png,fr_amx_vtt_dca,3,0,
 fr_tpk_641_vpc,TPK 6.41,TPK 6.41,france,5.7,105000,3,Наземная техника,vehicle,33000,standard,https://static.encyclopedia.warthunder.com/slots/fr_tpk_641_vpc.png,fr_amx_13_dca_40,3,1,
 fr_amx_10p,AMX-10P,AMX-10P,france,6.3,155000,4,Наземная техника,vehicle,46000,standard,https://static.encyclopedia.warthunder.com/slots/fr_amx_10p.png,fr_tpk_641_vpc,3,0,
-fr_dca_prtl_group,fr_dca_prtl_group,fr_dca_prtl_group,france,,,6,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/fr_dca_prtl_group.png,fr_amx_10p,3,0,
+fr_dca_prtl_group,DCA/PRTL,AMX-30 S DCA/Cheetah PRTL,france,,,6,Наземная техника,folder,,standard,https://static.encyclopedia.warthunder.com/slots/fr_dca_prtl_group.png,fr_amx_10p,3,0,
 fr_amx_30_dca,AMX-30 S DCA,AMX-30 S DCA,france,8.3,450000,6,Наземная техника,vehicle,160000,standard,https://static.encyclopedia.warthunder.com/slots/fr_amx_30_dca.png,fr_dca_prtl_group,3,0,0
 fr_prtl,Cheetah PRTL,Cheetah PRTL,france,8.7,520000,6,Наземная техника,vehicle,94000,standard,https://static.encyclopedia.warthunder.com/slots/fr_prtl.png,fr_amx_30_dca,3,0,1
 fr_vab_santal,SANTAL,SANTAL,france,9.7,620000,6,Наземная техника,vehicle,220000,standard,https://static.encyclopedia.warthunder.com/slots/fr_vab_santal.png,fr_dca_prtl_group,3,1,

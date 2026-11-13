@@ -2549,7 +2549,7 @@ cn_ptz_89,PTZ89,PTZ89
 cn_ptl_aft_group,PTL02/AFT09,PTL02/AFT09
 cn_ptl_02,PTL02,PTL02
 cn_hj_9,AFT09,AFT09
-cn_cm_zbd_group,cn_cm_zbd_group,cn_cm_zbd_group
+cn_cm_zbd_group,CM34/ZBD04,CM34/ZBD04
 cn_cm_34,CM34,CM34
 cn_zbd_04,ZBD04,ZBD04
 cn_ztl_11,ZLT11,ZLT11
@@ -3097,7 +3097,7 @@ fr_amx_vtt_dca,VTT DCA,VTT DCA
 fr_amx_13_dca_40,AMX-13 DCA 40,AMX-13 DCA 40
 fr_tpk_641_vpc,TPK 6.41,TPK 6.41
 fr_amx_10p,AMX-10P,AMX-10P
-fr_dca_prtl_group,fr_dca_prtl_group,fr_dca_prtl_group
+fr_dca_prtl_group,DCA/PRTL,AMX-30 S DCA/Cheetah PRTL
 fr_amx_30_dca,AMX-30 S DCA,AMX-30 S DCA
 fr_prtl,Cheetah PRTL,Cheetah PRTL
 fr_vab_santal,SANTAL,SANTAL

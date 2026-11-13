@@ -2865,6 +2865,10 @@
     сохранено/обновлено: us_m48_m60_group -> RU: M48/M60, EN: M48/M60 (источник: shop/group/us_m48_m60_group)
     группа: shop/group/fr_hotchkiss_fcm_group -> ключ: fr_hotchkiss_fcm_group (приоритет: 1)
     сохранено/обновлено: fr_hotchkiss_fcm_group -> RU: AMC/H.35/FCM, EN: AMC/H.35/FCM (источник: shop/group/fr_hotchkiss_fcm_group)
+    группа: shop/group/fr_dca_prtl_group -> ключ: fr_dca_prtl_group (приоритет: 1)
+    сохранено/обновлено: fr_dca_prtl_group -> RU: DCA/PRTL, EN: AMX-30 S DCA/Cheetah PRTL (источник: shop/group/fr_dca_prtl_group)
+    группа: shop/group/cn_cm_zbd_group -> ключ: cn_cm_zbd_group (приоритет: 1)
+    сохранено/обновлено: cn_cm_zbd_group -> RU: CM34/ZBD04, EN: CM34/ZBD04 (источник: shop/group/cn_cm_zbd_group)
     _shop запись: us_m47_patton_ii_shop -> ключ: us_m47_patton_ii (приоритет: 1)
     сохранено/обновлено: us_m47_patton_ii -> RU: M47, EN: M47 (источник: us_m47_patton_ii_shop)
     числовой суффикс: us_m47_patton_ii_0 -> ключ: us_m47_patton_ii_0 (приоритет: 10)
@@ -32179,9 +32183,9 @@
     сохранено/обновлено: uk_arjun_mk1_1 -> RU: Arjun Mk 1, EN: Arjun Mk 1 (источник: uk_arjun_mk1_1)
     числовой суффикс: uk_arjun_mk1_2 -> ключ: uk_arjun_mk1_2 (приоритет: 10)
     сохранено/обновлено: uk_arjun_mk1_2 -> RU: ОБТ, EN: MBT (источник: uk_arjun_mk1_2)
-Обработано строк: 16127
-Найдено записей для локализации: 16080
-Всего ключей в словаре: 16080
+Обработано строк: 16129
+Найдено записей для локализации: 16082
+Всего ключей в словаре: 16082
 Загружено 3685 ID из shop.csv
 Создание маппинга локализации...
     Поиск локализации для: us_m2a4
@@ -39835,8 +39839,8 @@
     Прямой поиск: cn_hj_9 -> RU: AFT09, EN: AFT09
   Найдено: cn_hj_9 -> RU: AFT09, EN: AFT09
     Поиск локализации для: cn_cm_zbd_group
-    Fallback: cn_cm_zbd_group -> RU: cn_cm_zbd_group, EN: cn_cm_zbd_group
-  Не найдено: cn_cm_zbd_group -> RU: cn_cm_zbd_group (fallback), EN: cn_cm_zbd_group (fallback)
+    Прямой поиск: cn_cm_zbd_group -> RU: CM34/ZBD04, EN: CM34/ZBD04
+  Найдено: cn_cm_zbd_group -> RU: CM34/ZBD04, EN: CM34/ZBD04
     Поиск локализации для: cn_cm_34
     Прямой поиск: cn_cm_34 -> RU: CM34, EN: CM34
   Найдено: cn_cm_34 -> RU: CM34, EN: CM34
@@ -41479,8 +41483,8 @@
     Прямой поиск: fr_amx_10p -> RU: AMX-10P, EN: AMX-10P
   Найдено: fr_amx_10p -> RU: AMX-10P, EN: AMX-10P
     Поиск локализации для: fr_dca_prtl_group
-    Fallback: fr_dca_prtl_group -> RU: fr_dca_prtl_group, EN: fr_dca_prtl_group
-  Не найдено: fr_dca_prtl_group -> RU: fr_dca_prtl_group (fallback), EN: fr_dca_prtl_group (fallback)
+    Прямой поиск: fr_dca_prtl_group -> RU: DCA/PRTL, EN: AMX-30 S DCA/Cheetah PRTL
+  Найдено: fr_dca_prtl_group -> RU: DCA/PRTL, EN: AMX-30 S DCA/Cheetah PRTL
     Поиск локализации для: fr_amx_30_dca
     Прямой поиск: fr_amx_30_dca -> RU: AMX-30 S DCA, EN: AMX-30 S DCA
   Найдено: fr_amx_30_dca -> RU: AMX-30 S DCA, EN: AMX-30 S DCA
@@ -43240,12 +43244,12 @@
     Прямой поиск: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
   Найдено: mig_21_2000_iaf -> RU: MiG-21 2000, EN: MiG-21 2000
 Статистика локализации:
-  Найдено локализаций: 3683
-  Использован fallback: 2
+  Найдено локализаций: 3685
+  Использован fallback: 0
   Всего обработано: 3685
 Данные локализации (3685 записей) сохранены в localization.csv
 Статистика сохранения:
-  Русских локализаций: 3683
-  Английских локализаций: 3683
+  Русских локализаций: 3685
+  Английских локализаций: 3685
   Всего записей: 3685
 Парсинг локализации завершен успешно! Создан файл localization.csv
